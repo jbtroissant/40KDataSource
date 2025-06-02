@@ -2,6 +2,7 @@ import json
 import re
 import os
 import sys
+import shutil
 from collections import defaultdict
 
 # Utilisation : python extract_and_replace_translations.py fichier.json
@@ -17,6 +18,14 @@ TRANSLATION_FILE_FR = os.path.join(FR_DIR, f'{BASENAME}.json')
 TRANSLATION_FILE_EN = os.path.join(EN_DIR, f'{BASENAME}.json')
 OUTPUT_FILE = os.path.join(EN_DIR, f'{BASENAME}.translated.json')
 
+ARCHIVE_DIR = 'archive'
+os.makedirs(ARCHIVE_DIR, exist_ok=True)
+ARCHIVE_FILE = os.path.join(ARCHIVE_DIR, os.path.basename(INPUT_FILE))
+
+# Archive le fichier source avant toute modification
+if not os.path.exists(ARCHIVE_FILE):
+    shutil.copy2(INPUT_FILE, ARCHIVE_FILE)
+
 os.makedirs(FR_DIR, exist_ok=True)
 os.makedirs(EN_DIR, exist_ok=True)
 
@@ -24,7 +33,48 @@ os.makedirs(EN_DIR, exist_ok=True)
 TEXT_TYPES = (str,)
 
 # Champs à ignorer (numériques, booléens, techniques)
-IGNORED_FIELDS = {"id", "faction_id", "active", "imperialArmour", "showAbility", "showDescription", "showDamagedAbility", "showInfo", "showInvulnerableSave", "showDamagedMarker", "showName", "models", "cost", "value", "order", "turn", "phase", "detachment", "cardType", "source", "updated", "keyword", "keywords", "factions", "faction_id", "parent_id", "is_subfaction", "link"}
+IGNORED_FIELDS = {"id", "faction_id", "active", "imperialArmour", "showAbility", "showDescription", "showDamagedAbility", "showDamagedMarker", "showName", "models", "cost", "turn", "phase", "detachment", "cardType", "source", "updated", "keyword", "keywords", "factions", "faction_id", "parent_id", "is_subfaction", "link"}
+
+# Champs à ignorer dans les profils d'armes
+PROFILE_FIELDS = {"ap", "attacks", "damage", "name", "range", "skill", "strength"}
+# Champs à ignorer dans stats (sauf name)
+STATS_FIELDS = {"active", "ld", "m", "oc", "showDamagedMarker", "showName", "sv", "t", "w"}
+
+# Ajoute une liste de champs à ne jamais traduire dans certains contextes (ex: invul)
+NEVER_TRANSLATE_FIELDS = {"value", "showInfo", "showInvulnerableSave", "showAtTop", "banner", "header", "allied_factions"}
+
+# Fonction utilitaire pour savoir si on est dans un profil d'arme
+PROFILE_PATHS = [
+    ["meleeWeapons", "profiles"],
+    ["rangedWeapons", "profiles"]
+]
+# Fonction utilitaire pour savoir si on est dans stats
+STATS_PATH = ["stats"]
+
+def is_profile_path(path):
+    # Ignore les indices numériques dans le chemin
+    filtered_path = [p for p in path if not p.isdigit()]
+    for profile_path in PROFILE_PATHS:
+        for i in range(len(filtered_path) - len(profile_path) + 1):
+            if filtered_path[i:i+len(profile_path)] == profile_path:
+                return True
+    return False
+
+def is_stats_path(path):
+    # On est dans stats si le chemin contient 'stats' suivi d'un index
+    for i in range(len(path)-1):
+        if path[i] == "stats" and path[i+1].isdigit():
+            return True
+    return False
+
+def is_enhancement_path(path):
+    # On est dans enhancements si le chemin contient 'enhancements' suivi d'un index
+    for i in range(len(path)-1):
+        if path[i] == "enhancements" and path[i+1].isdigit():
+            return True
+    return False
+
+ENHANCEMENT_TRANSLATE_FIELDS = {"description", "detachment"}
 
 # Nettoyage pour générer des clés valides
 def clean_key(key):
@@ -82,53 +132,101 @@ def extract_texts(obj, path=None, translations=None, replaced=None):
         replaced = obj
 
     if isinstance(obj, dict):
+        temp = {}
         for k, v in obj.items():
+            # Logique spécifique pour enhancements : on ne filtre rien par IGNORED_FIELDS
+            if is_enhancement_path(path):
+                if k in ENHANCEMENT_TRANSLATE_FIELDS and isinstance(v, TEXT_TYPES) and v.strip() != "" and not v.strip().startswith("http"):
+                    key = '.'.join(path + [clean_key(str(k))])
+                    translations[key] = v
+                    temp[k] = key
+                    continue
+                else:
+                    temp[k] = v
+                    continue
+            # Logique normale ailleurs
             if k in IGNORED_FIELDS:
                 continue
             new_path = path + [clean_key(str(k))]
+            # Dans les profils d'arme, seul 'name' est extrait/remplacé
+            if is_profile_path(path):
+                if k == "name" and isinstance(v, TEXT_TYPES) and v.strip() != "" and not v.strip().startswith("http"):
+                    key = '.'.join(new_path)
+                    translations[key] = v
+                    temp[k] = key
+                    continue
+                elif k in PROFILE_FIELDS:
+                    temp[k] = v
+                    continue
+            # Ignore les champs de stats sauf 'name'
+            if is_stats_path(path) and k in STATS_FIELDS:
+                temp[k] = v
+                continue
+            # Ne jamais traduire certains champs (ex: value, showInfo...)
+            if k in NEVER_TRANSLATE_FIELDS:
+                temp[k] = v
+                continue
             if isinstance(v, TEXT_TYPES) and v.strip() != "" and not v.strip().startswith("http"):
                 key = '.'.join(new_path)
                 translations[key] = v
-                replaced[k] = key
+                temp[k] = key
             elif isinstance(v, list):
                 if v and all(isinstance(i, TEXT_TYPES) and i.strip() != "" for i in v):
                     key = '.'.join(new_path)
                     translations[key] = v
-                    replaced[k] = key
+                    temp[k] = key
                 else:
-                    replaced[k] = []
+                    sublist = []
                     for idx, item in enumerate(v):
                         if isinstance(item, (dict, list)):
                             if isinstance(item, dict):
-                                replaced[k].append({})
+                                sub = {}
                             else:
-                                replaced[k].append([])
-                            extract_texts(item, new_path + [str(idx)], translations, replaced[k][idx])
+                                sub = []
+                            extract_texts(item, new_path + [str(idx)], translations, sub)
+                            if (isinstance(sub, dict) and not sub) or (isinstance(sub, list) and not sub):
+                                sublist.append(item)
+                            else:
+                                sublist.append(sub)
                         elif isinstance(item, TEXT_TYPES) and item.strip() != "" and not item.strip().startswith("http"):
                             key = '.'.join(new_path + [str(idx)])
                             translations[key] = item
-                            replaced[k].append(key)
+                            sublist.append(key)
                         else:
-                            replaced[k].append(item)
+                            sublist.append(item)
+                    temp[k] = sublist
             elif isinstance(v, dict):
-                replaced[k] = {}
-                extract_texts(v, new_path, translations, replaced[k])
+                sub = {}
+                extract_texts(v, new_path, translations, sub)
+                if not sub:
+                    temp[k] = v
+                else:
+                    temp[k] = sub
             else:
-                replaced[k] = v
+                temp[k] = v
+        replaced.clear()
+        replaced.update(temp)
     elif isinstance(obj, list):
+        sublist = []
         for idx, item in enumerate(obj):
             if isinstance(item, (dict, list)):
                 if isinstance(item, dict):
-                    replaced[idx] = {}
+                    sub = {}
                 else:
-                    replaced[idx] = []
-                extract_texts(item, path + [str(idx)], translations, replaced[idx])
+                    sub = []
+                extract_texts(item, path + [str(idx)], translations, sub)
+                if (isinstance(sub, dict) and not sub) or (isinstance(sub, list) and not sub):
+                    sublist.append(item)
+                else:
+                    sublist.append(sub)
             elif isinstance(item, TEXT_TYPES) and item.strip() != "" and not item.strip().startswith("http"):
                 key = '.'.join(path + [str(idx)])
                 translations[key] = item
-                replaced[idx] = key
+                sublist.append(key)
             else:
-                replaced[idx] = item
+                sublist.append(item)
+        replaced.clear()
+        replaced.extend(sublist)
     return translations, replaced
 
 # Lecture du fichier d'entrée
@@ -138,20 +236,18 @@ with open(INPUT_FILE, encoding='utf-8') as f:
 # Extraction et remplacement
 translations, replaced = extract_texts(data)
 
-# Fichiers de traduction imbriqués
-fr_nested = extract_texts_nested(data)
-en_nested = extract_texts_nested(data)
+# Fichiers à plat uniquement
+FLAT_FILE_FR = os.path.join(FR_DIR, f'{BASENAME}.flat.json')
+FLAT_FILE_EN = os.path.join(EN_DIR, f'{BASENAME}.flat.json')
 
-# Fichiers de traduction FR (à traduire)
-with open(TRANSLATION_FILE_FR, 'w', encoding='utf-8') as f:
-    json.dump(fr_nested, f, ensure_ascii=False, indent=2)
+with open(FLAT_FILE_FR, 'w', encoding='utf-8') as f:
+    json.dump(translations, f, ensure_ascii=False, indent=2)
+with open(FLAT_FILE_EN, 'w', encoding='utf-8') as f:
+    json.dump(translations, f, ensure_ascii=False, indent=2)
 
-# Fichiers de traduction EN (texte source, identique à FR ici)
-with open(TRANSLATION_FILE_EN, 'w', encoding='utf-8') as f:
-    json.dump(en_nested, f, ensure_ascii=False, indent=2)
-
-# Fichier JSON modifié (clé à la place du texte)
+# Fichier JSON modifié (clé à la place du texte) à la racine
+OUTPUT_FILE = f'{BASENAME}.translated.json'
 with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
     json.dump(replaced, f, ensure_ascii=False, indent=2)
 
-print(f"Extraction terminée. Traductions imbriquées dans {TRANSLATION_FILE_FR} et {TRANSLATION_FILE_EN}, JSON modifié dans {OUTPUT_FILE}.") 
+print(f"Extraction terminée. Fichiers à plat dans {FLAT_FILE_FR} et {FLAT_FILE_EN}, JSON modifié dans {OUTPUT_FILE}.") 

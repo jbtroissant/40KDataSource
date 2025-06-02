@@ -1,8 +1,11 @@
 {
-  "allied_factions": "allied_factions",
+  "allied_factions": [
+    "AoI",
+    "QI"
+  ],
   "colours": {
-    "banner": "colours.banner",
-    "header": "colours.header"
+    "banner": "#6a0e19",
+    "header": "#6d5035"
   },
   "datasheets": [
     {
@@ -15,7 +18,10 @@
         "faction": "datasheets.0.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "4+"
         },
         "other": [
           {
@@ -39,97 +45,102 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.0.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.0.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.0.meleeWeapons.0.profiles.0.damage",
+              "ap": "0",
+              "attacks": "5",
+              "damage": "1",
               "name": "datasheets.0.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.0.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.0.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.0.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "7"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.0.meleeWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.0.meleeWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.0.meleeWeapons.1.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "3",
               "name": "datasheets.0.meleeWeapons.1.profiles.0.name",
-              "range": "datasheets.0.meleeWeapons.1.profiles.0.range",
-              "skill": "datasheets.0.meleeWeapons.1.profiles.0.skill",
-              "strength": "datasheets.0.meleeWeapons.1.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "12"
             }
           ]
         }
       ],
       "name": "datasheets.0.name",
       "points": [
-        {}
+        {
+          "cost": "225",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.0.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.0.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.0.rangedWeapons.0.profiles.0.damage",
+              "ap": "0",
+              "attacks": "D6+3",
+              "damage": "1",
               "name": "datasheets.0.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.0.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.0.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.0.rangedWeapons.0.profiles.0.strength"
+              "range": "36\"",
+              "skill": "2+",
+              "strength": "5"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.0.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.0.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.0.rangedWeapons.1.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "3",
               "name": "datasheets.0.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.0.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.0.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.0.rangedWeapons.1.profiles.0.strength"
+              "range": "48\"",
+              "skill": "2+",
+              "strength": "9"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.0.rangedWeapons.2.profiles.0.ap",
-              "attacks": "datasheets.0.rangedWeapons.2.profiles.0.attacks",
-              "damage": "datasheets.0.rangedWeapons.2.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "12",
+              "damage": "1",
               "name": "datasheets.0.rangedWeapons.2.profiles.0.name",
-              "range": "datasheets.0.rangedWeapons.2.profiles.0.range",
-              "skill": "datasheets.0.rangedWeapons.2.profiles.0.skill",
-              "strength": "datasheets.0.rangedWeapons.2.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "6"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.0.rangedWeapons.3.profiles.0.ap",
-              "attacks": "datasheets.0.rangedWeapons.3.profiles.0.attacks",
-              "damage": "datasheets.0.rangedWeapons.3.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "D3",
+              "damage": "1",
               "name": "datasheets.0.rangedWeapons.3.profiles.0.name",
-              "range": "datasheets.0.rangedWeapons.3.profiles.0.range",
-              "skill": "datasheets.0.rangedWeapons.3.profiles.0.skill",
-              "strength": "datasheets.0.rangedWeapons.3.profiles.0.strength"
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "7"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.0.stats.0.ld",
-          "m": "datasheets.0.stats.0.m",
+          "ld": "6+",
+          "m": "8\"",
           "name": "datasheets.0.stats.0.name",
-          "oc": "datasheets.0.stats.0.oc",
-          "sv": "datasheets.0.stats.0.sv",
-          "t": "datasheets.0.stats.0.t",
-          "w": "datasheets.0.stats.0.w"
+          "oc": "4",
+          "sv": "2+",
+          "t": "10",
+          "w": "12"
         }
       ],
       "transport": "",
@@ -145,7 +156,10 @@
         "faction": "datasheets.1.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
         },
         "other": [
           {
@@ -165,84 +179,89 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.1.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.1.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.1.meleeWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "D6+1",
               "name": "datasheets.1.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.1.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.1.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.1.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "12"
             }
           ]
         }
       ],
       "name": "datasheets.1.name",
       "points": [
-        {}
+        {
+          "cost": "155",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.1.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.1.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.1.rangedWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "3",
               "name": "datasheets.1.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.1.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.1.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.1.rangedWeapons.0.profiles.0.strength"
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "9"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.1.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.1.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.1.rangedWeapons.1.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "1",
               "name": "datasheets.1.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.1.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.1.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.1.rangedWeapons.1.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "5"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.1.rangedWeapons.2.profiles.0.ap",
-              "attacks": "datasheets.1.rangedWeapons.2.profiles.0.attacks",
-              "damage": "datasheets.1.rangedWeapons.2.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
               "name": "datasheets.1.rangedWeapons.2.profiles.0.name",
-              "range": "datasheets.1.rangedWeapons.2.profiles.0.range",
-              "skill": "datasheets.1.rangedWeapons.2.profiles.0.skill",
-              "strength": "datasheets.1.rangedWeapons.2.profiles.0.strength"
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "6"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.1.rangedWeapons.3.profiles.0.ap",
-              "attacks": "datasheets.1.rangedWeapons.3.profiles.0.attacks",
-              "damage": "datasheets.1.rangedWeapons.3.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "3",
               "name": "datasheets.1.rangedWeapons.3.profiles.0.name",
-              "range": "datasheets.1.rangedWeapons.3.profiles.0.range",
-              "skill": "datasheets.1.rangedWeapons.3.profiles.0.skill",
-              "strength": "datasheets.1.rangedWeapons.3.profiles.0.strength"
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "6"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.1.stats.0.ld",
-          "m": "datasheets.1.stats.0.m",
+          "ld": "6+",
+          "m": "6\"",
           "name": "datasheets.1.stats.0.name",
-          "oc": "datasheets.1.stats.0.oc",
-          "sv": "datasheets.1.stats.0.sv",
-          "t": "datasheets.1.stats.0.t",
-          "w": "datasheets.1.stats.0.w"
+          "oc": "3",
+          "sv": "2+",
+          "t": "9",
+          "w": "10"
         }
       ],
       "transport": "",
@@ -258,7 +277,10 @@
         "faction": "datasheets.2.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "4+"
         },
         "other": [
           {
@@ -278,45 +300,50 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.2.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.2.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.2.meleeWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "8",
+              "damage": "3",
               "name": "datasheets.2.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.2.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.2.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.2.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "8"
             }
           ]
         }
       ],
       "name": "datasheets.2.name",
       "points": [
-        {}
+        {
+          "cost": "165",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.2.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.2.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.2.rangedWeapons.0.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
               "name": "datasheets.2.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.2.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.2.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.2.rangedWeapons.0.profiles.0.strength"
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "6"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.2.stats.0.ld",
-          "m": "datasheets.2.stats.0.m",
+          "ld": "6+",
+          "m": "6\"",
           "name": "datasheets.2.stats.0.name",
-          "oc": "datasheets.2.stats.0.oc",
-          "sv": "datasheets.2.stats.0.sv",
-          "t": "datasheets.2.stats.0.t",
-          "w": "datasheets.2.stats.0.w"
+          "oc": "3",
+          "sv": "2+",
+          "t": "9",
+          "w": "10"
         }
       ],
       "transport": "",
@@ -332,7 +359,10 @@
         "faction": "datasheets.3.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
         },
         "other": [
           {
@@ -352,71 +382,76 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.3.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.3.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.3.meleeWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "3",
               "name": "datasheets.3.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.3.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.3.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.3.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "12"
             }
           ]
         }
       ],
       "name": "datasheets.3.name",
       "points": [
-        {}
+        {
+          "cost": "170",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.3.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.3.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.3.rangedWeapons.0.profiles.0.damage",
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
               "name": "datasheets.3.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.3.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.3.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.3.rangedWeapons.0.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.3.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.3.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.3.rangedWeapons.1.profiles.0.damage",
+              "ap": "-4",
+              "attacks": "2",
+              "damage": "D6",
               "name": "datasheets.3.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.3.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.3.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.3.rangedWeapons.1.profiles.0.strength"
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "9"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.3.rangedWeapons.2.profiles.0.ap",
-              "attacks": "datasheets.3.rangedWeapons.2.profiles.0.attacks",
-              "damage": "datasheets.3.rangedWeapons.2.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "6",
+              "damage": "1",
               "name": "datasheets.3.rangedWeapons.2.profiles.0.name",
-              "range": "datasheets.3.rangedWeapons.2.profiles.0.range",
-              "skill": "datasheets.3.rangedWeapons.2.profiles.0.skill",
-              "strength": "datasheets.3.rangedWeapons.2.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "7"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.3.stats.0.ld",
-          "m": "datasheets.3.stats.0.m",
+          "ld": "6+",
+          "m": "6\"",
           "name": "datasheets.3.stats.0.name",
-          "oc": "datasheets.3.stats.0.oc",
-          "sv": "datasheets.3.stats.0.sv",
-          "t": "datasheets.3.stats.0.t",
-          "w": "datasheets.3.stats.0.w"
+          "oc": "3",
+          "sv": "2+",
+          "t": "9",
+          "w": "10"
         }
       ],
       "transport": "",
@@ -432,7 +467,10 @@
         "faction": "datasheets.4.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "4+"
         },
         "other": [
           {
@@ -456,49 +494,54 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.4.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.4.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.4.meleeWeapons.0.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "9",
+              "damage": "1",
               "name": "datasheets.4.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.4.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.4.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.4.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "5"
             },
             {
-              "ap": "datasheets.4.meleeWeapons.0.profiles.1.ap",
-              "attacks": "datasheets.4.meleeWeapons.0.profiles.1.attacks",
-              "damage": "datasheets.4.meleeWeapons.0.profiles.1.damage",
+              "ap": "-2",
+              "attacks": "6",
+              "damage": "2",
               "name": "datasheets.4.meleeWeapons.0.profiles.1.name",
-              "range": "datasheets.4.meleeWeapons.0.profiles.1.range",
-              "skill": "datasheets.4.meleeWeapons.0.profiles.1.skill",
-              "strength": "datasheets.4.meleeWeapons.0.profiles.1.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "7"
             },
             {
-              "ap": "datasheets.4.meleeWeapons.0.profiles.2.ap",
-              "attacks": "datasheets.4.meleeWeapons.0.profiles.2.attacks",
-              "damage": "datasheets.4.meleeWeapons.0.profiles.2.damage",
+              "ap": "-3",
+              "attacks": "5",
+              "damage": "3",
               "name": "datasheets.4.meleeWeapons.0.profiles.2.name",
-              "range": "datasheets.4.meleeWeapons.0.profiles.2.range",
-              "skill": "datasheets.4.meleeWeapons.0.profiles.2.skill",
-              "strength": "datasheets.4.meleeWeapons.0.profiles.2.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
             }
           ]
         }
       ],
       "name": "datasheets.4.name",
       "points": [
-        {}
+        {
+          "cost": "120",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
       ],
       "rangedWeapons": [],
       "stats": [
         {
-          "ld": "datasheets.4.stats.0.ld",
-          "m": "datasheets.4.stats.0.m",
+          "ld": "6+",
+          "m": "6\"",
           "name": "datasheets.4.stats.0.name",
-          "oc": "datasheets.4.stats.0.oc",
-          "sv": "datasheets.4.stats.0.sv",
-          "t": "datasheets.4.stats.0.t",
-          "w": "datasheets.4.stats.0.w"
+          "oc": "2",
+          "sv": "2+",
+          "t": "6",
+          "w": "6"
         }
       ],
       "transport": "",
@@ -518,7 +561,10 @@
         "faction": "datasheets.5.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
         },
         "other": [
           {
@@ -538,71 +584,76 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.5.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.5.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.5.meleeWeapons.0.profiles.0.damage",
+              "ap": "0",
+              "attacks": "4",
+              "damage": "1",
               "name": "datasheets.5.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.5.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.5.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.5.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "6"
             }
           ]
         }
       ],
       "name": "datasheets.5.name",
       "points": [
-        {}
+        {
+          "cost": "215",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.5.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.5.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.5.rangedWeapons.0.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "3",
               "name": "datasheets.5.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.5.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.5.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.5.rangedWeapons.0.profiles.0.strength"
+              "range": "48\"",
+              "skill": "2+",
+              "strength": "10"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.5.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.5.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.5.rangedWeapons.1.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "1",
               "name": "datasheets.5.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.5.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.5.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.5.rangedWeapons.1.profiles.0.strength"
+              "range": "36\"",
+              "skill": "2+",
+              "strength": "6"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.5.rangedWeapons.2.profiles.0.ap",
-              "attacks": "datasheets.5.rangedWeapons.2.profiles.0.attacks",
-              "damage": "datasheets.5.rangedWeapons.2.profiles.0.damage",
+              "ap": "-3",
+              "attacks": "4",
+              "damage": "D6+2",
               "name": "datasheets.5.rangedWeapons.2.profiles.0.name",
-              "range": "datasheets.5.rangedWeapons.2.profiles.0.range",
-              "skill": "datasheets.5.rangedWeapons.2.profiles.0.skill",
-              "strength": "datasheets.5.rangedWeapons.2.profiles.0.strength"
+              "range": "48\"",
+              "skill": "2+",
+              "strength": "12"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.5.stats.0.ld",
-          "m": "datasheets.5.stats.0.m",
+          "ld": "6+",
+          "m": "10\"",
           "name": "datasheets.5.stats.0.name",
-          "oc": "datasheets.5.stats.0.oc",
-          "sv": "datasheets.5.stats.0.sv",
-          "t": "datasheets.5.stats.0.t",
-          "w": "datasheets.5.stats.0.w"
+          "oc": "4",
+          "sv": "2+",
+          "t": "11",
+          "w": "14"
         }
       ],
       "transport": "",
@@ -618,7 +669,10 @@
         "faction": "datasheets.6.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "4+"
         },
         "other": [
           {
@@ -647,100 +701,120 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.6.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.6.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.6.meleeWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
               "name": "datasheets.6.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.6.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.6.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.6.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "7"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.6.meleeWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.6.meleeWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.6.meleeWeapons.1.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "3",
               "name": "datasheets.6.meleeWeapons.1.profiles.0.name",
-              "range": "datasheets.6.meleeWeapons.1.profiles.0.range",
-              "skill": "datasheets.6.meleeWeapons.1.profiles.0.skill",
-              "strength": "datasheets.6.meleeWeapons.1.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "9"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.6.meleeWeapons.2.profiles.0.ap",
-              "attacks": "datasheets.6.meleeWeapons.2.profiles.0.attacks",
-              "damage": "datasheets.6.meleeWeapons.2.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "1",
               "name": "datasheets.6.meleeWeapons.2.profiles.0.name",
-              "range": "datasheets.6.meleeWeapons.2.profiles.0.range",
-              "skill": "datasheets.6.meleeWeapons.2.profiles.0.skill",
-              "strength": "datasheets.6.meleeWeapons.2.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "5"
             }
           ]
         }
       ],
       "name": "datasheets.6.name",
       "points": [
-        {},
-        {},
-        {},
-        {}
+        {
+          "cost": "390",
+          "keyword": null,
+          "models": "6",
+          "active": true
+        },
+        {
+          "cost": "325",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        },
+        {
+          "cost": "195",
+          "keyword": null,
+          "models": "3",
+          "active": true
+        },
+        {
+          "cost": "130",
+          "keyword": null,
+          "models": "2",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.6.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.6.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.6.rangedWeapons.0.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
               "name": "datasheets.6.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.6.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.6.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.6.rangedWeapons.0.profiles.0.strength"
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "4"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.6.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.6.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.6.rangedWeapons.1.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "2",
               "name": "datasheets.6.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.6.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.6.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.6.rangedWeapons.1.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.6.rangedWeapons.2.profiles.0.ap",
-              "attacks": "datasheets.6.rangedWeapons.2.profiles.0.attacks",
-              "damage": "datasheets.6.rangedWeapons.2.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "2",
               "name": "datasheets.6.rangedWeapons.2.profiles.0.name",
-              "range": "datasheets.6.rangedWeapons.2.profiles.0.range",
-              "skill": "datasheets.6.rangedWeapons.2.profiles.0.skill",
-              "strength": "datasheets.6.rangedWeapons.2.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.6.stats.0.ld",
-          "m": "datasheets.6.stats.0.m",
+          "ld": "6+",
+          "m": "5\"",
           "name": "datasheets.6.stats.0.name",
-          "oc": "datasheets.6.stats.0.oc",
-          "sv": "datasheets.6.stats.0.sv",
-          "t": "datasheets.6.stats.0.t",
-          "w": "datasheets.6.stats.0.w"
+          "oc": "2",
+          "sv": "2+",
+          "t": "7",
+          "w": "4"
         }
       ],
       "transport": "",
@@ -757,7 +831,10 @@
         "faction": "datasheets.7.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "4+"
         },
         "other": [
           {
@@ -781,58 +858,63 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.7.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.7.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.7.meleeWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "6",
+              "damage": "2",
               "name": "datasheets.7.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.7.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.7.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.7.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "7"
             }
           ]
         }
       ],
       "name": "datasheets.7.name",
       "points": [
-        {}
+        {
+          "cost": "150",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.7.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.7.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.7.rangedWeapons.0.profiles.0.damage",
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+1",
               "name": "datasheets.7.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.7.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.7.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.7.rangedWeapons.0.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "10"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.7.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.7.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.7.rangedWeapons.1.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
               "name": "datasheets.7.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.7.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.7.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.7.rangedWeapons.1.profiles.0.strength"
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "4"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.7.stats.0.ld",
-          "m": "datasheets.7.stats.0.m",
+          "ld": "6+",
+          "m": "12\"",
           "name": "datasheets.7.stats.0.name",
-          "oc": "datasheets.7.stats.0.oc",
-          "sv": "datasheets.7.stats.0.sv",
-          "t": "datasheets.7.stats.0.t",
-          "w": "datasheets.7.stats.0.w"
+          "oc": "2",
+          "sv": "2+",
+          "t": "7",
+          "w": "8"
         }
       ],
       "transport": "",
@@ -852,7 +934,10 @@
         "faction": [],
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": false,
+          "value": ""
         },
         "other": [
           {
@@ -876,34 +961,54 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.8.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.8.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.8.meleeWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "2",
+              "damage": "2",
               "name": "datasheets.8.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.8.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.8.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.8.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "5"
             }
           ]
         }
       ],
       "name": "datasheets.8.name",
       "points": [
-        {},
-        {},
-        {},
-        {}
+        {
+          "cost": "125",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "115",
+          "keyword": null,
+          "models": "9",
+          "active": true
+        },
+        {
+          "cost": "65",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        },
+        {
+          "cost": "50",
+          "keyword": null,
+          "models": "4",
+          "active": true
+        }
       ],
       "rangedWeapons": [],
       "stats": [
         {
-          "ld": "datasheets.8.stats.0.ld",
-          "m": "datasheets.8.stats.0.m",
+          "ld": "6+",
+          "m": "6\"",
           "name": "datasheets.8.stats.0.name",
-          "oc": "datasheets.8.stats.0.oc",
-          "sv": "datasheets.8.stats.0.sv",
-          "t": "datasheets.8.stats.0.t",
-          "w": "datasheets.8.stats.0.w"
+          "oc": "1",
+          "sv": "3+",
+          "t": "3",
+          "w": "1"
         }
       ],
       "transport": "",
@@ -920,7 +1025,10 @@
         "faction": "datasheets.9.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "4+"
         },
         "other": [
           {
@@ -949,45 +1057,50 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.9.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.9.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.9.meleeWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "1",
               "name": "datasheets.9.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.9.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.9.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.9.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "5"
             }
           ]
         }
       ],
       "name": "datasheets.9.name",
       "points": [
-        {}
+        {
+          "cost": "225",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.9.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.9.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.9.rangedWeapons.0.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
               "name": "datasheets.9.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.9.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.9.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.9.rangedWeapons.0.profiles.0.strength"
+              "range": "36\"",
+              "skill": "2+",
+              "strength": "5"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.9.stats.0.ld",
-          "m": "datasheets.9.stats.0.m",
+          "ld": "6+",
+          "m": "6\"",
           "name": "datasheets.9.stats.0.name",
-          "oc": "datasheets.9.stats.0.oc",
-          "sv": "datasheets.9.stats.0.sv",
-          "t": "datasheets.9.stats.0.t",
-          "w": "datasheets.9.stats.0.w"
+          "oc": "2",
+          "sv": "2+",
+          "t": "6",
+          "w": "3"
         }
       ],
       "transport": "",
@@ -1003,7 +1116,10 @@
         "faction": [],
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": false,
+          "value": ""
         },
         "other": [
           {
@@ -1027,48 +1143,68 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.10.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.10.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.10.meleeWeapons.0.profiles.0.damage",
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
               "name": "datasheets.10.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.10.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.10.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.10.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "3"
             }
           ]
         }
       ],
       "name": "datasheets.10.name",
       "points": [
-        {},
-        {},
-        {},
-        {}
+        {
+          "cost": "125",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "115",
+          "keyword": null,
+          "models": "9",
+          "active": true
+        },
+        {
+          "cost": "65",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        },
+        {
+          "cost": "50",
+          "keyword": null,
+          "models": "4",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.10.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.10.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.10.rangedWeapons.0.profiles.0.damage",
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
               "name": "datasheets.10.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.10.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.10.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.10.rangedWeapons.0.profiles.0.strength"
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "4"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.10.stats.0.ld",
-          "m": "datasheets.10.stats.0.m",
+          "ld": "6+",
+          "m": "6\"",
           "name": "datasheets.10.stats.0.name",
-          "oc": "datasheets.10.stats.0.oc",
-          "sv": "datasheets.10.stats.0.sv",
-          "t": "datasheets.10.stats.0.t",
-          "w": "datasheets.10.stats.0.w"
+          "oc": "1",
+          "sv": "3+",
+          "t": "3",
+          "w": "1"
         }
       ],
       "transport": "",
@@ -1085,7 +1221,10 @@
         "faction": "datasheets.11.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
         },
         "other": [
           {
@@ -1105,58 +1244,63 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.11.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.11.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.11.meleeWeapons.0.profiles.0.damage",
+              "ap": "0",
+              "attacks": "9",
+              "damage": "1",
               "name": "datasheets.11.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.11.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.11.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.11.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "9"
             }
           ]
         }
       ],
       "name": "datasheets.11.name",
       "points": [
-        {}
+        {
+          "cost": "580",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.11.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.11.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.11.rangedWeapons.0.profiles.0.damage",
+              "ap": "-4",
+              "attacks": "3",
+              "damage": "D6+6",
               "name": "datasheets.11.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.11.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.11.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.11.rangedWeapons.0.profiles.0.strength"
+              "range": "48\"",
+              "skill": "2+",
+              "strength": "18"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.11.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.11.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.11.rangedWeapons.1.profiles.0.damage",
+              "ap": "-3",
+              "attacks": "4",
+              "damage": "D6+1",
               "name": "datasheets.11.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.11.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.11.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.11.rangedWeapons.1.profiles.0.strength"
+              "range": "36\"",
+              "skill": "2+",
+              "strength": "12"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.11.stats.0.ld",
-          "m": "datasheets.11.stats.0.m",
+          "ld": "6+",
+          "m": "20+\"",
           "name": "datasheets.11.stats.0.name",
-          "oc": "datasheets.11.stats.0.oc",
-          "sv": "datasheets.11.stats.0.sv",
-          "t": "datasheets.11.stats.0.t",
-          "w": "datasheets.11.stats.0.w"
+          "oc": "0",
+          "sv": "2+",
+          "t": "12",
+          "w": "22"
         }
       ],
       "transport": "",
@@ -1172,7 +1316,10 @@
         "faction": "datasheets.12.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "4+"
         },
         "other": [
           {
@@ -1209,85 +1356,95 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.12.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.12.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.12.meleeWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
               "name": "datasheets.12.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.12.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.12.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.12.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "7"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.12.meleeWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.12.meleeWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.12.meleeWeapons.1.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "1",
               "name": "datasheets.12.meleeWeapons.1.profiles.0.name",
-              "range": "datasheets.12.meleeWeapons.1.profiles.0.range",
-              "skill": "datasheets.12.meleeWeapons.1.profiles.0.skill",
-              "strength": "datasheets.12.meleeWeapons.1.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.12.meleeWeapons.2.profiles.0.ap",
-              "attacks": "datasheets.12.meleeWeapons.2.profiles.0.attacks",
-              "damage": "datasheets.12.meleeWeapons.2.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "1",
               "name": "datasheets.12.meleeWeapons.2.profiles.0.name",
-              "range": "datasheets.12.meleeWeapons.2.profiles.0.range",
-              "skill": "datasheets.12.meleeWeapons.2.profiles.0.skill",
-              "strength": "datasheets.12.meleeWeapons.2.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "5"
             }
           ]
         }
       ],
       "name": "datasheets.12.name",
       "points": [
-        {},
-        {}
+        {
+          "cost": "215",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        },
+        {
+          "cost": "170",
+          "keyword": null,
+          "models": "4",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.12.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.12.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.12.rangedWeapons.0.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "2",
               "name": "datasheets.12.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.12.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.12.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.12.rangedWeapons.0.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.12.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.12.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.12.rangedWeapons.1.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "2",
               "name": "datasheets.12.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.12.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.12.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.12.rangedWeapons.1.profiles.0.strength"
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "4"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.12.stats.0.ld",
-          "m": "datasheets.12.stats.0.m",
+          "ld": "6+",
+          "m": "6\"",
           "name": "datasheets.12.stats.0.name",
-          "oc": "datasheets.12.stats.0.oc",
-          "sv": "datasheets.12.stats.0.sv",
-          "t": "datasheets.12.stats.0.t",
-          "w": "datasheets.12.stats.0.w"
+          "oc": "2",
+          "sv": "2+",
+          "t": "6",
+          "w": "3"
         }
       ],
       "transport": "",
@@ -1304,7 +1461,10 @@
         "faction": "datasheets.13.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
         },
         "other": [
           {
@@ -1324,71 +1484,76 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.13.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.13.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.13.meleeWeapons.0.profiles.0.damage",
+              "ap": "0",
+              "attacks": "9",
+              "damage": "1",
               "name": "datasheets.13.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.13.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.13.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.13.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "9"
             }
           ]
         }
       ],
       "name": "datasheets.13.name",
       "points": [
-        {}
+        {
+          "cost": "690",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.13.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.13.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.13.rangedWeapons.0.profiles.0.damage",
+              "ap": "-3",
+              "attacks": "4",
+              "damage": "D6+1",
               "name": "datasheets.13.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.13.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.13.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.13.rangedWeapons.0.profiles.0.strength"
+              "range": "36\"",
+              "skill": "2+",
+              "strength": "12"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.13.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.13.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.13.rangedWeapons.1.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "1",
               "name": "datasheets.13.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.13.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.13.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.13.rangedWeapons.1.profiles.0.strength"
+              "range": "36\"",
+              "skill": "2+",
+              "strength": "6"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.13.rangedWeapons.2.profiles.0.ap",
-              "attacks": "datasheets.13.rangedWeapons.2.profiles.0.attacks",
-              "damage": "datasheets.13.rangedWeapons.2.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "D6+6",
+              "damage": "2",
               "name": "datasheets.13.rangedWeapons.2.profiles.0.name",
-              "range": "datasheets.13.rangedWeapons.2.profiles.0.range",
-              "skill": "datasheets.13.rangedWeapons.2.profiles.0.skill",
-              "strength": "datasheets.13.rangedWeapons.2.profiles.0.strength"
+              "range": "36\"",
+              "skill": "2+",
+              "strength": "7"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.13.stats.0.ld",
-          "m": "datasheets.13.stats.0.m",
+          "ld": "6+",
+          "m": "20+\"",
           "name": "datasheets.13.stats.0.name",
-          "oc": "datasheets.13.stats.0.oc",
-          "sv": "datasheets.13.stats.0.sv",
-          "t": "datasheets.13.stats.0.t",
-          "w": "datasheets.13.stats.0.w"
+          "oc": "0",
+          "sv": "2+",
+          "t": "12",
+          "w": "22"
         }
       ],
       "transport": "datasheets.13.transport",
@@ -1404,7 +1569,10 @@
         "faction": [],
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
         },
         "other": [
           {
@@ -1432,71 +1600,76 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.14.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.14.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.14.meleeWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
               "name": "datasheets.14.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.14.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.14.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.14.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "5"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.14.meleeWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.14.meleeWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.14.meleeWeapons.1.profiles.0.damage",
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
               "name": "datasheets.14.meleeWeapons.1.profiles.0.name",
-              "range": "datasheets.14.meleeWeapons.1.profiles.0.range",
-              "skill": "datasheets.14.meleeWeapons.1.profiles.0.skill",
-              "strength": "datasheets.14.meleeWeapons.1.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "3"
             }
           ]
         }
       ],
       "name": "datasheets.14.name",
       "points": [
-        {}
+        {
+          "cost": "55",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.14.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.14.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.14.rangedWeapons.0.profiles.0.damage",
+              "ap": "0",
+              "attacks": "1",
+              "damage": "2",
               "name": "datasheets.14.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.14.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.14.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.14.rangedWeapons.0.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.14.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.14.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.14.rangedWeapons.1.profiles.0.damage",
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
               "name": "datasheets.14.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.14.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.14.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.14.rangedWeapons.1.profiles.0.strength"
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "4"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.14.stats.0.ld",
-          "m": "datasheets.14.stats.0.m",
+          "ld": "6+",
+          "m": "6\"",
           "name": "datasheets.14.stats.0.name",
-          "oc": "datasheets.14.stats.0.oc",
-          "sv": "datasheets.14.stats.0.sv",
-          "t": "datasheets.14.stats.0.t",
-          "w": "datasheets.14.stats.0.w"
+          "oc": "1",
+          "sv": "3+",
+          "t": "3",
+          "w": "4"
         }
       ],
       "transport": "",
@@ -1516,7 +1689,10 @@
         "faction": [],
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": false,
+          "value": ""
         },
         "other": [
           {
@@ -1540,45 +1716,50 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.15.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.15.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.15.meleeWeapons.0.profiles.0.damage",
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
               "name": "datasheets.15.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.15.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.15.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.15.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "6"
             }
           ]
         }
       ],
       "name": "datasheets.15.name",
       "points": [
-        {}
+        {
+          "cost": "75",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.15.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.15.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.15.rangedWeapons.0.profiles.0.damage",
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
               "name": "datasheets.15.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.15.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.15.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.15.rangedWeapons.0.profiles.0.strength"
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.15.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.15.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.15.rangedWeapons.1.profiles.0.damage",
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6",
               "name": "datasheets.15.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.15.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.15.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.15.rangedWeapons.1.profiles.0.strength"
+              "range": "48\"",
+              "skill": "2+",
+              "strength": "14"
             }
           ],
           "abilities": [
@@ -1591,13 +1772,13 @@
       ],
       "stats": [
         {
-          "ld": "datasheets.15.stats.0.ld",
-          "m": "datasheets.15.stats.0.m",
+          "ld": "6+",
+          "m": "12\"",
           "name": "datasheets.15.stats.0.name",
-          "oc": "datasheets.15.stats.0.oc",
-          "sv": "datasheets.15.stats.0.sv",
-          "t": "datasheets.15.stats.0.t",
-          "w": "datasheets.15.stats.0.w"
+          "oc": "2",
+          "sv": "3+",
+          "t": "9",
+          "w": "10"
         }
       ],
       "transport": "datasheets.15.transport",
@@ -1613,7 +1794,10 @@
         "faction": [],
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
         },
         "other": [
           {
@@ -1641,31 +1825,36 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.16.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.16.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.16.meleeWeapons.0.profiles.0.damage",
+              "ap": "-3",
+              "attacks": "4",
+              "damage": "3",
               "name": "datasheets.16.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.16.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.16.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.16.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
             }
           ]
         }
       ],
       "name": "datasheets.16.name",
       "points": [
-        {}
+        {
+          "cost": "65",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
       ],
       "rangedWeapons": [],
       "stats": [
         {
-          "ld": "datasheets.16.stats.0.ld",
-          "m": "datasheets.16.stats.0.m",
+          "ld": "6+",
+          "m": "6\"",
           "name": "datasheets.16.stats.0.name",
-          "oc": "datasheets.16.stats.0.oc",
-          "sv": "datasheets.16.stats.0.sv",
-          "t": "datasheets.16.stats.0.t",
-          "w": "datasheets.16.stats.0.w"
+          "oc": "1",
+          "sv": "3+",
+          "t": "3",
+          "w": "4"
         }
       ],
       "transport": "",
@@ -1685,7 +1874,10 @@
         "faction": "datasheets.17.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "4+"
         },
         "other": [
           {
@@ -1714,72 +1906,82 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.17.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.17.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.17.meleeWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
               "name": "datasheets.17.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.17.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.17.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.17.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "7"
             }
           ]
         }
       ],
       "name": "datasheets.17.name",
       "points": [
-        {},
-        {}
+        {
+          "cost": "450",
+          "keyword": null,
+          "models": "6",
+          "active": true
+        },
+        {
+          "cost": "225",
+          "keyword": null,
+          "models": "3",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.17.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.17.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.17.rangedWeapons.0.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "1",
               "name": "datasheets.17.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.17.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.17.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.17.rangedWeapons.0.profiles.0.strength"
+              "range": "36\"",
+              "skill": "2+",
+              "strength": "6"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.17.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.17.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.17.rangedWeapons.1.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "3",
               "name": "datasheets.17.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.17.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.17.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.17.rangedWeapons.1.profiles.0.strength"
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "7"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.17.rangedWeapons.2.profiles.0.ap",
-              "attacks": "datasheets.17.rangedWeapons.2.profiles.0.attacks",
-              "damage": "datasheets.17.rangedWeapons.2.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "2",
               "name": "datasheets.17.rangedWeapons.2.profiles.0.name",
-              "range": "datasheets.17.rangedWeapons.2.profiles.0.range",
-              "skill": "datasheets.17.rangedWeapons.2.profiles.0.skill",
-              "strength": "datasheets.17.rangedWeapons.2.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "9"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.17.stats.0.ld",
-          "m": "datasheets.17.stats.0.m",
+          "ld": "6+",
+          "m": "12\"",
           "name": "datasheets.17.stats.0.name",
-          "oc": "datasheets.17.stats.0.oc",
-          "sv": "datasheets.17.stats.0.sv",
-          "t": "datasheets.17.stats.0.t",
-          "w": "datasheets.17.stats.0.w"
+          "oc": "2",
+          "sv": "2+",
+          "t": "6",
+          "w": "4"
         }
       ],
       "transport": "",
@@ -1795,7 +1997,10 @@
         "faction": "datasheets.18.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": false,
+          "value": ""
         },
         "other": [
           {
@@ -1815,58 +2020,63 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.18.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.18.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.18.meleeWeapons.0.profiles.0.damage",
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
               "name": "datasheets.18.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.18.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.18.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.18.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
             }
           ]
         }
       ],
       "name": "datasheets.18.name",
       "points": [
-        {}
+        {
+          "cost": "240",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.18.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.18.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.18.rangedWeapons.0.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
               "name": "datasheets.18.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.18.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.18.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.18.rangedWeapons.0.profiles.0.strength"
+              "range": "36\"",
+              "skill": "2+",
+              "strength": "5"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.18.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.18.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.18.rangedWeapons.1.profiles.0.damage",
+              "ap": "-3",
+              "attacks": "2",
+              "damage": "D6+1",
               "name": "datasheets.18.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.18.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.18.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.18.rangedWeapons.1.profiles.0.strength"
+              "range": "48\"",
+              "skill": "2+",
+              "strength": "12"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.18.rangedWeapons.2.profiles.0.ap",
-              "attacks": "datasheets.18.rangedWeapons.2.profiles.0.attacks",
-              "damage": "datasheets.18.rangedWeapons.2.profiles.0.damage",
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6",
               "name": "datasheets.18.rangedWeapons.2.profiles.0.name",
-              "range": "datasheets.18.rangedWeapons.2.profiles.0.range",
-              "skill": "datasheets.18.rangedWeapons.2.profiles.0.skill",
-              "strength": "datasheets.18.rangedWeapons.2.profiles.0.strength"
+              "range": "48\"",
+              "skill": "2+",
+              "strength": "14"
             }
           ],
           "abilities": [
@@ -1879,26 +2089,26 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.18.rangedWeapons.3.profiles.0.ap",
-              "attacks": "datasheets.18.rangedWeapons.3.profiles.0.attacks",
-              "damage": "datasheets.18.rangedWeapons.3.profiles.0.damage",
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
               "name": "datasheets.18.rangedWeapons.3.profiles.0.name",
-              "range": "datasheets.18.rangedWeapons.3.profiles.0.range",
-              "skill": "datasheets.18.rangedWeapons.3.profiles.0.skill",
-              "strength": "datasheets.18.rangedWeapons.3.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.18.stats.0.ld",
-          "m": "datasheets.18.stats.0.m",
+          "ld": "6+",
+          "m": "10\"",
           "name": "datasheets.18.stats.0.name",
-          "oc": "datasheets.18.stats.0.oc",
-          "sv": "datasheets.18.stats.0.sv",
-          "t": "datasheets.18.stats.0.t",
-          "w": "datasheets.18.stats.0.w"
+          "oc": "5",
+          "sv": "2+",
+          "t": "12",
+          "w": "16"
         }
       ],
       "transport": "datasheets.18.transport",
@@ -1914,7 +2124,10 @@
         "faction": "datasheets.19.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "4+"
         },
         "other": [
           {
@@ -1943,72 +2156,82 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.19.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.19.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.19.meleeWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
               "name": "datasheets.19.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.19.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.19.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.19.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "7"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.19.meleeWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.19.meleeWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.19.meleeWeapons.1.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "3",
               "name": "datasheets.19.meleeWeapons.1.profiles.0.name",
-              "range": "datasheets.19.meleeWeapons.1.profiles.0.range",
-              "skill": "datasheets.19.meleeWeapons.1.profiles.0.skill",
-              "strength": "datasheets.19.meleeWeapons.1.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "9"
             }
           ]
         }
       ],
       "name": "datasheets.19.name",
       "points": [
-        {},
-        {}
+        {
+          "cost": "260",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        },
+        {
+          "cost": "210",
+          "keyword": null,
+          "models": "4",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.19.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.19.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.19.rangedWeapons.0.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "2",
               "name": "datasheets.19.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.19.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.19.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.19.rangedWeapons.0.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.19.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.19.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.19.rangedWeapons.1.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "2",
               "name": "datasheets.19.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.19.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.19.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.19.rangedWeapons.1.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.19.stats.0.ld",
-          "m": "datasheets.19.stats.0.m",
+          "ld": "6+",
+          "m": "6\"",
           "name": "datasheets.19.stats.0.name",
-          "oc": "datasheets.19.stats.0.oc",
-          "sv": "datasheets.19.stats.0.sv",
-          "t": "datasheets.19.stats.0.t",
-          "w": "datasheets.19.stats.0.w"
+          "oc": "2",
+          "sv": "2+",
+          "t": "6",
+          "w": "3"
         }
       ],
       "transport": "",
@@ -2025,7 +2248,10 @@
         "faction": "datasheets.20.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
         },
         "other": [
           {
@@ -2045,45 +2271,50 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.20.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.20.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.20.meleeWeapons.0.profiles.0.damage",
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
               "name": "datasheets.20.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.20.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.20.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.20.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "6"
             }
           ]
         }
       ],
       "name": "datasheets.20.name",
       "points": [
-        {}
+        {
+          "cost": "105",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.20.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.20.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.20.rangedWeapons.0.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "8",
+              "damage": "1",
               "name": "datasheets.20.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.20.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.20.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.20.rangedWeapons.0.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "5"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.20.stats.0.ld",
-          "m": "datasheets.20.stats.0.m",
+          "ld": "6+",
+          "m": "12\"",
           "name": "datasheets.20.stats.0.name",
-          "oc": "datasheets.20.stats.0.oc",
-          "sv": "datasheets.20.stats.0.sv",
-          "t": "datasheets.20.stats.0.t",
-          "w": "datasheets.20.stats.0.w"
+          "oc": "2",
+          "sv": "2+",
+          "t": "8",
+          "w": "9"
         }
       ],
       "transport": "",
@@ -2099,7 +2330,10 @@
         "faction": "datasheets.21.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "4+"
         },
         "other": [
           {
@@ -2123,59 +2357,69 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.21.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.21.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.21.meleeWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
               "name": "datasheets.21.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.21.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.21.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.21.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "7"
             }
           ]
         }
       ],
       "name": "datasheets.21.name",
       "points": [
-        {},
-        {}
+        {
+          "cost": "225",
+          "keyword": null,
+          "models": "3",
+          "active": true
+        },
+        {
+          "cost": "150",
+          "keyword": null,
+          "models": "2",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.21.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.21.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.21.rangedWeapons.0.profiles.0.damage",
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+1",
               "name": "datasheets.21.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.21.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.21.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.21.rangedWeapons.0.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "10"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.21.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.21.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.21.rangedWeapons.1.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
               "name": "datasheets.21.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.21.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.21.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.21.rangedWeapons.1.profiles.0.strength"
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "4"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.21.stats.0.ld",
-          "m": "datasheets.21.stats.0.m",
+          "ld": "6+",
+          "m": "12\"",
           "name": "datasheets.21.stats.0.name",
-          "oc": "datasheets.21.stats.0.oc",
-          "sv": "datasheets.21.stats.0.sv",
-          "t": "datasheets.21.stats.0.t",
-          "w": "datasheets.21.stats.0.w"
+          "oc": "2",
+          "sv": "2+",
+          "t": "7",
+          "w": "5"
         }
       ],
       "transport": "",
@@ -2192,7 +2436,10 @@
         "faction": "datasheets.22.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "4+"
         },
         "other": [
           {
@@ -2216,45 +2463,50 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.22.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.22.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.22.meleeWeapons.0.profiles.0.damage",
+              "ap": "-3",
+              "attacks": "7",
+              "damage": "2",
               "name": "datasheets.22.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.22.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.22.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.22.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "8"
             }
           ]
         }
       ],
       "name": "datasheets.22.name",
       "points": [
-        {}
+        {
+          "cost": "110",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.22.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.22.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.22.rangedWeapons.0.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
               "name": "datasheets.22.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.22.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.22.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.22.rangedWeapons.0.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.22.stats.0.ld",
-          "m": "datasheets.22.stats.0.m",
+          "ld": "6+",
+          "m": "6\"",
           "name": "datasheets.22.stats.0.name",
-          "oc": "datasheets.22.stats.0.oc",
-          "sv": "datasheets.22.stats.0.sv",
-          "t": "datasheets.22.stats.0.t",
-          "w": "datasheets.22.stats.0.w"
+          "oc": "2",
+          "sv": "2+",
+          "t": "6",
+          "w": "6"
         }
       ],
       "transport": "",
@@ -2274,7 +2526,10 @@
         "faction": "datasheets.23.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "4+"
         },
         "other": [
           {
@@ -2308,59 +2563,69 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.23.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.23.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.23.meleeWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
               "name": "datasheets.23.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.23.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.23.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.23.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "7"
             }
           ]
         }
       ],
       "name": "datasheets.23.name",
       "points": [
-        {},
-        {}
+        {
+          "cost": "330",
+          "keyword": null,
+          "models": "6",
+          "active": true
+        },
+        {
+          "cost": "165",
+          "keyword": null,
+          "models": "3",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.23.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.23.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.23.rangedWeapons.0.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "2",
               "name": "datasheets.23.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.23.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.23.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.23.rangedWeapons.0.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.23.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.23.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.23.rangedWeapons.1.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "1",
               "name": "datasheets.23.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.23.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.23.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.23.rangedWeapons.1.profiles.0.strength"
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "6"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.23.stats.0.ld",
-          "m": "datasheets.23.stats.0.m",
+          "ld": "6+",
+          "m": "10\"",
           "name": "datasheets.23.stats.0.name",
-          "oc": "datasheets.23.stats.0.oc",
-          "sv": "datasheets.23.stats.0.sv",
-          "t": "datasheets.23.stats.0.t",
-          "w": "datasheets.23.stats.0.w"
+          "oc": "2",
+          "sv": "2+",
+          "t": "6",
+          "w": "3"
         }
       ],
       "transport": "",
@@ -2376,7 +2641,10 @@
         "faction": "datasheets.24.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "4+"
         },
         "other": [
           {
@@ -2400,84 +2668,89 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.24.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.24.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.24.meleeWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "7",
+              "damage": "2",
               "name": "datasheets.24.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.24.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.24.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.24.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "7"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.24.meleeWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.24.meleeWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.24.meleeWeapons.1.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "6",
+              "damage": "3",
               "name": "datasheets.24.meleeWeapons.1.profiles.0.name",
-              "range": "datasheets.24.meleeWeapons.1.profiles.0.range",
-              "skill": "datasheets.24.meleeWeapons.1.profiles.0.skill",
-              "strength": "datasheets.24.meleeWeapons.1.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "9"
             }
           ]
         }
       ],
       "name": "datasheets.24.name",
       "points": [
-        {}
+        {
+          "cost": "130",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.24.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.24.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.24.rangedWeapons.0.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
               "name": "datasheets.24.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.24.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.24.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.24.rangedWeapons.0.profiles.0.strength"
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "4"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.24.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.24.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.24.rangedWeapons.1.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "2",
               "name": "datasheets.24.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.24.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.24.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.24.rangedWeapons.1.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.24.rangedWeapons.2.profiles.0.ap",
-              "attacks": "datasheets.24.rangedWeapons.2.profiles.0.attacks",
-              "damage": "datasheets.24.rangedWeapons.2.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "2",
               "name": "datasheets.24.rangedWeapons.2.profiles.0.name",
-              "range": "datasheets.24.rangedWeapons.2.profiles.0.range",
-              "skill": "datasheets.24.rangedWeapons.2.profiles.0.skill",
-              "strength": "datasheets.24.rangedWeapons.2.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.24.stats.0.ld",
-          "m": "datasheets.24.stats.0.m",
+          "ld": "6+",
+          "m": "5\"",
           "name": "datasheets.24.stats.0.name",
-          "oc": "datasheets.24.stats.0.oc",
-          "sv": "datasheets.24.stats.0.sv",
-          "t": "datasheets.24.stats.0.t",
-          "w": "datasheets.24.stats.0.w"
+          "oc": "2",
+          "sv": "2+",
+          "t": "7",
+          "w": "7"
         }
       ],
       "transport": "",
@@ -2497,7 +2770,10 @@
         "faction": "datasheets.25.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "4+"
         },
         "other": [
           {
@@ -2526,85 +2802,95 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.25.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.25.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.25.meleeWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
               "name": "datasheets.25.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.25.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.25.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.25.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "8"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.25.meleeWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.25.meleeWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.25.meleeWeapons.1.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "7",
+              "damage": "1",
               "name": "datasheets.25.meleeWeapons.1.profiles.0.name",
-              "range": "datasheets.25.meleeWeapons.1.profiles.0.range",
-              "skill": "datasheets.25.meleeWeapons.1.profiles.0.skill",
-              "strength": "datasheets.25.meleeWeapons.1.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "7"
             }
           ]
         }
       ],
       "name": "datasheets.25.name",
       "points": [
-        {},
-        {}
+        {
+          "cost": "390",
+          "keyword": null,
+          "models": "6",
+          "active": true
+        },
+        {
+          "cost": "195",
+          "keyword": null,
+          "models": "3",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.25.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.25.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.25.rangedWeapons.0.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "1",
               "name": "datasheets.25.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.25.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.25.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.25.rangedWeapons.0.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "5"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.25.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.25.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.25.rangedWeapons.1.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
               "name": "datasheets.25.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.25.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.25.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.25.rangedWeapons.1.profiles.0.strength"
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "6"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.25.rangedWeapons.2.profiles.0.ap",
-              "attacks": "datasheets.25.rangedWeapons.2.profiles.0.attacks",
-              "damage": "datasheets.25.rangedWeapons.2.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "3",
               "name": "datasheets.25.rangedWeapons.2.profiles.0.name",
-              "range": "datasheets.25.rangedWeapons.2.profiles.0.range",
-              "skill": "datasheets.25.rangedWeapons.2.profiles.0.skill",
-              "strength": "datasheets.25.rangedWeapons.2.profiles.0.strength"
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "6"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.25.stats.0.ld",
-          "m": "datasheets.25.stats.0.m",
+          "ld": "6+",
+          "m": "5\"",
           "name": "datasheets.25.stats.0.name",
-          "oc": "datasheets.25.stats.0.oc",
-          "sv": "datasheets.25.stats.0.sv",
-          "t": "datasheets.25.stats.0.t",
-          "w": "datasheets.25.stats.0.w"
+          "oc": "2",
+          "sv": "2+",
+          "t": "7",
+          "w": "4"
         }
       ],
       "transport": "",
@@ -2620,7 +2906,10 @@
         "faction": "datasheets.26.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "4+"
         },
         "other": [
           {
@@ -2649,71 +2938,76 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.26.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.26.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.26.meleeWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
               "name": "datasheets.26.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.26.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.26.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.26.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "7"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.26.meleeWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.26.meleeWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.26.meleeWeapons.1.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
               "name": "datasheets.26.meleeWeapons.1.profiles.0.name",
-              "range": "datasheets.26.meleeWeapons.1.profiles.0.range",
-              "skill": "datasheets.26.meleeWeapons.1.profiles.0.skill",
-              "strength": "datasheets.26.meleeWeapons.1.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "7"
             }
           ]
         }
       ],
       "name": "datasheets.26.name",
       "points": [
-        {}
+        {
+          "cost": "250",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.26.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.26.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.26.rangedWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "3",
               "name": "datasheets.26.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.26.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.26.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.26.rangedWeapons.0.profiles.0.strength"
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "5"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.26.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.26.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.26.rangedWeapons.1.profiles.0.damage",
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6",
               "name": "datasheets.26.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.26.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.26.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.26.rangedWeapons.1.profiles.0.strength"
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "9"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.26.stats.0.ld",
-          "m": "datasheets.26.stats.0.m",
+          "ld": "6+",
+          "m": "6\"",
           "name": "datasheets.26.stats.0.name",
-          "oc": "datasheets.26.stats.0.oc",
-          "sv": "datasheets.26.stats.0.sv",
-          "t": "datasheets.26.stats.0.t",
-          "w": "datasheets.26.stats.0.w"
+          "oc": "2",
+          "sv": "2+",
+          "t": "6",
+          "w": "3"
         }
       ],
       "transport": "",
@@ -2729,7 +3023,10 @@
         "faction": "datasheets.27.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
         },
         "other": [
           {
@@ -2749,58 +3046,63 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.27.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.27.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.27.meleeWeapons.0.profiles.0.damage",
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
               "name": "datasheets.27.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.27.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.27.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.27.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
             }
           ]
         }
       ],
       "name": "datasheets.27.name",
       "points": [
-        {}
+        {
+          "cost": "200",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.27.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.27.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.27.rangedWeapons.0.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "8",
+              "damage": "1",
               "name": "datasheets.27.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.27.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.27.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.27.rangedWeapons.0.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "5"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.27.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.27.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.27.rangedWeapons.1.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "1",
               "name": "datasheets.27.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.27.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.27.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.27.rangedWeapons.1.profiles.0.strength"
+              "range": "36\"",
+              "skill": "2+",
+              "strength": "6"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.27.stats.0.ld",
-          "m": "datasheets.27.stats.0.m",
+          "ld": "6+",
+          "m": "12\"",
           "name": "datasheets.27.stats.0.name",
-          "oc": "datasheets.27.stats.0.oc",
-          "sv": "datasheets.27.stats.0.sv",
-          "t": "datasheets.27.stats.0.t",
-          "w": "datasheets.27.stats.0.w"
+          "oc": "5",
+          "sv": "2+",
+          "t": "12",
+          "w": "16"
         }
       ],
       "transport": "datasheets.27.transport",
@@ -2816,7 +3118,10 @@
         "faction": [],
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": false,
+          "value": ""
         },
         "other": [
           {
@@ -2840,48 +3145,68 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.28.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.28.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.28.meleeWeapons.0.profiles.0.damage",
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
               "name": "datasheets.28.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.28.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.28.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.28.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "3"
             }
           ]
         }
       ],
       "name": "datasheets.28.name",
       "points": [
-        {},
-        {},
-        {},
-        {}
+        {
+          "cost": "100",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "90",
+          "keyword": null,
+          "models": "9",
+          "active": true
+        },
+        {
+          "cost": "50",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        },
+        {
+          "cost": "40",
+          "keyword": null,
+          "models": "4",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.28.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.28.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.28.rangedWeapons.0.profiles.0.damage",
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
               "name": "datasheets.28.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.28.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.28.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.28.rangedWeapons.0.profiles.0.strength"
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.28.stats.0.ld",
-          "m": "datasheets.28.stats.0.m",
+          "ld": "6+",
+          "m": "6\"",
           "name": "datasheets.28.stats.0.name",
-          "oc": "datasheets.28.stats.0.oc",
-          "sv": "datasheets.28.stats.0.sv",
-          "t": "datasheets.28.stats.0.t",
-          "w": "datasheets.28.stats.0.w"
+          "oc": "2",
+          "sv": "3+",
+          "t": "3",
+          "w": "1"
         }
       ],
       "transport": "",
@@ -2898,7 +3223,10 @@
         "faction": "datasheets.29.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "4+"
         },
         "other": [
           {
@@ -2927,123 +3255,128 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.29.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.29.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.29.meleeWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "7",
+              "damage": "2",
               "name": "datasheets.29.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.29.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.29.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.29.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "7"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.29.meleeWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.29.meleeWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.29.meleeWeapons.1.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "6",
+              "damage": "3",
               "name": "datasheets.29.meleeWeapons.1.profiles.0.name",
-              "range": "datasheets.29.meleeWeapons.1.profiles.0.range",
-              "skill": "datasheets.29.meleeWeapons.1.profiles.0.skill",
-              "strength": "datasheets.29.meleeWeapons.1.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "9"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.29.meleeWeapons.2.profiles.0.ap",
-              "attacks": "datasheets.29.meleeWeapons.2.profiles.0.attacks",
-              "damage": "datasheets.29.meleeWeapons.2.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "7",
+              "damage": "1",
               "name": "datasheets.29.meleeWeapons.2.profiles.0.name",
-              "range": "datasheets.29.meleeWeapons.2.profiles.0.range",
-              "skill": "datasheets.29.meleeWeapons.2.profiles.0.skill",
-              "strength": "datasheets.29.meleeWeapons.2.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.29.meleeWeapons.3.profiles.0.ap",
-              "attacks": "datasheets.29.meleeWeapons.3.profiles.0.attacks",
-              "damage": "datasheets.29.meleeWeapons.3.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "7",
+              "damage": "2",
               "name": "datasheets.29.meleeWeapons.3.profiles.0.name",
-              "range": "datasheets.29.meleeWeapons.3.profiles.0.range",
-              "skill": "datasheets.29.meleeWeapons.3.profiles.0.skill",
-              "strength": "datasheets.29.meleeWeapons.3.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "7"
             }
           ]
         }
       ],
       "name": "datasheets.29.name",
       "points": [
-        {}
+        {
+          "cost": "130",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.29.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.29.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.29.rangedWeapons.0.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "2",
               "name": "datasheets.29.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.29.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.29.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.29.rangedWeapons.0.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.29.rangedWeapons.1.profiles.0.ap",
-              "attacks": "datasheets.29.rangedWeapons.1.profiles.0.attacks",
-              "damage": "datasheets.29.rangedWeapons.1.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "2",
               "name": "datasheets.29.rangedWeapons.1.profiles.0.name",
-              "range": "datasheets.29.rangedWeapons.1.profiles.0.range",
-              "skill": "datasheets.29.rangedWeapons.1.profiles.0.skill",
-              "strength": "datasheets.29.rangedWeapons.1.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.29.rangedWeapons.2.profiles.0.ap",
-              "attacks": "datasheets.29.rangedWeapons.2.profiles.0.attacks",
-              "damage": "datasheets.29.rangedWeapons.2.profiles.0.damage",
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "2",
               "name": "datasheets.29.rangedWeapons.2.profiles.0.name",
-              "range": "datasheets.29.rangedWeapons.2.profiles.0.range",
-              "skill": "datasheets.29.rangedWeapons.2.profiles.0.skill",
-              "strength": "datasheets.29.rangedWeapons.2.profiles.0.strength"
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "4"
             }
           ]
         },
         {
           "profiles": [
             {
-              "ap": "datasheets.29.rangedWeapons.3.profiles.0.ap",
-              "attacks": "datasheets.29.rangedWeapons.3.profiles.0.attacks",
-              "damage": "datasheets.29.rangedWeapons.3.profiles.0.damage",
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6",
               "name": "datasheets.29.rangedWeapons.3.profiles.0.name",
-              "range": "datasheets.29.rangedWeapons.3.profiles.0.range",
-              "skill": "datasheets.29.rangedWeapons.3.profiles.0.skill",
-              "strength": "datasheets.29.rangedWeapons.3.profiles.0.strength"
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "9"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.29.stats.0.ld",
-          "m": "datasheets.29.stats.0.m",
+          "ld": "6+",
+          "m": "6\"",
           "name": "datasheets.29.stats.0.name",
-          "oc": "datasheets.29.stats.0.oc",
-          "sv": "datasheets.29.stats.0.sv",
-          "t": "datasheets.29.stats.0.t",
-          "w": "datasheets.29.stats.0.w"
+          "oc": "2",
+          "sv": "2+",
+          "t": "6",
+          "w": "6"
         }
       ],
       "transport": "",
@@ -3063,7 +3396,10 @@
         "faction": "datasheets.30.abilities.faction",
         "invul": {
           "info": "",
-          "showAtTop": true
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "4+"
         },
         "other": [
           {
@@ -3092,45 +3428,50 @@
         {
           "profiles": [
             {
-              "ap": "datasheets.30.meleeWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.30.meleeWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.30.meleeWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "6",
+              "damage": "3",
               "name": "datasheets.30.meleeWeapons.0.profiles.0.name",
-              "range": "datasheets.30.meleeWeapons.0.profiles.0.range",
-              "skill": "datasheets.30.meleeWeapons.0.profiles.0.skill",
-              "strength": "datasheets.30.meleeWeapons.0.profiles.0.strength"
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "10"
             }
           ]
         }
       ],
       "name": "datasheets.30.name",
       "points": [
-        {}
+        {
+          "cost": "140",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
       ],
       "rangedWeapons": [
         {
           "profiles": [
             {
-              "ap": "datasheets.30.rangedWeapons.0.profiles.0.ap",
-              "attacks": "datasheets.30.rangedWeapons.0.profiles.0.attacks",
-              "damage": "datasheets.30.rangedWeapons.0.profiles.0.damage",
+              "ap": "-2",
+              "attacks": "2",
+              "damage": "3",
               "name": "datasheets.30.rangedWeapons.0.profiles.0.name",
-              "range": "datasheets.30.rangedWeapons.0.profiles.0.range",
-              "skill": "datasheets.30.rangedWeapons.0.profiles.0.skill",
-              "strength": "datasheets.30.rangedWeapons.0.profiles.0.strength"
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "5"
             }
           ]
         }
       ],
       "stats": [
         {
-          "ld": "datasheets.30.stats.0.ld",
-          "m": "datasheets.30.stats.0.m",
+          "ld": "5+",
+          "m": "6\"",
           "name": "datasheets.30.stats.0.name",
-          "oc": "datasheets.30.stats.0.oc",
-          "sv": "datasheets.30.stats.0.sv",
-          "t": "datasheets.30.stats.0.t",
-          "w": "datasheets.30.stats.0.w"
+          "oc": "2",
+          "sv": "2+",
+          "t": "6",
+          "w": "7"
         }
       ],
       "transport": "",
@@ -3144,153 +3485,373 @@
   "detachments": "detachments",
   "enhancements": [
     {
-      "name": "enhancements.0.name",
+      "name": "Radiant Mantle",
+      "id": "7c48e7ca-4887-5e92-a257-2fea7f4c9c28",
+      "cost": "30",
+      "keywords": [
+        "Adeptus Custodes"
+      ],
       "excludes": [],
-      "description": "enhancements.0.description"
+      "description": "enhancements.0.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.0.detachment"
     },
     {
-      "name": "enhancements.1.name",
+      "name": "Gift of Terran Artifice",
+      "id": "66ed7f74-f5b7-5fbf-a0e8-4c579019f95d",
+      "cost": "15",
+      "keywords": [
+        "Adeptus Custodes"
+      ],
       "excludes": [],
-      "description": "enhancements.1.description"
+      "description": "enhancements.1.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.1.detachment"
     },
     {
-      "name": "enhancements.2.name",
+      "name": "Champion of the Imperium",
+      "id": "e76461c8-f5e4-5de4-9ac1-a9eacaecfed4",
+      "cost": "25",
+      "keywords": [
+        "Adeptus Custodes"
+      ],
       "excludes": [],
-      "description": "enhancements.2.description"
+      "description": "enhancements.2.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.2.detachment"
     },
     {
-      "name": "enhancements.3.name",
+      "name": "Aegis Projector",
+      "id": "8cea8354-4ea2-5ee6-86b8-e152dd6b38cb",
+      "cost": "20",
+      "keywords": [
+        "Adeptus Custodes"
+      ],
       "excludes": [],
-      "description": "enhancements.3.description"
+      "description": "enhancements.3.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.3.detachment"
     },
     {
-      "name": "enhancements.4.name",
+      "name": "From the Hall of Armouries",
+      "id": "20443bdc-0816-5747-8439-0be4e730b911",
+      "cost": "25",
+      "keywords": [
+        "Shield-Captain"
+      ],
       "excludes": [],
-      "description": "enhancements.4.description"
+      "description": "enhancements.4.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.4.detachment"
     },
     {
-      "name": "enhancements.5.name",
+      "name": "Castellan’s Mark",
+      "id": "cee6f358-d49c-5211-a71b-9158da4e44a5",
+      "cost": "20",
+      "keywords": [
+        "Shield-Captain"
+      ],
       "excludes": [],
-      "description": "enhancements.5.description"
+      "description": "enhancements.5.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.5.detachment"
     },
     {
-      "name": "enhancements.6.name",
+      "name": "Auric Mantle",
+      "id": "2895c197-59a2-5c74-97bd-6d2b2155e809",
+      "cost": "15",
+      "keywords": [
+        "Blade Champion",
+        "Shield-Captain"
+      ],
       "excludes": [],
-      "description": "enhancements.6.description"
+      "description": "enhancements.6.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.6.detachment"
     },
     {
-      "name": "enhancements.7.name",
+      "name": "Panoptispex",
+      "id": "391bdcad-e358-5f6f-9f2f-dd38ec95aaa0",
+      "cost": "5",
+      "keywords": [
+        "Blade Champion",
+        "Shield-Captain"
+      ],
       "excludes": [],
-      "description": "enhancements.7.description"
+      "description": "enhancements.7.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.7.detachment"
     },
     {
-      "name": "enhancements.8.name",
+      "name": "Raptor Blade",
+      "id": "ce4f2977-a0b3-5b3a-881e-beceed66f764",
+      "cost": "5",
+      "keywords": [
+        "Anathema Psykana"
+      ],
       "excludes": [],
-      "description": "enhancements.8.description"
+      "description": "enhancements.8.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.8.detachment"
     },
     {
-      "name": "enhancements.9.name",
+      "name": "Enhanced Voidsheen Cloak",
+      "id": "b55887df-591b-52f9-9531-7e02e9fb0cf7",
+      "cost": "10",
+      "keywords": [
+        "Anathema Psykana"
+      ],
       "excludes": [],
-      "description": "enhancements.9.description"
+      "description": "enhancements.9.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.9.detachment"
     },
     {
-      "name": "enhancements.10.name",
+      "name": "Huntress’ Eye",
+      "id": "20710ec5-d85b-5c35-929f-44b851a1c88f",
+      "cost": "15",
+      "keywords": [
+        "Anathema Psykana"
+      ],
       "excludes": [],
-      "description": "enhancements.10.description"
+      "description": "enhancements.10.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.10.detachment"
     },
     {
-      "name": "enhancements.11.name",
+      "name": "Oblivion Knight",
+      "id": "ba327514-adfa-5f13-aec1-b490d2980529",
+      "cost": "25",
+      "keywords": [
+        "Anathema Psykana"
+      ],
       "excludes": [],
-      "description": "enhancements.11.description"
+      "description": "enhancements.11.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.11.detachment"
     },
     {
-      "name": "enhancements.12.name",
+      "name": "Blade Imperator",
+      "id": "7c349a49-abca-5a86-8fcf-27aec55f8023",
+      "cost": "25",
+      "keywords": [
+        "Adeptus Custodes"
+      ],
       "excludes": [],
-      "description": "enhancements.12.description"
+      "description": "enhancements.12.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.12.detachment"
     },
     {
-      "name": "enhancements.13.name",
+      "name": "Inspirational Exemplar",
+      "id": "9cb3013e-8289-5361-9d34-952fbf0ed27c",
+      "cost": "10",
+      "keywords": [
+        "Adeptus Custodes"
+      ],
       "excludes": [],
-      "description": "enhancements.13.description"
+      "description": "enhancements.13.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.13.detachment"
     },
     {
-      "name": "enhancements.14.name",
+      "name": "Veiled Blade",
+      "id": "e5d9453b-6151-55f9-a5ad-ab0adda078f6",
+      "cost": "25",
+      "keywords": [
+        "Adeptus Custodes"
+      ],
       "excludes": [],
-      "description": "enhancements.14.description"
+      "description": "enhancements.14.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.14.detachment"
     },
     {
-      "name": "enhancements.15.name",
+      "name": "Martial Philosopher",
+      "id": "d3a73051-27cb-5ad6-ba2c-b5c1d4ab121d",
+      "cost": "30",
+      "keywords": [
+        "Adeptus Custodes"
+      ],
       "excludes": [],
-      "description": "enhancements.15.description"
+      "description": "enhancements.15.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.15.detachment"
     },
     {
-      "name": "enhancements.16.name",
+      "name": "Adamantine Talisman",
+      "id": "de87bd2a-5c6a-50dd-8b03-d8d49b19c3fd",
+      "cost": "25",
+      "keywords": [
+        "Adeptus Custodes"
+      ],
       "excludes": [],
-      "description": "enhancements.16.description"
+      "description": "enhancements.16.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.16.detachment"
     },
     {
-      "name": "enhancements.17.name",
+      "name": "Augury Uplink",
+      "id": "5274b486-9020-5acf-8cd0-e90bf4c9feb5",
+      "cost": "35",
+      "keywords": [
+        "Adeptus Custodes"
+      ],
       "excludes": [],
-      "description": "enhancements.17.description"
+      "description": "enhancements.17.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.17.detachment"
     },
     {
-      "name": "enhancements.18.name",
+      "name": "Honoured Fallen (Aura)",
+      "id": "551da8bf-8c69-5faf-a328-0a03b9b99062",
+      "cost": "15",
+      "keywords": [
+        "Vehicle"
+      ],
       "excludes": [],
-      "description": "enhancements.18.description"
+      "description": "enhancements.18.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.18.detachment"
     },
     {
-      "name": "enhancements.19.name",
+      "name": "Veteran of the Kataphraktoi",
+      "id": "4671a39f-b2e8-5ace-b9db-054b51e2d070",
+      "cost": "10",
+      "keywords": [
+        "Infantry",
+        "Mounted"
+      ],
       "excludes": [],
-      "description": "enhancements.19.description"
+      "description": "enhancements.19.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.19.detachment"
     },
     {
-      "name": "enhancements.20.name",
+      "name": "Superior Creation",
+      "id": "58b4d1fc-d24b-5c86-aafd-077b643d9731",
+      "cost": "25",
+      "keywords": [
+        "Infantry"
+      ],
       "excludes": [],
-      "description": "enhancements.20.description"
+      "description": "enhancements.20.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.20.detachment"
     },
     {
-      "name": "enhancements.21.name",
+      "name": "Praesidius",
+      "id": "2004f402-89ce-5b07-943f-8f962b4ced1e",
+      "cost": "25",
+      "keywords": [
+        "Adeptus Custodes"
+      ],
       "excludes": [],
-      "description": "enhancements.21.description"
+      "description": "enhancements.21.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.21.detachment"
     },
     {
-      "name": "enhancements.22.name",
+      "name": "Fierce Conqueror",
+      "id": "dd505ad2-22e0-5e58-81fb-094afd364f0a",
+      "cost": "15",
+      "keywords": [
+        "Shield-Captain"
+      ],
       "excludes": [],
-      "description": "enhancements.22.description"
+      "description": "enhancements.22.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.22.detachment"
     },
     {
-      "name": "enhancements.23.name",
+      "name": "Admonimortis",
+      "id": "fd5868cf-6cf7-53c2-a264-57df9670413b",
+      "cost": "10",
+      "keywords": [
+        "Shield-Captain"
+      ],
       "excludes": [],
-      "description": "enhancements.23.description"
+      "description": "enhancements.23.description",
+      "faction_id": "AC",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "enhancements.23.detachment"
     }
   ],
-  "id": "AC",
-  "is_subfaction": false,
-  "link": "https://game-datacards.eu",
   "name": "name",
-  "parent_id": "",
   "rules": {
     "army": [
       {
         "name": "rules.army.0.name",
         "rule": [
           {
+            "order": 1,
             "text": "rules.army.0.rule.0.text",
             "type": "rules.army.0.rule.0.type"
           },
           {
+            "order": 2,
             "text": "rules.army.0.rule.1.text",
             "type": "rules.army.0.rule.1.type"
           },
           {
+            "order": 3,
             "text": "rules.army.0.rule.2.text",
             "type": "rules.army.0.rule.2.type"
           },
           {
+            "order": 4,
             "text": "rules.army.0.rule.3.text",
             "type": "rules.army.0.rule.3.type"
           },
           {
+            "order": 5,
             "text": "rules.army.0.rule.4.text",
             "type": "rules.army.0.rule.4.type"
           }
@@ -3623,6 +4184,5 @@
       "type": "stratagems.35.type",
       "fluff": "stratagems.35.fluff"
     }
-  ],
-  "updated": "2025-05-29T08:37:08.003Z"
+  ]
 }

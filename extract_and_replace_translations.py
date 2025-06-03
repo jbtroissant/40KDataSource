@@ -33,7 +33,7 @@ os.makedirs(EN_DIR, exist_ok=True)
 TEXT_TYPES = (str,)
 
 # Champs à ignorer (numériques, booléens, techniques)
-IGNORED_FIELDS = {"id", "faction_id", "active", "imperialArmour", "showAbility", "showDescription", "showDamagedAbility", "showDamagedMarker", "showName", "models", "cost", "turn", "phase", "detachment", "cardType", "source", "updated", "keyword", "keywords", "factions", "faction_id", "parent_id", "is_subfaction", "link"}
+IGNORED_FIELDS = {"id", "faction_id", "active", "imperialArmour", "showAbility", "showDescription", "showDamagedAbility", "showDamagedMarker", "showName", "models", "cost", "turn", "phase", "cardType", "source", "updated", "keyword", "keywords", "factions", "faction_id", "parent_id", "is_subfaction", "link"}
 
 # Champs à ignorer dans les profils d'armes
 PROFILE_FIELDS = {"ap", "attacks", "damage", "name", "range", "skill", "strength"}
@@ -41,7 +41,7 @@ PROFILE_FIELDS = {"ap", "attacks", "damage", "name", "range", "skill", "strength
 STATS_FIELDS = {"active", "ld", "m", "oc", "showDamagedMarker", "showName", "sv", "t", "w"}
 
 # Ajoute une liste de champs à ne jamais traduire dans certains contextes (ex: invul)
-NEVER_TRANSLATE_FIELDS = {"value", "showInfo", "showInvulnerableSave", "showAtTop", "banner", "header", "allied_factions"}
+NEVER_TRANSLATE_FIELDS = {"value", "showInfo", "showInvulnerableSave", "showAtTop", "banner", "header", "allied_factions", "id", "turn", "faction_id", "type"}
 
 # Fonction utilitaire pour savoir si on est dans un profil d'arme
 PROFILE_PATHS = [
@@ -74,7 +74,14 @@ def is_enhancement_path(path):
             return True
     return False
 
-ENHANCEMENT_TRANSLATE_FIELDS = {"description", "detachment"}
+def is_stratagem_path(path):
+    # On est dans stratagems si le chemin contient 'stratagems' suivi d'un index
+    for i in range(len(path)-1):
+        if path[i] == "stratagems" and path[i+1].isdigit():
+            return True
+    return False
+
+ENHANCEMENT_TRANSLATE_FIELDS = {"name", "description", "detachment"}
 
 # Nettoyage pour générer des clés valides
 def clean_key(key):
@@ -131,50 +138,61 @@ def extract_texts(obj, path=None, translations=None, replaced=None):
     if replaced is None:
         replaced = obj
 
+    def make_key(path, k):
+        if not path:
+            return 'root.' + clean_key(str(k))
+        return '.'.join(path + [clean_key(str(k))])
+
     if isinstance(obj, dict):
         temp = {}
         for k, v in obj.items():
-            # Logique spécifique pour enhancements : on ne filtre rien par IGNORED_FIELDS
+            if k == "link":
+                continue  # On supprime le champ 'link' du JSON traduit
+            if k in NEVER_TRANSLATE_FIELDS:
+                temp[k] = v
+                continue
             if is_enhancement_path(path):
                 if k in ENHANCEMENT_TRANSLATE_FIELDS and isinstance(v, TEXT_TYPES) and v.strip() != "" and not v.strip().startswith("http"):
-                    key = '.'.join(path + [clean_key(str(k))])
+                    key = make_key(path, k)
                     translations[key] = v
                     temp[k] = key
                     continue
                 else:
                     temp[k] = v
                     continue
-            # Logique normale ailleurs
-            if k in IGNORED_FIELDS:
-                continue
+            if is_stratagem_path(path):
+                if isinstance(v, TEXT_TYPES) and v.strip() != "" and not v.strip().startswith("http"):
+                    key = make_key(path, k)
+                    translations[key] = v
+                    temp[k] = key
+                    continue
+                else:
+                    temp[k] = v
+                    continue
             new_path = path + [clean_key(str(k))]
-            # Dans les profils d'arme, seul 'name' est extrait/remplacé
             if is_profile_path(path):
                 if k == "name" and isinstance(v, TEXT_TYPES) and v.strip() != "" and not v.strip().startswith("http"):
-                    key = '.'.join(new_path)
+                    key = make_key(path, k)
                     translations[key] = v
                     temp[k] = key
                     continue
                 elif k in PROFILE_FIELDS:
                     temp[k] = v
                     continue
-            # Ignore les champs de stats sauf 'name'
             if is_stats_path(path) and k in STATS_FIELDS:
                 temp[k] = v
                 continue
-            # Ne jamais traduire certains champs (ex: value, showInfo...)
-            if k in NEVER_TRANSLATE_FIELDS:
-                temp[k] = v
-                continue
             if isinstance(v, TEXT_TYPES) and v.strip() != "" and not v.strip().startswith("http"):
-                key = '.'.join(new_path)
+                key = make_key(path, k)
                 translations[key] = v
                 temp[k] = key
             elif isinstance(v, list):
                 if v and all(isinstance(i, TEXT_TYPES) and i.strip() != "" for i in v):
-                    key = '.'.join(new_path)
-                    translations[key] = v
-                    temp[k] = key
+                    temp[k] = []
+                    for idx, item in enumerate(v):
+                        key = make_key(new_path, str(idx))
+                        translations[key] = item
+                        temp[k].append(key)
                 else:
                     sublist = []
                     for idx, item in enumerate(v):
@@ -189,7 +207,7 @@ def extract_texts(obj, path=None, translations=None, replaced=None):
                             else:
                                 sublist.append(sub)
                         elif isinstance(item, TEXT_TYPES) and item.strip() != "" and not item.strip().startswith("http"):
-                            key = '.'.join(new_path + [str(idx)])
+                            key = make_key(new_path, str(idx))
                             translations[key] = item
                             sublist.append(key)
                         else:
@@ -220,7 +238,7 @@ def extract_texts(obj, path=None, translations=None, replaced=None):
                 else:
                     sublist.append(sub)
             elif isinstance(item, TEXT_TYPES) and item.strip() != "" and not item.strip().startswith("http"):
-                key = '.'.join(path + [str(idx)])
+                key = make_key(path, str(idx))
                 translations[key] = item
                 sublist.append(key)
             else:

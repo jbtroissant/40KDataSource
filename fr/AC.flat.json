@@ -593,9 +593,9 @@
   "detachments.5.stratagems.5.effect": "Your unit can make a Normal move of up to D6\".",
   "detachments.5.stratagems.5.fluff": "Although every Custodian is devastatingly fast on the battlefield, with preternatural reactions to match, the Lions of the Emperor are outstanding even among their peers.",
   "root.name": "Adeptus Custodes",
-  "rules.army.0.rule.0.text": "Each time a unit from your army with this ability is selected to fight, select one of the Ka’tah Stances below. Until that unit has finished making its attacks, the selected Stance is active for it and it gains the relevant ability:",
-  "rules.army.0.rule.1.text": "Dacatari Stance",
-  "rules.army.0.rule.2.text": "Melee weapons equipped by models in this unit have the **[SUSTAINED HITS 1]** ability.",
-  "rules.army.0.rule.3.text": "Rendax Stance",
-  "rules.army.0.rule.4.text": "Melee weapons equipped by models in this unit have the **[LETHAL HITS]** ability."
+  "rules.army.0.rule.0.text": "Chaque fois qu'une unité de votre armée avec cette aptitude est choisie pour combattre, choisissez 1 des Postures de Ka'tah ci-dessous. Jusqu'å ce que cette unité ait résolu ses attaques, la Posture choisie est active pour l'unité, qui gagne l'aptitude correspondante :",
+  "rules.army.0.rule.1.text": "Posture du Dacataraï",
+  "rules.army.0.rule.2.text": "Les armes de mélée dont sont équipées les figurines de cette unité ont l'aptitude [TOUCHES SOUTENUES 1]",
+  "rules.army.0.rule.3.text": "Posture du Rendax",
+  "rules.army.0.rule.4.text": "Les armes de mélée dont sont équipées les figurines de cette unité ont l'aptitude [TOUCHES FATALES]"
 }

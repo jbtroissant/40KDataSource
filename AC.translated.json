@@ -181,7 +181,7 @@
           "active": true,
           "ld": "6+",
           "m": "8\"",
-          "name": "datasheets.0.stats.0.name",
+          "name": "datasheets.0.name",
           "oc": "4",
           "showDamagedMarker": true,
           "showName": false,
@@ -208,7 +208,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.1.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -280,7 +280,7 @@
               "attacks": "1",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.1.rangedWeapons.0.profiles.0.name",
+              "name": "datasheets.1.meleeWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "2+",
               "strength": "9"
@@ -349,7 +349,7 @@
           "active": true,
           "ld": "6+",
           "m": "6\"",
-          "name": "datasheets.1.stats.0.name",
+          "name": "datasheets.1.name",
           "oc": "3",
           "showDamagedMarker": false,
           "showName": false,
@@ -367,7 +367,7 @@
     {
       "abilities": {
         "core": [
-          "datasheets.2.abilities.core.0"
+          "datasheets.1.abilities.core.0"
         ],
         "damaged": {
           "description": "",
@@ -376,7 +376,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.2.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -450,7 +450,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.2.rangedWeapons.0.profiles.0.name",
+              "name": "datasheets.2.meleeWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -464,7 +464,7 @@
           "active": true,
           "ld": "6+",
           "m": "6\"",
-          "name": "datasheets.2.stats.0.name",
+          "name": "datasheets.2.name",
           "oc": "3",
           "showDamagedMarker": false,
           "showName": false,
@@ -482,7 +482,7 @@
     {
       "abilities": {
         "core": [
-          "datasheets.3.abilities.core.0"
+          "datasheets.1.abilities.core.0"
         ],
         "damaged": {
           "description": "",
@@ -491,7 +491,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.3.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -612,7 +612,7 @@
           "active": true,
           "ld": "6+",
           "m": "6\"",
-          "name": "datasheets.3.stats.0.name",
+          "name": "datasheets.3.name",
           "oc": "3",
           "showDamagedMarker": false,
           "showName": false,
@@ -640,7 +640,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.4.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -740,7 +740,7 @@
           "active": true,
           "ld": "6+",
           "m": "6\"",
-          "name": "datasheets.4.stats.0.name",
+          "name": "datasheets.4.name",
           "oc": "2",
           "showDamagedMarker": false,
           "showName": false,
@@ -752,7 +752,7 @@
       ],
       "transport": "",
       "wargear": [
-        "datasheets.4.wargear.0"
+        "datasheets.2.wargear.0"
       ],
       "leads": {
         "units": [
@@ -765,7 +765,7 @@
     {
       "abilities": {
         "core": [
-          "datasheets.5.abilities.core.0"
+          "datasheets.0.abilities.core.0"
         ],
         "damaged": {
           "range": "datasheets.5.abilities.damaged.range",
@@ -774,7 +774,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.5.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -897,7 +897,7 @@
           "active": true,
           "ld": "6+",
           "m": "10\"",
-          "name": "datasheets.5.stats.0.name",
+          "name": "datasheets.5.name",
           "oc": "4",
           "showDamagedMarker": true,
           "showName": false,
@@ -915,7 +915,7 @@
     {
       "abilities": {
         "core": [
-          "datasheets.6.abilities.core.0"
+          "datasheets.4.abilities.core.0"
         ],
         "damaged": {
           "description": "",
@@ -924,7 +924,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.6.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -1108,7 +1108,7 @@
           "active": true,
           "ld": "6+",
           "m": "5\"",
-          "name": "datasheets.6.stats.0.name",
+          "name": "datasheets.6.name",
           "oc": "2",
           "showDamagedMarker": false,
           "showName": false,
@@ -1130,7 +1130,7 @@
     {
       "abilities": {
         "core": [
-          "datasheets.7.abilities.core.0"
+          "datasheets.4.abilities.core.1"
         ],
         "damaged": {
           "description": "",
@@ -1139,7 +1139,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.7.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -1253,7 +1253,7 @@
           "active": true,
           "ld": "6+",
           "m": "12\"",
-          "name": "datasheets.7.stats.0.name",
+          "name": "datasheets.7.name",
           "oc": "2",
           "showDamagedMarker": false,
           "showName": false,
@@ -1387,7 +1387,7 @@
       ],
       "transport": "",
       "wargear": [
-        "datasheets.8.wargear.0"
+        "datasheets.2.wargear.0"
       ],
       "leadBy": [
         "datasheets.8.leadBy.0",
@@ -1397,7 +1397,7 @@
     {
       "abilities": {
         "core": [
-          "datasheets.9.abilities.core.0"
+          "datasheets.4.abilities.core.0"
         ],
         "damaged": {
           "description": "",
@@ -1406,7 +1406,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.9.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -1461,7 +1461,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.9.meleeWeapons.0.profiles.0.name",
+              "name": "datasheets.6.meleeWeapons.2.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -1504,7 +1504,7 @@
           "active": true,
           "ld": "6+",
           "m": "6\"",
-          "name": "datasheets.9.stats.0.name",
+          "name": "datasheets.9.name",
           "oc": "2",
           "showDamagedMarker": false,
           "showName": false,
@@ -1516,7 +1516,7 @@
       ],
       "transport": "",
       "wargear": [
-        "datasheets.9.wargear.0"
+        "datasheets.2.wargear.0"
       ]
     },
     {
@@ -1533,8 +1533,8 @@
         "faction": [],
         "other": [
           {
-            "name": "datasheets.10.abilities.other.0.name",
-            "description": "datasheets.10.abilities.other.0.description",
+            "name": "datasheets.8.abilities.other.0.name",
+            "description": "datasheets.8.abilities.other.0.description",
             "showAbility": true,
             "showDescription": true
           },
@@ -1651,11 +1651,11 @@
       ],
       "transport": "",
       "wargear": [
-        "datasheets.10.wargear.0"
+        "datasheets.2.wargear.0"
       ],
       "leadBy": [
-        "datasheets.10.leadBy.0",
-        "datasheets.10.leadBy.1"
+        "datasheets.8.leadBy.0",
+        "datasheets.8.leadBy.1"
       ]
     },
     {
@@ -1671,7 +1671,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.11.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -1715,7 +1715,7 @@
               "attacks": "9",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.11.meleeWeapons.0.profiles.0.name",
+              "name": "datasheets.5.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "9"
@@ -1772,7 +1772,7 @@
           "active": true,
           "ld": "6+",
           "m": "20+\"",
-          "name": "datasheets.11.stats.0.name",
+          "name": "datasheets.11.name",
           "oc": "0",
           "showDamagedMarker": true,
           "showName": false,
@@ -1784,13 +1784,13 @@
       ],
       "transport": "",
       "wargear": [
-        "datasheets.11.wargear.0"
+        "datasheets.2.wargear.0"
       ]
     },
     {
       "abilities": {
         "core": [
-          "datasheets.12.abilities.core.0"
+          "datasheets.4.abilities.core.0"
         ],
         "damaged": {
           "description": "",
@@ -1799,7 +1799,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.12.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -1825,14 +1825,14 @@
             "showDescription": true
           },
           {
-            "name": "datasheets.12.abilities.wargear.1.name",
-            "description": "datasheets.12.abilities.wargear.1.description",
+            "name": "datasheets.6.abilities.wargear.0.name",
+            "description": "datasheets.6.abilities.wargear.0.description",
             "showAbility": true,
             "showDescription": true
           },
           {
-            "name": "datasheets.12.abilities.wargear.2.name",
-            "description": "datasheets.12.abilities.wargear.2.description",
+            "name": "datasheets.12.abilities.wargear.0.name",
+            "description": "datasheets.12.abilities.wargear.0.description",
             "showAbility": true,
             "showDescription": true
           }
@@ -1866,7 +1866,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.12.meleeWeapons.0.profiles.0.name",
+              "name": "datasheets.6.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -1898,7 +1898,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.12.meleeWeapons.2.profiles.0.name",
+              "name": "datasheets.6.meleeWeapons.2.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -1906,7 +1906,7 @@
           ]
         }
       ],
-      "name": "datasheets.12.name",
+      "name": "datasheets.9.abilities.special.0.name",
       "points": [
         {
           "cost": "215",
@@ -1933,7 +1933,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.12.rangedWeapons.0.profiles.0.name",
+              "name": "datasheets.6.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -1966,7 +1966,7 @@
           "active": true,
           "ld": "6+",
           "m": "6\"",
-          "name": "datasheets.12.stats.0.name",
+          "name": "datasheets.9.abilities.special.0.name",
           "oc": "2",
           "showDamagedMarker": false,
           "showName": false,
@@ -1982,7 +1982,7 @@
         "datasheets.12.wargear.1"
       ],
       "leadBy": [
-        "datasheets.12.leadBy.0",
+        "datasheets.4.name",
         "datasheets.12.leadBy.1",
         "datasheets.12.leadBy.2",
         "datasheets.12.leadBy.3"
@@ -1991,17 +1991,17 @@
     {
       "abilities": {
         "core": [
-          "datasheets.13.abilities.core.0",
-          "datasheets.13.abilities.core.1"
+          "datasheets.11.abilities.core.0",
+          "datasheets.11.abilities.core.1"
         ],
         "damaged": {
-          "range": "datasheets.13.abilities.damaged.range",
-          "description": "datasheets.13.abilities.damaged.description",
+          "range": "datasheets.11.abilities.damaged.range",
+          "description": "datasheets.11.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
         "faction": [
-          "datasheets.13.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -2046,7 +2046,7 @@
               "attacks": "9",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.13.meleeWeapons.0.profiles.0.name",
+              "name": "datasheets.5.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "9"
@@ -2073,7 +2073,7 @@
               "attacks": "4",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.13.rangedWeapons.0.profiles.0.name",
+              "name": "datasheets.11.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "2+",
               "strength": "12"
@@ -2091,7 +2091,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.13.rangedWeapons.1.profiles.0.name",
+              "name": "datasheets.5.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "2+",
               "strength": "6"
@@ -2123,7 +2123,7 @@
           "active": true,
           "ld": "6+",
           "m": "20+\"",
-          "name": "datasheets.13.stats.0.name",
+          "name": "datasheets.13.name",
           "oc": "0",
           "showDamagedMarker": true,
           "showName": false,
@@ -2135,14 +2135,14 @@
       ],
       "transport": "datasheets.13.transport",
       "wargear": [
-        "datasheets.13.wargear.0"
+        "datasheets.2.wargear.0"
       ]
     },
     {
       "abilities": {
         "core": [
-          "datasheets.14.abilities.core.0",
-          "datasheets.14.abilities.core.1"
+          "datasheets.4.abilities.core.1",
+          "datasheets.10.abilities.core.0"
         ],
         "damaged": {
           "description": "",
@@ -2207,7 +2207,7 @@
                 "Devastating Wounds",
                 "Anti-psyker 5+"
               ],
-              "name": "datasheets.14.meleeWeapons.0.profiles.0.name",
+              "name": "datasheets.8.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -2223,7 +2223,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.14.meleeWeapons.1.profiles.0.name",
+              "name": "datasheets.10.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "3"
@@ -2231,7 +2231,7 @@
           ]
         }
       ],
-      "name": "datasheets.14.name",
+      "name": "datasheets.8.leadBy.0",
       "points": [
         {
           "cost": "55",
@@ -2271,7 +2271,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.14.rangedWeapons.1.profiles.0.name",
+              "name": "datasheets.10.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -2285,7 +2285,7 @@
           "active": true,
           "ld": "6+",
           "m": "6\"",
-          "name": "datasheets.14.stats.0.name",
+          "name": "datasheets.8.leadBy.0",
           "oc": "1",
           "showDamagedMarker": false,
           "showName": false,
@@ -2311,7 +2311,7 @@
     {
       "abilities": {
         "core": [
-          "datasheets.15.abilities.core.0",
+          "datasheets.0.abilities.core.0",
           "datasheets.15.abilities.core.1"
         ],
         "damaged": {
@@ -2323,7 +2323,7 @@
         "faction": [],
         "other": [
           {
-            "name": "datasheets.15.abilities.other.0.name",
+            "name": "datasheets.8.abilities.other.0.name",
             "description": "datasheets.15.abilities.other.0.description",
             "showAbility": true,
             "showDescription": true
@@ -2439,7 +2439,7 @@
           "active": true,
           "ld": "6+",
           "m": "12\"",
-          "name": "datasheets.15.stats.0.name",
+          "name": "datasheets.15.name",
           "oc": "2",
           "showDamagedMarker": false,
           "showName": false,
@@ -2457,8 +2457,8 @@
       "abilities": {
         "core": [
           "datasheets.16.abilities.core.0",
-          "datasheets.16.abilities.core.1",
-          "datasheets.16.abilities.core.2"
+          "datasheets.4.abilities.core.1",
+          "datasheets.10.abilities.core.0"
         ],
         "damaged": {
           "description": "",
@@ -2481,8 +2481,8 @@
             "showDescription": true
           },
           {
-            "name": "datasheets.16.abilities.other.2.name",
-            "description": "datasheets.16.abilities.other.2.description",
+            "name": "datasheets.14.abilities.other.1.name",
+            "description": "datasheets.14.abilities.other.1.description",
             "showAbility": true,
             "showDescription": true
           }
@@ -2509,7 +2509,7 @@
         "Anathema Psykana",
         "Aleya"
       ],
-      "leader": "datasheets.16.leader",
+      "leader": "datasheets.14.leader",
       "loadout": "datasheets.16.loadout",
       "meleeWeapons": [
         {
@@ -2532,7 +2532,7 @@
           ]
         }
       ],
-      "name": "datasheets.16.name",
+      "name": "datasheets.8.leadBy.1",
       "points": [
         {
           "cost": "65",
@@ -2548,7 +2548,7 @@
           "active": true,
           "ld": "6+",
           "m": "6\"",
-          "name": "datasheets.16.stats.0.name",
+          "name": "datasheets.8.leadBy.1",
           "oc": "1",
           "showDamagedMarker": false,
           "showName": false,
@@ -2560,13 +2560,13 @@
       ],
       "transport": "",
       "wargear": [
-        "datasheets.16.wargear.0"
+        "datasheets.2.wargear.0"
       ],
       "leads": {
         "units": [
-          "datasheets.16.leads.units.0",
-          "datasheets.16.leads.units.1",
-          "datasheets.16.leads.units.2"
+          "datasheets.14.leads.units.0",
+          "datasheets.14.leads.units.1",
+          "datasheets.14.leads.units.2"
         ],
         "extra": ""
       }
@@ -2581,7 +2581,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.17.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -2639,7 +2639,7 @@
               "keywords": [
                 "Lance"
               ],
-              "name": "datasheets.17.meleeWeapons.0.profiles.0.name",
+              "name": "datasheets.7.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -2722,7 +2722,7 @@
           "active": true,
           "ld": "6+",
           "m": "12\"",
-          "name": "datasheets.17.stats.0.name",
+          "name": "datasheets.17.name",
           "oc": "2",
           "showDamagedMarker": false,
           "showName": false,
@@ -2740,16 +2740,16 @@
     {
       "abilities": {
         "core": [
-          "datasheets.18.abilities.core.0"
+          "datasheets.11.abilities.core.0"
         ],
         "damaged": {
-          "range": "datasheets.18.abilities.damaged.range",
-          "description": "datasheets.18.abilities.damaged.description",
+          "range": "datasheets.5.abilities.damaged.range",
+          "description": "datasheets.5.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
         "faction": [
-          "datasheets.18.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -2792,7 +2792,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.18.meleeWeapons.0.profiles.0.name",
+              "name": "datasheets.15.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -2856,7 +2856,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.18.rangedWeapons.2.profiles.0.name",
+              "name": "datasheets.15.rangedWeapons.1.profiles.0.name",
               "range": "48\"",
               "skill": "2+",
               "strength": "14"
@@ -2864,8 +2864,8 @@
           ],
           "abilities": [
             {
-              "name": "datasheets.18.rangedWeapons.2.abilities.0.name",
-              "description": "datasheets.18.rangedWeapons.2.abilities.0.description",
+              "name": "datasheets.15.rangedWeapons.1.abilities.0.name",
+              "description": "datasheets.15.rangedWeapons.1.abilities.0.description",
               "showAbility": true,
               "showDescription": true
             }
@@ -2882,7 +2882,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.18.rangedWeapons.3.profiles.0.name",
+              "name": "datasheets.15.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -2896,7 +2896,7 @@
           "active": true,
           "ld": "6+",
           "m": "10\"",
-          "name": "datasheets.18.stats.0.name",
+          "name": "datasheets.18.name",
           "oc": "5",
           "showDamagedMarker": true,
           "showName": false,
@@ -2908,13 +2908,13 @@
       "transport": "datasheets.18.transport",
       "wargear": [
         "datasheets.18.wargear.0",
-        "datasheets.18.wargear.1"
+        "datasheets.15.wargear.0"
       ]
     },
     {
       "abilities": {
         "core": [
-          "datasheets.19.abilities.core.0"
+          "datasheets.4.abilities.core.0"
         ],
         "damaged": {
           "description": "",
@@ -2923,7 +2923,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.19.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -2943,8 +2943,8 @@
         "special": [],
         "wargear": [
           {
-            "name": "datasheets.19.abilities.wargear.0.name",
-            "description": "datasheets.19.abilities.wargear.0.description",
+            "name": "datasheets.6.abilities.wargear.0.name",
+            "description": "datasheets.6.abilities.wargear.0.description",
             "showAbility": true,
             "showDescription": true
           }
@@ -2966,7 +2966,7 @@
         "Custodian Wardens"
       ],
       "leader": "",
-      "loadout": "datasheets.19.loadout",
+      "loadout": "datasheets.12.loadout",
       "meleeWeapons": [
         {
           "active": true,
@@ -2977,7 +2977,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.19.meleeWeapons.0.profiles.0.name",
+              "name": "datasheets.6.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -2993,7 +2993,7 @@
               "attacks": "4",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.19.meleeWeapons.1.profiles.0.name",
+              "name": "datasheets.6.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "9"
@@ -3028,7 +3028,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.19.rangedWeapons.0.profiles.0.name",
+              "name": "datasheets.6.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -3046,7 +3046,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.19.rangedWeapons.1.profiles.0.name",
+              "name": "datasheets.6.rangedWeapons.2.profiles.0.name",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -3060,7 +3060,7 @@
           "active": true,
           "ld": "6+",
           "m": "6\"",
-          "name": "datasheets.19.stats.0.name",
+          "name": "datasheets.19.name",
           "oc": "2",
           "showDamagedMarker": false,
           "showName": false,
@@ -3073,19 +3073,19 @@
       "transport": "",
       "wargear": [
         "datasheets.19.wargear.0",
-        "datasheets.19.wargear.1"
+        "datasheets.6.wargear.1"
       ],
       "leadBy": [
-        "datasheets.19.leadBy.0",
-        "datasheets.19.leadBy.1",
-        "datasheets.19.leadBy.2",
-        "datasheets.19.leadBy.3"
+        "datasheets.4.name",
+        "datasheets.12.leadBy.1",
+        "datasheets.12.leadBy.2",
+        "datasheets.12.leadBy.3"
       ]
     },
     {
       "abilities": {
         "core": [
-          "datasheets.20.abilities.core.0"
+          "datasheets.0.abilities.core.0"
         ],
         "damaged": {
           "description": "",
@@ -3094,7 +3094,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.20.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -3137,7 +3137,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.20.meleeWeapons.0.profiles.0.name",
+              "name": "datasheets.5.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -3181,7 +3181,7 @@
           "active": true,
           "ld": "6+",
           "m": "12\"",
-          "name": "datasheets.20.stats.0.name",
+          "name": "datasheets.20.name",
           "oc": "2",
           "showDamagedMarker": false,
           "showName": false,
@@ -3193,7 +3193,7 @@
       ],
       "transport": "",
       "wargear": [
-        "datasheets.20.wargear.0"
+        "datasheets.2.wargear.0"
       ]
     },
     {
@@ -3206,12 +3206,12 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.21.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
-            "name": "datasheets.21.abilities.other.0.name",
-            "description": "datasheets.21.abilities.other.0.description",
+            "name": "datasheets.17.abilities.other.0.name",
+            "description": "datasheets.17.abilities.other.0.description",
             "showAbility": true,
             "showDescription": true
           },
@@ -3256,7 +3256,7 @@
               "keywords": [
                 "Lance"
               ],
-              "name": "datasheets.21.meleeWeapons.0.profiles.0.name",
+              "name": "datasheets.7.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -3291,7 +3291,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.21.rangedWeapons.0.profiles.0.name",
+              "name": "datasheets.7.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
               "skill": "2+",
               "strength": "10"
@@ -3310,7 +3310,7 @@
                 "Twin-linked",
                 "Rapid Fire 3"
               ],
-              "name": "datasheets.21.rangedWeapons.1.profiles.0.name",
+              "name": "datasheets.7.rangedWeapons.1.profiles.0.name",
               "range": "18\"",
               "skill": "2+",
               "strength": "4"
@@ -3324,7 +3324,7 @@
           "active": true,
           "ld": "6+",
           "m": "12\"",
-          "name": "datasheets.21.stats.0.name",
+          "name": "datasheets.21.name",
           "oc": "2",
           "showDamagedMarker": false,
           "showName": false,
@@ -3339,15 +3339,15 @@
         "datasheets.21.wargear.0"
       ],
       "leadBy": [
-        "datasheets.21.leadBy.0"
+        "datasheets.7.name"
       ]
     },
     {
       "abilities": {
         "core": [
-          "datasheets.22.abilities.core.0",
+          "datasheets.4.abilities.core.0",
           "datasheets.22.abilities.core.1",
-          "datasheets.22.abilities.core.2"
+          "datasheets.4.abilities.core.1"
         ],
         "damaged": {
           "description": "",
@@ -3356,7 +3356,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.22.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -3394,7 +3394,7 @@
         "Shield-Captain",
         "Valerian"
       ],
-      "leader": "datasheets.22.leader",
+      "leader": "datasheets.4.leader",
       "loadout": "datasheets.22.loadout",
       "meleeWeapons": [
         {
@@ -3414,7 +3414,7 @@
           ]
         }
       ],
-      "name": "datasheets.22.name",
+      "name": "datasheets.12.leadBy.1",
       "points": [
         {
           "cost": "110",
@@ -3449,7 +3449,7 @@
           "active": true,
           "ld": "6+",
           "m": "6\"",
-          "name": "datasheets.22.stats.0.name",
+          "name": "datasheets.12.leadBy.1",
           "oc": "2",
           "showDamagedMarker": false,
           "showName": false,
@@ -3461,12 +3461,12 @@
       ],
       "transport": "",
       "wargear": [
-        "datasheets.22.wargear.0"
+        "datasheets.2.wargear.0"
       ],
       "leads": {
         "units": [
-          "datasheets.22.leads.units.0",
-          "datasheets.22.leads.units.1"
+          "datasheets.4.leads.units.0",
+          "datasheets.4.leads.units.1"
         ],
         "extra": ""
       }
@@ -3474,7 +3474,7 @@
     {
       "abilities": {
         "core": [
-          "datasheets.23.abilities.core.0"
+          "datasheets.4.abilities.core.0"
         ],
         "damaged": {
           "description": "",
@@ -3483,7 +3483,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.23.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -3584,7 +3584,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.23.rangedWeapons.0.profiles.0.name",
+              "name": "datasheets.23.meleeWeapons.0.profiles.0.name",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -3617,7 +3617,7 @@
           "active": true,
           "ld": "6+",
           "m": "10\"",
-          "name": "datasheets.23.stats.0.name",
+          "name": "datasheets.23.name",
           "oc": "2",
           "showDamagedMarker": false,
           "showName": false,
@@ -3635,8 +3635,8 @@
     {
       "abilities": {
         "core": [
-          "datasheets.24.abilities.core.0",
-          "datasheets.24.abilities.core.1"
+          "datasheets.4.abilities.core.0",
+          "datasheets.4.abilities.core.1"
         ],
         "damaged": {
           "description": "",
@@ -3645,7 +3645,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.24.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -3655,8 +3655,8 @@
             "showDescription": true
           },
           {
-            "name": "datasheets.24.abilities.other.1.name",
-            "description": "datasheets.24.abilities.other.1.description",
+            "name": "datasheets.7.abilities.other.1.name",
+            "description": "datasheets.7.abilities.other.1.description",
             "showAbility": true,
             "showDescription": true
           }
@@ -3694,7 +3694,7 @@
               "attacks": "7",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.24.meleeWeapons.0.profiles.0.name",
+              "name": "datasheets.6.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -3710,7 +3710,7 @@
               "attacks": "6",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.24.meleeWeapons.1.profiles.0.name",
+              "name": "datasheets.6.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "9"
@@ -3718,7 +3718,7 @@
           ]
         }
       ],
-      "name": "datasheets.24.name",
+      "name": "datasheets.6.leadBy.0",
       "points": [
         {
           "cost": "130",
@@ -3739,7 +3739,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.24.rangedWeapons.0.profiles.0.name",
+              "name": "datasheets.6.rangedWeapons.0.profiles.0.name",
               "range": "18\"",
               "skill": "2+",
               "strength": "4"
@@ -3757,7 +3757,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.24.rangedWeapons.1.profiles.0.name",
+              "name": "datasheets.6.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -3775,7 +3775,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.24.rangedWeapons.2.profiles.0.name",
+              "name": "datasheets.6.rangedWeapons.2.profiles.0.name",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -3789,7 +3789,7 @@
           "active": true,
           "ld": "6+",
           "m": "5\"",
-          "name": "datasheets.24.stats.0.name",
+          "name": "datasheets.6.leadBy.0",
           "oc": "2",
           "showDamagedMarker": false,
           "showName": false,
@@ -3813,7 +3813,7 @@
     {
       "abilities": {
         "core": [
-          "datasheets.25.abilities.core.0"
+          "datasheets.4.abilities.core.0"
         ],
         "damaged": {
           "description": "",
@@ -3822,7 +3822,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.25.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -3832,8 +3832,8 @@
             "showDescription": true
           },
           {
-            "name": "datasheets.25.abilities.other.1.name",
-            "description": "datasheets.25.abilities.other.1.description",
+            "name": "datasheets.6.abilities.other.1.name",
+            "description": "datasheets.6.abilities.other.1.description",
             "showAbility": true,
             "showDescription": true
           }
@@ -3929,7 +3929,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.25.rangedWeapons.0.profiles.0.name",
+              "name": "datasheets.1.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
               "skill": "2+",
               "strength": "5"
@@ -3966,7 +3966,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.25.rangedWeapons.2.profiles.0.name",
+              "name": "datasheets.1.rangedWeapons.3.profiles.0.name",
               "range": "18\"",
               "skill": "2+",
               "strength": "6"
@@ -3980,7 +3980,7 @@
           "active": true,
           "ld": "6+",
           "m": "5\"",
-          "name": "datasheets.25.stats.0.name",
+          "name": "datasheets.25.name",
           "oc": "2",
           "showDamagedMarker": false,
           "showName": false,
@@ -3999,7 +3999,7 @@
     {
       "abilities": {
         "core": [
-          "datasheets.26.abilities.core.0"
+          "datasheets.4.abilities.core.0"
         ],
         "damaged": {
           "description": "",
@@ -4008,12 +4008,12 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.26.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
-            "name": "datasheets.26.abilities.other.0.name",
-            "description": "datasheets.26.abilities.other.0.description",
+            "name": "datasheets.12.abilities.other.0.name",
+            "description": "datasheets.12.abilities.other.0.description",
             "showAbility": true,
             "showDescription": true
           },
@@ -4027,8 +4027,8 @@
         "primarch": [],
         "special": [
           {
-            "description": "datasheets.26.abilities.special.0.description",
-            "name": "datasheets.26.abilities.special.0.name",
+            "description": "datasheets.9.abilities.special.0.description",
+            "name": "datasheets.9.abilities.special.0.name",
             "showAbility": true,
             "showDescription": true
           }
@@ -4106,7 +4106,7 @@
               "attacks": "1",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.26.rangedWeapons.0.profiles.0.name",
+              "name": "datasheets.26.meleeWeapons.0.profiles.0.name",
               "range": "18\"",
               "skill": "2+",
               "strength": "5"
@@ -4124,7 +4124,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.26.rangedWeapons.1.profiles.0.name",
+              "name": "datasheets.26.meleeWeapons.1.profiles.0.name",
               "range": "12\"",
               "skill": "2+",
               "strength": "9"
@@ -4138,7 +4138,7 @@
           "active": true,
           "ld": "6+",
           "m": "6\"",
-          "name": "datasheets.26.stats.0.name",
+          "name": "datasheets.26.name",
           "oc": "2",
           "showDamagedMarker": false,
           "showName": false,
@@ -4156,16 +4156,16 @@
     {
       "abilities": {
         "core": [
-          "datasheets.27.abilities.core.0"
+          "datasheets.11.abilities.core.0"
         ],
         "damaged": {
-          "range": "datasheets.27.abilities.damaged.range",
-          "description": "datasheets.27.abilities.damaged.description",
+          "range": "datasheets.5.abilities.damaged.range",
+          "description": "datasheets.5.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
         "faction": [
-          "datasheets.27.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -4209,7 +4209,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.27.meleeWeapons.0.profiles.0.name",
+              "name": "datasheets.5.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -4239,7 +4239,7 @@
                 "Twin-linked",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.27.rangedWeapons.0.profiles.0.name",
+              "name": "datasheets.20.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
               "skill": "2+",
               "strength": "5"
@@ -4257,7 +4257,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.27.rangedWeapons.1.profiles.0.name",
+              "name": "datasheets.5.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "2+",
               "strength": "6"
@@ -4271,7 +4271,7 @@
           "active": true,
           "ld": "6+",
           "m": "12\"",
-          "name": "datasheets.27.stats.0.name",
+          "name": "datasheets.27.name",
           "oc": "5",
           "showDamagedMarker": true,
           "showName": false,
@@ -4283,7 +4283,7 @@
       ],
       "transport": "datasheets.27.transport",
       "wargear": [
-        "datasheets.27.wargear.0"
+        "datasheets.2.wargear.0"
       ]
     },
     {
@@ -4298,8 +4298,8 @@
         "faction": [],
         "other": [
           {
-            "name": "datasheets.28.abilities.other.0.name",
-            "description": "datasheets.28.abilities.other.0.description",
+            "name": "datasheets.8.abilities.other.0.name",
+            "description": "datasheets.8.abilities.other.0.description",
             "showAbility": true,
             "showDescription": true
           },
@@ -4343,7 +4343,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.28.meleeWeapons.0.profiles.0.name",
+              "name": "datasheets.10.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -4415,18 +4415,18 @@
       ],
       "transport": "",
       "wargear": [
-        "datasheets.28.wargear.0"
+        "datasheets.2.wargear.0"
       ],
       "leadBy": [
-        "datasheets.28.leadBy.0",
-        "datasheets.28.leadBy.1"
+        "datasheets.8.leadBy.0",
+        "datasheets.8.leadBy.1"
       ]
     },
     {
       "abilities": {
         "core": [
-          "datasheets.29.abilities.core.0",
-          "datasheets.29.abilities.core.1"
+          "datasheets.4.abilities.core.0",
+          "datasheets.4.abilities.core.1"
         ],
         "damaged": {
           "description": "",
@@ -4435,7 +4435,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.29.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -4445,8 +4445,8 @@
             "showDescription": true
           },
           {
-            "name": "datasheets.29.abilities.other.1.name",
-            "description": "datasheets.29.abilities.other.1.description",
+            "name": "datasheets.7.abilities.other.1.name",
+            "description": "datasheets.7.abilities.other.1.description",
             "showAbility": true,
             "showDescription": true
           }
@@ -4455,8 +4455,8 @@
         "special": [],
         "wargear": [
           {
-            "name": "datasheets.29.abilities.wargear.0.name",
-            "description": "datasheets.29.abilities.wargear.0.description",
+            "name": "datasheets.12.abilities.wargear.0.name",
+            "description": "datasheets.12.abilities.wargear.0.description",
             "showAbility": true,
             "showDescription": true
           }
@@ -4478,7 +4478,7 @@
         "Imperium",
         "Shield-Captain"
       ],
-      "leader": "datasheets.29.leader",
+      "leader": "datasheets.4.leader",
       "loadout": "datasheets.29.loadout",
       "meleeWeapons": [
         {
@@ -4490,7 +4490,7 @@
               "attacks": "7",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.29.meleeWeapons.0.profiles.0.name",
+              "name": "datasheets.6.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -4506,7 +4506,7 @@
               "attacks": "6",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.29.meleeWeapons.1.profiles.0.name",
+              "name": "datasheets.6.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "9"
@@ -4522,7 +4522,7 @@
               "attacks": "7",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.29.meleeWeapons.2.profiles.0.name",
+              "name": "datasheets.12.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -4546,7 +4546,7 @@
           ]
         }
       ],
-      "name": "datasheets.29.name",
+      "name": "datasheets.12.leadBy.2",
       "points": [
         {
           "cost": "130",
@@ -4567,7 +4567,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.29.rangedWeapons.0.profiles.0.name",
+              "name": "datasheets.6.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -4585,7 +4585,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.29.rangedWeapons.1.profiles.0.name",
+              "name": "datasheets.6.rangedWeapons.2.profiles.0.name",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -4604,7 +4604,7 @@
                 "Pistol",
                 "Assault"
               ],
-              "name": "datasheets.29.rangedWeapons.2.profiles.0.name",
+              "name": "datasheets.12.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -4636,7 +4636,7 @@
           "active": true,
           "ld": "6+",
           "m": "6\"",
-          "name": "datasheets.29.stats.0.name",
+          "name": "datasheets.12.leadBy.2",
           "oc": "2",
           "showDamagedMarker": false,
           "showName": false,
@@ -4652,8 +4652,8 @@
       ],
       "leads": {
         "units": [
-          "datasheets.29.leads.units.0",
-          "datasheets.29.leads.units.1"
+          "datasheets.4.leads.units.0",
+          "datasheets.4.leads.units.1"
         ],
         "extra": ""
       }
@@ -4661,9 +4661,9 @@
     {
       "abilities": {
         "core": [
-          "datasheets.30.abilities.core.0",
-          "datasheets.30.abilities.core.1",
-          "datasheets.30.abilities.core.2"
+          "datasheets.4.abilities.core.0",
+          "datasheets.16.abilities.core.0",
+          "datasheets.4.abilities.core.1"
         ],
         "damaged": {
           "description": "",
@@ -4672,7 +4672,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.30.abilities.faction.0"
+          "datasheets.0.abilities.faction.0"
         ],
         "other": [
           {
@@ -4716,7 +4716,7 @@
         "Imperium",
         "Trajann Valoris"
       ],
-      "leader": "datasheets.30.leader",
+      "leader": "datasheets.4.leader",
       "loadout": "datasheets.30.loadout",
       "meleeWeapons": [
         {
@@ -4736,7 +4736,7 @@
           ]
         }
       ],
-      "name": "datasheets.30.name",
+      "name": "datasheets.12.leadBy.3",
       "points": [
         {
           "cost": "140",
@@ -4771,7 +4771,7 @@
           "active": true,
           "ld": "5+",
           "m": "6\"",
-          "name": "datasheets.30.stats.0.name",
+          "name": "datasheets.12.leadBy.3",
           "oc": "2",
           "showDamagedMarker": false,
           "showName": false,
@@ -4783,12 +4783,12 @@
       ],
       "transport": "",
       "wargear": [
-        "datasheets.30.wargear.0"
+        "datasheets.2.wargear.0"
       ],
       "leads": {
         "units": [
-          "datasheets.30.leads.units.0",
-          "datasheets.30.leads.units.1"
+          "datasheets.4.leads.units.0",
+          "datasheets.4.leads.units.1"
         ],
         "extra": ""
       }
@@ -5065,7 +5065,7 @@
           "cost": 1,
           "turn": "either",
           "target": "detachments.1.stratagems.1.target",
-          "when": "detachments.1.stratagems.1.when",
+          "when": "detachments.0.stratagems.0.when",
           "effect": "detachments.1.stratagems.1.effect",
           "restrictions": "",
           "type": "Epic Deed",
@@ -5234,7 +5234,7 @@
           "cost": 1,
           "turn": "either",
           "target": "detachments.2.stratagems.1.target",
-          "when": "detachments.2.stratagems.1.when",
+          "when": "detachments.1.stratagems.2.when",
           "effect": "detachments.2.stratagems.1.effect",
           "restrictions": "",
           "type": "Battle Tactic",
@@ -5250,7 +5250,7 @@
           "cost": 1,
           "turn": "your",
           "target": "detachments.2.stratagems.2.target",
-          "when": "detachments.2.stratagems.2.when",
+          "when": "detachments.0.stratagems.5.when",
           "effect": "detachments.2.stratagems.2.effect",
           "restrictions": "",
           "type": "Battle Tactic",
@@ -5282,7 +5282,7 @@
           "cost": 1,
           "turn": "your",
           "target": "detachments.2.stratagems.4.target",
-          "when": "detachments.2.stratagems.4.when",
+          "when": "detachments.0.stratagems.5.when",
           "effect": "detachments.2.stratagems.4.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
@@ -5419,7 +5419,7 @@
           "cost": 1,
           "turn": "either",
           "target": "detachments.3.stratagems.2.target",
-          "when": "detachments.3.stratagems.2.when",
+          "when": "detachments.0.stratagems.1.when",
           "effect": "detachments.3.stratagems.2.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
@@ -5451,7 +5451,7 @@
           "cost": 1,
           "turn": "your",
           "target": "detachments.3.stratagems.4.target",
-          "when": "detachments.3.stratagems.4.when",
+          "when": "detachments.3.stratagems.3.when",
           "effect": "detachments.3.stratagems.4.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
@@ -5467,7 +5467,7 @@
           "cost": 1,
           "turn": "your",
           "target": "detachments.3.stratagems.5.target",
-          "when": "detachments.3.stratagems.5.when",
+          "when": "detachments.0.stratagems.5.when",
           "effect": "detachments.3.stratagems.5.effect",
           "restrictions": "",
           "type": "Wargear",
@@ -5554,7 +5554,7 @@
           "cost": 1,
           "turn": "your",
           "target": "detachments.4.stratagems.0.target",
-          "when": "detachments.4.stratagems.0.when",
+          "when": "detachments.0.stratagems.5.when",
           "effect": "detachments.4.stratagems.0.effect",
           "restrictions": "detachments.4.stratagems.0.restrictions",
           "type": "Battle Tactic",
@@ -5570,7 +5570,7 @@
           "cost": 1,
           "turn": "either",
           "target": "detachments.4.stratagems.1.target",
-          "when": "detachments.4.stratagems.1.when",
+          "when": "detachments.0.stratagems.0.when",
           "effect": "detachments.4.stratagems.1.effect",
           "restrictions": "",
           "type": "Battle Tactic",
@@ -5603,9 +5603,9 @@
           "cost": 2,
           "turn": "either",
           "target": "detachments.4.stratagems.3.target",
-          "when": "detachments.4.stratagems.3.when",
+          "when": "detachments.3.stratagems.1.when",
           "effect": "detachments.4.stratagems.3.effect",
-          "restrictions": "detachments.4.stratagems.3.restrictions",
+          "restrictions": "detachments.4.stratagems.0.restrictions",
           "type": "Battle Tactic",
           "phase": [
             "fight"
@@ -5619,7 +5619,7 @@
           "cost": 1,
           "turn": "opponents",
           "target": "detachments.4.stratagems.4.target",
-          "when": "detachments.4.stratagems.4.when",
+          "when": "detachments.2.stratagems.5.when",
           "effect": "detachments.4.stratagems.4.effect",
           "restrictions": "",
           "type": "Epic Deed",
@@ -5634,10 +5634,10 @@
           "id": "0425dede-f0c9-56d2-90d8-04170045757f",
           "cost": 1,
           "turn": "your",
-          "target": "detachments.4.stratagems.5.target",
+          "target": "detachments.4.stratagems.3.target",
           "when": "detachments.4.stratagems.5.when",
           "effect": "detachments.4.stratagems.5.effect",
-          "restrictions": "detachments.4.stratagems.5.restrictions",
+          "restrictions": "detachments.4.stratagems.0.restrictions",
           "type": "Strategic Ploy",
           "phase": [
             "movement"
@@ -5648,7 +5648,7 @@
       ]
     },
     {
-      "name": "detachments.5.name",
+      "name": "datasheets.25.abilities.special.0.name",
       "enhancements": [
         {
           "name": "detachments.5.enhancements.0.name",
@@ -5722,7 +5722,7 @@
           "cost": 1,
           "turn": "either",
           "target": "detachments.5.stratagems.0.target",
-          "when": "detachments.5.stratagems.0.when",
+          "when": "detachments.1.stratagems.2.when",
           "effect": "detachments.5.stratagems.0.effect",
           "restrictions": "",
           "type": "Battle Tactic",
@@ -5753,8 +5753,8 @@
           "id": "d0da5fcc-d190-5e53-9df7-babedfb8e80f",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.5.stratagems.2.target",
-          "when": "detachments.5.stratagems.2.when",
+          "target": "detachments.0.stratagems.1.target",
+          "when": "detachments.0.stratagems.1.when",
           "effect": "detachments.5.stratagems.2.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
@@ -5785,7 +5785,7 @@
           "id": "627a2ee8-d0ce-532a-b648-2d9709e3497c",
           "cost": 1,
           "turn": "your",
-          "target": "detachments.5.stratagems.4.target",
+          "target": "detachments.0.stratagems.2.target",
           "when": "detachments.5.stratagems.4.when",
           "effect": "detachments.5.stratagems.4.effect",
           "restrictions": "",
@@ -5822,7 +5822,7 @@
   "rules": {
     "army": [
       {
-        "name": "rules.army.0.name",
+        "name": "datasheets.0.abilities.faction.0",
         "rule": [
           {
             "order": 1,

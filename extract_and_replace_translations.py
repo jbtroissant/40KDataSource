@@ -141,13 +141,15 @@ def extract_texts_nested(obj):
     else:
         return None
 
-def extract_texts(obj, path=None, translations=None, replaced=None):
+def extract_texts(obj, path=None, translations=None, replaced=None, value_to_key=None):
     if path is None:
         path = []
     if translations is None:
         translations = {}
     if replaced is None:
         replaced = obj
+    if value_to_key is None:
+        value_to_key = {}
 
     def make_key(path, k):
         if not path:
@@ -173,7 +175,11 @@ def extract_texts(obj, path=None, translations=None, replaced=None):
                 continue
             if is_enhancement_path(path):
                 if k in ENHANCEMENT_TRANSLATE_FIELDS and isinstance(v, TEXT_TYPES) and v.strip() != "" and not v.strip().startswith("http"):
-                    key = make_key(path, k)
+                    if v in value_to_key:
+                        key = value_to_key[v]
+                    else:
+                        key = make_key(path, k)
+                        value_to_key[v] = key
                     translations[key] = v
                     temp[k] = key
                     continue
@@ -182,7 +188,11 @@ def extract_texts(obj, path=None, translations=None, replaced=None):
                     continue
             if is_stratagem_path(path):
                 if isinstance(v, TEXT_TYPES) and v.strip() != "" and not v.strip().startswith("http"):
-                    key = make_key(path, k)
+                    if v in value_to_key:
+                        key = value_to_key[v]
+                    else:
+                        key = make_key(path, k)
+                        value_to_key[v] = key
                     translations[key] = v
                     temp[k] = key
                     continue
@@ -192,7 +202,11 @@ def extract_texts(obj, path=None, translations=None, replaced=None):
             new_path = path + [clean_key(str(k))]
             if is_profile_path(path):
                 if k == "name" and isinstance(v, TEXT_TYPES) and v.strip() != "" and not v.strip().startswith("http"):
-                    key = make_key(path, k)
+                    if v in value_to_key:
+                        key = value_to_key[v]
+                    else:
+                        key = make_key(path, k)
+                        value_to_key[v] = key
                     translations[key] = v
                     temp[k] = key
                     continue
@@ -203,14 +217,22 @@ def extract_texts(obj, path=None, translations=None, replaced=None):
                 temp[k] = v
                 continue
             if isinstance(v, TEXT_TYPES) and v.strip() != "" and not v.strip().startswith("http"):
-                key = make_key(path, k)
+                if v in value_to_key:
+                    key = value_to_key[v]
+                else:
+                    key = make_key(path, k)
+                    value_to_key[v] = key
                 translations[key] = v
                 temp[k] = key
             elif isinstance(v, list):
                 if v and all(isinstance(i, TEXT_TYPES) and i.strip() != "" for i in v):
                     temp[k] = []
                     for idx, item in enumerate(v):
-                        key = make_key(new_path, str(idx))
+                        if item in value_to_key:
+                            key = value_to_key[item]
+                        else:
+                            key = make_key(new_path, str(idx))
+                            value_to_key[item] = key
                         translations[key] = item
                         temp[k].append(key)
                 else:
@@ -221,13 +243,17 @@ def extract_texts(obj, path=None, translations=None, replaced=None):
                                 sub = {}
                             else:
                                 sub = []
-                            extract_texts(item, new_path + [str(idx)], translations, sub)
+                            extract_texts(item, new_path + [str(idx)], translations, sub, value_to_key)
                             if (isinstance(sub, dict) and not sub) or (isinstance(sub, list) and not sub):
                                 sublist.append(item)
                             else:
                                 sublist.append(sub)
                         elif isinstance(item, TEXT_TYPES) and item.strip() != "" and not item.strip().startswith("http"):
-                            key = make_key(new_path, str(idx))
+                            if item in value_to_key:
+                                key = value_to_key[item]
+                            else:
+                                key = make_key(new_path, str(idx))
+                                value_to_key[item] = key
                             translations[key] = item
                             sublist.append(key)
                         else:
@@ -235,7 +261,7 @@ def extract_texts(obj, path=None, translations=None, replaced=None):
                     temp[k] = sublist
             elif isinstance(v, dict):
                 sub = {}
-                extract_texts(v, new_path, translations, sub)
+                extract_texts(v, new_path, translations, sub, value_to_key)
                 if not sub:
                     temp[k] = v
                 else:
@@ -252,13 +278,17 @@ def extract_texts(obj, path=None, translations=None, replaced=None):
                     sub = {}
                 else:
                     sub = []
-                extract_texts(item, path + [str(idx)], translations, sub)
+                extract_texts(item, path + [str(idx)], translations, sub, value_to_key)
                 if (isinstance(sub, dict) and not sub) or (isinstance(sub, list) and not sub):
                     sublist.append(item)
                 else:
                     sublist.append(sub)
             elif isinstance(item, TEXT_TYPES) and item.strip() != "" and not item.strip().startswith("http"):
-                key = make_key(path, str(idx))
+                if item in value_to_key:
+                    key = value_to_key[item]
+                else:
+                    key = make_key(path, str(idx))
+                    value_to_key[item] = key
                 translations[key] = item
                 sublist.append(key)
             else:

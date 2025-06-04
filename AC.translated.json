@@ -52,10 +52,10 @@
       "id": "20c06da2-729f-52ce-8989-b2b98ea909b3",
       "imperialArmour": true,
       "keywords": [
-        "datasheets.0.keywords.0",
-        "datasheets.0.keywords.1",
-        "datasheets.0.keywords.2",
-        "datasheets.0.keywords.3"
+        "Vehicle",
+        "Walker",
+        "Imperium",
+        "Telemon Heavy Dreadnought"
       ],
       "leader": "",
       "loadout": "datasheets.0.loadout",
@@ -112,7 +112,7 @@
               "attacks": "D6+3",
               "damage": "1",
               "keywords": [
-                "datasheets.0.rangedWeapons.0.profiles.0.keywords.0"
+                "Blast"
               ],
               "name": "datasheets.0.rangedWeapons.0.profiles.0.name",
               "range": "36\"",
@@ -146,7 +146,7 @@
               "attacks": "12",
               "damage": "1",
               "keywords": [
-                "datasheets.0.rangedWeapons.2.profiles.0.keywords.0"
+                "Devastating Wounds"
               ],
               "name": "datasheets.0.rangedWeapons.2.profiles.0.name",
               "range": "24\"",
@@ -164,8 +164,8 @@
               "attacks": "D3",
               "damage": "1",
               "keywords": [
-                "datasheets.0.rangedWeapons.3.profiles.0.keywords.0",
-                "datasheets.0.rangedWeapons.3.profiles.0.keywords.1"
+                "Twin-linked",
+                "Torrent"
               ],
               "name": "datasheets.0.rangedWeapons.3.profiles.0.name",
               "range": "12\"",
@@ -234,10 +234,10 @@
       "id": "3b049bfc-9a92-5d0a-825f-de4c6c6e1fa9",
       "imperialArmour": true,
       "keywords": [
-        "datasheets.1.keywords.0",
-        "datasheets.1.keywords.1",
-        "datasheets.1.keywords.2",
-        "datasheets.1.keywords.3"
+        "Vehicle",
+        "Walker",
+        "Imperium",
+        "Contemptor-Achillus Dreadnought"
       ],
       "leader": "",
       "loadout": "datasheets.1.loadout",
@@ -251,7 +251,7 @@
               "attacks": "5",
               "damage": "D6+1",
               "keywords": [
-                "datasheets.1.meleeWeapons.0.profiles.0.keywords.0"
+                "Lance"
               ],
               "name": "datasheets.1.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
@@ -296,7 +296,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [
-                "datasheets.1.rangedWeapons.1.profiles.0.keywords.0"
+                "Rapid Fire 2"
               ],
               "name": "datasheets.1.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
@@ -314,8 +314,8 @@
               "attacks": "D6",
               "damage": "1",
               "keywords": [
-                "datasheets.1.rangedWeapons.2.profiles.0.keywords.0",
-                "datasheets.1.rangedWeapons.2.profiles.0.keywords.1"
+                "Ignores Cover",
+                "Torrent"
               ],
               "name": "datasheets.1.rangedWeapons.2.profiles.0.name",
               "range": "12\"",
@@ -333,7 +333,7 @@
               "attacks": "1",
               "damage": "3",
               "keywords": [
-                "datasheets.1.rangedWeapons.3.profiles.0.keywords.0"
+                "Twin-linked"
               ],
               "name": "datasheets.1.rangedWeapons.3.profiles.0.name",
               "range": "18\"",
@@ -402,10 +402,10 @@
       "id": "807361fc-19a7-5ef8-baf7-4c9c9367f2bf",
       "imperialArmour": true,
       "keywords": [
-        "datasheets.2.keywords.0",
-        "datasheets.2.keywords.1",
-        "datasheets.2.keywords.2",
-        "datasheets.2.keywords.3"
+        "Vehicle",
+        "Walker",
+        "Imperium",
+        "Contemptor-Galatus Dreadnought"
       ],
       "leader": "",
       "loadout": "datasheets.2.loadout",
@@ -446,9 +446,9 @@
               "attacks": "D6",
               "damage": "1",
               "keywords": [
-                "datasheets.2.rangedWeapons.0.profiles.0.keywords.0",
-                "datasheets.2.rangedWeapons.0.profiles.0.keywords.1",
-                "datasheets.2.rangedWeapons.0.profiles.0.keywords.2"
+                "Twin-linked",
+                "Torrent",
+                "Ignores Cover"
               ],
               "name": "datasheets.2.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
@@ -516,10 +516,10 @@
       "fluff": "datasheets.3.fluff",
       "id": "cf2b9789-37cf-5eaf-bd1f-6b126b5173b2",
       "keywords": [
-        "datasheets.3.keywords.0",
-        "datasheets.3.keywords.1",
-        "datasheets.3.keywords.2",
-        "datasheets.3.keywords.3"
+        "Vehicle",
+        "Walker",
+        "Imperium",
+        "Venerable Contemptor Dreadnought"
       ],
       "leader": "",
       "loadout": "datasheets.3.loadout",
@@ -560,7 +560,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [
-                "datasheets.3.rangedWeapons.0.profiles.0.keywords.0"
+                "Rapid Fire 2"
               ],
               "name": "datasheets.3.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
@@ -578,7 +578,7 @@
               "attacks": "2",
               "damage": "D6",
               "keywords": [
-                "datasheets.3.rangedWeapons.1.profiles.0.keywords.0"
+                "Melta 2"
               ],
               "name": "datasheets.3.rangedWeapons.1.profiles.0.name",
               "range": "18\"",
@@ -596,7 +596,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [
-                "datasheets.3.rangedWeapons.2.profiles.0.keywords.0"
+                "Devastating Wounds"
               ],
               "name": "datasheets.3.rangedWeapons.2.profiles.0.name",
               "range": "24\"",
@@ -671,10 +671,10 @@
       "fluff": "datasheets.4.fluff",
       "id": "e3d44ca2-252c-517f-8702-19e20f311930",
       "keywords": [
-        "datasheets.4.keywords.0",
-        "datasheets.4.keywords.1",
-        "datasheets.4.keywords.2",
-        "datasheets.4.keywords.3"
+        "Infantry",
+        "Character",
+        "Imperium",
+        "Blade Champion"
       ],
       "leader": "datasheets.4.leader",
       "loadout": "datasheets.4.loadout",
@@ -688,7 +688,7 @@
               "attacks": "9",
               "damage": "1",
               "keywords": [
-                "datasheets.4.meleeWeapons.0.profiles.0.keywords.0"
+                "Sustained Hits 1"
               ],
               "name": "datasheets.4.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
@@ -701,7 +701,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [
-                "datasheets.4.meleeWeapons.0.profiles.1.keywords.0"
+                "Precision"
               ],
               "name": "datasheets.4.meleeWeapons.0.profiles.1.name",
               "range": "Melee",
@@ -714,7 +714,7 @@
               "attacks": "5",
               "damage": "3",
               "keywords": [
-                "datasheets.4.meleeWeapons.0.profiles.2.keywords.0"
+                "Devastating Wounds"
               ],
               "name": "datasheets.4.meleeWeapons.0.profiles.2.name",
               "range": "Melee",
@@ -800,10 +800,10 @@
       "id": "67a406c1-4870-58e0-a260-38b87888d4a1",
       "imperialArmour": true,
       "keywords": [
-        "datasheets.5.keywords.0",
-        "datasheets.5.keywords.1",
-        "datasheets.5.keywords.2",
-        "datasheets.5.keywords.3"
+        "Vehicle",
+        "Fly",
+        "Imperium",
+        "Caladius Grav-tank"
       ],
       "leader": "",
       "loadout": "datasheets.5.loadout",
@@ -844,8 +844,8 @@
               "attacks": "4",
               "damage": "3",
               "keywords": [
-                "datasheets.5.rangedWeapons.0.profiles.0.keywords.0",
-                "datasheets.5.rangedWeapons.0.profiles.0.keywords.1"
+                "Twin-linked",
+                "Rapid Fire 4"
               ],
               "name": "datasheets.5.rangedWeapons.0.profiles.0.name",
               "range": "48\"",
@@ -863,7 +863,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [
-                "datasheets.5.rangedWeapons.1.profiles.0.keywords.0"
+                "Sustained Hits 1"
               ],
               "name": "datasheets.5.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
@@ -881,7 +881,7 @@
               "attacks": "4",
               "damage": "D6+2",
               "keywords": [
-                "datasheets.5.rangedWeapons.2.profiles.0.keywords.0"
+                "Twin-linked"
               ],
               "name": "datasheets.5.rangedWeapons.2.profiles.0.name",
               "range": "48\"",
@@ -962,10 +962,10 @@
       "fluff": "datasheets.6.fluff",
       "id": "1d52b4a3-4514-5a3e-adab-3594c2a60fa0",
       "keywords": [
-        "datasheets.6.keywords.0",
-        "datasheets.6.keywords.1",
-        "datasheets.6.keywords.2",
-        "datasheets.6.keywords.3"
+        "Infantry",
+        "Terminator",
+        "Imperium",
+        "Allarus Custodians"
       ],
       "leader": "",
       "loadout": "datasheets.6.loadout",
@@ -1056,7 +1056,7 @@
               "attacks": "D6",
               "damage": "1",
               "keywords": [
-                "datasheets.6.rangedWeapons.0.profiles.0.keywords.0"
+                "Blast"
               ],
               "name": "datasheets.6.rangedWeapons.0.profiles.0.name",
               "range": "18\"",
@@ -1074,7 +1074,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [
-                "datasheets.6.rangedWeapons.1.profiles.0.keywords.0"
+                "Assault"
               ],
               "name": "datasheets.6.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
@@ -1092,7 +1092,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [
-                "datasheets.6.rangedWeapons.2.profiles.0.keywords.0"
+                "Assault"
               ],
               "name": "datasheets.6.rangedWeapons.2.profiles.0.name",
               "range": "24\"",
@@ -1170,12 +1170,12 @@
       "fluff": "datasheets.7.fluff",
       "id": "e9125c0a-5c67-588b-bdb5-bb08e977f9b5",
       "keywords": [
-        "datasheets.7.keywords.0",
-        "datasheets.7.keywords.1",
-        "datasheets.7.keywords.2",
-        "datasheets.7.keywords.3",
-        "datasheets.7.keywords.4",
-        "datasheets.7.keywords.5"
+        "Mounted",
+        "Character",
+        "Fly",
+        "Imperium",
+        "Dawneagle Jetbike",
+        "Shield-Captain"
       ],
       "leader": "datasheets.7.leader",
       "loadout": "datasheets.7.loadout",
@@ -1189,7 +1189,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [
-                "datasheets.7.meleeWeapons.0.profiles.0.keywords.0"
+                "Lance"
               ],
               "name": "datasheets.7.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
@@ -1218,7 +1218,7 @@
               "attacks": "1",
               "damage": "D6+1",
               "keywords": [
-                "datasheets.7.rangedWeapons.0.profiles.0.keywords.0"
+                "Twin-linked"
               ],
               "name": "datasheets.7.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
@@ -1236,8 +1236,8 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [
-                "datasheets.7.rangedWeapons.1.profiles.0.keywords.0",
-                "datasheets.7.rangedWeapons.1.profiles.0.keywords.1"
+                "Twin-linked",
+                "Rapid Fire 3"
               ],
               "name": "datasheets.7.rangedWeapons.1.profiles.0.name",
               "range": "18\"",
@@ -1314,10 +1314,10 @@
       "fluff": "datasheets.8.fluff",
       "id": "a625fffb-42af-51c1-99a0-20a2f699b2fa",
       "keywords": [
-        "datasheets.8.keywords.0",
-        "datasheets.8.keywords.1",
-        "datasheets.8.keywords.2",
-        "datasheets.8.keywords.3"
+        "Infantry",
+        "Imperium",
+        "Anathema Psykana",
+        "Vigilators"
       ],
       "leader": "",
       "loadout": "datasheets.8.loadout",
@@ -1331,8 +1331,8 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [
-                "datasheets.8.meleeWeapons.0.profiles.0.keywords.0",
-                "datasheets.8.meleeWeapons.0.profiles.0.keywords.1"
+                "Devastating Wounds",
+                "Anti-psyker 5+"
               ],
               "name": "datasheets.8.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
@@ -1445,9 +1445,9 @@
       "id": "6faae4f4-5ef4-5bba-9bd3-17a82eb610f9",
       "imperialArmour": true,
       "keywords": [
-        "datasheets.9.keywords.0",
-        "datasheets.9.keywords.1",
-        "datasheets.9.keywords.2"
+        "Infantry",
+        "Imperium",
+        "Sagittarum Custodians"
       ],
       "leader": "",
       "loadout": "datasheets.9.loadout",
@@ -1488,7 +1488,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [
-                "datasheets.9.rangedWeapons.0.profiles.0.keywords.0"
+                "Sustained Hits 1"
               ],
               "name": "datasheets.9.rangedWeapons.0.profiles.0.name",
               "range": "36\"",
@@ -1561,10 +1561,10 @@
       "fluff": "datasheets.10.fluff",
       "id": "9232d973-cdd6-519b-a8da-4c68e578ca7f",
       "keywords": [
-        "datasheets.10.keywords.0",
-        "datasheets.10.keywords.1",
-        "datasheets.10.keywords.2",
-        "datasheets.10.keywords.3"
+        "Infantry",
+        "Imperium",
+        "Anathema Psykana",
+        "Witchseekers"
       ],
       "leader": "",
       "loadout": "datasheets.10.loadout",
@@ -1623,8 +1623,8 @@
               "attacks": "D6",
               "damage": "1",
               "keywords": [
-                "datasheets.10.rangedWeapons.0.profiles.0.keywords.0",
-                "datasheets.10.rangedWeapons.0.profiles.0.keywords.1"
+                "Torrent",
+                "Ignores Cover"
               ],
               "name": "datasheets.10.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
@@ -1697,11 +1697,11 @@
       "id": "b8ed7302-d7b0-5075-bfde-8077f6e2f414",
       "imperialArmour": true,
       "keywords": [
-        "datasheets.11.keywords.0",
-        "datasheets.11.keywords.1",
-        "datasheets.11.keywords.2",
-        "datasheets.11.keywords.3",
-        "datasheets.11.keywords.4"
+        "Vehicle",
+        "Aircraft",
+        "Fly",
+        "Imperium",
+        "Ares Gunship"
       ],
       "leader": "",
       "loadout": "datasheets.11.loadout",
@@ -1849,10 +1849,10 @@
       "fluff": "datasheets.12.fluff",
       "id": "923d8a4f-3a80-5328-bd04-8d3bcee4d6e2",
       "keywords": [
-        "datasheets.12.keywords.0",
-        "datasheets.12.keywords.1",
-        "datasheets.12.keywords.2",
-        "datasheets.12.keywords.3"
+        "Infantry",
+        "Battleline",
+        "Imperium",
+        "Custodian Guard"
       ],
       "leader": "",
       "loadout": "datasheets.12.loadout",
@@ -1931,7 +1931,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [
-                "datasheets.12.rangedWeapons.0.profiles.0.keywords.0"
+                "Assault"
               ],
               "name": "datasheets.12.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
@@ -1949,8 +1949,8 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [
-                "datasheets.12.rangedWeapons.1.profiles.0.keywords.0",
-                "datasheets.12.rangedWeapons.1.profiles.0.keywords.1"
+                "Pistol",
+                "Assault"
               ],
               "name": "datasheets.12.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
@@ -2027,12 +2027,12 @@
       "id": "335a4762-5e7e-5012-9ff2-9d53d3f8a66d",
       "imperialArmour": true,
       "keywords": [
-        "datasheets.13.keywords.0",
-        "datasheets.13.keywords.1",
-        "datasheets.13.keywords.2",
-        "datasheets.13.keywords.3",
-        "datasheets.13.keywords.4",
-        "datasheets.13.keywords.5"
+        "Vehicle",
+        "Transport",
+        "Aircraft",
+        "Fly",
+        "Imperium",
+        "Orion Assault Dropship"
       ],
       "leader": "",
       "loadout": "datasheets.13.loadout",
@@ -2089,7 +2089,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [
-                "datasheets.13.rangedWeapons.1.profiles.0.keywords.0"
+                "Sustained Hits 1"
               ],
               "name": "datasheets.13.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
@@ -2107,7 +2107,7 @@
               "attacks": "D6+6",
               "damage": "2",
               "keywords": [
-                "datasheets.13.rangedWeapons.2.profiles.0.keywords.0"
+                "Blast"
               ],
               "name": "datasheets.13.rangedWeapons.2.profiles.0.name",
               "range": "36\"",
@@ -2186,11 +2186,11 @@
       "fluff": "datasheets.14.fluff",
       "id": "cd641b7e-b287-5d63-85ef-4e991dd25cfd",
       "keywords": [
-        "datasheets.14.keywords.0",
-        "datasheets.14.keywords.1",
-        "datasheets.14.keywords.2",
-        "datasheets.14.keywords.3",
-        "datasheets.14.keywords.4"
+        "Infantry",
+        "Character",
+        "Imperium",
+        "Anathema Psykana",
+        "Knight-Centura"
       ],
       "leader": "datasheets.14.leader",
       "loadout": "datasheets.14.loadout",
@@ -2204,8 +2204,8 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [
-                "datasheets.14.meleeWeapons.0.profiles.0.keywords.0",
-                "datasheets.14.meleeWeapons.0.profiles.0.keywords.1"
+                "Devastating Wounds",
+                "Anti-psyker 5+"
               ],
               "name": "datasheets.14.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
@@ -2250,7 +2250,7 @@
               "attacks": "1",
               "damage": "2",
               "keywords": [
-                "datasheets.14.rangedWeapons.0.profiles.0.keywords.0"
+                "Rapid Fire 1"
               ],
               "name": "datasheets.14.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
@@ -2268,8 +2268,8 @@
               "attacks": "D6",
               "damage": "1",
               "keywords": [
-                "datasheets.14.rangedWeapons.1.profiles.0.keywords.0",
-                "datasheets.14.rangedWeapons.1.profiles.0.keywords.1"
+                "Torrent",
+                "Ignores Cover"
               ],
               "name": "datasheets.14.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
@@ -2350,13 +2350,13 @@
       "fluff": "datasheets.15.fluff",
       "id": "2e5ba22b-8a92-5e30-aa84-5610a5081445",
       "keywords": [
-        "datasheets.15.keywords.0",
-        "datasheets.15.keywords.1",
-        "datasheets.15.keywords.2",
-        "datasheets.15.keywords.3",
-        "datasheets.15.keywords.4",
-        "datasheets.15.keywords.5",
-        "datasheets.15.keywords.6"
+        "Vehicle",
+        "Transport",
+        "Dedicated Transport",
+        "Smoke",
+        "Imperium",
+        "Anathema Psykana",
+        "Rhino"
       ],
       "leader": "",
       "loadout": "datasheets.15.loadout",
@@ -2397,7 +2397,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [
-                "datasheets.15.rangedWeapons.0.profiles.0.keywords.0"
+                "Rapid Fire 2"
               ],
               "name": "datasheets.15.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
@@ -2415,7 +2415,7 @@
               "attacks": "1",
               "damage": "D6",
               "keywords": [
-                "datasheets.15.rangedWeapons.1.profiles.0.keywords.0"
+                "One Shot"
               ],
               "name": "datasheets.15.rangedWeapons.1.profiles.0.name",
               "range": "48\"",
@@ -2502,12 +2502,12 @@
       "fluff": "datasheets.16.fluff",
       "id": "2973a1e7-49ab-5c6f-a61f-0abefe87bfe5",
       "keywords": [
-        "datasheets.16.keywords.0",
-        "datasheets.16.keywords.1",
-        "datasheets.16.keywords.2",
-        "datasheets.16.keywords.3",
-        "datasheets.16.keywords.4",
-        "datasheets.16.keywords.5"
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Imperium",
+        "Anathema Psykana",
+        "Aleya"
       ],
       "leader": "datasheets.16.leader",
       "loadout": "datasheets.16.loadout",
@@ -2521,8 +2521,8 @@
               "attacks": "4",
               "damage": "3",
               "keywords": [
-                "datasheets.16.meleeWeapons.0.profiles.0.keywords.0",
-                "datasheets.16.meleeWeapons.0.profiles.0.keywords.1"
+                "Devastating Wounds",
+                "Anti-psyker 5+"
               ],
               "name": "datasheets.16.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
@@ -2620,10 +2620,10 @@
       "id": "d711fcf3-cd9c-56e2-936f-3e7d7ce404f1",
       "imperialArmour": true,
       "keywords": [
-        "datasheets.17.keywords.0",
-        "datasheets.17.keywords.1",
-        "datasheets.17.keywords.2",
-        "datasheets.17.keywords.3"
+        "Mounted",
+        "Fly",
+        "Imperium",
+        "Agamatus Custodians"
       ],
       "leader": "",
       "loadout": "datasheets.17.loadout",
@@ -2637,7 +2637,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [
-                "datasheets.17.meleeWeapons.0.profiles.0.keywords.0"
+                "Lance"
               ],
               "name": "datasheets.17.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
@@ -2672,7 +2672,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [
-                "datasheets.17.rangedWeapons.0.profiles.0.keywords.0"
+                "Sustained Hits 1"
               ],
               "name": "datasheets.17.rangedWeapons.0.profiles.0.name",
               "range": "36\"",
@@ -2706,7 +2706,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [
-                "datasheets.17.rangedWeapons.2.profiles.0.keywords.0"
+                "Twin-linked"
               ],
               "name": "datasheets.17.rangedWeapons.2.profiles.0.name",
               "range": "24\"",
@@ -2774,11 +2774,11 @@
       "fluff": "datasheets.18.fluff",
       "id": "bf47a8d1-d746-5e58-a1f7-46863e3c0f38",
       "keywords": [
-        "datasheets.18.keywords.0",
-        "datasheets.18.keywords.1",
-        "datasheets.18.keywords.2",
-        "datasheets.18.keywords.3",
-        "datasheets.18.keywords.4"
+        "Vehicle",
+        "Imperium",
+        "Transport",
+        "Smoke",
+        "Venerable Land Raider"
       ],
       "leader": "",
       "loadout": "datasheets.18.loadout",
@@ -2819,8 +2819,8 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [
-                "datasheets.18.rangedWeapons.0.profiles.0.keywords.0",
-                "datasheets.18.rangedWeapons.0.profiles.0.keywords.1"
+                "Twin-linked",
+                "Sustained Hits 1"
               ],
               "name": "datasheets.18.rangedWeapons.0.profiles.0.name",
               "range": "36\"",
@@ -2854,7 +2854,7 @@
               "attacks": "1",
               "damage": "D6",
               "keywords": [
-                "datasheets.18.rangedWeapons.2.profiles.0.keywords.0"
+                "One Shot"
               ],
               "name": "datasheets.18.rangedWeapons.2.profiles.0.name",
               "range": "48\"",
@@ -2880,7 +2880,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [
-                "datasheets.18.rangedWeapons.3.profiles.0.keywords.0"
+                "Rapid Fire 2"
               ],
               "name": "datasheets.18.rangedWeapons.3.profiles.0.name",
               "range": "24\"",
@@ -2961,9 +2961,9 @@
       "fluff": "datasheets.19.fluff",
       "id": "84afd6cb-2f70-5b2d-87ee-e5c581b96817",
       "keywords": [
-        "datasheets.19.keywords.0",
-        "datasheets.19.keywords.1",
-        "datasheets.19.keywords.2"
+        "Infantry",
+        "Imperium",
+        "Custodian Wardens"
       ],
       "leader": "",
       "loadout": "datasheets.19.loadout",
@@ -3026,7 +3026,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [
-                "datasheets.19.rangedWeapons.0.profiles.0.keywords.0"
+                "Assault"
               ],
               "name": "datasheets.19.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
@@ -3044,7 +3044,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [
-                "datasheets.19.rangedWeapons.1.profiles.0.keywords.0"
+                "Assault"
               ],
               "name": "datasheets.19.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
@@ -3120,10 +3120,10 @@
       "id": "5d5d209e-d797-5a54-b0c4-2ce818faa24b",
       "imperialArmour": true,
       "keywords": [
-        "datasheets.20.keywords.0",
-        "datasheets.20.keywords.1",
-        "datasheets.20.keywords.2",
-        "datasheets.20.keywords.3"
+        "Vehicle",
+        "Fly",
+        "Imperium",
+        "Pallas Grav-attack"
       ],
       "leader": "",
       "loadout": "datasheets.20.loadout",
@@ -3164,8 +3164,8 @@
               "attacks": "8",
               "damage": "1",
               "keywords": [
-                "datasheets.20.rangedWeapons.0.profiles.0.keywords.0",
-                "datasheets.20.rangedWeapons.0.profiles.0.keywords.1"
+                "Twin-linked",
+                "Devastating Wounds"
               ],
               "name": "datasheets.20.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
@@ -3237,10 +3237,10 @@
       "fluff": "datasheets.21.fluff",
       "id": "e3558fff-5623-5899-8bb0-e6a2aa3881cd",
       "keywords": [
-        "datasheets.21.keywords.0",
-        "datasheets.21.keywords.1",
-        "datasheets.21.keywords.2",
-        "datasheets.21.keywords.3"
+        "Mounted",
+        "Fly",
+        "Imperium",
+        "Vertus Praetors"
       ],
       "leader": "",
       "loadout": "datasheets.21.loadout",
@@ -3254,7 +3254,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [
-                "datasheets.21.meleeWeapons.0.profiles.0.keywords.0"
+                "Lance"
               ],
               "name": "datasheets.21.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
@@ -3289,7 +3289,7 @@
               "attacks": "1",
               "damage": "D6+1",
               "keywords": [
-                "datasheets.21.rangedWeapons.0.profiles.0.keywords.0"
+                "Twin-linked"
               ],
               "name": "datasheets.21.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
@@ -3307,8 +3307,8 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [
-                "datasheets.21.rangedWeapons.1.profiles.0.keywords.0",
-                "datasheets.21.rangedWeapons.1.profiles.0.keywords.1"
+                "Twin-linked",
+                "Rapid Fire 3"
               ],
               "name": "datasheets.21.rangedWeapons.1.profiles.0.name",
               "range": "18\"",
@@ -3387,12 +3387,12 @@
       "fluff": "datasheets.22.fluff",
       "id": "12edb3d1-de71-5dce-8515-c95f86fa9b05",
       "keywords": [
-        "datasheets.22.keywords.0",
-        "datasheets.22.keywords.1",
-        "datasheets.22.keywords.2",
-        "datasheets.22.keywords.3",
-        "datasheets.22.keywords.4",
-        "datasheets.22.keywords.5"
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Imperium",
+        "Shield-Captain",
+        "Valerian"
       ],
       "leader": "datasheets.22.leader",
       "loadout": "datasheets.22.loadout",
@@ -3433,7 +3433,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [
-                "datasheets.22.rangedWeapons.0.profiles.0.keywords.0"
+                "Assault"
               ],
               "name": "datasheets.22.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
@@ -3529,11 +3529,11 @@
       "id": "d9fb2942-b113-5191-8a92-f7b99cce3504",
       "imperialArmour": true,
       "keywords": [
-        "datasheets.23.keywords.0",
-        "datasheets.23.keywords.1",
-        "datasheets.23.keywords.2",
-        "datasheets.23.keywords.3",
-        "datasheets.23.keywords.4"
+        "Infantry",
+        "Fly",
+        "Jump Pack",
+        "Imperium",
+        "Venatari Custodians"
       ],
       "leader": "",
       "loadout": "datasheets.23.loadout",
@@ -3547,7 +3547,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [
-                "datasheets.23.meleeWeapons.0.profiles.0.keywords.0"
+                "Lance"
               ],
               "name": "datasheets.23.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
@@ -3582,7 +3582,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [
-                "datasheets.23.rangedWeapons.0.profiles.0.keywords.0"
+                "Assault"
               ],
               "name": "datasheets.23.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
@@ -3600,8 +3600,8 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [
-                "datasheets.23.rangedWeapons.1.profiles.0.keywords.0",
-                "datasheets.23.rangedWeapons.1.profiles.0.keywords.1"
+                "Sustained Hits 1",
+                "Pistol"
               ],
               "name": "datasheets.23.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
@@ -3676,11 +3676,11 @@
       "fluff": "datasheets.24.fluff",
       "id": "6dc40aca-5350-5393-b026-5fb29533920f",
       "keywords": [
-        "datasheets.24.keywords.0",
-        "datasheets.24.keywords.1",
-        "datasheets.24.keywords.2",
-        "datasheets.24.keywords.3",
-        "datasheets.24.keywords.4"
+        "Infantry",
+        "Character",
+        "Terminator",
+        "Imperium",
+        "Shield-Captain"
       ],
       "leader": "datasheets.24.leader",
       "loadout": "datasheets.24.loadout",
@@ -3737,7 +3737,7 @@
               "attacks": "D6",
               "damage": "1",
               "keywords": [
-                "datasheets.24.rangedWeapons.0.profiles.0.keywords.0"
+                "Blast"
               ],
               "name": "datasheets.24.rangedWeapons.0.profiles.0.name",
               "range": "18\"",
@@ -3755,7 +3755,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [
-                "datasheets.24.rangedWeapons.1.profiles.0.keywords.0"
+                "Assault"
               ],
               "name": "datasheets.24.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
@@ -3773,7 +3773,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [
-                "datasheets.24.rangedWeapons.2.profiles.0.keywords.0"
+                "Assault"
               ],
               "name": "datasheets.24.rangedWeapons.2.profiles.0.name",
               "range": "24\"",
@@ -3861,10 +3861,10 @@
       "id": "fd3600e1-2b97-5ed3-9d4f-d943b864caf1",
       "imperialArmour": true,
       "keywords": [
-        "datasheets.25.keywords.0",
-        "datasheets.25.keywords.1",
-        "datasheets.25.keywords.2",
-        "datasheets.25.keywords.3"
+        "Infantry",
+        "Terminator",
+        "Imperium",
+        "Aquilon Custodians"
       ],
       "leader": "",
       "loadout": "datasheets.25.loadout",
@@ -3927,7 +3927,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [
-                "datasheets.25.rangedWeapons.0.profiles.0.keywords.0"
+                "Rapid Fire 2"
               ],
               "name": "datasheets.25.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
@@ -3945,8 +3945,8 @@
               "attacks": "D6",
               "damage": "1",
               "keywords": [
-                "datasheets.25.rangedWeapons.1.profiles.0.keywords.0",
-                "datasheets.25.rangedWeapons.1.profiles.0.keywords.1"
+                "Torrent",
+                "Ignores Cover"
               ],
               "name": "datasheets.25.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
@@ -3964,7 +3964,7 @@
               "attacks": "1",
               "damage": "3",
               "keywords": [
-                "datasheets.25.rangedWeapons.2.profiles.0.keywords.0"
+                "Twin-linked"
               ],
               "name": "datasheets.25.rangedWeapons.2.profiles.0.name",
               "range": "18\"",
@@ -4047,9 +4047,9 @@
       "id": "1f8acce4-6284-5da7-bdae-85ba7d424c25",
       "imperialArmour": true,
       "keywords": [
-        "datasheets.26.keywords.0",
-        "datasheets.26.keywords.1",
-        "datasheets.26.keywords.2"
+        "Infantry",
+        "Imperium",
+        "Custodian Guard with Adrasite and Pyrithite Spears"
       ],
       "leader": "",
       "loadout": "datasheets.26.loadout",
@@ -4122,7 +4122,7 @@
               "attacks": "1",
               "damage": "D6",
               "keywords": [
-                "datasheets.26.rangedWeapons.1.profiles.0.keywords.0"
+                "Melta 2"
               ],
               "name": "datasheets.26.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
@@ -4191,11 +4191,11 @@
       "id": "f0b82110-5f91-5f45-9280-d686ae2823cd",
       "imperialArmour": true,
       "keywords": [
-        "datasheets.27.keywords.0",
-        "datasheets.27.keywords.1",
-        "datasheets.27.keywords.2",
-        "datasheets.27.keywords.3",
-        "datasheets.27.keywords.4"
+        "Vehicle",
+        "Transport",
+        "Fly",
+        "Imperium",
+        "Coronus Grav-carrier"
       ],
       "leader": "",
       "loadout": "datasheets.27.loadout",
@@ -4236,8 +4236,8 @@
               "attacks": "8",
               "damage": "1",
               "keywords": [
-                "datasheets.27.rangedWeapons.0.profiles.0.keywords.0",
-                "datasheets.27.rangedWeapons.0.profiles.0.keywords.1"
+                "Twin-linked",
+                "Devastating Wounds"
               ],
               "name": "datasheets.27.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
@@ -4255,7 +4255,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [
-                "datasheets.27.rangedWeapons.1.profiles.0.keywords.0"
+                "Sustained Hits 1"
               ],
               "name": "datasheets.27.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
@@ -4326,10 +4326,10 @@
       "fluff": "datasheets.28.fluff",
       "id": "c88e2168-63a7-58d4-92f7-599f8240099a",
       "keywords": [
-        "datasheets.28.keywords.0",
-        "datasheets.28.keywords.1",
-        "datasheets.28.keywords.2",
-        "datasheets.28.keywords.3"
+        "Infantry",
+        "Imperium",
+        "Anathema Psykana",
+        "Prosecutors"
       ],
       "leader": "",
       "loadout": "datasheets.28.loadout",
@@ -4388,7 +4388,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [
-                "datasheets.28.rangedWeapons.0.profiles.0.keywords.0"
+                "Rapid Fire 1"
               ],
               "name": "datasheets.28.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
@@ -4473,10 +4473,10 @@
       "fluff": "datasheets.29.fluff",
       "id": "0371022a-b06a-508a-bd11-0c8b08fc8ab4",
       "keywords": [
-        "datasheets.29.keywords.0",
-        "datasheets.29.keywords.1",
-        "datasheets.29.keywords.2",
-        "datasheets.29.keywords.3"
+        "Infantry",
+        "Character",
+        "Imperium",
+        "Shield-Captain"
       ],
       "leader": "datasheets.29.leader",
       "loadout": "datasheets.29.loadout",
@@ -4565,7 +4565,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [
-                "datasheets.29.rangedWeapons.0.profiles.0.keywords.0"
+                "Assault"
               ],
               "name": "datasheets.29.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
@@ -4583,7 +4583,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [
-                "datasheets.29.rangedWeapons.1.profiles.0.keywords.0"
+                "Assault"
               ],
               "name": "datasheets.29.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
@@ -4601,8 +4601,8 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [
-                "datasheets.29.rangedWeapons.2.profiles.0.keywords.0",
-                "datasheets.29.rangedWeapons.2.profiles.0.keywords.1"
+                "Pistol",
+                "Assault"
               ],
               "name": "datasheets.29.rangedWeapons.2.profiles.0.name",
               "range": "12\"",
@@ -4620,7 +4620,7 @@
               "attacks": "1",
               "damage": "D6",
               "keywords": [
-                "datasheets.29.rangedWeapons.3.profiles.0.keywords.0"
+                "Melta 2"
               ],
               "name": "datasheets.29.rangedWeapons.3.profiles.0.name",
               "range": "12\"",
@@ -4710,11 +4710,11 @@
       "fluff": "datasheets.30.fluff",
       "id": "8d484fc2-0de6-5a20-b6fb-888f23a18b3f",
       "keywords": [
-        "datasheets.30.keywords.0",
-        "datasheets.30.keywords.1",
-        "datasheets.30.keywords.2",
-        "datasheets.30.keywords.3",
-        "datasheets.30.keywords.4"
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Imperium",
+        "Trajann Valoris"
       ],
       "leader": "datasheets.30.leader",
       "loadout": "datasheets.30.loadout",
@@ -4755,7 +4755,7 @@
               "attacks": "2",
               "damage": "3",
               "keywords": [
-                "datasheets.30.rangedWeapons.0.profiles.0.keywords.0"
+                "Assault"
               ],
               "name": "datasheets.30.rangedWeapons.0.profiles.0.name",
               "range": "24\"",

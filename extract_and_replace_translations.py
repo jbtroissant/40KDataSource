@@ -44,7 +44,7 @@ os.makedirs(EN_DIR, exist_ok=True)
 TEXT_TYPES = (str,)
 
 # Champs à ignorer (numériques, booléens, techniques)
-IGNORED_FIELDS = {"id", "faction_id", "active", "imperialArmour", "showAbility", "showDescription", "showDamagedAbility", "showDamagedMarker", "showName", "models", "cost", "turn", "phase", "cardType", "source", "updated", "keyword", "keywords", "factions", "faction_id", "parent_id", "is_subfaction", "link"}
+IGNORED_FIELDS = {"id", "faction_id", "active", "imperialArmour", "showAbility", "showDescription", "showDamagedAbility", "showDamagedMarker", "showName", "models", "cost", "turn", "phase", "cardType", "source", "updated", "keyword", "keywords", "factions", "faction_id", "parent_id", "is_subfaction", "link", "points"}
 
 # Champs à ignorer dans les profils d'armes
 PROFILE_FIELDS = {"ap", "attacks", "damage", "name", "range", "skill", "strength"}
@@ -161,6 +161,12 @@ def extract_texts(obj, path=None, translations=None, replaced=None):
                 continue  # On supprime le champ 'link' du JSON traduit
             if k in NEVER_TRANSLATE_FIELDS:
                 temp[k] = v
+                continue
+            if k in ["keywords", "keyword"] and isinstance(v, list) and all(isinstance(i, TEXT_TYPES) and i.strip() != "" for i in v):
+                temp[k] = []
+                for item in v:
+                    translations[item] = item
+                    temp[k].append(item)
                 continue
             if is_enhancement_path(path):
                 if k in ENHANCEMENT_TRANSLATE_FIELDS and isinstance(v, TEXT_TYPES) and v.strip() != "" and not v.strip().startswith("http"):

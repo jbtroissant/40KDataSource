@@ -44,7 +44,7 @@ os.makedirs(EN_DIR, exist_ok=True)
 TEXT_TYPES = (str,)
 
 # Champs à ignorer (numériques, booléens, techniques)
-IGNORED_FIELDS = {"id", "faction_id", "active", "imperialArmour", "showAbility", "showDescription", "showDamagedAbility", "showDamagedMarker", "showName", "models", "cost", "turn", "phase", "cardType", "source", "updated", "keyword", "keywords", "factions", "faction_id", "parent_id", "is_subfaction", "link", "points"}
+IGNORED_FIELDS = {"id", "faction_id", "active", "imperialArmour", "showAbility", "showDescription", "showDamagedAbility", "showDamagedMarker", "showName", "models", "cost", "turn", "phase", "cardType", "source", "updated", "factions", "faction_id", "parent_id", "is_subfaction", "link", "points"}
 
 # Champs à ignorer dans les profils d'armes
 PROFILE_FIELDS = {"ap", "attacks", "damage", "name", "range", "skill", "strength"}
@@ -53,6 +53,15 @@ STATS_FIELDS = {"active", "ld", "m", "oc", "showDamagedMarker", "showName", "sv"
 
 # Ajoute une liste de champs à ne jamais traduire dans certains contextes (ex: invul)
 NEVER_TRANSLATE_FIELDS = {"value", "showInfo", "showInvulnerableSave", "showAtTop", "banner", "header", "allied_factions", "id", "turn", "faction_id", "type", "invul"}
+
+# Liste des mots-clés prioritaires à traduire en premier
+KEYWORDS_PRIORITY = {"Epic Hero", "Character", "Battleline", "Infantry", "Mounted", "Swarm", "Vehicle", "Fortification", "Other", "Fly", "Aircraft"}
+
+# Liste des mots supplémentaires à traduire en premier
+ADDITIONAL_PRIORITY_WORDS = {"Hover", "Deep Strike", "Leader", "Infiltrators", "Lone Operative", "Fights First", "Stealth"}
+
+# Préfixes à traiter en priorité
+PRIORITY_PREFIXES = ["Feel No Pain ", "Scouts ", "Deadly Demise ", "Firing Deck "]
 
 # Fonction utilitaire pour savoir si on est dans un profil d'arme
 PROFILE_PATHS = [
@@ -99,6 +108,52 @@ def clean_key(key):
     key = key.replace(' ', '_').replace('-', '_').replace('’', '').replace("'", "").replace('"', '').replace('.', '').replace(',', '').replace('(', '').replace(')', '').replace('/', '_').replace('?', '').replace(':', '').replace('–', '_').replace('—', '_')
     key = re.sub(r'[^a-zA-Z0-9_]', '', key)
     return key
+
+# --- NOUVEAU : mapping index->nom pour datasheets, stratagems, enhancements, detachments, rules.army ---
+datasheet_index_to_name = {}
+if isinstance(data.get("datasheets"), list):
+    for idx, ds in enumerate(data["datasheets"]):
+        ds_name = ds.get("name")
+        if ds_name:
+            datasheet_index_to_name[str(idx)] = clean_key(ds_name)
+
+stratagem_index_to_name = {}
+if isinstance(data.get("stratagems"), list):
+    for idx, strat in enumerate(data["stratagems"]):
+        strat_name = strat.get("name")
+        if strat_name:
+            stratagem_index_to_name[str(idx)] = clean_key(strat_name)
+
+enhancement_index_to_name = {}
+if isinstance(data.get("enhancements"), list):
+    for idx, enh in enumerate(data["enhancements"]):
+        enh_name = enh.get("name")
+        if enh_name:
+            enhancement_index_to_name[str(idx)] = clean_key(enh_name)
+
+detachment_index_to_name = {}
+if isinstance(data.get("detachments"), list):
+    for idx, det in enumerate(data["detachments"]):
+        if isinstance(det, dict):
+            det_name = det.get("name")
+        elif isinstance(det, str):
+            det_name = det
+        else:
+            continue
+        if det_name:
+            detachment_index_to_name[str(idx)] = clean_key(det_name)
+
+army_rule_index_to_name = {}
+if isinstance(data.get("rules"), dict) and isinstance(data["rules"].get("army"), list):
+    for idx, rule in enumerate(data["rules"]["army"]):
+        if isinstance(rule, dict):
+            rule_name = rule.get("name")
+        elif isinstance(rule, str):
+            rule_name = rule
+        else:
+            continue
+        if rule_name:
+            army_rule_index_to_name[str(idx)] = clean_key(rule_name)
 
 def extract_texts_nested(obj):
     """
@@ -151,10 +206,76 @@ def extract_texts(obj, path=None, translations=None, replaced=None, value_to_key
     if value_to_key is None:
         value_to_key = {}
 
+    def is_priority_value(val):
+        return (
+            val in KEYWORDS_PRIORITY
+            or val in ADDITIONAL_PRIORITY_WORDS
+            or any(val.startswith(prefix) for prefix in PRIORITY_PREFIXES)
+        )
+
     def make_key(path, k):
-        if not path:
-            return 'root.' + clean_key(str(k))
-        return '.'.join(path + [clean_key(str(k))])
+        # --- NOUVEAU : remplace l'index de datasheet, stratagem, enhancement, detachment, rules.army par le nom ---
+        new_path = []
+        i = 0
+        while i < len(path):
+            if path[i] == "datasheets" and i+1 < len(path):
+                idx = path[i+1]
+                if idx in datasheet_index_to_name:
+                    new_path.append("datasheets")
+                    new_path.append(datasheet_index_to_name[idx])
+                    i += 2
+                    continue
+            if path[i] == "stratagems" and i+1 < len(path):
+                idx = path[i+1]
+                if idx in stratagem_index_to_name:
+                    new_path.append("stratagems")
+                    new_path.append(stratagem_index_to_name[idx])
+                    i += 2
+                    continue
+            if path[i] == "enhancements" and i+1 < len(path):
+                idx = path[i+1]
+                if idx in enhancement_index_to_name:
+                    new_path.append("enhancements")
+                    new_path.append(enhancement_index_to_name[idx])
+                    i += 2
+                    continue
+            if path[i] == "detachments" and i+1 < len(path):
+                idx = path[i+1]
+                if idx in detachment_index_to_name:
+                    new_path.append("detachments")
+                    new_path.append(detachment_index_to_name[idx])
+                    i += 2
+                    continue
+            if path[i] == "rules" and i+1 < len(path) and path[i+1] == "army" and i+2 < len(path):
+                idx = path[i+2]
+                if idx in army_rule_index_to_name:
+                    new_path.append("rules")
+                    new_path.append("army")
+                    new_path.append(army_rule_index_to_name[idx])
+                    i += 3
+                    continue
+            new_path.append(path[i])
+            i += 1
+        # Pour la clé courante
+        if k == "datasheets" and len(path) > 0 and path[-1] in datasheet_index_to_name:
+            new_path.append("datasheets")
+            new_path.append(datasheet_index_to_name[path[-1]])
+        elif k == "stratagems" and len(path) > 0 and path[-1] in stratagem_index_to_name:
+            new_path.append("stratagems")
+            new_path.append(stratagem_index_to_name[path[-1]])
+        elif k == "enhancements" and len(path) > 0 and path[-1] in enhancement_index_to_name:
+            new_path.append("enhancements")
+            new_path.append(enhancement_index_to_name[path[-1]])
+        elif k == "detachments" and len(path) > 0 and path[-1] in detachment_index_to_name:
+            new_path.append("detachments")
+            new_path.append(detachment_index_to_name[path[-1]])
+        elif k == "army" and len(path) > 1 and path[-2] == "rules" and path[-1] in army_rule_index_to_name:
+            new_path.append("rules")
+            new_path.append("army")
+            new_path.append(army_rule_index_to_name[path[-1]])
+        else:
+            new_path.append(clean_key(str(k)))
+        return '.'.join(new_path)
 
     if isinstance(obj, dict):
         temp = {}
@@ -171,11 +292,20 @@ def extract_texts(obj, path=None, translations=None, replaced=None, value_to_key
                 temp[k] = []
                 for item in v:
                     translations[item] = item
+                    value_to_key[item] = item
                     temp[k].append(item)
                 continue
+            if isinstance(v, TEXT_TYPES) and v.strip() != "" and not v.strip().startswith("http"):
+                if is_priority_value(v):
+                    translations[v] = v
+                    value_to_key[v] = v
+                    temp[k] = v
+                    continue
             if is_enhancement_path(path):
                 if k in ENHANCEMENT_TRANSLATE_FIELDS and isinstance(v, TEXT_TYPES) and v.strip() != "" and not v.strip().startswith("http"):
-                    if v in value_to_key:
+                    if is_priority_value(v):
+                        key = v
+                    elif v in value_to_key:
                         key = value_to_key[v]
                     else:
                         key = make_key(path, k)
@@ -188,7 +318,9 @@ def extract_texts(obj, path=None, translations=None, replaced=None, value_to_key
                     continue
             if is_stratagem_path(path):
                 if isinstance(v, TEXT_TYPES) and v.strip() != "" and not v.strip().startswith("http"):
-                    if v in value_to_key:
+                    if is_priority_value(v):
+                        key = v
+                    elif v in value_to_key:
                         key = value_to_key[v]
                     else:
                         key = make_key(path, k)
@@ -202,7 +334,9 @@ def extract_texts(obj, path=None, translations=None, replaced=None, value_to_key
             new_path = path + [clean_key(str(k))]
             if is_profile_path(path):
                 if k == "name" and isinstance(v, TEXT_TYPES) and v.strip() != "" and not v.strip().startswith("http"):
-                    if v in value_to_key:
+                    if is_priority_value(v):
+                        key = v
+                    elif v in value_to_key:
                         key = value_to_key[v]
                     else:
                         key = make_key(path, k)
@@ -217,7 +351,9 @@ def extract_texts(obj, path=None, translations=None, replaced=None, value_to_key
                 temp[k] = v
                 continue
             if isinstance(v, TEXT_TYPES) and v.strip() != "" and not v.strip().startswith("http"):
-                if v in value_to_key:
+                if is_priority_value(v):
+                    key = v
+                elif v in value_to_key:
                     key = value_to_key[v]
                 else:
                     key = make_key(path, k)
@@ -228,7 +364,9 @@ def extract_texts(obj, path=None, translations=None, replaced=None, value_to_key
                 if v and all(isinstance(i, TEXT_TYPES) and i.strip() != "" for i in v):
                     temp[k] = []
                     for idx, item in enumerate(v):
-                        if item in value_to_key:
+                        if is_priority_value(item):
+                            key = item
+                        elif item in value_to_key:
                             key = value_to_key[item]
                         else:
                             key = make_key(new_path, str(idx))
@@ -249,7 +387,9 @@ def extract_texts(obj, path=None, translations=None, replaced=None, value_to_key
                             else:
                                 sublist.append(sub)
                         elif isinstance(item, TEXT_TYPES) and item.strip() != "" and not item.strip().startswith("http"):
-                            if item in value_to_key:
+                            if is_priority_value(item):
+                                key = item
+                            elif item in value_to_key:
                                 key = value_to_key[item]
                             else:
                                 key = make_key(new_path, str(idx))
@@ -284,7 +424,9 @@ def extract_texts(obj, path=None, translations=None, replaced=None, value_to_key
                 else:
                     sublist.append(sub)
             elif isinstance(item, TEXT_TYPES) and item.strip() != "" and not item.strip().startswith("http"):
-                if item in value_to_key:
+                if is_priority_value(item):
+                    key = item
+                elif item in value_to_key:
                     key = value_to_key[item]
                 else:
                     key = make_key(path, str(idx))
@@ -495,4 +637,13 @@ OUTPUT_FILE = f'{data_id}.translated.json'
 with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
     json.dump(replaced, f, ensure_ascii=False, indent=2)
 
-print(f"Extraction terminée. Fichiers à plat dans {FLAT_FILE_FR} et {FLAT_FILE_EN}, JSON modifié dans {OUTPUT_FILE}.") 
+print(f"Extraction terminée. Fichiers à plat dans {FLAT_FILE_FR} et {FLAT_FILE_EN}, JSON modifié dans {OUTPUT_FILE}.")
+
+# Initialisation des traductions prioritaires AVANT extraction
+PRIORITY_VALUES = set(KEYWORDS_PRIORITY) | set(ADDITIONAL_PRIORITY_WORDS)
+for prefix in PRIORITY_PREFIXES:
+    # On ne peut pas connaître toutes les valeurs commençant par un préfixe à l'avance, donc on ne pré-remplit que les mots connus
+    pass
+for val in PRIORITY_VALUES:
+    # On force la clé à être la valeur elle-même
+    pass 

@@ -159,6 +159,9 @@ def extract_texts(obj, path=None, translations=None, replaced=None):
         for k, v in obj.items():
             if k == "link":
                 continue  # On supprime le champ 'link' du JSON traduit
+            if k in IGNORED_FIELDS:
+                temp[k] = v
+                continue
             if k in NEVER_TRANSLATE_FIELDS:
                 temp[k] = v
                 continue

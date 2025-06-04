@@ -40,12 +40,12 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.0.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.0.composition.0"
       ],
       "factions": [
-        "datasheets.0.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.0.fluff",
@@ -96,9 +96,9 @@
       "name": "datasheets.0.name",
       "points": [
         {
-          "cost": "datasheets.0.points.0.cost",
+          "cost": "225",
           "keyword": null,
-          "models": "datasheets.0.points.0.models",
+          "models": "1",
           "active": true
         }
       ],
@@ -175,7 +175,7 @@
           ]
         }
       ],
-      "source": "datasheets.0.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -222,12 +222,12 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.1.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.1.composition.0"
       ],
       "factions": [
-        "datasheets.1.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.1.fluff",
@@ -264,9 +264,9 @@
       "name": "datasheets.1.name",
       "points": [
         {
-          "cost": "datasheets.1.points.0.cost",
+          "cost": "155",
           "keyword": null,
-          "models": "datasheets.1.points.0.models",
+          "models": "1",
           "active": true
         }
       ],
@@ -343,7 +343,7 @@
           ]
         }
       ],
-      "source": "datasheets.1.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -390,12 +390,12 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.2.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.2.composition.0"
       ],
       "factions": [
-        "datasheets.2.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.2.fluff",
@@ -430,9 +430,9 @@
       "name": "datasheets.2.name",
       "points": [
         {
-          "cost": "datasheets.2.points.0.cost",
+          "cost": "165",
           "keyword": null,
-          "models": "datasheets.2.points.0.models",
+          "models": "1",
           "active": true
         }
       ],
@@ -458,7 +458,7 @@
           ]
         }
       ],
-      "source": "datasheets.2.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -505,12 +505,12 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.3.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.3.composition.0"
       ],
       "factions": [
-        "datasheets.3.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.3.fluff",
@@ -544,9 +544,9 @@
       "name": "datasheets.3.name",
       "points": [
         {
-          "cost": "datasheets.3.points.0.cost",
+          "cost": "170",
           "keyword": null,
-          "models": "datasheets.3.points.0.models",
+          "models": "1",
           "active": true
         }
       ],
@@ -606,7 +606,7 @@
           ]
         }
       ],
-      "source": "datasheets.3.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -660,12 +660,12 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.4.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.4.composition.0"
       ],
       "factions": [
-        "datasheets.4.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.4.fluff",
@@ -727,14 +727,14 @@
       "name": "datasheets.4.name",
       "points": [
         {
-          "cost": "datasheets.4.points.0.cost",
+          "cost": "120",
           "keyword": null,
-          "models": "datasheets.4.points.0.models",
+          "models": "1",
           "active": true
         }
       ],
       "rangedWeapons": [],
-      "source": "datasheets.4.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -788,12 +788,12 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.5.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.5.composition.0"
       ],
       "factions": [
-        "datasheets.5.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.5.fluff",
@@ -828,9 +828,9 @@
       "name": "datasheets.5.name",
       "points": [
         {
-          "cost": "datasheets.5.points.0.cost",
+          "cost": "215",
           "keyword": null,
-          "models": "datasheets.5.points.0.models",
+          "models": "1",
           "active": true
         }
       ],
@@ -891,7 +891,7 @@
           ]
         }
       ],
-      "source": "datasheets.5.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -951,12 +951,12 @@
           }
         ]
       },
-      "cardType": "datasheets.6.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.6.composition.0"
       ],
       "factions": [
-        "datasheets.6.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.6.fluff",
@@ -1022,27 +1022,27 @@
       "name": "datasheets.6.name",
       "points": [
         {
-          "cost": "datasheets.6.points.0.cost",
+          "cost": "390",
           "keyword": null,
-          "models": "datasheets.6.points.0.models",
+          "models": "6",
           "active": true
         },
         {
-          "cost": "datasheets.6.points.1.cost",
+          "cost": "325",
           "keyword": null,
-          "models": "datasheets.6.points.1.models",
+          "models": "5",
           "active": true
         },
         {
-          "cost": "datasheets.6.points.2.cost",
+          "cost": "195",
           "keyword": null,
-          "models": "datasheets.6.points.2.models",
+          "models": "3",
           "active": true
         },
         {
-          "cost": "datasheets.6.points.3.cost",
+          "cost": "130",
           "keyword": null,
-          "models": "datasheets.6.points.3.models",
+          "models": "2",
           "active": true
         }
       ],
@@ -1102,7 +1102,7 @@
           ]
         }
       ],
-      "source": "datasheets.6.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -1159,12 +1159,12 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.7.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.7.composition.0"
       ],
       "factions": [
-        "datasheets.7.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.7.fluff",
@@ -1202,9 +1202,9 @@
       "name": "datasheets.7.name",
       "points": [
         {
-          "cost": "datasheets.7.points.0.cost",
+          "cost": "150",
           "keyword": null,
-          "models": "datasheets.7.points.0.models",
+          "models": "1",
           "active": true
         }
       ],
@@ -1247,7 +1247,7 @@
           ]
         }
       ],
-      "source": "datasheets.7.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -1302,13 +1302,13 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.8.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.8.composition.0",
         "datasheets.8.composition.1"
       ],
       "factions": [
-        "datasheets.8.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.8.fluff",
@@ -1345,32 +1345,32 @@
       "name": "datasheets.8.name",
       "points": [
         {
-          "cost": "datasheets.8.points.0.cost",
+          "cost": "125",
           "keyword": null,
-          "models": "datasheets.8.points.0.models",
+          "models": "10",
           "active": true
         },
         {
-          "cost": "datasheets.8.points.1.cost",
+          "cost": "115",
           "keyword": null,
-          "models": "datasheets.8.points.1.models",
+          "models": "9",
           "active": true
         },
         {
-          "cost": "datasheets.8.points.2.cost",
+          "cost": "65",
           "keyword": null,
-          "models": "datasheets.8.points.2.models",
+          "models": "5",
           "active": true
         },
         {
-          "cost": "datasheets.8.points.3.cost",
+          "cost": "50",
           "keyword": null,
-          "models": "datasheets.8.points.3.models",
+          "models": "4",
           "active": true
         }
       ],
       "rangedWeapons": [],
-      "source": "datasheets.8.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -1433,12 +1433,12 @@
         ],
         "wargear": []
       },
-      "cardType": "datasheets.9.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.9.composition.0"
       ],
       "factions": [
-        "datasheets.9.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.9.fluff",
@@ -1472,9 +1472,9 @@
       "name": "datasheets.9.name",
       "points": [
         {
-          "cost": "datasheets.9.points.0.cost",
+          "cost": "225",
           "keyword": null,
-          "models": "datasheets.9.points.0.models",
+          "models": "5",
           "active": true
         }
       ],
@@ -1498,7 +1498,7 @@
           ]
         }
       ],
-      "source": "datasheets.9.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -1549,13 +1549,13 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.10.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.10.composition.0",
         "datasheets.10.composition.1"
       ],
       "factions": [
-        "datasheets.10.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.10.fluff",
@@ -1589,27 +1589,27 @@
       "name": "datasheets.10.name",
       "points": [
         {
-          "cost": "datasheets.10.points.0.cost",
+          "cost": "125",
           "keyword": null,
-          "models": "datasheets.10.points.0.models",
+          "models": "10",
           "active": true
         },
         {
-          "cost": "datasheets.10.points.1.cost",
+          "cost": "115",
           "keyword": null,
-          "models": "datasheets.10.points.1.models",
+          "models": "9",
           "active": true
         },
         {
-          "cost": "datasheets.10.points.2.cost",
+          "cost": "65",
           "keyword": null,
-          "models": "datasheets.10.points.2.models",
+          "models": "5",
           "active": true
         },
         {
-          "cost": "datasheets.10.points.3.cost",
+          "cost": "50",
           "keyword": null,
-          "models": "datasheets.10.points.3.models",
+          "models": "4",
           "active": true
         }
       ],
@@ -1634,7 +1634,7 @@
           ]
         }
       ],
-      "source": "datasheets.10.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -1685,12 +1685,12 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.11.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.11.composition.0"
       ],
       "factions": [
-        "datasheets.11.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.11.fluff",
@@ -1726,9 +1726,9 @@
       "name": "datasheets.11.name",
       "points": [
         {
-          "cost": "datasheets.11.points.0.cost",
+          "cost": "580",
           "keyword": null,
-          "models": "datasheets.11.points.0.models",
+          "models": "1",
           "active": true
         }
       ],
@@ -1766,7 +1766,7 @@
           ]
         }
       ],
-      "source": "datasheets.11.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -1838,12 +1838,12 @@
           }
         ]
       },
-      "cardType": "datasheets.12.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.12.composition.0"
       ],
       "factions": [
-        "datasheets.12.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.12.fluff",
@@ -1909,15 +1909,15 @@
       "name": "datasheets.12.name",
       "points": [
         {
-          "cost": "datasheets.12.points.0.cost",
+          "cost": "215",
           "keyword": null,
-          "models": "datasheets.12.points.0.models",
+          "models": "5",
           "active": true
         },
         {
-          "cost": "datasheets.12.points.1.cost",
+          "cost": "170",
           "keyword": null,
-          "models": "datasheets.12.points.1.models",
+          "models": "4",
           "active": true
         }
       ],
@@ -1960,7 +1960,7 @@
           ]
         }
       ],
-      "source": "datasheets.12.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -2015,12 +2015,12 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.13.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.13.composition.0"
       ],
       "factions": [
-        "datasheets.13.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.13.fluff",
@@ -2057,9 +2057,9 @@
       "name": "datasheets.13.name",
       "points": [
         {
-          "cost": "datasheets.13.points.0.cost",
+          "cost": "690",
           "keyword": null,
-          "models": "datasheets.13.points.0.models",
+          "models": "1",
           "active": true
         }
       ],
@@ -2117,7 +2117,7 @@
           ]
         }
       ],
-      "source": "datasheets.13.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -2175,12 +2175,12 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.14.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.14.composition.0"
       ],
       "factions": [
-        "datasheets.14.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.14.fluff",
@@ -2234,9 +2234,9 @@
       "name": "datasheets.14.name",
       "points": [
         {
-          "cost": "datasheets.14.points.0.cost",
+          "cost": "55",
           "keyword": null,
-          "models": "datasheets.14.points.0.models",
+          "models": "1",
           "active": true
         }
       ],
@@ -2279,7 +2279,7 @@
           ]
         }
       ],
-      "source": "datasheets.14.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -2339,12 +2339,12 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.15.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.15.composition.0"
       ],
       "factions": [
-        "datasheets.15.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.15.fluff",
@@ -2381,9 +2381,9 @@
       "name": "datasheets.15.name",
       "points": [
         {
-          "cost": "datasheets.15.points.0.cost",
+          "cost": "75",
           "keyword": null,
-          "models": "datasheets.15.points.0.models",
+          "models": "1",
           "active": true
         }
       ],
@@ -2433,7 +2433,7 @@
           ]
         }
       ],
-      "source": "datasheets.15.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -2491,12 +2491,12 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.16.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.16.composition.0"
       ],
       "factions": [
-        "datasheets.16.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.16.fluff",
@@ -2535,14 +2535,14 @@
       "name": "datasheets.16.name",
       "points": [
         {
-          "cost": "datasheets.16.points.0.cost",
+          "cost": "65",
           "keyword": null,
-          "models": "datasheets.16.points.0.models",
+          "models": "1",
           "active": true
         }
       ],
       "rangedWeapons": [],
-      "source": "datasheets.16.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -2608,12 +2608,12 @@
         ],
         "wargear": []
       },
-      "cardType": "datasheets.17.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.17.composition.0"
       ],
       "factions": [
-        "datasheets.17.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.17.fluff",
@@ -2650,15 +2650,15 @@
       "name": "datasheets.17.name",
       "points": [
         {
-          "cost": "datasheets.17.points.0.cost",
+          "cost": "450",
           "keyword": null,
-          "models": "datasheets.17.points.0.models",
+          "models": "6",
           "active": true
         },
         {
-          "cost": "datasheets.17.points.1.cost",
+          "cost": "225",
           "keyword": null,
-          "models": "datasheets.17.points.1.models",
+          "models": "3",
           "active": true
         }
       ],
@@ -2716,7 +2716,7 @@
           ]
         }
       ],
-      "source": "datasheets.17.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -2763,12 +2763,12 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.18.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.18.composition.0"
       ],
       "factions": [
-        "datasheets.18.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.18.fluff",
@@ -2803,9 +2803,9 @@
       "name": "datasheets.18.name",
       "points": [
         {
-          "cost": "datasheets.18.points.0.cost",
+          "cost": "240",
           "keyword": null,
-          "models": "datasheets.18.points.0.models",
+          "models": "1",
           "active": true
         }
       ],
@@ -2890,7 +2890,7 @@
           ]
         }
       ],
-      "source": "datasheets.18.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -2950,12 +2950,12 @@
           }
         ]
       },
-      "cardType": "datasheets.19.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.19.composition.0"
       ],
       "factions": [
-        "datasheets.19.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.19.fluff",
@@ -3004,15 +3004,15 @@
       "name": "datasheets.19.name",
       "points": [
         {
-          "cost": "datasheets.19.points.0.cost",
+          "cost": "260",
           "keyword": null,
-          "models": "datasheets.19.points.0.models",
+          "models": "5",
           "active": true
         },
         {
-          "cost": "datasheets.19.points.1.cost",
+          "cost": "210",
           "keyword": null,
-          "models": "datasheets.19.points.1.models",
+          "models": "4",
           "active": true
         }
       ],
@@ -3054,7 +3054,7 @@
           ]
         }
       ],
-      "source": "datasheets.19.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -3108,12 +3108,12 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.20.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.20.composition.0"
       ],
       "factions": [
-        "datasheets.20.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.20.fluff",
@@ -3148,9 +3148,9 @@
       "name": "datasheets.20.name",
       "points": [
         {
-          "cost": "datasheets.20.points.0.cost",
+          "cost": "105",
           "keyword": null,
-          "models": "datasheets.20.points.0.models",
+          "models": "1",
           "active": true
         }
       ],
@@ -3175,7 +3175,7 @@
           ]
         }
       ],
-      "source": "datasheets.20.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -3226,12 +3226,12 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.21.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.21.composition.0"
       ],
       "factions": [
-        "datasheets.21.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.21.fluff",
@@ -3267,15 +3267,15 @@
       "name": "datasheets.21.name",
       "points": [
         {
-          "cost": "datasheets.21.points.0.cost",
+          "cost": "225",
           "keyword": null,
-          "models": "datasheets.21.points.0.models",
+          "models": "3",
           "active": true
         },
         {
-          "cost": "datasheets.21.points.1.cost",
+          "cost": "150",
           "keyword": null,
-          "models": "datasheets.21.points.1.models",
+          "models": "2",
           "active": true
         }
       ],
@@ -3318,7 +3318,7 @@
           ]
         }
       ],
-      "source": "datasheets.21.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -3376,12 +3376,12 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.22.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.22.composition.0"
       ],
       "factions": [
-        "datasheets.22.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.22.fluff",
@@ -3417,9 +3417,9 @@
       "name": "datasheets.22.name",
       "points": [
         {
-          "cost": "datasheets.22.points.0.cost",
+          "cost": "110",
           "keyword": null,
-          "models": "datasheets.22.points.0.models",
+          "models": "1",
           "active": true
         }
       ],
@@ -3443,7 +3443,7 @@
           ]
         }
       ],
-      "source": "datasheets.22.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -3517,12 +3517,12 @@
           }
         ]
       },
-      "cardType": "datasheets.23.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.23.composition.0"
       ],
       "factions": [
-        "datasheets.23.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.23.fluff",
@@ -3560,15 +3560,15 @@
       "name": "datasheets.23.name",
       "points": [
         {
-          "cost": "datasheets.23.points.0.cost",
+          "cost": "330",
           "keyword": null,
-          "models": "datasheets.23.points.0.models",
+          "models": "6",
           "active": true
         },
         {
-          "cost": "datasheets.23.points.1.cost",
+          "cost": "165",
           "keyword": null,
-          "models": "datasheets.23.points.1.models",
+          "models": "3",
           "active": true
         }
       ],
@@ -3611,7 +3611,7 @@
           ]
         }
       ],
-      "source": "datasheets.23.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -3665,12 +3665,12 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.24.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.24.composition.0"
       ],
       "factions": [
-        "datasheets.24.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.24.fluff",
@@ -3721,9 +3721,9 @@
       "name": "datasheets.24.name",
       "points": [
         {
-          "cost": "datasheets.24.points.0.cost",
+          "cost": "130",
           "keyword": null,
-          "models": "datasheets.24.points.0.models",
+          "models": "1",
           "active": true
         }
       ],
@@ -3783,7 +3783,7 @@
           ]
         }
       ],
-      "source": "datasheets.24.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -3849,12 +3849,12 @@
         ],
         "wargear": []
       },
-      "cardType": "datasheets.25.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.25.composition.0"
       ],
       "factions": [
-        "datasheets.25.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.25.fluff",
@@ -3905,15 +3905,15 @@
       "name": "datasheets.25.name",
       "points": [
         {
-          "cost": "datasheets.25.points.0.cost",
+          "cost": "390",
           "keyword": null,
-          "models": "datasheets.25.points.0.models",
+          "models": "6",
           "active": true
         },
         {
-          "cost": "datasheets.25.points.1.cost",
+          "cost": "195",
           "keyword": null,
-          "models": "datasheets.25.points.1.models",
+          "models": "3",
           "active": true
         }
       ],
@@ -3974,7 +3974,7 @@
           ]
         }
       ],
-      "source": "datasheets.25.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -4035,12 +4035,12 @@
         ],
         "wargear": []
       },
-      "cardType": "datasheets.26.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.26.composition.0"
       ],
       "factions": [
-        "datasheets.26.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.26.fluff",
@@ -4090,9 +4090,9 @@
       "name": "datasheets.26.name",
       "points": [
         {
-          "cost": "datasheets.26.points.0.cost",
+          "cost": "250",
           "keyword": null,
-          "models": "datasheets.26.points.0.models",
+          "models": "5",
           "active": true
         }
       ],
@@ -4132,7 +4132,7 @@
           ]
         }
       ],
-      "source": "datasheets.26.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -4179,12 +4179,12 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.27.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.27.composition.0"
       ],
       "factions": [
-        "datasheets.27.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.27.fluff",
@@ -4220,9 +4220,9 @@
       "name": "datasheets.27.name",
       "points": [
         {
-          "cost": "datasheets.27.points.0.cost",
+          "cost": "200",
           "keyword": null,
-          "models": "datasheets.27.points.0.models",
+          "models": "1",
           "active": true
         }
       ],
@@ -4265,7 +4265,7 @@
           ]
         }
       ],
-      "source": "datasheets.27.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -4314,13 +4314,13 @@
         "special": [],
         "wargear": []
       },
-      "cardType": "datasheets.28.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.28.composition.0",
         "datasheets.28.composition.1"
       ],
       "factions": [
-        "datasheets.28.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.28.fluff",
@@ -4354,27 +4354,27 @@
       "name": "datasheets.28.name",
       "points": [
         {
-          "cost": "datasheets.28.points.0.cost",
+          "cost": "100",
           "keyword": null,
-          "models": "datasheets.28.points.0.models",
+          "models": "10",
           "active": true
         },
         {
-          "cost": "datasheets.28.points.1.cost",
+          "cost": "90",
           "keyword": null,
-          "models": "datasheets.28.points.1.models",
+          "models": "9",
           "active": true
         },
         {
-          "cost": "datasheets.28.points.2.cost",
+          "cost": "50",
           "keyword": null,
-          "models": "datasheets.28.points.2.models",
+          "models": "5",
           "active": true
         },
         {
-          "cost": "datasheets.28.points.3.cost",
+          "cost": "40",
           "keyword": null,
-          "models": "datasheets.28.points.3.models",
+          "models": "4",
           "active": true
         }
       ],
@@ -4398,7 +4398,7 @@
           ]
         }
       ],
-      "source": "datasheets.28.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -4462,12 +4462,12 @@
           }
         ]
       },
-      "cardType": "datasheets.29.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.29.composition.0"
       ],
       "factions": [
-        "datasheets.29.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.29.fluff",
@@ -4549,9 +4549,9 @@
       "name": "datasheets.29.name",
       "points": [
         {
-          "cost": "datasheets.29.points.0.cost",
+          "cost": "130",
           "keyword": null,
-          "models": "datasheets.29.points.0.models",
+          "models": "1",
           "active": true
         }
       ],
@@ -4630,7 +4630,7 @@
           ]
         }
       ],
-      "source": "datasheets.29.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -4699,12 +4699,12 @@
         ],
         "wargear": []
       },
-      "cardType": "datasheets.30.cardType",
+      "cardType": "DataCard",
       "composition": [
         "datasheets.30.composition.0"
       ],
       "factions": [
-        "datasheets.30.factions.0"
+        "Adeptus Custodes"
       ],
       "faction_id": "AC",
       "fluff": "datasheets.30.fluff",
@@ -4739,9 +4739,9 @@
       "name": "datasheets.30.name",
       "points": [
         {
-          "cost": "datasheets.30.points.0.cost",
+          "cost": "140",
           "keyword": null,
-          "models": "datasheets.30.points.0.models",
+          "models": "1",
           "active": true
         }
       ],
@@ -4765,7 +4765,7 @@
           ]
         }
       ],
-      "source": "datasheets.30.source",
+      "source": "40k-10e",
       "stats": [
         {
           "active": true,
@@ -5853,5 +5853,5 @@
       }
     ]
   },
-  "updated": "root.updated"
+  "updated": "2025-05-29T08:37:08.003Z"
 }

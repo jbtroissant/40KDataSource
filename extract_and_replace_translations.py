@@ -12,11 +12,22 @@ if len(sys.argv) < 2:
 
 INPUT_FILE = sys.argv[1]
 BASENAME = os.path.splitext(os.path.basename(INPUT_FILE))[0]
+
+# --- NOUVEAU : Charger le JSON pour récupérer l'id, sauf pour core ---
+with open(INPUT_FILE, encoding='utf-8') as f:
+    data = json.load(f)
+
+if BASENAME == "core":
+    data_id = BASENAME
+else:
+    data_id = data.get("id", BASENAME)
+# --- FIN NOUVEAU ---
+
 FR_DIR = 'fr'
 EN_DIR = 'en'
-TRANSLATION_FILE_FR = os.path.join(FR_DIR, f'{BASENAME}.json')
-TRANSLATION_FILE_EN = os.path.join(EN_DIR, f'{BASENAME}.json')
-OUTPUT_FILE = os.path.join(EN_DIR, f'{BASENAME}.translated.json')
+TRANSLATION_FILE_FR = os.path.join(FR_DIR, f'{data_id}.json')
+TRANSLATION_FILE_EN = os.path.join(EN_DIR, f'{data_id}.json')
+OUTPUT_FILE = os.path.join(EN_DIR, f'{data_id}.translated.json')
 
 ARCHIVE_DIR = 'archive'
 os.makedirs(ARCHIVE_DIR, exist_ok=True)
@@ -247,16 +258,12 @@ def extract_texts(obj, path=None, translations=None, replaced=None):
         replaced.extend(sublist)
     return translations, replaced
 
-# Lecture du fichier d'entrée
-with open(INPUT_FILE, encoding='utf-8') as f:
-    data = json.load(f)
-
 # Extraction et remplacement
 translations, replaced = extract_texts(data)
 
 # Fichiers à plat uniquement
-FLAT_FILE_FR = os.path.join(FR_DIR, f'{BASENAME}.flat.json')
-FLAT_FILE_EN = os.path.join(EN_DIR, f'{BASENAME}.flat.json')
+FLAT_FILE_FR = os.path.join(FR_DIR, f'{data_id}.flat.json')
+FLAT_FILE_EN = os.path.join(EN_DIR, f'{data_id}.flat.json')
 
 with open(FLAT_FILE_FR, 'w', encoding='utf-8') as f:
     json.dump(translations, f, ensure_ascii=False, indent=2)
@@ -264,7 +271,7 @@ with open(FLAT_FILE_EN, 'w', encoding='utf-8') as f:
     json.dump(translations, f, ensure_ascii=False, indent=2)
 
 # Fichier JSON modifié (clé à la place du texte) à la racine
-OUTPUT_FILE = f'{BASENAME}.translated.json'
+OUTPUT_FILE = f'{data_id}.translated.json'
 with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
     json.dump(replaced, f, ensure_ascii=False, indent=2)
 

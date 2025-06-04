@@ -1,0 +1,185 @@
+{
+  "id": "basic",
+  "name": "root.name",
+  "is_subfaction": false,
+  "parent_id": "",
+  "stratagems": [
+    {
+      "name": "stratagems.0.name",
+      "cost": 1,
+      "type": "Battle Tactic",
+      "detachment": "stratagems.0.detachment",
+      "turn": "either",
+      "phase": [
+        "any"
+      ],
+      "fluff": "stratagems.0.fluff",
+      "when": "stratagems.0.when",
+      "target": "stratagems.0.target",
+      "effect": "stratagems.0.effect",
+      "restrictions": "",
+      "id": "a6ee2a41-08de-5074-a280-d462d39e3221"
+    },
+    {
+      "name": "stratagems.1.name",
+      "cost": 2,
+      "type": "Strategic Ploy",
+      "detachment": "stratagems.1.detachment",
+      "turn": "either",
+      "phase": [
+        "fight"
+      ],
+      "fluff": "stratagems.1.fluff",
+      "when": "stratagems.1.when",
+      "target": "stratagems.1.target",
+      "effect": "stratagems.1.effect",
+      "restrictions": "",
+      "id": "8e075319-3671-5975-a839-5485f45d0437"
+    },
+    {
+      "name": "stratagems.2.name",
+      "cost": 1,
+      "type": "Epic Deed",
+      "detachment": "stratagems.2.detachment",
+      "turn": "either",
+      "phase": [
+        "fight"
+      ],
+      "fluff": "stratagems.2.fluff",
+      "when": "stratagems.2.when",
+      "target": "stratagems.2.target",
+      "effect": "stratagems.2.effect",
+      "restrictions": "",
+      "id": "11aba36e-9ccf-582f-8289-5dd51ad6ac8a"
+    },
+    {
+      "name": "stratagems.3.name",
+      "cost": 1,
+      "type": "Battle Tactic",
+      "detachment": "stratagems.3.detachment",
+      "turn": "your",
+      "phase": [
+        "command"
+      ],
+      "fluff": "stratagems.3.fluff",
+      "when": "stratagems.3.when",
+      "target": "stratagems.3.target",
+      "effect": "stratagems.3.effect",
+      "restrictions": "stratagems.3.restrictions",
+      "id": "5b3e02bf-cad7-5fff-a5f1-4dfa8c760250"
+    },
+    {
+      "name": "stratagems.4.name",
+      "cost": 1,
+      "type": "Wargear",
+      "detachment": "stratagems.4.detachment",
+      "turn": "your",
+      "phase": [
+        "shooting"
+      ],
+      "fluff": "stratagems.4.fluff",
+      "when": "stratagems.4.when",
+      "target": "stratagems.4.target",
+      "effect": "stratagems.4.effect",
+      "restrictions": "",
+      "id": "52dab932-b07b-506e-959d-27ee2e60bbd5"
+    },
+    {
+      "name": "stratagems.5.name",
+      "cost": 1,
+      "type": "Strategic Ploy",
+      "detachment": "stratagems.5.detachment",
+      "turn": "your",
+      "phase": [
+        "charge"
+      ],
+      "fluff": "stratagems.5.fluff",
+      "when": "stratagems.5.when",
+      "target": "stratagems.5.target",
+      "effect": "stratagems.5.effect",
+      "restrictions": "",
+      "id": "d25811f9-66de-5e35-8b1c-23884fea64da"
+    },
+    {
+      "name": "stratagems.6.name",
+      "cost": 1,
+      "type": "Strategic Ploy",
+      "detachment": "stratagems.6.detachment",
+      "turn": "opponents",
+      "phase": [
+        "movement"
+      ],
+      "fluff": "stratagems.6.fluff",
+      "when": "stratagems.6.when",
+      "target": "stratagems.6.target",
+      "effect": "stratagems.6.effect",
+      "restrictions": "stratagems.6.restrictions",
+      "id": "cc0f849d-d718-57f0-a774-52b222e0a8b6"
+    },
+    {
+      "name": "stratagems.7.name",
+      "cost": 1,
+      "type": "Strategic Ploy",
+      "detachment": "stratagems.7.detachment",
+      "turn": "opponents",
+      "phase": [
+        "movement",
+        "charge"
+      ],
+      "fluff": "stratagems.7.fluff",
+      "when": "stratagems.7.when",
+      "target": "stratagems.7.target",
+      "effect": "stratagems.7.effect",
+      "restrictions": "stratagems.7.restrictions",
+      "id": "70cf80df-528e-5d6e-9e31-3881f5546b65"
+    },
+    {
+      "name": "stratagems.8.name",
+      "cost": 1,
+      "type": "Battle Tactic",
+      "detachment": "stratagems.8.detachment",
+      "turn": "opponents",
+      "phase": [
+        "shooting"
+      ],
+      "fluff": "stratagems.8.fluff",
+      "when": "stratagems.8.when",
+      "target": "stratagems.8.target",
+      "effect": "stratagems.8.effect",
+      "restrictions": "",
+      "id": "5866a10e-e651-56ed-a836-fbdc20c4fca8"
+    },
+    {
+      "name": "stratagems.9.name",
+      "cost": 1,
+      "type": "Wargear",
+      "detachment": "stratagems.9.detachment",
+      "turn": "opponents",
+      "phase": [
+        "shooting"
+      ],
+      "fluff": "stratagems.9.fluff",
+      "when": "stratagems.9.when",
+      "target": "stratagems.9.target",
+      "effect": "stratagems.9.effect",
+      "restrictions": "",
+      "id": "d897c750-0307-5882-a9e8-5fa029e8b64e"
+    },
+    {
+      "name": "stratagems.10.name",
+      "cost": 1,
+      "type": "Strategic Ploy",
+      "detachment": "stratagems.10.detachment",
+      "turn": "opponents",
+      "phase": [
+        "charge"
+      ],
+      "fluff": "stratagems.10.fluff",
+      "when": "stratagems.10.when",
+      "target": "stratagems.10.target",
+      "effect": "stratagems.10.effect",
+      "restrictions": "stratagems.10.restrictions",
+      "id": "4cc92859-0fb8-5eb8-9856-88b5e151a561"
+    }
+  ]
+}

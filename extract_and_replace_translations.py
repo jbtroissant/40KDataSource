@@ -52,7 +52,7 @@ PROFILE_FIELDS = {"ap", "attacks", "damage", "name", "range", "skill", "strength
 STATS_FIELDS = {"active", "ld", "m", "oc", "showDamagedMarker", "showName", "sv", "t", "w"}
 
 # Ajoute une liste de champs à ne jamais traduire dans certains contextes (ex: invul)
-NEVER_TRANSLATE_FIELDS = {"value", "showInfo", "showInvulnerableSave", "showAtTop", "banner", "header", "allied_factions", "id", "turn", "faction_id", "type"}
+NEVER_TRANSLATE_FIELDS = {"value", "showInfo", "showInvulnerableSave", "showAtTop", "banner", "header", "allied_factions", "id", "turn", "faction_id", "type", "invul"}
 
 # Fonction utilitaire pour savoir si on est dans un profil d'arme
 PROFILE_PATHS = [
@@ -257,6 +257,187 @@ def extract_texts(obj, path=None, translations=None, replaced=None):
         replaced.clear()
         replaced.extend(sublist)
     return translations, replaced
+
+# --- NOUVEAU : Fonction pour réorganiser les enhancements ---
+def reorganize_enhancements(data):
+    if BASENAME == "core":
+        return data
+        
+    if "enhancements" not in data:
+        return data
+
+    enhancements = data.pop("enhancements")
+    
+    # Si pas de détachements, on les crée
+    if "detachments" not in data:
+        data["detachments"] = []
+
+    # Pour chaque enhancement
+    for enhancement in enhancements:
+        detachment_name = enhancement.get("detachment", "")
+        if not detachment_name:
+            continue
+
+        # Supprime la clé 'detachment' de l'enhancement
+        enhancement.pop("detachment", None)
+
+        # Cherche le détachement correspondant
+        found = False
+        for i, detachment in enumerate(data["detachments"]):
+            # Si le détachement est une chaîne, on le compare directement
+            if isinstance(detachment, str) and detachment == detachment_name:
+                # Convertit le détachement en objet
+                data["detachments"][i] = {
+                    "name": detachment_name,
+                    "enhancements": [enhancement]
+                }
+                found = True
+                break
+            # Si le détachement est un objet, on compare son nom
+            elif isinstance(detachment, dict) and detachment.get("name") == detachment_name:
+                if "enhancements" not in detachment:
+                    detachment["enhancements"] = []
+                detachment["enhancements"].append(enhancement)
+                found = True
+                break
+
+        # Si le détachement n'existe pas, on le crée
+        if not found:
+            new_detachment = {
+                "name": detachment_name,
+                "enhancements": [enhancement]
+            }
+            data["detachments"].append(new_detachment)
+
+    return data
+
+# --- NOUVEAU : Fonction pour réorganiser les règles de détachement ---
+def reorganize_detachment_rules(data):
+    if BASENAME == "core":
+        return data
+        
+    if "rules" not in data or "detachment" not in data["rules"]:
+        return data
+
+    detachment_rules = data["rules"].pop("detachment")
+    
+    # Si pas de détachements, on les crée
+    if "detachments" not in data:
+        data["detachments"] = []
+
+    # Pour chaque règle de détachement
+    for rule in detachment_rules:
+        detachment_name = rule.get("detachment", "")
+        if not detachment_name:
+            continue
+
+        # Supprime la clé 'detachment' de la règle
+        rule.pop("detachment", None)
+
+        # Cherche le détachement correspondant
+        found = False
+        for i, detachment in enumerate(data["detachments"]):
+            # Si le détachement est une chaîne, on le compare directement
+            if isinstance(detachment, str) and detachment == detachment_name:
+                # Convertit le détachement en objet
+                data["detachments"][i] = {
+                    "name": detachment_name,
+                    "rules": [rule]
+                }
+                found = True
+                break
+            # Si le détachement est un objet, on compare son nom
+            elif isinstance(detachment, dict) and detachment.get("name") == detachment_name:
+                if "rules" not in detachment:
+                    detachment["rules"] = []
+                detachment["rules"].append(rule)
+                found = True
+                break
+
+        # Si le détachement n'existe pas, on le crée
+        if not found:
+            new_detachment = {
+                "name": detachment_name,
+                "rules": [rule]
+            }
+            data["detachments"].append(new_detachment)
+
+    return data
+
+# --- NOUVEAU : Fonction pour réorganiser les stratagèmes ---
+def reorganize_stratagems(data):
+    if BASENAME == "core":
+        return data
+        
+    if "stratagems" not in data:
+        return data
+
+    stratagems = data.pop("stratagems")
+    
+    # Si pas de détachements, on les crée
+    if "detachments" not in data:
+        data["detachments"] = []
+
+    # Pour chaque stratagème
+    for stratagem in stratagems:
+        detachment_name = stratagem.get("detachment", "")
+        if not detachment_name:
+            continue
+
+        # Supprime la clé 'detachment' du stratagème
+        stratagem.pop("detachment", None)
+
+        # Cherche le détachement correspondant
+        found = False
+        for i, detachment in enumerate(data["detachments"]):
+            # Si le détachement est une chaîne, on le compare directement
+            if isinstance(detachment, str) and detachment == detachment_name:
+                # Convertit le détachement en objet
+                data["detachments"][i] = {
+                    "name": detachment_name,
+                    "stratagems": [stratagem]
+                }
+                found = True
+                break
+            # Si le détachement est un objet, on compare son nom
+            elif isinstance(detachment, dict) and detachment.get("name") == detachment_name:
+                if "stratagems" not in detachment:
+                    detachment["stratagems"] = []
+                detachment["stratagems"].append(stratagem)
+                found = True
+                break
+
+        # Si le détachement n'existe pas, on le crée
+        if not found:
+            new_detachment = {
+                "name": detachment_name,
+                "stratagems": [stratagem]
+            }
+            data["detachments"].append(new_detachment)
+
+    return data
+
+# --- NOUVEAU : Fonction pour ajouter l'invul dans les stats ---
+def add_invul_to_stats(data):
+    if "datasheets" not in data:
+        return data
+
+    for datasheet in data["datasheets"]:
+        if "abilities" in datasheet and "invul" in datasheet["abilities"]:
+            invul_value = datasheet["abilities"]["invul"].get("value", "")
+            if invul_value and "stats" in datasheet:
+                for stat in datasheet["stats"]:
+                    stat["invul"] = invul_value
+            # Supprime la section invul des abilities
+            datasheet["abilities"].pop("invul", None)
+
+    return data
+
+# Réorganisation des enhancements, des règles et des stratagèmes avant l'extraction
+data = reorganize_enhancements(data)
+data = reorganize_detachment_rules(data)
+data = reorganize_stratagems(data)
+data = add_invul_to_stats(data)
 
 # Extraction et remplacement
 translations, replaced = extract_texts(data)

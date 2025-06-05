@@ -1,0 +1,3947 @@
+{
+  "allied_factions": [
+    "AoI",
+    "QI"
+  ],
+  "colours": {
+    "banner": "#631210",
+    "header": "#72191c"
+  },
+  "datasheets": [
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Feel No Pain 6+"
+        ],
+        "damaged": {
+          "range": "datasheets.Death_Company_Dreadnought.abilities.damaged.range",
+          "description": "datasheets.Death_Company_Dreadnought.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Death_Company_Dreadnought.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Death_Company_Dreadnought.abilities.other.0.name",
+            "description": "datasheets.Death_Company_Dreadnought.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Death_Company_Dreadnought.abilities.other.1.name",
+            "description": "datasheets.Death_Company_Dreadnought.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Death_Company_Dreadnought.composition.0"
+      ],
+      "factions": [
+        "Blood Angels"
+      ],
+      "faction_id": "CHBA",
+      "fluff": "datasheets.Death_Company_Dreadnought.fluff",
+      "id": "3ee2094c-aa41-580b-bc63-43da2b51f238",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Imperium",
+        "Dreadnought",
+        "Death Company",
+        "Death Company Dreadnought"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Death_Company_Dreadnought.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "6",
+              "damage": "3",
+              "keywords": [
+                "Twin-linked"
+              ],
+              "name": "datasheets.Death_Company_Dreadnought.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "10",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked"
+              ],
+              "name": "datasheets.Death_Company_Dreadnought.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "6",
+              "damage": "3",
+              "keywords": [
+                "Twin-linked"
+              ],
+              "name": "datasheets.Death_Company_Dreadnought.meleeWeapons.1.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        }
+      ],
+      "name": "Death Company Dreadnought",
+      "points": [
+        {
+          "cost": "180",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Rapid Fire 3",
+                "Anti-fly 4+"
+              ],
+              "name": "datasheets.Death_Company_Dreadnought.rangedWeapons.0.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Death_Company_Dreadnought.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked"
+              ],
+              "name": "datasheets.Death_Company_Dreadnought.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [
+                "Twin-linked",
+                "Melta 2"
+              ],
+              "name": "datasheets.Death_Company_Dreadnought.rangedWeapons.3.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "8\"",
+          "name": "Death Company Dreadnought",
+          "oc": "4",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "10",
+          "w": "12"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Death_Company_Dreadnought.wargear.0",
+        "datasheets.Death_Company_Dreadnought.wargear.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Death_Company_Dreadnought.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Sanguinary_Priest.abilities.other.0.name",
+            "description": "datasheets.Sanguinary_Priest.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Sanguinary_Priest.abilities.other.1.name",
+            "description": "datasheets.Sanguinary_Priest.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Sanguinary_Priest.composition.0"
+      ],
+      "factions": [
+        "Blood Angels"
+      ],
+      "faction_id": "CHBA",
+      "fluff": "datasheets.Sanguinary_Priest.fluff",
+      "id": "d893b19a-cb3f-59e5-8a1f-bd75238d3ff8",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Sanguinary Priest"
+      ],
+      "leader": "datasheets.Sanguinary_Priest.leader",
+      "loadout": "datasheets.Sanguinary_Priest.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "5",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Sanguinary_Priest.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "name": "Sanguinary Priest",
+      "points": [
+        {
+          "cost": "90",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Sanguinary_Priest.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "Sanguinary Priest",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "4",
+          "w": "4"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Sanguinary_Priest.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Sanguinary_Priest.leads.units.0",
+          "datasheets.Sanguinary_Priest.leads.units.1",
+          "datasheets.Sanguinary_Priest.leads.units.2",
+          "datasheets.Sanguinary_Priest.leads.units.3",
+          "datasheets.Sanguinary_Priest.leads.units.4",
+          "datasheets.Sanguinary_Priest.leads.units.5",
+          "datasheets.Sanguinary_Priest.leads.units.6",
+          "datasheets.Sanguinary_Priest.leads.units.7"
+        ],
+        "extra": "datasheets.Sanguinary_Priest.leads.extra"
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Feel No Pain 6+",
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Death_Company_Dreadnought.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Death_Company_Captain_with_Jump_Pack.abilities.other.0.name",
+            "description": "datasheets.Death_Company_Captain_with_Jump_Pack.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Death_Company_Dreadnought.abilities.other.0.name",
+            "description": "datasheets.Death_Company_Captain_with_Jump_Pack.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Death_Company_Captain_with_Jump_Pack.abilities.other.2.name",
+            "description": "datasheets.Death_Company_Captain_with_Jump_Pack.abilities.other.2.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Death_Company_Captain_with_Jump_Pack.composition.0"
+      ],
+      "factions": [
+        "Blood Angels"
+      ],
+      "faction_id": "CHBA",
+      "fluff": "datasheets.Death_Company_Captain_with_Jump_Pack.fluff",
+      "id": "19ebaa29-6ec3-5cb7-9644-e15bbb5060b3",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Jump Pack",
+        "Fly",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Death Company",
+        "Captain"
+      ],
+      "leader": "datasheets.Death_Company_Captain_with_Jump_Pack.leader",
+      "loadout": "datasheets.Death_Company_Captain_with_Jump_Pack.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "7",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Sanguinary_Priest.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.meleeWeapons.2.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Death_Company_Captain_with_Jump_Pack.name",
+      "points": [
+        {
+          "cost": "75",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.1.profiles.1.name",
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Pistol",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.2.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "datasheets.Death_Company_Captain_with_Jump_Pack.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "4",
+          "w": "5",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Death_Company_Captain_with_Jump_Pack.wargear.0",
+        "datasheets.Death_Company_Captain_with_Jump_Pack.wargear.1"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Death_Company_Captain_with_Jump_Pack.leads.units.0"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Feel No Pain 6+"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Death_Company_Dreadnought.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Death_Company_Dreadnought.abilities.other.0.name",
+            "description": "datasheets.Death_Company_Marines.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Death_Company_Marines.abilities.other.1.name",
+            "description": "datasheets.Death_Company_Marines.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [
+          {
+            "description": "datasheets.Death_Company_Marines.abilities.special.0.description",
+            "name": "datasheets.Death_Company_Marines.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Death_Company_Marines.composition.0"
+      ],
+      "factions": [
+        "Blood Angels"
+      ],
+      "faction_id": "CHBA",
+      "fluff": "datasheets.Death_Company_Marines.fluff",
+      "id": "8b22cef6-4f2b-599c-8504-b457c3f430fc",
+      "keywords": [
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Death Company",
+        "Death Company Marines"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Death_Company_Marines.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Sanguinary_Priest.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Death_Company_Marines.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "7"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Death_Company_Marines.meleeWeapons.3.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Death_Company_Marines.meleeWeapons.4.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "Death Company Marines",
+      "points": [
+        {
+          "cost": "160",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "85",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Death_Company_Marines.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Pistol",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.2.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "3"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D3",
+              "keywords": [
+                "Pistol",
+                "Melta 2"
+              ],
+              "name": "datasheets.Death_Company_Marines.rangedWeapons.2.profiles.0.name",
+              "range": "6\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.1.profiles.1.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "Death Company Marines",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "4",
+          "w": "2"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Death_Company_Marines.wargear.0",
+        "datasheets.Death_Company_Marines.wargear.1",
+        "datasheets.Death_Company_Marines.wargear.2"
+      ],
+      "leadBy": [
+        "datasheets.Death_Company_Marines.leadBy.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Death_Company_Dreadnought.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Astorath.abilities.other.0.name",
+            "description": "datasheets.Astorath.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Astorath.abilities.other.1.name",
+            "description": "datasheets.Astorath.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Astorath.composition.0"
+      ],
+      "factions": [
+        "Blood Angels"
+      ],
+      "faction_id": "CHBA",
+      "fluff": "datasheets.Astorath.fluff",
+      "id": "4c4b1340-4603-51d7-91a8-3b715d94241a",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Fly",
+        "Jump Pack",
+        "Imperium",
+        "Tacticus",
+        "Chaplain",
+        "Astorath"
+      ],
+      "leader": "datasheets.Death_Company_Captain_with_Jump_Pack.leader",
+      "loadout": "datasheets.Astorath.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [
+                "Precision",
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Astorath.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "7"
+            }
+          ]
+        }
+      ],
+      "name": "Astorath",
+      "points": [
+        {
+          "cost": "105",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "5+",
+          "m": "12\"",
+          "name": "Astorath",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "4",
+          "w": "5",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Sanguinary_Priest.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Death_Company_Captain_with_Jump_Pack.leads.units.0"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Death_Company_Dreadnought.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Blood_Angels_Captain.abilities.other.0.name",
+            "description": "datasheets.Blood_Angels_Captain.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Blood_Angels_Captain.abilities.other.1.name",
+            "description": "datasheets.Blood_Angels_Captain.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Blood_Angels_Captain.composition.0"
+      ],
+      "factions": [
+        "Blood Angels"
+      ],
+      "faction_id": "CHBA",
+      "fluff": "datasheets.Blood_Angels_Captain.fluff",
+      "id": "017775d5-d5d0-5891-82ba-e161fa43b611",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Captain"
+      ],
+      "leader": "datasheets.Blood_Angels_Captain.leader",
+      "loadout": "datasheets.Blood_Angels_Captain.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "7",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Blood_Angels_Captain.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.meleeWeapons.2.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Blood_Angels_Captain.name",
+      "points": [
+        {
+          "cost": "80",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D3",
+              "keywords": [
+                "Pistol",
+                "Melta 2"
+              ],
+              "name": "datasheets.Death_Company_Marines.rangedWeapons.2.profiles.0.name",
+              "range": "6\"",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "datasheets.Blood_Angels_Captain.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "4",
+          "w": "5",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Death_Company_Captain_with_Jump_Pack.wargear.0",
+        "datasheets.Blood_Angels_Captain.wargear.1"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Sanguinary_Priest.leads.units.0",
+          "datasheets.Blood_Angels_Captain.leads.units.1",
+          "datasheets.Sanguinary_Priest.leads.units.4",
+          "datasheets.Sanguinary_Priest.leads.units.5",
+          "datasheets.Sanguinary_Priest.leads.units.7",
+          "datasheets.Sanguinary_Priest.leads.units.6"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Feel No Pain 4+",
+          "Fights First",
+          "Lone Operative"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Death_Company_Dreadnought.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Chief_Librarian_Mephiston.abilities.other.0.name",
+            "description": "datasheets.Chief_Librarian_Mephiston.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Chief_Librarian_Mephiston.abilities.other.1.name",
+            "description": "datasheets.Chief_Librarian_Mephiston.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Chief_Librarian_Mephiston.composition.0"
+      ],
+      "factions": [
+        "Blood Angels"
+      ],
+      "faction_id": "CHBA",
+      "fluff": "datasheets.Chief_Librarian_Mephiston.fluff",
+      "id": "dc788dd1-8d00-5724-a0df-a5ab92a159c6",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Psyker",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Chief Librarian Mephiston"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Chief_Librarian_Mephiston.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "6",
+              "damage": "D3",
+              "keywords": [
+                "Lethal Hits",
+                "Psychic"
+              ],
+              "name": "datasheets.Chief_Librarian_Mephiston.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "9"
+            }
+          ]
+        }
+      ],
+      "name": "Chief Librarian Mephiston",
+      "points": [
+        {
+          "cost": "135",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.1.profiles.1.name",
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "D3",
+              "keywords": [
+                "Sustained Hits 1",
+                "Psychic",
+                "Pistol"
+              ],
+              "name": "datasheets.Chief_Librarian_Mephiston.rangedWeapons.1.profiles.0.name",
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "4"
+            },
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "D3",
+              "keywords": [
+                "Sustained Hits 3",
+                "Psychic",
+                "Pistol",
+                "Hazardous"
+              ],
+              "name": "datasheets.Chief_Librarian_Mephiston.rangedWeapons.1.profiles.1.name",
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "7\"",
+          "name": "Chief Librarian Mephiston",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "5",
+          "w": "6",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Sanguinary_Priest.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Feel No Pain 6+",
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Death_Company_Dreadnought.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Lemartes.abilities.other.0.name",
+            "description": "datasheets.Lemartes.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Lemartes.abilities.other.1.name",
+            "description": "datasheets.Lemartes.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Lemartes.composition.0"
+      ],
+      "factions": [
+        "Blood Angels"
+      ],
+      "faction_id": "CHBA",
+      "fluff": "datasheets.Lemartes.fluff",
+      "id": "1e784468-8db7-572a-922f-87d8a0060dd2",
+      "keywords": [
+        "Infantry",
+        "Lemartes",
+        "Character",
+        "Epic Hero",
+        "Fly",
+        "Jump Pack",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Chaplain"
+      ],
+      "leader": "datasheets.Death_Company_Captain_with_Jump_Pack.leader",
+      "loadout": "datasheets.Lemartes.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
+              "keywords": [
+                "Lethal Hits"
+              ],
+              "name": "datasheets.Lemartes.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Lemartes",
+      "points": [
+        {
+          "cost": "110",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Lemartes.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "5+",
+          "m": "12\"",
+          "name": "Lemartes",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "4",
+          "w": "4",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Sanguinary_Priest.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Death_Company_Captain_with_Jump_Pack.leads.units.0"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Death_Company_Dreadnought.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Commander_Dante.abilities.other.0.name",
+            "description": "datasheets.Commander_Dante.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Commander_Dante.abilities.other.1.name",
+            "description": "datasheets.Commander_Dante.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Commander_Dante.composition.0"
+      ],
+      "factions": [
+        "Blood Angels"
+      ],
+      "faction_id": "CHBA",
+      "fluff": "datasheets.Commander_Dante.fluff",
+      "id": "e5145978-72b9-5509-a15a-d1213bda57a0",
+      "keywords": [
+        "Infantry",
+        "Commander Dante",
+        "Character",
+        "Epic Hero",
+        "Fly",
+        "Jump Pack",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Chapter Master"
+      ],
+      "leader": "datasheets.Commander_Dante.leader",
+      "loadout": "datasheets.Commander_Dante.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "8",
+              "damage": "2",
+              "keywords": [
+                "Lethal Hits"
+              ],
+              "name": "datasheets.Commander_Dante.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "Commander Dante",
+      "points": [
+        {
+          "cost": "130",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "Sustained Hits D3",
+                "Pistol",
+                "Melta 2"
+              ],
+              "name": "datasheets.Commander_Dante.rangedWeapons.0.profiles.0.name",
+              "range": "6\"",
+              "skill": "2+",
+              "strength": "9"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "Commander Dante",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "4",
+          "w": "6",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Sanguinary_Priest.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Commander_Dante.leads.units.0",
+          "datasheets.Commander_Dante.leads.units.1",
+          "datasheets.Commander_Dante.leads.units.2"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Feel No Pain 6+"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Death_Company_Dreadnought.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Death_Company_Dreadnought.abilities.other.0.name",
+            "description": "datasheets.Death_Company_Marines.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Death_Company_Marines_with_Bolt_Rifles.abilities.other.1.name",
+            "description": "datasheets.Death_Company_Marines_with_Bolt_Rifles.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [
+          {
+            "description": "datasheets.Death_Company_Marines_with_Bolt_Rifles.abilities.special.0.description",
+            "name": "datasheets.Death_Company_Marines.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Death_Company_Marines_with_Bolt_Rifles.composition.0"
+      ],
+      "factions": [
+        "Blood Angels"
+      ],
+      "faction_id": "CHBA",
+      "fluff": "datasheets.Death_Company_Marines_with_Bolt_Rifles.fluff",
+      "id": "b9557837-1b04-5259-940e-8119494de566",
+      "keywords": [
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Death Company",
+        "Death Company Marines with Bolt Rifles"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Death_Company_Marines_with_Bolt_Rifles.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Death_Company_Marines_with_Bolt_Rifles.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Sanguinary_Priest.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Death_Company_Marines.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "7"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Death_Company_Marines.meleeWeapons.3.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Death_Company_Marines.meleeWeapons.4.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "Death Company Marines with Bolt Rifles",
+      "points": [
+        {
+          "cost": "160",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "85",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Death_Company_Marines_with_Bolt_Rifles.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Heavy",
+                "Assault"
+              ],
+              "name": "datasheets.Death_Company_Marines_with_Bolt_Rifles.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Pistol",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.2.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "3"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D3",
+              "keywords": [
+                "Pistol",
+                "Melta 2"
+              ],
+              "name": "datasheets.Death_Company_Marines.rangedWeapons.2.profiles.0.name",
+              "range": "6\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.1.profiles.1.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "D3",
+              "keywords": [],
+              "name": "datasheets.Death_Company_Marines_with_Bolt_Rifles.rangedWeapons.5.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D3",
+              "damage": "1",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Death_Company_Marines_with_Bolt_Rifles.rangedWeapons.5.profiles.1.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "Death Company Marines with Bolt Rifles",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "4",
+          "w": "2"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Death_Company_Marines_with_Bolt_Rifles.wargear.0",
+        "datasheets.Death_Company_Marines_with_Bolt_Rifles.wargear.1",
+        "datasheets.Death_Company_Marines_with_Bolt_Rifles.wargear.2",
+        "datasheets.Death_Company_Marines_with_Bolt_Rifles.wargear.3"
+      ],
+      "leadBy": [
+        "datasheets.Death_Company_Marines.leadBy.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Fights First",
+          "Lone Operative"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Death_Company_Dreadnought.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.The_Sanguinor.abilities.other.0.name",
+            "description": "datasheets.The_Sanguinor.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.The_Sanguinor.abilities.other.1.name",
+            "description": "datasheets.The_Sanguinor.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.The_Sanguinor.composition.0"
+      ],
+      "factions": [
+        "Blood Angels"
+      ],
+      "faction_id": "CHBA",
+      "fluff": "datasheets.The_Sanguinor.fluff",
+      "id": "ea9e7286-4775-5e55-b2e0-b1c2c7c63b12",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Fly",
+        "Jump Pack",
+        "Imperium",
+        "Tacticus",
+        "The Sanguinor"
+      ],
+      "leader": "",
+      "loadout": "datasheets.The_Sanguinor.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "8",
+              "damage": "2",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.The_Sanguinor.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "The Sanguinor",
+      "points": [
+        {
+          "cost": "140",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "The Sanguinor",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "4",
+          "w": "7",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Sanguinary_Priest.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Death_Company_Dreadnought.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Sanguinary_Guard.abilities.other.0.name",
+            "description": "datasheets.Sanguinary_Guard.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Sanguinary_Guard.abilities.other.1.name",
+            "description": "datasheets.Sanguinary_Guard.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [
+          {
+            "description": "datasheets.Sanguinary_Guard.abilities.special.0.description",
+            "name": "datasheets.Death_Company_Marines.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": [
+          {
+            "name": "datasheets.Sanguinary_Guard.abilities.wargear.0.name",
+            "description": "datasheets.Sanguinary_Guard.abilities.wargear.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Sanguinary_Guard.composition.0"
+      ],
+      "factions": [
+        "Blood Angels"
+      ],
+      "faction_id": "CHBA",
+      "fluff": "datasheets.Sanguinary_Guard.fluff",
+      "id": "3ba1b185-c189-5eec-8440-679398e4b683",
+      "keywords": [
+        "Infantry",
+        "Fly",
+        "Jump Pack",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Sanguinary Guard"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Sanguinary_Guard.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Sanguinary_Guard.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Lance"
+              ],
+              "name": "datasheets.Sanguinary_Guard.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Sanguinary Guard",
+      "points": [
+        {
+          "cost": "260",
+          "keyword": null,
+          "models": "6",
+          "active": true
+        },
+        {
+          "cost": "130",
+          "keyword": null,
+          "models": "3",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Sanguinary_Guard.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D3",
+              "keywords": [
+                "Pistol",
+                "Melta 2"
+              ],
+              "name": "datasheets.Death_Company_Marines.rangedWeapons.2.profiles.0.name",
+              "range": "6\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "Sanguinary Guard",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "4",
+          "w": "3",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Sanguinary_Guard.wargear.0",
+        "datasheets.Sanguinary_Guard.wargear.1",
+        "datasheets.Sanguinary_Guard.wargear.2"
+      ],
+      "leadBy": [
+        "Commander Dante"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "damaged": {
+          "range": "datasheets.Death_Company_Dreadnought.abilities.damaged.range",
+          "description": "datasheets.Death_Company_Dreadnought.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Death_Company_Dreadnought.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Baal_Predator.abilities.other.0.name",
+            "description": "datasheets.Baal_Predator.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Baal_Predator.composition.0"
+      ],
+      "factions": [
+        "Blood Angels"
+      ],
+      "faction_id": "CHBA",
+      "fluff": "datasheets.Baal_Predator.fluff",
+      "id": "9ce6d8b7-7943-518e-be4d-d89fd9f9a057",
+      "keywords": [
+        "Vehicle",
+        "Smoke",
+        "Imperium",
+        "Baal Predator"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Baal_Predator.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Baal_Predator.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Baal Predator",
+      "points": [
+        {
+          "cost": "135",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Devastating Wounds",
+                "Assault"
+              ],
+              "name": "datasheets.Baal_Predator.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "D6+3",
+              "damage": "2",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover",
+                "Assault"
+              ],
+              "name": "datasheets.Baal_Predator.rangedWeapons.1.profiles.0.name",
+              "range": "18\"",
+              "skill": "N/A",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "One Shot"
+              ],
+              "name": "datasheets.Baal_Predator.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "2+",
+              "strength": "14"
+            }
+          ],
+          "abilities": [
+            {
+              "name": "One Shot",
+              "description": "datasheets.Baal_Predator.rangedWeapons.2.abilities.0.description",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Baal_Predator.rangedWeapons.3.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1",
+                "Assault"
+              ],
+              "name": "datasheets.Baal_Predator.rangedWeapons.4.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover",
+                "Assault"
+              ],
+              "name": "datasheets.Baal_Predator.rangedWeapons.5.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "Baal Predator",
+          "oc": "3",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "10",
+          "w": "11"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Baal_Predator.wargear.0",
+        "datasheets.Baal_Predator.wargear.1",
+        "datasheets.Baal_Predator.wargear.2",
+        "datasheets.Baal_Predator.wargear.3"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Feel No Pain 6+"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Death_Company_Dreadnought.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Death_Company_Dreadnought.abilities.other.0.name",
+            "description": "datasheets.Death_Company_Marines.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Death_Company_Marines_with_Jump_Packs.abilities.other.1.name",
+            "description": "datasheets.Death_Company_Marines_with_Jump_Packs.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [
+          {
+            "description": "datasheets.Death_Company_Marines_with_Jump_Packs.abilities.special.0.description",
+            "name": "datasheets.Death_Company_Marines.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Death_Company_Marines_with_Jump_Packs.composition.0"
+      ],
+      "factions": [
+        "Blood Angels"
+      ],
+      "faction_id": "CHBA",
+      "fluff": "datasheets.Death_Company_Marines_with_Jump_Packs.fluff",
+      "id": "69896ab7-453e-5c6e-8181-53fbf140df02",
+      "keywords": [
+        "Infantry",
+        "Fly",
+        "Jump Pack",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Death Company",
+        "Death Company Marines"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Death_Company_Marines.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Sanguinary_Priest.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Death_Company_Marines.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "7"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Death_Company_Marines.meleeWeapons.3.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Death_Company_Marines_with_Jump_Packs.name",
+      "points": [
+        {
+          "cost": "240",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "130",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Death_Company_Marines.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.1.profiles.1.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Pistol",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.2.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "3"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D3",
+              "keywords": [
+                "Pistol",
+                "Melta 2"
+              ],
+              "name": "datasheets.Death_Company_Marines.rangedWeapons.2.profiles.0.name",
+              "range": "6\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "datasheets.Death_Company_Marines_with_Jump_Packs.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "4",
+          "w": "2"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Death_Company_Marines_with_Jump_Packs.wargear.0",
+        "datasheets.Death_Company_Marines_with_Jump_Packs.wargear.1",
+        "datasheets.Death_Company_Marines.wargear.1",
+        "datasheets.Death_Company_Marines_with_Jump_Packs.wargear.3"
+      ],
+      "leadBy": [
+        "datasheets.Death_Company_Captain_with_Jump_Pack.name",
+        "Astorath",
+        "Lemartes"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Feel No Pain 6+",
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Death_Company_Dreadnought.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Death_Company_Captain.abilities.other.0.name",
+            "description": "datasheets.Death_Company_Captain.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Death_Company_Dreadnought.abilities.other.0.name",
+            "description": "datasheets.Death_Company_Captain_with_Jump_Pack.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Death_Company_Captain_with_Jump_Pack.abilities.other.2.name",
+            "description": "datasheets.Death_Company_Captain_with_Jump_Pack.abilities.other.2.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Death_Company_Captain.composition.0"
+      ],
+      "factions": [
+        "Blood Angels"
+      ],
+      "faction_id": "CHBA",
+      "fluff": "datasheets.Death_Company_Captain.fluff",
+      "id": "21a7f88a-f5d9-58a9-bd4a-44dc8202dd22",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Death Company",
+        "Captain"
+      ],
+      "leader": "datasheets.Death_Company_Captain.leader",
+      "loadout": "datasheets.Blood_Angels_Captain.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "7",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Blood_Angels_Captain.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.meleeWeapons.2.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Death_Company_Marines.leadBy.0",
+      "points": [
+        {
+          "cost": "70",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D3",
+              "keywords": [
+                "Pistol",
+                "Melta 2"
+              ],
+              "name": "datasheets.Death_Company_Marines.rangedWeapons.2.profiles.0.name",
+              "range": "6\"",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "datasheets.Death_Company_Marines.leadBy.0",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "4",
+          "w": "5",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Death_Company_Captain_with_Jump_Pack.wargear.0",
+        "datasheets.Blood_Angels_Captain.wargear.1"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Death_Company_Captain.leads.units.0",
+          "datasheets.Death_Company_Captain.leads.units.1"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Death_Company_Dreadnought.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "description": "datasheets.Sanguinary_Priest.abilities.other.1.description",
+            "name": "datasheets.Sanguinary_Priest.abilities.other.1.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Sanguinary_Priest.abilities.other.0.description",
+            "name": "Sanguinary Priest",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Sanguinary_Priest_On_Bike.composition.0"
+      ],
+      "faction_id": "CHBA",
+      "factions": [
+        "Adeptus Astartes",
+        "Blood Angels"
+      ],
+      "fluff": "",
+      "id": "050048cb-afdc-5b8c-80eb-e8bddbf0d718",
+      "keywords": [
+        "Character",
+        "Grenades",
+        "Imperium",
+        "Mounted",
+        "Sanguinary Priest"
+      ],
+      "leader": "datasheets.Sanguinary_Priest_On_Bike.leader",
+      "leads": {
+        "extra": "",
+        "units": [
+          "datasheets.Sanguinary_Priest_On_Bike.leads.units.0",
+          "datasheets.Sanguinary_Priest_On_Bike.leads.units.1"
+        ]
+      },
+      "legends": true,
+      "loadout": "datasheets.Sanguinary_Priest_On_Bike.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "5",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Sanguinary_Priest.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "devastating wounds"
+              ],
+              "name": "datasheets.Death_Company_Marines.meleeWeapons.4.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Death_Company_Marines.meleeWeapons.3.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Sanguinary_Priest_On_Bike.name",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "anti-vehicle 2+",
+                "pistol"
+              ],
+              "name": "datasheets.Sanguinary_Priest_On_Bike.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "pistol"
+              ],
+              "name": "datasheets.Sanguinary_Priest_On_Bike.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "hazardous",
+                "pistol"
+              ],
+              "name": "datasheets.Sanguinary_Priest_On_Bike.rangedWeapons.1.profiles.1.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D3",
+              "keywords": [
+                "melta 2",
+                "pistol"
+              ],
+              "name": "datasheets.Death_Company_Marines.rangedWeapons.2.profiles.0.name",
+              "range": "6\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "anti-infantry 4+",
+                "devastating wounds",
+                "rapid fire 1"
+              ],
+              "name": "datasheets.Sanguinary_Priest_On_Bike.rangedWeapons.3.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "pistol"
+              ],
+              "name": "datasheets.Death_Company_Marines_with_Bolt_Rifles.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "rapid fire 2"
+              ],
+              "name": "datasheets.Baal_Predator.rangedWeapons.3.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "twin-linked"
+              ],
+              "name": "datasheets.Sanguinary_Priest_On_Bike.rangedWeapons.6.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Sanguinary_Priest_On_Bike.rangedWeapons.7.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "ignores cover",
+                "pistol",
+                "torrent"
+              ],
+              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.2.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "datasheets.Sanguinary_Priest_On_Bike.name",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "5",
+          "w": "5"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Sanguinary_Priest_On_Bike.wargear.0",
+        "datasheets.Sanguinary_Priest_On_Bike.wargear.1"
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "name": "detachments.The_Angelic_Host.name",
+      "enhancements": [
+        {
+          "name": "detachments.The_Angelic_Host.enhancements.Sanguinius_Grace.name",
+          "id": "deb9caaa-5e11-533b-b53b-cd3f632d7756",
+          "cost": "20",
+          "keywords": [
+            "Jump Pack"
+          ],
+          "excludes": [],
+          "description": "detachments.The_Angelic_Host.enhancements.Sanguinius_Grace.description",
+          "faction_id": "CHBA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.The_Angelic_Host.enhancements.Speed_of_the_Primarch.name",
+          "id": "2294b3f3-2844-550b-ad52-0c6cffb0d68d",
+          "cost": "15",
+          "keywords": [
+            "Jump Pack"
+          ],
+          "excludes": [],
+          "description": "detachments.The_Angelic_Host.enhancements.Speed_of_the_Primarch.description",
+          "faction_id": "CHBA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.The_Angelic_Host.enhancements.Blood_Shard.name",
+          "id": "8f627182-ef5d-583d-b3e5-4d2bf31cf6be",
+          "cost": "15",
+          "keywords": [
+            "Jump Pack"
+          ],
+          "excludes": [],
+          "description": "detachments.The_Angelic_Host.enhancements.Blood_Shard.description",
+          "faction_id": "CHBA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.The_Angelic_Host.enhancements.Rage_fuelled_Warrior.name",
+          "id": "14ea8d89-e2db-5a20-80b5-8323ad8f6b9f",
+          "cost": "25",
+          "keywords": [
+            "Jump Pack"
+          ],
+          "excludes": [],
+          "description": "detachments.The_Angelic_Host.enhancements.Rage_fuelled_Warrior.description",
+          "faction_id": "CHBA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "rules": [
+        {
+          "name": "detachments.The_Angelic_Host.rules.0.name",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.The_Angelic_Host.rules.0.rule.0.text",
+              "type": "text"
+            },
+            {
+              "order": 2,
+              "text": "detachments.The_Angelic_Host.rules.0.rule.1.text",
+              "type": "image"
+            },
+            {
+              "order": 3,
+              "text": "detachments.The_Angelic_Host.rules.0.rule.2.text",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.name",
+          "id": "1e21c885-2bf2-56a3-9088-17477f475788",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.fluff"
+        },
+        {
+          "name": "detachments.The_Angelic_Host.stratagems.Furious_Onslaught.name",
+          "id": "7fd1f2ad-b481-5872-a8d1-0ac5111c87b7",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.The_Angelic_Host.stratagems.Furious_Onslaught.target",
+          "when": "detachments.The_Angelic_Host.stratagems.Furious_Onslaught.when",
+          "effect": "detachments.The_Angelic_Host.stratagems.Furious_Onslaught.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.The_Angelic_Host.stratagems.Furious_Onslaught.fluff"
+        },
+        {
+          "name": "detachments.The_Angelic_Host.stratagems.Lost_to_Rage.name",
+          "id": "7d3930de-e077-5756-a514-d4ea0a1fbeb1",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.The_Angelic_Host.stratagems.Lost_to_Rage.target",
+          "when": "detachments.The_Angelic_Host.stratagems.Lost_to_Rage.when",
+          "effect": "detachments.The_Angelic_Host.stratagems.Lost_to_Rage.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.The_Angelic_Host.stratagems.Lost_to_Rage.fluff"
+        },
+        {
+          "name": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.name",
+          "id": "5f6b0b33-00ce-5f08-9595-8c0180c85f85",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "",
+          "type": "Epic Deed",
+          "phase": [
+            "any"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.fluff"
+        },
+        {
+          "name": "detachments.The_Angelic_Host.stratagems.Focused_Fury.name",
+          "id": "463b61ad-8842-5d2b-a35b-e1bbe74720ce",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.The_Angelic_Host.stratagems.Focused_Fury.target",
+          "when": "detachments.The_Angelic_Host.stratagems.Focused_Fury.when",
+          "effect": "detachments.The_Angelic_Host.stratagems.Focused_Fury.effect",
+          "restrictions": "detachments.The_Angelic_Host.stratagems.Focused_Fury.restrictions",
+          "type": "Epic Deed",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.The_Angelic_Host.stratagems.Focused_Fury.fluff"
+        },
+        {
+          "name": "detachments.The_Angelic_Host.stratagems.In_The_Shadow_Of_Great_Wings.name",
+          "id": "1aaab940-968e-5372-8f6a-3d8b1561116d",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.The_Angelic_Host.stratagems.In_The_Shadow_Of_Great_Wings.target",
+          "when": "detachments.The_Angelic_Host.stratagems.In_The_Shadow_Of_Great_Wings.when",
+          "effect": "detachments.The_Angelic_Host.stratagems.In_The_Shadow_Of_Great_Wings.effect",
+          "restrictions": "",
+          "type": "Epic Deed",
+          "phase": [
+            "charge"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.The_Angelic_Host.stratagems.In_The_Shadow_Of_Great_Wings.fluff"
+        }
+      ]
+    },
+    {
+      "name": "detachments.Angelic_Inheritors.name",
+      "enhancements": [
+        {
+          "name": "detachments.Angelic_Inheritors.enhancements.Sanguinius_Grace.name",
+          "id": "e52bf420-3cfe-5234-9edd-33be67989247",
+          "cost": "20",
+          "keywords": [
+            "Blood Angels"
+          ],
+          "excludes": [],
+          "description": "detachments.Angelic_Inheritors.enhancements.Sanguinius_Grace.description",
+          "faction_id": "CHBA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Angelic_Inheritors.enhancements.Speed_of_the_Primarch.name",
+          "id": "be5b7f41-49cb-5d15-b5b5-10b46da662ba",
+          "cost": "15",
+          "keywords": [
+            "Blood Angels"
+          ],
+          "excludes": [],
+          "description": "detachments.Angelic_Inheritors.enhancements.Speed_of_the_Primarch.description",
+          "faction_id": "CHBA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Angelic_Inheritors.enhancements.Blood_Shard.name",
+          "id": "fe9ae358-083d-5bd9-a486-65853870fc80",
+          "cost": "20",
+          "keywords": [
+            "Infantry"
+          ],
+          "excludes": [],
+          "description": "detachments.Angelic_Inheritors.enhancements.Blood_Shard.description",
+          "faction_id": "CHBA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Angelic_Inheritors.enhancements.Rage_fuelled_Warrior.name",
+          "id": "451e75dc-1a1a-55a1-ac5f-bdf7c4083c15",
+          "cost": "25",
+          "keywords": [
+            "Blood Angels"
+          ],
+          "excludes": [],
+          "description": "detachments.Angelic_Inheritors.enhancements.Rage_fuelled_Warrior.description",
+          "faction_id": "CHBA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "rules": [
+        {
+          "name": "detachments.Angelic_Inheritors.rules.0.name",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.Angelic_Inheritors.rules.0.rule.0.text",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.name",
+          "id": "1e21c885-2bf2-56a3-9088-17477f475788",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.Angelic_Inheritors.stratagems.Armour_of_Contempt.fluff"
+        },
+        {
+          "name": "detachments.Angelic_Inheritors.stratagems.Furious_Onslaught.name",
+          "id": "1c8679c8-2059-58c4-9333-8aa54898a952",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Angelic_Inheritors.stratagems.Furious_Onslaught.target",
+          "when": "detachments.The_Angelic_Host.stratagems.Lost_to_Rage.when",
+          "effect": "detachments.Angelic_Inheritors.stratagems.Furious_Onslaught.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.Angelic_Inheritors.stratagems.Furious_Onslaught.fluff"
+        },
+        {
+          "name": "detachments.Angelic_Inheritors.stratagems.Lost_to_Rage.name",
+          "id": "018bfafe-aecd-5774-8ead-986c6b131e8c",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Angelic_Inheritors.stratagems.Lost_to_Rage.target",
+          "when": "detachments.Angelic_Inheritors.stratagems.Lost_to_Rage.when",
+          "effect": "detachments.Angelic_Inheritors.stratagems.Lost_to_Rage.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.Angelic_Inheritors.stratagems.Lost_to_Rage.fluff"
+        },
+        {
+          "name": "detachments.Angelic_Inheritors.stratagems.Armour_of_Contempt.name",
+          "id": "d2fb1445-6de6-597d-97cc-4e6b18ed48fe",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Angelic_Inheritors.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.Angelic_Inheritors.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.Angelic_Inheritors.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "",
+          "type": "Epic Deed",
+          "phase": [
+            "command"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.Angelic_Inheritors.stratagems.Armour_of_Contempt.fluff"
+        },
+        {
+          "name": "detachments.Angelic_Inheritors.stratagems.Focused_Fury.name",
+          "id": "7f00af52-f5d0-5dcc-b6f7-91a559b7d64c",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Angelic_Inheritors.stratagems.Focused_Fury.target",
+          "when": "detachments.Angelic_Inheritors.stratagems.Focused_Fury.when",
+          "effect": "detachments.Angelic_Inheritors.stratagems.Focused_Fury.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.Angelic_Inheritors.stratagems.Focused_Fury.fluff"
+        },
+        {
+          "name": "detachments.Angelic_Inheritors.stratagems.In_The_Shadow_Of_Great_Wings.name",
+          "id": "79ec4d96-3a47-543a-9867-ce9470a0bee8",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Angelic_Inheritors.stratagems.In_The_Shadow_Of_Great_Wings.target",
+          "when": "detachments.Angelic_Inheritors.stratagems.In_The_Shadow_Of_Great_Wings.when",
+          "effect": "detachments.Angelic_Inheritors.stratagems.In_The_Shadow_Of_Great_Wings.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.Angelic_Inheritors.stratagems.In_The_Shadow_Of_Great_Wings.fluff"
+        }
+      ]
+    },
+    {
+      "name": "detachments.Liberator_Assault_Group.name",
+      "enhancements": [
+        {
+          "name": "detachments.Liberator_Assault_Group.enhancements.Sanguinius_Grace.name",
+          "id": "693067b1-947f-5300-aa5a-d9f72a86f6bf",
+          "cost": "25",
+          "keywords": [
+            "Blood Angels"
+          ],
+          "excludes": [],
+          "description": "detachments.Liberator_Assault_Group.enhancements.Sanguinius_Grace.description",
+          "faction_id": "CHBA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Liberator_Assault_Group.enhancements.Speed_of_the_Primarch.name",
+          "id": "1ccd0a44-393d-540f-9131-5c07f8c69730",
+          "cost": "35",
+          "keywords": [
+            "Blood Angels"
+          ],
+          "excludes": [],
+          "description": "detachments.Liberator_Assault_Group.enhancements.Speed_of_the_Primarch.description",
+          "faction_id": "CHBA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Liberator_Assault_Group.enhancements.Blood_Shard.name",
+          "id": "468e8afd-a173-5e50-bada-c65bd01a085b",
+          "cost": "20",
+          "keywords": [
+            "Blood Angels"
+          ],
+          "excludes": [],
+          "description": "detachments.Liberator_Assault_Group.enhancements.Blood_Shard.description",
+          "faction_id": "CHBA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Liberator_Assault_Group.enhancements.Rage_fuelled_Warrior.name",
+          "id": "4b0d81cd-5507-5f07-bb4b-5eb74b25a561",
+          "cost": "15",
+          "keywords": [
+            "Blood Angels"
+          ],
+          "excludes": [],
+          "description": "detachments.Liberator_Assault_Group.enhancements.Rage_fuelled_Warrior.description",
+          "faction_id": "CHBA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "rules": [
+        {
+          "name": "detachments.Liberator_Assault_Group.rules.0.name",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.Liberator_Assault_Group.rules.0.rule.0.text",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.name",
+          "id": "1e21c885-2bf2-56a3-9088-17477f475788",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.fluff"
+        },
+        {
+          "name": "detachments.Liberator_Assault_Group.stratagems.Furious_Onslaught.name",
+          "id": "ad745804-ad3d-5a75-8dac-822d75f5cdcf",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Liberator_Assault_Group.stratagems.Furious_Onslaught.target",
+          "when": "detachments.Liberator_Assault_Group.stratagems.Furious_Onslaught.when",
+          "effect": "detachments.Liberator_Assault_Group.stratagems.Furious_Onslaught.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "charge"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.Liberator_Assault_Group.stratagems.Furious_Onslaught.fluff"
+        },
+        {
+          "name": "detachments.Liberator_Assault_Group.stratagems.Lost_to_Rage.name",
+          "id": "6d108872-73bf-557f-a7a6-1b86cc0f5968",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Angelic_Inheritors.stratagems.Furious_Onslaught.target",
+          "when": "detachments.The_Angelic_Host.stratagems.Lost_to_Rage.when",
+          "effect": "detachments.Liberator_Assault_Group.stratagems.Lost_to_Rage.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.Liberator_Assault_Group.stratagems.Lost_to_Rage.fluff"
+        },
+        {
+          "name": "detachments.Liberator_Assault_Group.stratagems.Armour_of_Contempt.name",
+          "id": "b8bef002-424d-5221-a20b-88bd98fb0b06",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Liberator_Assault_Group.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.Liberator_Assault_Group.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.Liberator_Assault_Group.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "any"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.Liberator_Assault_Group.stratagems.Armour_of_Contempt.fluff"
+        },
+        {
+          "name": "detachments.Liberator_Assault_Group.stratagems.Focused_Fury.name",
+          "id": "203216fc-b98e-50d2-a09c-8eadf98723b4",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Liberator_Assault_Group.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.Liberator_Assault_Group.stratagems.Focused_Fury.when",
+          "effect": "detachments.Liberator_Assault_Group.stratagems.Focused_Fury.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.Liberator_Assault_Group.stratagems.Focused_Fury.fluff"
+        },
+        {
+          "name": "detachments.Liberator_Assault_Group.stratagems.In_The_Shadow_Of_Great_Wings.name",
+          "id": "07f47a6c-4f59-50c0-9272-5761449fc0f1",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Liberator_Assault_Group.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.Liberator_Assault_Group.stratagems.In_The_Shadow_Of_Great_Wings.when",
+          "effect": "detachments.Liberator_Assault_Group.stratagems.In_The_Shadow_Of_Great_Wings.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.Liberator_Assault_Group.stratagems.In_The_Shadow_Of_Great_Wings.fluff"
+        }
+      ]
+    },
+    {
+      "name": "detachments.The_Lost_Brethren.name",
+      "enhancements": [
+        {
+          "name": "detachments.The_Lost_Brethren.enhancements.Sanguinius_Grace.name",
+          "id": "fdd19406-65b8-5a6e-8cf0-c7b4069f3001",
+          "cost": "20",
+          "keywords": [
+            "Death Company"
+          ],
+          "excludes": [],
+          "description": "detachments.The_Lost_Brethren.enhancements.Sanguinius_Grace.description",
+          "faction_id": "CHBA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.The_Lost_Brethren.enhancements.Speed_of_the_Primarch.name",
+          "id": "d0074b36-0968-515b-80bb-d50db265d0b7",
+          "cost": "25",
+          "keywords": [
+            "Death Company"
+          ],
+          "excludes": [],
+          "description": "detachments.The_Lost_Brethren.enhancements.Speed_of_the_Primarch.description",
+          "faction_id": "CHBA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.The_Lost_Brethren.enhancements.Blood_Shard.name",
+          "id": "d616af6a-5247-5cb2-a521-7362f36c15f1",
+          "cost": "15",
+          "keywords": [
+            "Death Company"
+          ],
+          "excludes": [],
+          "description": "detachments.The_Lost_Brethren.enhancements.Blood_Shard.description",
+          "faction_id": "CHBA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.The_Lost_Brethren.enhancements.Rage_fuelled_Warrior.name",
+          "id": "a15a03c6-813d-5d79-b7f1-b078c032be69",
+          "cost": "10",
+          "keywords": [
+            "Death Company"
+          ],
+          "excludes": [],
+          "description": "detachments.The_Lost_Brethren.enhancements.Rage_fuelled_Warrior.description",
+          "faction_id": "CHBA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "rules": [
+        {
+          "name": "detachments.The_Lost_Brethren.rules.0.name",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.The_Lost_Brethren.rules.0.rule.0.text",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.name",
+          "id": "1e21c885-2bf2-56a3-9088-17477f475788",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.fluff"
+        },
+        {
+          "name": "detachments.The_Lost_Brethren.stratagems.Furious_Onslaught.name",
+          "id": "e7b8912a-2be7-51d8-8884-00ebe35249e4",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.The_Lost_Brethren.stratagems.Furious_Onslaught.target",
+          "when": "detachments.The_Angelic_Host.stratagems.Lost_to_Rage.when",
+          "effect": "detachments.The_Lost_Brethren.stratagems.Furious_Onslaught.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.The_Lost_Brethren.stratagems.Furious_Onslaught.fluff"
+        },
+        {
+          "name": "detachments.The_Lost_Brethren.stratagems.Lost_to_Rage.name",
+          "id": "5f114c1a-8f4f-5037-95b4-416a19a07717",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.The_Lost_Brethren.stratagems.Lost_to_Rage.target",
+          "when": "detachments.The_Angelic_Host.stratagems.Lost_to_Rage.when",
+          "effect": "detachments.The_Lost_Brethren.stratagems.Lost_to_Rage.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.The_Lost_Brethren.stratagems.Lost_to_Rage.fluff"
+        },
+        {
+          "name": "detachments.The_Lost_Brethren.stratagems.Armour_of_Contempt.name",
+          "id": "f6e7f0cf-f90d-5101-bdde-de2b050ddd9e",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.The_Lost_Brethren.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.The_Angelic_Host.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.The_Lost_Brethren.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "",
+          "type": "Epic Deed",
+          "phase": [
+            "any"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.The_Lost_Brethren.stratagems.Armour_of_Contempt.fluff"
+        },
+        {
+          "name": "detachments.The_Lost_Brethren.stratagems.Focused_Fury.name",
+          "id": "d1007334-2f00-5bc8-8406-958340e20d76",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.The_Lost_Brethren.stratagems.Focused_Fury.target",
+          "when": "detachments.The_Lost_Brethren.stratagems.Focused_Fury.when",
+          "effect": "detachments.The_Lost_Brethren.stratagems.Focused_Fury.effect",
+          "restrictions": "",
+          "type": "Epic Deed",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.The_Lost_Brethren.stratagems.Focused_Fury.fluff"
+        },
+        {
+          "name": "detachments.The_Lost_Brethren.stratagems.In_The_Shadow_Of_Great_Wings.name",
+          "id": "92015e13-936d-50c9-89a9-9cb5045085ee",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.The_Lost_Brethren.stratagems.In_The_Shadow_Of_Great_Wings.target",
+          "when": "detachments.The_Lost_Brethren.stratagems.In_The_Shadow_Of_Great_Wings.when",
+          "effect": "detachments.The_Lost_Brethren.stratagems.In_The_Shadow_Of_Great_Wings.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "CHBA",
+          "fluff": "detachments.The_Lost_Brethren.stratagems.In_The_Shadow_Of_Great_Wings.fluff"
+        }
+      ]
+    }
+  ],
+  "id": "CHBA",
+  "is_subfaction": true,
+  "name": "Blood Angels",
+  "parent_id": "SM",
+  "parent_keyword": "parent_keyword",
+  "rules": {
+    "army": [
+      {
+        "name": "datasheets.Death_Company_Dreadnought.abilities.faction.0",
+        "rule": [
+          {
+            "order": 1,
+            "text": "rules.army.Oath_of_Moment.rule.0.text",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "rules.army.The_Sons_of_Sanguinius.name",
+        "rule": [
+          {
+            "order": 1,
+            "text": "rules.army.The_Sons_of_Sanguinius.rule.0.text",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "updated": "2025-05-29T08:37:07.391Z"
+}

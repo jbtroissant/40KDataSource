@@ -1,0 +1,2862 @@
+{
+  "colours": {
+    "banner": "#092135",
+    "header": "#4b6262"
+  },
+  "datasheets": [
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise 2D6",
+          "Firing Deck 15"
+        ],
+        "damaged": {
+          "description": "datasheets.Vortex_Missile_Strongpoint.abilities.damaged.description",
+          "range": "datasheets.Vortex_Missile_Strongpoint.abilities.damaged.range",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.1.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.1.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.2.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.2.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [
+          {
+            "abilities": [
+              {
+                "description": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.description",
+                "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name"
+              }
+            ],
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name",
+            "showAbility": true
+          }
+        ],
+        "special": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Vortex_Missile_Strongpoint.composition.0"
+      ],
+      "faction_id": "UN",
+      "factions": [
+        "Unaligned Forces"
+      ],
+      "fluff": "",
+      "id": "01ae0607-f011-5d1d-8a32-09f9d6ec7507",
+      "imperialArmour": true,
+      "keywords": [
+        "Fortification",
+        "Titanic",
+        "Transport",
+        "Vehicle",
+        "Vortex Missile Strongpoint",
+        "Wall of Martyrs"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Vortex_Missile_Strongpoint.loadout",
+      "meleeWeapons": [],
+      "name": "Vortex Missile Strongpoint",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "sustained hits 1"
+              ],
+              "name": "datasheets.Vortex_Missile_Strongpoint.rangedWeapons.0.profiles.0.name",
+              "range": "36\"",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "D6+3",
+              "damage": "D6",
+              "keywords": [
+                "blast",
+                "devastating wounds",
+                "hazardous",
+                "indirect fire"
+              ],
+              "name": "datasheets.Vortex_Missile_Strongpoint.rangedWeapons.1.profiles.0.name",
+              "range": "72\"",
+              "skill": "5+",
+              "strength": "16"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "-",
+          "name": "Vortex Missile Strongpoint",
+          "oc": "0",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "13",
+          "w": "30"
+        }
+      ],
+      "transport": "datasheets.Vortex_Missile_Strongpoint.transport",
+      "wargear": [
+        "datasheets.Vortex_Missile_Strongpoint.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise 2D6",
+          "Firing Deck 15"
+        ],
+        "damaged": {
+          "description": "datasheets.Vortex_Missile_Strongpoint.abilities.damaged.description",
+          "range": "datasheets.Vortex_Missile_Strongpoint.abilities.damaged.range",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.1.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.1.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Macro_cannon_Aquila_Strongpoint.abilities.other.2.description",
+            "name": "datasheets.Macro_cannon_Aquila_Strongpoint.abilities.other.2.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [
+          {
+            "abilities": [
+              {
+                "description": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.description",
+                "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name"
+              }
+            ],
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name",
+            "showAbility": true
+          }
+        ],
+        "special": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Macro_cannon_Aquila_Strongpoint.composition.0"
+      ],
+      "faction_id": "UN",
+      "factions": [
+        "Unaligned Forces"
+      ],
+      "fluff": "",
+      "id": "c984f191-3cb9-57c2-ada9-c2efd30936ef",
+      "imperialArmour": true,
+      "keywords": [
+        "Fortification",
+        "Macro-cannon Aquila Strongpoint",
+        "Titanic",
+        "Transport",
+        "Vehicle",
+        "Wall of Martyrs"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Macro_cannon_Aquila_Strongpoint.loadout",
+      "meleeWeapons": [],
+      "name": "Macro-cannon Aquila Strongpoint",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "sustained hits 1"
+              ],
+              "name": "datasheets.Vortex_Missile_Strongpoint.rangedWeapons.0.profiles.0.name",
+              "range": "36\"",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "D6+6",
+              "damage": "4",
+              "keywords": [],
+              "name": "datasheets.Macro_cannon_Aquila_Strongpoint.rangedWeapons.1.profiles.0.name",
+              "range": "72\"",
+              "skill": "5+",
+              "strength": "16"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "-",
+          "name": "Macro-cannon Aquila Strongpoint",
+          "oc": "0",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "13",
+          "w": "30"
+        }
+      ],
+      "transport": "datasheets.Vortex_Missile_Strongpoint.transport",
+      "wargear": [
+        "datasheets.Vortex_Missile_Strongpoint.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise 2D6",
+          "Firing Deck 20"
+        ],
+        "damaged": {
+          "description": "datasheets.Vortex_Missile_Strongpoint.abilities.damaged.description",
+          "range": "datasheets.Vortex_Missile_Strongpoint.abilities.damaged.range",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.1.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.1.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Fortress_Of_Redemption.abilities.other.2.description",
+            "name": "datasheets.Fortress_Of_Redemption.abilities.other.2.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [
+          {
+            "abilities": [
+              {
+                "description": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.description",
+                "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name"
+              }
+            ],
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name",
+            "showAbility": true
+          }
+        ],
+        "special": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Fortress_Of_Redemption.composition.0"
+      ],
+      "faction_id": "UN",
+      "factions": [
+        "Unaligned Forces"
+      ],
+      "fluff": "",
+      "id": "bddcbafd-c671-5e47-b0c9-68847611af29",
+      "imperialArmour": true,
+      "keywords": [
+        "Fortification",
+        "Fortress of Redemption",
+        "Titanic",
+        "Towering",
+        "Transport",
+        "Vehicle"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Fortress_Of_Redemption.loadout",
+      "meleeWeapons": [],
+      "name": "datasheets.Fortress_Of_Redemption.name",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "sustained hits 1"
+              ],
+              "name": "datasheets.Vortex_Missile_Strongpoint.rangedWeapons.0.profiles.0.name",
+              "range": "36\"",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "2",
+              "damage": "D6+1",
+              "keywords": [],
+              "name": "datasheets.Fortress_Of_Redemption.rangedWeapons.1.profiles.0.name",
+              "range": "48\"",
+              "skill": "4+",
+              "strength": "10"
+            },
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2D6+2",
+              "damage": "1",
+              "keywords": [
+                "blast"
+              ],
+              "name": "datasheets.Fortress_Of_Redemption.rangedWeapons.1.profiles.1.name",
+              "range": "48\"",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "2",
+              "damage": "D6+1",
+              "keywords": [
+                "anti-fly 2+"
+              ],
+              "name": "datasheets.Fortress_Of_Redemption.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "4+",
+              "strength": "14"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "-",
+          "name": "datasheets.Fortress_Of_Redemption.name",
+          "oc": "0",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "13",
+          "w": "30"
+        }
+      ],
+      "transport": "datasheets.Fortress_Of_Redemption.transport",
+      "wargear": [
+        "datasheets.Vortex_Missile_Strongpoint.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise 3D6",
+          "Firing Deck 30"
+        ],
+        "damaged": {
+          "description": "datasheets.Imperial_Fortress_Walls.abilities.damaged.description",
+          "range": "datasheets.Imperial_Fortress_Walls.abilities.damaged.range",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Imperial_Fortress_Walls.abilities.other.1.description",
+            "name": "datasheets.Imperial_Fortress_Walls.abilities.other.1.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Imperial_Fortress_Walls.abilities.other.2.description",
+            "name": "datasheets.Imperial_Fortress_Walls.abilities.other.2.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [
+          {
+            "abilities": [
+              {
+                "description": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.description",
+                "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name"
+              }
+            ],
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name",
+            "showAbility": true
+          },
+          {
+            "abilities": [
+              {
+                "description": "datasheets.Imperial_Fortress_Walls.abilities.primarch.1.abilities.0.description",
+                "name": "datasheets.Imperial_Fortress_Walls.abilities.primarch.1.abilities.0.name"
+              }
+            ],
+            "name": "datasheets.Imperial_Fortress_Walls.abilities.primarch.1.abilities.0.name",
+            "showAbility": true
+          }
+        ],
+        "special": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Imperial_Fortress_Walls.composition.0"
+      ],
+      "faction_id": "UN",
+      "factions": [
+        "Unaligned Forces"
+      ],
+      "fluff": "",
+      "id": "90bc8b0c-c903-5037-9742-5ba84227fb0a",
+      "imperialArmour": true,
+      "keywords": [
+        "Fortification",
+        "Imperial Fortress Walls",
+        "Titanic",
+        "Towering",
+        "Transport",
+        "Vehicle"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Imperial_Fortress_Walls.loadout",
+      "meleeWeapons": [],
+      "name": "Imperial Fortress Walls",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "3",
+              "keywords": [
+                "twin-linked"
+              ],
+              "name": "datasheets.Imperial_Fortress_Walls.rangedWeapons.0.profiles.0.name",
+              "range": "60\"",
+              "skill": "4+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "sustained hits 1",
+                "twin-linked"
+              ],
+              "name": "datasheets.Imperial_Fortress_Walls.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [
+                "twin-linked"
+              ],
+              "name": "datasheets.Imperial_Fortress_Walls.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "4+",
+              "strength": "12"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "-",
+          "name": "Imperial Fortress Walls",
+          "oc": "0",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "14",
+          "w": "80"
+        }
+      ],
+      "transport": "datasheets.Imperial_Fortress_Walls.transport",
+      "wargear": [
+        "datasheets.Imperial_Fortress_Walls.wargear.0",
+        "datasheets.Imperial_Fortress_Walls.wargear.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise 3D6",
+          "Firing Deck 45"
+        ],
+        "damaged": {
+          "description": "datasheets.Castellum_Stronghold.abilities.damaged.description",
+          "range": "datasheets.Castellum_Stronghold.abilities.damaged.range",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Castellum_Stronghold.abilities.other.1.description",
+            "name": "datasheets.Castellum_Stronghold.abilities.other.1.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [
+          {
+            "abilities": [
+              {
+                "description": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.description",
+                "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name"
+              }
+            ],
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name",
+            "showAbility": true
+          },
+          {
+            "abilities": [
+              {
+                "description": "datasheets.Imperial_Fortress_Walls.abilities.primarch.1.abilities.0.description",
+                "name": "datasheets.Imperial_Fortress_Walls.abilities.primarch.1.abilities.0.name"
+              }
+            ],
+            "name": "datasheets.Imperial_Fortress_Walls.abilities.primarch.1.abilities.0.name",
+            "showAbility": true
+          }
+        ],
+        "special": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": [
+          {
+            "description": "datasheets.Castellum_Stronghold.abilities.wargear.0.description",
+            "name": "datasheets.Castellum_Stronghold.abilities.wargear.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Castellum_Stronghold.composition.0"
+      ],
+      "faction_id": "UN",
+      "factions": [
+        "Unaligned Forces"
+      ],
+      "fluff": "",
+      "id": "b674bead-1827-5e49-9379-87f3c08304da",
+      "imperialArmour": true,
+      "keywords": [
+        "Castellum Stronghold",
+        "Fortification",
+        "Titanic",
+        "Transport",
+        "Vehicle"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Castellum_Stronghold.loadout",
+      "meleeWeapons": [],
+      "name": "Castellum Stronghold",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "sustained hits 1",
+                "twin-linked"
+              ],
+              "name": "datasheets.Imperial_Fortress_Walls.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "2",
+              "keywords": [
+                "ignores cover",
+                "torrent",
+                "twin-linked"
+              ],
+              "name": "datasheets.Castellum_Stronghold.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6+3",
+              "damage": "3",
+              "keywords": [
+                "blast"
+              ],
+              "name": "datasheets.Castellum_Stronghold.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "4+",
+              "strength": "10"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "D6",
+              "damage": "D6",
+              "keywords": [
+                "anti-fly 2+"
+              ],
+              "name": "datasheets.Castellum_Stronghold.rangedWeapons.3.profiles.0.name",
+              "range": "48\"",
+              "skill": "4+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "D6+3",
+              "damage": "2",
+              "keywords": [
+                "blast",
+                "indirect fire"
+              ],
+              "name": "datasheets.Castellum_Stronghold.rangedWeapons.4.profiles.0.name",
+              "range": "72\"",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [
+                "twin-linked"
+              ],
+              "name": "datasheets.Imperial_Fortress_Walls.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "4+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "2",
+              "damage": "D6+1",
+              "keywords": [
+                "anti-fly 2+",
+                "twin-linked"
+              ],
+              "name": "datasheets.Castellum_Stronghold.rangedWeapons.6.profiles.0.name",
+              "range": "48\"",
+              "skill": "4+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [
+                "melta 2"
+              ],
+              "name": "datasheets.Castellum_Stronghold.rangedWeapons.7.profiles.0.name",
+              "range": "18\"",
+              "skill": "4+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "devastating wounds",
+                "twin-linked"
+              ],
+              "name": "datasheets.Castellum_Stronghold.rangedWeapons.8.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "-",
+          "name": "Castellum Stronghold",
+          "oc": "0",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "13",
+          "w": "50"
+        }
+      ],
+      "transport": "datasheets.Castellum_Stronghold.transport",
+      "wargear": [
+        "datasheets.Castellum_Stronghold.wargear.0",
+        "datasheets.Castellum_Stronghold.wargear.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Firing Deck 6"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Wall_Of_Martyrs_Bunker.abilities.other.1.description",
+            "name": "datasheets.Wall_Of_Martyrs_Bunker.abilities.other.1.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.1.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.1.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [
+          {
+            "abilities": [
+              {
+                "description": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.description",
+                "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name"
+              }
+            ],
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name",
+            "showAbility": true
+          }
+        ],
+        "special": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": [
+          {
+            "description": "datasheets.Castellum_Stronghold.abilities.wargear.0.description",
+            "name": "datasheets.Castellum_Stronghold.abilities.wargear.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Wall_Of_Martyrs_Bunker.composition.0"
+      ],
+      "faction_id": "UN",
+      "factions": [
+        "Unaligned Forces"
+      ],
+      "fluff": "",
+      "id": "827afd66-dbd6-523c-a141-ce76d3dec435",
+      "imperialArmour": true,
+      "keywords": [
+        "Bunker",
+        "Fortification",
+        "Transport",
+        "Vehicle",
+        "Wall of Martyrs"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Castellum_Stronghold.loadout",
+      "meleeWeapons": [],
+      "name": "datasheets.Wall_Of_Martyrs_Bunker.name",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "3",
+              "keywords": [
+                "anti-fly 3+",
+                "twin-linked"
+              ],
+              "name": "datasheets.Wall_Of_Martyrs_Bunker.rangedWeapons.0.profiles.0.name",
+              "range": "48\"",
+              "skill": "5+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [
+                "anti-fly 2+"
+              ],
+              "name": "datasheets.Wall_Of_Martyrs_Bunker.rangedWeapons.1.profiles.0.name",
+              "range": "48\"",
+              "skill": "5+",
+              "strength": "12"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "-",
+          "name": "datasheets.Wall_Of_Martyrs_Bunker.name",
+          "oc": "0",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "13",
+          "w": "10"
+        }
+      ],
+      "transport": "datasheets.Wall_Of_Martyrs_Bunker.transport",
+      "wargear": [
+        "datasheets.Wall_Of_Martyrs_Bunker.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Vengeance_Weapon_Battery.abilities.other.1.description",
+            "name": "datasheets.Vengeance_Weapon_Battery.abilities.other.1.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [
+          {
+            "abilities": [
+              {
+                "description": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.description",
+                "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name"
+              }
+            ],
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name",
+            "showAbility": true
+          }
+        ],
+        "special": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Vengeance_Weapon_Battery.composition.0"
+      ],
+      "faction_id": "UN",
+      "factions": [
+        "Unaligned Forces"
+      ],
+      "fluff": "",
+      "id": "7b076f9c-d0fc-5dac-951c-f2261535a7f6",
+      "imperialArmour": true,
+      "keywords": [
+        "Fortification",
+        "Vehicle",
+        "Vengeance Weapon Battery",
+        "Wall of Martyrs"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Vengeance_Weapon_Battery.loadout",
+      "meleeWeapons": [],
+      "name": "Vengeance Weapon Battery",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6+3",
+              "damage": "3",
+              "keywords": [
+                "blast"
+              ],
+              "name": "datasheets.Vengeance_Weapon_Battery.rangedWeapons.0.profiles.0.name",
+              "range": "48\"",
+              "skill": "5+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "2",
+              "damage": "D6+1",
+              "keywords": [
+                "anti-fly 2+",
+                "twin-linked"
+              ],
+              "name": "datasheets.Vengeance_Weapon_Battery.rangedWeapons.1.profiles.0.name",
+              "range": "48\"",
+              "skill": "5+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "20",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Vengeance_Weapon_Battery.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "5+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "-",
+          "name": "Vengeance Weapon Battery",
+          "oc": "0",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "13",
+          "w": "10"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Vengeance_Weapon_Battery.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "description": "datasheets.Skyshield_Landing_Pad.abilities.other.0.description",
+            "name": "datasheets.Skyshield_Landing_Pad.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Skyshield_Landing_Pad.abilities.other.2.description",
+            "name": "datasheets.Skyshield_Landing_Pad.abilities.other.2.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [
+          {
+            "abilities": [
+              {
+                "description": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.description",
+                "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name"
+              }
+            ],
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name",
+            "showAbility": true
+          }
+        ],
+        "special": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Skyshield_Landing_Pad.composition.0"
+      ],
+      "faction_id": "UN",
+      "factions": [
+        "Unaligned Forces"
+      ],
+      "fluff": "",
+      "id": "1cf6bf2b-5565-59c8-946a-92cf97789519",
+      "imperialArmour": true,
+      "keywords": [
+        "Fortification",
+        "Skyshield Landing Pad"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Skyshield_Landing_Pad.loadout",
+      "meleeWeapons": [],
+      "name": "Skyshield Landing Pad",
+      "points": [],
+      "rangedWeapons": [],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "-",
+          "name": "Skyshield Landing Pad",
+          "oc": "0",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "12",
+          "w": "16",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Skyshield_Landing_Pad.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6",
+          "Firing Deck 10"
+        ],
+        "damaged": {
+          "description": "datasheets.Plasma_Obliterator.abilities.damaged.description",
+          "range": "datasheets.Plasma_Obliterator.abilities.damaged.range",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Plasma_Obliterator.abilities.other.1.description",
+            "name": "datasheets.Plasma_Obliterator.abilities.other.1.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [
+          {
+            "abilities": [
+              {
+                "description": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.description",
+                "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name"
+              }
+            ],
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name",
+            "showAbility": true
+          }
+        ],
+        "special": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Plasma_Obliterator.composition.0"
+      ],
+      "faction_id": "UN",
+      "factions": [
+        "Unaligned Forces"
+      ],
+      "fluff": "",
+      "id": "c2b91bde-3499-583b-9e8f-3c002eeeb0c0",
+      "imperialArmour": true,
+      "keywords": [
+        "Fortification",
+        "Plasma Obliterator",
+        "Towering",
+        "Transport",
+        "Vehicle"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Plasma_Obliterator.loadout",
+      "meleeWeapons": [],
+      "name": "Plasma Obliterator",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "D6+3",
+              "damage": "3",
+              "keywords": [
+                "blast"
+              ],
+              "name": "datasheets.Plasma_Obliterator.rangedWeapons.0.profiles.0.name",
+              "range": "48\"",
+              "skill": "5+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "D6+3",
+              "damage": "4",
+              "keywords": [
+                "blast",
+                "hazardous"
+              ],
+              "name": "datasheets.Plasma_Obliterator.rangedWeapons.0.profiles.1.name",
+              "range": "48\"",
+              "skill": "5+",
+              "strength": "10"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "-",
+          "name": "Plasma Obliterator",
+          "oc": "0",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "13",
+          "w": "18"
+        }
+      ],
+      "transport": "datasheets.Fortress_Of_Redemption.transport",
+      "wargear": [
+        "datasheets.Skyshield_Landing_Pad.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6",
+          "Firing Deck 10"
+        ],
+        "damaged": {
+          "description": "datasheets.Plasma_Obliterator.abilities.damaged.description",
+          "range": "datasheets.Plasma_Obliterator.abilities.damaged.range",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.1.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.1.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [
+          {
+            "abilities": [
+              {
+                "description": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.description",
+                "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name"
+              }
+            ],
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name",
+            "showAbility": true
+          }
+        ],
+        "special": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": [
+          {
+            "description": "datasheets.Castellum_Stronghold.abilities.wargear.0.description",
+            "name": "datasheets.Castellum_Stronghold.abilities.wargear.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Bastion.composition.0"
+      ],
+      "faction_id": "UN",
+      "factions": [
+        "Unaligned Forces"
+      ],
+      "fluff": "",
+      "id": "3194e78d-7cc5-58eb-b030-338f53c0c068",
+      "imperialArmour": true,
+      "keywords": [
+        "Bastion",
+        "Fortification",
+        "Towering",
+        "Transport",
+        "Vehicle"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Bastion.loadout",
+      "meleeWeapons": [],
+      "name": "Bastion",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "sustained hits 1"
+              ],
+              "name": "datasheets.Vortex_Missile_Strongpoint.rangedWeapons.0.profiles.0.name",
+              "range": "36\"",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "3",
+              "keywords": [
+                "anti-fly 3+",
+                "twin-linked"
+              ],
+              "name": "datasheets.Wall_Of_Martyrs_Bunker.rangedWeapons.0.profiles.0.name",
+              "range": "48\"",
+              "skill": "5+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [
+                "anti-fly 2+"
+              ],
+              "name": "datasheets.Wall_Of_Martyrs_Bunker.rangedWeapons.1.profiles.0.name",
+              "range": "48\"",
+              "skill": "5+",
+              "strength": "12"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "-",
+          "name": "Bastion",
+          "oc": "0",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "13",
+          "w": "18"
+        }
+      ],
+      "transport": "datasheets.Bastion.transport",
+      "wargear": [
+        "datasheets.Wall_Of_Martyrs_Bunker.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6",
+          "Firing Deck 10"
+        ],
+        "damaged": {
+          "description": "datasheets.Plasma_Obliterator.abilities.damaged.description",
+          "range": "datasheets.Plasma_Obliterator.abilities.damaged.range",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.1.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.1.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [
+          {
+            "abilities": [
+              {
+                "description": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.description",
+                "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name"
+              }
+            ],
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name",
+            "showAbility": true
+          }
+        ],
+        "special": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": [
+          {
+            "description": "datasheets.Castellum_Stronghold.abilities.wargear.0.description",
+            "name": "datasheets.Castellum_Stronghold.abilities.wargear.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Firestorm_Redoubt.composition.0"
+      ],
+      "faction_id": "UN",
+      "factions": [
+        "Unaligned Forces"
+      ],
+      "fluff": "",
+      "id": "5a9ab4c4-acb2-560c-9bcc-fca153eceaea",
+      "imperialArmour": true,
+      "keywords": [
+        "Firestorm Redoubt",
+        "Fortification",
+        "Transport",
+        "Vehicle",
+        "Wall of Martyrs"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Firestorm_Redoubt.loadout",
+      "meleeWeapons": [],
+      "name": "Firestorm Redoubt",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "3",
+              "keywords": [
+                "anti-fly 3+",
+                "twin-linked"
+              ],
+              "name": "datasheets.Wall_Of_Martyrs_Bunker.rangedWeapons.0.profiles.0.name",
+              "range": "48\"",
+              "skill": "5+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6+3",
+              "damage": "3",
+              "keywords": [
+                "blast"
+              ],
+              "name": "datasheets.Vengeance_Weapon_Battery.rangedWeapons.0.profiles.0.name",
+              "range": "48\"",
+              "skill": "5+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [
+                "anti-fly 2+"
+              ],
+              "name": "datasheets.Wall_Of_Martyrs_Bunker.rangedWeapons.1.profiles.0.name",
+              "range": "48\"",
+              "skill": "5+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "2",
+              "damage": "D6+1",
+              "keywords": [
+                "anti-fly 2+",
+                "twin-linked"
+              ],
+              "name": "datasheets.Firestorm_Redoubt.rangedWeapons.3.profiles.0.name",
+              "range": "48\"",
+              "skill": "5+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "20",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Vengeance_Weapon_Battery.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "5+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "-",
+          "name": "Firestorm Redoubt",
+          "oc": "0",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "13",
+          "w": "18"
+        }
+      ],
+      "transport": "datasheets.Bastion.transport",
+      "wargear": [
+        "datasheets.Firestorm_Redoubt.wargear.0",
+        "datasheets.Wall_Of_Martyrs_Bunker.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Void_Shield_Generator.abilities.other.1.description",
+            "name": "datasheets.Void_Shield_Generator.abilities.other.1.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [
+          {
+            "abilities": [
+              {
+                "description": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.description",
+                "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name"
+              }
+            ],
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name",
+            "showAbility": true
+          }
+        ],
+        "special": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Void_Shield_Generator.composition.0"
+      ],
+      "faction_id": "UN",
+      "factions": [
+        "Unaligned Forces"
+      ],
+      "fluff": "",
+      "id": "47f3968a-1411-5542-8b9b-3175090a6577",
+      "imperialArmour": true,
+      "keywords": [
+        "Fortification",
+        "Void Shield Generator"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Castellum_Stronghold.loadout",
+      "meleeWeapons": [],
+      "name": "Void Shield Generator",
+      "points": [],
+      "rangedWeapons": [],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "-",
+          "name": "Void Shield Generator",
+          "oc": "0",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "12",
+          "w": "16",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Skyshield_Landing_Pad.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "damaged": {
+          "description": "datasheets.Plasma_Obliterator.abilities.damaged.description",
+          "range": "datasheets.Plasma_Obliterator.abilities.damaged.range",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Primaris_Redoubt.abilities.other.1.description",
+            "name": "datasheets.Imperial_Fortress_Walls.abilities.other.1.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Primaris_Redoubt.abilities.other.2.description",
+            "name": "datasheets.Primaris_Redoubt.abilities.other.2.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [
+          {
+            "abilities": [
+              {
+                "description": "datasheets.Primaris_Redoubt.abilities.primarch.0.abilities.0.description",
+                "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name"
+              }
+            ],
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name",
+            "showAbility": true
+          }
+        ],
+        "special": [
+          {
+            "description": "datasheets.Primaris_Redoubt.abilities.special.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Primaris_Redoubt.composition.0"
+      ],
+      "faction_id": "UN",
+      "factions": [
+        "Unaligned Forces"
+      ],
+      "fluff": "",
+      "id": "b82edb3d-6157-5e59-83fe-e7dfcbdbdf76",
+      "imperialArmour": true,
+      "keywords": [
+        "Fortification",
+        "Primaris Redoubt",
+        "Vehicle"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Primaris_Redoubt.loadout",
+      "meleeWeapons": [],
+      "name": "Primaris Redoubt",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Primaris_Redoubt.rangedWeapons.0.profiles.0.name",
+              "range": "48\"",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D3+1",
+              "damage": "2",
+              "keywords": [
+                "blast",
+                "indirect fire"
+              ],
+              "name": "datasheets.Primaris_Redoubt.rangedWeapons.1.profiles.0.name",
+              "range": "72\"",
+              "skill": "4+",
+              "strength": "7"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "D6",
+              "damage": "2",
+              "keywords": [
+                "anti-fly 2+"
+              ],
+              "name": "datasheets.Primaris_Redoubt.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [
+                "anti-fly 2+"
+              ],
+              "name": "datasheets.Primaris_Redoubt.rangedWeapons.3.profiles.0.name",
+              "range": "48\"",
+              "skill": "4+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "2",
+              "damage": "D6+1",
+              "keywords": [
+                "anti-fly 2+",
+                "twin-linked"
+              ],
+              "name": "datasheets.Primaris_Redoubt.rangedWeapons.4.profiles.0.name",
+              "range": "48\"",
+              "skill": "4+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "D3+1",
+              "damage": "D6+3",
+              "keywords": [
+                "blast"
+              ],
+              "name": "datasheets.Primaris_Redoubt.rangedWeapons.5.profiles.0.name",
+              "range": "96\"",
+              "skill": "4+",
+              "strength": "16"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6+1",
+              "damage": "1",
+              "keywords": [
+                "blast",
+                "indirect fire"
+              ],
+              "name": "datasheets.Primaris_Redoubt.rangedWeapons.6.profiles.0.name",
+              "range": "72\"",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "-",
+          "name": "Primaris Redoubt",
+          "oc": "0",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "12",
+          "w": "18",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Primaris_Redoubt.wargear.0",
+        "datasheets.Primaris_Redoubt.wargear.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Feel No Pain 5+"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "description": "datasheets.Ambull.abilities.other.0.description",
+            "name": "datasheets.Ambull.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": [
+          {
+            "description": "datasheets.Ambull.abilities.wargear.0.description",
+            "name": "datasheets.Ambull.abilities.wargear.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Ambull.composition.0"
+      ],
+      "faction_id": "UN",
+      "factions": [
+        "Unaligned Forces"
+      ],
+      "fluff": "",
+      "id": "d1c37afc-35b2-5ada-9419-a09bbe7aa487",
+      "imperialArmour": true,
+      "keywords": [
+        "Ambull",
+        "Character",
+        "Monster"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Ambull.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "D3",
+              "keywords": [],
+              "name": "datasheets.Ambull.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Ambull",
+      "points": [],
+      "rangedWeapons": [],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "8+",
+          "m": "6\"",
+          "name": "Ambull",
+          "oc": "3",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "8",
+          "w": "8"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Skyshield_Landing_Pad.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Feel No Pain 5+"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Guardian_Drone.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "description": "datasheets.Guardian_Drone.abilities.other.0.description",
+            "name": "datasheets.Guardian_Drone.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Guardian_Drone.composition.0"
+      ],
+      "faction_id": "UN",
+      "factions": [
+        "Unaligned Forces"
+      ],
+      "fluff": "",
+      "id": "1781b9e5-7b59-5701-8cfa-18d281936f75",
+      "imperialArmour": true,
+      "keywords": [
+        "Guardian Drone",
+        "Monster"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Guardian_Drone.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Guardian_Drone.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "name": "Guardian Drone",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "blast"
+              ],
+              "name": "datasheets.Guardian_Drone.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "pistol"
+              ],
+              "name": "datasheets.Guardian_Drone.rangedWeapons.1.profiles.0.name",
+              "range": "18\"",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "5\"",
+          "name": "Guardian Drone",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "7",
+          "w": "7"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Skyshield_Landing_Pad.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Feel No Pain 5+"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "description": "datasheets.Spindle_Drones.abilities.other.0.description",
+            "name": "datasheets.Spindle_Drones.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Spindle_Drones.composition.0"
+      ],
+      "faction_id": "UN",
+      "factions": [
+        "Unaligned Forces"
+      ],
+      "fluff": "",
+      "id": "c6fb7b01-fbb2-50b2-8063-e2179d1340ab",
+      "imperialArmour": true,
+      "keywords": [
+        "Infantry",
+        "Spindle Drones"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Spindle_Drones.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Spindle_Drones.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "name": "Spindle Drones",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "pistol"
+              ],
+              "name": "datasheets.Spindle_Drones.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "4+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "Spindle Drones",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "4+",
+          "t": "4",
+          "w": "2"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Skyshield_Landing_Pad.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Lone Operative"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Guardian_Drone.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "description": "datasheets.The_Archivist.abilities.other.0.description",
+            "name": "datasheets.The_Archivist.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.The_Archivist.abilities.other.1.description",
+            "name": "datasheets.The_Archivist.abilities.other.1.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.The_Archivist.composition.0"
+      ],
+      "faction_id": "UN",
+      "factions": [
+        "Unaligned Forces"
+      ],
+      "fluff": "",
+      "id": "4fd17ee8-4fb4-5d00-bdd1-8476d7c8bc3a",
+      "imperialArmour": true,
+      "keywords": [
+        "Character",
+        "Epic Hero",
+        "Monster",
+        "The Archivist"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.The_Archivist.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.The_Archivist.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "The Archivist",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "ignores cover",
+                "pistol"
+              ],
+              "name": "datasheets.The_Archivist.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "5\"",
+          "name": "The Archivist",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "6",
+          "w": "6"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Skyshield_Landing_Pad.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Imperial_Fortress_Walls.abilities.other.1.description",
+            "name": "datasheets.Wall_Of_Martyrs_Defence_Line.abilities.other.1.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Wall_Of_Martyrs_Defence_Line.abilities.other.2.description",
+            "name": "datasheets.Wall_Of_Martyrs_Defence_Line.abilities.other.2.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [
+          {
+            "abilities": [
+              {
+                "description": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.description",
+                "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name"
+              }
+            ],
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name",
+            "showAbility": true
+          }
+        ],
+        "special": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Wall_Of_Martyrs_Defence_Line.composition.0"
+      ],
+      "faction_id": "UN",
+      "factions": [
+        "Unaligned Forces"
+      ],
+      "fluff": "",
+      "id": "29d3e39b-0c4c-58e3-ba8c-3ba2b5b139e7",
+      "imperialArmour": true,
+      "keywords": [
+        "Defence Line",
+        "Fortification",
+        "Wall of Martyrs"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Skyshield_Landing_Pad.loadout",
+      "meleeWeapons": [],
+      "name": "datasheets.Wall_Of_Martyrs_Defence_Line.name",
+      "points": [],
+      "rangedWeapons": [],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "-",
+          "name": "datasheets.Wall_Of_Martyrs_Defence_Line.name",
+          "oc": "0",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "12",
+          "w": "10"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Skyshield_Landing_Pad.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Imperial_Fortress_Walls.abilities.other.1.description",
+            "name": "datasheets.Wall_Of_Martyrs_Defence_Line.abilities.other.1.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Wall_Of_Martyrs_Defence_Emplacement.abilities.other.2.description",
+            "name": "Defence Line",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [
+          {
+            "abilities": [
+              {
+                "description": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.description",
+                "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name"
+              }
+            ],
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name",
+            "showAbility": true
+          }
+        ],
+        "special": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Wall_Of_Martyrs_Defence_Emplacement.composition.0"
+      ],
+      "faction_id": "UN",
+      "factions": [
+        "Unaligned Forces"
+      ],
+      "fluff": "",
+      "id": "d9c29417-3b8a-5c3a-8059-c8ca0a8deedf",
+      "imperialArmour": true,
+      "keywords": [
+        "Defence Emplacement",
+        "Fortification",
+        "Wall of Martyrs"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Castellum_Stronghold.loadout",
+      "meleeWeapons": [],
+      "name": "datasheets.Wall_Of_Martyrs_Defence_Emplacement.name",
+      "points": [],
+      "rangedWeapons": [],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "-",
+          "name": "datasheets.Wall_Of_Martyrs_Defence_Emplacement.name",
+          "oc": "0",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "12",
+          "w": "10"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Skyshield_Landing_Pad.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "description": "datasheets.Wall_Of_Martyrs_Defence_Line.abilities.other.2.description",
+            "name": "Defence Line",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [
+          {
+            "abilities": [
+              {
+                "description": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.description",
+                "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name"
+              }
+            ],
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.primarch.0.abilities.0.name",
+            "showAbility": true
+          }
+        ],
+        "special": [
+          {
+            "description": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.description",
+            "name": "datasheets.Vortex_Missile_Strongpoint.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Aegis_Defence_Line_With_Weapon_Emplacement.composition.0"
+      ],
+      "faction_id": "UN",
+      "factions": [
+        "Unaligned Forces"
+      ],
+      "fluff": "",
+      "id": "3b44d1d1-1844-5a7a-b028-f7462c254126",
+      "imperialArmour": true,
+      "keywords": [
+        "Aegis Defence Line with Weapon Emplacement",
+        "Fortification"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Aegis_Defence_Line_With_Weapon_Emplacement.loadout",
+      "meleeWeapons": [],
+      "name": "datasheets.Aegis_Defence_Line_With_Weapon_Emplacement.name",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "3",
+              "keywords": [
+                "anti-fly 3+",
+                "twin-linked"
+              ],
+              "name": "datasheets.Wall_Of_Martyrs_Bunker.rangedWeapons.0.profiles.0.name",
+              "range": "48\"",
+              "skill": "5+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [
+                "anti-fly 2+"
+              ],
+              "name": "datasheets.Wall_Of_Martyrs_Bunker.rangedWeapons.1.profiles.0.name",
+              "range": "48\"",
+              "skill": "5+",
+              "strength": "12"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "-",
+          "name": "datasheets.Aegis_Defence_Line_With_Weapon_Emplacement.name",
+          "oc": "0",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "12",
+          "w": "10"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Aegis_Defence_Line_With_Weapon_Emplacement.wargear.0"
+      ]
+    }
+  ],
+  "detachments": [],
+  "id": "UN",
+  "is_subfaction": false,
+  "name": "datasheets.Guardian_Drone.abilities.faction.0",
+  "parent_id": ""
+}

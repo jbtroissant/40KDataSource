@@ -1,0 +1,4918 @@
+{
+  "colours": {
+    "banner": "#102929",
+    "header": "#0f454e"
+  },
+  "datasheets": [
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Scourges.abilities.other.0.name",
+            "description": "datasheets.Scourges.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Scourges.composition.0",
+        "datasheets.Scourges.composition.1"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Scourges.fluff",
+      "id": "df49e14a-d6d6-528b-ad8f-246a9bcf2b3a",
+      "keywords": [
+        "Infantry",
+        "Fly",
+        "Grenades",
+        "Jump Pack",
+        "Aeldari",
+        "Scourges"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Scourges.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Scourges.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "3"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Scourges.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "name": "Scourges",
+      "points": [
+        {
+          "cost": "180",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "130",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Assault",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "2"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D3",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.1.profiles.0.name",
+              "range": "6\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol",
+                "Assault",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.2.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "2"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [
+                "Assault"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.3.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+2",
+              "keywords": [
+                "Heavy"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.4.profiles.0.name",
+              "range": "36\"",
+              "skill": "4+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "3",
+              "keywords": [
+                "Heavy",
+                "Devastating Wounds",
+                "Anti-vehicle 4+"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.5.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "3"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "Melta 3",
+                "Heavy",
+                "Assault"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.6.profiles.0.name",
+              "range": "18\"",
+              "skill": "4+",
+              "strength": "14"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Assault"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.7.profiles.0.name",
+              "range": "18\"",
+              "skill": "N/A",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1",
+                "Heavy",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.8.profiles.0.name",
+              "range": "36\"",
+              "skill": "4+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "14\"",
+          "name": "datasheets.Scourges.stats.0.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "4+",
+          "t": "3",
+          "w": "1",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Scourges.wargear.0",
+        "datasheets.Scourges.wargear.1",
+        "datasheets.Scourges.wargear.2"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise 1",
+          "Feel No Pain 5+"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Talos.abilities.other.0.name",
+            "description": "datasheets.Talos.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Talos.composition.0"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Talos.fluff",
+      "id": "1e30664e-db2c-535b-bb85-4d6759053a26",
+      "keywords": [
+        "Monster",
+        "Haemonculus Covens",
+        "Fly",
+        "Aeldari",
+        "Talos"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Talos.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "5",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Talos.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "7"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "Extra Attacks"
+              ],
+              "name": "datasheets.Talos.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "7"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "8",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Talos.meleeWeapons.2.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "3",
+              "keywords": [],
+              "name": "datasheets.Talos.meleeWeapons.3.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "Talos",
+      "points": [
+        {
+          "cost": "160",
+          "keyword": null,
+          "models": "2",
+          "active": true
+        },
+        {
+          "cost": "80",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits 1",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Talos.rangedWeapons.0.profiles.0.name",
+              "range": "36\"",
+              "skill": "4+",
+              "strength": "3"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "3",
+              "keywords": [
+                "Twin-linked",
+                "Devastating Wounds",
+                "Anti-vehicle 4+"
+              ],
+              "name": "datasheets.Talos.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "3"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "Twin-linked",
+                "Melta 3",
+                "Assault"
+              ],
+              "name": "datasheets.Talos.rangedWeapons.2.profiles.0.name",
+              "range": "18\"",
+              "skill": "4+",
+              "strength": "14"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2D6",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Talos.rangedWeapons.3.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Torrent"
+              ],
+              "name": "datasheets.Talos.rangedWeapons.4.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "7\"",
+          "name": "Talos",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "7",
+          "w": "7",
+          "invul": "6+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Talos.wargear.0",
+        "datasheets.Talos.wargear.1",
+        "datasheets.Talos.wargear.2"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Scouts 9\""
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Beastmaster.abilities.other.0.name",
+            "description": "datasheets.Beastmaster.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Beastmaster.composition.0",
+        "datasheets.Beastmaster.composition.1",
+        "datasheets.Beastmaster.composition.2",
+        "datasheets.Beastmaster.composition.3"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Beastmaster.fluff",
+      "id": "8af13920-b98d-5157-933e-ce13909c384c",
+      "keywords": [
+        "Beasts",
+        "Aeldari",
+        "Mounted",
+        "Character",
+        "Fly",
+        "Beastmaster"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Beastmaster.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Beastmaster.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "3"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "5",
+              "damage": "2",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Beastmaster.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [
+                "Lethal Hits"
+              ],
+              "name": "datasheets.Beastmaster.meleeWeapons.2.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Beastmaster.meleeWeapons.3.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "name": "Beastmaster",
+      "points": [
+        {
+          "cost": "120",
+          "keyword": null,
+          "models": "7",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Assault",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Beastmaster.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "2"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "Beastmaster",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "6+",
+          "t": "4",
+          "w": "3",
+          "invul": "6+"
+        },
+        {
+          "active": true,
+          "ld": "8+",
+          "m": "12\"",
+          "name": "datasheets.Beastmaster.stats.1.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "6+",
+          "t": "4",
+          "w": "5",
+          "invul": "6+"
+        },
+        {
+          "active": true,
+          "ld": "8+",
+          "m": "12\"",
+          "name": "datasheets.Beastmaster.stats.2.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "6+",
+          "t": "4",
+          "w": "2",
+          "invul": "6+"
+        },
+        {
+          "active": true,
+          "ld": "8+",
+          "m": "12\"",
+          "name": "datasheets.Beastmaster.stats.3.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "6+",
+          "t": "4",
+          "w": "3",
+          "invul": "6+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Beastmaster.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Deep Strike"
+        ],
+        "damaged": {
+          "range": "datasheets.Ravager.abilities.damaged.range",
+          "description": "datasheets.Ravager.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Ravager.abilities.other.0.name",
+            "description": "datasheets.Ravager.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Ravager.composition.0"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Ravager.fluff",
+      "id": "075546f0-4a15-560e-a1fd-488f9937204c",
+      "keywords": [
+        "Vehicle",
+        "Kabal",
+        "Fly",
+        "Aeldari",
+        "Ravager"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Ravager.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Ravager.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Ravager",
+      "points": [
+        {
+          "cost": "110",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+2",
+              "keywords": [],
+              "name": "datasheets.Scourges.rangedWeapons.4.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Ravager.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "14\"",
+          "name": "Ravager",
+          "oc": "3",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "4+",
+          "t": "9",
+          "w": "11",
+          "invul": "6+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Ravager.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Court_of_the_Archon.abilities.other.0.name",
+            "description": "datasheets.Court_of_the_Archon.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Court_of_the_Archon.abilities.other.1.name",
+            "description": "datasheets.Court_of_the_Archon.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Court_of_the_Archon.abilities.other.2.name",
+            "description": "datasheets.Court_of_the_Archon.abilities.other.2.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Court_of_the_Archon.abilities.other.3.name",
+            "description": "datasheets.Court_of_the_Archon.abilities.other.3.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [
+          {
+            "description": "datasheets.Court_of_the_Archon.abilities.special.0.description",
+            "name": "datasheets.Court_of_the_Archon.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Court_of_the_Archon.composition.0",
+        "datasheets.Court_of_the_Archon.composition.1",
+        "datasheets.Court_of_the_Archon.composition.2",
+        "datasheets.Court_of_the_Archon.composition.3"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Court_of_the_Archon.fluff",
+      "id": "1401c474-c224-5394-99e3-ccb8434c502d",
+      "keywords": [
+        "Infantry",
+        "Kabal",
+        "Aeldari",
+        "Court of the Archon"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Court_of_the_Archon.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [
+                "Anti-infantry 2+"
+              ],
+              "name": "datasheets.Court_of_the_Archon.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Scourges.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "3"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Court_of_the_Archon.meleeWeapons.2.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Court_of_the_Archon.meleeWeapons.3.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "name": "Court of the Archon",
+      "points": [
+        {
+          "cost": "95",
+          "keyword": null,
+          "models": "4",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Pistol"
+              ],
+              "name": "datasheets.Court_of_the_Archon.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Assault",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "2"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol",
+                "Assault",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.2.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "2"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "8\"",
+          "name": "datasheets.Court_of_the_Archon.abilities.other.3.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "5+",
+          "t": "3",
+          "w": "2",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Beastmaster.wargear.0"
+      ],
+      "leadBy": [
+        "datasheets.Court_of_the_Archon.leadBy.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Reavers.abilities.other.0.name",
+            "description": "datasheets.Reavers.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": [
+          {
+            "name": "datasheets.Reavers.abilities.wargear.0.name",
+            "description": "datasheets.Reavers.abilities.wargear.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Reavers.abilities.wargear.1.name",
+            "description": "datasheets.Reavers.abilities.wargear.1.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Reavers.abilities.wargear.0.name",
+            "description": "datasheets.Reavers.abilities.wargear.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Reavers.abilities.wargear.1.name",
+            "description": "datasheets.Reavers.abilities.wargear.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Reavers.composition.0",
+        "datasheets.Reavers.composition.1"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Reavers.fluff",
+      "id": "a52a5ba0-7c76-5719-bb74-93d8cd740f5c",
+      "keywords": [
+        "Mounted",
+        "Wych Cult",
+        "Fly",
+        "Aeldari",
+        "Reavers"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Reavers.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Ravager.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Beastmaster.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "name": "Reavers",
+      "points": [
+        {
+          "cost": "120",
+          "keyword": null,
+          "models": "6",
+          "active": true
+        },
+        {
+          "cost": "65",
+          "keyword": null,
+          "models": "3",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol",
+                "Assault",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.2.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "2"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Assault",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Reavers.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "2"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [
+                "Assault"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.3.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "Melta 3",
+                "Assault"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.6.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "14"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "16\"",
+          "name": "datasheets.Reavers.stats.0.name",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "4+",
+          "t": "4",
+          "w": "2",
+          "invul": "6+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Reavers.wargear.0",
+        "datasheets.Reavers.wargear.1",
+        "datasheets.Reavers.wargear.2"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Feel No Pain 4+",
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Urien_Rakarth.abilities.other.0.name",
+            "description": "datasheets.Urien_Rakarth.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Urien_Rakarth.abilities.other.1.name",
+            "description": "datasheets.Urien_Rakarth.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Urien_Rakarth.composition.0"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Urien_Rakarth.fluff",
+      "id": "805c5224-bee4-5c3d-9d31-e0e3e4947500",
+      "keywords": [
+        "Infantry",
+        "Haemonculus Covens",
+        "Character",
+        "Epic Hero",
+        "Aeldari",
+        "Haemonculus",
+        "Urien Rakarth"
+      ],
+      "leader": "datasheets.Urien_Rakarth.leader",
+      "loadout": "datasheets.Urien_Rakarth.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "5",
+              "damage": "D3",
+              "keywords": [
+                "Precision",
+                "Anti-infantry 2+"
+              ],
+              "name": "datasheets.Urien_Rakarth.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "name": "Urien Rakarth",
+      "points": [
+        {
+          "cost": "80",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "One Shot",
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Urien_Rakarth.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "3"
+            }
+          ],
+          "abilities": [
+            {
+              "name": "One Shot",
+              "description": "datasheets.Urien_Rakarth.rangedWeapons.0.abilities.0.description",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "7\"",
+          "name": "Urien Rakarth",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "6+",
+          "t": "4",
+          "w": "5",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Beastmaster.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Urien_Rakarth.leads.units.0"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Fights First",
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Lelith_Hesperax.abilities.other.0.name",
+            "description": "datasheets.Lelith_Hesperax.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Lelith_Hesperax.abilities.other.1.name",
+            "description": "datasheets.Lelith_Hesperax.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Lelith_Hesperax.composition.0"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Lelith_Hesperax.fluff",
+      "id": "e69027cf-35e4-500e-ab20-0fb01cd281b0",
+      "keywords": [
+        "Infantry",
+        "Wych Cult",
+        "Character",
+        "Epic Hero",
+        "Aeldari",
+        "Succubus",
+        "Lelith Hesperax"
+      ],
+      "leader": "datasheets.Lelith_Hesperax.leader",
+      "loadout": "datasheets.Lelith_Hesperax.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "8",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 2",
+                "Anti-infantry 2+"
+              ],
+              "name": "datasheets.Lelith_Hesperax.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "name": "Lelith Hesperax",
+      "points": [
+        {
+          "cost": "95",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "8\"",
+          "name": "Lelith Hesperax",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "6+",
+          "t": "3",
+          "w": "4",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Beastmaster.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Lelith_Hesperax.leads.units.0"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Feel No Pain 5+"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Wracks.abilities.other.0.name",
+            "description": "datasheets.Wracks.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Wracks.composition.0",
+        "datasheets.Wracks.composition.1"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Wracks.fluff",
+      "id": "ce4db86a-c461-5977-9294-533b4ddb15dc",
+      "keywords": [
+        "Infantry",
+        "Battleline",
+        "Haemonculus Covens",
+        "Aeldari",
+        "Wracks"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Wracks.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Anti-infantry 4+"
+              ],
+              "name": "datasheets.Wracks.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "name": "Wracks",
+      "points": [
+        {
+          "cost": "110",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "55",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "3",
+              "keywords": [
+                "Precision",
+                "Heavy"
+              ],
+              "name": "datasheets.Wracks.rangedWeapons.0.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent"
+              ],
+              "name": "datasheets.Wracks.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "Devastating Wounds",
+                "Anti-infantry 4+"
+              ],
+              "name": "datasheets.Wracks.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "2"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol",
+                "Anti-infantry 2+"
+              ],
+              "name": "datasheets.Wracks.rangedWeapons.3.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "2"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "7\"",
+          "name": "datasheets.Wracks.stats.0.name",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "6+",
+          "t": "4",
+          "w": "1",
+          "invul": "6+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Wracks.wargear.0"
+      ],
+      "leadBy": [
+        "Urien Rakarth",
+        "Haemonculus"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Stealth"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Razorwing_Jetfighter.abilities.other.0.name",
+            "description": "datasheets.Razorwing_Jetfighter.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Razorwing_Jetfighter.composition.0"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Razorwing_Jetfighter.fluff",
+      "id": "6d9f1792-a381-5b5f-94de-beffb94e1604",
+      "keywords": [
+        "Vehicle",
+        "Fly",
+        "Aircraft",
+        "Aeldari",
+        "Razorwing Jetfighter"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Razorwing_Jetfighter.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Razorwing_Jetfighter.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Razorwing Jetfighter",
+      "points": [
+        {
+          "cost": "170",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Razorwing_Jetfighter.rangedWeapons.0.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "2",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Razorwing_Jetfighter.rangedWeapons.0.profiles.1.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "6"
+            },
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6+3",
+              "damage": "1",
+              "keywords": [
+                "Blast",
+                "Anti-infantry 2+"
+              ],
+              "name": "datasheets.Razorwing_Jetfighter.rangedWeapons.0.profiles.2.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "2"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Rapid Fire 1",
+                "Assault",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Razorwing_Jetfighter.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "2"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+2",
+              "keywords": [],
+              "name": "datasheets.Scourges.rangedWeapons.4.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Ravager.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.8.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "20+\"",
+          "name": "Razorwing Jetfighter",
+          "oc": "0",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "4+",
+          "t": "8",
+          "w": "10",
+          "invul": "6+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Razorwing_Jetfighter.wargear.0",
+        "datasheets.Razorwing_Jetfighter.wargear.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Archon.abilities.other.0.name",
+            "description": "datasheets.Archon.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Archon.abilities.other.1.name",
+            "description": "datasheets.Archon.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Archon.composition.0"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Archon.fluff",
+      "id": "f0164c73-b047-5e23-9ed1-b8068a690340",
+      "keywords": [
+        "Infantry",
+        "Kabal",
+        "Character",
+        "Aeldari",
+        "Archon"
+      ],
+      "leader": "datasheets.Archon.leader",
+      "loadout": "datasheets.Archon.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
+              "keywords": [
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Archon.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "name": "Archon",
+      "points": [
+        {
+          "cost": "85",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol",
+                "Assault",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.2.profiles.0.name",
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "2"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D3",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.1.profiles.0.name",
+              "range": "6\"",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "8\"",
+          "name": "Archon",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "4+",
+          "t": "3",
+          "w": "4",
+          "invul": "2+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Archon.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Archon.leads.units.0",
+          "datasheets.Archon.leads.units.1",
+          "datasheets.Archon.leads.units.2"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Wyches.abilities.other.0.name",
+            "description": "datasheets.Wyches.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": [
+          {
+            "name": "datasheets.Wyches.abilities.wargear.0.name",
+            "description": "datasheets.Wyches.abilities.wargear.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Wyches.composition.0",
+        "datasheets.Wyches.composition.1"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Wyches.fluff",
+      "id": "cb257844-3bd9-5053-9f57-bb6ad6589bc4",
+      "keywords": [
+        "Infantry",
+        "Battleline",
+        "Wych Cult",
+        "Aeldari",
+        "Wyches"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Wyches.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Wyches.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "name": "Wyches",
+      "points": [
+        {
+          "cost": "80",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol",
+                "Assault",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.2.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "2"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D3",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.1.profiles.0.name",
+              "range": "6\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "8\"",
+          "name": "datasheets.Wyches.stats.0.name",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "6+",
+          "t": "3",
+          "w": "1",
+          "invul": "6+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Wyches.wargear.0",
+        "datasheets.Wyches.wargear.1"
+      ],
+      "leadBy": [
+        "Lelith Hesperax",
+        "Succubus"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Stealth"
+        ],
+        "damaged": {
+          "range": "datasheets.Ravager.abilities.damaged.range",
+          "description": "datasheets.Voidraven_Bomber.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Voidraven_Bomber.abilities.other.0.name",
+            "description": "datasheets.Voidraven_Bomber.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Voidraven_Bomber.composition.0"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Voidraven_Bomber.fluff",
+      "id": "31b00211-e1f3-52c2-a019-956f8b4afe54",
+      "keywords": [
+        "Vehicle",
+        "Aircraft",
+        "Fly",
+        "Aeldari",
+        "Voidraven Bomber"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Voidraven_Bomber.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Razorwing_Jetfighter.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Voidraven Bomber",
+      "points": [
+        {
+          "cost": "235",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "2",
+              "damage": "D6+2",
+              "keywords": [],
+              "name": "datasheets.Voidraven_Bomber.rangedWeapons.0.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "14"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Voidraven_Bomber.rangedWeapons.1.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "D3",
+              "damage": "3",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Voidraven_Bomber.rangedWeapons.1.profiles.1.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Voidraven_Bomber.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "20+\"",
+          "name": "Voidraven Bomber",
+          "oc": "0",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "4+",
+          "t": "9",
+          "w": "12",
+          "invul": "6+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Voidraven_Bomber.wargear.0",
+        "datasheets.Voidraven_Bomber.wargear.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Deep Strike",
+          "Firing Deck 11"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Raider.abilities.other.0.name",
+            "description": "datasheets.Raider.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Raider.composition.0"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Raider.fluff",
+      "id": "85c03b0d-973a-5b99-bf38-8b869a4b8a99",
+      "keywords": [
+        "Vehicle",
+        "Transport",
+        "Dedicated Transport",
+        "Fly",
+        "Aeldari",
+        "Raider"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Raider.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Ravager.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Raider",
+      "points": [
+        {
+          "cost": "80",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+2",
+              "keywords": [],
+              "name": "datasheets.Scourges.rangedWeapons.4.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Ravager.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "14\"",
+          "name": "Raider",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "4+",
+          "t": "8",
+          "w": "10",
+          "invul": "6+"
+        }
+      ],
+      "transport": "datasheets.Raider.transport",
+      "wargear": [
+        "datasheets.Raider.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise 1",
+          "Feel No Pain 5+"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Cronos.abilities.other.0.name",
+            "description": "datasheets.Cronos.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Cronos.composition.0"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Cronos.fluff",
+      "id": "3d07f339-ebba-5e0e-85a9-016952e80876",
+      "keywords": [
+        "Monster",
+        "Haemonculus Covens",
+        "Fly",
+        "Aeldari",
+        "Cronos"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Cronos.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Cronos.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "name": "Cronos",
+      "points": [
+        {
+          "cost": "100",
+          "keyword": null,
+          "models": "2",
+          "active": true
+        },
+        {
+          "cost": "50",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Cronos.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Ignores Cover",
+                "Blast"
+              ],
+              "name": "datasheets.Cronos.rangedWeapons.1.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "7\"",
+          "name": "Cronos",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "7",
+          "w": "7",
+          "invul": "6+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Cronos.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise 1",
+          "Deep Strike",
+          "Firing Deck 6",
+          "Stealth"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Venom.abilities.other.0.name",
+            "description": "datasheets.Venom.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Venom.composition.0"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Venom.fluff",
+      "id": "4c3ce51c-97f7-5dfb-a0a0-a2d9599ec48e",
+      "keywords": [
+        "Vehicle",
+        "Transport",
+        "Dedicated Transport",
+        "Fly",
+        "Aeldari",
+        "Venom"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Venom.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Ravager.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "name": "Venom",
+      "points": [
+        {
+          "cost": "70",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.8.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "3"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Rapid Fire 1",
+                "Assault",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Razorwing_Jetfighter.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "2"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "14\"",
+          "name": "Venom",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "4+",
+          "t": "6",
+          "w": "6",
+          "invul": "6+"
+        }
+      ],
+      "transport": "datasheets.Venom.transport",
+      "wargear": [
+        "datasheets.Razorwing_Jetfighter.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Kabalite_Warriors.abilities.other.0.name",
+            "description": "datasheets.Kabalite_Warriors.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": [
+          {
+            "name": "datasheets.Wyches.abilities.wargear.0.name",
+            "description": "datasheets.Wyches.abilities.wargear.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Kabalite_Warriors.composition.0",
+        "datasheets.Kabalite_Warriors.composition.1"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Kabalite_Warriors.fluff",
+      "id": "ed01e2f2-7522-597f-913f-1205c8df3ace",
+      "keywords": [
+        "Infantry",
+        "Kabal",
+        "Battleline",
+        "Aeldari",
+        "Kabalite Warriors"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Kabalite_Warriors.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Scourges.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "3"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Kabalite_Warriors.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "name": "Kabalite Warriors",
+      "points": [
+        {
+          "cost": "100",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Assault",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Reavers.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "2"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D3",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.1.profiles.0.name",
+              "range": "6\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol",
+                "Assault",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.2.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "2"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [
+                "Assault"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.3.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+2",
+              "keywords": [
+                "Heavy"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.4.profiles.0.name",
+              "range": "36\"",
+              "skill": "4+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Assault"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.7.profiles.0.name",
+              "range": "18\"",
+              "skill": "N/A",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1",
+                "Heavy",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.8.profiles.0.name",
+              "range": "36\"",
+              "skill": "4+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "8\"",
+          "name": "datasheets.Kabalite_Warriors.stats.0.name",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "4+",
+          "t": "3",
+          "w": "1",
+          "invul": "6+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Kabalite_Warriors.wargear.0",
+        "datasheets.Kabalite_Warriors.wargear.1",
+        "datasheets.Kabalite_Warriors.wargear.2",
+        "datasheets.Kabalite_Warriors.wargear.3",
+        "datasheets.Kabalite_Warriors.wargear.4",
+        "datasheets.Kabalite_Warriors.wargear.5",
+        "datasheets.Kabalite_Warriors.wargear.6"
+      ],
+      "leadBy": [
+        "Archon"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Feel No Pain 5+",
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Haemonculus.abilities.other.0.name",
+            "description": "datasheets.Haemonculus.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Haemonculus.abilities.other.1.name",
+            "description": "datasheets.Haemonculus.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Haemonculus.composition.0"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Haemonculus.fluff",
+      "id": "d41a6f29-d084-508a-b020-5f207c0c8e90",
+      "keywords": [
+        "Infantry",
+        "Haemonculus Covens",
+        "Character",
+        "Aeldari",
+        "Haemonculus"
+      ],
+      "leader": "datasheets.Urien_Rakarth.leader",
+      "loadout": "datasheets.Haemonculus.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "5",
+              "damage": "D3",
+              "keywords": [
+                "Precision",
+                "Anti-infantry 2+"
+              ],
+              "name": "datasheets.Urien_Rakarth.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "name": "Haemonculus",
+      "points": [
+        {
+          "cost": "60",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "1",
+              "damage": "D3",
+              "keywords": [
+                "Precision",
+                "Pistol",
+                "Anti-infantry 2+"
+              ],
+              "name": "datasheets.Wracks.rangedWeapons.3.profiles.0.name",
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "2"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "7\"",
+          "name": "Haemonculus",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "6+",
+          "t": "4",
+          "w": "5",
+          "invul": "6+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Beastmaster.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Urien_Rakarth.leads.units.0"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Hellions.abilities.other.0.name",
+            "description": "datasheets.Hellions.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": [
+          {
+            "name": "datasheets.Wyches.abilities.wargear.0.name",
+            "description": "datasheets.Wyches.abilities.wargear.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Hellions.composition.0",
+        "datasheets.Hellions.composition.1"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Hellions.fluff",
+      "id": "686583a0-8333-5d5d-8668-912d9d8ad6a4",
+      "keywords": [
+        "Mounted",
+        "Fly",
+        "Aeldari",
+        "Wych Cult",
+        "Hellions"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Hellions.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Hellions.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "5",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Hellions.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "name": "Hellions",
+      "points": [
+        {
+          "cost": "150",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "75",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Assault",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Beastmaster.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "2"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol",
+                "Assault",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.2.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "2"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "14\"",
+          "name": "datasheets.Hellions.stats.0.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "5+",
+          "t": "4",
+          "w": "2",
+          "invul": "6+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Hellions.wargear.0",
+        "datasheets.Hellions.wargear.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Drazhar.abilities.other.0.name",
+            "description": "datasheets.Drazhar.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Drazhar.abilities.other.1.name",
+            "description": "datasheets.Drazhar.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Drazhar.composition.0"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Drazhar.fluff",
+      "id": "f5df79b5-3976-53b1-9679-d08cbde8a167",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Aeldari",
+        "Drazhar"
+      ],
+      "leader": "datasheets.Drazhar.leader",
+      "loadout": "datasheets.Drazhar.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "3",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Drazhar.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            },
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "7",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked"
+              ],
+              "name": "datasheets.Drazhar.meleeWeapons.0.profiles.1.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "name": "Drazhar",
+      "points": [
+        {
+          "cost": "85",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "7\"",
+          "name": "Drazhar",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "3",
+          "w": "5",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Beastmaster.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Archon.leads.units.1"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Succubus.abilities.other.0.name",
+            "description": "datasheets.Succubus.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Succubus.abilities.other.1.name",
+            "description": "datasheets.Succubus.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Succubus.composition.0"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Succubus.fluff",
+      "id": "0663ebd8-7d9f-5e90-baca-a6b938468f23",
+      "keywords": [
+        "Infantry",
+        "Wych Cult",
+        "Character",
+        "Aeldari",
+        "Succubus"
+      ],
+      "leader": "datasheets.Lelith_Hesperax.leader",
+      "loadout": "datasheets.Succubus.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Succubus.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "name": "Succubus",
+      "points": [
+        {
+          "cost": "45",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D3",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.1.profiles.0.name",
+              "range": "6\"",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol",
+                "Assault",
+                "Anti-infantry 3+"
+              ],
+              "name": "datasheets.Scourges.rangedWeapons.2.profiles.0.name",
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "2"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "8\"",
+          "name": "Succubus",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "6+",
+          "t": "3",
+          "w": "4",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Succubus.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Lelith_Hesperax.leads.units.0"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Incubi.abilities.other.0.name",
+            "description": "datasheets.Incubi.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Incubi.composition.0",
+        "datasheets.Incubi.composition.1"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Incubi.fluff",
+      "id": "a87d6522-7e1a-5f02-a6cd-f32bacdf03c0",
+      "keywords": [
+        "Infantry",
+        "Aeldari",
+        "Incubi"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Incubi.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Incubi.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked"
+              ],
+              "name": "datasheets.Incubi.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            },
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Incubi.meleeWeapons.1.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "name": "Incubi",
+      "points": [
+        {
+          "cost": "170",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "85",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "7\"",
+          "name": "Incubi",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "3+",
+          "t": "3",
+          "w": "1",
+          "invul": "5+"
+        },
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "7\"",
+          "name": "datasheets.Incubi.stats.1.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "3+",
+          "t": "3",
+          "w": "2",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Incubi.wargear.0"
+      ],
+      "leadBy": [
+        "Archon",
+        "Drazhar"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Feel No Pain 5+"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Grotesques.abilities.other.0.name",
+            "description": "datasheets.Grotesques.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Grotesques.composition.0"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Grotesques.fluff",
+      "id": "4f21ef96-b509-556f-83ed-5b97ddc122e1",
+      "keywords": [
+        "Infantry",
+        "Haemonculus Covens",
+        "Aeldari",
+        "Grotesques"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Grotesques.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Grotesques.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "name": "Grotesques",
+      "points": [
+        {
+          "cost": "170",
+          "keyword": null,
+          "models": "6",
+          "active": true
+        },
+        {
+          "cost": "80",
+          "keyword": null,
+          "models": "3",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent"
+              ],
+              "name": "datasheets.Wracks.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "7\"",
+          "name": "Grotesques",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "6+",
+          "t": "5",
+          "w": "4",
+          "invul": "6+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Grotesques.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Infiltrators",
+          "Stealth"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Scourges.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Mandrakes.abilities.other.0.name",
+            "description": "datasheets.Mandrakes.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Mandrakes.composition.0",
+        "datasheets.Mandrakes.composition.1"
+      ],
+      "factions": [
+        "Drukhari"
+      ],
+      "faction_id": "DRU",
+      "fluff": "datasheets.Mandrakes.fluff",
+      "id": "163eda0b-b737-5705-8fcc-32284892df01",
+      "keywords": [
+        "Infantry",
+        "Aeldari",
+        "Mandrakes"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Mandrakes.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Mandrakes.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "name": "Mandrakes",
+      "points": [
+        {
+          "cost": "130",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "70",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Devastating Wounds",
+                "Assault"
+              ],
+              "name": "datasheets.Mandrakes.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "8\"",
+          "name": "datasheets.Mandrakes.stats.0.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "7+",
+          "t": "3",
+          "w": "1",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Beastmaster.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Deep Strike"
+        ],
+        "damaged": {
+          "description": "datasheets.Ravager.abilities.damaged.description",
+          "range": "datasheets.Ravager.abilities.damaged.range",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Reaper.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "description": "datasheets.Reaper.abilities.other.0.description",
+            "name": "datasheets.Ravager.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Reaper.composition.0"
+      ],
+      "faction_id": "DRU",
+      "factions": [
+        "Drukhari"
+      ],
+      "fluff": "",
+      "id": "c34ad9b3-11cb-576e-9af3-52f2b68aa4e5",
+      "keywords": [
+        "Aeldari",
+        "Fly",
+        "Kabal",
+        "Reaper",
+        "Vehicle"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Reaper.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "extra attacks",
+                "lance",
+                "sustained hits 3"
+              ],
+              "name": "datasheets.Reaper.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Ravager.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Reaper",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6+3",
+              "damage": "1",
+              "keywords": [
+                "blast"
+              ],
+              "name": "datasheets.Reaper.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "3",
+              "damage": "D6",
+              "keywords": [],
+              "name": "datasheets.Reaper.rangedWeapons.0.profiles.1.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "14\"",
+          "name": "Reaper",
+          "oc": "3",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "4+",
+          "t": "9",
+          "w": "11",
+          "invul": "6+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Beastmaster.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Stealth"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Reaper.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "description": "datasheets.Raven_Strike_Fighter.abilities.other.0.description",
+            "name": "datasheets.Raven_Strike_Fighter.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Raven_Strike_Fighter.composition.0"
+      ],
+      "faction_id": "DRU",
+      "factions": [
+        "Drukhari"
+      ],
+      "fluff": "",
+      "id": "32e4f038-a0af-5e65-92b3-cad8518ad317",
+      "keywords": [
+        "Aeldari",
+        "Aircraft",
+        "Fly",
+        "Raven Strike Fighter",
+        "Vehicle"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Raven_Strike_Fighter.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Razorwing_Jetfighter.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Raven Strike Fighter",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "8",
+              "damage": "1",
+              "keywords": [
+                "anti-infantry 3+",
+                "sustained hits 2"
+              ],
+              "name": "datasheets.Raven_Strike_Fighter.rangedWeapons.0.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "3"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+2",
+              "keywords": [],
+              "name": "datasheets.Scourges.rangedWeapons.4.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "20+\"",
+          "name": "Raven Strike Fighter",
+          "oc": "0",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "4+",
+          "t": "8",
+          "w": "10",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Beastmaster.wargear.0"
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "name": "detachments.Realspace_Raiders.name",
+      "enhancements": [
+        {
+          "name": "detachments.Realspace_Raiders.enhancements.Crucible_of_Malediction.name",
+          "id": "1d65e7ed-5656-5c17-be22-409ac3214d94",
+          "cost": "10",
+          "keywords": [
+            "Haemonculus"
+          ],
+          "excludes": [],
+          "description": "detachments.Realspace_Raiders.enhancements.Crucible_of_Malediction.description",
+          "faction_id": "DRU",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Realspace_Raiders.enhancements.Labyrinthine_Cunning.name",
+          "id": "5a8b15a9-e5dd-5d97-b5e6-ae426b7d054f",
+          "cost": "30",
+          "keywords": [
+            "Archon"
+          ],
+          "excludes": [],
+          "description": "detachments.Realspace_Raiders.enhancements.Labyrinthine_Cunning.description",
+          "faction_id": "DRU",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Realspace_Raiders.enhancements.Blood_Dancer.name",
+          "id": "c89067b2-6a1e-543b-a42d-b3f40dd527f4",
+          "cost": "20",
+          "keywords": [
+            "Succubus"
+          ],
+          "excludes": [],
+          "description": "detachments.Realspace_Raiders.enhancements.Blood_Dancer.description",
+          "faction_id": "DRU",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Realspace_Raiders.enhancements.The_Art_of_Pain.name",
+          "id": "8205b3d6-e966-5cbd-8a4a-05c0cfe82aab",
+          "cost": "25",
+          "keywords": [
+            "Drukhari"
+          ],
+          "excludes": [],
+          "description": "detachments.Realspace_Raiders.enhancements.The_Art_of_Pain.description",
+          "faction_id": "DRU",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "rules": [
+        {
+          "name": "detachments.Realspace_Raiders.rules.0.name",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.Realspace_Raiders.rules.0.rule.0.text",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "detachments.Realspace_Raiders.name",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.Realspace_Raiders.rules.1.rule.0.text",
+              "type": "text"
+            },
+            {
+              "order": 2,
+              "text": "detachments.Realspace_Raiders.rules.1.rule.1.text",
+              "type": "textItalic"
+            }
+          ]
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.Realspace_Raiders.stratagems.Skyborne_Annihilation.name",
+          "id": "556cc51b-b93d-5f02-aa4c-c11bb2522f31",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Realspace_Raiders.stratagems.Skyborne_Annihilation.target",
+          "when": "detachments.Realspace_Raiders.stratagems.Skyborne_Annihilation.when",
+          "effect": "detachments.Realspace_Raiders.stratagems.Skyborne_Annihilation.effect",
+          "restrictions": "detachments.Realspace_Raiders.stratagems.Skyborne_Annihilation.restrictions",
+          "type": "Battle Tactic",
+          "phase": [
+            "any"
+          ],
+          "faction_id": "DRU",
+          "fluff": "detachments.Realspace_Raiders.stratagems.Skyborne_Annihilation.fluff"
+        },
+        {
+          "name": "detachments.Realspace_Raiders.stratagems.Malicious_Frenzy.name",
+          "id": "f0e40ea3-33d4-5be9-b806-d2754d67a13a",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Realspace_Raiders.stratagems.Malicious_Frenzy.target",
+          "when": "detachments.Realspace_Raiders.stratagems.Malicious_Frenzy.when",
+          "effect": "detachments.Realspace_Raiders.stratagems.Malicious_Frenzy.effect",
+          "restrictions": "detachments.Realspace_Raiders.stratagems.Malicious_Frenzy.restrictions",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "DRU",
+          "fluff": "detachments.Realspace_Raiders.stratagems.Malicious_Frenzy.fluff"
+        },
+        {
+          "name": "detachments.Realspace_Raiders.stratagems.Murderers_Circus.name",
+          "id": "e8fee0ca-4e8d-5677-82f0-961ba7a2fe3c",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Realspace_Raiders.stratagems.Murderers_Circus.target",
+          "when": "detachments.Realspace_Raiders.stratagems.Malicious_Frenzy.when",
+          "effect": "detachments.Realspace_Raiders.stratagems.Murderers_Circus.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "DRU",
+          "fluff": "detachments.Realspace_Raiders.stratagems.Murderers_Circus.fluff"
+        },
+        {
+          "name": "detachments.Realspace_Raiders.stratagems.Alliance_of_Agony.name",
+          "id": "8c9dfafc-87f6-5b6a-8bee-a2a639f86f6a",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Realspace_Raiders.stratagems.Alliance_of_Agony.target",
+          "when": "detachments.Realspace_Raiders.stratagems.Alliance_of_Agony.when",
+          "effect": "detachments.Realspace_Raiders.stratagems.Alliance_of_Agony.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "DRU",
+          "fluff": "detachments.Realspace_Raiders.stratagems.Alliance_of_Agony.fluff"
+        },
+        {
+          "name": "detachments.Realspace_Raiders.stratagems.Quicksilver_Reactions.name",
+          "id": "8db53f88-ed36-5852-ab80-f239536b2ea5",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Realspace_Raiders.stratagems.Quicksilver_Reactions.target",
+          "when": "detachments.Realspace_Raiders.stratagems.Quicksilver_Reactions.when",
+          "effect": "detachments.Realspace_Raiders.stratagems.Quicksilver_Reactions.effect",
+          "restrictions": "",
+          "type": "Epic Deed",
+          "phase": [
+            "charge"
+          ],
+          "faction_id": "DRU",
+          "fluff": "detachments.Realspace_Raiders.stratagems.Quicksilver_Reactions.fluff"
+        },
+        {
+          "name": "detachments.Realspace_Raiders.stratagems.Insensible_to_Pain.name",
+          "id": "b06858d4-1be9-5a38-acca-af5b8e36dad1",
+          "cost": 2,
+          "turn": "your",
+          "target": "detachments.Realspace_Raiders.stratagems.Insensible_to_Pain.target",
+          "when": "detachments.Realspace_Raiders.stratagems.Insensible_to_Pain.when",
+          "effect": "detachments.Realspace_Raiders.stratagems.Insensible_to_Pain.effect",
+          "restrictions": "detachments.Realspace_Raiders.stratagems.Insensible_to_Pain.restrictions",
+          "type": "Epic Deed",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "DRU",
+          "fluff": "detachments.Realspace_Raiders.stratagems.Insensible_to_Pain.fluff"
+        }
+      ]
+    },
+    {
+      "name": "detachments.Skysplinter_Assault.name",
+      "enhancements": [
+        {
+          "name": "detachments.Skysplinter_Assault.enhancements.Crucible_of_Malediction.name",
+          "id": "f6ccfd36-f950-5152-bc5a-fd936b530646",
+          "cost": "20",
+          "keywords": [
+            "Drukhari"
+          ],
+          "excludes": [],
+          "description": "detachments.Skysplinter_Assault.enhancements.Crucible_of_Malediction.description",
+          "faction_id": "DRU",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Skysplinter_Assault.enhancements.Labyrinthine_Cunning.name",
+          "id": "73a88554-a2a4-51b1-b076-1c28ac5b681d",
+          "cost": "10",
+          "keywords": [
+            "Drukhari"
+          ],
+          "excludes": [],
+          "description": "detachments.Skysplinter_Assault.enhancements.Labyrinthine_Cunning.description",
+          "faction_id": "DRU",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Skysplinter_Assault.enhancements.Blood_Dancer.name",
+          "id": "133e68c0-7a20-5364-a90b-64cff4dfc85b",
+          "cost": "15",
+          "keywords": [
+            "Drukhari"
+          ],
+          "excludes": [],
+          "description": "detachments.Skysplinter_Assault.enhancements.Blood_Dancer.description",
+          "faction_id": "DRU",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Skysplinter_Assault.enhancements.The_Art_of_Pain.name",
+          "id": "dc47a6ff-a82a-5374-86e7-fcc0cc4da02e",
+          "cost": "20",
+          "keywords": [
+            "Drukhari"
+          ],
+          "excludes": [],
+          "description": "detachments.Skysplinter_Assault.enhancements.The_Art_of_Pain.description",
+          "faction_id": "DRU",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "rules": [
+        {
+          "name": "detachments.Realspace_Raiders.rules.0.name",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.Realspace_Raiders.rules.0.rule.0.text",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "detachments.Skysplinter_Assault.rules.1.name",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.Skysplinter_Assault.rules.1.rule.0.text",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.Skysplinter_Assault.stratagems.Skyborne_Annihilation.name",
+          "id": "f74fe73b-770b-55d7-b0dc-3dfe38a3c497",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Skysplinter_Assault.stratagems.Skyborne_Annihilation.target",
+          "when": "detachments.Realspace_Raiders.stratagems.Alliance_of_Agony.when",
+          "effect": "detachments.Skysplinter_Assault.stratagems.Skyborne_Annihilation.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "DRU",
+          "fluff": "detachments.Skysplinter_Assault.stratagems.Skyborne_Annihilation.fluff"
+        },
+        {
+          "name": "detachments.Skysplinter_Assault.stratagems.Malicious_Frenzy.name",
+          "id": "39696ff6-d43f-5655-b8ee-6a6fe9bc4ad5",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Skysplinter_Assault.stratagems.Malicious_Frenzy.target",
+          "when": "detachments.Skysplinter_Assault.stratagems.Malicious_Frenzy.when",
+          "effect": "detachments.Skysplinter_Assault.stratagems.Malicious_Frenzy.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "DRU",
+          "fluff": "detachments.Skysplinter_Assault.stratagems.Malicious_Frenzy.fluff"
+        },
+        {
+          "name": "detachments.Skysplinter_Assault.stratagems.Murderers_Circus.name",
+          "id": "6e6f455a-a606-53fe-8e05-fbcc5a7a1e2e",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Skysplinter_Assault.stratagems.Murderers_Circus.target",
+          "when": "detachments.Skysplinter_Assault.stratagems.Murderers_Circus.when",
+          "effect": "detachments.Skysplinter_Assault.stratagems.Murderers_Circus.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "DRU",
+          "fluff": "detachments.Skysplinter_Assault.stratagems.Murderers_Circus.fluff"
+        },
+        {
+          "name": "detachments.Skysplinter_Assault.stratagems.Alliance_of_Agony.name",
+          "id": "98319e0e-a7b3-5858-99e6-b1136e5123c4",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Skysplinter_Assault.stratagems.Alliance_of_Agony.target",
+          "when": "detachments.Skysplinter_Assault.stratagems.Alliance_of_Agony.when",
+          "effect": "detachments.Skysplinter_Assault.stratagems.Alliance_of_Agony.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "DRU",
+          "fluff": "detachments.Skysplinter_Assault.stratagems.Murderers_Circus.fluff"
+        },
+        {
+          "name": "detachments.Skysplinter_Assault.stratagems.Quicksilver_Reactions.name",
+          "id": "f1e9c549-75be-592f-a451-83206fbf2ca7",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Skysplinter_Assault.stratagems.Quicksilver_Reactions.target",
+          "when": "detachments.Skysplinter_Assault.stratagems.Quicksilver_Reactions.when",
+          "effect": "detachments.Skysplinter_Assault.stratagems.Quicksilver_Reactions.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "DRU",
+          "fluff": "detachments.Skysplinter_Assault.stratagems.Quicksilver_Reactions.fluff"
+        },
+        {
+          "name": "detachments.Skysplinter_Assault.stratagems.Insensible_to_Pain.name",
+          "id": "248a9019-c51a-54d3-8d82-511200a28ac6",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Skysplinter_Assault.stratagems.Insensible_to_Pain.target",
+          "when": "detachments.Skysplinter_Assault.stratagems.Insensible_to_Pain.when",
+          "effect": "detachments.Skysplinter_Assault.stratagems.Insensible_to_Pain.effect",
+          "restrictions": "",
+          "type": "Wargear",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "DRU",
+          "fluff": "detachments.Skysplinter_Assault.stratagems.Insensible_to_Pain.fluff"
+        }
+      ]
+    },
+    {
+      "name": "detachments.Reapers_Wager.name",
+      "enhancements": [
+        {
+          "name": "detachments.Reapers_Wager.enhancements.Crucible_of_Malediction.name",
+          "id": "299ed59c-451b-57ec-9517-9579aa162279",
+          "cost": "15",
+          "keywords": [
+            "Drukhari"
+          ],
+          "excludes": [],
+          "description": "detachments.Reapers_Wager.enhancements.Crucible_of_Malediction.description",
+          "faction_id": "DRU",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Reapers_Wager.enhancements.Labyrinthine_Cunning.name",
+          "id": "47f62c0a-436a-5689-9641-2812b3cab45d",
+          "cost": "15",
+          "keywords": [
+            "Drukhari"
+          ],
+          "excludes": [],
+          "description": "detachments.Reapers_Wager.enhancements.Labyrinthine_Cunning.description",
+          "faction_id": "DRU",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Reapers_Wager.enhancements.Blood_Dancer.name",
+          "id": "d2021261-46ef-557d-934c-213f0b807c5b",
+          "cost": "25",
+          "keywords": [
+            "Drukhari"
+          ],
+          "excludes": [],
+          "description": "detachments.Reapers_Wager.enhancements.Blood_Dancer.description",
+          "faction_id": "DRU",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Reapers_Wager.enhancements.The_Art_of_Pain.name",
+          "id": "057a9bb3-8145-5d38-bcca-1342fe4ec799",
+          "cost": "20",
+          "keywords": [
+            "Drukhari"
+          ],
+          "excludes": [],
+          "description": "detachments.Reapers_Wager.enhancements.The_Art_of_Pain.description",
+          "faction_id": "DRU",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "rules": [
+        {
+          "name": "detachments.Reapers_Wager.rules.0.name",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.Reapers_Wager.rules.0.rule.0.text",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.Reapers_Wager.stratagems.Skyborne_Annihilation.name",
+          "id": "dd853d82-fe33-5190-a39a-c0aefea7c5b6",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Reapers_Wager.stratagems.Skyborne_Annihilation.target",
+          "when": "detachments.Reapers_Wager.stratagems.Skyborne_Annihilation.when",
+          "effect": "detachments.Reapers_Wager.stratagems.Skyborne_Annihilation.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "DRU",
+          "fluff": "detachments.Reapers_Wager.stratagems.Skyborne_Annihilation.fluff"
+        },
+        {
+          "name": "detachments.Reapers_Wager.stratagems.Malicious_Frenzy.name",
+          "id": "a12d30ea-3c7f-53f3-8486-d2daf752942f",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Reapers_Wager.stratagems.Malicious_Frenzy.target",
+          "when": "detachments.Reapers_Wager.stratagems.Malicious_Frenzy.when",
+          "effect": "detachments.Reapers_Wager.stratagems.Malicious_Frenzy.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "DRU",
+          "fluff": "detachments.Reapers_Wager.stratagems.Malicious_Frenzy.fluff"
+        },
+        {
+          "name": "detachments.Reapers_Wager.stratagems.Murderers_Circus.name",
+          "id": "71aefa86-1c9a-59f4-9a3c-7d2b6f664ffd",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Reapers_Wager.stratagems.Murderers_Circus.target",
+          "when": "detachments.Reapers_Wager.stratagems.Murderers_Circus.when",
+          "effect": "detachments.Reapers_Wager.stratagems.Murderers_Circus.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "DRU",
+          "fluff": "detachments.Reapers_Wager.stratagems.Murderers_Circus.fluff"
+        },
+        {
+          "name": "detachments.Reapers_Wager.stratagems.Alliance_of_Agony.name",
+          "id": "68323425-d0df-5bbc-bfe8-828da7956fa4",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Reapers_Wager.stratagems.Murderers_Circus.target",
+          "when": "detachments.Reapers_Wager.stratagems.Alliance_of_Agony.when",
+          "effect": "detachments.Reapers_Wager.stratagems.Alliance_of_Agony.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "charge",
+            "movement"
+          ],
+          "faction_id": "DRU",
+          "fluff": "detachments.Reapers_Wager.stratagems.Alliance_of_Agony.fluff"
+        },
+        {
+          "name": "detachments.Reapers_Wager.stratagems.Quicksilver_Reactions.name",
+          "id": "b4c301fa-a54f-562a-8c5c-9dae9cbf1b52",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Reapers_Wager.stratagems.Malicious_Frenzy.target",
+          "when": "detachments.Reapers_Wager.stratagems.Malicious_Frenzy.when",
+          "effect": "detachments.Reapers_Wager.stratagems.Quicksilver_Reactions.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "DRU",
+          "fluff": "detachments.Reapers_Wager.stratagems.Quicksilver_Reactions.fluff"
+        },
+        {
+          "name": "detachments.Reapers_Wager.stratagems.Insensible_to_Pain.name",
+          "id": "ae363dcb-f5c4-5e71-ad59-763432cd730d",
+          "cost": 2,
+          "turn": "opponents",
+          "target": "detachments.Reapers_Wager.stratagems.Insensible_to_Pain.target",
+          "when": "detachments.Skysplinter_Assault.stratagems.Quicksilver_Reactions.when",
+          "effect": "detachments.Reapers_Wager.stratagems.Insensible_to_Pain.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "DRU",
+          "fluff": "detachments.Reapers_Wager.stratagems.Insensible_to_Pain.fluff"
+        }
+      ]
+    }
+  ],
+  "id": "DRU",
+  "is_subfaction": false,
+  "name": "Drukhari",
+  "parent_id": "",
+  "rules": {
+    "army": [
+      {
+        "name": "datasheets.Scourges.abilities.faction.0",
+        "rule": [
+          {
+            "order": 1,
+            "text": "rules.army.Power_from_Pain.rule.0.text",
+            "type": "text"
+          },
+          {
+            "order": 2,
+            "text": "rules.army.Power_from_Pain.rule.1.text",
+            "type": "header"
+          },
+          {
+            "order": 3,
+            "text": "rules.army.Power_from_Pain.rule.2.text",
+            "type": "text"
+          },
+          {
+            "order": 4,
+            "text": "rules.army.Power_from_Pain.rule.3.text",
+            "type": "text"
+          },
+          {
+            "order": 5,
+            "text": "rules.army.Power_from_Pain.rule.4.text",
+            "type": "header"
+          },
+          {
+            "order": 6,
+            "text": "rules.army.Power_from_Pain.rule.5.text",
+            "type": "text"
+          },
+          {
+            "order": 7,
+            "text": "rules.army.Power_from_Pain.rule.6.text",
+            "type": "text"
+          },
+          {
+            "order": 8,
+            "text": "rules.army.Power_from_Pain.rule.7.text",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "updated": "2025-05-29T08:37:08.339Z"
+}

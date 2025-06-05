@@ -1,0 +1,2966 @@
+{
+  "colours": {
+    "banner": "#572d0a",
+    "header": "#3c4b3f"
+  },
+  "datasheets": [
+    {
+      "abilities": {
+        "core": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Hearthkyn_Warriors.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Hearthkyn_Warriors.abilities.other.0.name",
+            "description": "datasheets.Hearthkyn_Warriors.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": [
+          {
+            "name": "datasheets.Hearthkyn_Warriors.abilities.wargear.0.name",
+            "description": "datasheets.Hearthkyn_Warriors.abilities.wargear.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Hearthkyn_Warriors.abilities.wargear.1.name",
+            "description": "datasheets.Hearthkyn_Warriors.abilities.wargear.1.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Hearthkyn_Warriors.abilities.wargear.2.name",
+            "description": "datasheets.Hearthkyn_Warriors.abilities.wargear.2.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Hearthkyn_Warriors.abilities.wargear.3.name",
+            "description": "datasheets.Hearthkyn_Warriors.abilities.wargear.3.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Hearthkyn_Warriors.composition.0",
+        "datasheets.Hearthkyn_Warriors.composition.1"
+      ],
+      "factions": [
+        "Leagues of Votann"
+      ],
+      "faction_id": "LoV",
+      "fluff": "datasheets.Hearthkyn_Warriors.fluff",
+      "id": "0fd9319f-37fc-5325-8bbe-3bc58f5834f2",
+      "keywords": [
+        "Infantry",
+        "Battleline",
+        "Grenades",
+        "Hearthkyn Warriors"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Hearthkyn_Warriors.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Hearthkyn_Warriors.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "2",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Hearthkyn_Warriors.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "name": "Hearthkyn Warriors",
+      "points": [
+        {
+          "cost": "100",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "4+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.2.profiles.0.name",
+              "range": "18\"",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.3.profiles.0.name",
+              "range": "12\"",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.4.profiles.0.name",
+              "range": "6\"",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 3",
+                "Assault"
+              ],
+              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.5.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1",
+                "Heavy"
+              ],
+              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.6.profiles.0.name",
+              "range": "24\"",
+              "skill": "5+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [],
+              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.7.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.7.profiles.1.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits D3"
+              ],
+              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.8.profiles.0.name",
+              "range": "18\"",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D3+3",
+              "keywords": [
+                "Heavy",
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.9.profiles.0.name",
+              "range": "18\"",
+              "skill": "5+",
+              "strength": "12"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "5\"",
+          "name": "datasheets.Hearthkyn_Warriors.stats.0.name",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "4+",
+          "t": "5",
+          "w": "1"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Hearthkyn_Warriors.wargear.0",
+        "datasheets.Hearthkyn_Warriors.wargear.1",
+        "datasheets.Hearthkyn_Warriors.wargear.2",
+        "datasheets.Hearthkyn_Warriors.wargear.3",
+        "datasheets.Hearthkyn_Warriors.wargear.4"
+      ],
+      "leadBy": [
+        "datasheets.Hearthkyn_Warriors.leadBy.0",
+        "datasheets.Hearthkyn_Warriors.leadBy.1",
+        "datasheets.Hearthkyn_Warriors.leadBy.2",
+        "datasheets.Hearthkyn_Warriors.leadBy.3"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Hearthkyn_Warriors.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.thar_the_Destined.abilities.other.0.name",
+            "description": "datasheets.thar_the_Destined.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.thar_the_Destined.abilities.other.1.name",
+            "description": "datasheets.thar_the_Destined.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.thar_the_Destined.abilities.other.2.name",
+            "description": "datasheets.thar_the_Destined.abilities.other.2.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": [
+          {
+            "name": "datasheets.thar_the_Destined.abilities.wargear.0.name",
+            "description": "datasheets.thar_the_Destined.abilities.wargear.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.thar_the_Destined.composition.0"
+      ],
+      "factions": [
+        "Leagues of Votann"
+      ],
+      "faction_id": "LoV",
+      "fluff": "datasheets.thar_the_Destined.fluff",
+      "id": "54ddadc7-eb28-55ad-973e-d49b90f23a2f",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Ûthar the Destined"
+      ],
+      "leader": "datasheets.thar_the_Destined.leader",
+      "loadout": "datasheets.thar_the_Destined.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "5",
+              "damage": "2",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.thar_the_Destined.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Ûthar the Destined",
+      "points": [
+        {
+          "cost": "80",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.thar_the_Destined.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "5\"",
+          "name": "Ûthar the Destined",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "5",
+          "w": "5",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.thar_the_Destined.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.thar_the_Destined.leads.units.0",
+          "datasheets.thar_the_Destined.leads.units.1"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Hearthkyn_Warriors.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Brkhyr_Iron_master.abilities.other.0.name",
+            "description": "datasheets.Brkhyr_Iron_master.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Brkhyr_Iron_master.abilities.other.1.name",
+            "description": "datasheets.Brkhyr_Iron_master.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Brkhyr_Iron_master.composition.0",
+        "datasheets.Brkhyr_Iron_master.composition.1",
+        "datasheets.Brkhyr_Iron_master.composition.2",
+        "datasheets.Brkhyr_Iron_master.composition.3"
+      ],
+      "factions": [
+        "Leagues of Votann"
+      ],
+      "faction_id": "LoV",
+      "fluff": "datasheets.Brkhyr_Iron_master.fluff",
+      "id": "8d066aa5-47e9-5d02-861b-bcd5abfe8b04",
+      "keywords": [
+        "Character",
+        "Infantry",
+        "Brôkhyr Iron-Master"
+      ],
+      "leader": "datasheets.Brkhyr_Iron_master.leader",
+      "loadout": "datasheets.Brkhyr_Iron_master.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "3",
+              "keywords": [
+                "Anti-vehicle 2+"
+              ],
+              "name": "datasheets.Brkhyr_Iron_master.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Hearthkyn_Warriors.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "3"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Brkhyr_Iron_master.meleeWeapons.2.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Brkhyr_Iron_master.meleeWeapons.3.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Hearthkyn_Warriors.leadBy.1",
+      "points": [
+        {
+          "cost": "65",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "3",
+              "keywords": [
+                "Anti-vehicle 2+"
+              ],
+              "name": "datasheets.Brkhyr_Iron_master.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Brkhyr_Iron_master.rangedWeapons.1.profiles.0.name",
+              "range": "6\"",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "5\"",
+          "name": "datasheets.Hearthkyn_Warriors.leadBy.1",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "4+",
+          "t": "5",
+          "w": "4"
+        },
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "5\"",
+          "name": "datasheets.Brkhyr_Iron_master.stats.1.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "4+",
+          "t": "5",
+          "w": "2"
+        },
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "5\"",
+          "name": "datasheets.Brkhyr_Iron_master.stats.2.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "4+",
+          "t": "5",
+          "w": "1"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.thar_the_Destined.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.thar_the_Destined.leads.units.1",
+          "datasheets.Brkhyr_Iron_master.leads.units.1"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Hearthkyn_Warriors.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Einhyr_Hearthguard.abilities.other.0.name",
+            "description": "datasheets.Einhyr_Hearthguard.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": [
+          {
+            "name": "datasheets.Hearthkyn_Warriors.abilities.wargear.0.name",
+            "description": "datasheets.Hearthkyn_Warriors.abilities.wargear.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Einhyr_Hearthguard.abilities.wargear.1.name",
+            "description": "datasheets.Einhyr_Hearthguard.abilities.wargear.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Einhyr_Hearthguard.composition.0",
+        "datasheets.Einhyr_Hearthguard.composition.1"
+      ],
+      "factions": [
+        "Leagues of Votann"
+      ],
+      "faction_id": "LoV",
+      "fluff": "datasheets.Einhyr_Hearthguard.fluff",
+      "id": "cfd5032a-2dc7-507a-a400-a0fc45d1e82a",
+      "keywords": [
+        "Infantry",
+        "Exo-Armour",
+        "Einhyr Hearthguard"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Einhyr_Hearthguard.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "2",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Einhyr_Hearthguard.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Einhyr_Hearthguard.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "3",
+              "keywords": [],
+              "name": "datasheets.Einhyr_Hearthguard.meleeWeapons.2.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "9"
+            }
+          ]
+        }
+      ],
+      "name": "Einhyr Hearthguard",
+      "points": [
+        {
+          "cost": "320",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "150",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Einhyr_Hearthguard.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Einhyr_Hearthguard.rangedWeapons.1.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.thar_the_Destined.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "5\"",
+          "name": "Einhyr Hearthguard",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "2+",
+          "t": "6",
+          "w": "2"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Einhyr_Hearthguard.wargear.0",
+        "datasheets.Einhyr_Hearthguard.wargear.1",
+        "datasheets.Einhyr_Hearthguard.wargear.2",
+        "datasheets.Einhyr_Hearthguard.wargear.3"
+      ],
+      "leadBy": [
+        "Ûthar the Destined",
+        "datasheets.Einhyr_Hearthguard.leadBy.1",
+        "datasheets.Hearthkyn_Warriors.leadBy.3"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "damaged": {
+          "range": "datasheets.Hekaton_Land_Fortress.abilities.damaged.range",
+          "description": "datasheets.Hekaton_Land_Fortress.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Hearthkyn_Warriors.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Hekaton_Land_Fortress.abilities.other.0.name",
+            "description": "datasheets.Hekaton_Land_Fortress.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": [
+          {
+            "name": "datasheets.Hearthkyn_Warriors.abilities.wargear.3.name",
+            "description": "datasheets.Hearthkyn_Warriors.abilities.wargear.3.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Hekaton_Land_Fortress.composition.0"
+      ],
+      "factions": [
+        "Leagues of Votann"
+      ],
+      "faction_id": "LoV",
+      "fluff": "datasheets.Hekaton_Land_Fortress.fluff",
+      "id": "3b568802-2de2-5f29-8a5b-e2797105a2a2",
+      "keywords": [
+        "Vehicle",
+        "Transport",
+        "Hekaton Land Fortress"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Hekaton_Land_Fortress.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Hekaton_Land_Fortress.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "Hekaton Land Fortress",
+      "points": [
+        {
+          "cost": "225",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "D6+3",
+              "damage": "2",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Hekaton_Land_Fortress.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Hekaton_Land_Fortress.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "7"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Hekaton_Land_Fortress.rangedWeapons.2.profiles.0.name",
+              "range": "36\"",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits D3"
+              ],
+              "name": "datasheets.Hekaton_Land_Fortress.rangedWeapons.3.profiles.0.name",
+              "range": "18\"",
+              "skill": "4+",
+              "strength": "7"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "2",
+              "damage": "4",
+              "keywords": [
+                "Sustained Hits D3",
+                "Conversion"
+              ],
+              "name": "datasheets.Hekaton_Land_Fortress.rangedWeapons.4.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "10"
+            }
+          ],
+          "abilities": [
+            {
+              "name": "Conversion",
+              "description": "datasheets.Hekaton_Land_Fortress.rangedWeapons.4.abilities.0.description",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6+6",
+              "keywords": [
+                "Heavy",
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Hekaton_Land_Fortress.rangedWeapons.5.profiles.0.name",
+              "range": "30\"",
+              "skill": "4+",
+              "strength": "18"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "D6+3",
+              "damage": "2",
+              "keywords": [
+                "One Shot",
+                "Indirect Fire",
+                "Blast"
+              ],
+              "name": "datasheets.Hekaton_Land_Fortress.rangedWeapons.6.profiles.0.name",
+              "range": "36\"",
+              "skill": "4+",
+              "strength": "7"
+            }
+          ],
+          "abilities": [
+            {
+              "name": "One Shot",
+              "description": "datasheets.Hekaton_Land_Fortress.rangedWeapons.6.abilities.0.description",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "10\"",
+          "name": "Hekaton Land Fortress",
+          "oc": "5",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "12",
+          "w": "16"
+        }
+      ],
+      "transport": "datasheets.Hekaton_Land_Fortress.transport",
+      "wargear": [
+        "datasheets.Hekaton_Land_Fortress.wargear.0",
+        "datasheets.Hekaton_Land_Fortress.wargear.1",
+        "datasheets.Hekaton_Land_Fortress.wargear.2"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Hearthkyn_Warriors.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Brkhyr_Thunderkyn.abilities.other.0.name",
+            "description": "datasheets.Brkhyr_Thunderkyn.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Brkhyr_Thunderkyn.composition.0"
+      ],
+      "factions": [
+        "Leagues of Votann"
+      ],
+      "faction_id": "LoV",
+      "fluff": "datasheets.Brkhyr_Thunderkyn.fluff",
+      "id": "6c6112d4-601f-5bc8-b253-5d211b7900e3",
+      "keywords": [
+        "Infantry",
+        "Exo-Frame",
+        "Brôkhyr Thunderkyn"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Brkhyr_Thunderkyn.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Hearthkyn_Warriors.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "name": "Brôkhyr Thunderkyn",
+      "points": [
+        {
+          "cost": "160",
+          "keyword": null,
+          "models": "6",
+          "active": true
+        },
+        {
+          "cost": "80",
+          "keyword": null,
+          "models": "3",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Brkhyr_Thunderkyn.rangedWeapons.0.profiles.0.name",
+              "range": "36\"",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "D6",
+              "damage": "2",
+              "keywords": [
+                "Blast",
+                "Anti-vehicle 2+"
+              ],
+              "name": "datasheets.Brkhyr_Thunderkyn.rangedWeapons.1.profiles.0.name",
+              "range": "18\"",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "1",
+              "damage": "3",
+              "keywords": [
+                "Sustained Hits D3",
+                "Conversion"
+              ],
+              "name": "datasheets.Brkhyr_Thunderkyn.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "7"
+            }
+          ],
+          "abilities": [
+            {
+              "name": "Conversion",
+              "description": "datasheets.Hekaton_Land_Fortress.rangedWeapons.4.abilities.0.description",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "5\"",
+          "name": "Brôkhyr Thunderkyn",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "6",
+          "w": "3"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Brkhyr_Thunderkyn.wargear.0",
+        "datasheets.Brkhyr_Thunderkyn.wargear.1"
+      ],
+      "leadBy": [
+        "datasheets.Hearthkyn_Warriors.leadBy.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Hearthkyn_Warriors.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Einhyr_Champion.abilities.other.0.name",
+            "description": "datasheets.Einhyr_Champion.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Einhyr_Champion.abilities.other.1.name",
+            "description": "datasheets.Einhyr_Champion.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": [
+          {
+            "name": "datasheets.Hearthkyn_Warriors.abilities.wargear.0.name",
+            "description": "datasheets.Hearthkyn_Warriors.abilities.wargear.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Einhyr_Hearthguard.abilities.wargear.1.name",
+            "description": "datasheets.Einhyr_Champion.abilities.wargear.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Einhyr_Champion.composition.0"
+      ],
+      "factions": [
+        "Leagues of Votann"
+      ],
+      "faction_id": "LoV",
+      "fluff": "datasheets.Einhyr_Champion.fluff",
+      "id": "4ac8c768-6d3b-544b-93d6-ce5ef82a7286",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Exo-Armour",
+        "Einhyr Champion"
+      ],
+      "leader": "datasheets.Einhyr_Champion.leader",
+      "loadout": "datasheets.Einhyr_Champion.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "D6+1",
+              "keywords": [],
+              "name": "datasheets.Einhyr_Champion.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Einhyr_Champion.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Einhyr Champion",
+      "points": [
+        {
+          "cost": "60",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Einhyr_Champion.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "5\"",
+          "name": "Einhyr Champion",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "6",
+          "w": "5"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Einhyr_Champion.wargear.0",
+        "datasheets.Einhyr_Champion.wargear.1"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.thar_the_Destined.leads.units.0"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise 1",
+          "Scouts 6\""
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Hearthkyn_Warriors.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Sagitaur.abilities.other.0.name",
+            "description": "datasheets.Sagitaur.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Sagitaur.composition.0"
+      ],
+      "factions": [
+        "Leagues of Votann"
+      ],
+      "faction_id": "LoV",
+      "fluff": "datasheets.Sagitaur.fluff",
+      "id": "6d880dd3-d9e1-5a41-a2fd-5354f8c988c4",
+      "keywords": [
+        "Vehicle",
+        "Transport",
+        "Dedicated Transport",
+        "Sagitaur"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Sagitaur.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Hekaton_Land_Fortress.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Sagitaur",
+      "points": [
+        {
+          "cost": "115",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [
+                "Sustained Hits D3"
+              ],
+              "name": "datasheets.Sagitaur.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Hekaton_Land_Fortress.rangedWeapons.2.profiles.0.name",
+              "range": "36\"",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [],
+              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.7.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.7.profiles.1.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "2",
+              "damage": "3",
+              "keywords": [],
+              "name": "datasheets.Sagitaur.rangedWeapons.3.profiles.0.name",
+              "range": "36\"",
+              "skill": "4+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Hekaton_Land_Fortress.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "7"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "12\"",
+          "name": "Sagitaur",
+          "oc": "3",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "10",
+          "w": "9"
+        }
+      ],
+      "transport": "datasheets.Sagitaur.transport",
+      "wargear": [
+        "datasheets.Sagitaur.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Hearthkyn_Warriors.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Grimnyr.abilities.other.0.name",
+            "description": "datasheets.Grimnyr.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Grimnyr.abilities.other.1.name",
+            "description": "datasheets.Grimnyr.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Grimnyr.composition.0",
+        "datasheets.Grimnyr.composition.1",
+        "datasheets.Grimnyr.composition.2"
+      ],
+      "factions": [
+        "Leagues of Votann"
+      ],
+      "faction_id": "LoV",
+      "fluff": "datasheets.Grimnyr.fluff",
+      "id": "e2762237-0be3-570b-a1f2-f49c8e865a37",
+      "keywords": [
+        "Character",
+        "Psyker",
+        "Infantry",
+        "Grimnyr"
+      ],
+      "leader": "datasheets.Grimnyr.leader",
+      "loadout": "datasheets.Grimnyr.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "1",
+              "damage": "D3",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Grimnyr.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "7"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Hearthkyn_Warriors.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "name": "Grimnyr",
+      "points": [
+        {
+          "cost": "65",
+          "keyword": null,
+          "models": "3",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "D3",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Grimnyr.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "6"
+            },
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "6",
+              "damage": "D3",
+              "keywords": [
+                "Psychic",
+                "Hazardous"
+              ],
+              "name": "datasheets.Grimnyr.rangedWeapons.0.profiles.1.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "5\"",
+          "name": "Grimnyr",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "4+",
+          "t": "5",
+          "w": "4",
+          "invul": "4+"
+        },
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "5\"",
+          "name": "datasheets.Grimnyr.stats.1.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "4+",
+          "t": "5",
+          "w": "1",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.thar_the_Destined.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.thar_the_Destined.leads.units.1"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Feel No Pain 5+"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Hearthkyn_Warriors.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Cthonian_Beserks.abilities.other.0.name",
+            "description": "datasheets.Cthonian_Beserks.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Cthonian_Beserks.abilities.other.1.name",
+            "description": "datasheets.Cthonian_Beserks.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Cthonian_Beserks.composition.0"
+      ],
+      "factions": [
+        "Leagues of Votann"
+      ],
+      "faction_id": "LoV",
+      "fluff": "datasheets.Cthonian_Beserks.fluff",
+      "id": "e01321d0-cdcf-5427-85a0-656d03e62368",
+      "keywords": [
+        "Infantry",
+        "Cthonian Beserks"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Cthonian_Beserks.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Cthonian_Beserks.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            },
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Cthonian_Beserks.meleeWeapons.0.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "3",
+              "keywords": [],
+              "name": "datasheets.Cthonian_Beserks.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked"
+              ],
+              "name": "datasheets.Cthonian_Beserks.meleeWeapons.2.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "9"
+            }
+          ]
+        }
+      ],
+      "name": "Cthonian Beserks",
+      "points": [
+        {
+          "cost": "200",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "100",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Indirect Fire",
+                "Blast"
+              ],
+              "name": "datasheets.Cthonian_Beserks.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "5\"",
+          "name": "Cthonian Beserks",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "6+",
+          "t": "5",
+          "w": "2"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Cthonian_Beserks.wargear.0",
+        "datasheets.Cthonian_Beserks.wargear.1",
+        "datasheets.Cthonian_Beserks.wargear.2"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Hearthkyn_Warriors.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Khl.abilities.other.0.name",
+            "description": "datasheets.Khl.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.thar_the_Destined.abilities.other.2.name",
+            "description": "datasheets.thar_the_Destined.abilities.other.2.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": [
+          {
+            "name": "datasheets.thar_the_Destined.abilities.wargear.0.name",
+            "description": "datasheets.Khl.abilities.wargear.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Einhyr_Hearthguard.abilities.wargear.1.name",
+            "description": "datasheets.Khl.abilities.wargear.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Khl.composition.0"
+      ],
+      "factions": [
+        "Leagues of Votann"
+      ],
+      "faction_id": "LoV",
+      "fluff": "datasheets.Khl.fluff",
+      "id": "01690642-8d27-5bfc-a8f8-47cdc05539a3",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Kâhl"
+      ],
+      "leader": "datasheets.thar_the_Destined.leader",
+      "loadout": "datasheets.Khl.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Khl.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "3",
+              "keywords": [],
+              "name": "datasheets.Khl.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "Kâhl",
+      "points": [
+        {
+          "cost": "70",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Einhyr_Champion.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.thar_the_Destined.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "5\"",
+          "name": "Kâhl",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "5",
+          "w": "4",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Khl.wargear.0",
+        "datasheets.Khl.wargear.1",
+        "datasheets.Khl.wargear.2"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.thar_the_Destined.leads.units.0",
+          "datasheets.thar_the_Destined.leads.units.1"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Infiltrators"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Hearthkyn_Warriors.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Hernkyn_Yaegirs.abilities.other.0.name",
+            "description": "datasheets.Hernkyn_Yaegirs.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Hernkyn_Yaegirs.composition.0",
+        "datasheets.Hernkyn_Yaegirs.composition.1"
+      ],
+      "factions": [
+        "Leagues of Votann"
+      ],
+      "faction_id": "LoV",
+      "fluff": "datasheets.Hernkyn_Yaegirs.fluff",
+      "id": "d9139726-ae6e-5590-9192-582724bfd001",
+      "keywords": [
+        "Infantry",
+        "Grenades",
+        "Hernkyn Yaegirs"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Hernkyn_Yaegirs.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Hearthkyn_Warriors.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Hernkyn_Yaegirs.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "name": "Hernkyn Yaegirs",
+      "points": [
+        {
+          "cost": "90",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Assault"
+              ],
+              "name": "datasheets.Hernkyn_Yaegirs.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Hernkyn_Yaegirs.rangedWeapons.1.profiles.0.name",
+              "range": "9\"",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "Precision",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Hernkyn_Yaegirs.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "Anti-vehicle 3+",
+                "Anti-monster 3+"
+              ],
+              "name": "datasheets.Hernkyn_Yaegirs.rangedWeapons.3.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "6\"",
+          "name": "datasheets.Hernkyn_Yaegirs.stats.0.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "5+",
+          "t": "5",
+          "w": "1"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Hernkyn_Yaegirs.wargear.0",
+        "datasheets.Hernkyn_Yaegirs.wargear.1",
+        "datasheets.Hernkyn_Yaegirs.wargear.2"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Scouts 9\""
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Hearthkyn_Warriors.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Hernkyn_Pioneers.abilities.other.0.name",
+            "description": "datasheets.Hernkyn_Pioneers.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": [
+          {
+            "name": "datasheets.Hearthkyn_Warriors.abilities.wargear.2.name",
+            "description": "datasheets.Hearthkyn_Warriors.abilities.wargear.2.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Hearthkyn_Warriors.abilities.wargear.3.name",
+            "description": "datasheets.Hearthkyn_Warriors.abilities.wargear.3.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Hernkyn_Pioneers.abilities.wargear.2.name",
+            "description": "datasheets.Hernkyn_Pioneers.abilities.wargear.2.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Hernkyn_Pioneers.composition.0"
+      ],
+      "factions": [
+        "Leagues of Votann"
+      ],
+      "faction_id": "LoV",
+      "fluff": "datasheets.Hernkyn_Pioneers.fluff",
+      "id": "2465cf66-bef0-5d7d-b921-01ce915dff2f",
+      "keywords": [
+        "Mounted",
+        "Grenades",
+        "Fly",
+        "Hernkyn Pioneers"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Hernkyn_Pioneers.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Hernkyn_Yaegirs.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "name": "Hernkyn Pioneers",
+      "points": [
+        {
+          "cost": "180",
+          "keyword": null,
+          "models": "6",
+          "active": true
+        },
+        {
+          "cost": "90",
+          "keyword": null,
+          "models": "3",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Hernkyn_Yaegirs.rangedWeapons.1.profiles.0.name",
+              "range": "9\"",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Assault"
+              ],
+              "name": "datasheets.Hernkyn_Yaegirs.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Hernkyn_Pioneers.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "7"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.6.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits D3"
+              ],
+              "name": "datasheets.Hernkyn_Pioneers.rangedWeapons.4.profiles.0.name",
+              "range": "18\"",
+              "skill": "4+",
+              "strength": "7"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "12\"",
+          "name": "Hernkyn Pioneers",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "4+",
+          "t": "6",
+          "w": "3"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Hernkyn_Pioneers.wargear.0",
+        "datasheets.Hernkyn_Pioneers.wargear.1"
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "name": "detachments.Oathband.name",
+      "enhancements": [
+        {
+          "name": "detachments.Oathband.enhancements.Appraising_Glare.name",
+          "id": "b40c0f43-c499-5461-bdd5-657aec0a9174",
+          "cost": "20",
+          "keywords": [
+            "Leagues of Votann"
+          ],
+          "excludes": [],
+          "description": "detachments.Oathband.enhancements.Appraising_Glare.description",
+          "faction_id": "LoV",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Oathband.enhancements.A_Long_List.name",
+          "id": "2576a089-105d-561b-b03a-c9a825260b89",
+          "cost": "15",
+          "keywords": [
+            "Leagues of Votann"
+          ],
+          "excludes": [],
+          "description": "detachments.Oathband.enhancements.A_Long_List.description",
+          "faction_id": "LoV",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Oathband.enhancements.Grim_Demeanour.name",
+          "id": "bb507e2d-b9f4-58cc-a85a-8f2218b664c7",
+          "cost": "20",
+          "keywords": [
+            "Leagues of Votann"
+          ],
+          "excludes": [],
+          "description": "detachments.Oathband.enhancements.Grim_Demeanour.description",
+          "faction_id": "LoV",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Oathband.enhancements.Wayfarers_Grace.name",
+          "id": "76b8463e-e303-51c3-a07e-6876ed6877f6",
+          "cost": "25",
+          "keywords": [
+            "Leagues of Votann"
+          ],
+          "excludes": [],
+          "description": "detachments.Oathband.enhancements.Wayfarers_Grace.description",
+          "faction_id": "LoV",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "rules": [
+        {
+          "name": "detachments.Oathband.rules.0.name",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.Oathband.rules.0.rule.0.text",
+              "type": "text"
+            },
+            {
+              "order": 2,
+              "text": "detachments.Oathband.rules.0.rule.1.text",
+              "type": "image"
+            },
+            {
+              "order": 3,
+              "text": "detachments.Oathband.rules.0.rule.1.text",
+              "type": "image"
+            },
+            {
+              "order": 4,
+              "text": "detachments.Oathband.rules.0.rule.1.text",
+              "type": "image"
+            }
+          ]
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.Oathband.stratagems.Brkkeknots.name",
+          "id": "36f7ea19-cd8e-55b3-ad56-a0561c395bf3",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Oathband.stratagems.Brkkeknots.target",
+          "when": "detachments.Oathband.stratagems.Brkkeknots.when",
+          "effect": "detachments.Oathband.stratagems.Brkkeknots.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "LoV",
+          "fluff": "detachments.Oathband.stratagems.Brkkeknots.fluff"
+        },
+        {
+          "name": "detachments.Oathband.stratagems.Fury_of_the_Hearth.name",
+          "id": "7832e805-ed9a-5067-870d-99f239c16022",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Oathband.stratagems.Fury_of_the_Hearth.target",
+          "when": "detachments.Oathband.stratagems.Fury_of_the_Hearth.when",
+          "effect": "detachments.Oathband.stratagems.Fury_of_the_Hearth.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "LoV",
+          "fluff": "detachments.Oathband.stratagems.Fury_of_the_Hearth.fluff"
+        },
+        {
+          "name": "detachments.Oathband.stratagems.Warrior_Pride.name",
+          "id": "ba0f78b6-5ebd-5d9f-8d77-d15fd5901470",
+          "cost": 2,
+          "turn": "opponents",
+          "target": "detachments.Oathband.stratagems.Warrior_Pride.target",
+          "when": "detachments.Oathband.stratagems.Warrior_Pride.when",
+          "effect": "detachments.Oathband.stratagems.Warrior_Pride.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "LoV",
+          "fluff": "detachments.Oathband.stratagems.Warrior_Pride.fluff"
+        },
+        {
+          "name": "detachments.Oathband.stratagems.Ancestral_Sentence.name",
+          "id": "d3e00e76-7be9-5c24-ac2b-718f3de153d2",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Oathband.stratagems.Ancestral_Sentence.target",
+          "when": "detachments.Oathband.stratagems.Ancestral_Sentence.when",
+          "effect": "detachments.Oathband.stratagems.Ancestral_Sentence.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "LoV",
+          "fluff": "detachments.Oathband.stratagems.Ancestral_Sentence.fluff"
+        },
+        {
+          "name": "detachments.Oathband.stratagems.Superior_Craftsmanship.name",
+          "id": "c85d0aa1-f332-5809-ab87-c79de5b0e75d",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Oathband.stratagems.Superior_Craftsmanship.target",
+          "when": "detachments.Oathband.stratagems.Superior_Craftsmanship.when",
+          "effect": "detachments.Oathband.stratagems.Superior_Craftsmanship.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "LoV",
+          "fluff": "detachments.Oathband.stratagems.Superior_Craftsmanship.fluff"
+        },
+        {
+          "name": "detachments.Oathband.stratagems.Reactive_Reprisal.name",
+          "id": "8fb206e7-9044-5490-9f71-f58cf8fad615",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Oathband.stratagems.Warrior_Pride.target",
+          "when": "detachments.Oathband.stratagems.Reactive_Reprisal.when",
+          "effect": "detachments.Oathband.stratagems.Reactive_Reprisal.effect",
+          "restrictions": "",
+          "type": "Wargear",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "LoV",
+          "fluff": "detachments.Oathband.stratagems.Reactive_Reprisal.fluff"
+        }
+      ]
+    },
+    {
+      "name": "detachments.Hearthband.name",
+      "enhancements": [
+        {
+          "name": "detachments.Hearthband.enhancements.Appraising_Glare.name",
+          "id": "b9b3e0ec-1be1-52ea-954b-67644412302f",
+          "cost": "25",
+          "keywords": [
+            "Leagues of Votann"
+          ],
+          "excludes": [],
+          "description": "detachments.Hearthband.enhancements.Appraising_Glare.description",
+          "faction_id": "LoV",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Hearthband.enhancements.A_Long_List.name",
+          "id": "7396264d-c65f-557d-8797-18adc34bc730",
+          "cost": "15",
+          "keywords": [
+            "Kâhl"
+          ],
+          "excludes": [],
+          "description": "detachments.Hearthband.enhancements.A_Long_List.description",
+          "faction_id": "LoV",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Hearthband.enhancements.Grim_Demeanour.name",
+          "id": "90538e66-95bc-5307-80ac-68615dd458de",
+          "cost": "10",
+          "keywords": [
+            "Leagues of Votann"
+          ],
+          "excludes": [],
+          "description": "detachments.Hearthband.enhancements.Grim_Demeanour.description",
+          "faction_id": "LoV",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Hearthband.enhancements.Wayfarers_Grace.name",
+          "id": "463bcb58-c699-5f27-9703-08d27cea34c4",
+          "cost": "30",
+          "keywords": [
+            "Kâhl"
+          ],
+          "excludes": [],
+          "description": "detachments.Hearthband.enhancements.Wayfarers_Grace.description",
+          "faction_id": "LoV",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "rules": [
+        {
+          "name": "detachments.Hearthband.rules.0.name",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.Hearthband.rules.0.rule.0.text",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.Hearthband.stratagems.Brkkeknots.name",
+          "id": "7d512c07-b270-56fa-9c75-fc7fd764ab1e",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Hearthband.stratagems.Brkkeknots.target",
+          "when": "detachments.Oathband.stratagems.Reactive_Reprisal.when",
+          "effect": "detachments.Hearthband.stratagems.Brkkeknots.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "LoV",
+          "fluff": "detachments.Hearthband.stratagems.Brkkeknots.fluff"
+        },
+        {
+          "name": "detachments.Hearthband.stratagems.Fury_of_the_Hearth.name",
+          "id": "00d1d805-9d8a-5a50-acdd-0e2bb9f26eb2",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Hearthband.stratagems.Fury_of_the_Hearth.target",
+          "when": "detachments.Oathband.stratagems.Fury_of_the_Hearth.when",
+          "effect": "detachments.Hearthband.stratagems.Fury_of_the_Hearth.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "LoV",
+          "fluff": "detachments.Hearthband.stratagems.Fury_of_the_Hearth.fluff"
+        },
+        {
+          "name": "detachments.Hearthband.stratagems.Warrior_Pride.name",
+          "id": "8634b6f5-b6b3-57b1-90d3-9ffbcdda15c1",
+          "cost": 2,
+          "turn": "either",
+          "target": "detachments.Hearthband.stratagems.Warrior_Pride.target",
+          "when": "detachments.Oathband.stratagems.Brkkeknots.when",
+          "effect": "detachments.Hearthband.stratagems.Warrior_Pride.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "LoV",
+          "fluff": "detachments.Hearthband.stratagems.Warrior_Pride.fluff"
+        },
+        {
+          "name": "detachments.Hearthband.stratagems.Ancestral_Sentence.name",
+          "id": "ee272f14-96ef-58fe-b026-37a2a452ff34",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Hearthband.stratagems.Warrior_Pride.target",
+          "when": "detachments.Oathband.stratagems.Brkkeknots.when",
+          "effect": "detachments.Hearthband.stratagems.Ancestral_Sentence.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "LoV",
+          "fluff": "detachments.Hearthband.stratagems.Ancestral_Sentence.fluff"
+        },
+        {
+          "name": "detachments.Hearthband.stratagems.Superior_Craftsmanship.name",
+          "id": "fe877a22-a2c4-5494-bb90-0d5a47d29334",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Hearthband.stratagems.Superior_Craftsmanship.target",
+          "when": "detachments.Hearthband.stratagems.Superior_Craftsmanship.when",
+          "effect": "detachments.Hearthband.stratagems.Superior_Craftsmanship.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "LoV",
+          "fluff": "detachments.Hearthband.stratagems.Superior_Craftsmanship.fluff"
+        },
+        {
+          "name": "detachments.Hearthband.stratagems.Reactive_Reprisal.name",
+          "id": "f8d4cfeb-8348-596d-a232-545de1d3a1a9",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Hearthband.stratagems.Reactive_Reprisal.target",
+          "when": "detachments.Hearthband.stratagems.Reactive_Reprisal.when",
+          "effect": "detachments.Hearthband.stratagems.Reactive_Reprisal.effect",
+          "restrictions": "detachments.Hearthband.stratagems.Reactive_Reprisal.restrictions",
+          "type": "Strategic Ploy",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "LoV",
+          "fluff": "detachments.Hearthband.stratagems.Reactive_Reprisal.fluff"
+        }
+      ]
+    }
+  ],
+  "id": "LoV",
+  "is_subfaction": false,
+  "name": "name",
+  "parent_id": "",
+  "rules": {
+    "army": [
+      {
+        "name": "datasheets.Hearthkyn_Warriors.abilities.faction.0",
+        "rule": [
+          {
+            "order": 1,
+            "text": "rules.army.Eye_of_the_Ancestors.rule.0.text",
+            "type": "text"
+          },
+          {
+            "order": 2,
+            "text": "rules.army.Eye_of_the_Ancestors.rule.1.text",
+            "type": "textItalic"
+          }
+        ]
+      }
+    ]
+  },
+  "updated": "2025-05-29T08:37:08.139Z"
+}

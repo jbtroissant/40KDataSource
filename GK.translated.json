@@ -1,0 +1,6576 @@
+{
+  "allied_factions": [
+    "AoI",
+    "QI"
+  ],
+  "colours": {
+    "banner": "#325b68",
+    "header": "#4a5e67"
+  },
+  "datasheets": [
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Brotherhood_Chaplain.abilities.other.0.name",
+            "description": "datasheets.Brotherhood_Chaplain.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Brotherhood_Chaplain.abilities.other.1.name",
+            "description": "datasheets.Brotherhood_Chaplain.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Brotherhood_Chaplain.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Brotherhood_Chaplain.fluff",
+      "id": "a196334f-705a-5c01-939c-29532382942a",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Psyker",
+        "Terminator",
+        "Imperium",
+        "Brotherhood Chaplain"
+      ],
+      "leader": "datasheets.Brotherhood_Chaplain.leader",
+      "loadout": "datasheets.Brotherhood_Chaplain.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "5",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Brotherhood_Chaplain.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Brotherhood Chaplain",
+      "points": [
+        {
+          "cost": "75",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "5+",
+          "m": "5\"",
+          "name": "Brotherhood Chaplain",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "5",
+          "w": "5",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Brotherhood_Chaplain.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Brotherhood_Chaplain.leads.units.0",
+          "datasheets.Brotherhood_Chaplain.leads.units.1"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Brotherhood_Librarian.abilities.other.0.name",
+            "description": "datasheets.Brotherhood_Librarian.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Brotherhood_Librarian.abilities.other.1.name",
+            "description": "datasheets.Brotherhood_Librarian.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Brotherhood_Librarian.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Brotherhood_Librarian.fluff",
+      "id": "ed58e505-b825-5724-83a6-a0271413d051",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Terminator",
+        "Psyker",
+        "Imperium",
+        "Brotherhood Librarian"
+      ],
+      "leader": "datasheets.Brotherhood_Chaplain.leader",
+      "loadout": "datasheets.Brotherhood_Librarian.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Brotherhood_Librarian.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Brotherhood Librarian",
+      "points": [
+        {
+          "cost": "120",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "3",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Brotherhood_Librarian.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            },
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "3",
+              "keywords": [
+                "Hazardous",
+                "Psychic",
+                "Precision"
+              ],
+              "name": "datasheets.Brotherhood_Librarian.rangedWeapons.0.profiles.1.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 1",
+                "Devastating Wounds",
+                "Anti-infantry 4+"
+              ],
+              "name": "datasheets.Brotherhood_Librarian.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "5\"",
+          "name": "Brotherhood Librarian",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "5",
+          "w": "5",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Brotherhood_Librarian.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Brotherhood_Chaplain.leads.units.0",
+          "datasheets.Brotherhood_Chaplain.leads.units.1"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Paladin_Squad.abilities.other.0.name",
+            "description": "datasheets.Paladin_Squad.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": [
+          {
+            "name": "datasheets.Paladin_Squad.abilities.wargear.0.name",
+            "description": "datasheets.Paladin_Squad.abilities.wargear.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Paladin_Squad.composition.0",
+        "datasheets.Paladin_Squad.composition.1"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Paladin_Squad.fluff",
+      "id": "d34447ce-96dc-5248-8b8c-067b4951590d",
+      "keywords": [
+        "Infantry",
+        "Psyker",
+        "Terminator",
+        "Grenades",
+        "Imperium",
+        "Paladin Squad"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Paladin_Squad.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Brotherhood_Librarian.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Paladin Squad",
+      "points": [
+        {
+          "cost": "450",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "215",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1",
+                "Psychic"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.3.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "5\"",
+          "name": "datasheets.Paladin_Squad.stats.0.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "2+",
+          "t": "5",
+          "w": "3",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Paladin_Squad.wargear.0",
+        "datasheets.Paladin_Squad.wargear.1"
+      ],
+      "leadBy": [
+        "Brotherhood Chaplain",
+        "Brotherhood Librarian",
+        "datasheets.Paladin_Squad.leadBy.2",
+        "datasheets.Paladin_Squad.leadBy.3",
+        "datasheets.Paladin_Squad.leadBy.4",
+        "datasheets.Paladin_Squad.leadBy.5",
+        "datasheets.Paladin_Squad.leadBy.6"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "damaged": {
+          "range": "datasheets.Grey_Knights_Land_Raider_Redeemer.abilities.damaged.range",
+          "description": "datasheets.Grey_Knights_Land_Raider_Redeemer.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.abilities.other.0.name",
+            "description": "datasheets.Grey_Knights_Land_Raider_Redeemer.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Grey_Knights_Land_Raider_Redeemer.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Grey_Knights_Land_Raider_Redeemer.fluff",
+      "id": "46942d4e-2b3b-5f7a-b034-0a067a3629f3",
+      "keywords": [
+        "Vehicle",
+        "Transport",
+        "Smoke",
+        "Grenades",
+        "Imperium",
+        "Land Raider",
+        "Redeemer"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Grey_Knights_Land_Raider_Redeemer.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.name",
+      "points": [
+        {
+          "cost": "285",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "D6+3",
+              "damage": "2",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "One Shot"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "2+",
+              "strength": "14"
+            }
+          ],
+          "abilities": [
+            {
+              "name": "One Shot",
+              "description": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.abilities.0.description",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [
+                "Melta 2"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.3.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.name",
+          "oc": "5",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "12",
+          "w": "16"
+        }
+      ],
+      "transport": "datasheets.Grey_Knights_Land_Raider_Redeemer.transport",
+      "wargear": [
+        "datasheets.Grey_Knights_Land_Raider_Redeemer.wargear.0",
+        "datasheets.Grey_Knights_Land_Raider_Redeemer.wargear.1",
+        "datasheets.Grey_Knights_Land_Raider_Redeemer.wargear.2"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Firing Deck 2"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "name": "datasheets.Grey_Knights_Rhino.abilities.other.0.name",
+            "description": "datasheets.Grey_Knights_Rhino.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Grey_Knights_Rhino.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Grey_Knights_Rhino.fluff",
+      "id": "6c474964-4d5f-5f57-8b1b-b8c3b373bd9b",
+      "keywords": [
+        "Vehicle",
+        "Transport",
+        "Dedicated Transport",
+        "Smoke",
+        "Imperium",
+        "Rhino"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Grey_Knights_Rhino.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Grey_Knights_Rhino.name",
+      "points": [
+        {
+          "cost": "75",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "One Shot"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "2+",
+              "strength": "14"
+            }
+          ],
+          "abilities": [
+            {
+              "name": "One Shot",
+              "description": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.abilities.0.description",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "datasheets.Grey_Knights_Rhino.name",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "9",
+          "w": "10"
+        }
+      ],
+      "transport": "datasheets.Grey_Knights_Rhino.transport",
+      "wargear": [
+        "datasheets.Grey_Knights_Rhino.wargear.0",
+        "datasheets.Grey_Knights_Land_Raider_Redeemer.wargear.2"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Grand_Master.abilities.other.0.name",
+            "description": "datasheets.Grand_Master.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Grand_Master.abilities.other.1.name",
+            "description": "datasheets.Grand_Master.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Grand_Master.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Grand_Master.fluff",
+      "id": "f29aef55-8607-5cfb-8bac-1d235c1ca41a",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Psyker",
+        "Grenades",
+        "Terminator",
+        "Imperium",
+        "Grand Master"
+      ],
+      "leader": "datasheets.Brotherhood_Chaplain.leader",
+      "loadout": "datasheets.Grand_Master.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Brotherhood_Librarian.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Grand Master",
+      "points": [
+        {
+          "cost": "95",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1",
+                "Psychic"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.3.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "5\"",
+          "name": "Grand Master",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "5",
+          "w": "7",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Grand_Master.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Brotherhood_Chaplain.leads.units.0",
+          "datasheets.Brotherhood_Chaplain.leads.units.1"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6",
+          "Hover"
+        ],
+        "damaged": {
+          "range": "datasheets.Grey_Knights_Land_Raider_Redeemer.abilities.damaged.range",
+          "description": "datasheets.Grey_Knights_Land_Raider_Redeemer.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "name": "datasheets.Grey_Knights_Stormraven_Gunship.abilities.other.0.name",
+            "description": "datasheets.Grey_Knights_Stormraven_Gunship.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Grey_Knights_Stormraven_Gunship.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Grey_Knights_Stormraven_Gunship.fluff",
+      "id": "ff40724d-a84a-5684-8eeb-6917bd57f2eb",
+      "keywords": [
+        "Vehicle",
+        "Aircraft",
+        "Transport",
+        "Fly",
+        "Imperium",
+        "Stormraven Gunship"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Grey_Knights_Stormraven_Gunship.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Grey_Knights_Stormraven_Gunship.name",
+      "points": [
+        {
+          "cost": "280",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.1.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2D6",
+              "damage": "1",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.1.profiles.1.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+2",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "10"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Rapid Fire 6"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.3.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Blast"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.4.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "3",
+              "damage": "3",
+              "keywords": [
+                "Twin-linked",
+                "Hazardous",
+                "Blast"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.4.profiles.1.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [
+                "Twin-linked"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.5.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.6.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [
+                "Twin-linked",
+                "Melta 2"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.7.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "20+\"",
+          "name": "datasheets.Grey_Knights_Stormraven_Gunship.name",
+          "oc": "0",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "10",
+          "w": "14"
+        }
+      ],
+      "transport": "datasheets.Grey_Knights_Stormraven_Gunship.transport",
+      "wargear": [
+        "datasheets.Grey_Knights_Stormraven_Gunship.wargear.0",
+        "datasheets.Grey_Knights_Stormraven_Gunship.wargear.1",
+        "datasheets.Grey_Knights_Stormraven_Gunship.wargear.2"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Fights First",
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Brotherhood_Champion.abilities.other.0.name",
+            "description": "datasheets.Brotherhood_Champion.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Brotherhood_Champion.abilities.other.1.name",
+            "description": "datasheets.Brotherhood_Champion.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Brotherhood_Champion.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Brotherhood_Champion.fluff",
+      "id": "116708b0-8e85-502e-bade-efc6cffe2251",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Psyker",
+        "Imperium",
+        "Brotherhood Champion"
+      ],
+      "leader": "datasheets.Brotherhood_Champion.leader",
+      "loadout": "datasheets.Grand_Master.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
+              "keywords": [
+                "Psychic",
+                "Precision"
+              ],
+              "name": "datasheets.Brotherhood_Librarian.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Brotherhood Champion",
+      "points": [
+        {
+          "cost": "80",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "Brotherhood Champion",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "4",
+          "w": "4",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Brotherhood_Chaplain.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Brotherhood_Champion.leads.units.0",
+          "datasheets.Brotherhood_Champion.leads.units.1"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "damaged": {
+          "range": "datasheets.Grey_Knights_Land_Raider_Redeemer.abilities.damaged.range",
+          "description": "datasheets.Grey_Knights_Land_Raider_Redeemer.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.abilities.other.0.name",
+            "description": "datasheets.Grey_Knights_Land_Raider_Redeemer.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Grey_Knights_Land_Raider.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Grey_Knights_Land_Raider.fluff",
+      "id": "689e1001-9d6b-5dd2-a513-9346daaf23b4",
+      "keywords": [
+        "Vehicle",
+        "Transport",
+        "Smoke",
+        "Imperium",
+        "Land Raider"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Grey_Knights_Land_Raider.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Grey_Knights_Land_Raider.name",
+      "points": [
+        {
+          "cost": "240",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.6.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "2",
+              "damage": "D6+1",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Land_Raider.rangedWeapons.1.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "One Shot"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "2+",
+              "strength": "14"
+            }
+          ],
+          "abilities": [
+            {
+              "name": "One Shot",
+              "description": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.abilities.0.description",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [
+                "Melta 2"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.3.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "10\"",
+          "name": "datasheets.Grey_Knights_Land_Raider.name",
+          "oc": "5",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "12",
+          "w": "16"
+        }
+      ],
+      "transport": "datasheets.Grey_Knights_Land_Raider.transport",
+      "wargear": [
+        "datasheets.Grey_Knights_Land_Raider_Redeemer.wargear.0",
+        "datasheets.Grey_Knights_Land_Raider_Redeemer.wargear.1",
+        "datasheets.Grey_Knights_Land_Raider_Redeemer.wargear.2"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "damaged": {
+          "range": "datasheets.Grey_Knights_Land_Raider_Redeemer.abilities.damaged.range",
+          "description": "datasheets.Grey_Knights_Land_Raider_Redeemer.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.abilities.other.0.name",
+            "description": "datasheets.Grey_Knights_Land_Raider_Redeemer.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Land_Raider_Banisher.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Land_Raider_Banisher.fluff",
+      "id": "3c7a2d6a-ccc8-5bfc-855e-79dbcff9a034",
+      "imperialArmour": true,
+      "keywords": [
+        "Vehicle",
+        "Transport",
+        "Smoke",
+        "Imperium",
+        "Land Raider",
+        "Banisher"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Land_Raider_Banisher.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Land_Raider_Banisher.name",
+      "points": [
+        {
+          "cost": "255",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits 1",
+                "Psychic"
+              ],
+              "name": "datasheets.Land_Raider_Banisher.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "2D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Land_Raider_Banisher.rangedWeapons.1.profiles.0.name",
+              "range": "18\"",
+              "skill": "N/A",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "One Shot"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "2+",
+              "strength": "14"
+            }
+          ],
+          "abilities": [
+            {
+              "name": "One Shot",
+              "description": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.abilities.0.description",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [
+                "Melta 2"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.3.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "10\"",
+          "name": "datasheets.Land_Raider_Banisher.name",
+          "oc": "5",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "12",
+          "w": "16"
+        }
+      ],
+      "transport": "datasheets.Grey_Knights_Land_Raider.transport",
+      "wargear": [
+        "datasheets.Grey_Knights_Land_Raider_Redeemer.wargear.1",
+        "datasheets.Grey_Knights_Land_Raider_Redeemer.wargear.0",
+        "datasheets.Grey_Knights_Land_Raider_Redeemer.wargear.2"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Scouts 6\""
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Strike_Squad.abilities.other.0.name",
+            "description": "datasheets.Strike_Squad.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Strike_Squad.composition.0",
+        "datasheets.Strike_Squad.composition.1"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Strike_Squad.fluff",
+      "id": "c5e2fdc0-70ae-50af-907a-6c8c4714c95b",
+      "keywords": [
+        "Infantry",
+        "Battleline",
+        "Psyker",
+        "Grenades",
+        "Imperium",
+        "Strike Squad"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Paladin_Squad.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Brotherhood_Librarian.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Strike_Squad.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "name": "Strike Squad",
+      "points": [
+        {
+          "cost": "240",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "120",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1",
+                "Psychic"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.3.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "datasheets.Strike_Squad.stats.0.name",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "2+",
+          "t": "4",
+          "w": "2"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Strike_Squad.wargear.0"
+      ],
+      "leadBy": [
+        "Brotherhood Champion",
+        "datasheets.Strike_Squad.leadBy.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6+2",
+          "Hover"
+        ],
+        "damaged": {
+          "range": "datasheets.Grey_Knights_Thunderhawk_Gunship.abilities.damaged.range",
+          "description": "datasheets.Grey_Knights_Thunderhawk_Gunship.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "name": "datasheets.Grey_Knights_Thunderhawk_Gunship.abilities.other.0.name",
+            "description": "datasheets.Grey_Knights_Thunderhawk_Gunship.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": [
+          {
+            "name": "datasheets.Grey_Knights_Thunderhawk_Gunship.abilities.wargear.0.name",
+            "description": "datasheets.Grey_Knights_Thunderhawk_Gunship.abilities.wargear.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Grey_Knights_Thunderhawk_Gunship.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Grey_Knights_Thunderhawk_Gunship.fluff",
+      "id": "ce388f5e-eacb-5433-a787-d00ca5b0b4bf",
+      "imperialArmour": true,
+      "keywords": [
+        "Vehicle",
+        "Titanic",
+        "Fly",
+        "Aircraft",
+        "Transport",
+        "Imperium",
+        "Thunderhawk Gunship"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Grey_Knights_Thunderhawk_Gunship.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Grey_Knights_Thunderhawk_Gunship.name",
+      "points": [
+        {
+          "cost": "805",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "D6+6",
+              "damage": "3",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Grey_Knights_Thunderhawk_Gunship.rangedWeapons.0.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "10"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Thunderhawk_Gunship.rangedWeapons.1.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.6.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "D3+1",
+              "damage": "D6+6",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Grey_Knights_Thunderhawk_Gunship.rangedWeapons.3.profiles.0.name",
+              "range": "96\"",
+              "skill": "3+",
+              "strength": "20"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "3",
+              "keywords": [
+                "Anti-fly 4+"
+              ],
+              "name": "datasheets.Grey_Knights_Thunderhawk_Gunship.rangedWeapons.4.profiles.0.name",
+              "range": "72\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "20+\"",
+          "name": "datasheets.Grey_Knights_Thunderhawk_Gunship.name",
+          "oc": "0",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "12",
+          "w": "30"
+        }
+      ],
+      "transport": "datasheets.Grey_Knights_Thunderhawk_Gunship.transport",
+      "wargear": [
+        "datasheets.Grey_Knights_Thunderhawk_Gunship.wargear.0",
+        "datasheets.Grey_Knights_Thunderhawk_Gunship.wargear.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "name": "datasheets.Grey_Knights_Razorback.abilities.other.0.name",
+            "description": "datasheets.Grey_Knights_Razorback.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Grey_Knights_Razorback.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Grey_Knights_Razorback.fluff",
+      "id": "3f5d25a5-f5ca-5398-90d0-9c702d2a65a9",
+      "keywords": [
+        "Vehicle",
+        "Transport",
+        "Dedicated Transport",
+        "Smoke",
+        "Imperium",
+        "Razorback"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Grey_Knights_Razorback.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Grey_Knights_Razorback.name",
+      "points": [
+        {
+          "cost": "85",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.6.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "One Shot"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "2+",
+              "strength": "14"
+            }
+          ],
+          "abilities": [
+            {
+              "name": "One Shot",
+              "description": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.abilities.0.description",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [
+                "Twin-linked"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.5.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "datasheets.Grey_Knights_Razorback.name",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "9",
+          "w": "10"
+        }
+      ],
+      "transport": "datasheets.Grey_Knights_Razorback.transport",
+      "wargear": [
+        "datasheets.Grey_Knights_Razorback.wargear.0",
+        "datasheets.Grey_Knights_Land_Raider_Redeemer.wargear.0",
+        "datasheets.Grey_Knights_Land_Raider_Redeemer.wargear.2"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Brotherhood_Terminator_Squad.abilities.other.0.name",
+            "description": "datasheets.Brotherhood_Terminator_Squad.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": [
+          {
+            "name": "datasheets.Paladin_Squad.abilities.wargear.0.name",
+            "description": "datasheets.Paladin_Squad.abilities.wargear.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Brotherhood_Terminator_Squad.abilities.wargear.1.name",
+            "description": "datasheets.Brotherhood_Terminator_Squad.abilities.wargear.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Brotherhood_Terminator_Squad.composition.0",
+        "datasheets.Brotherhood_Terminator_Squad.composition.1"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Brotherhood_Terminator_Squad.fluff",
+      "id": "09b7e6e4-9a1c-5fa8-bcd2-119f1feda5fe",
+      "keywords": [
+        "Infantry",
+        "Battleline",
+        "Psyker",
+        "Terminator",
+        "Grenades",
+        "Imperium",
+        "Brotherhood Terminator Squad"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Paladin_Squad.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Brotherhood_Librarian.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Brotherhood Terminator Squad",
+      "points": [
+        {
+          "cost": "420",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "200",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1",
+                "Psychic"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.3.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "5\"",
+          "name": "datasheets.Brotherhood_Terminator_Squad.stats.0.name",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "2+",
+          "t": "5",
+          "w": "3",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Brotherhood_Terminator_Squad.wargear.0",
+        "datasheets.Brotherhood_Terminator_Squad.wargear.1",
+        "datasheets.Brotherhood_Terminator_Squad.wargear.2",
+        "datasheets.Brotherhood_Terminator_Squad.wargear.3"
+      ],
+      "leadBy": [
+        "Brotherhood Chaplain",
+        "Brotherhood Librarian",
+        "Grand Master",
+        "datasheets.Paladin_Squad.leadBy.3",
+        "datasheets.Paladin_Squad.leadBy.4",
+        "datasheets.Paladin_Squad.leadBy.5",
+        "datasheets.Paladin_Squad.leadBy.6"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Castellan_Crowe.abilities.other.0.name",
+            "description": "datasheets.Castellan_Crowe.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Castellan_Crowe.abilities.other.1.name",
+            "description": "datasheets.Castellan_Crowe.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Castellan_Crowe.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Castellan_Crowe.fluff",
+      "id": "293435ac-8824-583a-8a7e-0e94642bf809",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Psyker",
+        "Imperium",
+        "Castellan Crowe"
+      ],
+      "leader": "datasheets.Castellan_Crowe.leader",
+      "loadout": "datasheets.Castellan_Crowe.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
+              "keywords": [
+                "Precision",
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Castellan_Crowe.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Castellan Crowe",
+      "points": [
+        {
+          "cost": "90",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Psychic",
+                "Ignores Cover",
+                "Anti-infantry 2+"
+              ],
+              "name": "datasheets.Castellan_Crowe.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "Castellan Crowe",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "4",
+          "w": "5",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Brotherhood_Chaplain.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Castellan_Crowe.leads.units.0"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Brotherhood_Techmarine.abilities.other.0.name",
+            "description": "datasheets.Brotherhood_Techmarine.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Brotherhood_Techmarine.abilities.other.1.name",
+            "description": "datasheets.Brotherhood_Techmarine.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Brotherhood_Techmarine.abilities.other.2.name",
+            "description": "datasheets.Brotherhood_Techmarine.abilities.other.2.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Brotherhood_Techmarine.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Brotherhood_Techmarine.fluff",
+      "id": "eeb060e8-3807-55c1-a07d-c836e0cd370d",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Psyker",
+        "Imperium",
+        "Brotherhood Techmarine"
+      ],
+      "leader": "datasheets.Brotherhood_Techmarine.leader",
+      "loadout": "datasheets.Brotherhood_Techmarine.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Extra Attacks"
+              ],
+              "name": "datasheets.Brotherhood_Techmarine.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "2",
+              "damage": "2",
+              "keywords": [
+                "Hazardous",
+                "Extra Attacks"
+              ],
+              "name": "datasheets.Brotherhood_Techmarine.meleeWeapons.0.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Brotherhood_Techmarine.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "2",
+              "damage": "3",
+              "keywords": [
+                "Extra Attacks"
+              ],
+              "name": "datasheets.Brotherhood_Techmarine.meleeWeapons.2.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "Brotherhood Techmarine",
+      "points": [
+        {
+          "cost": "70",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Brotherhood_Techmarine.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Brotherhood_Techmarine.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Brotherhood_Techmarine.rangedWeapons.2.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "5\"",
+          "name": "Brotherhood Techmarine",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "4",
+          "w": "4"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Brotherhood_Techmarine.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Brotherhood_Techmarine.leads.units.0",
+          "datasheets.Brotherhood_Champion.leads.units.1"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Interceptor_Squad.abilities.other.0.name",
+            "description": "datasheets.Interceptor_Squad.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Interceptor_Squad.composition.0",
+        "datasheets.Interceptor_Squad.composition.1"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Interceptor_Squad.fluff",
+      "id": "dbba5ea4-3390-573f-b26a-2251b7a7e472",
+      "keywords": [
+        "Infantry",
+        "Psyker",
+        "Fly",
+        "Grenades",
+        "Imperium",
+        "Interceptor Squad"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Paladin_Squad.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Brotherhood_Librarian.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Strike_Squad.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "name": "Interceptor Squad",
+      "points": [
+        {
+          "cost": "250",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "125",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1",
+                "Psychic"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.3.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "datasheets.Interceptor_Squad.stats.0.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "2+",
+          "t": "4",
+          "w": "2"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Interceptor_Squad.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Deep Strike"
+        ],
+        "damaged": {
+          "range": "datasheets.Grand_Master_in_Nemesis_Dreadknight.abilities.damaged.range",
+          "description": "datasheets.Grand_Master_in_Nemesis_Dreadknight.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.abilities.other.0.name",
+            "description": "datasheets.Grand_Master_in_Nemesis_Dreadknight.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.abilities.other.1.name",
+            "description": "datasheets.Grand_Master_in_Nemesis_Dreadknight.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Grand_Master_in_Nemesis_Dreadknight.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Grand_Master_in_Nemesis_Dreadknight.fluff",
+      "id": "451119d5-36e0-50e4-936c-0bc8cf5eef22",
+      "keywords": [
+        "Vehicle",
+        "Character",
+        "Walker",
+        "Psyker",
+        "Imperium",
+        "Grand Master in Nemesis Dreadknight"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Grand_Master_in_Nemesis_Dreadknight.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "5",
+              "damage": "D6+1",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "14"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "10",
+              "damage": "1",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.meleeWeapons.2.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "5"
+            },
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "D6",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.meleeWeapons.2.profiles.1.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "10"
+            }
+          ]
+        }
+      ],
+      "name": "Grand Master in Nemesis Dreadknight",
+      "points": [
+        {
+          "cost": "210",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "12",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1",
+                "Psychic"
+              ],
+              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "2D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Land_Raider_Banisher.rangedWeapons.1.profiles.0.name",
+              "range": "18\"",
+              "skill": "N/A",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "6",
+              "damage": "3",
+              "keywords": [
+                "Psychic",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "10"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "8\"",
+          "name": "Grand Master in Nemesis Dreadknight",
+          "oc": "4",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "8",
+          "w": "13",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Grand_Master_in_Nemesis_Dreadknight.wargear.0",
+        "datasheets.Grand_Master_in_Nemesis_Dreadknight.wargear.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "name": "datasheets.Servitors.abilities.other.0.name",
+            "description": "datasheets.Servitors.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Servitors.abilities.other.1.name",
+            "description": "datasheets.Servitors.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [
+          {
+            "description": "datasheets.Servitors.abilities.special.0.description",
+            "name": "datasheets.Servitors.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Servitors.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Servitors.fluff",
+      "id": "98f32d4e-f2e4-5b8a-a274-bf31c4467a77",
+      "keywords": [
+        "Infantry",
+        "Imperium",
+        "Servitors"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Servitors.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "3",
+              "keywords": [],
+              "name": "datasheets.Servitors.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "5+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Servitors.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "5+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "name": "Servitors",
+      "points": [
+        {
+          "cost": "50",
+          "keyword": null,
+          "models": "4",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1",
+                "Heavy"
+              ],
+              "name": "datasheets.Servitors.rangedWeapons.0.profiles.0.name",
+              "range": "36\"",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [
+                "Melta 2",
+                "Heavy"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.3.profiles.0.name",
+              "range": "18\"",
+              "skill": "4+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "D3",
+              "damage": "1",
+              "keywords": [
+                "Heavy",
+                "Blast"
+              ],
+              "name": "datasheets.Servitors.rangedWeapons.2.profiles.0.name",
+              "range": "36\"",
+              "skill": "4+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "D3",
+              "damage": "2",
+              "keywords": [
+                "Heavy",
+                "Hazardous",
+                "Blast"
+              ],
+              "name": "datasheets.Servitors.rangedWeapons.2.profiles.1.name",
+              "range": "36\"",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "8+",
+          "m": "6\"",
+          "name": "Servitors",
+          "oc": "0",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "4+",
+          "t": "4",
+          "w": "1",
+          "invul": "6+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Servitors.wargear.0"
+      ],
+      "leadBy": [
+        "Brotherhood Techmarine"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "damaged": {
+          "range": "datasheets.Grey_Knights_Land_Raider_Redeemer.abilities.damaged.range",
+          "description": "datasheets.Grey_Knights_Land_Raider_Redeemer.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.abilities.other.0.name",
+            "description": "datasheets.Grey_Knights_Land_Raider_Redeemer.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Grey_Knights_Land_Raider_Crusader.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Grey_Knights_Land_Raider_Crusader.fluff",
+      "id": "4d3bc053-81dd-5d13-b4eb-9701facf25dd",
+      "keywords": [
+        "Vehicle",
+        "Transport",
+        "Smoke",
+        "Grenades",
+        "Imperium",
+        "Land Raider",
+        "Crusader"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Grey_Knights_Land_Raider_Crusader.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Grey_Knights_Land_Raider_Crusader.name",
+      "points": [
+        {
+          "cost": "220",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Rapid Fire 6"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.3.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "One Shot"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "2+",
+              "strength": "14"
+            }
+          ],
+          "abilities": [
+            {
+              "name": "One Shot",
+              "description": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.abilities.0.description",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [
+                "Melta 2"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.3.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "datasheets.Grey_Knights_Land_Raider_Crusader.name",
+          "oc": "5",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "12",
+          "w": "16"
+        }
+      ],
+      "transport": "datasheets.Grey_Knights_Land_Raider_Crusader.transport",
+      "wargear": [
+        "datasheets.Grey_Knights_Land_Raider_Redeemer.wargear.0",
+        "datasheets.Grey_Knights_Land_Raider_Redeemer.wargear.1",
+        "datasheets.Grey_Knights_Land_Raider_Redeemer.wargear.2"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Purifier_Squad.abilities.other.0.name",
+            "description": "datasheets.Purifier_Squad.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Purifier_Squad.composition.0",
+        "datasheets.Purifier_Squad.composition.1"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Purifier_Squad.fluff",
+      "id": "d10cbe49-479b-5d84-b030-e7a1ed0bcfb0",
+      "keywords": [
+        "Infantry",
+        "Psyker",
+        "Grenades",
+        "Imperium",
+        "Purifier Squad"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Purifier_Squad.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Brotherhood_Librarian.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Strike_Squad.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "name": "Purifier Squad",
+      "points": [
+        {
+          "cost": "250",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "125",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Psychic",
+                "Ignores Cover",
+                "Anti-infantry 2+"
+              ],
+              "name": "datasheets.Castellan_Crowe.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1",
+                "Psychic"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.3.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "datasheets.Purifier_Squad.stats.0.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "2+",
+          "t": "4",
+          "w": "2"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Purifier_Squad.wargear.0"
+      ],
+      "leadBy": [
+        "Castellan Crowe"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise 1"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "name": "datasheets.Grey_Knights_Venerable_Dreadnought.abilities.other.0.name",
+            "description": "datasheets.Grey_Knights_Venerable_Dreadnought.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Grey_Knights_Venerable_Dreadnought.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Grey_Knights_Venerable_Dreadnought.fluff",
+      "id": "84079d1f-0353-5ea0-a39a-c33a1a17c3f4",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Psyker",
+        "Smoke",
+        "Imperium",
+        "Venerable Dreadnought"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Grey_Knights_Venerable_Dreadnought.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "3",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "5",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Grey_Knights_Venerable_Dreadnought.name",
+      "points": [
+        {
+          "cost": "155",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "D3",
+              "damage": "2",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.rangedWeapons.2.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "D3",
+              "damage": "3",
+              "keywords": [
+                "Hazardous",
+                "Blast"
+              ],
+              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.rangedWeapons.2.profiles.1.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [
+                "Melta 2"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.3.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [
+                "Twin-linked"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.5.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.rangedWeapons.5.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.rangedWeapons.5.profiles.1.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.rangedWeapons.6.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "datasheets.Grey_Knights_Venerable_Dreadnought.name",
+          "oc": "3",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "9",
+          "w": "8"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Grey_Knights_Venerable_Dreadnought.wargear.0",
+        "datasheets.Grey_Knights_Venerable_Dreadnought.wargear.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Brother_Captain.abilities.other.0.name",
+            "description": "datasheets.Brother_Captain.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Brother_Captain.abilities.other.1.name",
+            "description": "datasheets.Brother_Captain.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Brother_Captain.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Brother_Captain.fluff",
+      "id": "c557ddbb-f906-5c05-8888-5cce91853244",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Psyker",
+        "Terminator",
+        "Imperium",
+        "Brother-Captain"
+      ],
+      "leader": "datasheets.Brotherhood_Chaplain.leader",
+      "loadout": "datasheets.Grand_Master.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Brotherhood_Librarian.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Brother-Captain",
+      "points": [
+        {
+          "cost": "90",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1",
+                "Psychic"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.3.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "5\"",
+          "name": "Brother-Captain",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "5",
+          "w": "6",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Grand_Master.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Brotherhood_Chaplain.leads.units.0",
+          "datasheets.Brotherhood_Chaplain.leads.units.1"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Kaldor_Draigo.abilities.other.0.name",
+            "description": "datasheets.Kaldor_Draigo.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Kaldor_Draigo.abilities.other.1.name",
+            "description": "datasheets.Kaldor_Draigo.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [
+          {
+            "description": "datasheets.Kaldor_Draigo.abilities.special.0.description",
+            "name": "datasheets.Kaldor_Draigo.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Kaldor_Draigo.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Kaldor_Draigo.fluff",
+      "id": "ed70155e-e7bf-5d8f-968f-bd71c2821012",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Psyker",
+        "Terminator",
+        "Grenades",
+        "Imperium",
+        "Kaldor Draigo"
+      ],
+      "leader": "datasheets.Brotherhood_Chaplain.leader",
+      "loadout": "datasheets.Kaldor_Draigo.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "6",
+              "damage": "3",
+              "keywords": [
+                "Psychic",
+                "Anti-daemon 2+"
+              ],
+              "name": "datasheets.Kaldor_Draigo.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "Kaldor Draigo",
+      "points": [
+        {
+          "cost": "125",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Psychic",
+                "Ignores Cover",
+                "Anti-daemon 2+"
+              ],
+              "name": "datasheets.Kaldor_Draigo.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "5\"",
+          "name": "Kaldor Draigo",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "5",
+          "w": "7",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Brotherhood_Chaplain.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Brotherhood_Chaplain.leads.units.0",
+          "datasheets.Brotherhood_Chaplain.leads.units.1"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Grand_Master_Voldus.abilities.other.0.name",
+            "description": "datasheets.Grand_Master_Voldus.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Grand_Master_Voldus.abilities.other.1.name",
+            "description": "datasheets.Grand_Master_Voldus.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Grand_Master_Voldus.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Grand_Master_Voldus.fluff",
+      "id": "149469d0-61a1-5592-98ca-2a94ca358bc8",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Psyker",
+        "Terminator",
+        "Imperium",
+        "Grand Master Voldus"
+      ],
+      "leader": "datasheets.Brotherhood_Chaplain.leader",
+      "loadout": "datasheets.Grand_Master_Voldus.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "3",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Grand_Master_Voldus.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "10"
+            }
+          ]
+        }
+      ],
+      "name": "Grand Master Voldus",
+      "points": [
+        {
+          "cost": "95",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "5\"",
+          "name": "Grand Master Voldus",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "5",
+          "w": "6",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Brotherhood_Chaplain.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Brotherhood_Chaplain.leads.units.0",
+          "datasheets.Brotherhood_Chaplain.leads.units.1"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Brother_Captain_Stern.abilities.other.0.name",
+            "description": "datasheets.Brother_Captain_Stern.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Brother_Captain_Stern.abilities.other.1.name",
+            "description": "datasheets.Brother_Captain_Stern.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Brother_Captain_Stern.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Brother_Captain_Stern.fluff",
+      "id": "df778992-eebf-51b5-9300-30cdc0888a91",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Psyker",
+        "Imperium",
+        "Terminator",
+        "Brother-Captain Stern"
+      ],
+      "leader": "datasheets.Brotherhood_Chaplain.leader",
+      "loadout": "datasheets.Brother_Captain_Stern.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Brother_Captain_Stern.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Brother-Captain Stern",
+      "points": [
+        {
+          "cost": "90",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "5\"",
+          "name": "Brother-Captain Stern",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "5",
+          "w": "6",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Brotherhood_Chaplain.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Brotherhood_Chaplain.leads.units.0",
+          "datasheets.Brotherhood_Chaplain.leads.units.1"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Hover"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "name": "datasheets.Grey_Knights_Stormtalon_Gunship.abilities.other.0.name",
+            "description": "datasheets.Grey_Knights_Stormtalon_Gunship.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Grey_Knights_Stormtalon_Gunship.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Grey_Knights_Stormtalon_Gunship.fluff",
+      "id": "c9a5a5d4-76dc-5845-b86e-7b1818200853",
+      "keywords": [
+        "Vehicle",
+        "Aircraft",
+        "Fly",
+        "Imperium",
+        "Stormtalon Gunship"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Grey_Knights_Stormtalon_Gunship.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Grey_Knights_Stormtalon_Gunship.name",
+      "points": [
+        {
+          "cost": "170",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "D3",
+              "keywords": [
+                "Anti-fly 2+"
+              ],
+              "name": "datasheets.Grey_Knights_Stormtalon_Gunship.rangedWeapons.0.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.6.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [
+                "Twin-linked"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.5.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.1.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2D6",
+              "damage": "1",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.1.profiles.1.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "20+\"",
+          "name": "datasheets.Grey_Knights_Stormtalon_Gunship.name",
+          "oc": "0",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "8",
+          "w": "10"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Grey_Knights_Stormtalon_Gunship.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Hover"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "name": "datasheets.Interceptor_Squad.stats.0.name",
+            "description": "datasheets.Grey_Knights_Stormhawk_Interceptor.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Grey_Knights_Stormhawk_Interceptor.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Grey_Knights_Stormhawk_Interceptor.fluff",
+      "id": "ca1ff249-da22-5041-81b3-c5dbc117454a",
+      "keywords": [
+        "Vehicle",
+        "Aircraft",
+        "Fly",
+        "Smoke",
+        "Imperium",
+        "Stormhawk Interceptor"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Grey_Knights_Stormhawk_Interceptor.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Grey_Knights_Stormhawk_Interceptor.name",
+      "points": [
+        {
+          "cost": "160",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "2",
+              "damage": "D6+1",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Stormhawk_Interceptor.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "10"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "D3",
+              "keywords": [
+                "Anti-fly 2+"
+              ],
+              "name": "datasheets.Grey_Knights_Stormtalon_Gunship.rangedWeapons.0.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [
+                "Anti-fly 2+"
+              ],
+              "name": "datasheets.Grey_Knights_Stormhawk_Interceptor.rangedWeapons.3.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "7"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.6.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.1.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2D6",
+              "damage": "1",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.1.profiles.1.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "20+\"",
+          "name": "datasheets.Grey_Knights_Stormhawk_Interceptor.name",
+          "oc": "0",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "9",
+          "w": "10"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Grey_Knights_Stormhawk_Interceptor.wargear.0",
+        "datasheets.Grey_Knights_Stormhawk_Interceptor.wargear.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Deep Strike"
+        ],
+        "damaged": {
+          "range": "datasheets.Grand_Master_in_Nemesis_Dreadknight.abilities.damaged.range",
+          "description": "datasheets.Grand_Master_in_Nemesis_Dreadknight.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Nemesis_Dreadknight.abilities.other.0.name",
+            "description": "datasheets.Nemesis_Dreadknight.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Nemesis_Dreadknight.composition.0"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Nemesis_Dreadknight.fluff",
+      "id": "ae017e4f-88b0-5a26-8fc3-52b3865bcd12",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Psyker",
+        "Imperium",
+        "Nemesis Dreadknight"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Grand_Master_in_Nemesis_Dreadknight.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "5",
+              "damage": "D6+1",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "14"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "10",
+              "damage": "1",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.meleeWeapons.2.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "5"
+            },
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "D6",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.meleeWeapons.2.profiles.1.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "10"
+            }
+          ]
+        }
+      ],
+      "name": "Nemesis Dreadknight",
+      "points": [
+        {
+          "cost": "210",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "12",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1",
+                "Psychic"
+              ],
+              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "2D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Land_Raider_Banisher.rangedWeapons.1.profiles.0.name",
+              "range": "18\"",
+              "skill": "N/A",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "6",
+              "damage": "3",
+              "keywords": [
+                "Psychic",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "10"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "8\"",
+          "name": "Nemesis Dreadknight",
+          "oc": "4",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "8",
+          "w": "13",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Grand_Master_in_Nemesis_Dreadknight.wargear.0",
+        "datasheets.Grand_Master_in_Nemesis_Dreadknight.wargear.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Purgation_Squad.abilities.other.0.name",
+            "description": "datasheets.Purgation_Squad.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Purgation_Squad.composition.0",
+        "datasheets.Purgation_Squad.composition.1"
+      ],
+      "factions": [
+        "Grey Knights"
+      ],
+      "faction_id": "GK",
+      "fluff": "datasheets.Purgation_Squad.fluff",
+      "id": "60cb3f02-e210-5d88-9594-349d03bb941a",
+      "keywords": [
+        "Infantry",
+        "Psyker",
+        "Grenades",
+        "Imperium",
+        "Purgation Squad"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Paladin_Squad.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Brotherhood_Librarian.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Strike_Squad.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "name": "Purgation Squad",
+      "points": [
+        {
+          "cost": "240",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "120",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1",
+                "Psychic"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Psychic"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.3.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "datasheets.Purgation_Squad.stats.0.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "2+",
+          "t": "4",
+          "w": "2"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Purgation_Squad.wargear.0"
+      ],
+      "leadBy": [
+        "Brotherhood Champion"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise 1"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "description": "datasheets.Grey_Knights_Dreadnought.abilities.other.0.description",
+            "name": "datasheets.Grey_Knights_Venerable_Dreadnought.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Grey_Knights_Dreadnought.composition.0"
+      ],
+      "faction_id": "GK",
+      "factions": [
+        "Grey Knights"
+      ],
+      "fluff": "",
+      "id": "a6541d1e-1af7-55ba-a83d-0769d400e37d",
+      "keywords": [
+        "Dreadnought",
+        "Imperium",
+        "Psyker",
+        "Smoke",
+        "Vehicle",
+        "Walker"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Grey_Knights_Venerable_Dreadnought.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "3",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "5",
+              "damage": "3",
+              "keywords": [
+                "psychic"
+              ],
+              "name": "datasheets.Grey_Knights_Dreadnought.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "14"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "5",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Grey_Knights_Dreadnought.name",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "6",
+              "damage": "3",
+              "keywords": [
+                "psychic"
+              ],
+              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "10"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "ignores cover",
+                "torrent"
+              ],
+              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.rangedWeapons.6.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "ignores cover",
+                "torrent"
+              ],
+              "name": "datasheets.Paladin_Squad.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Dreadnought.rangedWeapons.3.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "blast"
+              ],
+              "name": "datasheets.Grey_Knights_Dreadnought.rangedWeapons.3.profiles.1.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "D3",
+              "damage": "2",
+              "keywords": [
+                "blast"
+              ],
+              "name": "datasheets.Grey_Knights_Dreadnought.rangedWeapons.4.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "D3",
+              "damage": "3",
+              "keywords": [
+                "blast",
+                "hazardous"
+              ],
+              "name": "datasheets.Grey_Knights_Dreadnought.rangedWeapons.4.profiles.1.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [
+                "twin-linked"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.5.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [
+                "melta 2"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.3.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "rapid fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "devastating wounds"
+              ],
+              "name": "datasheets.Grey_Knights_Dreadnought.rangedWeapons.8.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "datasheets.Grey_Knights_Dreadnought.name",
+          "oc": "3",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "9",
+          "w": "8"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Grey_Knights_Venerable_Dreadnought.wargear.1",
+        "datasheets.Grey_Knights_Dreadnought.wargear.1",
+        "datasheets.Grey_Knights_Venerable_Dreadnought.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [
+          {
+            "description": "datasheets.Grey_Knights_Relic_Razorback.abilities.other.0.description",
+            "name": "datasheets.Grey_Knights_Razorback.abilities.other.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Grey_Knights_Relic_Razorback.composition.0"
+      ],
+      "faction_id": "GK",
+      "factions": [
+        "Grey Knights"
+      ],
+      "fluff": "",
+      "id": "56222732-c3d3-52ac-b959-430d5c3559fa",
+      "keywords": [
+        "Dedicated Transport",
+        "Imperium",
+        "Relic Razorback",
+        "Smoke",
+        "Transport",
+        "Vehicle"
+      ],
+      "leader": "",
+      "legends": true,
+      "loadout": "datasheets.Grey_Knights_Razorback.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Grey_Knights_Relic_Razorback.name",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "abilities": [
+            {
+              "description": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.abilities.0.description",
+              "name": "One Shot",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "one shot"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "2+",
+              "strength": "14"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "psychic",
+                "twin-linked"
+              ],
+              "name": "datasheets.Land_Raider_Banisher.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "sustained hits 1",
+                "twin-linked"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.6.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [
+                "twin-linked"
+              ],
+              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.5.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [
+                "melta 2"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.3.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "rapid fire 2"
+              ],
+              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "devastating wounds",
+                "twin-linked"
+              ],
+              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "datasheets.Grey_Knights_Relic_Razorback.name",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "9",
+          "w": "10"
+        }
+      ],
+      "transport": "datasheets.Grey_Knights_Relic_Razorback.transport",
+      "wargear": [
+        "datasheets.Grey_Knights_Land_Raider_Redeemer.wargear.2",
+        "datasheets.Grey_Knights_Land_Raider_Redeemer.wargear.0",
+        "datasheets.Grey_Knights_Relic_Razorback.wargear.2"
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "name": "detachments.Warpbane_Task_Force.name",
+      "enhancements": [
+        {
+          "name": "detachments.Warpbane_Task_Force.enhancements.First_to_the_Fray.name",
+          "id": "7c63fd53-e7a8-5862-bff9-f041c75ccd98",
+          "cost": "20",
+          "keywords": [
+            "Grey Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Warpbane_Task_Force.enhancements.First_to_the_Fray.description",
+          "faction_id": "GK",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Warpbane_Task_Force.enhancements.Domina_Liber_Daemonica.name",
+          "id": "d8d5c4c2-7628-5096-bfe7-3f4e00a2b32b",
+          "cost": "15",
+          "keywords": [
+            "Infantry"
+          ],
+          "excludes": [],
+          "description": "detachments.Warpbane_Task_Force.enhancements.Domina_Liber_Daemonica.description",
+          "faction_id": "GK",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Warpbane_Task_Force.enhancements.Sigil_of_Exigence.name",
+          "id": "c89e096c-e12d-50d4-a727-d0ec00988bca",
+          "cost": "25",
+          "keywords": [
+            "Infantry"
+          ],
+          "excludes": [],
+          "description": "detachments.Warpbane_Task_Force.enhancements.Sigil_of_Exigence.description",
+          "faction_id": "GK",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Warpbane_Task_Force.enhancements.Inescapable_Wrath.name",
+          "id": "771e05f2-f57c-5e6b-a870-0f206c5c39ff",
+          "cost": "10",
+          "keywords": [
+            "Grey Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Warpbane_Task_Force.enhancements.Inescapable_Wrath.description",
+          "faction_id": "GK",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "rules": [
+        {
+          "name": "detachments.Warpbane_Task_Force.rules.0.name",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.Warpbane_Task_Force.rules.0.rule.0.text",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.Warpbane_Task_Force.stratagems.Fires_of_Covenant.name",
+          "id": "01184f9e-5e9d-5299-95b6-f7d74666444a",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Warpbane_Task_Force.stratagems.Fires_of_Covenant.target",
+          "when": "detachments.Warpbane_Task_Force.stratagems.Fires_of_Covenant.when",
+          "effect": "detachments.Warpbane_Task_Force.stratagems.Fires_of_Covenant.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "GK",
+          "fluff": "detachments.Warpbane_Task_Force.stratagems.Fires_of_Covenant.fluff"
+        },
+        {
+          "name": "detachments.Warpbane_Task_Force.stratagems.Aegis_Eternal.name",
+          "id": "71d153da-c6e8-5f6b-bbe3-ba028a820081",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Warpbane_Task_Force.stratagems.Aegis_Eternal.target",
+          "when": "detachments.Warpbane_Task_Force.stratagems.Aegis_Eternal.when",
+          "effect": "detachments.Warpbane_Task_Force.stratagems.Aegis_Eternal.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "GK",
+          "fluff": "detachments.Warpbane_Task_Force.stratagems.Aegis_Eternal.fluff"
+        },
+        {
+          "name": "detachments.Warpbane_Task_Force.stratagems.Repelling_Sphere.name",
+          "id": "aae8b418-9272-54f7-b672-50fd8603e9a0",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Warpbane_Task_Force.stratagems.Fires_of_Covenant.target",
+          "when": "detachments.Warpbane_Task_Force.stratagems.Repelling_Sphere.when",
+          "effect": "detachments.Warpbane_Task_Force.stratagems.Repelling_Sphere.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "charge"
+          ],
+          "faction_id": "GK",
+          "fluff": "detachments.Warpbane_Task_Force.stratagems.Repelling_Sphere.fluff"
+        },
+        {
+          "name": "detachments.Warpbane_Task_Force.stratagems.Sanctified_Kill_Zone.name",
+          "id": "25609e72-61e4-59ae-9829-e4e7b3c6f616",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Warpbane_Task_Force.stratagems.Sanctified_Kill_Zone.target",
+          "when": "detachments.Warpbane_Task_Force.stratagems.Sanctified_Kill_Zone.when",
+          "effect": "detachments.Warpbane_Task_Force.stratagems.Sanctified_Kill_Zone.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "GK",
+          "fluff": "detachments.Warpbane_Task_Force.stratagems.Sanctified_Kill_Zone.fluff"
+        },
+        {
+          "name": "detachments.Warpbane_Task_Force.stratagems.Hallowed_Beacon.name",
+          "id": "22a61fd6-2e40-583b-b6be-81391a497011",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Warpbane_Task_Force.stratagems.Hallowed_Beacon.target",
+          "when": "detachments.Warpbane_Task_Force.stratagems.Hallowed_Beacon.when",
+          "effect": "detachments.Warpbane_Task_Force.stratagems.Hallowed_Beacon.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "GK",
+          "fluff": "detachments.Warpbane_Task_Force.stratagems.Hallowed_Beacon.fluff"
+        },
+        {
+          "name": "detachments.Warpbane_Task_Force.stratagems.Death_From_The_Warp.name",
+          "id": "d0e5e0d1-c9ff-520e-aaf0-cbdbd28373de",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Warpbane_Task_Force.stratagems.Death_From_The_Warp.target",
+          "when": "detachments.Warpbane_Task_Force.stratagems.Death_From_The_Warp.when",
+          "effect": "detachments.Warpbane_Task_Force.stratagems.Death_From_The_Warp.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "GK",
+          "fluff": "detachments.Warpbane_Task_Force.stratagems.Death_From_The_Warp.fluff"
+        }
+      ]
+    },
+    {
+      "name": "detachments.Teleport_Strike_Force.name",
+      "enhancements": [
+        {
+          "name": "detachments.Teleport_Strike_Force.enhancements.First_to_the_Fray.name",
+          "id": "81d6b74b-2b36-5fe9-b848-175cc81a65c3",
+          "cost": "35",
+          "keywords": [
+            "Grey Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Teleport_Strike_Force.enhancements.First_to_the_Fray.description",
+          "faction_id": "GK",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Teleport_Strike_Force.enhancements.Domina_Liber_Daemonica.name",
+          "id": "dc54b17c-7689-5470-8ef3-88ec11b33129",
+          "cost": "20",
+          "keywords": [
+            "Grey Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Teleport_Strike_Force.enhancements.Domina_Liber_Daemonica.description",
+          "faction_id": "GK",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Teleport_Strike_Force.enhancements.Sigil_of_Exigence.name",
+          "id": "688475f1-a7d4-5ea6-8c63-ffa0dfa2617c",
+          "cost": "30",
+          "keywords": [
+            "Grey Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Teleport_Strike_Force.enhancements.Sigil_of_Exigence.description",
+          "faction_id": "GK",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Teleport_Strike_Force.enhancements.Inescapable_Wrath.name",
+          "id": "2e8fa28c-a56d-53f3-90a1-70efd631211a",
+          "cost": "15",
+          "keywords": [
+            "Grey Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Teleport_Strike_Force.enhancements.Inescapable_Wrath.description",
+          "faction_id": "GK",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "rules": [
+        {
+          "name": "detachments.Teleport_Strike_Force.rules.0.name",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.Teleport_Strike_Force.rules.0.rule.0.text",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.Teleport_Strike_Force.stratagems.Fires_of_Covenant.name",
+          "id": "238c31f9-9820-5847-8ba5-2cb62aa756b9",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Teleport_Strike_Force.stratagems.Fires_of_Covenant.target",
+          "when": "detachments.Teleport_Strike_Force.stratagems.Fires_of_Covenant.when",
+          "effect": "detachments.Teleport_Strike_Force.stratagems.Fires_of_Covenant.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "GK",
+          "fluff": "detachments.Teleport_Strike_Force.stratagems.Fires_of_Covenant.fluff"
+        },
+        {
+          "name": "detachments.Teleport_Strike_Force.stratagems.Aegis_Eternal.name",
+          "id": "8b2e0399-d461-56ec-b8f3-294b21837117",
+          "cost": 2,
+          "turn": "either",
+          "target": "detachments.Teleport_Strike_Force.stratagems.Aegis_Eternal.target",
+          "when": "detachments.Teleport_Strike_Force.stratagems.Aegis_Eternal.when",
+          "effect": "detachments.Teleport_Strike_Force.stratagems.Aegis_Eternal.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "GK",
+          "fluff": "detachments.Teleport_Strike_Force.stratagems.Aegis_Eternal.fluff"
+        },
+        {
+          "name": "detachments.Teleport_Strike_Force.stratagems.Repelling_Sphere.name",
+          "id": "9b05e421-2fde-5f45-98ad-a2ac89876fbe",
+          "cost": 2,
+          "turn": "your",
+          "target": "detachments.Teleport_Strike_Force.stratagems.Repelling_Sphere.target",
+          "when": "detachments.Teleport_Strike_Force.stratagems.Fires_of_Covenant.when",
+          "effect": "detachments.Teleport_Strike_Force.stratagems.Repelling_Sphere.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "GK",
+          "fluff": "detachments.Teleport_Strike_Force.stratagems.Repelling_Sphere.fluff"
+        },
+        {
+          "name": "detachments.Teleport_Strike_Force.stratagems.Sanctified_Kill_Zone.name",
+          "id": "c93b512f-387f-59aa-bc1a-ce74914cc6c7",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Teleport_Strike_Force.stratagems.Repelling_Sphere.target",
+          "when": "detachments.Teleport_Strike_Force.stratagems.Fires_of_Covenant.when",
+          "effect": "detachments.Teleport_Strike_Force.stratagems.Sanctified_Kill_Zone.effect",
+          "restrictions": "detachments.Teleport_Strike_Force.stratagems.Sanctified_Kill_Zone.restrictions",
+          "type": "Epic Deed",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "GK",
+          "fluff": "detachments.Teleport_Strike_Force.stratagems.Sanctified_Kill_Zone.fluff"
+        },
+        {
+          "name": "detachments.Teleport_Strike_Force.stratagems.Hallowed_Beacon.name",
+          "id": "396e4af3-e846-5a6b-94ba-abe82b5503b6",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Teleport_Strike_Force.stratagems.Hallowed_Beacon.target",
+          "when": "detachments.Teleport_Strike_Force.stratagems.Hallowed_Beacon.when",
+          "effect": "detachments.Teleport_Strike_Force.stratagems.Hallowed_Beacon.effect",
+          "restrictions": "detachments.Teleport_Strike_Force.stratagems.Hallowed_Beacon.restrictions",
+          "type": "Strategic Ploy",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "GK",
+          "fluff": "detachments.Teleport_Strike_Force.stratagems.Hallowed_Beacon.fluff"
+        },
+        {
+          "name": "detachments.Teleport_Strike_Force.stratagems.Death_From_The_Warp.name",
+          "id": "3c4de8fc-c2cf-590c-9860-4791203df5be",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Teleport_Strike_Force.stratagems.Death_From_The_Warp.target",
+          "when": "detachments.Teleport_Strike_Force.stratagems.Death_From_The_Warp.when",
+          "effect": "detachments.Teleport_Strike_Force.stratagems.Death_From_The_Warp.effect",
+          "restrictions": "",
+          "type": "Wargear",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "GK",
+          "fluff": "detachments.Teleport_Strike_Force.stratagems.Death_From_The_Warp.fluff"
+        }
+      ]
+    }
+  ],
+  "id": "GK",
+  "is_subfaction": false,
+  "name": "Grey Knights",
+  "parent_id": "",
+  "rules": {
+    "army": [
+      {
+        "name": "datasheets.Brotherhood_Chaplain.abilities.faction.0",
+        "rule": [
+          {
+            "order": 1,
+            "text": "rules.army.Teleport_Assault.rule.0.text",
+            "type": "text"
+          },
+          {
+            "order": 2,
+            "text": "rules.army.Teleport_Assault.rule.1.text",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "updated": "2025-05-29T08:37:07.874Z"
+}

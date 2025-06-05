@@ -1,0 +1,4587 @@
+{
+  "allied_factions": [
+    "AoI"
+  ],
+  "colours": {
+    "banner": "#122d42",
+    "header": "#023e58"
+  },
+  "datasheets": [
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise 2D6"
+        ],
+        "damaged": {
+          "range": "datasheets.Acastus_Knight_Asterius.abilities.damaged.range",
+          "description": "datasheets.Acastus_Knight_Asterius.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Acastus_Knight_Asterius.abilities.other.0.name",
+            "description": "datasheets.Acastus_Knight_Asterius.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Acastus_Knight_Asterius.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Acastus_Knight_Asterius.fluff",
+      "id": "6158e0e8-f527-5d59-914a-a28febaa1923",
+      "imperialArmour": true,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Acastus",
+        "Imperium",
+        "Knight Asterius"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Acastus_Knight_Asterius.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Acastus_Knight_Asterius.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "10"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Acastus_Knight_Asterius.name",
+      "points": [
+        {
+          "cost": "765",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6+3",
+              "damage": "1",
+              "keywords": [
+                "Indirect Fire",
+                "Ignores Cover",
+                "Blast",
+                "Anti-infantry 2+"
+              ],
+              "name": "datasheets.Acastus_Knight_Asterius.rangedWeapons.0.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Acastus_Knight_Asterius.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "6",
+              "keywords": [
+                "Sustained Hits D3",
+                "Twin-linked",
+                "Conversion"
+              ],
+              "name": "datasheets.Acastus_Knight_Asterius.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "16"
+            }
+          ],
+          "abilities": [
+            {
+              "name": "Conversion",
+              "description": "datasheets.Acastus_Knight_Asterius.rangedWeapons.2.abilities.0.description",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "8\"",
+          "name": "datasheets.Acastus_Knight_Asterius.name",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "13",
+          "w": "30",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Acastus_Knight_Asterius.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "damaged": {
+          "range": "datasheets.Knight_Gallant.abilities.damaged.range",
+          "description": "datasheets.Knight_Gallant.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Knight_Gallant.abilities.other.0.name",
+            "description": "datasheets.Knight_Gallant.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Knight_Gallant.abilities.other.1.name",
+            "description": "datasheets.Knight_Gallant.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Knight_Gallant.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Knight_Gallant.fluff",
+      "id": "341162db-1ed2-5b37-bc26-13f63128bbd1",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Questoris",
+        "Character",
+        "Imperium",
+        "Knight Gallant"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Knight_Gallant.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "12",
+              "damage": "3",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "10"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "6",
+              "damage": "8",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.0.profiles.1.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "20"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "18",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "6",
+              "damage": "6",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.1.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "14"
+            }
+          ]
+        }
+      ],
+      "name": "Knight Gallant",
+      "points": [
+        {
+          "cost": "380",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "Melta 2"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 3"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Anti-fly 2+"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "7"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6+1",
+              "damage": "1",
+              "keywords": [
+                "Indirect Fire",
+                "Blast"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.3.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "D6",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.4.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "Knight Gallant",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "12",
+          "w": "22",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Knight_Gallant.wargear.0",
+        "datasheets.Knight_Gallant.wargear.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "damaged": {
+          "range": "datasheets.Knight_Gallant.abilities.damaged.range",
+          "description": "datasheets.Knight_Gallant.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Knight_Errant.abilities.other.0.name",
+            "description": "datasheets.Knight_Errant.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Knight_Errant.abilities.other.1.name",
+            "description": "datasheets.Knight_Errant.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Knight_Errant.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Knight_Errant.fluff",
+      "id": "7ca4ed81-1985-5bb2-98f2-2b14f19def2a",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Questoris",
+        "Character",
+        "Imperium",
+        "Knight Errant"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Knight_Errant.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "12",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "4",
+              "damage": "6",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "14"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "8",
+              "damage": "3",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "10"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "4",
+              "damage": "8",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.0.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "20"
+            }
+          ]
+        }
+      ],
+      "name": "Knight Errant",
+      "points": [
+        {
+          "cost": "390",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "Melta 2"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "2D3",
+              "damage": "D6",
+              "keywords": [
+                "Melta 6",
+                "Blast"
+              ],
+              "name": "datasheets.Knight_Errant.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 3"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Anti-fly 2+"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "7"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6+1",
+              "damage": "1",
+              "keywords": [
+                "Indirect Fire",
+                "Blast"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.3.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "D6",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.4.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "10\"",
+          "name": "Knight Errant",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "12",
+          "w": "22",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Knight_Gallant.wargear.0",
+        "datasheets.Knight_Errant.wargear.1",
+        "datasheets.Knight_Gallant.wargear.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "damaged": {
+          "range": "datasheets.Knight_Gallant.abilities.damaged.range",
+          "description": "datasheets.Knight_Gallant.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Knight_Paladin.abilities.other.0.name",
+            "description": "datasheets.Knight_Paladin.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Knight_Paladin.abilities.other.1.name",
+            "description": "datasheets.Knight_Paladin.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Knight_Paladin.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Knight_Paladin.fluff",
+      "id": "2b89200f-4e74-5026-b5a8-fb53ccee78c4",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Questoris",
+        "Character",
+        "Imperium",
+        "Knight Paladin"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Knight_Paladin.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "12",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "4",
+              "damage": "6",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "14"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "8",
+              "damage": "3",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "10"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "4",
+              "damage": "8",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.0.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "20"
+            }
+          ]
+        }
+      ],
+      "name": "Knight Paladin",
+      "points": [
+        {
+          "cost": "405",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "Melta 2"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 3"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6+3",
+              "damage": "3",
+              "keywords": [
+                "Rapid Fire D6+3",
+                "Blast"
+              ],
+              "name": "datasheets.Knight_Paladin.rangedWeapons.2.profiles.0.name",
+              "range": "72\"",
+              "skill": "3+",
+              "strength": "10"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Anti-fly 2+"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "7"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6+1",
+              "damage": "1",
+              "keywords": [
+                "Indirect Fire",
+                "Blast"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.3.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "D6",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.4.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "10\"",
+          "name": "Knight Paladin",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "12",
+          "w": "22",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Knight_Gallant.wargear.0",
+        "datasheets.Knight_Errant.wargear.1",
+        "datasheets.Knight_Gallant.wargear.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6+2"
+        ],
+        "damaged": {
+          "range": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.range",
+          "description": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Cerastus_Knight_Acheron.abilities.other.0.name",
+            "description": "datasheets.Cerastus_Knight_Acheron.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Cerastus_Knight_Acheron.abilities.other.1.name",
+            "description": "datasheets.Cerastus_Knight_Acheron.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Cerastus_Knight_Acheron.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Cerastus_Knight_Acheron.fluff",
+      "id": "bdef5639-5b37-56f7-93d6-d9af0fcb0c9d",
+      "imperialArmour": true,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Character",
+        "Titanic",
+        "Towering",
+        "Imperium",
+        "Cerastus",
+        "Knight Acheron"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Cerastus_Knight_Acheron.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "12",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Cerastus_Knight_Acheron.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "4",
+              "damage": "6",
+              "keywords": [],
+              "name": "datasheets.Cerastus_Knight_Acheron.meleeWeapons.0.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "14"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Cerastus_Knight_Acheron.name",
+      "points": [
+        {
+          "cost": "425",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "2D6",
+              "damage": "2",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Cerastus_Knight_Acheron.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "N/A",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Cerastus_Knight_Acheron.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "datasheets.Cerastus_Knight_Acheron.name",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "12",
+          "w": "25",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Acastus_Knight_Asterius.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise 2D6"
+        ],
+        "damaged": {
+          "range": "datasheets.Acastus_Knight_Asterius.abilities.damaged.range",
+          "description": "datasheets.Acastus_Knight_Asterius.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Acastus_Knight_Porphyrion.abilities.other.0.name",
+            "description": "datasheets.Acastus_Knight_Porphyrion.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Acastus_Knight_Porphyrion.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Acastus_Knight_Porphyrion.fluff",
+      "id": "f2bf3acf-5bd0-52bb-ada8-0866dae62498",
+      "imperialArmour": true,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Imperium",
+        "Acastus",
+        "Knight Porphyrion"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Acastus_Knight_Porphyrion.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Acastus_Knight_Asterius.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "10"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Acastus_Knight_Porphyrion.name",
+      "points": [
+        {
+          "cost": "710",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6+6",
+              "damage": "1",
+              "keywords": [
+                "Indirect Fire",
+                "Heavy",
+                "Blast"
+              ],
+              "name": "datasheets.Acastus_Knight_Porphyrion.rangedWeapons.0.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "3",
+              "keywords": [],
+              "name": "datasheets.Acastus_Knight_Porphyrion.rangedWeapons.1.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "D6",
+              "damage": "D6+6",
+              "keywords": [
+                "Twin-linked",
+                "Blast"
+              ],
+              "name": "datasheets.Acastus_Knight_Porphyrion.rangedWeapons.2.profiles.0.name",
+              "range": "72\"",
+              "skill": "3+",
+              "strength": "18"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [],
+              "name": "datasheets.Acastus_Knight_Porphyrion.rangedWeapons.3.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "D6",
+              "keywords": [
+                "Heavy",
+                "Anti-fly 2+"
+              ],
+              "name": "datasheets.Acastus_Knight_Porphyrion.rangedWeapons.4.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "10"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "8\"",
+          "name": "datasheets.Acastus_Knight_Porphyrion.name",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "13",
+          "w": "30",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Acastus_Knight_Porphyrion.wargear.0",
+        "datasheets.Acastus_Knight_Porphyrion.wargear.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6+2"
+        ],
+        "damaged": {
+          "range": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.range",
+          "description": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Cerastus_Knight_Castigator.abilities.other.0.name",
+            "description": "datasheets.Cerastus_Knight_Castigator.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Cerastus_Knight_Castigator.abilities.other.1.name",
+            "description": "datasheets.Cerastus_Knight_Castigator.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Cerastus_Knight_Castigator.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Cerastus_Knight_Castigator.fluff",
+      "id": "4be352a3-5992-5d8f-9c64-b7c20c5e6a42",
+      "imperialArmour": true,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Character",
+        "Titanic",
+        "Towering",
+        "Imperium",
+        "Cerastus",
+        "Knight Castigator"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Cerastus_Knight_Castigator.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "12",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Cerastus_Knight_Castigator.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "4",
+              "damage": "6",
+              "keywords": [],
+              "name": "datasheets.Cerastus_Knight_Castigator.meleeWeapons.0.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "14"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Cerastus_Knight_Castigator.name",
+      "points": [
+        {
+          "cost": "465",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "18",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked"
+              ],
+              "name": "datasheets.Cerastus_Knight_Castigator.rangedWeapons.0.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "datasheets.Cerastus_Knight_Castigator.name",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "12",
+          "w": "25",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Acastus_Knight_Asterius.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "damaged": {
+          "range": "datasheets.Knight_Gallant.abilities.damaged.range",
+          "description": "datasheets.Knight_Gallant.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Knight_Warden.abilities.other.0.name",
+            "description": "datasheets.Knight_Warden.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Knight_Warden.abilities.other.1.name",
+            "description": "datasheets.Knight_Warden.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Knight_Warden.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Knight_Warden.fluff",
+      "id": "c3a8ab94-e4e5-526d-b6ce-e2f0ff8549ae",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Questoris",
+        "Character",
+        "Imperium",
+        "Knight Warden"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Knight_Warden.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "12",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "4",
+              "damage": "6",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "14"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "8",
+              "damage": "3",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "10"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "4",
+              "damage": "8",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.0.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "20"
+            }
+          ]
+        }
+      ],
+      "name": "Knight Warden",
+      "points": [
+        {
+          "cost": "450",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "18",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Knight_Warden.rangedWeapons.0.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Knight_Warden.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "Melta 2"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 3"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Anti-fly 2+"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "7"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6+1",
+              "damage": "1",
+              "keywords": [
+                "Indirect Fire",
+                "Blast"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.3.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "D6",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.4.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "10\"",
+          "name": "Knight Warden",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "12",
+          "w": "22",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Knight_Gallant.wargear.0",
+        "datasheets.Knight_Errant.wargear.1",
+        "datasheets.Knight_Gallant.wargear.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "damaged": {
+          "range": "datasheets.Knight_Gallant.abilities.damaged.range",
+          "description": "datasheets.Knight_Gallant.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Canis_Rex.abilities.other.0.name",
+            "description": "datasheets.Canis_Rex.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Canis_Rex.abilities.other.1.name",
+            "description": "datasheets.Canis_Rex.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [
+          {
+            "description": "datasheets.Canis_Rex.abilities.special.0.description",
+            "name": "datasheets.Canis_Rex.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Canis_Rex.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Canis_Rex.fluff",
+      "id": "0a2f0ee1-27c8-5342-b38e-e16b413456ef",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Questoris",
+        "Character",
+        "Epic Hero",
+        "Imperium",
+        "Canis Rex"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Canis_Rex.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "10",
+              "damage": "3",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Canis_Rex.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "10"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "5",
+              "damage": "9",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Canis_Rex.meleeWeapons.0.profiles.1.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "20"
+            }
+          ]
+        }
+      ],
+      "name": "Canis Rex",
+      "points": [
+        {
+          "cost": "450",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "2D6",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1",
+                "Blast"
+              ],
+              "name": "datasheets.Canis_Rex.rangedWeapons.0.profiles.0.name",
+              "range": "36\"",
+              "skill": "2+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "D6",
+              "damage": "4",
+              "keywords": [
+                "Sustained Hits 1",
+                "Blast"
+              ],
+              "name": "datasheets.Canis_Rex.rangedWeapons.0.profiles.1.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "14"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Canis_Rex.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "5+",
+          "m": "10\"",
+          "name": "Canis Rex",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "12",
+          "w": "22",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Acastus_Knight_Asterius.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6+2"
+        ],
+        "damaged": {
+          "range": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.range",
+          "description": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Cerastus_Knight_Lancer.abilities.other.0.name",
+            "description": "datasheets.Cerastus_Knight_Lancer.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Cerastus_Knight_Lancer.abilities.other.1.name",
+            "description": "datasheets.Cerastus_Knight_Lancer.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Cerastus_Knight_Lancer.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Cerastus_Knight_Lancer.fluff",
+      "id": "629874c6-2aaf-5be0-910c-b4d22093a100",
+      "imperialArmour": true,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Character",
+        "Titanic",
+        "Towering",
+        "Imperium",
+        "Cerastus",
+        "Knight Lancer"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Cerastus_Knight_Lancer.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "10",
+              "damage": "3",
+              "keywords": [],
+              "name": "datasheets.Cerastus_Knight_Lancer.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "10"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "5",
+              "damage": "8",
+              "keywords": [
+                "Lance"
+              ],
+              "name": "datasheets.Cerastus_Knight_Lancer.meleeWeapons.0.profiles.1.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "20"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Cerastus_Knight_Lancer.name",
+      "points": [
+        {
+          "cost": "430",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 2",
+                "Assault"
+              ],
+              "name": "datasheets.Cerastus_Knight_Lancer.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "14\"",
+          "name": "datasheets.Cerastus_Knight_Lancer.name",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "12",
+          "w": "25",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Acastus_Knight_Asterius.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "damaged": {
+          "range": "datasheets.Armiger_Moirax.abilities.damaged.range",
+          "description": "datasheets.Armiger_Moirax.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Armiger_Moirax.abilities.other.0.name",
+            "description": "datasheets.Armiger_Moirax.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Armiger_Moirax.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Armiger_Moirax.fluff",
+      "id": "9d85d5b8-b6fe-553a-aa84-5445cb5c77d7",
+      "imperialArmour": true,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Battleline",
+        "Imperium",
+        "Armiger",
+        "Moirax"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Armiger_Moirax.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Armiger_Moirax.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "4",
+              "damage": "D6+2",
+              "keywords": [],
+              "name": "datasheets.Armiger_Moirax.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Armiger_Moirax.name",
+      "points": [
+        {
+          "cost": "160",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "2",
+              "keywords": [
+                "Blast",
+                "Anti-vehicle 2+"
+              ],
+              "name": "datasheets.Armiger_Moirax.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "7"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Armiger_Moirax.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover",
+                "Anti-infantry 2+"
+              ],
+              "name": "datasheets.Armiger_Moirax.rangedWeapons.2.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "2"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 2"
+              ],
+              "name": "datasheets.Armiger_Moirax.rangedWeapons.3.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "3",
+              "keywords": [
+                "Sustained Hits D3",
+                "Conversion"
+              ],
+              "name": "datasheets.Armiger_Moirax.rangedWeapons.4.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "10"
+            }
+          ],
+          "abilities": [
+            {
+              "name": "Conversion",
+              "description": "datasheets.Acastus_Knight_Asterius.rangedWeapons.2.abilities.0.description",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "12\"",
+          "name": "datasheets.Armiger_Moirax.name",
+          "oc": "8",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "10",
+          "w": "12",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Armiger_Moirax.wargear.0",
+        "datasheets.Armiger_Moirax.wargear.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6+2"
+        ],
+        "damaged": {
+          "range": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.range",
+          "description": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Knight_Castellan.abilities.other.0.name",
+            "description": "datasheets.Knight_Castellan.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Knight_Castellan.abilities.other.1.name",
+            "description": "datasheets.Knight_Castellan.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Knight_Castellan.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Knight_Castellan.fluff",
+      "id": "d299e33b-a615-575e-820f-360ee66f78a3",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Dominus",
+        "Character",
+        "Imperium",
+        "Knight Castellan"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Knight_Castellan.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Acastus_Knight_Asterius.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "Knight Castellan",
+      "points": [
+        {
+          "cost": "480",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "D6+3",
+              "damage": "2",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Knight_Castellan.rangedWeapons.0.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "8"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "D6+3",
+              "damage": "3",
+              "keywords": [
+                "Hazardous",
+                "Blast"
+              ],
+              "name": "datasheets.Knight_Castellan.rangedWeapons.0.profiles.1.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Blast"
+              ],
+              "name": "datasheets.Knight_Castellan.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-5",
+              "attacks": "D3",
+              "damage": "D6+8",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Knight_Castellan.rangedWeapons.2.profiles.0.name",
+              "range": "72\"",
+              "skill": "3+",
+              "strength": "18"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-6",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [
+                "Devastating Wounds",
+                "Anti-titanic 4+"
+              ],
+              "name": "datasheets.Knight_Castellan.rangedWeapons.3.profiles.0.name",
+              "range": "72\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "Twin-linked",
+                "Melta 2"
+              ],
+              "name": "datasheets.Knight_Castellan.rangedWeapons.4.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "8\"",
+          "name": "Knight Castellan",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "13",
+          "w": "24",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Knight_Castellan.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "damaged": {
+          "range": "datasheets.Armiger_Moirax.abilities.damaged.range",
+          "description": "datasheets.Armiger_Moirax.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Armiger_Helverin.abilities.other.0.name",
+            "description": "datasheets.Armiger_Helverin.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Armiger_Helverin.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Armiger_Helverin.fluff",
+      "id": "e14533c9-3ff6-505c-bc83-b4774a43adcc",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Battleline",
+        "Imperium",
+        "Armiger",
+        "Helverin"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Armiger_Helverin.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Armiger_Moirax.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Armiger_Helverin.name",
+      "points": [
+        {
+          "cost": "130",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 3"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "3",
+              "keywords": [],
+              "name": "datasheets.Armiger_Helverin.rangedWeapons.1.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "Melta 2"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "12\"",
+          "name": "datasheets.Armiger_Helverin.name",
+          "oc": "8",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "10",
+          "w": "12",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Armiger_Helverin.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Lone Operative"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [],
+        "other": [],
+        "primarch": [],
+        "special": [
+          {
+            "description": "datasheets.Sir_Hekhtur.abilities.special.0.description",
+            "name": "datasheets.Canis_Rex.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Sir_Hekhtur.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Canis_Rex.fluff",
+      "id": "4b339d48-cecd-5bd7-a49c-b6c808e008d4",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Imperium",
+        "Sir Hekhtur"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Sir_Hekhtur.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Sir_Hekhtur.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "name": "Sir Hekhtur",
+      "points": [],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Sir_Hekhtur.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "5+",
+          "m": "6\"",
+          "name": "Sir Hekhtur",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "4+",
+          "t": "3",
+          "w": "3"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Acastus_Knight_Asterius.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6+2"
+        ],
+        "damaged": {
+          "range": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.range",
+          "description": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Knight_Castellan.abilities.other.0.name",
+            "description": "datasheets.Knight_Castellan.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Knight_Valiant.abilities.other.1.name",
+            "description": "datasheets.Knight_Valiant.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Knight_Valiant.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Knight_Valiant.fluff",
+      "id": "50771af7-7227-5e2a-b1c1-6bfb37c6bae0",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Dominus",
+        "Character",
+        "Imperium",
+        "Knight Valiant"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Knight_Valiant.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Acastus_Knight_Asterius.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "Knight Valiant",
+      "points": [
+        {
+          "cost": "480",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3D6",
+              "damage": "2",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Knight_Valiant.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "N/A",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-6",
+              "attacks": "1",
+              "damage": "12",
+              "keywords": [
+                "Devastating Wounds",
+                "Anti-vehicle 4+",
+                "Anti-monster 4+"
+              ],
+              "name": "datasheets.Knight_Valiant.rangedWeapons.1.profiles.0.name",
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "24"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Blast"
+              ],
+              "name": "datasheets.Knight_Castellan.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-6",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [
+                "Devastating Wounds",
+                "Anti-titanic 4+"
+              ],
+              "name": "datasheets.Knight_Castellan.rangedWeapons.3.profiles.0.name",
+              "range": "72\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "Twin-linked",
+                "Melta 2"
+              ],
+              "name": "datasheets.Knight_Castellan.rangedWeapons.4.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "8\"",
+          "name": "Knight Valiant",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "13",
+          "w": "24",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Knight_Castellan.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "damaged": {
+          "range": "datasheets.Knight_Gallant.abilities.damaged.range",
+          "description": "datasheets.Knight_Gallant.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Knight_Preceptor.abilities.other.0.name",
+            "description": "datasheets.Knight_Preceptor.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Knight_Preceptor.abilities.other.1.name",
+            "description": "datasheets.Knight_Preceptor.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Knight_Preceptor.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Knight_Preceptor.fluff",
+      "id": "f149896f-5eac-57e8-a704-85c1b72ce2fc",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Questoris",
+        "Character",
+        "Imperium",
+        "Knight Preceptor"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Knight_Preceptor.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "12",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "4",
+              "damage": "6",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "14"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "8",
+              "damage": "3",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "10"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "4",
+              "damage": "8",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.0.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "20"
+            }
+          ]
+        }
+      ],
+      "name": "Knight Preceptor",
+      "points": [
+        {
+          "cost": "405",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "2D6",
+              "damage": "2",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Knight_Preceptor.rangedWeapons.0.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "D6",
+              "damage": "4",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Knight_Preceptor.rangedWeapons.0.profiles.1.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "14"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Knight_Preceptor.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "Melta 2"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 3"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Anti-fly 2+"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "7"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6+1",
+              "damage": "1",
+              "keywords": [
+                "Indirect Fire",
+                "Blast"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.3.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "D6",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.4.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "10\"",
+          "name": "Knight Preceptor",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "12",
+          "w": "22",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Knight_Gallant.wargear.0",
+        "datasheets.Knight_Errant.wargear.1",
+        "datasheets.Knight_Preceptor.wargear.2"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "damaged": {
+          "range": "datasheets.Knight_Gallant.abilities.damaged.range",
+          "description": "datasheets.Knight_Gallant.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Knight_Crusader.abilities.other.0.name",
+            "description": "datasheets.Knight_Crusader.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Knight_Crusader.abilities.other.1.name",
+            "description": "datasheets.Knight_Crusader.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Knight_Crusader.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Knight_Crusader.fluff",
+      "id": "33cdcaba-4e1e-5eef-a499-3867747c66ca",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Questoris",
+        "Character",
+        "Imperium",
+        "Knight Crusader"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Knight_Crusader.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Acastus_Knight_Asterius.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "Knight Crusader",
+      "points": [
+        {
+          "cost": "445",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "18",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Knight_Warden.rangedWeapons.0.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Knight_Warden.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "Melta 2"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "2D3",
+              "damage": "D6",
+              "keywords": [
+                "Melta 6",
+                "Blast"
+              ],
+              "name": "datasheets.Knight_Errant.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 3"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6+3",
+              "damage": "3",
+              "keywords": [
+                "Rapid Fire D6+3",
+                "Blast"
+              ],
+              "name": "datasheets.Knight_Paladin.rangedWeapons.2.profiles.0.name",
+              "range": "72\"",
+              "skill": "3+",
+              "strength": "10"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Anti-fly 2+"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.2.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "7"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6+1",
+              "damage": "1",
+              "keywords": [
+                "Indirect Fire",
+                "Blast"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.3.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "D6",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.4.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "10\"",
+          "name": "Knight Crusader",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "12",
+          "w": "22",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Knight_Gallant.wargear.0",
+        "datasheets.Knight_Crusader.wargear.1",
+        "datasheets.Knight_Gallant.wargear.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "damaged": {
+          "range": "datasheets.Knight_Gallant.abilities.damaged.range",
+          "description": "datasheets.Knight_Gallant.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Questoris_Knight_Magaera.abilities.other.0.name",
+            "description": "datasheets.Questoris_Knight_Magaera.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Questoris_Knight_Magaera.abilities.other.1.name",
+            "description": "datasheets.Questoris_Knight_Magaera.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Questoris_Knight_Magaera.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Questoris_Knight_Magaera.fluff",
+      "id": "d5accac6-086b-52e5-8479-30bdcc42a58a",
+      "imperialArmour": true,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Character",
+        "Titanic",
+        "Towering",
+        "Imperium",
+        "Questoris",
+        "Knight Magaera"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Questoris_Knight_Magaera.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "12",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "4",
+              "damage": "6",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "14"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "8",
+              "damage": "3",
+              "keywords": [],
+              "name": "datasheets.Questoris_Knight_Magaera.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "10"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "4",
+              "damage": "8",
+              "keywords": [],
+              "name": "datasheets.Questoris_Knight_Magaera.meleeWeapons.1.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "20"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Questoris_Knight_Magaera.name",
+      "points": [
+        {
+          "cost": "425",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "12",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 2"
+              ],
+              "name": "datasheets.Questoris_Knight_Magaera.rangedWeapons.0.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "2",
+              "damage": "2",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Questoris_Knight_Magaera.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Torrent",
+                "Ignores Cover",
+                "Anti-infantry 2+"
+              ],
+              "name": "datasheets.Questoris_Knight_Magaera.rangedWeapons.2.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "2"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "10\"",
+          "name": "datasheets.Questoris_Knight_Magaera.name",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "12",
+          "w": "22",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Questoris_Knight_Magaera.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "damaged": {
+          "range": "datasheets.Knight_Gallant.abilities.damaged.range",
+          "description": "datasheets.Knight_Gallant.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Questoris_Knight_Styrix.abilities.other.0.name",
+            "description": "datasheets.Questoris_Knight_Magaera.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Questoris_Knight_Styrix.abilities.other.1.name",
+            "description": "datasheets.Questoris_Knight_Styrix.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Questoris_Knight_Styrix.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Questoris_Knight_Styrix.fluff",
+      "id": "e69c72bb-27b9-5ac9-8c74-0fd919684726",
+      "imperialArmour": true,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Character",
+        "Titanic",
+        "Towering",
+        "Imperium",
+        "Questoris",
+        "Knight Styrix"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Questoris_Knight_Styrix.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "12",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "4",
+              "damage": "6",
+              "keywords": [],
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "14"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "8",
+              "damage": "3",
+              "keywords": [],
+              "name": "datasheets.Questoris_Knight_Magaera.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "10"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "4",
+              "damage": "8",
+              "keywords": [],
+              "name": "datasheets.Questoris_Knight_Magaera.meleeWeapons.1.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "20"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Questoris_Knight_Styrix.name",
+      "points": [
+        {
+          "cost": "430",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Blast",
+                "Anti-vehicle 2+"
+              ],
+              "name": "datasheets.Questoris_Knight_Styrix.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "9",
+              "damage": "3",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Questoris_Knight_Styrix.rangedWeapons.1.profiles.0.name",
+              "range": "30\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Torrent",
+                "Ignores Cover",
+                "Anti-infantry 2+"
+              ],
+              "name": "datasheets.Questoris_Knight_Magaera.rangedWeapons.2.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "2"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "10\"",
+          "name": "datasheets.Questoris_Knight_Styrix.name",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "12",
+          "w": "22",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Questoris_Knight_Magaera.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "damaged": {
+          "range": "datasheets.Armiger_Moirax.abilities.damaged.range",
+          "description": "datasheets.Armiger_Moirax.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Armiger_Warglaive.abilities.other.0.name",
+            "description": "datasheets.Armiger_Warglaive.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Armiger_Warglaive.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Armiger_Warglaive.fluff",
+      "id": "497e0b68-98c2-5de1-9b01-6f6540a1c9e9",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Battleline",
+        "Imperium",
+        "Armiger",
+        "Warglaive"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Armiger_Warglaive.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "8",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Armiger_Warglaive.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "8"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "4",
+              "damage": "3",
+              "keywords": [],
+              "name": "datasheets.Armiger_Warglaive.meleeWeapons.0.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "10"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Armiger_Warglaive.name",
+      "points": [
+        {
+          "cost": "140",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 3"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [
+                "Melta 4"
+              ],
+              "name": "datasheets.Armiger_Warglaive.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "Melta 2"
+              ],
+              "name": "datasheets.Knight_Gallant.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "12\"",
+          "name": "datasheets.Armiger_Warglaive.name",
+          "oc": "8",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "10",
+          "w": "12",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Armiger_Helverin.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6+2"
+        ],
+        "damaged": {
+          "range": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.range",
+          "description": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Cerastus_Knight_Atrapos.abilities.other.0.name",
+            "description": "datasheets.Cerastus_Knight_Atrapos.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Cerastus_Knight_Atrapos.abilities.other.1.name",
+            "description": "datasheets.Cerastus_Knight_Atrapos.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Cerastus_Knight_Atrapos.composition.0"
+      ],
+      "factions": [
+        "Imperial Knights"
+      ],
+      "faction_id": "QI",
+      "fluff": "datasheets.Cerastus_Knight_Atrapos.fluff",
+      "id": "c5620ec4-ce97-5a24-8c44-8b6b58c8e57d",
+      "imperialArmour": true,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Character",
+        "Titanic",
+        "Towering",
+        "Imperium",
+        "Cerastus",
+        "Knight Atrapos"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Cerastus_Knight_Atrapos.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "12",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Cerastus_Knight_Atrapos.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "6",
+              "damage": "4",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Cerastus_Knight_Atrapos.meleeWeapons.0.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "14"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Cerastus_Knight_Atrapos.name",
+      "points": [
+        {
+          "cost": "425",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "2D6",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Cerastus_Knight_Atrapos.meleeWeapons.0.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "D6",
+              "damage": "4",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Cerastus_Knight_Atrapos.meleeWeapons.0.profiles.1.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "14"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "D3",
+              "damage": "D6+1",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Cerastus_Knight_Atrapos.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "16"
+            },
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "D3",
+              "damage": "D6+1",
+              "keywords": [
+                "Hazardous",
+                "Devastating Wounds",
+                "Blast"
+              ],
+              "name": "datasheets.Cerastus_Knight_Atrapos.rangedWeapons.1.profiles.1.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "16"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "datasheets.Cerastus_Knight_Atrapos.name",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "12",
+          "w": "25",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Acastus_Knight_Asterius.wargear.0"
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "name": "detachments.Questor_Forgepact.name",
+      "enhancements": [
+        {
+          "name": "detachments.Questor_Forgepact.enhancements.Revered_Knight_Aura.name",
+          "id": "cff9e835-aed6-57f6-b065-1b3c6de5fff5",
+          "cost": "30",
+          "keywords": [
+            "Imperial Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Questor_Forgepact.enhancements.Revered_Knight_Aura.description",
+          "faction_id": "QI",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Questor_Forgepact.enhancements.Mysterious_Guardian.name",
+          "id": "d29d2afb-0dbc-512b-9748-3bd6f51702ab",
+          "cost": "20",
+          "keywords": [
+            "Imperial Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Questor_Forgepact.enhancements.Mysterious_Guardian.description",
+          "faction_id": "QI",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Questor_Forgepact.enhancements.Mythic_Hero.name",
+          "id": "46269259-a3be-56e1-a17e-24a201c0dca7",
+          "cost": "35",
+          "keywords": [
+            "Tech-Priest"
+          ],
+          "excludes": [],
+          "description": "detachments.Questor_Forgepact.enhancements.Mythic_Hero.description",
+          "faction_id": "QI",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Questor_Forgepact.enhancements.Banner_of_Macharius_Triumphant.name",
+          "id": "250aab7a-4a69-5730-a512-5499072720a8",
+          "cost": "15",
+          "keywords": [
+            "Imperial Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Questor_Forgepact.enhancements.Banner_of_Macharius_Triumphant.description",
+          "faction_id": "QI",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "rules": [
+        {
+          "name": "detachments.Questor_Forgepact.rules.0.name",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.Questor_Forgepact.rules.0.rule.0.text",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.Questor_Forgepact.stratagems.Thunderstomp.name",
+          "id": "aecb7b89-1fa1-51db-8b8f-0f5be6434395",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Questor_Forgepact.stratagems.Thunderstomp.target",
+          "when": "detachments.Questor_Forgepact.stratagems.Thunderstomp.when",
+          "effect": "detachments.Questor_Forgepact.stratagems.Thunderstomp.effect",
+          "restrictions": "",
+          "type": "Epic Deed",
+          "phase": [
+            "command"
+          ],
+          "faction_id": "QI",
+          "fluff": "detachments.Questor_Forgepact.stratagems.Thunderstomp.fluff"
+        },
+        {
+          "name": "detachments.Questor_Forgepact.stratagems.Squires_Duty.name",
+          "id": "b3d0d602-7982-5704-8130-7e6f9d463b24",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Questor_Forgepact.stratagems.Squires_Duty.target",
+          "when": "detachments.Questor_Forgepact.stratagems.Squires_Duty.when",
+          "effect": "detachments.Questor_Forgepact.stratagems.Squires_Duty.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "command"
+          ],
+          "faction_id": "QI",
+          "fluff": "detachments.Questor_Forgepact.stratagems.Squires_Duty.fluff"
+        },
+        {
+          "name": "detachments.Questor_Forgepact.stratagems.Shoulder_the_Burden.name",
+          "id": "ff34463c-7951-5504-9b25-3eb1e2aab73f",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Questor_Forgepact.stratagems.Shoulder_the_Burden.target",
+          "when": "detachments.Questor_Forgepact.stratagems.Shoulder_the_Burden.when",
+          "effect": "detachments.Questor_Forgepact.stratagems.Shoulder_the_Burden.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "QI",
+          "fluff": "detachments.Questor_Forgepact.stratagems.Shoulder_the_Burden.fluff"
+        },
+        {
+          "name": "detachments.Questor_Forgepact.stratagems.Bonded_Imperative.name",
+          "id": "09c09a98-e4ea-5a41-9d80-f8f89354eb00",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Questor_Forgepact.stratagems.Bonded_Imperative.target",
+          "when": "detachments.Questor_Forgepact.stratagems.Bonded_Imperative.when",
+          "effect": "detachments.Questor_Forgepact.stratagems.Bonded_Imperative.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "QI",
+          "fluff": "detachments.Questor_Forgepact.stratagems.Bonded_Imperative.fluff"
+        },
+        {
+          "name": "detachments.Questor_Forgepact.stratagems.Trophy_Claim.name",
+          "id": "1bccfa67-f334-510a-80d3-fa2eeee17462",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Questor_Forgepact.stratagems.Trophy_Claim.target",
+          "when": "detachments.Questor_Forgepact.stratagems.Trophy_Claim.when",
+          "effect": "detachments.Questor_Forgepact.stratagems.Trophy_Claim.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "any"
+          ],
+          "faction_id": "QI",
+          "fluff": "detachments.Questor_Forgepact.stratagems.Trophy_Claim.fluff"
+        },
+        {
+          "name": "detachments.Questor_Forgepact.stratagems.Valiant_Last_Stand.name",
+          "id": "95d38edb-f7a6-533b-8571-d6be84ba0650",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Questor_Forgepact.stratagems.Valiant_Last_Stand.target",
+          "when": "detachments.Questor_Forgepact.stratagems.Valiant_Last_Stand.when",
+          "effect": "detachments.Questor_Forgepact.stratagems.Valiant_Last_Stand.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "any"
+          ],
+          "faction_id": "QI",
+          "fluff": "detachments.Questor_Forgepact.stratagems.Valiant_Last_Stand.fluff"
+        }
+      ]
+    },
+    {
+      "name": "detachments.Noble_Lance.name",
+      "enhancements": [
+        {
+          "name": "detachments.Noble_Lance.enhancements.Revered_Knight_Aura.name",
+          "id": "cf981884-50b3-542f-ad14-b797685c82f9",
+          "cost": "15",
+          "keywords": [
+            "Imperial Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Noble_Lance.enhancements.Revered_Knight_Aura.description",
+          "faction_id": "QI",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Noble_Lance.enhancements.Mysterious_Guardian.name",
+          "id": "e71af31e-3d8b-5dc6-9bdb-5fd92dbaea3d",
+          "cost": "25",
+          "keywords": [
+            "Imperial Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Noble_Lance.enhancements.Mysterious_Guardian.description",
+          "faction_id": "QI",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Noble_Lance.enhancements.Mythic_Hero.name",
+          "id": "aa3cb180-e570-54ff-a146-1ed79c6e76d3",
+          "cost": "25",
+          "keywords": [
+            "Questoris"
+          ],
+          "excludes": [],
+          "description": "detachments.Noble_Lance.enhancements.Mythic_Hero.description",
+          "faction_id": "QI",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Noble_Lance.enhancements.Banner_of_Macharius_Triumphant.name",
+          "id": "4859dae9-9f54-5f6c-aec4-c13169e85ee4",
+          "cost": "30",
+          "keywords": [
+            "Imperial Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Noble_Lance.enhancements.Banner_of_Macharius_Triumphant.description",
+          "faction_id": "QI",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Noble_Lance.enhancements.Unyielding_Paragon.name",
+          "id": "8a11d561-37d2-5e60-ac10-2cc9a3bcf478",
+          "cost": "40",
+          "keywords": [
+            "Questoris"
+          ],
+          "excludes": [],
+          "description": "detachments.Noble_Lance.enhancements.Unyielding_Paragon.description",
+          "faction_id": "QI",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "rules": [
+        {
+          "name": "detachments.Noble_Lance.rules.0.name",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.Noble_Lance.rules.0.rule.0.text",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.Noble_Lance.stratagems.Thunderstomp.name",
+          "id": "608d1be7-65fc-53bd-bbc8-5430627226e2",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Noble_Lance.stratagems.Thunderstomp.target",
+          "when": "detachments.Noble_Lance.stratagems.Thunderstomp.when",
+          "effect": "detachments.Noble_Lance.stratagems.Thunderstomp.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "QI",
+          "fluff": "detachments.Noble_Lance.stratagems.Thunderstomp.fluff"
+        },
+        {
+          "name": "detachments.Noble_Lance.stratagems.Squires_Duty.name",
+          "id": "f0fe447a-877b-500f-b314-b1def3cab0b4",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Noble_Lance.stratagems.Squires_Duty.target",
+          "when": "detachments.Noble_Lance.stratagems.Squires_Duty.when",
+          "effect": "detachments.Noble_Lance.stratagems.Squires_Duty.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "QI",
+          "fluff": "detachments.Noble_Lance.stratagems.Squires_Duty.fluff"
+        },
+        {
+          "name": "detachments.Noble_Lance.stratagems.Shoulder_the_Burden.name",
+          "id": "daa91252-afec-5d70-a1c4-ff4659f99d8e",
+          "cost": 2,
+          "turn": "either",
+          "target": "detachments.Noble_Lance.stratagems.Shoulder_the_Burden.target",
+          "when": "detachments.Questor_Forgepact.stratagems.Squires_Duty.when",
+          "effect": "detachments.Noble_Lance.stratagems.Shoulder_the_Burden.effect",
+          "restrictions": "detachments.Noble_Lance.stratagems.Shoulder_the_Burden.restrictions",
+          "type": "Battle Tactic",
+          "phase": [
+            "command"
+          ],
+          "faction_id": "QI",
+          "fluff": "detachments.Noble_Lance.stratagems.Shoulder_the_Burden.fluff"
+        },
+        {
+          "name": "detachments.Noble_Lance.stratagems.Bonded_Imperative.name",
+          "id": "bb70b6c0-cc0f-58a3-b943-60b0c179053d",
+          "cost": 2,
+          "turn": "either",
+          "target": "detachments.Noble_Lance.stratagems.Bonded_Imperative.target",
+          "when": "detachments.Noble_Lance.stratagems.Bonded_Imperative.when",
+          "effect": "detachments.Noble_Lance.stratagems.Bonded_Imperative.effect",
+          "restrictions": "",
+          "type": "Epic Deed",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "QI",
+          "fluff": "detachments.Noble_Lance.stratagems.Bonded_Imperative.fluff"
+        },
+        {
+          "name": "detachments.Noble_Lance.stratagems.Trophy_Claim.name",
+          "id": "03666d91-f97c-5b4d-918d-3b6a0179e870",
+          "cost": 2,
+          "turn": "either",
+          "target": "detachments.Noble_Lance.stratagems.Trophy_Claim.target",
+          "when": "detachments.Noble_Lance.stratagems.Thunderstomp.when",
+          "effect": "detachments.Noble_Lance.stratagems.Trophy_Claim.effect",
+          "restrictions": "detachments.Noble_Lance.stratagems.Trophy_Claim.restrictions",
+          "type": "Epic Deed",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "QI",
+          "fluff": "detachments.Noble_Lance.stratagems.Trophy_Claim.fluff"
+        },
+        {
+          "name": "detachments.Noble_Lance.stratagems.Valiant_Last_Stand.name",
+          "id": "e5d846c2-4069-5ec3-9d31-acfd2ab8ebf6",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Noble_Lance.stratagems.Valiant_Last_Stand.target",
+          "when": "detachments.Noble_Lance.stratagems.Valiant_Last_Stand.when",
+          "effect": "detachments.Noble_Lance.stratagems.Valiant_Last_Stand.effect",
+          "restrictions": "",
+          "type": "Wargear",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "QI",
+          "fluff": "detachments.Noble_Lance.stratagems.Valiant_Last_Stand.fluff"
+        }
+      ]
+    }
+  ],
+  "id": "QI",
+  "is_subfaction": false,
+  "name": "Imperial Knights",
+  "parent_id": "",
+  "rules": {
+    "army": [
+      {
+        "name": "rules.army.Bondsman_Abilities.name",
+        "rule": [
+          {
+            "order": 1,
+            "text": "rules.army.Bondsman_Abilities.rule.0.text",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+        "rule": [
+          {
+            "order": 1,
+            "text": "rules.army.Code_Chivalric.rule.0.text",
+            "type": "text"
+          },
+          {
+            "order": 2,
+            "text": "rules.army.Code_Chivalric.rule.1.text",
+            "type": "header"
+          },
+          {
+            "order": 3,
+            "text": "rules.army.Code_Chivalric.rule.2.text",
+            "type": "text"
+          },
+          {
+            "order": 4,
+            "text": "rules.army.Code_Chivalric.rule.3.text",
+            "type": "header"
+          },
+          {
+            "order": 5,
+            "text": "rules.army.Code_Chivalric.rule.4.text",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "rules.army.Freeblades.name",
+        "rule": [
+          {
+            "order": 1,
+            "text": "rules.army.Freeblades.rule.0.text",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "datasheets.Acastus_Knight_Asterius.abilities.faction.1",
+        "rule": [
+          {
+            "order": 1,
+            "text": "rules.army.Super_heavy_Walker.rule.0.text",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "updated": "2025-05-29T08:37:07.836Z"
+}

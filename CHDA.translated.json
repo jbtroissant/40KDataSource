@@ -1,0 +1,3457 @@
+{
+  "allied_factions": [
+    "AoI",
+    "QI"
+  ],
+  "colours": {
+    "banner": "#16291a",
+    "header": "#013a17"
+  },
+  "datasheets": [
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Ravenwing_Darkshroud.abilities.other.0.name",
+            "description": "datasheets.Ravenwing_Darkshroud.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Ravenwing_Darkshroud.composition.0"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "fluff": "datasheets.Ravenwing_Darkshroud.fluff",
+      "id": "a3a7cf44-57f6-55cd-aef8-6da96e65dd21",
+      "keywords": [
+        "Vehicle",
+        "Fly",
+        "Imperium",
+        "Ravenwing",
+        "Darkshroud"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Ravenwing_Darkshroud.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Ravenwing_Darkshroud.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Ravenwing_Darkshroud.name",
+      "points": [
+        {
+          "cost": "115",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Ravenwing_Darkshroud.rangedWeapons.0.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Ravenwing_Darkshroud.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "14\"",
+          "name": "datasheets.Ravenwing_Darkshroud.name",
+          "oc": "3",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "8",
+          "w": "10",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Ravenwing_Darkshroud.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Ravenwing_Black_Knights.abilities.other.0.name",
+            "description": "datasheets.Ravenwing_Black_Knights.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [
+          {
+            "description": "datasheets.Ravenwing_Black_Knights.abilities.special.0.description",
+            "name": "datasheets.Ravenwing_Black_Knights.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Ravenwing_Black_Knights.composition.0",
+        "datasheets.Ravenwing_Black_Knights.composition.1"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "fluff": "datasheets.Ravenwing_Black_Knights.fluff",
+      "id": "18601d27-010d-50a9-84b8-e30b26dac1b7",
+      "keywords": [
+        "Mounted",
+        "Grenades",
+        "Imperium",
+        "Ravenwing",
+        "Ravenwing Black Knights"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Ravenwing_Black_Knights.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Ravenwing_Black_Knights.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "name": "Ravenwing Black Knights",
+      "points": [
+        {
+          "cost": "180",
+          "keyword": null,
+          "models": "6",
+          "active": true
+        },
+        {
+          "cost": "90",
+          "keyword": null,
+          "models": "3",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Ravenwing_Black_Knights.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 1"
+              ],
+              "name": "datasheets.Ravenwing_Black_Knights.rangedWeapons.1.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "2",
+              "damage": "2",
+              "keywords": [
+                "Rapid Fire 1",
+                "Hazardous"
+              ],
+              "name": "datasheets.Ravenwing_Black_Knights.rangedWeapons.1.profiles.1.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "D3",
+              "keywords": [],
+              "name": "datasheets.Ravenwing_Black_Knights.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D3",
+              "damage": "1",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Ravenwing_Black_Knights.rangedWeapons.2.profiles.1.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "datasheets.Ravenwing_Black_Knights.stats.0.name",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "3+",
+          "t": "5",
+          "w": "3",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Ravenwing_Black_Knights.wargear.0"
+      ],
+      "leadBy": [
+        "datasheets.Ravenwing_Black_Knights.leadBy.0",
+        "datasheets.Ravenwing_Black_Knights.leadBy.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Ezekiel.abilities.other.0.name",
+            "description": "datasheets.Ezekiel.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Ezekiel.abilities.other.1.name",
+            "description": "datasheets.Ezekiel.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": [
+          {
+            "name": "datasheets.Ezekiel.abilities.wargear.0.name",
+            "description": "datasheets.Ezekiel.abilities.wargear.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Ezekiel.composition.0"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "fluff": "datasheets.Ezekiel.fluff",
+      "id": "72e9446e-116a-5ef1-9ecf-956c1ce11c9e",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Psyker",
+        "Grenades",
+        "Imperium",
+        "Deathwing",
+        "Librarian",
+        "Ezekiel"
+      ],
+      "leader": "datasheets.Ezekiel.leader",
+      "loadout": "datasheets.Ezekiel.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "D3",
+              "keywords": [
+                "Psychic",
+                "Anti-chaos 2+"
+              ],
+              "name": "datasheets.Ezekiel.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Ezekiel",
+      "points": [
+        {
+          "cost": "75",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "Precision",
+                "Pistol"
+              ],
+              "name": "datasheets.Ezekiel.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "Psychic",
+                "Precision",
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Ezekiel.rangedWeapons.1.profiles.0.name",
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "6"
+            },
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "Psychic",
+                "Precision",
+                "Hazardous",
+                "Devastating Wounds",
+                "Anti-character 4+"
+              ],
+              "name": "datasheets.Ezekiel.rangedWeapons.1.profiles.1.name",
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "Ezekiel",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "4",
+          "w": "4",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Ezekiel.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Ezekiel.leads.units.0",
+          "datasheets.Ezekiel.leads.units.1",
+          "datasheets.Ezekiel.leads.units.2",
+          "datasheets.Ezekiel.leads.units.3",
+          "datasheets.Ezekiel.leads.units.4",
+          "datasheets.Ezekiel.leads.units.5",
+          "datasheets.Ezekiel.leads.units.6",
+          "datasheets.Ezekiel.leads.units.7"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Deathwing_Terminator_Squad.abilities.other.0.name",
+            "description": "datasheets.Deathwing_Terminator_Squad.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Deathwing",
+            "description": "datasheets.Deathwing_Terminator_Squad.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [
+          {
+            "description": "datasheets.Deathwing_Terminator_Squad.abilities.special.0.description",
+            "name": "datasheets.Ravenwing_Black_Knights.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": [
+          {
+            "name": "datasheets.Deathwing_Terminator_Squad.abilities.wargear.0.name",
+            "description": "datasheets.Deathwing_Terminator_Squad.abilities.wargear.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Deathwing_Terminator_Squad.composition.0",
+        "datasheets.Deathwing_Terminator_Squad.composition.1"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "fluff": "datasheets.Deathwing_Terminator_Squad.fluff",
+      "id": "76f2cda0-0d76-57a6-9b61-7db0598b1683",
+      "keywords": [
+        "Infantry",
+        "Imperium",
+        "Terminator",
+        "Deathwing",
+        "Deathwing Terminator Squad"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Deathwing_Terminator_Squad.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Deathwing_Terminator_Squad.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Anti-vehicle 3+"
+              ],
+              "name": "datasheets.Deathwing_Terminator_Squad.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Deathwing_Terminator_Squad.meleeWeapons.2.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "name": "Deathwing Terminator Squad",
+      "points": [
+        {
+          "cost": "360",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "180",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Deathwing_Terminator_Squad.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Ravenwing_Darkshroud.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "datasheets.Deathwing_Terminator_Squad.rangedWeapons.2.profiles.0.name",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "D3",
+              "damage": "1",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Deathwing_Terminator_Squad.rangedWeapons.3.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "D3",
+              "damage": "2",
+              "keywords": [
+                "Blast",
+                "Hazardous"
+              ],
+              "name": "datasheets.Deathwing_Terminator_Squad.rangedWeapons.3.profiles.1.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [],
+              "name": "datasheets.Deathwing_Terminator_Squad.rangedWeapons.4.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2D6",
+              "damage": "1",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Deathwing_Terminator_Squad.rangedWeapons.4.profiles.1.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "5\"",
+          "name": "datasheets.Deathwing_Terminator_Squad.stats.0.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "2+",
+          "t": "5",
+          "w": "3",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Deathwing_Terminator_Squad.wargear.0",
+        "datasheets.Deathwing_Terminator_Squad.wargear.1",
+        "datasheets.Deathwing_Terminator_Squad.wargear.2"
+      ],
+      "leadBy": [
+        "datasheets.Deathwing_Terminator_Squad.leadBy.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Inner_Circle_Companions.abilities.other.0.name",
+            "description": "datasheets.Inner_Circle_Companions.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Inner_Circle_Companions.abilities.other.1.name",
+            "description": "datasheets.Inner_Circle_Companions.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [
+          {
+            "description": "datasheets.Inner_Circle_Companions.abilities.special.0.description",
+            "name": "datasheets.Ravenwing_Black_Knights.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Inner_Circle_Companions.composition.0"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "fluff": "datasheets.Inner_Circle_Companions.fluff",
+      "id": "a673671f-02bc-550b-b51b-bb4c0237e6b4",
+      "keywords": [
+        "Infantry",
+        "Imperium",
+        "Deathwing",
+        "Tacticus",
+        "Inner Circle Companions"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Inner_Circle_Companions.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [
+                "Lethal Hits"
+              ],
+              "name": "datasheets.Inner_Circle_Companions.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            },
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 2"
+              ],
+              "name": "datasheets.Inner_Circle_Companions.meleeWeapons.0.profiles.1.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Inner Circle Companions",
+      "points": [
+        {
+          "cost": "180",
+          "keyword": null,
+          "models": "6",
+          "active": true
+        },
+        {
+          "cost": "90",
+          "keyword": null,
+          "models": "3",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Inner_Circle_Companions.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "Inner Circle Companions",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "4",
+          "w": "3"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Ezekiel.wargear.0"
+      ],
+      "leadBy": [
+        "Ezekiel",
+        "datasheets.Inner_Circle_Companions.leadBy.1",
+        "datasheets.Inner_Circle_Companions.leadBy.2",
+        "datasheets.Inner_Circle_Companions.leadBy.3"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Azrael.abilities.other.0.name",
+            "description": "datasheets.Azrael.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Azrael.abilities.other.1.name",
+            "description": "datasheets.Azrael.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": [
+          {
+            "name": "datasheets.Azrael.abilities.wargear.0.name",
+            "description": "datasheets.Azrael.abilities.wargear.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Azrael.composition.0"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "fluff": "datasheets.Azrael.fluff",
+      "id": "dba448cc-ea5e-5fd9-bd91-c795467fd1d2",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Grenades",
+        "Imperium",
+        "Deathwing",
+        "Tacticus",
+        "Chapter Master",
+        "Azrael"
+      ],
+      "leader": "datasheets.Ezekiel.leader",
+      "loadout": "datasheets.Azrael.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Azrael.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Azrael",
+      "points": [
+        {
+          "cost": "115",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "2",
+              "damage": "2",
+              "keywords": [
+                "Rapid Fire 1",
+                "Devastating Wounds",
+                "Anti-infantry 4+"
+              ],
+              "name": "datasheets.Azrael.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "Azrael",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "4",
+          "w": "6",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Ezekiel.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Ezekiel.leads.units.0",
+          "datasheets.Ezekiel.leads.units.1",
+          "datasheets.Ezekiel.leads.units.2",
+          "datasheets.Ezekiel.leads.units.3",
+          "datasheets.Ezekiel.leads.units.4",
+          "datasheets.Ezekiel.leads.units.5",
+          "datasheets.Ezekiel.leads.units.6",
+          "datasheets.Ezekiel.leads.units.7"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Land_Speeder_Vengeance.abilities.other.0.name",
+            "description": "datasheets.Land_Speeder_Vengeance.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Land_Speeder_Vengeance.composition.0"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "fluff": "datasheets.Land_Speeder_Vengeance.fluff",
+      "id": "a74cac10-eb28-5fac-adf0-1b0ad6f0ad4a",
+      "keywords": [
+        "Vehicle",
+        "Fly",
+        "Imperium",
+        "Ravenwing",
+        "Land Speeder Vengeance"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Land_Speeder_Vengeance.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Ravenwing_Darkshroud.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "name": "Land Speeder Vengeance",
+      "points": [
+        {
+          "cost": "120",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Ravenwing_Darkshroud.rangedWeapons.0.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "D6+1",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Blast"
+              ],
+              "name": "datasheets.Land_Speeder_Vengeance.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "8"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "D6+1",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Hazardous",
+                "Blast"
+              ],
+              "name": "datasheets.Land_Speeder_Vengeance.rangedWeapons.1.profiles.1.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Ravenwing_Darkshroud.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "14\"",
+          "name": "Land Speeder Vengeance",
+          "oc": "3",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "8",
+          "w": "10",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Ravenwing_Darkshroud.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Hover"
+        ],
+        "damaged": {
+          "range": "datasheets.Nephilim_Jetfighter.abilities.damaged.range",
+          "description": "datasheets.Nephilim_Jetfighter.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Nephilim_Jetfighter.abilities.other.0.name",
+            "description": "datasheets.Nephilim_Jetfighter.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Nephilim_Jetfighter.composition.0"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "fluff": "datasheets.Nephilim_Jetfighter.fluff",
+      "id": "101d5e2e-9a10-59a2-830a-92c827f9f203",
+      "keywords": [
+        "Vehicle",
+        "Aircraft",
+        "Fly",
+        "Imperium",
+        "Ravenwing",
+        "Nephilim Jetfighter"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Nephilim_Jetfighter.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Nephilim_Jetfighter.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Nephilim Jetfighter",
+      "points": [
+        {
+          "cost": "195",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "10",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Nephilim_Jetfighter.rangedWeapons.0.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [
+                "Anti-fly 2+"
+              ],
+              "name": "datasheets.Nephilim_Jetfighter.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Nephilim_Jetfighter.rangedWeapons.2.profiles.0.name",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "2",
+              "damage": "D6+1",
+              "keywords": [],
+              "name": "datasheets.Nephilim_Jetfighter.rangedWeapons.3.profiles.0.name",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "20+\"",
+          "name": "Nephilim Jetfighter",
+          "oc": "0",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "8",
+          "w": "11",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Nephilim_Jetfighter.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Asmodai.abilities.other.0.name",
+            "description": "datasheets.Asmodai.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Asmodai.abilities.other.1.name",
+            "description": "datasheets.Asmodai.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Asmodai.composition.0"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "fluff": "datasheets.Asmodai.fluff",
+      "id": "73dea935-78f8-5af7-a400-04c431a64bd8",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Grenades",
+        "Imperium",
+        "Deathwing",
+        "Chaplain",
+        "Tacticus",
+        "Asmodai"
+      ],
+      "leader": "datasheets.Ezekiel.leader",
+      "loadout": "datasheets.Asmodai.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Asmodai.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            },
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "8",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Asmodai.meleeWeapons.0.profiles.1.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "name": "Asmodai",
+      "points": [
+        {
+          "cost": "70",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Inner_Circle_Companions.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "5+",
+          "m": "6\"",
+          "name": "Asmodai",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "4",
+          "w": "4",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Ezekiel.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Ezekiel.leads.units.0",
+          "datasheets.Ezekiel.leads.units.1",
+          "datasheets.Ezekiel.leads.units.2",
+          "datasheets.Ezekiel.leads.units.3",
+          "datasheets.Ezekiel.leads.units.4",
+          "datasheets.Ezekiel.leads.units.5",
+          "datasheets.Ezekiel.leads.units.6",
+          "datasheets.Ezekiel.leads.units.7"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Deathwing_Terminator_Squad.abilities.other.0.name",
+            "description": "datasheets.Deathwing_Terminator_Squad.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Deathwing_Knights.abilities.other.1.name",
+            "description": "datasheets.Deathwing_Knights.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [
+          {
+            "description": "datasheets.Deathwing_Terminator_Squad.abilities.special.0.description",
+            "name": "datasheets.Ravenwing_Black_Knights.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": [
+          {
+            "name": "datasheets.Deathwing_Terminator_Squad.abilities.wargear.0.name",
+            "description": "datasheets.Deathwing_Terminator_Squad.abilities.wargear.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Deathwing_Knights.composition.0",
+        "datasheets.Deathwing_Knights.composition.1"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "fluff": "datasheets.Deathwing_Knights.fluff",
+      "id": "0a59cf75-fb0a-540f-9206-4ff05900b6a4",
+      "keywords": [
+        "Infantry",
+        "Imperium",
+        "Terminator",
+        "Deathwing",
+        "Deathwing Knights"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Deathwing_Knights.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1",
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Deathwing_Knights.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [
+                "Anti-vehicle 4+",
+                "Anti-monster 4+"
+              ],
+              "name": "datasheets.Deathwing_Knights.meleeWeapons.1.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [
+                "Lethal Hits"
+              ],
+              "name": "datasheets.Deathwing_Knights.meleeWeapons.2.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "7"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Deathwing_Terminator_Squad.meleeWeapons.2.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Deathwing Knights",
+      "points": [
+        {
+          "cost": "250",
+          "keyword": null,
+          "models": "5",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "5\"",
+          "name": "datasheets.Deathwing_Knights.stats.0.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "2+",
+          "t": "5",
+          "w": "4",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Deathwing_Terminator_Squad.wargear.0",
+        "datasheets.Deathwing_Knights.wargear.1",
+        "datasheets.Deathwing_Knights.wargear.2"
+      ],
+      "leadBy": [
+        "datasheets.Deathwing_Terminator_Squad.leadBy.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Belial.abilities.other.0.name",
+            "description": "datasheets.Belial.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Belial.abilities.other.1.name",
+            "description": "datasheets.Belial.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Belial.composition.0"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "fluff": "datasheets.Belial.fluff",
+      "id": "b0e28fbd-1d1d-5c84-acc7-ee729e62fe99",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Imperium",
+        "Terminator",
+        "Deathwing",
+        "Captain",
+        "Belial"
+      ],
+      "leader": "datasheets.Belial.leader",
+      "loadout": "datasheets.Belial.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [
+                "Precision"
+              ],
+              "name": "datasheets.Belial.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Belial",
+      "points": [
+        {
+          "cost": "85",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "2",
+              "keywords": [
+                "Rapid Fire 2",
+                "Precision"
+              ],
+              "name": "datasheets.Belial.rangedWeapons.0.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "5\"",
+          "name": "Belial",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "5",
+          "w": "6",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Ezekiel.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Belial.leads.units.0",
+          "datasheets.Belial.leads.units.1",
+          "datasheets.Belial.leads.units.2",
+          "datasheets.Belial.leads.units.3"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Fights First"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Lion_ElJonson.abilities.other.0.name",
+            "description": "datasheets.Lion_ElJonson.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Lion_ElJonson.abilities.other.1.name",
+            "description": "datasheets.Lion_ElJonson.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Lion_ElJonson.abilities.other.2.name",
+            "description": "datasheets.Lion_ElJonson.abilities.other.2.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [
+          {
+            "name": "datasheets.Lion_ElJonson.abilities.other.0.name",
+            "abilities": [
+              {
+                "name": "datasheets.Lion_ElJonson.abilities.primarch.0.abilities.0.name",
+                "description": "datasheets.Lion_ElJonson.abilities.primarch.0.abilities.0.description",
+                "showAbility": true,
+                "showDescription": true
+              },
+              {
+                "name": "datasheets.Lion_ElJonson.abilities.primarch.0.abilities.1.name",
+                "description": "datasheets.Lion_ElJonson.abilities.primarch.0.abilities.1.description",
+                "showAbility": true,
+                "showDescription": true
+              },
+              {
+                "name": "datasheets.Lion_ElJonson.abilities.primarch.0.abilities.2.name",
+                "description": "datasheets.Lion_ElJonson.abilities.primarch.0.abilities.2.description",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "showAbility": true
+          }
+        ],
+        "special": [
+          {
+            "description": "datasheets.Lion_ElJonson.abilities.special.0.description",
+            "name": "datasheets.Lion_ElJonson.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Lion_ElJonson.composition.0"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "fluff": "datasheets.Lion_ElJonson.fluff",
+      "id": "0749c654-22ff-5ed6-be5e-9acdf8583933",
+      "keywords": [
+        "Monster",
+        "Character",
+        "Epic Hero",
+        "Imperium",
+        "Primarch",
+        "Lion El’Jonson"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Lion_ElJonson.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "16",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "datasheets.Lion_ElJonson.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            },
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "8",
+              "damage": "4",
+              "keywords": [
+                "Lethal Hits"
+              ],
+              "name": "datasheets.Lion_ElJonson.meleeWeapons.0.profiles.1.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "12"
+            }
+          ]
+        }
+      ],
+      "name": "Lion El’Jonson",
+      "points": [
+        {
+          "cost": "315",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Lion_ElJonson.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "4"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "2",
+              "damage": "2",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Lion_ElJonson.rangedWeapons.0.profiles.1.name",
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "5+",
+          "m": "8\"",
+          "name": "Lion El’Jonson",
+          "oc": "4",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "9",
+          "w": "10",
+          "invul": "3+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Ezekiel.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Ravenwing_Command_Squad.abilities.other.0.name",
+            "description": "datasheets.Ravenwing_Command_Squad.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Ravenwing_Command_Squad.abilities.other.1.name",
+            "description": "datasheets.Ravenwing_Command_Squad.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Ravenwing_Command_Squad.abilities.other.2.name",
+            "description": "datasheets.Ravenwing_Command_Squad.abilities.other.2.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Ravenwing_Command_Squad.composition.0",
+        "datasheets.Ravenwing_Command_Squad.composition.1",
+        "datasheets.Ravenwing_Command_Squad.composition.2"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "fluff": "datasheets.Ravenwing_Command_Squad.fluff",
+      "id": "65697143-7593-5759-a841-ef1aaddef7f6",
+      "keywords": [
+        "Mounted",
+        "Grenades",
+        "Imperium",
+        "Ravenwing",
+        "Ravenwing Command Squad",
+        "Character"
+      ],
+      "leader": "datasheets.Ravenwing_Command_Squad.leader",
+      "loadout": "datasheets.Ravenwing_Command_Squad.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [],
+              "name": "datasheets.Ravenwing_Command_Squad.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "datasheets.Ravenwing_Black_Knights.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "name": "Ravenwing Command Squad",
+      "points": [
+        {
+          "cost": "120",
+          "keyword": null,
+          "models": "3",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Ravenwing_Black_Knights.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 1"
+              ],
+              "name": "datasheets.Ravenwing_Black_Knights.rangedWeapons.1.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "2",
+              "damage": "2",
+              "keywords": [
+                "Rapid Fire 1",
+                "Hazardous"
+              ],
+              "name": "datasheets.Ravenwing_Black_Knights.rangedWeapons.1.profiles.1.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "D3",
+              "keywords": [],
+              "name": "datasheets.Ravenwing_Black_Knights.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D3",
+              "damage": "1",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Ravenwing_Black_Knights.rangedWeapons.2.profiles.1.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "datasheets.Ravenwing_Command_Squad.stats.0.name",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "5",
+          "w": "4",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Ravenwing_Command_Squad.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Ravenwing_Command_Squad.leads.units.0",
+          "datasheets.Ravenwing_Command_Squad.leads.units.1"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Lazarus.abilities.other.0.name",
+            "description": "datasheets.Lazarus.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Lazarus.abilities.other.1.name",
+            "description": "datasheets.Lazarus.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Lazarus.composition.0"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "fluff": "datasheets.Lazarus.fluff",
+      "id": "7e3ea0b9-3d47-53aa-9bb5-757c44eb1ec1",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Grenades",
+        "Imperium",
+        "Deathwing",
+        "Tacticus",
+        "Captain",
+        "Lazarus"
+      ],
+      "leader": "datasheets.Lazarus.leader",
+      "loadout": "datasheets.Lazarus.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [
+                "Anti-psyker 2+"
+              ],
+              "name": "datasheets.Lazarus.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Lazarus",
+      "points": [
+        {
+          "cost": "70",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Lazarus.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "Lazarus",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "4",
+          "w": "5",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Ezekiel.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Ezekiel.leads.units.0",
+          "datasheets.Ezekiel.leads.units.1",
+          "datasheets.Ezekiel.leads.units.3",
+          "datasheets.Ezekiel.leads.units.4",
+          "datasheets.Ezekiel.leads.units.5",
+          "datasheets.Ezekiel.leads.units.6",
+          "datasheets.Ezekiel.leads.units.7"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Hover"
+        ],
+        "damaged": {
+          "range": "datasheets.Nephilim_Jetfighter.abilities.damaged.range",
+          "description": "datasheets.Nephilim_Jetfighter.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Ravenwing_Dark_Talon.abilities.other.0.name",
+            "description": "datasheets.Ravenwing_Dark_Talon.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Ravenwing_Dark_Talon.composition.0"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "fluff": "datasheets.Ravenwing_Dark_Talon.fluff",
+      "id": "eab64694-a982-55df-80a6-73d5036f7d8f",
+      "keywords": [
+        "Vehicle",
+        "Aircraft",
+        "Fly",
+        "Imperium",
+        "Ravenwing",
+        "Dark Talon"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Ravenwing_Dark_Talon.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "datasheets.Nephilim_Jetfighter.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Ravenwing_Dark_Talon.name",
+      "points": [
+        {
+          "cost": "210",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "D3+1",
+              "damage": "3",
+              "keywords": [
+                "Devastating Wounds",
+                "Blast"
+              ],
+              "name": "datasheets.Ravenwing_Dark_Talon.rangedWeapons.0.profiles.0.name",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "16"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Rapid Fire 6"
+              ],
+              "name": "datasheets.Ravenwing_Dark_Talon.rangedWeapons.1.profiles.0.name",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "20+\"",
+          "name": "datasheets.Ravenwing_Dark_Talon.name",
+          "oc": "0",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "8",
+          "w": "11",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Ezekiel.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Sammael.abilities.other.0.name",
+            "description": "datasheets.Sammael.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Sammael.abilities.other.1.name",
+            "description": "datasheets.Sammael.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Sammael.composition.0"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "fluff": "datasheets.Sammael.fluff",
+      "id": "171df937-ae5f-5b45-8d8d-2685fe36fcc2",
+      "keywords": [
+        "Mounted",
+        "Character",
+        "Epic Hero",
+        "Fly",
+        "Grenades",
+        "Imperium",
+        "Ravenwing",
+        "Captain",
+        "Sammael"
+      ],
+      "leader": "datasheets.Sammael.leader",
+      "loadout": "datasheets.Sammael.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 2"
+              ],
+              "name": "datasheets.Sammael.meleeWeapons.0.profiles.0.name",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Sammael",
+      "points": [
+        {
+          "cost": "115",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "datasheets.Lazarus.rangedWeapons.0.profiles.0.name",
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "D3",
+              "damage": "2",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "datasheets.Sammael.rangedWeapons.1.profiles.0.name",
+              "range": "36\"",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Rapid Fire 2"
+              ],
+              "name": "datasheets.Sammael.rangedWeapons.2.profiles.0.name",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "Sammael",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "5",
+          "w": "7",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Ezekiel.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.Ravenwing_Command_Squad.leads.units.0",
+          "datasheets.Ravenwing_Command_Squad.leads.units.1"
+        ],
+        "extra": ""
+      }
+    }
+  ],
+  "detachments": [
+    {
+      "name": "detachments.Unforgiven_Task_Force.name",
+      "enhancements": [
+        {
+          "name": "detachments.Unforgiven_Task_Force.enhancements.Shroud_of_Heroes.name",
+          "id": "9c4014e7-59c4-5d25-a638-c1beae9d4419",
+          "cost": "25",
+          "keywords": [
+            "Dark Angels"
+          ],
+          "excludes": [],
+          "description": "detachments.Unforgiven_Task_Force.enhancements.Shroud_of_Heroes.description",
+          "faction_id": "CHDA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Unforgiven_Task_Force.enhancements.Stubborn_Tenacity.name",
+          "id": "e2a964f7-bd8b-5b38-8fae-9fd8d0ff2bbd",
+          "cost": "15",
+          "keywords": [
+            "Dark Angels"
+          ],
+          "excludes": [],
+          "description": "detachments.Unforgiven_Task_Force.enhancements.Stubborn_Tenacity.description",
+          "faction_id": "CHDA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Unforgiven_Task_Force.enhancements.Weapons_of_the_First_Legion.name",
+          "id": "dd8fc691-2a2d-51d8-a637-68210c4f82cb",
+          "cost": "15",
+          "keywords": [
+            "Dark Angels"
+          ],
+          "excludes": [],
+          "description": "detachments.Unforgiven_Task_Force.enhancements.Weapons_of_the_First_Legion.description",
+          "faction_id": "CHDA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Unforgiven_Task_Force.enhancements.Pennant_of_Remembrance.name",
+          "id": "28e163fe-ea72-51bc-bf84-7e690ce5b210",
+          "cost": "10",
+          "keywords": [
+            "Ancient",
+            "Bladeguard Ancient"
+          ],
+          "excludes": [],
+          "description": "detachments.Unforgiven_Task_Force.enhancements.Pennant_of_Remembrance.description",
+          "faction_id": "CHDA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "rules": [
+        {
+          "name": "detachments.Unforgiven_Task_Force.rules.0.name",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.Unforgiven_Task_Force.rules.0.rule.0.text",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.name",
+          "id": "1e21c885-2bf2-56a3-9088-17477f475788",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.target",
+          "when": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.when",
+          "effect": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.fluff"
+        },
+        {
+          "name": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.name",
+          "id": "9318d40e-7c70-5a63-b83c-c5ad0069ce2b",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.fluff"
+        },
+        {
+          "name": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.name",
+          "id": "c4b474a4-1952-5cc0-9f13-5e6706a87a68",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.fluff"
+        },
+        {
+          "name": "detachments.Unforgiven_Task_Force.stratagems.Unforgiven_Fury.name",
+          "id": "d4cf58f4-ccc4-5724-b6a9-fffec890214a",
+          "cost": 2,
+          "turn": "opponents",
+          "target": "detachments.Unforgiven_Task_Force.stratagems.Unforgiven_Fury.target",
+          "when": "detachments.Unforgiven_Task_Force.stratagems.Unforgiven_Fury.when",
+          "effect": "detachments.Unforgiven_Task_Force.stratagems.Unforgiven_Fury.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "charge"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Unforgiven_Task_Force.stratagems.Unforgiven_Fury.fluff"
+        },
+        {
+          "name": "detachments.Unforgiven_Task_Force.stratagems.Fire_Discipline.name",
+          "id": "9230b062-ee3d-5e08-a6f3-2cdb18b651a1",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Unforgiven_Task_Force.stratagems.Fire_Discipline.target",
+          "when": "detachments.Unforgiven_Task_Force.stratagems.Fire_Discipline.when",
+          "effect": "detachments.Unforgiven_Task_Force.stratagems.Fire_Discipline.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Unforgiven_Task_Force.stratagems.Fire_Discipline.fluff"
+        },
+        {
+          "name": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.name",
+          "id": "ba5a97ac-3404-5327-aa47-ac94043563bc",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.fluff"
+        }
+      ]
+    },
+    {
+      "name": "detachments.Inner_Circle_Task_Force.name",
+      "enhancements": [
+        {
+          "name": "detachments.Inner_Circle_Task_Force.enhancements.Shroud_of_Heroes.name",
+          "id": "889709b9-f03c-5e1f-aeb0-243195903649",
+          "cost": "15",
+          "keywords": [
+            "Deathwing"
+          ],
+          "excludes": [],
+          "description": "detachments.Inner_Circle_Task_Force.enhancements.Shroud_of_Heroes.description",
+          "faction_id": "CHDA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Inner_Circle_Task_Force.enhancements.Stubborn_Tenacity.name",
+          "id": "bda3688d-5543-5b3d-a8d9-ac2d0440d95e",
+          "cost": "10",
+          "keywords": [
+            "Deathwing"
+          ],
+          "excludes": [],
+          "description": "detachments.Inner_Circle_Task_Force.enhancements.Stubborn_Tenacity.description",
+          "faction_id": "CHDA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Inner_Circle_Task_Force.enhancements.Weapons_of_the_First_Legion.name",
+          "id": "92b7c3dc-87b8-579e-8461-5235d0516b7e",
+          "cost": "20",
+          "keywords": [
+            "Deathwing"
+          ],
+          "excludes": [],
+          "description": "detachments.Inner_Circle_Task_Force.enhancements.Weapons_of_the_First_Legion.description",
+          "faction_id": "CHDA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Inner_Circle_Task_Force.enhancements.Pennant_of_Remembrance.name",
+          "id": "7c778992-81c4-558f-8504-39ad4ca59aec",
+          "cost": "30",
+          "keywords": [
+            "Deathwing"
+          ],
+          "excludes": [],
+          "description": "detachments.Inner_Circle_Task_Force.enhancements.Pennant_of_Remembrance.description",
+          "faction_id": "CHDA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "rules": [
+        {
+          "name": "detachments.Inner_Circle_Task_Force.rules.0.name",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.Inner_Circle_Task_Force.rules.0.rule.0.text",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.Inner_Circle_Task_Force.stratagems.Unmatched_Fortitude.name",
+          "id": "ebb6e255-6189-545d-832f-224cc79a6642",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Inner_Circle_Task_Force.stratagems.Unmatched_Fortitude.target",
+          "when": "detachments.Inner_Circle_Task_Force.stratagems.Unmatched_Fortitude.when",
+          "effect": "detachments.Inner_Circle_Task_Force.stratagems.Unmatched_Fortitude.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Inner_Circle_Task_Force.stratagems.Unmatched_Fortitude.fluff"
+        },
+        {
+          "name": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.name",
+          "id": "1e21c885-2bf2-56a3-9088-17477f475788",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.target",
+          "when": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.when",
+          "effect": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.fluff"
+        },
+        {
+          "name": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.name",
+          "id": "d3a328de-1901-59d3-90d0-f5b1a3faf887",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "",
+          "type": "Epic Deed",
+          "phase": [
+            "charge"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.fluff"
+        },
+        {
+          "name": "detachments.Inner_Circle_Task_Force.stratagems.Unforgiven_Fury.name",
+          "id": "69aa771a-018b-5627-b6b8-15f9287e5083",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Inner_Circle_Task_Force.stratagems.Unforgiven_Fury.target",
+          "when": "detachments.Inner_Circle_Task_Force.stratagems.Unforgiven_Fury.when",
+          "effect": "detachments.Inner_Circle_Task_Force.stratagems.Unforgiven_Fury.effect",
+          "restrictions": "",
+          "type": "Epic Deed",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Inner_Circle_Task_Force.stratagems.Unforgiven_Fury.fluff"
+        },
+        {
+          "name": "detachments.Inner_Circle_Task_Force.stratagems.Fire_Discipline.name",
+          "id": "76da2e4d-3839-548f-9e73-77cbcefb0070",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Inner_Circle_Task_Force.stratagems.Fire_Discipline.target",
+          "when": "detachments.Inner_Circle_Task_Force.stratagems.Fire_Discipline.when",
+          "effect": "detachments.Inner_Circle_Task_Force.stratagems.Fire_Discipline.effect",
+          "restrictions": "detachments.Inner_Circle_Task_Force.stratagems.Fire_Discipline.restrictions",
+          "type": "Strategic Ploy",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Inner_Circle_Task_Force.stratagems.Fire_Discipline.fluff"
+        },
+        {
+          "name": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.name",
+          "id": "02f4301c-0321-5f95-8cfb-50e3fa55548d",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.fluff"
+        }
+      ]
+    },
+    {
+      "name": "detachments.Lions_Blade_Task_Force.name",
+      "enhancements": [
+        {
+          "name": "detachments.Lions_Blade_Task_Force.enhancements.Shroud_of_Heroes.name",
+          "id": "ff29ccdb-291f-5d03-9562-8c4e32decb99",
+          "cost": "15",
+          "keywords": [
+            "Dark Angels"
+          ],
+          "excludes": [],
+          "description": "detachments.Lions_Blade_Task_Force.enhancements.Shroud_of_Heroes.description",
+          "faction_id": "CHDA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Lions_Blade_Task_Force.enhancements.Stubborn_Tenacity.name",
+          "id": "13ef326e-8145-57b6-8e90-44d7662d3c2d",
+          "cost": "15",
+          "keywords": [
+            "Ravenwing"
+          ],
+          "excludes": [],
+          "description": "detachments.Lions_Blade_Task_Force.enhancements.Stubborn_Tenacity.description",
+          "faction_id": "CHDA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Lions_Blade_Task_Force.enhancements.Weapons_of_the_First_Legion.name",
+          "id": "d2ce8304-6b98-5ef4-95be-55b026b57a33",
+          "cost": "25",
+          "keywords": [
+            "Captain",
+            "Lieutenant",
+            "Chaplain"
+          ],
+          "excludes": [],
+          "description": "detachments.Lions_Blade_Task_Force.enhancements.Weapons_of_the_First_Legion.description",
+          "faction_id": "CHDA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Lions_Blade_Task_Force.enhancements.Pennant_of_Remembrance.name",
+          "id": "64d1c02a-a7e4-578b-aef6-86cfba1a0af7",
+          "cost": "20",
+          "keywords": [
+            "Deathwing"
+          ],
+          "excludes": [],
+          "description": "detachments.Lions_Blade_Task_Force.enhancements.Pennant_of_Remembrance.description",
+          "faction_id": "CHDA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "rules": [
+        {
+          "name": "detachments.Lions_Blade_Task_Force.rules.0.name",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.Lions_Blade_Task_Force.rules.0.rule.0.text",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.name",
+          "id": "1e21c885-2bf2-56a3-9088-17477f475788",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.target",
+          "when": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.when",
+          "effect": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.fluff"
+        },
+        {
+          "name": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.name",
+          "id": "4c62a2dc-5630-5e97-ae30-0aa8a21db3f3",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.target",
+          "when": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.restrictions",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.fluff"
+        },
+        {
+          "name": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.name",
+          "id": "ceb62feb-531d-5079-8ca5-3a9964156783",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.fluff"
+        },
+        {
+          "name": "detachments.Lions_Blade_Task_Force.stratagems.Unforgiven_Fury.name",
+          "id": "1e62d841-d48c-5dff-b50b-0b17db2b8838",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Lions_Blade_Task_Force.stratagems.Unforgiven_Fury.target",
+          "when": "detachments.Lions_Blade_Task_Force.stratagems.Unforgiven_Fury.when",
+          "effect": "detachments.Lions_Blade_Task_Force.stratagems.Unforgiven_Fury.effect",
+          "restrictions": "detachments.Lions_Blade_Task_Force.stratagems.Unforgiven_Fury.restrictions",
+          "type": "Strategic Ploy",
+          "phase": [
+            "command",
+            "fight"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Lions_Blade_Task_Force.stratagems.Unforgiven_Fury.fluff"
+        },
+        {
+          "name": "detachments.Lions_Blade_Task_Force.stratagems.Fire_Discipline.name",
+          "id": "09221b66-6824-5bbe-9cd6-a5a325d0fdbd",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Lions_Blade_Task_Force.stratagems.Fire_Discipline.target",
+          "when": "detachments.Lions_Blade_Task_Force.stratagems.Fire_Discipline.when",
+          "effect": "detachments.Lions_Blade_Task_Force.stratagems.Fire_Discipline.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "charge",
+            "movement"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Lions_Blade_Task_Force.stratagems.Fire_Discipline.fluff"
+        },
+        {
+          "name": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.name",
+          "id": "2e8fa28c-a56d-53f3-90a1-70efd631211a",
+          "cost": 2,
+          "turn": "opponents",
+          "target": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.restrictions",
+          "type": "Strategic Ploy",
+          "phase": [
+            "charge"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.fluff"
+        }
+      ]
+    },
+    {
+      "name": "detachments.Company_of_Hunters.name",
+      "enhancements": [
+        {
+          "name": "detachments.Company_of_Hunters.enhancements.Shroud_of_Heroes.name",
+          "id": "367a8014-6f48-5135-8813-4009826172e5",
+          "cost": "10",
+          "keywords": [
+            "Ravenwing"
+          ],
+          "excludes": [],
+          "description": "detachments.Company_of_Hunters.enhancements.Shroud_of_Heroes.description",
+          "faction_id": "CHDA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Company_of_Hunters.enhancements.Stubborn_Tenacity.name",
+          "id": "df42b551-8621-5ae9-9dd1-63f9550d9849",
+          "cost": "30",
+          "keywords": [
+            "Ravenwing"
+          ],
+          "excludes": [],
+          "description": "detachments.Company_of_Hunters.enhancements.Stubborn_Tenacity.description",
+          "faction_id": "CHDA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Company_of_Hunters.enhancements.Weapons_of_the_First_Legion.name",
+          "id": "ac8cc6cd-09be-5c22-8b7f-a256e4a022a5",
+          "cost": "15",
+          "keywords": [
+            "Ravenwing"
+          ],
+          "excludes": [],
+          "description": "detachments.Company_of_Hunters.enhancements.Weapons_of_the_First_Legion.description",
+          "faction_id": "CHDA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Company_of_Hunters.enhancements.Pennant_of_Remembrance.name",
+          "id": "9b73eac9-4f80-50bf-b268-0196ff571d61",
+          "cost": "20",
+          "keywords": [
+            "Ravenwing"
+          ],
+          "excludes": [],
+          "description": "detachments.Company_of_Hunters.enhancements.Pennant_of_Remembrance.description",
+          "faction_id": "CHDA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "rules": [
+        {
+          "name": "detachments.Company_of_Hunters.rules.0.name",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.Company_of_Hunters.rules.0.rule.0.text",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.name",
+          "id": "1e21c885-2bf2-56a3-9088-17477f475788",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.target",
+          "when": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.when",
+          "effect": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.fluff"
+        },
+        {
+          "name": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.name",
+          "id": "af05b8c3-de97-5b86-b5cd-6ab449561ffe",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.fluff"
+        },
+        {
+          "name": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.name",
+          "id": "8abf36ea-7306-5838-9bc1-5fd20c4be38f",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.Inner_Circle_Task_Force.stratagems.Unmatched_Fortitude.when",
+          "effect": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.fluff"
+        },
+        {
+          "name": "detachments.Company_of_Hunters.stratagems.Unforgiven_Fury.name",
+          "id": "378a15bd-5714-5d3a-b81b-849d1bf24dac",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Company_of_Hunters.stratagems.Unforgiven_Fury.target",
+          "when": "detachments.Company_of_Hunters.stratagems.Unforgiven_Fury.when",
+          "effect": "detachments.Company_of_Hunters.stratagems.Unforgiven_Fury.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Company_of_Hunters.stratagems.Unforgiven_Fury.fluff"
+        },
+        {
+          "name": "detachments.Company_of_Hunters.stratagems.Fire_Discipline.name",
+          "id": "10236da0-d847-566a-ae85-0252c537389d",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Company_of_Hunters.stratagems.Fire_Discipline.target",
+          "when": "detachments.Company_of_Hunters.stratagems.Fire_Discipline.when",
+          "effect": "detachments.Company_of_Hunters.stratagems.Fire_Discipline.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "command"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Company_of_Hunters.stratagems.Fire_Discipline.fluff"
+        },
+        {
+          "name": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.name",
+          "id": "7c763c8d-91b4-59e9-a259-dd9d545012e5",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.fluff"
+        }
+      ]
+    }
+  ],
+  "id": "CHDA",
+  "is_subfaction": true,
+  "name": "Dark Angels",
+  "parent_id": "SM",
+  "parent_keyword": "parent_keyword",
+  "rules": {
+    "army": [
+      {
+        "name": "datasheets.Ravenwing_Darkshroud.abilities.faction.0",
+        "rule": [
+          {
+            "order": 1,
+            "text": "rules.army.Oath_of_Moment.rule.0.text",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "rules.army.The_Deathwing.name",
+        "rule": [
+          {
+            "order": 1,
+            "text": "rules.army.The_Deathwing.rule.0.text",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "rules.army.The_Ravenwing.name",
+        "rule": [
+          {
+            "order": 1,
+            "text": "rules.army.The_Ravenwing.rule.0.text",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "rules.army.The_Unforgiven.name",
+        "rule": [
+          {
+            "order": 1,
+            "text": "rules.army.The_Unforgiven.rule.0.text",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "updated": "2025-05-29T08:37:07.017Z"
+}

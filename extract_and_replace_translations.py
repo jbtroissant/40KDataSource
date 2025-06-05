@@ -36,6 +36,8 @@ ARCHIVE_FILE = os.path.join(ARCHIVE_DIR, os.path.basename(INPUT_FILE))
 # Archive le fichier source avant toute modification
 if not os.path.exists(ARCHIVE_FILE):
     shutil.copy2(INPUT_FILE, ARCHIVE_FILE)
+    # Supprime le fichier d'origine après l'archivage
+    os.remove(INPUT_FILE)
 
 os.makedirs(FR_DIR, exist_ok=True)
 os.makedirs(EN_DIR, exist_ok=True)

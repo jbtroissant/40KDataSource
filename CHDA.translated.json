@@ -3064,6 +3064,18 @@
     },
     {
       "name": "detachments.Wrath_of_the_Rock.name",
+      "rules": [
+        {
+          "name": "detachments.Wrath_of_the_Rock.0.name",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.Wrath_of_the_Rock.rules.0.rule.0.text",
+              "type": "text"
+            }
+          ]
+        }
+      ],
       "enhancements": [
         {
           "name": "detachments.Wrath_of_the_Rock.enhancements.Shroud_of_Heroes.name",

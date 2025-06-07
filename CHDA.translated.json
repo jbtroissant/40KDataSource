@@ -3063,6 +3063,162 @@
       ]
     },
     {
+      "name": "detachments.Wrath_of_the_Rock.name",
+      "enhancements": [
+        {
+          "name": "detachments.Wrath_of_the_Rock.enhancements.Shroud_of_Heroes.name",
+          "id": "b209832f-0a51-58d9-9664-dd2f59a9abea",
+          "cost": "10",
+          "keywords": [
+            "Dark Angels"
+          ],
+          "excludes": [],
+          "description": "detachments.Wrath_of_the_Rock.enhancements.Shroud_of_Heroes.description",
+          "faction_id": "CHDA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Wrath_of_the_Rock.enhancements.Stubborn_Tenacity.name",
+          "id": "df176021-16b9-5d39-bed0-830aa98ac551",
+          "cost": "25",
+          "keywords": [
+            "Dark Angels"
+          ],
+          "excludes": [],
+          "description": "detachments.Wrath_of_the_Rock.enhancements.Stubborn_Tenacity.description",
+          "faction_id": "CHDA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Inner_Circle_Task_Force.enhancements.Pennant_of_Remembrance.name",
+          "id": "7c778992-81c4-558f-8504-39ad4ca59aec",
+          "cost": "15",
+          "keywords": [
+            "Deathwing"
+          ],
+          "excludes": [],
+          "description": "detachments.Inner_Circle_Task_Force.enhancements.Pennant_of_Remembrance.description",
+          "faction_id": "CHDA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Wrath_of_the_Rock.enhancements.Pennant_of_Remembrance.name",
+          "id": "ffa403d0-7c36-5d0b-a86a-6e9ea9961cc7",
+          "cost": "10",
+          "keywords": [
+            "Ravenwing"
+          ],
+          "excludes": [],
+          "description": "detachments.Wrath_of_the_Rock.enhancements.Pennant_of_Remembrance.description",
+          "faction_id": "CHDA",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.name",
+          "id": "1e21c885-2bf2-56a3-9088-17477f475788",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.target",
+          "when": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.when",
+          "effect": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.fluff"
+        },
+        {
+          "name": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.name",
+          "id": "375dc3ce-1900-54f2-a490-552556eede95",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.Inner_Circle_Task_Force.stratagems.Fire_Discipline.when",
+          "effect": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.fluff"
+        },
+        {
+          "name": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.name",
+          "id": "d125581e-c511-54f8-8be4-ce506efb79f7",
+          "cost": 2,
+          "turn": "either",
+          "target": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "any"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.fluff"
+        },
+        {
+          "name": "detachments.Wrath_of_the_Rock.stratagems.Unforgiven_Fury.name",
+          "id": "74be8407-258d-5b0f-9f8e-564da3749565",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Wrath_of_the_Rock.stratagems.Unforgiven_Fury.target",
+          "when": "detachments.Wrath_of_the_Rock.stratagems.Unforgiven_Fury.when",
+          "effect": "detachments.Wrath_of_the_Rock.stratagems.Unforgiven_Fury.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "command"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Wrath_of_the_Rock.stratagems.Unforgiven_Fury.fluff"
+        },
+        {
+          "name": "detachments.Wrath_of_the_Rock.stratagems.Fire_Discipline.name",
+          "id": "8d9b2aba-93d6-5c3d-b704-451d22c0808c",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Wrath_of_the_Rock.stratagems.Fire_Discipline.target",
+          "when": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.Wrath_of_the_Rock.stratagems.Fire_Discipline.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Wrath_of_the_Rock.stratagems.Fire_Discipline.fluff"
+        },
+        {
+          "name": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.name",
+          "id": "492be8df-f1c6-5dd5-a57e-4bafb40bd8bd",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.target",
+          "when": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.restrictions",
+          "type": "Strategic Ploy",
+          "phase": [
+            "charge"
+          ],
+          "faction_id": "CHDA",
+          "fluff": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.fluff"
+        }
+      ]
+    },
+    {
       "name": "detachments.Lions_Blade_Task_Force.name",
       "enhancements": [
         {
@@ -3187,7 +3343,7 @@
           "id": "1e62d841-d48c-5dff-b50b-0b17db2b8838",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Lions_Blade_Task_Force.stratagems.Unforgiven_Fury.target",
+          "target": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.target",
           "when": "detachments.Lions_Blade_Task_Force.stratagems.Unforgiven_Fury.when",
           "effect": "detachments.Lions_Blade_Task_Force.stratagems.Unforgiven_Fury.effect",
           "restrictions": "detachments.Lions_Blade_Task_Force.stratagems.Unforgiven_Fury.restrictions",
@@ -3222,9 +3378,9 @@
           "cost": 2,
           "turn": "opponents",
           "target": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.target",
-          "when": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.when",
-          "effect": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.effect",
-          "restrictions": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.restrictions",
+          "when": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.when",
+          "effect": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.effect",
+          "restrictions": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.restrictions",
           "type": "Strategic Ploy",
           "phase": [
             "charge"
@@ -3258,7 +3414,7 @@
             "Ravenwing"
           ],
           "excludes": [],
-          "description": "detachments.Company_of_Hunters.enhancements.Stubborn_Tenacity.description",
+          "description": "detachments.Wrath_of_the_Rock.enhancements.Pennant_of_Remembrance.description",
           "faction_id": "CHDA",
           "source": "40k-10e",
           "cardType": "enhancement"
@@ -3374,7 +3530,7 @@
           "cost": 1,
           "turn": "either",
           "target": "detachments.Company_of_Hunters.stratagems.Fire_Discipline.target",
-          "when": "detachments.Company_of_Hunters.stratagems.Fire_Discipline.when",
+          "when": "detachments.Wrath_of_the_Rock.stratagems.Unforgiven_Fury.when",
           "effect": "detachments.Company_of_Hunters.stratagems.Fire_Discipline.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
@@ -3453,5 +3609,6 @@
       }
     ]
   },
-  "updated": "2025-05-29T08:37:07.017Z"
+  "updated": "2025-06-04T15:40:01.665Z",
+  "compatibleDataVersion": 629
 }

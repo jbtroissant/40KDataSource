@@ -2795,13 +2795,13 @@
       ],
       "stratagems": [
         {
-          "name": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.name",
+          "name": "stratagems.Armour_of_Contempt.name",
           "id": "1e21c885-2bf2-56a3-9088-17477f475788",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.target",
-          "when": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.when",
-          "effect": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.effect",
+          "target": "stratagems.Armour_of_Contempt.target",
+          "when": "stratagems.Armour_of_Contempt.when",
+          "effect": "stratagems.Armour_of_Contempt.effect",
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
@@ -2809,16 +2809,16 @@
             "shooting"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.fluff"
+          "fluff": "stratagems.Armour_of_Contempt.fluff"
         },
         {
-          "name": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.name",
+          "name": "stratagems.Unforgiven_Fury.name",
           "id": "9318d40e-7c70-5a63-b83c-c5ad0069ce2b",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.target",
-          "when": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.when",
-          "effect": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.effect",
+          "target": "stratagems.Unforgiven_Fury.target",
+          "when": "stratagems.Unforgiven_Fury.when",
+          "effect": "stratagems.Unforgiven_Fury.effect",
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
@@ -2826,71 +2826,71 @@
             "shooting"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.fluff"
+          "fluff": "stratagems.Unforgiven_Fury.fluff"
         },
         {
-          "name": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.name",
+          "name": "stratagems.Fire_Discipline.name",
           "id": "c4b474a4-1952-5cc0-9f13-5e6706a87a68",
           "cost": 1,
           "turn": "your",
-          "target": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.target",
-          "when": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.when",
-          "effect": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.effect",
+          "target": "stratagems.Fire_Discipline.target",
+          "when": "stratagems.Fire_Discipline.when",
+          "effect": "stratagems.Fire_Discipline.effect",
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
             "shooting"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.fluff"
+          "fluff": "stratagems.Fire_Discipline.fluff"
         },
         {
-          "name": "detachments.Unforgiven_Task_Force.stratagems.Unforgiven_Fury.name",
+          "name": "stratagems.Unbreakable_Lines.name",
           "id": "d4cf58f4-ccc4-5724-b6a9-fffec890214a",
           "cost": 2,
           "turn": "opponents",
-          "target": "detachments.Unforgiven_Task_Force.stratagems.Unforgiven_Fury.target",
-          "when": "detachments.Unforgiven_Task_Force.stratagems.Unforgiven_Fury.when",
-          "effect": "detachments.Unforgiven_Task_Force.stratagems.Unforgiven_Fury.effect",
+          "target": "stratagems.Unbreakable_Lines.target",
+          "when": "stratagems.Unbreakable_Lines.when",
+          "effect": "stratagems.Unbreakable_Lines.effect",
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
             "charge"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Unforgiven_Task_Force.stratagems.Unforgiven_Fury.fluff"
+          "fluff": "stratagems.Unbreakable_Lines.fluff"
         },
         {
-          "name": "detachments.Unforgiven_Task_Force.stratagems.Fire_Discipline.name",
+          "name": "stratagems.Intractable.name",
           "id": "9230b062-ee3d-5e08-a6f3-2cdb18b651a1",
           "cost": 1,
           "turn": "your",
-          "target": "detachments.Unforgiven_Task_Force.stratagems.Fire_Discipline.target",
-          "when": "detachments.Unforgiven_Task_Force.stratagems.Fire_Discipline.when",
-          "effect": "detachments.Unforgiven_Task_Force.stratagems.Fire_Discipline.effect",
+          "target": "stratagems.Intractable.target",
+          "when": "stratagems.Intractable.when",
+          "effect": "stratagems.Intractable.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
           "phase": [
             "movement"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Unforgiven_Task_Force.stratagems.Fire_Discipline.fluff"
+          "fluff": "stratagems.Intractable.fluff"
         },
         {
-          "name": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.name",
+          "name": "stratagems.Grim_Retribution.name",
           "id": "ba5a97ac-3404-5327-aa47-ac94043563bc",
           "cost": 1,
           "turn": "opponents",
-          "target": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.target",
-          "when": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.when",
-          "effect": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.effect",
+          "target": "stratagems.Grim_Retribution.target",
+          "when": "stratagems.Grim_Retribution.when",
+          "effect": "stratagems.Grim_Retribution.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
           "phase": [
             "shooting"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.fluff"
+          "fluff": "stratagems.Grim_Retribution.fluff"
         }
       ]
     },
@@ -2964,29 +2964,29 @@
       ],
       "stratagems": [
         {
-          "name": "detachments.Inner_Circle_Task_Force.stratagems.Unmatched_Fortitude.name",
+          "name": "stratagems.Unmatched_Fortitude.name",
           "id": "ebb6e255-6189-545d-832f-224cc79a6642",
           "cost": 1,
           "turn": "opponents",
-          "target": "detachments.Inner_Circle_Task_Force.stratagems.Unmatched_Fortitude.target",
-          "when": "detachments.Inner_Circle_Task_Force.stratagems.Unmatched_Fortitude.when",
-          "effect": "detachments.Inner_Circle_Task_Force.stratagems.Unmatched_Fortitude.effect",
+          "target": "stratagems.Unmatched_Fortitude.target",
+          "when": "stratagems.Unmatched_Fortitude.when",
+          "effect": "stratagems.Unmatched_Fortitude.effect",
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
             "shooting"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Inner_Circle_Task_Force.stratagems.Unmatched_Fortitude.fluff"
+          "fluff": "stratagems.Unmatched_Fortitude.fluff"
         },
         {
-          "name": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.name",
+          "name": "stratagems.Armour_of_Contempt.name",
           "id": "1e21c885-2bf2-56a3-9088-17477f475788",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.target",
-          "when": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.when",
-          "effect": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.effect",
+          "target": "stratagems.Armour_of_Contempt.target",
+          "when": "stratagems.Armour_of_Contempt.when",
+          "effect": "stratagems.Armour_of_Contempt.effect",
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
@@ -2994,71 +2994,71 @@
             "shooting"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.fluff"
+          "fluff": "stratagems.Armour_of_Contempt.fluff"
         },
         {
-          "name": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.name",
+          "name": "stratagems.Wrath_of_the_Lion.name",
           "id": "d3a328de-1901-59d3-90d0-f5b1a3faf887",
           "cost": 1,
           "turn": "your",
-          "target": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.target",
-          "when": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.when",
-          "effect": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.effect",
+          "target": "stratagems.Wrath_of_the_Lion.target",
+          "when": "stratagems.Wrath_of_the_Lion.when",
+          "effect": "stratagems.Wrath_of_the_Lion.effect",
           "restrictions": "",
           "type": "Epic Deed",
           "phase": [
             "charge"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.fluff"
+          "fluff": "stratagems.Wrath_of_the_Lion.fluff"
         },
         {
-          "name": "detachments.Inner_Circle_Task_Force.stratagems.Unforgiven_Fury.name",
+          "name": "stratagems.Martial_Mastery.name",
           "id": "69aa771a-018b-5627-b6b8-15f9287e5083",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Inner_Circle_Task_Force.stratagems.Unforgiven_Fury.target",
-          "when": "detachments.Inner_Circle_Task_Force.stratagems.Unforgiven_Fury.when",
-          "effect": "detachments.Inner_Circle_Task_Force.stratagems.Unforgiven_Fury.effect",
+          "target": "stratagems.Martial_Mastery.target",
+          "when": "stratagems.Martial_Mastery.when",
+          "effect": "stratagems.Martial_Mastery.effect",
           "restrictions": "",
           "type": "Epic Deed",
           "phase": [
             "fight"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Inner_Circle_Task_Force.stratagems.Unforgiven_Fury.fluff"
+          "fluff": "stratagems.Martial_Mastery.fluff"
         },
         {
-          "name": "detachments.Inner_Circle_Task_Force.stratagems.Fire_Discipline.name",
+          "name": "stratagems.Relic_Teleportarium.name",
           "id": "76da2e4d-3839-548f-9e73-77cbcefb0070",
           "cost": 1,
           "turn": "your",
-          "target": "detachments.Inner_Circle_Task_Force.stratagems.Fire_Discipline.target",
-          "when": "detachments.Inner_Circle_Task_Force.stratagems.Fire_Discipline.when",
-          "effect": "detachments.Inner_Circle_Task_Force.stratagems.Fire_Discipline.effect",
-          "restrictions": "detachments.Inner_Circle_Task_Force.stratagems.Fire_Discipline.restrictions",
+          "target": "stratagems.Relic_Teleportarium.target",
+          "when": "stratagems.Relic_Teleportarium.when",
+          "effect": "stratagems.Relic_Teleportarium.effect",
+          "restrictions": "stratagems.Relic_Teleportarium.restrictions",
           "type": "Strategic Ploy",
           "phase": [
             "movement"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Inner_Circle_Task_Force.stratagems.Fire_Discipline.fluff"
+          "fluff": "stratagems.Relic_Teleportarium.fluff"
         },
         {
-          "name": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.name",
+          "name": "stratagems.Duty_Unto_Death.name",
           "id": "02f4301c-0321-5f95-8cfb-50e3fa55548d",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.target",
-          "when": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.when",
-          "effect": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.effect",
+          "target": "stratagems.Duty_Unto_Death.target",
+          "when": "stratagems.Duty_Unto_Death.when",
+          "effect": "stratagems.Duty_Unto_Death.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
           "phase": [
             "fight"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.fluff"
+          "fluff": "stratagems.Duty_Unto_Death.fluff"
         }
       ]
     },
@@ -3066,7 +3066,7 @@
       "name": "detachments.Wrath_of_the_Rock.name",
       "rules": [
         {
-          "name": "detachments.Wrath_of_the_Rock.0.name",
+          "name": "detachments.Wrath_of_the_Rock.rules.0.rule.0.name",
           "rule": [
             {
               "order": 1,
@@ -3132,13 +3132,13 @@
       ],
       "stratagems": [
         {
-          "name": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.name",
+          "name": "stratagems.Armour_of_Contempt.name",
           "id": "1e21c885-2bf2-56a3-9088-17477f475788",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.target",
-          "when": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.when",
-          "effect": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.effect",
+          "target": "stratagems.Armour_of_Contempt.target",
+          "when": "stratagems.Armour_of_Contempt.when",
+          "effect": "stratagems.Armour_of_Contempt.effect",
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
@@ -3146,87 +3146,87 @@
             "shooting"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.fluff"
+          "fluff": "stratagems.Armour_of_Contempt.fluff"
         },
         {
-          "name": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.name",
+          "name": "stratagems.Tactical_Mastery.name",
           "id": "375dc3ce-1900-54f2-a490-552556eede95",
           "cost": 1,
           "turn": "your",
-          "target": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.target",
-          "when": "detachments.Inner_Circle_Task_Force.stratagems.Fire_Discipline.when",
-          "effect": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.effect",
+          "target": "stratagems.Tactical_Mastery.target",
+          "when": "stratagems.Relic_Teleportarium.when",
+          "effect": "stratagems.Tactical_Mastery.effect",
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
             "movement"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.fluff"
+          "fluff": "stratagems.Tactical_Mastery.fluff"
         },
         {
-          "name": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.name",
+          "name": "stratagems.Inescapable_Justice.name",
           "id": "d125581e-c511-54f8-8be4-ce506efb79f7",
           "cost": 2,
           "turn": "either",
-          "target": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.target",
-          "when": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.when",
-          "effect": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.effect",
+          "target": "stratagems.Inescapable_Justice.target",
+          "when": "stratagems.Inescapable_Justice.when",
+          "effect": "stratagems.Inescapable_Justice.effect",
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
             "any"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.fluff"
+          "fluff": "stratagems.Inescapable_Justice.fluff"
         },
         {
-          "name": "detachments.Wrath_of_the_Rock.stratagems.Unforgiven_Fury.name",
+          "name": "stratagems.Lions_Will.name",
           "id": "74be8407-258d-5b0f-9f8e-564da3749565",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Wrath_of_the_Rock.stratagems.Unforgiven_Fury.target",
-          "when": "detachments.Wrath_of_the_Rock.stratagems.Unforgiven_Fury.when",
-          "effect": "detachments.Wrath_of_the_Rock.stratagems.Unforgiven_Fury.effect",
+          "target": "stratagems.Lions_Will.target",
+          "when": "stratagems.Lions_Will.when",
+          "effect": "stratagems.Lions_Will.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
           "phase": [
             "command"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Wrath_of_the_Rock.stratagems.Unforgiven_Fury.fluff"
+          "fluff": "stratagems.Lions_Will.fluff"
         },
         {
-          "name": "detachments.Wrath_of_the_Rock.stratagems.Fire_Discipline.name",
+          "name": "stratagems.Relics_of_the_Dark_Age.name",
           "id": "8d9b2aba-93d6-5c3d-b704-451d22c0808c",
           "cost": 1,
           "turn": "your",
-          "target": "detachments.Wrath_of_the_Rock.stratagems.Fire_Discipline.target",
-          "when": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.when",
-          "effect": "detachments.Wrath_of_the_Rock.stratagems.Fire_Discipline.effect",
+          "target": "stratagems.Relics_of_the_Dark_Age.target",
+          "when": "stratagems.Fire_Discipline.when",
+          "effect": "stratagems.Relics_of_the_Dark_Age.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
           "phase": [
             "shooting"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Wrath_of_the_Rock.stratagems.Fire_Discipline.fluff"
+          "fluff": "stratagems.Relics_of_the_Dark_Age.fluff"
         },
         {
-          "name": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.name",
+          "name": "stratagems.Leonine_Aggression.name",
           "id": "492be8df-f1c6-5dd5-a57e-4bafb40bd8bd",
           "cost": 1,
           "turn": "opponents",
-          "target": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.target",
-          "when": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.when",
-          "effect": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.effect",
-          "restrictions": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.restrictions",
+          "target": "stratagems.Leonine_Aggression.target",
+          "when": "stratagems.Leonine_Aggression.when",
+          "effect": "stratagems.Leonine_Aggression.effect",
+          "restrictions": "stratagems.Leonine_Aggression.restrictions",
           "type": "Strategic Ploy",
           "phase": [
             "charge"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.fluff"
+          "fluff": "stratagems.Leonine_Aggression.fluff"
         }
       ]
     },
@@ -3302,13 +3302,13 @@
       ],
       "stratagems": [
         {
-          "name": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.name",
+          "name": "stratagems.Armour_of_Contempt.name",
           "id": "1e21c885-2bf2-56a3-9088-17477f475788",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.target",
-          "when": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.when",
-          "effect": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.effect",
+          "target": "stratagems.Armour_of_Contempt.target",
+          "when": "stratagems.Armour_of_Contempt.when",
+          "effect": "stratagems.Armour_of_Contempt.effect",
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
@@ -3316,65 +3316,65 @@
             "shooting"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.fluff"
+          "fluff": "stratagems.Armour_of_Contempt.fluff"
         },
         {
-          "name": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.name",
+          "name": "stratagems.Strength_in_Unity.name",
           "id": "4c62a2dc-5630-5e97-ae30-0aa8a21db3f3",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.target",
-          "when": "detachments.Inner_Circle_Task_Force.stratagems.Armour_of_Contempt.when",
-          "effect": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.effect",
-          "restrictions": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.restrictions",
+          "target": "stratagems.Armour_of_Contempt.target",
+          "when": "stratagems.Duty_Unto_Death.when",
+          "effect": "stratagems.Strength_in_Unity.effect",
+          "restrictions": "stratagems.Strength_in_Unity.restrictions",
           "type": "Battle Tactic",
           "phase": [
             "fight"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.fluff"
+          "fluff": "stratagems.Strength_in_Unity.fluff"
         },
         {
-          "name": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.name",
+          "name": "stratagems.Illuminating_Fire.name",
           "id": "ceb62feb-531d-5079-8ca5-3a9964156783",
           "cost": 1,
           "turn": "your",
-          "target": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.target",
-          "when": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.when",
-          "effect": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.effect",
+          "target": "stratagems.Illuminating_Fire.target",
+          "when": "stratagems.Illuminating_Fire.when",
+          "effect": "stratagems.Illuminating_Fire.effect",
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
             "shooting"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.fluff"
+          "fluff": "stratagems.Illuminating_Fire.fluff"
         },
         {
-          "name": "detachments.Lions_Blade_Task_Force.stratagems.Unforgiven_Fury.name",
+          "name": "stratagems.Overpowering_Exaction.name",
           "id": "1e62d841-d48c-5dff-b50b-0b17db2b8838",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.target",
-          "when": "detachments.Lions_Blade_Task_Force.stratagems.Unforgiven_Fury.when",
-          "effect": "detachments.Lions_Blade_Task_Force.stratagems.Unforgiven_Fury.effect",
-          "restrictions": "detachments.Lions_Blade_Task_Force.stratagems.Unforgiven_Fury.restrictions",
+          "target": "stratagems.Tactical_Mastery.target",
+          "when": "stratagems.Overpowering_Exaction.when",
+          "effect": "stratagems.Overpowering_Exaction.effect",
+          "restrictions": "stratagems.Overpowering_Exaction.restrictions",
           "type": "Strategic Ploy",
           "phase": [
             "command",
             "fight"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Lions_Blade_Task_Force.stratagems.Unforgiven_Fury.fluff"
+          "fluff": "stratagems.Overpowering_Exaction.fluff"
         },
         {
-          "name": "detachments.Lions_Blade_Task_Force.stratagems.Fire_Discipline.name",
+          "name": "stratagems.Knights_of_Iron.name",
           "id": "09221b66-6824-5bbe-9cd6-a5a325d0fdbd",
           "cost": 1,
           "turn": "your",
-          "target": "detachments.Lions_Blade_Task_Force.stratagems.Fire_Discipline.target",
-          "when": "detachments.Lions_Blade_Task_Force.stratagems.Fire_Discipline.when",
-          "effect": "detachments.Lions_Blade_Task_Force.stratagems.Fire_Discipline.effect",
+          "target": "stratagems.Knights_of_Iron.target",
+          "when": "stratagems.Knights_of_Iron.when",
+          "effect": "stratagems.Knights_of_Iron.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
           "phase": [
@@ -3382,23 +3382,23 @@
             "movement"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Lions_Blade_Task_Force.stratagems.Fire_Discipline.fluff"
+          "fluff": "stratagems.Knights_of_Iron.fluff"
         },
         {
-          "name": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.name",
+          "name": "stratagems.Inescapable_Wrath.name",
           "id": "2e8fa28c-a56d-53f3-90a1-70efd631211a",
           "cost": 2,
           "turn": "opponents",
-          "target": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.target",
-          "when": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.when",
-          "effect": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.effect",
-          "restrictions": "detachments.Wrath_of_the_Rock.stratagems.Armour_of_Contempt.restrictions",
+          "target": "stratagems.Inescapable_Wrath.target",
+          "when": "stratagems.Leonine_Aggression.when",
+          "effect": "stratagems.Leonine_Aggression.effect",
+          "restrictions": "stratagems.Leonine_Aggression.restrictions",
           "type": "Strategic Ploy",
           "phase": [
             "charge"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Lions_Blade_Task_Force.stratagems.Armour_of_Contempt.fluff"
+          "fluff": "stratagems.Inescapable_Wrath.fluff"
         }
       ]
     },
@@ -3472,13 +3472,13 @@
       ],
       "stratagems": [
         {
-          "name": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.name",
+          "name": "stratagems.Armour_of_Contempt.name",
           "id": "1e21c885-2bf2-56a3-9088-17477f475788",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.target",
-          "when": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.when",
-          "effect": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.effect",
+          "target": "stratagems.Armour_of_Contempt.target",
+          "when": "stratagems.Armour_of_Contempt.when",
+          "effect": "stratagems.Armour_of_Contempt.effect",
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
@@ -3486,80 +3486,80 @@
             "shooting"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Unforgiven_Task_Force.stratagems.Unmatched_Fortitude.fluff"
+          "fluff": "stratagems.Armour_of_Contempt.fluff"
         },
         {
-          "name": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.name",
+          "name": "stratagems.Death_on_the_Wind.name",
           "id": "af05b8c3-de97-5b86-b5cd-6ab449561ffe",
           "cost": 1,
           "turn": "your",
-          "target": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.target",
-          "when": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.when",
-          "effect": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.effect",
+          "target": "stratagems.Death_on_the_Wind.target",
+          "when": "stratagems.Fire_Discipline.when",
+          "effect": "stratagems.Death_on_the_Wind.effect",
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
             "shooting"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.fluff"
+          "fluff": "stratagems.Death_on_the_Wind.fluff"
         },
         {
-          "name": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.name",
+          "name": "stratagems.High_speed_Focus.name",
           "id": "8abf36ea-7306-5838-9bc1-5fd20c4be38f",
           "cost": 1,
           "turn": "opponents",
-          "target": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.target",
-          "when": "detachments.Inner_Circle_Task_Force.stratagems.Unmatched_Fortitude.when",
-          "effect": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.effect",
+          "target": "stratagems.High_speed_Focus.target",
+          "when": "stratagems.Unmatched_Fortitude.when",
+          "effect": "stratagems.High_speed_Focus.effect",
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
             "shooting"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.fluff"
+          "fluff": "stratagems.High_speed_Focus.fluff"
         },
         {
-          "name": "detachments.Company_of_Hunters.stratagems.Unforgiven_Fury.name",
+          "name": "stratagems.Rapid_Reappraisal.name",
           "id": "378a15bd-5714-5d3a-b81b-849d1bf24dac",
           "cost": 1,
           "turn": "opponents",
-          "target": "detachments.Company_of_Hunters.stratagems.Unforgiven_Fury.target",
-          "when": "detachments.Company_of_Hunters.stratagems.Unforgiven_Fury.when",
-          "effect": "detachments.Company_of_Hunters.stratagems.Unforgiven_Fury.effect",
+          "target": "stratagems.Rapid_Reappraisal.target",
+          "when": "stratagems.Rapid_Reappraisal.when",
+          "effect": "stratagems.Rapid_Reappraisal.effect",
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
             "fight"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Company_of_Hunters.stratagems.Unforgiven_Fury.fluff"
+          "fluff": "stratagems.Rapid_Reappraisal.fluff"
         },
         {
-          "name": "detachments.Company_of_Hunters.stratagems.Fire_Discipline.name",
+          "name": "stratagems.Hunters_Trail.name",
           "id": "10236da0-d847-566a-ae85-0252c537389d",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Company_of_Hunters.stratagems.Fire_Discipline.target",
-          "when": "detachments.Wrath_of_the_Rock.stratagems.Unforgiven_Fury.when",
-          "effect": "detachments.Company_of_Hunters.stratagems.Fire_Discipline.effect",
+          "target": "stratagems.Hunters_Trail.target",
+          "when": "stratagems.Lions_Will.when",
+          "effect": "stratagems.Hunters_Trail.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
           "phase": [
             "command"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Company_of_Hunters.stratagems.Fire_Discipline.fluff"
+          "fluff": "stratagems.Hunters_Trail.fluff"
         },
         {
-          "name": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.name",
+          "name": "stratagems.Talon_Strike.name",
           "id": "7c763c8d-91b4-59e9-a259-dd9d545012e5",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.target",
-          "when": "detachments.Unforgiven_Task_Force.stratagems.Armour_of_Contempt.when",
-          "effect": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.effect",
+          "target": "stratagems.Talon_Strike.target",
+          "when": "stratagems.Unforgiven_Fury.when",
+          "effect": "stratagems.Talon_Strike.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
           "phase": [
@@ -3567,7 +3567,7 @@
             "shooting"
           ],
           "faction_id": "CHDA",
-          "fluff": "detachments.Company_of_Hunters.stratagems.Armour_of_Contempt.fluff"
+          "fluff": "stratagems.Talon_Strike.fluff"
         }
       ]
     }

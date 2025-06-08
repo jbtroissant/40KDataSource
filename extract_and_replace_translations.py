@@ -152,88 +152,48 @@ def process_file(input_file):
             if rule_name:
                 army_rule_index_to_name[str(idx)] = clean_key(rule_name)
 
-    def get_detachment_name_for_stratagem(data, stratagem):
-        # Si le stratagème a directement un champ detachment
-        if isinstance(stratagem, dict) and "detachment" in stratagem:
-            return stratagem["detachment"]
-        
-        # Sinon, on cherche dans le chemin pour trouver le détachement
-        if isinstance(data, dict) and "detachments" in data:
-            for detachment in data["detachments"]:
-                if isinstance(detachment, dict) and "stratagems" in detachment:
-                    for s in detachment["stratagems"]:
-                        if isinstance(s, dict) and s.get("id") == stratagem.get("id"):
-                            return detachment.get("name", "Default Detachment")
-                elif isinstance(detachment, str):
-                    return detachment
-        
-        return "Default Detachment"
-
-    def make_key(path, k):
-        # --- NOUVEAU : remplace l'index de datasheet, stratagem, enhancement, detachment, rules.army par le nom ---
-        new_path = []
-        i = 0
-        while i < len(path):
-            if path[i] == "datasheets" and i+1 < len(path):
-                idx = path[i+1]
-                if idx in datasheet_index_to_name:
-                    new_path.append("datasheets")
-                    new_path.append(datasheet_index_to_name[idx])
-                    i += 2
+    def extract_texts_nested(obj):
+        """
+        Retourne un objet imbriqué ne contenant que les champs textuels à traduire, avec la même structure que le JSON d'origine.
+        """
+        if isinstance(obj, dict):
+            result = {}
+            for k, v in obj.items():
+                if k in IGNORED_FIELDS:
                     continue
-            if path[i] == "stratagems" and i+1 < len(path):
-                idx = path[i+1]
-                if idx in stratagem_index_to_name:
-                    new_path.append("stratagems")
-                    new_path.append(stratagem_index_to_name[idx])
-                    i += 2
-                    continue
-            if path[i] == "enhancements" and i+1 < len(path):
-                idx = path[i+1]
-                if idx in enhancement_index_to_name:
-                    new_path.append("enhancements")
-                    new_path.append(enhancement_index_to_name[idx])
-                    i += 2
-                    continue
-            if path[i] == "detachments" and i+1 < len(path):
-                idx = path[i+1]
-                if idx in detachment_index_to_name:
-                    new_path.append("detachments")
-                    new_path.append(detachment_index_to_name[idx])
-                    i += 2
-                    continue
-            if path[i] == "rules" and i+1 < len(path) and path[i+1] == "army" and i+2 < len(path):
-                idx = path[i+2]
-                if idx in army_rule_index_to_name:
-                    new_path.append("rules")
-                    new_path.append("army")
-                    new_path.append(army_rule_index_to_name[idx])
-                    i += 3
-                    continue
-            new_path.append(path[i])
-            i += 1
-        # Pour la clé courante
-        if k == "datasheets" and len(path) > 0 and path[-1] in datasheet_index_to_name:
-            new_path.append("datasheets")
-            new_path.append(datasheet_index_to_name[path[-1]])
-        elif k == "stratagems" and len(path) > 0 and path[-1] in stratagem_index_to_name:
-            new_path.append("stratagems")
-            new_path.append(stratagem_index_to_name[path[-1]])
-        elif k == "enhancements" and len(path) > 0 and path[-1] in enhancement_index_to_name:
-            new_path.append("enhancements")
-            new_path.append(enhancement_index_to_name[path[-1]])
-        elif k == "detachments" and len(path) > 0 and path[-1] in detachment_index_to_name:
-            new_path.append("detachments")
-            new_path.append(detachment_index_to_name[path[-1]])
-        elif k == "army" and len(path) > 1 and path[-2] == "rules" and path[-1] in army_rule_index_to_name:
-            new_path.append("rules")
-            new_path.append("army")
-            new_path.append(army_rule_index_to_name[path[-1]])
+                if isinstance(v, TEXT_TYPES) and v.strip() != "" and not v.strip().startswith("http"):
+                    result[k] = v
+                elif isinstance(v, list):
+                    if v and all(isinstance(i, TEXT_TYPES) and i.strip() != "" for i in v):
+                        result[k] = v
+                    else:
+                        nested_list = []
+                        for item in v:
+                            nested = extract_texts_nested(item)
+                            if nested:
+                                nested_list.append(nested)
+                            else:
+                                nested_list.append(None)
+                        result[k] = nested_list
+                elif isinstance(v, dict):
+                    nested = extract_texts_nested(v)
+                    if nested:
+                        result[k] = nested
+                # sinon, on ignore
+            return result if result else None
+        elif isinstance(obj, list):
+            nested_list = []
+            for item in obj:
+                nested = extract_texts_nested(item)
+                if nested:
+                    nested_list.append(nested)
+                else:
+                    nested_list.append(None)
+            return nested_list if any(nested_list) else None
         else:
-            new_path.append(clean_key(str(k)))
-        return '.'.join(new_path)
+            return None
 
-    def extract_texts(obj, path=None, translations=None, replaced=None, value_to_key=None, root_data=None):
+    def extract_texts(obj, path=None, translations=None, replaced=None, value_to_key=None):
         if path is None:
             path = []
         if translations is None:
@@ -242,8 +202,6 @@ def process_file(input_file):
             replaced = obj
         if value_to_key is None:
             value_to_key = {}
-        if root_data is None:
-            root_data = obj
 
         def is_priority_value(val):
             return (
@@ -251,6 +209,70 @@ def process_file(input_file):
                 or val in ADDITIONAL_PRIORITY_WORDS
                 or any(val.startswith(prefix) for prefix in PRIORITY_PREFIXES)
             )
+
+        def make_key(path, k):
+            # --- NOUVEAU : remplace l'index de datasheet, stratagem, enhancement, detachment, rules.army par le nom ---
+            new_path = []
+            i = 0
+            while i < len(path):
+                if path[i] == "datasheets" and i+1 < len(path):
+                    idx = path[i+1]
+                    if idx in datasheet_index_to_name:
+                        new_path.append("datasheets")
+                        new_path.append(datasheet_index_to_name[idx])
+                        i += 2
+                        continue
+                if path[i] == "stratagems" and i+1 < len(path):
+                    idx = path[i+1]
+                    if idx in stratagem_index_to_name:
+                        new_path.append("stratagems")
+                        new_path.append(stratagem_index_to_name[idx])
+                        i += 2
+                        continue
+                if path[i] == "enhancements" and i+1 < len(path):
+                    idx = path[i+1]
+                    if idx in enhancement_index_to_name:
+                        new_path.append("enhancements")
+                        new_path.append(enhancement_index_to_name[idx])
+                        i += 2
+                        continue
+                if path[i] == "detachments" and i+1 < len(path):
+                    idx = path[i+1]
+                    if idx in detachment_index_to_name:
+                        new_path.append("detachments")
+                        new_path.append(detachment_index_to_name[idx])
+                        i += 2
+                        continue
+                if path[i] == "rules" and i+1 < len(path) and path[i+1] == "army" and i+2 < len(path):
+                    idx = path[i+2]
+                    if idx in army_rule_index_to_name:
+                        new_path.append("rules")
+                        new_path.append("army")
+                        new_path.append(army_rule_index_to_name[idx])
+                        i += 3
+                        continue
+                new_path.append(path[i])
+                i += 1
+            # Pour la clé courante
+            if k == "datasheets" and len(path) > 0 and path[-1] in datasheet_index_to_name:
+                new_path.append("datasheets")
+                new_path.append(datasheet_index_to_name[path[-1]])
+            elif k == "stratagems" and len(path) > 0 and path[-1] in stratagem_index_to_name:
+                new_path.append("stratagems")
+                new_path.append(stratagem_index_to_name[path[-1]])
+            elif k == "enhancements" and len(path) > 0 and path[-1] in enhancement_index_to_name:
+                new_path.append("enhancements")
+                new_path.append(enhancement_index_to_name[path[-1]])
+            elif k == "detachments" and len(path) > 0 and path[-1] in detachment_index_to_name:
+                new_path.append("detachments")
+                new_path.append(detachment_index_to_name[path[-1]])
+            elif k == "army" and len(path) > 1 and path[-2] == "rules" and path[-1] in army_rule_index_to_name:
+                new_path.append("rules")
+                new_path.append("army")
+                new_path.append(army_rule_index_to_name[path[-1]])
+            else:
+                new_path.append(clean_key(str(k)))
+            return '.'.join(new_path)
 
         if isinstance(obj, dict):
             temp = {}
@@ -298,9 +320,7 @@ def process_file(input_file):
                         elif v in value_to_key:
                             key = value_to_key[v]
                         else:
-                            # Pour les stratagèmes, on utilise uniquement le nom du stratagème et l'attribut
-                            stratagem_name = obj.get('name', '')
-                            key = f"stratagems.{clean_key(stratagem_name)}.{k}"
+                            key = make_key(path, k)
                             value_to_key[v] = key
                         translations[key] = v
                         temp[k] = key
@@ -358,7 +378,7 @@ def process_file(input_file):
                                     sub = {}
                                 else:
                                     sub = []
-                                extract_texts(item, new_path + [str(idx)], translations, sub, value_to_key, root_data)
+                                extract_texts(item, new_path + [str(idx)], translations, sub, value_to_key)
                                 if (isinstance(sub, dict) and not sub) or (isinstance(sub, list) and not sub):
                                     sublist.append(item)
                                 else:
@@ -378,7 +398,7 @@ def process_file(input_file):
                         temp[k] = sublist
                 elif isinstance(v, dict):
                     sub = {}
-                    extract_texts(v, new_path, translations, sub, value_to_key, root_data)
+                    extract_texts(v, new_path, translations, sub, value_to_key)
                     if not sub:
                         temp[k] = v
                     else:
@@ -395,7 +415,7 @@ def process_file(input_file):
                         sub = {}
                     else:
                         sub = []
-                    extract_texts(item, path + [str(idx)], translations, sub, value_to_key, root_data)
+                    extract_texts(item, path + [str(idx)], translations, sub, value_to_key)
                     if (isinstance(sub, dict) and not sub) or (isinstance(sub, list) and not sub):
                         sublist.append(item)
                     else:
@@ -598,7 +618,7 @@ def process_file(input_file):
     data = add_invul_to_stats(data)
 
     # Extraction et remplacement
-    translations, replaced = extract_texts(data, root_data=data)
+    translations, replaced = extract_texts(data)
 
     # Fichiers à plat uniquement
     FLAT_FILE_FR = os.path.join(FR_DIR, f'{data_id}.flat.json')

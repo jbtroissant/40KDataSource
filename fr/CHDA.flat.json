@@ -368,8 +368,6 @@
   "stratagems.Duty_Unto_Death.effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 if your unit is within range of your Vowed objective marker. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
   "stratagems.Duty_Unto_Death.fluff": "So driven by duty are the veterans of the Unforgiven that even death cannot keep them from it.",
   "detachments.Wrath_of_the_Rock.name": "Wrath of the Rock",
-  "detachments.Wrath_of_the_Rock.rules.0.rule.0.name": "Ténacité Diligente",
-  "detachments.Wrath_of_the_Rock.rules.0.rule.0.text": "Chaque fois qu’une attaque cible une unité Montée de l’Adeptus Astartes ou d’Infanterie de l’Adeptus Astartes de votre armée, si la caractéristique de Force de l’attaque est supérieure à la caractéristique d’Endurance de l’unité, soustrayez 1 au jet de Blessure.",
   "detachments.Wrath_of_the_Rock.enhancements.Shroud_of_Heroes.name": "Tempered in Battle (Aura)",
   "detachments.Wrath_of_the_Rock.enhancements.Shroud_of_Heroes.description": "ADEPTUS ASTARTES model only. While a friendly ADEPTUS ASTARTES unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit.",
   "detachments.Wrath_of_the_Rock.enhancements.Stubborn_Tenacity.name": "Ancient Weapons",

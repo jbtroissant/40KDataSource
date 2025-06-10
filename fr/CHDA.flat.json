@@ -475,48 +475,8 @@
   "rules.army.The_Unforgiven.rule.0.text": "■ If an **ADEPTUS ASTARTES** unit has a second Faction keyword on its datasheet, that Faction keyword is the name of that unit’s Chapter. For example, Asmodai has both the **ADEPTUS ASTARTES** and **DARK ANGELS** Faction keywords, and is therefore from the Dark Angels Chapter.\n■ You cannot include units from more than one Chapter in your army.\n\n**Designer’s Note**: The rules presented in this section assume that the **ADEPTUS ASTARTES** units in your army are from the Dark Angels Chapter, but they can also be used to represent any Dark Angels successor Chapter, such as one described in the background section of this book, or even one of your own invention. However, players who wish to faithfully recreate the Dark Angels Chapter on the tabletop should only include **DARK ANGELS EPIC HEROES** if their collection is intended to represent the First Founding Chapter itself; Ezekiel is the Chief Librarian of the Dark Angels, for example, and not of any of their successors.",
   "abilities_0_name": "datasheets.Lion_ElJonson.abilities.primarch.0.abilities.0.name",
   "abilities_0_description": "datasheets.Lion_ElJonson.abilities.primarch.0.abilities.0.description",
-  "abilities_0_showAbility": true,
-  "abilities_0_showDescription": true,
   "abilities_1_name": "datasheets.Lion_ElJonson.abilities.primarch.0.abilities.1.name",
   "abilities_1_description": "datasheets.Lion_ElJonson.abilities.primarch.0.abilities.1.description",
-  "abilities_1_showAbility": true,
-  "abilities_1_showDescription": true,
   "abilities_2_name": "datasheets.Lion_ElJonson.abilities.primarch.0.abilities.2.name",
-  "abilities_2_description": "datasheets.Lion_ElJonson.abilities.primarch.0.abilities.2.description",
-  "abilities_2_showAbility": true,
-  "abilities_2_showDescription": true,
-  "true": true,
-  "Deep Strike,Fights First": [
-    "Deep Strike",
-    "Fights First"
-  ],
-  "[object Object]": [
-    {
-      "description": "datasheets.Lion_ElJonson.abilities.special.0.description",
-      "name": "datasheets.Lion_ElJonson.abilities.special.0.name",
-      "showAbility": true,
-      "showDescription": true
-    }
-  ],
-  "[object Object],[object Object],[object Object]": [
-    {
-      "name": "datasheets.Lion_ElJonson.abilities.other.0.name",
-      "description": "datasheets.Lion_ElJonson.abilities.other.0.description",
-      "showAbility": true,
-      "showDescription": true
-    },
-    {
-      "name": "datasheets.Lion_ElJonson.abilities.other.1.name",
-      "description": "datasheets.Lion_ElJonson.abilities.other.1.description",
-      "showAbility": true,
-      "showDescription": true
-    },
-    {
-      "name": "datasheets.Lion_ElJonson.abilities.other.2.name",
-      "description": "datasheets.Lion_ElJonson.abilities.other.2.description",
-      "showAbility": true,
-      "showDescription": true
-    }
-  ],
-  "": []
+  "abilities_2_description": "datasheets.Lion_ElJonson.abilities.primarch.0.abilities.2.description"
 }

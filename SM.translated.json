@@ -31476,26 +31476,6 @@
   "parent_id": "",
   "rules": {
     "army": [
-      {
-        "name": "datasheets.Ravenwing_Darkshroud.abilities.faction.0",
-        "rule": [
-          {
-            "order": 1,
-            "text": "rules.army.Oath_of_Moment.rule.0.text",
-            "type": "text"
-          }
-        ]
-      },
-      {
-        "name": "rules.army.Space_Marine_Chapters.name",
-        "rule": [
-          {
-            "order": 1,
-            "text": "rules.army.Space_Marine_Chapters.rule.0.text",
-            "type": "text"
-          }
-        ]
-      }
     ]
   },
   "updated": "2025-05-29T08:37:07.359Z"

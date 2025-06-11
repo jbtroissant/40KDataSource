@@ -31487,7 +31487,7 @@
         ]
       },
       {
-        "name": "Space Marine Chapters",
+        "name": "rules.army.Space_Marine_Chapters.name",
         "rule": [
           {
             "order": 1,

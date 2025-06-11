@@ -8425,7 +8425,19 @@
   "name": "Space Wolves",
   "parent_id": "",
   "rules": {
-    "army": []
+    "army": [
+      {
+        "name": "rules.army.oath_of_moment.name",
+        "order": 0,
+        "rule": [
+          {
+            "order": 0,
+            "text": "rules.army.oath_of_moment.rule.0.text",
+            "type": "text"
+          }
+        ]
+      }
+    ]
   },
   "updated": "2025-05-29T08:37:07.471Z"
 }

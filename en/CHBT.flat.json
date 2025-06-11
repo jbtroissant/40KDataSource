@@ -358,5 +358,7 @@
   "detachments.Righteous_Crusaders.stratagems.Castigate_the_Demagogues.effect": "Your unit can make a Normal move of up to D6\", but it must end that move closer to the enemy unit that just shot. If the Abhor the Witch, Destroy the Witch vow is active for your army, your unit can make a Normal move of up to 6\" instead, but it must end that move either closer to the enemy unit that just shot, or closer to the closest enemy PSYKER unit.",
   "detachments.Righteous_Crusaders.stratagems.Castigate_the_Demagogues.fluff": "With a zealous cry, the Black Templars press forward towards victory.",
   "name": "Black Templar",
-  "parent_keyword": "Adeptus Astartes"
+  "parent_keyword": "Adeptus Astartes",
+  "rules.army.oath_of_moment.name": "Oath of Moment",
+  "rules.army.oath_of_moment.rule.0.text": "If your Army Faction is ADEPTUS ASTARTES, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target.  \n  \nEach time a model with this ability makes an attack that targets your Oath of Moment target: ■ You can re-roll the Hit roll. ■ If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the BLACK TEMPLARS, BLOOD ANGELS, DARK ANGELS, DEATHWATCH or SPACE WOLVES keywords, add 1 to the Wound roll as well."
 }

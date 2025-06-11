@@ -31476,6 +31476,26 @@
   "parent_id": "",
   "rules": {
     "army": [
+      {
+        "name": "rules.army.Oath_of_Moment.name",
+        "rule": [
+          {
+            "order": 1,
+            "text": "rules.army.Oath_of_Moment.rule.0.text",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "Space Marine Chapters",
+        "rule": [
+          {
+            "order": 1,
+            "text": "rules.army.Space_Marine_Chapters.rule.0.text",
+            "type": "text"
+          }
+        ]
+      }
     ]
   },
   "updated": "2025-05-29T08:37:07.359Z"

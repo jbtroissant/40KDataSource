@@ -69,7 +69,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Telemon_Heavy_Dreadnought.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_feet",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -85,7 +85,7 @@
               "attacks": "5",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Telemon_Heavy_Dreadnought.meleeWeapons.1.profiles.0.name",
+              "name": "telemon_caestus",
               "range": "Melee",
               "skill": "2+",
               "strength": "12"
@@ -114,7 +114,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Telemon_Heavy_Dreadnought.rangedWeapons.0.profiles.0.name",
+              "name": "spiculus_bolt_launcher",
               "range": "36\"",
               "skill": "2+",
               "strength": "5"
@@ -130,7 +130,7 @@
               "attacks": "4",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Telemon_Heavy_Dreadnought.rangedWeapons.1.profiles.0.name",
+              "name": "iliastus_accelerator_culverin",
               "range": "48\"",
               "skill": "2+",
               "strength": "9"
@@ -148,7 +148,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Telemon_Heavy_Dreadnought.rangedWeapons.2.profiles.0.name",
+              "name": "arachnus_storm_cannon",
               "range": "24\"",
               "skill": "2+",
               "strength": "6"
@@ -167,7 +167,7 @@
                 "Twin-linked",
                 "Torrent"
               ],
-              "name": "datasheets.Telemon_Heavy_Dreadnought.rangedWeapons.3.profiles.0.name",
+              "name": "twin_plasma_projector",
               "range": "12\"",
               "skill": "N/A",
               "strength": "7"
@@ -253,7 +253,7 @@
               "keywords": [
                 "Lance"
               ],
-              "name": "datasheets.Contemptor_Achillus_Dreadnought.meleeWeapons.0.profiles.0.name",
+              "name": "achillus_dreadspear",
               "range": "Melee",
               "skill": "2+",
               "strength": "12"
@@ -280,7 +280,7 @@
               "attacks": "1",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Contemptor_Achillus_Dreadnought.meleeWeapons.0.profiles.0.name",
+              "name": "achillus_dreadspear",
               "range": "12\"",
               "skill": "2+",
               "strength": "9"
@@ -298,7 +298,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Contemptor_Achillus_Dreadnought.rangedWeapons.1.profiles.0.name",
+              "name": "lastrum_storm_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "5"
@@ -317,7 +317,7 @@
                 "Ignores Cover",
                 "Torrent"
               ],
-              "name": "datasheets.Contemptor_Achillus_Dreadnought.rangedWeapons.2.profiles.0.name",
+              "name": "infernus_incinerator",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -335,7 +335,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Contemptor_Achillus_Dreadnought.rangedWeapons.3.profiles.0.name",
+              "name": "twin_adrathic_destructor",
               "range": "18\"",
               "skill": "2+",
               "strength": "6"
@@ -419,7 +419,7 @@
               "attacks": "8",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Contemptor_Galatus_Dreadnought.meleeWeapons.0.profiles.0.name",
+              "name": "galatus_warblade",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -450,7 +450,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Contemptor_Galatus_Dreadnought.meleeWeapons.0.profiles.0.name",
+              "name": "galatus_warblade",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -533,7 +533,7 @@
               "attacks": "5",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Venerable_Contemptor_Dreadnought.meleeWeapons.0.profiles.0.name",
+              "name": "contemptor_combat_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "12"
@@ -562,7 +562,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Venerable_Contemptor_Dreadnought.rangedWeapons.0.profiles.0.name",
+              "name": "combi_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -580,7 +580,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Venerable_Contemptor_Dreadnought.rangedWeapons.1.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "2+",
               "strength": "9"
@@ -598,7 +598,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Venerable_Contemptor_Dreadnought.rangedWeapons.2.profiles.0.name",
+              "name": "kheres_pattern_assault_cannon",
               "range": "24\"",
               "skill": "2+",
               "strength": "7"
@@ -690,7 +690,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Blade_Champion.meleeWeapons.0.profiles.0.name",
+              "name": "vaultswords_hurricanis",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -703,7 +703,7 @@
               "keywords": [
                 "Precision"
               ],
-              "name": "datasheets.Blade_Champion.meleeWeapons.0.profiles.1.name",
+              "name": "vaultswords_behemor",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -716,7 +716,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Blade_Champion.meleeWeapons.0.profiles.2.name",
+              "name": "vaultswords_victus",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -817,7 +817,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Caladius_Grav_tank.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -847,7 +847,7 @@
                 "Twin-linked",
                 "Rapid Fire 4"
               ],
-              "name": "datasheets.Caladius_Grav_tank.rangedWeapons.0.profiles.0.name",
+              "name": "twin_iliastus_accelerator_cannon",
               "range": "48\"",
               "skill": "2+",
               "strength": "10"
@@ -865,7 +865,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Caladius_Grav_tank.rangedWeapons.1.profiles.0.name",
+              "name": "twin_lastrum_bolt_cannon",
               "range": "36\"",
               "skill": "2+",
               "strength": "6"
@@ -883,7 +883,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Caladius_Grav_tank.rangedWeapons.2.profiles.0.name",
+              "name": "twin_arachnus_heavy_blaze_cannon",
               "range": "48\"",
               "skill": "2+",
               "strength": "12"
@@ -979,7 +979,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Allarus_Custodians.meleeWeapons.0.profiles.0.name",
+              "name": "guardian_spear_melee",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -995,7 +995,7 @@
               "attacks": "4",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Allarus_Custodians.meleeWeapons.1.profiles.0.name",
+              "name": "castellan_axe_melee",
               "range": "Melee",
               "skill": "2+",
               "strength": "9"
@@ -1011,7 +1011,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Allarus_Custodians.meleeWeapons.2.profiles.0.name",
+              "name": "misericordia",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -1058,7 +1058,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Allarus_Custodians.rangedWeapons.0.profiles.0.name",
+              "name": "balistus_grenade_launcher",
               "range": "18\"",
               "skill": "2+",
               "strength": "4"
@@ -1076,7 +1076,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Allarus_Custodians.rangedWeapons.1.profiles.0.name",
+              "name": "guardian_spear_ranged",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -1094,7 +1094,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Allarus_Custodians.rangedWeapons.2.profiles.0.name",
+              "name": "castellan_axe_ranged",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -1191,7 +1191,7 @@
               "keywords": [
                 "Lance"
               ],
-              "name": "datasheets.Shield_Captain_on_Dawneagle_Jetbike.meleeWeapons.0.profiles.0.name",
+              "name": "interceptor_lance",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -1220,7 +1220,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Shield_Captain_on_Dawneagle_Jetbike.rangedWeapons.0.profiles.0.name",
+              "name": "salvo_launcher",
               "range": "24\"",
               "skill": "2+",
               "strength": "10"
@@ -1239,7 +1239,7 @@
                 "Twin-linked",
                 "Rapid Fire 3"
               ],
-              "name": "datasheets.Shield_Captain_on_Dawneagle_Jetbike.rangedWeapons.1.profiles.0.name",
+              "name": "vertus_hurricane_bolter",
               "range": "18\"",
               "skill": "2+",
               "strength": "4"
@@ -1334,7 +1334,7 @@
                 "Devastating Wounds",
                 "Anti-psyker 5+"
               ],
-              "name": "datasheets.Vigilators.meleeWeapons.0.profiles.0.name",
+              "name": "executioner_greatblade",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -1461,7 +1461,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Allarus_Custodians.meleeWeapons.2.profiles.0.name",
+              "name": "misericordia",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -1490,7 +1490,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Sagittarum_Custodians.rangedWeapons.0.profiles.0.name",
+              "name": "adrastus_bolt_caliver",
               "range": "36\"",
               "skill": "2+",
               "strength": "5"
@@ -1578,7 +1578,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Witchseekers.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -1626,7 +1626,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Witchseekers.rangedWeapons.0.profiles.0.name",
+              "name": "witchseeker_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -1715,7 +1715,7 @@
               "attacks": "9",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Caladius_Grav_tank.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "9"
@@ -1742,7 +1742,7 @@
               "attacks": "3",
               "damage": "D6+6",
               "keywords": [],
-              "name": "datasheets.Ares_Gunship.rangedWeapons.0.profiles.0.name",
+              "name": "arachnus_magna_blaze_cannon",
               "range": "48\"",
               "skill": "2+",
               "strength": "18"
@@ -1758,7 +1758,7 @@
               "attacks": "4",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Ares_Gunship.rangedWeapons.1.profiles.0.name",
+              "name": "arachnus_heavy_blaze_cannon",
               "range": "36\"",
               "skill": "2+",
               "strength": "12"
@@ -1866,7 +1866,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Allarus_Custodians.meleeWeapons.0.profiles.0.name",
+              "name": "guardian_spear_melee",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -1882,7 +1882,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Custodian_Guard.meleeWeapons.1.profiles.0.name",
+              "name": "sentinel_blade_melee",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -1898,7 +1898,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Allarus_Custodians.meleeWeapons.2.profiles.0.name",
+              "name": "misericordia",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -1933,7 +1933,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Allarus_Custodians.rangedWeapons.1.profiles.0.name",
+              "name": "guardian_spear_ranged",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -1952,7 +1952,7 @@
                 "Pistol",
                 "Assault"
               ],
-              "name": "datasheets.Custodian_Guard.rangedWeapons.1.profiles.0.name",
+              "name": "sentinel_blade_ranged",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -2046,7 +2046,7 @@
               "attacks": "9",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Caladius_Grav_tank.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "9"
@@ -2073,7 +2073,7 @@
               "attacks": "4",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Ares_Gunship.rangedWeapons.1.profiles.0.name",
+              "name": "arachnus_heavy_blaze_cannon",
               "range": "36\"",
               "skill": "2+",
               "strength": "12"
@@ -2091,7 +2091,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Caladius_Grav_tank.rangedWeapons.1.profiles.0.name",
+              "name": "twin_lastrum_bolt_cannon",
               "range": "36\"",
               "skill": "2+",
               "strength": "6"
@@ -2109,7 +2109,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Orion_Assault_Dropship.rangedWeapons.2.profiles.0.name",
+              "name": "spiculus_heavy_bolt_launcher",
               "range": "36\"",
               "skill": "2+",
               "strength": "7"
@@ -2207,7 +2207,7 @@
                 "Devastating Wounds",
                 "Anti-psyker 5+"
               ],
-              "name": "datasheets.Vigilators.meleeWeapons.0.profiles.0.name",
+              "name": "executioner_greatblade",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -2223,7 +2223,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Witchseekers.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "3"
@@ -2252,7 +2252,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Knight_Centura.rangedWeapons.0.profiles.0.name",
+              "name": "master_crafted_boltgun",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -2271,7 +2271,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Witchseekers.rangedWeapons.0.profiles.0.name",
+              "name": "witchseeker_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -2370,7 +2370,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Anathema_Psykana_Rhino.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -2399,7 +2399,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Anathema_Psykana_Rhino.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -2417,7 +2417,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Anathema_Psykana_Rhino.rangedWeapons.1.profiles.0.name",
+              "name": "hunter_killer_missile",
               "range": "48\"",
               "skill": "2+",
               "strength": "14"
@@ -2524,7 +2524,7 @@
                 "Devastating Wounds",
                 "Anti-psyker 5+"
               ],
-              "name": "datasheets.Aleya.meleeWeapons.0.profiles.0.name",
+              "name": "somnus",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -2639,7 +2639,7 @@
               "keywords": [
                 "Lance"
               ],
-              "name": "datasheets.Shield_Captain_on_Dawneagle_Jetbike.meleeWeapons.0.profiles.0.name",
+              "name": "interceptor_lance",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -2674,7 +2674,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Agamatus_Custodians.rangedWeapons.0.profiles.0.name",
+              "name": "lastrum_bolt_cannon",
               "range": "36\"",
               "skill": "2+",
               "strength": "6"
@@ -2690,7 +2690,7 @@
               "attacks": "1",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Agamatus_Custodians.rangedWeapons.1.profiles.0.name",
+              "name": "adrathic_devastator",
               "range": "18\"",
               "skill": "2+",
               "strength": "7"
@@ -2708,7 +2708,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Agamatus_Custodians.rangedWeapons.2.profiles.0.name",
+              "name": "twin_las_pulsar",
               "range": "24\"",
               "skill": "2+",
               "strength": "9"
@@ -2792,7 +2792,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Anathema_Psykana_Rhino.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -2822,7 +2822,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Venerable_Land_Raider.rangedWeapons.0.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "2+",
               "strength": "5"
@@ -2838,7 +2838,7 @@
               "attacks": "2",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Venerable_Land_Raider.rangedWeapons.1.profiles.0.name",
+              "name": "godhammer_lascannon",
               "range": "48\"",
               "skill": "2+",
               "strength": "12"
@@ -2856,7 +2856,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Anathema_Psykana_Rhino.rangedWeapons.1.profiles.0.name",
+              "name": "hunter_killer_missile",
               "range": "48\"",
               "skill": "2+",
               "strength": "14"
@@ -2882,7 +2882,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Anathema_Psykana_Rhino.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -2977,7 +2977,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Allarus_Custodians.meleeWeapons.0.profiles.0.name",
+              "name": "guardian_spear_melee",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -2993,7 +2993,7 @@
               "attacks": "4",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Allarus_Custodians.meleeWeapons.1.profiles.0.name",
+              "name": "castellan_axe_melee",
               "range": "Melee",
               "skill": "2+",
               "strength": "9"
@@ -3028,7 +3028,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Allarus_Custodians.rangedWeapons.1.profiles.0.name",
+              "name": "guardian_spear_ranged",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -3046,7 +3046,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Allarus_Custodians.rangedWeapons.2.profiles.0.name",
+              "name": "castellan_axe_ranged",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -3137,7 +3137,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Caladius_Grav_tank.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -3167,7 +3167,7 @@
                 "Twin-linked",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Pallas_Grav_attack.rangedWeapons.0.profiles.0.name",
+              "name": "twin_arachnus_blaze_cannon",
               "range": "24\"",
               "skill": "2+",
               "strength": "5"
@@ -3256,7 +3256,7 @@
               "keywords": [
                 "Lance"
               ],
-              "name": "datasheets.Shield_Captain_on_Dawneagle_Jetbike.meleeWeapons.0.profiles.0.name",
+              "name": "interceptor_lance",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -3291,7 +3291,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Shield_Captain_on_Dawneagle_Jetbike.rangedWeapons.0.profiles.0.name",
+              "name": "salvo_launcher",
               "range": "24\"",
               "skill": "2+",
               "strength": "10"
@@ -3310,7 +3310,7 @@
                 "Twin-linked",
                 "Rapid Fire 3"
               ],
-              "name": "datasheets.Shield_Captain_on_Dawneagle_Jetbike.rangedWeapons.1.profiles.0.name",
+              "name": "vertus_hurricane_bolter",
               "range": "18\"",
               "skill": "2+",
               "strength": "4"
@@ -3406,7 +3406,7 @@
               "attacks": "7",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Valerian.meleeWeapons.0.profiles.0.name",
+              "name": "gnosis_melee",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -3435,7 +3435,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Valerian.rangedWeapons.0.profiles.0.name",
+              "name": "gnosis_ranged",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -3549,7 +3549,7 @@
               "keywords": [
                 "Lance"
               ],
-              "name": "datasheets.Venatari_Custodians.meleeWeapons.0.profiles.0.name",
+              "name": "venatari_lance",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -3584,7 +3584,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Venatari_Custodians.meleeWeapons.0.profiles.0.name",
+              "name": "venatari_lance",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -3603,7 +3603,7 @@
                 "Sustained Hits 1",
                 "Pistol"
               ],
-              "name": "datasheets.Venatari_Custodians.rangedWeapons.1.profiles.0.name",
+              "name": "kinetic_destroyer",
               "range": "12\"",
               "skill": "2+",
               "strength": "6"
@@ -3694,7 +3694,7 @@
               "attacks": "7",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Allarus_Custodians.meleeWeapons.0.profiles.0.name",
+              "name": "guardian_spear_melee",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -3710,7 +3710,7 @@
               "attacks": "6",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Allarus_Custodians.meleeWeapons.1.profiles.0.name",
+              "name": "castellan_axe_melee",
               "range": "Melee",
               "skill": "2+",
               "strength": "9"
@@ -3739,7 +3739,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Allarus_Custodians.rangedWeapons.0.profiles.0.name",
+              "name": "balistus_grenade_launcher",
               "range": "18\"",
               "skill": "2+",
               "strength": "4"
@@ -3757,7 +3757,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Allarus_Custodians.rangedWeapons.1.profiles.0.name",
+              "name": "guardian_spear_ranged",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -3775,7 +3775,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Allarus_Custodians.rangedWeapons.2.profiles.0.name",
+              "name": "castellan_axe_ranged",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -3878,7 +3878,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Aquilon_Custodians.meleeWeapons.0.profiles.0.name",
+              "name": "solerite_power_gauntlet",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -3894,7 +3894,7 @@
               "attacks": "7",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Aquilon_Custodians.meleeWeapons.1.profiles.0.name",
+              "name": "solerite_power_talon",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -3929,7 +3929,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Contemptor_Achillus_Dreadnought.rangedWeapons.1.profiles.0.name",
+              "name": "lastrum_storm_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "5"
@@ -3948,7 +3948,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Aquilon_Custodians.rangedWeapons.1.profiles.0.name",
+              "name": "infernus_firepike",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -3966,7 +3966,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Contemptor_Achillus_Dreadnought.rangedWeapons.3.profiles.0.name",
+              "name": "twin_adrathic_destructor",
               "range": "18\"",
               "skill": "2+",
               "strength": "6"
@@ -4063,7 +4063,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Custodian_Guard_with_Adrasite_and_Pyrithite_Spears.meleeWeapons.0.profiles.0.name",
+              "name": "adrasite_spear",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -4079,7 +4079,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Custodian_Guard_with_Adrasite_and_Pyrithite_Spears.meleeWeapons.1.profiles.0.name",
+              "name": "pyrithite_spear",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -4106,7 +4106,7 @@
               "attacks": "1",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Custodian_Guard_with_Adrasite_and_Pyrithite_Spears.meleeWeapons.0.profiles.0.name",
+              "name": "adrasite_spear",
               "range": "18\"",
               "skill": "2+",
               "strength": "5"
@@ -4124,7 +4124,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Custodian_Guard_with_Adrasite_and_Pyrithite_Spears.meleeWeapons.1.profiles.0.name",
+              "name": "pyrithite_spear",
               "range": "12\"",
               "skill": "2+",
               "strength": "9"
@@ -4209,7 +4209,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Caladius_Grav_tank.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -4239,7 +4239,7 @@
                 "Twin-linked",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Pallas_Grav_attack.rangedWeapons.0.profiles.0.name",
+              "name": "twin_arachnus_blaze_cannon",
               "range": "24\"",
               "skill": "2+",
               "strength": "5"
@@ -4257,7 +4257,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Caladius_Grav_tank.rangedWeapons.1.profiles.0.name",
+              "name": "twin_lastrum_bolt_cannon",
               "range": "36\"",
               "skill": "2+",
               "strength": "6"
@@ -4343,7 +4343,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Witchseekers.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -4390,7 +4390,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Prosecutors.rangedWeapons.0.profiles.0.name",
+              "name": "boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -4490,7 +4490,7 @@
               "attacks": "7",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Allarus_Custodians.meleeWeapons.0.profiles.0.name",
+              "name": "guardian_spear_melee",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -4506,7 +4506,7 @@
               "attacks": "6",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Allarus_Custodians.meleeWeapons.1.profiles.0.name",
+              "name": "castellan_axe_melee",
               "range": "Melee",
               "skill": "2+",
               "strength": "9"
@@ -4522,7 +4522,7 @@
               "attacks": "7",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Custodian_Guard.meleeWeapons.1.profiles.0.name",
+              "name": "sentinel_blade_melee",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -4538,7 +4538,7 @@
               "attacks": "7",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Shield_Captain.meleeWeapons.3.profiles.0.name",
+              "name": "pyrithite_spear_melee",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -4567,7 +4567,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Allarus_Custodians.rangedWeapons.1.profiles.0.name",
+              "name": "guardian_spear_ranged",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -4585,7 +4585,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Allarus_Custodians.rangedWeapons.2.profiles.0.name",
+              "name": "castellan_axe_ranged",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -4604,7 +4604,7 @@
                 "Pistol",
                 "Assault"
               ],
-              "name": "datasheets.Custodian_Guard.rangedWeapons.1.profiles.0.name",
+              "name": "sentinel_blade_ranged",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -4622,7 +4622,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Shield_Captain.rangedWeapons.3.profiles.0.name",
+              "name": "pyrithite_spear_ranged",
               "range": "12\"",
               "skill": "2+",
               "strength": "9"
@@ -4728,7 +4728,7 @@
               "attacks": "6",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Trajann_Valoris.meleeWeapons.0.profiles.0.name",
+              "name": "watcher_s_axe",
               "range": "Melee",
               "skill": "2+",
               "strength": "10"
@@ -4757,7 +4757,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Trajann_Valoris.rangedWeapons.0.profiles.0.name",
+              "name": "eagle_s_scream",
               "range": "24\"",
               "skill": "2+",
               "strength": "5"

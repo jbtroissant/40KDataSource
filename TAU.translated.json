@@ -58,7 +58,7 @@
               "keywords": [
                 "Lance"
               ],
-              "name": "datasheets.Krootox_Rampagers.meleeWeapons.0.profiles.0.name",
+              "name": "hunting_blades",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -77,7 +77,7 @@
                 "Sustained Hits 1",
                 "Extra Attacks"
               ],
-              "name": "datasheets.Krootox_Rampagers.meleeWeapons.1.profiles.0.name",
+              "name": "rampager_fists",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -113,7 +113,7 @@
                 "Pistol",
                 "Assault"
               ],
-              "name": "datasheets.Krootox_Rampagers.rangedWeapons.0.profiles.0.name",
+              "name": "kroot_pistol_and_hunting_javelins",
               "range": "12\"",
               "skill": "4+",
               "strength": "4"
@@ -206,7 +206,7 @@
               "attacks": "8",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Manta.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "5+",
               "strength": "6"
@@ -235,7 +235,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Manta.rangedWeapons.0.profiles.0.name",
+              "name": "seeker_missile",
               "range": "48\"",
               "skill": "4+",
               "strength": "14"
@@ -261,7 +261,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Manta.rangedWeapons.1.profiles.0.name",
+              "name": "heavy_rail_cannon",
               "range": "120\"",
               "skill": "4+",
               "strength": "26"
@@ -277,7 +277,7 @@
               "attacks": "32",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Manta.rangedWeapons.2.profiles.0.name",
+              "name": "long_barrelled_burst_cannon_array",
               "range": "24\"",
               "skill": "4+",
               "strength": "6"
@@ -293,7 +293,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Manta.rangedWeapons.3.profiles.0.name",
+              "name": "missile_pod",
               "range": "30\"",
               "skill": "4+",
               "strength": "7"
@@ -311,7 +311,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Manta.rangedWeapons.4.profiles.0.name",
+              "name": "ion_cannon_standard",
               "range": "60\"",
               "skill": "4+",
               "strength": "7"
@@ -325,7 +325,7 @@
                 "Hazardous",
                 "Blast"
               ],
-              "name": "datasheets.Manta.rangedWeapons.4.profiles.1.name",
+              "name": "ion_cannon_overcharge",
               "range": "60\"",
               "skill": "4+",
               "strength": "8"
@@ -454,7 +454,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Crisis_Fireknife_Battlesuits.meleeWeapons.0.profiles.0.name",
+              "name": "battlesuit_fists",
               "range": "Melee",
               "skill": "5+",
               "strength": "5"
@@ -481,7 +481,7 @@
               "attacks": "1",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Crisis_Fireknife_Battlesuits.rangedWeapons.0.profiles.0.name",
+              "name": "plasma_rifle",
               "range": "18\"",
               "skill": "4+",
               "strength": "8"
@@ -497,7 +497,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Manta.rangedWeapons.3.profiles.0.name",
+              "name": "missile_pod",
               "range": "30\"",
               "skill": "4+",
               "strength": "7"
@@ -586,7 +586,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Manta.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "5+",
               "strength": "4"
@@ -625,7 +625,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Piranhas.rangedWeapons.0.profiles.0.name",
+              "name": "piranha_burst_cannon",
               "range": "18\"",
               "skill": "4+",
               "strength": "6"
@@ -644,7 +644,7 @@
                 "Twin-linked",
                 "Assault"
               ],
-              "name": "datasheets.Piranhas.rangedWeapons.1.profiles.0.name",
+              "name": "twin_pulse_carbine",
               "range": "20\"",
               "skill": "4+",
               "strength": "5"
@@ -662,7 +662,7 @@
               "keywords": [
                 "Melta 4"
               ],
-              "name": "datasheets.Piranhas.rangedWeapons.2.profiles.0.name",
+              "name": "piranha_fusion_blaster",
               "range": "12\"",
               "skill": "4+",
               "strength": "9"
@@ -680,7 +680,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Manta.rangedWeapons.0.profiles.0.name",
+              "name": "seeker_missile",
               "range": "48\"",
               "skill": "4+",
               "strength": "14"
@@ -810,7 +810,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Crisis_Fireknife_Battlesuits.meleeWeapons.0.profiles.0.name",
+              "name": "battlesuit_fists",
               "range": "Melee",
               "skill": "5+",
               "strength": "4"
@@ -843,7 +843,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Stealth_Battlesuits.rangedWeapons.0.profiles.0.name",
+              "name": "burst_cannon",
               "range": "18\"",
               "skill": "4+",
               "strength": "5"
@@ -861,7 +861,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Stealth_Battlesuits.rangedWeapons.1.profiles.0.name",
+              "name": "fusion_blaster",
               "range": "12\"",
               "skill": "4+",
               "strength": "9"
@@ -945,7 +945,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Manta.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "5+",
               "strength": "6"
@@ -972,7 +972,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Manta.rangedWeapons.3.profiles.0.name",
+              "name": "missile_pod",
               "range": "30\"",
               "skill": "4+",
               "strength": "7"
@@ -990,7 +990,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Manta.rangedWeapons.0.profiles.0.name",
+              "name": "seeker_missile",
               "range": "48\"",
               "skill": "4+",
               "strength": "14"
@@ -1016,7 +1016,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Sun_Shark_Bomber.rangedWeapons.2.profiles.0.name",
+              "name": "twin_ion_rifle_standard",
               "range": "30\"",
               "skill": "4+",
               "strength": "7"
@@ -1030,7 +1030,7 @@
                 "Twin-linked",
                 "Hazardous"
               ],
-              "name": "datasheets.Sun_Shark_Bomber.rangedWeapons.2.profiles.1.name",
+              "name": "twin_ion_rifle_overcharge",
               "range": "30\"",
               "skill": "4+",
               "strength": "8"
@@ -1048,7 +1048,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Sun_Shark_Bomber.rangedWeapons.3.profiles.0.name",
+              "name": "twin_missile_pod",
               "range": "30\"",
               "skill": "4+",
               "strength": "7"
@@ -1138,7 +1138,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Kroot_Farstalkers.meleeWeapons.0.profiles.0.name",
+              "name": "ritual_blade",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -1154,7 +1154,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Kroot_Farstalkers.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1170,7 +1170,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Kroot_Farstalkers.meleeWeapons.2.profiles.0.name",
+              "name": "ripping_fangs",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -1199,7 +1199,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Kroot_Farstalkers.rangedWeapons.0.profiles.0.name",
+              "name": "farstalker_firearm",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -1217,7 +1217,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Kroot_Farstalkers.rangedWeapons.1.profiles.0.name",
+              "name": "kroot_pistol",
               "range": "12\"",
               "skill": "4+",
               "strength": "4"
@@ -1235,7 +1235,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Kroot_Farstalkers.rangedWeapons.2.profiles.0.name",
+              "name": "t_au_tech_rifle",
               "range": "30\"",
               "skill": "4+",
               "strength": "5"
@@ -1254,7 +1254,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Kroot_Farstalkers.rangedWeapons.3.profiles.0.name",
+              "name": "dvorgite_skinner",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -1274,7 +1274,7 @@
                 "Devastating Wounds",
                 "Anti-vehicle 4+"
               ],
-              "name": "datasheets.Kroot_Farstalkers.rangedWeapons.4.profiles.0.name",
+              "name": "londaxi_tribalest",
               "range": "18\"",
               "skill": "5+",
               "strength": "7"
@@ -1383,7 +1383,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Taunar_Supremacy_Armour.meleeWeapons.0.profiles.0.name",
+              "name": "crushing_feet",
               "range": "Melee",
               "skill": "5+",
               "strength": "8"
@@ -1412,7 +1412,7 @@
               "keywords": [
                 "Melta 3"
               ],
-              "name": "datasheets.Taunar_Supremacy_Armour.rangedWeapons.0.profiles.0.name",
+              "name": "fusion_eradicator",
               "range": "24\"",
               "skill": "4+",
               "strength": "10"
@@ -1430,7 +1430,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Taunar_Supremacy_Armour.rangedWeapons.1.profiles.0.name",
+              "name": "tri_axis_ion_cannon_standard",
               "range": "36\"",
               "skill": "4+",
               "strength": "8"
@@ -1444,7 +1444,7 @@
                 "Hazardous",
                 "Blast"
               ],
-              "name": "datasheets.Taunar_Supremacy_Armour.rangedWeapons.1.profiles.1.name",
+              "name": "tri_axis_ion_cannon_supercharge",
               "range": "36\"",
               "skill": "4+",
               "strength": "9"
@@ -1462,7 +1462,7 @@
               "keywords": [
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Taunar_Supremacy_Armour.rangedWeapons.2.profiles.0.name",
+              "name": "pulse_ordnance_driver",
               "range": "60\"",
               "skill": "4+",
               "strength": "5"
@@ -1478,7 +1478,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Stealth_Battlesuits.rangedWeapons.0.profiles.0.name",
+              "name": "burst_cannon",
               "range": "18\"",
               "skill": "4+",
               "strength": "5"
@@ -1496,7 +1496,7 @@
               "keywords": [
                 "Indirect Fire"
               ],
-              "name": "datasheets.Taunar_Supremacy_Armour.rangedWeapons.4.profiles.0.name",
+              "name": "smart_missile_system",
               "range": "30\"",
               "skill": "4+",
               "strength": "5"
@@ -1512,7 +1512,7 @@
               "attacks": "8",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Taunar_Supremacy_Armour.rangedWeapons.5.profiles.0.name",
+              "name": "nexus_missile_launcher",
               "range": "36\"",
               "skill": "4+",
               "strength": "8"
@@ -1531,7 +1531,7 @@
                 "Heavy",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Taunar_Supremacy_Armour.rangedWeapons.6.profiles.0.name",
+              "name": "heavy_rail_cannon_array",
               "range": "120\"",
               "skill": "4+",
               "strength": "26"
@@ -1549,7 +1549,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Taunar_Supremacy_Armour.rangedWeapons.7.profiles.0.name",
+              "name": "fragmentation_cluster_shell_launcher",
               "range": "24\"",
               "skill": "4+",
               "strength": "6"
@@ -1672,7 +1672,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Kroot_Farstalkers.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "5+",
               "strength": "3"
@@ -1699,7 +1699,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Pathfinder_Team.rangedWeapons.0.profiles.0.name",
+              "name": "pulse_carbine",
               "range": "20\"",
               "skill": "4+",
               "strength": "5"
@@ -1717,7 +1717,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Pathfinder_Team.rangedWeapons.1.profiles.0.name",
+              "name": "pulse_pistol",
               "range": "12\"",
               "skill": "4+",
               "strength": "5"
@@ -1733,7 +1733,7 @@
               "attacks": "1",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Pathfinder_Team.rangedWeapons.2.profiles.0.name",
+              "name": "semi_automatic_grenade_launcher_fusion",
               "range": "18\"",
               "skill": "4+",
               "strength": "6"
@@ -1747,7 +1747,7 @@
                 "Devastating Wounds",
                 "Anti-vehicle 4+"
               ],
-              "name": "datasheets.Pathfinder_Team.rangedWeapons.2.profiles.1.name",
+              "name": "semi_automatic_grenade_launcher_emp",
               "range": "18\"",
               "skill": "4+",
               "strength": "3"
@@ -1765,7 +1765,7 @@
               "keywords": [
                 "Heavy"
               ],
-              "name": "datasheets.Pathfinder_Team.rangedWeapons.3.profiles.0.name",
+              "name": "ion_rifle_standard",
               "range": "30\"",
               "skill": "5+",
               "strength": "7"
@@ -1779,7 +1779,7 @@
                 "Heavy",
                 "Hazardous"
               ],
-              "name": "datasheets.Pathfinder_Team.rangedWeapons.3.profiles.1.name",
+              "name": "ion_rifle_overcharge",
               "range": "30\"",
               "skill": "5+",
               "strength": "8"
@@ -1798,7 +1798,7 @@
                 "Heavy",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Pathfinder_Team.rangedWeapons.4.profiles.0.name",
+              "name": "rail_rifle",
               "range": "30\"",
               "skill": "5+",
               "strength": "10"
@@ -1918,7 +1918,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Kroot_Farstalkers.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "5+",
               "strength": "3"
@@ -1947,7 +1947,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Pathfinder_Team.rangedWeapons.1.profiles.0.name",
+              "name": "pulse_pistol",
               "range": "12\"",
               "skill": "4+",
               "strength": "5"
@@ -1965,7 +1965,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Strike_Team.rangedWeapons.1.profiles.0.name",
+              "name": "pulse_rifle",
               "range": "30\"",
               "skill": "4+",
               "strength": "5"
@@ -1981,7 +1981,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Pathfinder_Team.rangedWeapons.0.profiles.0.name",
+              "name": "pulse_carbine",
               "range": "20\"",
               "skill": "4+",
               "strength": "5"
@@ -2000,7 +2000,7 @@
                 "Twin-linked",
                 "Indirect Fire"
               ],
-              "name": "datasheets.Strike_Team.rangedWeapons.3.profiles.0.name",
+              "name": "support_turret",
               "range": "30\"",
               "skill": "5+",
               "strength": "5"
@@ -2133,7 +2133,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Crisis_Fireknife_Battlesuits.meleeWeapons.0.profiles.0.name",
+              "name": "battlesuit_fists",
               "range": "Melee",
               "skill": "5+",
               "strength": "5"
@@ -2160,7 +2160,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Stealth_Battlesuits.rangedWeapons.0.profiles.0.name",
+              "name": "burst_cannon",
               "range": "18\"",
               "skill": "4+",
               "strength": "5"
@@ -2179,7 +2179,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Crisis_Starscythe_Battlesuits.rangedWeapons.1.profiles.0.name",
+              "name": "t_au_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -2276,7 +2276,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Manta.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "5+",
               "strength": "6"
@@ -2303,7 +2303,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Stealth_Battlesuits.rangedWeapons.0.profiles.0.name",
+              "name": "burst_cannon",
               "range": "18\"",
               "skill": "4+",
               "strength": "5"
@@ -2321,7 +2321,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Manta.rangedWeapons.4.profiles.0.name",
+              "name": "ion_cannon_standard",
               "range": "60\"",
               "skill": "4+",
               "strength": "7"
@@ -2335,7 +2335,7 @@
                 "Hazardous",
                 "Blast"
               ],
-              "name": "datasheets.Manta.rangedWeapons.4.profiles.1.name",
+              "name": "ion_cannon_overcharge",
               "range": "60\"",
               "skill": "4+",
               "strength": "8"
@@ -2351,7 +2351,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Manta.rangedWeapons.3.profiles.0.name",
+              "name": "missile_pod",
               "range": "30\"",
               "skill": "4+",
               "strength": "7"
@@ -2367,7 +2367,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Tiger_Shark.rangedWeapons.3.profiles.0.name",
+              "name": "cyclic_ion_blaster_standard",
               "range": "18\"",
               "skill": "4+",
               "strength": "7"
@@ -2380,7 +2380,7 @@
               "keywords": [
                 "Hazardous"
               ],
-              "name": "datasheets.Tiger_Shark.rangedWeapons.3.profiles.1.name",
+              "name": "cyclic_ion_blaster_overcharge",
               "range": "18\"",
               "skill": "4+",
               "strength": "8"
@@ -2396,7 +2396,7 @@
               "attacks": "16",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Tiger_Shark.rangedWeapons.4.profiles.0.name",
+              "name": "swiftstrike_burst_cannon",
               "range": "36\"",
               "skill": "4+",
               "strength": "6"
@@ -2414,7 +2414,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Tiger_Shark.rangedWeapons.5.profiles.0.name",
+              "name": "swiftstrike_railgun",
               "range": "72\"",
               "skill": "4+",
               "strength": "20"
@@ -2432,7 +2432,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Manta.rangedWeapons.0.profiles.0.name",
+              "name": "seeker_missile",
               "range": "48\"",
               "skill": "4+",
               "strength": "14"
@@ -2459,7 +2459,7 @@
                 "Blast",
                 "Anti-fly 3+"
               ],
-              "name": "datasheets.Tiger_Shark.rangedWeapons.7.profiles.0.name",
+              "name": "skyspear_missile_rack",
               "range": "72\"",
               "skill": "4+",
               "strength": "6"
@@ -2577,7 +2577,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Kroot_Farstalkers.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "5+",
               "strength": "3"
@@ -2606,7 +2606,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Breacher_Team.rangedWeapons.0.profiles.0.name",
+              "name": "pulse_blaster",
               "range": "10\"",
               "skill": "3+",
               "strength": "6"
@@ -2624,7 +2624,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Pathfinder_Team.rangedWeapons.1.profiles.0.name",
+              "name": "pulse_pistol",
               "range": "12\"",
               "skill": "4+",
               "strength": "5"
@@ -2643,7 +2643,7 @@
                 "Twin-linked",
                 "Indirect Fire"
               ],
-              "name": "datasheets.Strike_Team.rangedWeapons.3.profiles.0.name",
+              "name": "support_turret",
               "range": "30\"",
               "skill": "5+",
               "strength": "5"
@@ -2742,7 +2742,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Stormsurge.meleeWeapons.0.profiles.0.name",
+              "name": "thunderous_footfalls",
               "range": "Melee",
               "skill": "5+",
               "strength": "8"
@@ -2772,7 +2772,7 @@
                 "Heavy",
                 "Blast"
               ],
-              "name": "datasheets.Stormsurge.rangedWeapons.0.profiles.0.name",
+              "name": "cluster_rocket_system",
               "range": "48\"",
               "skill": "4+",
               "strength": "5"
@@ -2790,7 +2790,7 @@
               "keywords": [
                 "Heavy"
               ],
-              "name": "datasheets.Stormsurge.rangedWeapons.1.profiles.0.name",
+              "name": "destroyer_missiles",
               "range": "72\"",
               "skill": "4+",
               "strength": "16"
@@ -2809,7 +2809,7 @@
                 "Heavy",
                 "Blast"
               ],
-              "name": "datasheets.Stormsurge.rangedWeapons.2.profiles.0.name",
+              "name": "pulse_driver_cannon",
               "range": "72\"",
               "skill": "4+",
               "strength": "12"
@@ -2829,7 +2829,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Stormsurge.rangedWeapons.3.profiles.0.name",
+              "name": "twin_t_au_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -2849,7 +2849,7 @@
                 "Indirect Fire",
                 "Heavy"
               ],
-              "name": "datasheets.Stormsurge.rangedWeapons.4.profiles.0.name",
+              "name": "twin_smart_missile_system",
               "range": "30\"",
               "skill": "4+",
               "strength": "5"
@@ -2867,7 +2867,7 @@
               "keywords": [
                 "Heavy"
               ],
-              "name": "datasheets.Stormsurge.rangedWeapons.5.profiles.0.name",
+              "name": "pulse_blast_cannon_dispersed",
               "range": "48\"",
               "skill": "4+",
               "strength": "10"
@@ -2880,7 +2880,7 @@
               "keywords": [
                 "Heavy"
               ],
-              "name": "datasheets.Stormsurge.rangedWeapons.5.profiles.1.name",
+              "name": "pulse_blast_cannon_focused",
               "range": "24\"",
               "skill": "4+",
               "strength": "24"
@@ -2901,7 +2901,7 @@
                 "Heavy",
                 "Blast"
               ],
-              "name": "datasheets.Stormsurge.rangedWeapons.6.profiles.0.name",
+              "name": "twin_airbursting_fragmentation_projector",
               "range": "24\"",
               "skill": "4+",
               "strength": "3"
@@ -2920,7 +2920,7 @@
                 "Twin-linked",
                 "Heavy"
               ],
-              "name": "datasheets.Stormsurge.rangedWeapons.7.profiles.0.name",
+              "name": "twin_burst_cannon",
               "range": "18\"",
               "skill": "4+",
               "strength": "5"
@@ -3023,7 +3023,7 @@
                 "Twin-linked",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Tidewall_Gunrig.rangedWeapons.0.profiles.0.name",
+              "name": "supremacy_railgun",
               "range": "72\"",
               "skill": "5+",
               "strength": "20"
@@ -3109,7 +3109,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Kroot_Farstalkers.meleeWeapons.2.profiles.0.name",
+              "name": "ripping_fangs",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -3237,7 +3237,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Ethereal.meleeWeapons.0.profiles.0.name",
+              "name": "honour_stave",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -3358,7 +3358,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Riptide_Battlesuit.meleeWeapons.0.profiles.0.name",
+              "name": "riptide_fists",
               "range": "Melee",
               "skill": "5+",
               "strength": "6"
@@ -3385,7 +3385,7 @@
               "attacks": "12",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Riptide_Battlesuit.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_burst_cannon",
               "range": "36\"",
               "skill": "4+",
               "strength": "6"
@@ -3403,7 +3403,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Riptide_Battlesuit.rangedWeapons.1.profiles.0.name",
+              "name": "twin_plasma_rifle",
               "range": "18\"",
               "skill": "4+",
               "strength": "8"
@@ -3419,7 +3419,7 @@
               "attacks": "6",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Riptide_Battlesuit.rangedWeapons.2.profiles.0.name",
+              "name": "ion_accelerator_standard",
               "range": "72\"",
               "skill": "4+",
               "strength": "7"
@@ -3432,7 +3432,7 @@
               "keywords": [
                 "Hazardous"
               ],
-              "name": "datasheets.Riptide_Battlesuit.rangedWeapons.2.profiles.1.name",
+              "name": "ion_accelerator_overcharge",
               "range": "72\"",
               "skill": "4+",
               "strength": "8"
@@ -3451,7 +3451,7 @@
                 "Twin-linked",
                 "Melta 2"
               ],
-              "name": "datasheets.Riptide_Battlesuit.rangedWeapons.3.profiles.0.name",
+              "name": "twin_fusion_blaster",
               "range": "12\"",
               "skill": "4+",
               "strength": "9"
@@ -3470,7 +3470,7 @@
                 "Twin-linked",
                 "Indirect Fire"
               ],
-              "name": "datasheets.Stormsurge.rangedWeapons.4.profiles.0.name",
+              "name": "twin_smart_missile_system",
               "range": "30\"",
               "skill": "4+",
               "strength": "5"
@@ -3572,7 +3572,7 @@
               "attacks": "8",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Commander_Farsight.meleeWeapons.0.profiles.0.name",
+              "name": "dawn_blade_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -3583,7 +3583,7 @@
               "attacks": "4",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Commander_Farsight.meleeWeapons.0.profiles.1.name",
+              "name": "dawn_blade_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "10"
@@ -3610,7 +3610,7 @@
               "attacks": "2",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Commander_Farsight.rangedWeapons.0.profiles.0.name",
+              "name": "high_intensity_plasma_rifle",
               "range": "24\"",
               "skill": "2+",
               "strength": "8"
@@ -3701,7 +3701,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Krootox_Riders.meleeWeapons.0.profiles.0.name",
+              "name": "krootox_fists",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -3717,7 +3717,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Kroot_Farstalkers.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -3758,7 +3758,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Krootox_Riders.rangedWeapons.0.profiles.0.name",
+              "name": "repeater_cannon",
               "range": "36\"",
               "skill": "4+",
               "strength": "7"
@@ -3777,7 +3777,7 @@
                 "Heavy",
                 "Blast"
               ],
-              "name": "datasheets.Krootox_Riders.rangedWeapons.1.profiles.0.name",
+              "name": "tanglecannon",
               "range": "36\"",
               "skill": "4+",
               "strength": "6"
@@ -3889,7 +3889,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Crisis_Fireknife_Battlesuits.meleeWeapons.0.profiles.0.name",
+              "name": "battlesuit_fists",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -3916,7 +3916,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Commander_Shadowsun.rangedWeapons.0.profiles.0.name",
+              "name": "flechette_launcher",
               "range": "18\"",
               "skill": "2+",
               "strength": "3"
@@ -3932,7 +3932,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Commander_Shadowsun.rangedWeapons.1.profiles.0.name",
+              "name": "light_missile_pod",
               "range": "24\"",
               "skill": "2+",
               "strength": "7"
@@ -3950,7 +3950,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Pathfinder_Team.rangedWeapons.1.profiles.0.name",
+              "name": "pulse_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "5"
@@ -3968,7 +3968,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Commander_Shadowsun.rangedWeapons.3.profiles.0.name",
+              "name": "high_energy_fusion_blaster",
               "range": "18\"",
               "skill": "2+",
               "strength": "10"
@@ -4063,7 +4063,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Ghostkeel_Battlesuit.meleeWeapons.0.profiles.0.name",
+              "name": "ghostkeel_fists",
               "range": "Melee",
               "skill": "5+",
               "strength": "6"
@@ -4092,7 +4092,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Ghostkeel_Battlesuit.rangedWeapons.0.profiles.0.name",
+              "name": "fusion_collider",
               "range": "18\"",
               "skill": "4+",
               "strength": "12"
@@ -4112,7 +4112,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Stormsurge.rangedWeapons.3.profiles.0.name",
+              "name": "twin_t_au_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -4128,7 +4128,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Ghostkeel_Battlesuit.rangedWeapons.2.profiles.0.name",
+              "name": "cyclic_ion_raker_standard",
               "range": "36\"",
               "skill": "4+",
               "strength": "7"
@@ -4141,7 +4141,7 @@
               "keywords": [
                 "Hazardous"
               ],
-              "name": "datasheets.Ghostkeel_Battlesuit.rangedWeapons.2.profiles.1.name",
+              "name": "cyclic_ion_raker_overcharge",
               "range": "36\"",
               "skill": "4+",
               "strength": "8"
@@ -4160,7 +4160,7 @@
                 "Twin-linked",
                 "Melta 2"
               ],
-              "name": "datasheets.Riptide_Battlesuit.rangedWeapons.3.profiles.0.name",
+              "name": "twin_fusion_blaster",
               "range": "12\"",
               "skill": "4+",
               "strength": "9"
@@ -4178,7 +4178,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Stormsurge.rangedWeapons.7.profiles.0.name",
+              "name": "twin_burst_cannon",
               "range": "18\"",
               "skill": "4+",
               "strength": "5"
@@ -4263,7 +4263,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Manta.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "5+",
               "strength": "6"
@@ -4293,7 +4293,7 @@
                 "Twin-linked",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.AX_1_0_Tiger_Shark.rangedWeapons.0.profiles.0.name",
+              "name": "twin_heavy_rail_cannon",
               "range": "120\"",
               "skill": "4+",
               "strength": "26"
@@ -4309,7 +4309,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Stealth_Battlesuits.rangedWeapons.0.profiles.0.name",
+              "name": "burst_cannon",
               "range": "18\"",
               "skill": "4+",
               "strength": "5"
@@ -4325,7 +4325,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Manta.rangedWeapons.3.profiles.0.name",
+              "name": "missile_pod",
               "range": "30\"",
               "skill": "4+",
               "strength": "7"
@@ -4343,7 +4343,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Manta.rangedWeapons.0.profiles.0.name",
+              "name": "seeker_missile",
               "range": "48\"",
               "skill": "4+",
               "strength": "14"
@@ -4367,7 +4367,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Tiger_Shark.rangedWeapons.3.profiles.0.name",
+              "name": "cyclic_ion_blaster_standard",
               "range": "18\"",
               "skill": "4+",
               "strength": "7"
@@ -4380,7 +4380,7 @@
               "keywords": [
                 "Hazardous"
               ],
-              "name": "datasheets.Tiger_Shark.rangedWeapons.3.profiles.1.name",
+              "name": "cyclic_ion_blaster_overcharge",
               "range": "18\"",
               "skill": "4+",
               "strength": "8"
@@ -4470,7 +4470,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Manta.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "5+",
               "strength": "6"
@@ -4499,7 +4499,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Sky_Ray_Gunship.rangedWeapons.0.profiles.0.name",
+              "name": "seeker_missile_rack",
               "range": "48\"",
               "skill": "4+",
               "strength": "14"
@@ -4518,7 +4518,7 @@
                 "Twin-linked",
                 "Assault"
               ],
-              "name": "datasheets.Piranhas.rangedWeapons.1.profiles.0.name",
+              "name": "twin_pulse_carbine",
               "range": "20\"",
               "skill": "4+",
               "strength": "5"
@@ -4534,7 +4534,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sky_Ray_Gunship.rangedWeapons.2.profiles.0.name",
+              "name": "accelerator_burst_cannon",
               "range": "18\"",
               "skill": "4+",
               "strength": "6"
@@ -4552,7 +4552,7 @@
               "keywords": [
                 "Indirect Fire"
               ],
-              "name": "datasheets.Taunar_Supremacy_Armour.rangedWeapons.4.profiles.0.name",
+              "name": "smart_missile_system",
               "range": "30\"",
               "skill": "4+",
               "strength": "5"
@@ -4639,7 +4639,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Vespid_Stingwings.meleeWeapons.0.profiles.0.name",
+              "name": "stingwing_claws",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -4674,7 +4674,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Vespid_Stingwings.rangedWeapons.0.profiles.0.name",
+              "name": "neutron_blaster",
               "range": "18\"",
               "skill": "4+",
               "strength": "5"
@@ -4693,7 +4693,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Crisis_Starscythe_Battlesuits.rangedWeapons.1.profiles.0.name",
+              "name": "t_au_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -4712,7 +4712,7 @@
                 "Blast",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Vespid_Stingwings.rangedWeapons.2.profiles.0.name",
+              "name": "neutron_grenade_launcher",
               "range": "18\"",
               "skill": "4+",
               "strength": "4"
@@ -4730,7 +4730,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Vespid_Stingwings.rangedWeapons.3.profiles.0.name",
+              "name": "neutron_rail_rifle",
               "range": "30\"",
               "skill": "4+",
               "strength": "10"
@@ -4870,7 +4870,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Crisis_Fireknife_Battlesuits.meleeWeapons.0.profiles.0.name",
+              "name": "battlesuit_fists",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -4897,7 +4897,7 @@
               "attacks": "8",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Commander_in_Coldstar_Battlesuit.rangedWeapons.0.profiles.0.name",
+              "name": "high_output_burst_cannon",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -4913,7 +4913,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Stealth_Battlesuits.rangedWeapons.0.profiles.0.name",
+              "name": "burst_cannon",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -4929,7 +4929,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Tiger_Shark.rangedWeapons.3.profiles.0.name",
+              "name": "cyclic_ion_blaster_standard",
               "range": "18\"",
               "skill": "3+",
               "strength": "7"
@@ -4942,7 +4942,7 @@
               "keywords": [
                 "Hazardous"
               ],
-              "name": "datasheets.Tiger_Shark.rangedWeapons.3.profiles.1.name",
+              "name": "cyclic_ion_blaster_overcharge",
               "range": "18\"",
               "skill": "3+",
               "strength": "8"
@@ -4960,7 +4960,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Stealth_Battlesuits.rangedWeapons.1.profiles.0.name",
+              "name": "fusion_blaster",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -4976,7 +4976,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Manta.rangedWeapons.3.profiles.0.name",
+              "name": "missile_pod",
               "range": "30\"",
               "skill": "3+",
               "strength": "7"
@@ -4992,7 +4992,7 @@
               "attacks": "1",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Crisis_Fireknife_Battlesuits.rangedWeapons.0.profiles.0.name",
+              "name": "plasma_rifle",
               "range": "18\"",
               "skill": "3+",
               "strength": "8"
@@ -5011,7 +5011,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Crisis_Starscythe_Battlesuits.rangedWeapons.1.profiles.0.name",
+              "name": "t_au_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -5030,7 +5030,7 @@
                 "Indirect Fire",
                 "Blast"
               ],
-              "name": "datasheets.Commander_in_Coldstar_Battlesuit.rangedWeapons.7.profiles.0.name",
+              "name": "airbursting_fragmentation_projector",
               "range": "24\"",
               "skill": "3+",
               "strength": "3"
@@ -5130,7 +5130,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Kroot_Trail_Shaper.meleeWeapons.0.profiles.0.name",
+              "name": "shaper_s_blade",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -5159,7 +5159,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Kroot_Trail_Shaper.rangedWeapons.0.profiles.0.name",
+              "name": "kroot_rifle",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -5401,7 +5401,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Broadside_Battlesuits.meleeWeapons.0.profiles.0.name",
+              "name": "crushing_bulk",
               "range": "Melee",
               "skill": "5+",
               "strength": "6"
@@ -5443,7 +5443,7 @@
                 "Devastating Wounds",
                 "Heavy"
               ],
-              "name": "datasheets.Broadside_Battlesuits.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_rail_rifle",
               "range": "60\"",
               "skill": "4+",
               "strength": "12"
@@ -5461,7 +5461,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Broadside_Battlesuits.rangedWeapons.1.profiles.0.name",
+              "name": "high_yield_missile_pods",
               "range": "30\"",
               "skill": "4+",
               "strength": "7"
@@ -5479,7 +5479,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Manta.rangedWeapons.0.profiles.0.name",
+              "name": "seeker_missile",
               "range": "48\"",
               "skill": "4+",
               "strength": "14"
@@ -5505,7 +5505,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Riptide_Battlesuit.rangedWeapons.1.profiles.0.name",
+              "name": "twin_plasma_rifle",
               "range": "18\"",
               "skill": "4+",
               "strength": "8"
@@ -5524,7 +5524,7 @@
                 "Twin-linked",
                 "Indirect Fire"
               ],
-              "name": "datasheets.Stormsurge.rangedWeapons.4.profiles.0.name",
+              "name": "twin_smart_missile_system",
               "range": "30\"",
               "skill": "4+",
               "strength": "5"
@@ -5666,7 +5666,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Crisis_Fireknife_Battlesuits.meleeWeapons.0.profiles.0.name",
+              "name": "battlesuit_fists",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -5693,7 +5693,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Stealth_Battlesuits.rangedWeapons.0.profiles.0.name",
+              "name": "burst_cannon",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -5712,7 +5712,7 @@
                 "Indirect Fire",
                 "Blast"
               ],
-              "name": "datasheets.Commander_in_Coldstar_Battlesuit.rangedWeapons.7.profiles.0.name",
+              "name": "airbursting_fragmentation_projector",
               "range": "24\"",
               "skill": "3+",
               "strength": "3"
@@ -5728,7 +5728,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Tiger_Shark.rangedWeapons.3.profiles.0.name",
+              "name": "cyclic_ion_blaster_standard",
               "range": "18\"",
               "skill": "3+",
               "strength": "7"
@@ -5741,7 +5741,7 @@
               "keywords": [
                 "Hazardous"
               ],
-              "name": "datasheets.Tiger_Shark.rangedWeapons.3.profiles.1.name",
+              "name": "cyclic_ion_blaster_overcharge",
               "range": "18\"",
               "skill": "3+",
               "strength": "8"
@@ -5759,7 +5759,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Stealth_Battlesuits.rangedWeapons.1.profiles.0.name",
+              "name": "fusion_blaster",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -5775,7 +5775,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Manta.rangedWeapons.3.profiles.0.name",
+              "name": "missile_pod",
               "range": "30\"",
               "skill": "3+",
               "strength": "7"
@@ -5791,7 +5791,7 @@
               "attacks": "1",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Crisis_Fireknife_Battlesuits.rangedWeapons.0.profiles.0.name",
+              "name": "plasma_rifle",
               "range": "18\"",
               "skill": "3+",
               "strength": "8"
@@ -5810,7 +5810,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Crisis_Starscythe_Battlesuits.rangedWeapons.1.profiles.0.name",
+              "name": "t_au_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -5927,7 +5927,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Kroot_Farstalkers.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -5956,7 +5956,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Cadre_Fireblade.rangedWeapons.0.profiles.0.name",
+              "name": "fireblade_pulse_rifle",
               "range": "30\"",
               "skill": "3+",
               "strength": "5"
@@ -6045,7 +6045,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Manta.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "5+",
               "strength": "6"
@@ -6072,7 +6072,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sky_Ray_Gunship.rangedWeapons.2.profiles.0.name",
+              "name": "accelerator_burst_cannon",
               "range": "18\"",
               "skill": "4+",
               "strength": "6"
@@ -6090,7 +6090,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Razorshark_Strike_Fighter.rangedWeapons.1.profiles.0.name",
+              "name": "quad_ion_turret_standard",
               "range": "30\"",
               "skill": "4+",
               "strength": "7"
@@ -6104,7 +6104,7 @@
                 "Twin-linked",
                 "Hazardous"
               ],
-              "name": "datasheets.Razorshark_Strike_Fighter.rangedWeapons.1.profiles.1.name",
+              "name": "quad_ion_turret_overcharge",
               "range": "30\"",
               "skill": "4+",
               "strength": "8"
@@ -6122,7 +6122,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Manta.rangedWeapons.0.profiles.0.name",
+              "name": "seeker_missile",
               "range": "48\"",
               "skill": "4+",
               "strength": "14"
@@ -6146,7 +6146,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Manta.rangedWeapons.3.profiles.0.name",
+              "name": "missile_pod",
               "range": "30\"",
               "skill": "4+",
               "strength": "7"
@@ -6229,7 +6229,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Manta.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "5+",
               "strength": "6"
@@ -6256,7 +6256,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sky_Ray_Gunship.rangedWeapons.2.profiles.0.name",
+              "name": "accelerator_burst_cannon",
               "range": "18\"",
               "skill": "4+",
               "strength": "6"
@@ -6275,7 +6275,7 @@
                 "Twin-linked",
                 "Assault"
               ],
-              "name": "datasheets.Piranhas.rangedWeapons.1.profiles.0.name",
+              "name": "twin_pulse_carbine",
               "range": "20\"",
               "skill": "4+",
               "strength": "5"
@@ -6293,7 +6293,7 @@
               "keywords": [
                 "Indirect Fire"
               ],
-              "name": "datasheets.Taunar_Supremacy_Armour.rangedWeapons.4.profiles.0.name",
+              "name": "smart_missile_system",
               "range": "30\"",
               "skill": "4+",
               "strength": "5"
@@ -6311,7 +6311,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Manta.rangedWeapons.0.profiles.0.name",
+              "name": "seeker_missile",
               "range": "48\"",
               "skill": "4+",
               "strength": "14"
@@ -6411,7 +6411,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Kroot_Farstalkers.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -6440,7 +6440,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Darkstrider.rangedWeapons.0.profiles.0.name",
+              "name": "shade",
               "range": "18\"",
               "skill": "2+",
               "strength": "5"
@@ -6533,7 +6533,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Manta.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "5+",
               "strength": "6"
@@ -6563,7 +6563,7 @@
                 "Devastating Wounds",
                 "Heavy"
               ],
-              "name": "datasheets.Hammerhead_Gunship.rangedWeapons.0.profiles.0.name",
+              "name": "railgun",
               "range": "72\"",
               "skill": "4+",
               "strength": "20"
@@ -6581,7 +6581,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Piranhas.rangedWeapons.1.profiles.0.name",
+              "name": "twin_pulse_carbine",
               "range": "20\"",
               "skill": "4+",
               "strength": "5"
@@ -6599,7 +6599,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Manta.rangedWeapons.4.profiles.0.name",
+              "name": "ion_cannon_standard",
               "range": "60\"",
               "skill": "4+",
               "strength": "7"
@@ -6613,7 +6613,7 @@
                 "Hazardous",
                 "Blast"
               ],
-              "name": "datasheets.Manta.rangedWeapons.4.profiles.1.name",
+              "name": "ion_cannon_overcharge",
               "range": "60\"",
               "skill": "4+",
               "strength": "8"
@@ -6629,7 +6629,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sky_Ray_Gunship.rangedWeapons.2.profiles.0.name",
+              "name": "accelerator_burst_cannon",
               "range": "18\"",
               "skill": "4+",
               "strength": "6"
@@ -6648,7 +6648,7 @@
                 "Twin-linked",
                 "Indirect Fire"
               ],
-              "name": "datasheets.Stormsurge.rangedWeapons.4.profiles.0.name",
+              "name": "twin_smart_missile_system",
               "range": "30\"",
               "skill": "4+",
               "strength": "5"
@@ -6666,7 +6666,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Manta.rangedWeapons.0.profiles.0.name",
+              "name": "seeker_missile",
               "range": "48\"",
               "skill": "4+",
               "strength": "14"
@@ -6783,7 +6783,7 @@
                 "Twin-linked",
                 "Assault"
               ],
-              "name": "datasheets.Tidewall_Droneport.rangedWeapons.0.profiles.0.name",
+              "name": "drone_defenders",
               "range": "20\"",
               "skill": "5+",
               "strength": "5"
@@ -6905,7 +6905,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Crisis_Fireknife_Battlesuits.meleeWeapons.0.profiles.0.name",
+              "name": "battlesuit_fists",
               "range": "Melee",
               "skill": "5+",
               "strength": "5"
@@ -6934,7 +6934,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Stealth_Battlesuits.rangedWeapons.1.profiles.0.name",
+              "name": "fusion_blaster",
               "range": "12\"",
               "skill": "4+",
               "strength": "9"
@@ -7024,7 +7024,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Firesight_Team.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapons",
               "range": "Melee",
               "skill": "5+",
               "strength": "3"
@@ -7054,7 +7054,7 @@
                 "Precision",
                 "Heavy"
               ],
-              "name": "datasheets.Firesight_Team.rangedWeapons.0.profiles.0.name",
+              "name": "longshot_pulse_rifles",
               "range": "36\"",
               "skill": "4+",
               "strength": "5"
@@ -7072,7 +7072,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Pathfinder_Team.rangedWeapons.1.profiles.0.name",
+              "name": "pulse_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "5"
@@ -7161,7 +7161,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Kroot_Farstalkers.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -7196,7 +7196,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Kroot_Trail_Shaper.rangedWeapons.0.profiles.0.name",
+              "name": "kroot_rifle",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -7214,7 +7214,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Kroot_Farstalkers.rangedWeapons.1.profiles.0.name",
+              "name": "kroot_pistol",
               "range": "12\"",
               "skill": "4+",
               "strength": "4"
@@ -7230,7 +7230,7 @@
               "attacks": "1",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Kroot_Carnivores.rangedWeapons.2.profiles.0.name",
+              "name": "kroot_carbine",
               "range": "18\"",
               "skill": "4+",
               "strength": "4"
@@ -7248,7 +7248,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Kroot_Carnivores.rangedWeapons.3.profiles.0.name",
+              "name": "tanglebomb_launcher",
               "range": "24\"",
               "skill": "4+",
               "strength": "5"
@@ -7344,7 +7344,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Kroot_Trail_Shaper.meleeWeapons.0.profiles.0.name",
+              "name": "shaper_s_blade",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -7362,7 +7362,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Kroot_War_Shaper.meleeWeapons.1.profiles.0.name",
+              "name": "bladestave_and_prey_hook",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -7393,7 +7393,7 @@
                 "Assault",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Kroot_War_Shaper.rangedWeapons.0.profiles.0.name",
+              "name": "dart_bow_and_tri_blade",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -7411,7 +7411,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Kroot_Farstalkers.rangedWeapons.1.profiles.0.name",
+              "name": "kroot_pistol",
               "range": "12\"",
               "skill": "4+",
               "strength": "4"
@@ -7506,7 +7506,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Kroot_Farstalkers.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -7524,7 +7524,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Kroot_Lone_spear.meleeWeapons.1.profiles.0.name",
+              "name": "kalamandra_s_bite",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -7542,7 +7542,7 @@
               "keywords": [
                 "Lance"
               ],
-              "name": "datasheets.Kroot_Lone_spear.meleeWeapons.2.profiles.0.name",
+              "name": "hunting_javelin",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -7572,7 +7572,7 @@
                 "Precision",
                 "Heavy"
               ],
-              "name": "datasheets.Kroot_Lone_spear.rangedWeapons.0.profiles.0.name",
+              "name": "kroot_long_gun",
               "range": "36\"",
               "skill": "3+",
               "strength": "6"
@@ -7591,7 +7591,7 @@
                 "Blast",
                 "Assault"
               ],
-              "name": "datasheets.Kroot_Lone_spear.rangedWeapons.1.profiles.0.name",
+              "name": "blast_javelin",
               "range": "18\"",
               "skill": "4+",
               "strength": "10"
@@ -7683,7 +7683,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Kroot_Flesh_Shaper.meleeWeapons.0.profiles.0.name",
+              "name": "twin_ritualistic_blades",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -7712,7 +7712,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Kroot_Flesh_Shaper.rangedWeapons.0.profiles.0.name",
+              "name": "kroot_scattergun",
               "range": "12\"",
               "skill": "4+",
               "strength": "4"
@@ -7802,7 +7802,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Manta.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "5+",
               "strength": "4"
@@ -7822,7 +7822,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Manta.rangedWeapons.3.profiles.0.name",
+              "name": "missile_pod",
               "range": "30\"",
               "skill": "4+",
               "strength": "7"
@@ -7838,7 +7838,7 @@
               "attacks": "1",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Crisis_Fireknife_Battlesuits.rangedWeapons.0.profiles.0.name",
+              "name": "plasma_rifle",
               "range": "24\"",
               "skill": "4+",
               "strength": "8"
@@ -7856,7 +7856,7 @@
               "keywords": [
                 "devastating wounds"
               ],
-              "name": "datasheets.Pathfinder_Team.rangedWeapons.4.profiles.0.name",
+              "name": "rail_rifle",
               "range": "30\"",
               "skill": "4+",
               "strength": "10"
@@ -7874,7 +7874,7 @@
               "keywords": [
                 "melta 2"
               ],
-              "name": "datasheets.Stealth_Battlesuits.rangedWeapons.1.profiles.0.name",
+              "name": "fusion_blaster",
               "range": "12\"",
               "skill": "4+",
               "strength": "9"
@@ -7960,7 +7960,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Manta.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "5+",
               "strength": "8"
@@ -7980,7 +7980,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Manta.rangedWeapons.3.profiles.0.name",
+              "name": "missile_pod",
               "range": "30\"",
               "skill": "4+",
               "strength": "7"
@@ -7996,7 +7996,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Orca_Dropship.rangedWeapons.1.profiles.0.name",
+              "name": "long_barrelled_burst_cannon",
               "range": "36\"",
               "skill": "4+",
               "strength": "5"
@@ -8103,7 +8103,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Crisis_Fireknife_Battlesuits.meleeWeapons.0.profiles.0.name",
+              "name": "battlesuit_fists",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -8125,7 +8125,7 @@
               "keywords": [
                 "blast"
               ],
-              "name": "datasheets.Shaso_Ralai.rangedWeapons.0.profiles.0.name",
+              "name": "experimental_pulse_submunitions_rifle_ionic",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -8139,7 +8139,7 @@
                 "anti-vehicle 3+",
                 "devastating wounds"
               ],
-              "name": "datasheets.Shaso_Ralai.rangedWeapons.0.profiles.1.name",
+              "name": "experimental_pulse_submunitions_rifle_emp",
               "range": "24\"",
               "skill": "3+",
               "strength": "1"
@@ -8246,7 +8246,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Crisis_Fireknife_Battlesuits.meleeWeapons.0.profiles.0.name",
+              "name": "battlesuit_fists",
               "range": "Melee",
               "skill": "5+",
               "strength": "5"
@@ -8266,7 +8266,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Xv9_Hazard_Battlesuits.rangedWeapons.0.profiles.0.name",
+              "name": "phased_ion_gun",
               "range": "30\"",
               "skill": "4+",
               "strength": "6"
@@ -8284,7 +8284,7 @@
               "keywords": [
                 "melta 4"
               ],
-              "name": "datasheets.Xv9_Hazard_Battlesuits.rangedWeapons.1.profiles.0.name",
+              "name": "fusion_cascade",
               "range": "12\"",
               "skill": "4+",
               "strength": "9"
@@ -8302,7 +8302,7 @@
               "keywords": [
                 "twin-linked"
               ],
-              "name": "datasheets.Xv9_Hazard_Battlesuits.rangedWeapons.2.profiles.0.name",
+              "name": "twin_hazard_burst_cannon",
               "range": "24\"",
               "skill": "4+",
               "strength": "5"
@@ -8388,7 +8388,7 @@
               "keywords": [
                 "extra attacks"
               ],
-              "name": "datasheets.Knarloc_Riders.meleeWeapons.0.profiles.0.name",
+              "name": "knarloc_beak_and_talons",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -8404,7 +8404,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Kroot_Trail_Shaper.rangedWeapons.0.profiles.0.name",
+              "name": "kroot_rifle",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -8426,7 +8426,7 @@
               "keywords": [
                 "rapid fire 1"
               ],
-              "name": "datasheets.Kroot_Trail_Shaper.rangedWeapons.0.profiles.0.name",
+              "name": "kroot_rifle",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -8515,7 +8515,7 @@
               "keywords": [
                 "extra attacks"
               ],
-              "name": "datasheets.Great_Knarloc.meleeWeapons.0.profiles.0.name",
+              "name": "great_knarloc_beak_and_talons",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -8531,7 +8531,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Kroot_Trail_Shaper.rangedWeapons.0.profiles.0.name",
+              "name": "kroot_rifle",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -8561,7 +8561,7 @@
               "keywords": [
                 "hooked"
               ],
-              "name": "datasheets.Great_Knarloc.rangedWeapons.0.profiles.0.name",
+              "name": "kroot_bolt_thrower",
               "range": "12\"",
               "skill": "4+",
               "strength": "12"
@@ -8579,7 +8579,7 @@
               "keywords": [
                 "rapid fire 1"
               ],
-              "name": "datasheets.Kroot_Trail_Shaper.rangedWeapons.0.profiles.0.name",
+              "name": "kroot_rifle",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -8597,7 +8597,7 @@
               "keywords": [
                 "twin-linked"
               ],
-              "name": "datasheets.Great_Knarloc.rangedWeapons.2.profiles.0.name",
+              "name": "twin_kroot_gun",
               "range": "36\"",
               "skill": "4+",
               "strength": "7"
@@ -8692,7 +8692,7 @@
               "keywords": [
                 "twin-linked"
               ],
-              "name": "datasheets.Sun_Shark_Bomber.rangedWeapons.3.profiles.0.name",
+              "name": "twin_missile_pod",
               "range": "30\"",
               "skill": "5+",
               "strength": "7"
@@ -8710,7 +8710,7 @@
               "keywords": [
                 "twin-linked"
               ],
-              "name": "datasheets.Riptide_Battlesuit.rangedWeapons.1.profiles.0.name",
+              "name": "twin_plasma_rifle",
               "range": "24\"",
               "skill": "5+",
               "strength": "8"
@@ -8729,7 +8729,7 @@
                 "melta 2",
                 "twin-linked"
               ],
-              "name": "datasheets.Riptide_Battlesuit.rangedWeapons.3.profiles.0.name",
+              "name": "twin_fusion_blaster",
               "range": "12\"",
               "skill": "5+",
               "strength": "9"
@@ -8747,7 +8747,7 @@
               "keywords": [
                 "twin-linked"
               ],
-              "name": "datasheets.Stormsurge.rangedWeapons.7.profiles.0.name",
+              "name": "twin_burst_cannon",
               "range": "18\"",
               "skill": "5+",
               "strength": "5"
@@ -8907,7 +8907,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Kroot_Farstalkers.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "6+",
               "strength": "3"
@@ -8929,7 +8929,7 @@
               "keywords": [
                 "twin-linked"
               ],
-              "name": "datasheets.Stormsurge.rangedWeapons.7.profiles.0.name",
+              "name": "twin_burst_cannon",
               "range": "18\"",
               "skill": "5+",
               "strength": "5"
@@ -8945,7 +8945,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Stealth_Battlesuits.rangedWeapons.0.profiles.0.name",
+              "name": "burst_cannon",
               "range": "18\"",
               "skill": "4+",
               "strength": "5"

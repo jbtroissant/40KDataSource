@@ -63,7 +63,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Celestian_Sacresants.meleeWeapons.0.profiles.0.name",
+              "name": "hallowed_mace",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -79,7 +79,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Celestian_Sacresants.meleeWeapons.1.profiles.0.name",
+              "name": "spear_of_the_faithful",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -97,7 +97,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Celestian_Sacresants.meleeWeapons.2.profiles.0.name",
+              "name": "anointed_halberd",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -132,7 +132,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -151,7 +151,7 @@
                 "Pistol",
                 "Melta 2"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.1.profiles.0.name",
+              "name": "inferno_pistol",
               "range": "6\"",
               "skill": "3+",
               "strength": "8"
@@ -171,7 +171,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.2.profiles.0.name",
+              "name": "ministorum_hand_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -189,7 +189,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -203,7 +203,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -310,7 +310,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Mortifiers.meleeWeapons.0.profiles.0.name",
+              "name": "twin_penitent_buzz_blades",
               "range": "Melee",
               "skill": "3+",
               "strength": "10"
@@ -329,7 +329,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Mortifiers.meleeWeapons.1.profiles.0.name",
+              "name": "twin_penitent_flails",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -347,7 +347,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Mortifiers.meleeWeapons.2.profiles.0.name",
+              "name": "penitent_buzz_blade",
               "range": "Melee",
               "skill": "3+",
               "strength": "10"
@@ -365,7 +365,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Mortifiers.meleeWeapons.3.profiles.0.name",
+              "name": "penitent_flail",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -400,7 +400,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Mortifiers.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -420,7 +420,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Mortifiers.rangedWeapons.1.profiles.0.name",
+              "name": "mortifier_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -515,7 +515,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Canoness_with_Jump_Pack.meleeWeapons.0.profiles.0.name",
+              "name": "blessed_halberd",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -533,7 +533,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Canoness_with_Jump_Pack.meleeWeapons.1.profiles.0.name",
+              "name": "holy_eviscerator",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -549,7 +549,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Canoness_with_Jump_Pack.meleeWeapons.2.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -580,7 +580,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.2.profiles.0.name",
+              "name": "ministorum_hand_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -677,7 +677,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Palatine.meleeWeapons.0.profiles.0.name",
+              "name": "palatine_blade",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -706,7 +706,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Palatine.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -724,7 +724,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "2+",
               "strength": "7"
@@ -738,7 +738,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "2+",
               "strength": "8"
@@ -863,7 +863,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Sanctifiers.meleeWeapons.0.profiles.0.name",
+              "name": "burning_hands",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -879,7 +879,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sanctifiers.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -897,7 +897,7 @@
               "keywords": [
                 "Precision"
               ],
-              "name": "datasheets.Sanctifiers.meleeWeapons.2.profiles.0.name",
+              "name": "death_cult_blades",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -913,7 +913,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sanctifiers.meleeWeapons.3.profiles.0.name",
+              "name": "sanctifier_melee_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -944,7 +944,7 @@
                 "One Shot",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Sanctifiers.rangedWeapons.0.profiles.0.name",
+              "name": "holy_fire",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -970,7 +970,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Sanctifiers.rangedWeapons.1.profiles.0.name",
+              "name": "plasma_gun_standard",
               "range": "24\"",
               "skill": "4+",
               "strength": "7"
@@ -984,7 +984,7 @@
                 "Rapid Fire 1",
                 "Hazardous"
               ],
-              "name": "datasheets.Sanctifiers.rangedWeapons.1.profiles.1.name",
+              "name": "plasma_gun_supercharge",
               "range": "24\"",
               "skill": "4+",
               "strength": "8"
@@ -1003,7 +1003,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Sanctifiers.rangedWeapons.2.profiles.0.name",
+              "name": "ministorum_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -1023,7 +1023,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.2.profiles.0.name",
+              "name": "ministorum_hand_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -1041,7 +1041,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Sanctifiers.rangedWeapons.4.profiles.0.name",
+              "name": "meltagun",
               "range": "12\"",
               "skill": "4+",
               "strength": "9"
@@ -1181,7 +1181,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Arco_flagellants.meleeWeapons.0.profiles.0.name",
+              "name": "arco_flails",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -1290,7 +1290,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sanctifiers.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -1319,7 +1319,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -1337,7 +1337,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Imagifier.rangedWeapons.1.profiles.0.name",
+              "name": "boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1480,7 +1480,7 @@
               "attacks": "18",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Triumph_of_Saint_Katherine.meleeWeapons.0.profiles.0.name",
+              "name": "relic_weapons",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -1509,7 +1509,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Triumph_of_Saint_Katherine.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistols",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -1601,7 +1601,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sanctifiers.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -1617,7 +1617,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Seraphim_Squad.meleeWeapons.1.profiles.0.name",
+              "name": "chainsword",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -1633,7 +1633,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Canoness_with_Jump_Pack.meleeWeapons.2.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1668,7 +1668,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -1686,7 +1686,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -1700,7 +1700,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -1719,7 +1719,7 @@
                 "Pistol",
                 "Melta 2"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.1.profiles.0.name",
+              "name": "inferno_pistol",
               "range": "6\"",
               "skill": "3+",
               "strength": "8"
@@ -1739,7 +1739,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.2.profiles.0.name",
+              "name": "ministorum_hand_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -1831,7 +1831,7 @@
               "keywords": [
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Repentia_Squad.meleeWeapons.0.profiles.0.name",
+              "name": "neural_whips",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -1849,7 +1849,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Repentia_Squad.meleeWeapons.1.profiles.0.name",
+              "name": "penitent_eviscerator",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -1884,7 +1884,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -1986,7 +1986,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Dialogus.meleeWeapons.0.profiles.0.name",
+              "name": "dialogus_staff",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -2015,7 +2015,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -2115,7 +2115,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Dogmata.meleeWeapons.0.profiles.0.name",
+              "name": "mace_of_the_righteous",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -2144,7 +2144,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -2238,7 +2238,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Immolator.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -2267,7 +2267,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Mortifiers.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -2286,7 +2286,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Immolator.rangedWeapons.1.profiles.0.name",
+              "name": "immolation_flamers",
               "range": "18\"",
               "skill": "N/A",
               "strength": "6"
@@ -2305,7 +2305,7 @@
                 "Twin-linked",
                 "Sustained Hits 2"
               ],
-              "name": "datasheets.Immolator.rangedWeapons.2.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -2324,7 +2324,7 @@
                 "Twin-linked",
                 "Melta 2"
               ],
-              "name": "datasheets.Immolator.rangedWeapons.3.profiles.0.name",
+              "name": "twin_multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -2342,7 +2342,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Immolator.rangedWeapons.4.profiles.0.name",
+              "name": "hunter_killer_missile",
               "range": "48\"",
               "skill": "2+",
               "strength": "14"
@@ -2440,7 +2440,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Hospitaller.meleeWeapons.0.profiles.0.name",
+              "name": "chirurgeon_s_tools",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -2469,7 +2469,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -2580,7 +2580,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Morvenn_Vahl.meleeWeapons.0.profiles.0.name",
+              "name": "lance_of_illumination_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -2593,7 +2593,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Morvenn_Vahl.meleeWeapons.0.profiles.1.name",
+              "name": "lance_of_illumination_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -2622,7 +2622,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Morvenn_Vahl.rangedWeapons.0.profiles.0.name",
+              "name": "fidelis",
               "range": "36\"",
               "skill": "2+",
               "strength": "6"
@@ -2638,7 +2638,7 @@
               "attacks": "2",
               "damage": "D6",
               "keywords": [],
-              "name": "datasheets.Morvenn_Vahl.rangedWeapons.1.profiles.0.name",
+              "name": "paragon_missile_launcher_prioris",
               "range": "36\"",
               "skill": "2+",
               "strength": "9"
@@ -2651,7 +2651,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Morvenn_Vahl.rangedWeapons.1.profiles.1.name",
+              "name": "paragon_missile_launcher_sanctorum",
               "range": "36\"",
               "skill": "2+",
               "strength": "4"
@@ -2745,7 +2745,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sanctifiers.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -2761,7 +2761,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Seraphim_Squad.meleeWeapons.1.profiles.0.name",
+              "name": "chainsword",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -2777,7 +2777,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Canoness_with_Jump_Pack.meleeWeapons.2.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -2806,7 +2806,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -2824,7 +2824,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Imagifier.rangedWeapons.1.profiles.0.name",
+              "name": "boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -2844,7 +2844,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Retributor_Squad.rangedWeapons.2.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -2865,7 +2865,7 @@
                 "Devastating Wounds",
                 "Anti-psyker 2+"
               ],
-              "name": "datasheets.Retributor_Squad.rangedWeapons.3.profiles.0.name",
+              "name": "condemnor_boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -2884,7 +2884,7 @@
                 "Pistol",
                 "Melta 2"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.1.profiles.0.name",
+              "name": "inferno_pistol",
               "range": "6\"",
               "skill": "3+",
               "strength": "8"
@@ -2904,7 +2904,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.2.profiles.0.name",
+              "name": "ministorum_hand_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -2922,7 +2922,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -2936,7 +2936,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -2955,7 +2955,7 @@
                 "Sustained Hits 1",
                 "Heavy"
               ],
-              "name": "datasheets.Mortifiers.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolter",
               "range": "36\"",
               "skill": "4+",
               "strength": "5"
@@ -2974,7 +2974,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Retributor_Squad.rangedWeapons.8.profiles.0.name",
+              "name": "ministorum_heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -2993,7 +2993,7 @@
                 "Melta 2",
                 "Heavy"
               ],
-              "name": "datasheets.Retributor_Squad.rangedWeapons.9.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "4+",
               "strength": "9"
@@ -3102,7 +3102,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sanctifiers.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -3118,7 +3118,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Canoness_with_Jump_Pack.meleeWeapons.2.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -3134,7 +3134,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sisters_Novitiate_Squad.meleeWeapons.2.profiles.0.name",
+              "name": "novitiate_melee_weapons",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -3163,7 +3163,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -3181,7 +3181,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Imagifier.rangedWeapons.1.profiles.0.name",
+              "name": "boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -3199,7 +3199,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -3213,7 +3213,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -3231,7 +3231,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Sisters_Novitiate_Squad.rangedWeapons.3.profiles.0.name",
+              "name": "autopistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "3"
@@ -3249,7 +3249,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Sisters_Novitiate_Squad.rangedWeapons.4.profiles.0.name",
+              "name": "autogun",
               "range": "24\"",
               "skill": "3+",
               "strength": "3"
@@ -3268,7 +3268,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Sanctifiers.rangedWeapons.2.profiles.0.name",
+              "name": "ministorum_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -3390,7 +3390,7 @@
                 "Precision",
                 "Anti-chaos 2+"
               ],
-              "name": "datasheets.Daemonifuge.meleeWeapons.0.profiles.0.name",
+              "name": "sanctity",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -3408,7 +3408,7 @@
               "keywords": [
                 "Precision"
               ],
-              "name": "datasheets.Daemonifuge.meleeWeapons.1.profiles.0.name",
+              "name": "the_outcast_s_weapons",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -3437,7 +3437,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -3536,7 +3536,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Immolator.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -3565,7 +3565,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Sororitas_Rhino.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -3583,7 +3583,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Immolator.rangedWeapons.4.profiles.0.name",
+              "name": "hunter_killer_missile",
               "range": "48\"",
               "skill": "2+",
               "strength": "14"
@@ -3674,7 +3674,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Paragon_Warsuits.meleeWeapons.0.profiles.0.name",
+              "name": "paragon_war_blade",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -3690,7 +3690,7 @@
               "attacks": "3",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Paragon_Warsuits.meleeWeapons.1.profiles.0.name",
+              "name": "paragon_war_mace",
               "range": "Melee",
               "skill": "3+",
               "strength": "12"
@@ -3719,7 +3719,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -3737,7 +3737,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Mortifiers.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -3756,7 +3756,7 @@
                 "Twin-linked",
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Paragon_Warsuits.rangedWeapons.2.profiles.0.name",
+              "name": "paragon_storm_bolters",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -3774,7 +3774,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Paragon_Warsuits.rangedWeapons.3.profiles.0.name",
+              "name": "paragon_grenade_launchers",
               "range": "24\"",
               "skill": "3+",
               "strength": "9"
@@ -3793,7 +3793,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Retributor_Squad.rangedWeapons.8.profiles.0.name",
+              "name": "ministorum_heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -3811,7 +3811,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Retributor_Squad.rangedWeapons.9.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -3899,7 +3899,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Immolator.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -3929,7 +3929,7 @@
                 "Rapid Fire 4",
                 "Twin-linked"
               ],
-              "name": "datasheets.Castigator.rangedWeapons.0.profiles.0.name",
+              "name": "castigator_autocannons",
               "range": "48\"",
               "skill": "3+",
               "strength": "9"
@@ -3947,7 +3947,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Mortifiers.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -3966,7 +3966,7 @@
                 "Ignores Cover",
                 "Blast"
               ],
-              "name": "datasheets.Castigator.rangedWeapons.2.profiles.0.name",
+              "name": "castigator_battle_cannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "10"
@@ -3984,7 +3984,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Immolator.rangedWeapons.4.profiles.0.name",
+              "name": "hunter_killer_missile",
               "range": "48\"",
               "skill": "2+",
               "strength": "14"
@@ -4010,7 +4010,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Sororitas_Rhino.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -4095,7 +4095,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Immolator.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -4124,7 +4124,7 @@
               "keywords": [
                 "Indirect Fire"
               ],
-              "name": "datasheets.Exorcist.rangedWeapons.0.profiles.0.name",
+              "name": "exorcist_missile_launcher",
               "range": "36\"",
               "skill": "3+",
               "strength": "10"
@@ -4142,7 +4142,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Mortifiers.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -4162,7 +4162,7 @@
                 "Ignores Cover",
                 "Blast"
               ],
-              "name": "datasheets.Exorcist.rangedWeapons.2.profiles.0.name",
+              "name": "exorcist_conflagration_rockets",
               "range": "36\"",
               "skill": "3+",
               "strength": "6"
@@ -4180,7 +4180,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Immolator.rangedWeapons.4.profiles.0.name",
+              "name": "hunter_killer_missile",
               "range": "48\"",
               "skill": "2+",
               "strength": "14"
@@ -4277,7 +4277,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Mortifiers.meleeWeapons.0.profiles.0.name",
+              "name": "twin_penitent_buzz_blades",
               "range": "Melee",
               "skill": "4+",
               "strength": "10"
@@ -4295,7 +4295,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Mortifiers.meleeWeapons.2.profiles.0.name",
+              "name": "penitent_buzz_blade",
               "range": "Melee",
               "skill": "4+",
               "strength": "10"
@@ -4313,7 +4313,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Penitent_Engines.meleeWeapons.2.profiles.0.name",
+              "name": "penitent_flail",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -4332,7 +4332,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Penitent_Engines.meleeWeapons.3.profiles.0.name",
+              "name": "twin_penitent_flail",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -4370,7 +4370,7 @@
                 "Ignores Cover",
                 "Assault"
               ],
-              "name": "datasheets.Penitent_Engines.rangedWeapons.0.profiles.0.name",
+              "name": "penitent_flamers",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -4462,7 +4462,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Junith_Eruita.meleeWeapons.0.profiles.0.name",
+              "name": "mace_of_castigation",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -4493,7 +4493,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Junith_Eruita.rangedWeapons.0.profiles.0.name",
+              "name": "twin_ministorum_heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -4600,7 +4600,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Ministorum_Priest.meleeWeapons.0.profiles.0.name",
+              "name": "zealot_s_vindictor_melee",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -4616,7 +4616,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Canoness_with_Jump_Pack.meleeWeapons.2.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -4646,7 +4646,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Ministorum_Priest.rangedWeapons.0.profiles.0.name",
+              "name": "zealot_s_vindictor_ranged",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -4664,7 +4664,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Ministorum_Priest.rangedWeapons.1.profiles.0.name",
+              "name": "holy_pistol",
               "range": "12\"",
               "skill": "4+",
               "strength": "4"
@@ -4766,7 +4766,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Canoness_with_Jump_Pack.meleeWeapons.2.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -4801,7 +4801,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -4819,7 +4819,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -4833,7 +4833,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -4942,7 +4942,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sanctifiers.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -4958,7 +4958,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Seraphim_Squad.meleeWeapons.1.profiles.0.name",
+              "name": "chainsword",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -4974,7 +4974,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Canoness_with_Jump_Pack.meleeWeapons.2.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -5003,7 +5003,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -5022,7 +5022,7 @@
                 "Rapid Fire 1",
                 "Assault"
               ],
-              "name": "datasheets.Imagifier.rangedWeapons.1.profiles.0.name",
+              "name": "boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -5042,7 +5042,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Retributor_Squad.rangedWeapons.2.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -5063,7 +5063,7 @@
                 "Devastating Wounds",
                 "Anti-psyker 2+"
               ],
-              "name": "datasheets.Retributor_Squad.rangedWeapons.3.profiles.0.name",
+              "name": "condemnor_boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -5082,7 +5082,7 @@
                 "Pistol",
                 "Melta 2"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.1.profiles.0.name",
+              "name": "inferno_pistol",
               "range": "6\"",
               "skill": "3+",
               "strength": "8"
@@ -5102,7 +5102,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.2.profiles.0.name",
+              "name": "ministorum_hand_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -5120,7 +5120,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -5134,7 +5134,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -5153,7 +5153,7 @@
                 "Assault",
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Dominion_Squad.rangedWeapons.7.profiles.0.name",
+              "name": "artificer_crafted_storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -5172,7 +5172,7 @@
                 "Melta 2",
                 "Assault"
               ],
-              "name": "datasheets.Sanctifiers.rangedWeapons.4.profiles.0.name",
+              "name": "meltagun",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -5192,7 +5192,7 @@
                 "Ignores Cover",
                 "Assault"
               ],
-              "name": "datasheets.Sanctifiers.rangedWeapons.2.profiles.0.name",
+              "name": "ministorum_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -5309,7 +5309,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Saint_Celestine.meleeWeapons.0.profiles.0.name",
+              "name": "the_ardent_blade_melee",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -5325,7 +5325,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Canoness_with_Jump_Pack.meleeWeapons.2.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -5355,7 +5355,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Saint_Celestine.rangedWeapons.0.profiles.0.name",
+              "name": "the_ardent_blade_ranged",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -5373,7 +5373,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -5489,7 +5489,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sanctifiers.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -5505,7 +5505,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Seraphim_Squad.meleeWeapons.1.profiles.0.name",
+              "name": "chainsword",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -5521,7 +5521,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Canoness_with_Jump_Pack.meleeWeapons.2.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -5550,7 +5550,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -5568,7 +5568,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Imagifier.rangedWeapons.1.profiles.0.name",
+              "name": "boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -5588,7 +5588,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Retributor_Squad.rangedWeapons.2.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -5609,7 +5609,7 @@
                 "Devastating Wounds",
                 "Anti-psyker 2+"
               ],
-              "name": "datasheets.Retributor_Squad.rangedWeapons.3.profiles.0.name",
+              "name": "condemnor_boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -5628,7 +5628,7 @@
                 "Pistol",
                 "Melta 2"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.1.profiles.0.name",
+              "name": "inferno_pistol",
               "range": "6\"",
               "skill": "3+",
               "strength": "8"
@@ -5648,7 +5648,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.2.profiles.0.name",
+              "name": "ministorum_hand_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -5666,7 +5666,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -5680,7 +5680,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -5698,7 +5698,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Dominion_Squad.rangedWeapons.7.profiles.0.name",
+              "name": "artificer_crafted_storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -5716,7 +5716,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Sanctifiers.rangedWeapons.4.profiles.0.name",
+              "name": "meltagun",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -5735,7 +5735,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Sanctifiers.rangedWeapons.2.profiles.0.name",
+              "name": "ministorum_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -5754,7 +5754,7 @@
                 "Sustained Hits 1",
                 "Heavy"
               ],
-              "name": "datasheets.Mortifiers.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolter",
               "range": "36\"",
               "skill": "4+",
               "strength": "5"
@@ -5773,7 +5773,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Retributor_Squad.rangedWeapons.8.profiles.0.name",
+              "name": "ministorum_heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -5792,7 +5792,7 @@
                 "Melta 2",
                 "Heavy"
               ],
-              "name": "datasheets.Retributor_Squad.rangedWeapons.9.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "4+",
               "strength": "9"
@@ -5911,7 +5911,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Canoness.meleeWeapons.0.profiles.0.name",
+              "name": "hallowed_chainsword",
               "range": "Melee",
               "skill": "2+",
               "strength": "3"
@@ -5929,7 +5929,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Canoness.meleeWeapons.1.profiles.0.name",
+              "name": "blessed_blade",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -5945,7 +5945,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Canoness_with_Jump_Pack.meleeWeapons.2.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -5974,7 +5974,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Palatine.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -5995,7 +5995,7 @@
                 "Devastating Wounds",
                 "Anti-psyker 2+"
               ],
-              "name": "datasheets.Retributor_Squad.rangedWeapons.3.profiles.0.name",
+              "name": "condemnor_boltgun",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -6014,7 +6014,7 @@
                 "Pistol",
                 "Melta 2"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.1.profiles.0.name",
+              "name": "inferno_pistol",
               "range": "6\"",
               "skill": "2+",
               "strength": "8"
@@ -6032,7 +6032,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "2+",
               "strength": "7"
@@ -6046,7 +6046,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "2+",
               "strength": "8"
@@ -6066,7 +6066,7 @@
                 "One Shot",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Canoness.rangedWeapons.4.profiles.0.name",
+              "name": "brazier_of_holy_fire",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -6180,7 +6180,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Aestred_Thurga_and_Agathae_Dolan.meleeWeapons.0.profiles.0.name",
+              "name": "blade_of_vigil",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -6196,7 +6196,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Aestred_Thurga_and_Agathae_Dolan.meleeWeapons.1.profiles.0.name",
+              "name": "scribe_s_staff",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -6225,7 +6225,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Celestian_Sacresants.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -6333,7 +6333,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Repressor.meleeWeapons.0.profiles.0.name",
+              "name": "dozer_ram",
               "range": "Melee",
               "skill": "4+",
               "strength": "7"
@@ -6363,7 +6363,7 @@
               "keywords": [
                 "one shot"
               ],
-              "name": "datasheets.Immolator.rangedWeapons.4.profiles.0.name",
+              "name": "hunter_killer_missile",
               "range": "48\"",
               "skill": "2+",
               "strength": "14"
@@ -6383,7 +6383,7 @@
                 "torrent",
                 "twin-linked"
               ],
-              "name": "datasheets.Repressor.rangedWeapons.1.profiles.0.name",
+              "name": "repressor_twin_heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -6402,7 +6402,7 @@
                 "ignores cover",
                 "torrent"
               ],
-              "name": "datasheets.Repressor.rangedWeapons.2.profiles.0.name",
+              "name": "heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -6420,7 +6420,7 @@
               "keywords": [
                 "rapid fire 2"
               ],
-              "name": "datasheets.Sororitas_Rhino.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"

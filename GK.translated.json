@@ -71,7 +71,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Brotherhood_Chaplain.meleeWeapons.0.profiles.0.name",
+              "name": "crozius_arcanum",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -100,7 +100,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -201,7 +201,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Brotherhood_Librarian.meleeWeapons.0.profiles.0.name",
+              "name": "nemesis_force_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -230,7 +230,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Brotherhood_Librarian.rangedWeapons.0.profiles.0.name",
+              "name": "purge_soul_witchfire",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -245,7 +245,7 @@
                 "Psychic",
                 "Precision"
               ],
-              "name": "datasheets.Brotherhood_Librarian.rangedWeapons.0.profiles.1.name",
+              "name": "purge_soul_focused_witchfire",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -265,7 +265,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Brotherhood_Librarian.rangedWeapons.1.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -283,7 +283,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -385,7 +385,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Brotherhood_Librarian.meleeWeapons.0.profiles.0.name",
+              "name": "nemesis_force_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -420,7 +420,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -439,7 +439,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.1.profiles.0.name",
+              "name": "incinerator",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -458,7 +458,7 @@
                 "Sustained Hits 1",
                 "Psychic"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.2.profiles.0.name",
+              "name": "psilencer",
               "range": "24\"",
               "skill": "2+",
               "strength": "5"
@@ -476,7 +476,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.3.profiles.0.name",
+              "name": "psycannon",
               "range": "24\"",
               "skill": "2+",
               "strength": "8"
@@ -570,7 +570,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -600,7 +600,7 @@
                 "Twin-linked",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.0.profiles.0.name",
+              "name": "twin_assault_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -619,7 +619,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.1.profiles.0.name",
+              "name": "flamestorm_cannon",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -637,7 +637,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.profiles.0.name",
+              "name": "hunter_killer_missile",
               "range": "48\"",
               "skill": "2+",
               "strength": "14"
@@ -663,7 +663,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.3.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -681,7 +681,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -766,7 +766,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -795,7 +795,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -813,7 +813,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.profiles.0.name",
+              "name": "hunter_killer_missile",
               "range": "48\"",
               "skill": "2+",
               "strength": "14"
@@ -916,7 +916,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Brotherhood_Librarian.meleeWeapons.0.profiles.0.name",
+              "name": "nemesis_force_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -945,7 +945,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -964,7 +964,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.1.profiles.0.name",
+              "name": "incinerator",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -983,7 +983,7 @@
                 "Sustained Hits 1",
                 "Psychic"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.2.profiles.0.name",
+              "name": "psilencer",
               "range": "24\"",
               "skill": "2+",
               "strength": "5"
@@ -1001,7 +1001,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.3.profiles.0.name",
+              "name": "psycannon",
               "range": "24\"",
               "skill": "2+",
               "strength": "8"
@@ -1092,7 +1092,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -1122,7 +1122,7 @@
                 "Twin-linked",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.0.profiles.0.name",
+              "name": "twin_assault_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -1138,7 +1138,7 @@
               "attacks": "2",
               "damage": "D6",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.1.profiles.0.name",
+              "name": "typhoon_missile_launcher_krak",
               "range": "48\"",
               "skill": "3+",
               "strength": "9"
@@ -1151,7 +1151,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.1.profiles.1.name",
+              "name": "typhoon_missile_launcher_frag",
               "range": "48\"",
               "skill": "3+",
               "strength": "4"
@@ -1167,7 +1167,7 @@
               "attacks": "1",
               "damage": "D6+2",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.2.profiles.0.name",
+              "name": "stormstrike_missile_launcher",
               "range": "48\"",
               "skill": "3+",
               "strength": "10"
@@ -1186,7 +1186,7 @@
                 "Twin-linked",
                 "Rapid Fire 6"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.3.profiles.0.name",
+              "name": "hurricane_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1205,7 +1205,7 @@
                 "Twin-linked",
                 "Blast"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.4.profiles.0.name",
+              "name": "twin_heavy_plasma_cannon_standard",
               "range": "36\"",
               "skill": "3+",
               "strength": "7"
@@ -1220,7 +1220,7 @@
                 "Hazardous",
                 "Blast"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.4.profiles.1.name",
+              "name": "twin_heavy_plasma_cannon_supercharge",
               "range": "36\"",
               "skill": "3+",
               "strength": "8"
@@ -1238,7 +1238,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.5.profiles.0.name",
+              "name": "twin_lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -1257,7 +1257,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.6.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -1276,7 +1276,7 @@
                 "Twin-linked",
                 "Melta 2"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.7.profiles.0.name",
+              "name": "twin_multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -1372,7 +1372,7 @@
                 "Psychic",
                 "Precision"
               ],
-              "name": "datasheets.Brotherhood_Librarian.meleeWeapons.0.profiles.0.name",
+              "name": "nemesis_force_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -1401,7 +1401,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -1490,7 +1490,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -1520,7 +1520,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.6.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -1536,7 +1536,7 @@
               "attacks": "2",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Land_Raider.rangedWeapons.1.profiles.0.name",
+              "name": "godhammer_lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -1554,7 +1554,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.profiles.0.name",
+              "name": "hunter_killer_missile",
               "range": "48\"",
               "skill": "2+",
               "strength": "14"
@@ -1580,7 +1580,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.3.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -1598,7 +1598,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1683,7 +1683,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -1714,7 +1714,7 @@
                 "Sustained Hits 1",
                 "Psychic"
               ],
-              "name": "datasheets.Land_Raider_Banisher.rangedWeapons.0.profiles.0.name",
+              "name": "twin_psycannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -1733,7 +1733,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Land_Raider_Banisher.rangedWeapons.1.profiles.0.name",
+              "name": "heavy_incinerator",
               "range": "18\"",
               "skill": "N/A",
               "strength": "6"
@@ -1751,7 +1751,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.profiles.0.name",
+              "name": "hunter_killer_missile",
               "range": "48\"",
               "skill": "2+",
               "strength": "14"
@@ -1777,7 +1777,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1795,7 +1795,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.3.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -1885,7 +1885,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Brotherhood_Librarian.meleeWeapons.0.profiles.0.name",
+              "name": "nemesis_force_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -1901,7 +1901,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Strike_Squad.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1936,7 +1936,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1955,7 +1955,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.1.profiles.0.name",
+              "name": "incinerator",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -1974,7 +1974,7 @@
                 "Sustained Hits 1",
                 "Psychic"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.2.profiles.0.name",
+              "name": "psilencer",
               "range": "24\"",
               "skill": "3+",
               "strength": "5"
@@ -1992,7 +1992,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.3.profiles.0.name",
+              "name": "psycannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -2088,7 +2088,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -2117,7 +2117,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Grey_Knights_Thunderhawk_Gunship.rangedWeapons.0.profiles.0.name",
+              "name": "thunderhawk_heavy_cannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "10"
@@ -2133,7 +2133,7 @@
               "attacks": "1",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Thunderhawk_Gunship.rangedWeapons.1.profiles.0.name",
+              "name": "lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -2152,7 +2152,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.6.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -2170,7 +2170,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Grey_Knights_Thunderhawk_Gunship.rangedWeapons.3.profiles.0.name",
+              "name": "turbo_laser_destructor",
               "range": "96\"",
               "skill": "3+",
               "strength": "20"
@@ -2188,7 +2188,7 @@
               "keywords": [
                 "Anti-fly 4+"
               ],
-              "name": "datasheets.Grey_Knights_Thunderhawk_Gunship.rangedWeapons.4.profiles.0.name",
+              "name": "hellstrike_missile_battery",
               "range": "72\"",
               "skill": "3+",
               "strength": "8"
@@ -2271,7 +2271,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -2301,7 +2301,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.6.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -2319,7 +2319,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.profiles.0.name",
+              "name": "hunter_killer_missile",
               "range": "48\"",
               "skill": "2+",
               "strength": "14"
@@ -2345,7 +2345,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -2364,7 +2364,7 @@
                 "Twin-linked",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.0.profiles.0.name",
+              "name": "twin_assault_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -2382,7 +2382,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.5.profiles.0.name",
+              "name": "twin_lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -2485,7 +2485,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Brotherhood_Librarian.meleeWeapons.0.profiles.0.name",
+              "name": "nemesis_force_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -2520,7 +2520,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -2539,7 +2539,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.1.profiles.0.name",
+              "name": "incinerator",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -2558,7 +2558,7 @@
                 "Sustained Hits 1",
                 "Psychic"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.2.profiles.0.name",
+              "name": "psilencer",
               "range": "24\"",
               "skill": "3+",
               "strength": "5"
@@ -2576,7 +2576,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.3.profiles.0.name",
+              "name": "psycannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -2683,7 +2683,7 @@
                 "Precision",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Castellan_Crowe.meleeWeapons.0.profiles.0.name",
+              "name": "black_blade_of_antwyr",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -2714,7 +2714,7 @@
                 "Ignores Cover",
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Castellan_Crowe.rangedWeapons.0.profiles.0.name",
+              "name": "purifying_flame",
               "range": "18\"",
               "skill": "2+",
               "strength": "4"
@@ -2732,7 +2732,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -2837,7 +2837,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Brotherhood_Techmarine.meleeWeapons.0.profiles.0.name",
+              "name": "plasma_cutter_standard",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -2851,7 +2851,7 @@
                 "Hazardous",
                 "Extra Attacks"
               ],
-              "name": "datasheets.Brotherhood_Techmarine.meleeWeapons.0.profiles.1.name",
+              "name": "plasma_cutter_supercharge",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -2867,7 +2867,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Brotherhood_Techmarine.meleeWeapons.1.profiles.0.name",
+              "name": "omnissiah_power_axe",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -2885,7 +2885,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Brotherhood_Techmarine.meleeWeapons.2.profiles.0.name",
+              "name": "servo_arms",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -2912,7 +2912,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Brotherhood_Techmarine.rangedWeapons.0.profiles.0.name",
+              "name": "boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -2931,7 +2931,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Brotherhood_Techmarine.rangedWeapons.1.profiles.0.name",
+              "name": "flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -2949,7 +2949,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Brotherhood_Techmarine.rangedWeapons.2.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -3043,7 +3043,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Brotherhood_Librarian.meleeWeapons.0.profiles.0.name",
+              "name": "nemesis_force_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -3059,7 +3059,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Strike_Squad.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -3094,7 +3094,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -3113,7 +3113,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.1.profiles.0.name",
+              "name": "incinerator",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -3132,7 +3132,7 @@
                 "Sustained Hits 1",
                 "Psychic"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.2.profiles.0.name",
+              "name": "psilencer",
               "range": "24\"",
               "skill": "3+",
               "strength": "5"
@@ -3150,7 +3150,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.3.profiles.0.name",
+              "name": "psycannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -3241,7 +3241,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.meleeWeapons.0.profiles.0.name",
+              "name": "dreadfists",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -3259,7 +3259,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.meleeWeapons.1.profiles.0.name",
+              "name": "nemesis_daemon_greathammer",
               "range": "Melee",
               "skill": "3+",
               "strength": "14"
@@ -3277,7 +3277,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.meleeWeapons.2.profiles.0.name",
+              "name": "nemesis_greatsword_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -3290,7 +3290,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.meleeWeapons.2.profiles.1.name",
+              "name": "nemesis_greatsword_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "10"
@@ -3320,7 +3320,7 @@
                 "Sustained Hits 1",
                 "Psychic"
               ],
-              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.rangedWeapons.0.profiles.0.name",
+              "name": "gatling_psilencer",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -3339,7 +3339,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Land_Raider_Banisher.rangedWeapons.1.profiles.0.name",
+              "name": "heavy_incinerator",
               "range": "18\"",
               "skill": "N/A",
               "strength": "6"
@@ -3358,7 +3358,7 @@
                 "Psychic",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.rangedWeapons.2.profiles.0.name",
+              "name": "heavy_psycannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "10"
@@ -3450,7 +3450,7 @@
               "attacks": "1",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Servitors.meleeWeapons.0.profiles.0.name",
+              "name": "servitor_s_servo_arm",
               "range": "Melee",
               "skill": "5+",
               "strength": "6"
@@ -3466,7 +3466,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Servitors.meleeWeapons.1.profiles.0.name",
+              "name": "servitor_s_tools",
               "range": "Melee",
               "skill": "5+",
               "strength": "3"
@@ -3496,7 +3496,7 @@
                 "Sustained Hits 1",
                 "Heavy"
               ],
-              "name": "datasheets.Servitors.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolter",
               "range": "36\"",
               "skill": "4+",
               "strength": "5"
@@ -3515,7 +3515,7 @@
                 "Melta 2",
                 "Heavy"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.3.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "4+",
               "strength": "9"
@@ -3534,7 +3534,7 @@
                 "Heavy",
                 "Blast"
               ],
-              "name": "datasheets.Servitors.rangedWeapons.2.profiles.0.name",
+              "name": "plasma_cannon_standard",
               "range": "36\"",
               "skill": "4+",
               "strength": "7"
@@ -3549,7 +3549,7 @@
                 "Hazardous",
                 "Blast"
               ],
-              "name": "datasheets.Servitors.rangedWeapons.2.profiles.1.name",
+              "name": "plasma_cannon_supercharge",
               "range": "36\"",
               "skill": "4+",
               "strength": "8"
@@ -3636,7 +3636,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -3666,7 +3666,7 @@
                 "Twin-linked",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.0.profiles.0.name",
+              "name": "twin_assault_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -3685,7 +3685,7 @@
                 "Twin-linked",
                 "Rapid Fire 6"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.3.profiles.0.name",
+              "name": "hurricane_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -3703,7 +3703,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.profiles.0.name",
+              "name": "hunter_killer_missile",
               "range": "48\"",
               "skill": "2+",
               "strength": "14"
@@ -3729,7 +3729,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.3.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -3747,7 +3747,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -3835,7 +3835,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Brotherhood_Librarian.meleeWeapons.0.profiles.0.name",
+              "name": "nemesis_force_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -3851,7 +3851,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Strike_Squad.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -3888,7 +3888,7 @@
                 "Ignores Cover",
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Castellan_Crowe.rangedWeapons.0.profiles.0.name",
+              "name": "purifying_flame",
               "range": "18\"",
               "skill": "3+",
               "strength": "4"
@@ -3906,7 +3906,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -3925,7 +3925,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.1.profiles.0.name",
+              "name": "incinerator",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -3944,7 +3944,7 @@
                 "Sustained Hits 1",
                 "Psychic"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.2.profiles.0.name",
+              "name": "psilencer",
               "range": "24\"",
               "skill": "3+",
               "strength": "5"
@@ -3962,7 +3962,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.3.profiles.0.name",
+              "name": "psycannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -4047,7 +4047,7 @@
               "attacks": "5",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.meleeWeapons.0.profiles.0.name",
+              "name": "dreadnought_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "12"
@@ -4063,7 +4063,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.meleeWeapons.1.profiles.0.name",
+              "name": "armoured_feet",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -4092,7 +4092,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.rangedWeapons.0.profiles.0.name",
+              "name": "assault_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -4110,7 +4110,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -4128,7 +4128,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.rangedWeapons.2.profiles.0.name",
+              "name": "heavy_plasma_cannon_standard",
               "range": "36\"",
               "skill": "3+",
               "strength": "7"
@@ -4142,7 +4142,7 @@
                 "Hazardous",
                 "Blast"
               ],
-              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.rangedWeapons.2.profiles.1.name",
+              "name": "heavy_plasma_cannon_supercharge",
               "range": "36\"",
               "skill": "3+",
               "strength": "8"
@@ -4160,7 +4160,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.3.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -4178,7 +4178,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.5.profiles.0.name",
+              "name": "twin_lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -4194,7 +4194,7 @@
               "attacks": "1",
               "damage": "D6",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.rangedWeapons.5.profiles.0.name",
+              "name": "missile_launcher_krak",
               "range": "48\"",
               "skill": "3+",
               "strength": "9"
@@ -4207,7 +4207,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.rangedWeapons.5.profiles.1.name",
+              "name": "missile_launcher_frag",
               "range": "48\"",
               "skill": "3+",
               "strength": "4"
@@ -4226,7 +4226,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.rangedWeapons.6.profiles.0.name",
+              "name": "heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -4320,7 +4320,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Brotherhood_Librarian.meleeWeapons.0.profiles.0.name",
+              "name": "nemesis_force_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -4349,7 +4349,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -4368,7 +4368,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.1.profiles.0.name",
+              "name": "incinerator",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -4387,7 +4387,7 @@
                 "Sustained Hits 1",
                 "Psychic"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.2.profiles.0.name",
+              "name": "psilencer",
               "range": "24\"",
               "skill": "2+",
               "strength": "5"
@@ -4405,7 +4405,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.3.profiles.0.name",
+              "name": "psycannon",
               "range": "24\"",
               "skill": "2+",
               "strength": "8"
@@ -4516,7 +4516,7 @@
                 "Psychic",
                 "Anti-daemon 2+"
               ],
-              "name": "datasheets.Kaldor_Draigo.meleeWeapons.0.profiles.0.name",
+              "name": "the_titansword",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -4547,7 +4547,7 @@
                 "Ignores Cover",
                 "Anti-daemon 2+"
               ],
-              "name": "datasheets.Kaldor_Draigo.rangedWeapons.0.profiles.0.name",
+              "name": "scourging",
               "range": "18\"",
               "skill": "2+",
               "strength": "6"
@@ -4565,7 +4565,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -4667,7 +4667,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Grand_Master_Voldus.meleeWeapons.0.profiles.0.name",
+              "name": "malleus_argyrum",
               "range": "Melee",
               "skill": "2+",
               "strength": "10"
@@ -4696,7 +4696,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -4798,7 +4798,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Brother_Captain_Stern.meleeWeapons.0.profiles.0.name",
+              "name": "nemesis_force_sword",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -4827,7 +4827,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -4917,7 +4917,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -4946,7 +4946,7 @@
               "keywords": [
                 "Anti-fly 2+"
               ],
-              "name": "datasheets.Grey_Knights_Stormtalon_Gunship.rangedWeapons.0.profiles.0.name",
+              "name": "skyhammer_missile_launcher",
               "range": "48\"",
               "skill": "3+",
               "strength": "8"
@@ -4965,7 +4965,7 @@
                 "Twin-linked",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.0.profiles.0.name",
+              "name": "twin_assault_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -4984,7 +4984,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.6.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -5002,7 +5002,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.5.profiles.0.name",
+              "name": "twin_lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -5018,7 +5018,7 @@
               "attacks": "2",
               "damage": "D6",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.1.profiles.0.name",
+              "name": "typhoon_missile_launcher_krak",
               "range": "48\"",
               "skill": "3+",
               "strength": "9"
@@ -5031,7 +5031,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.1.profiles.1.name",
+              "name": "typhoon_missile_launcher_frag",
               "range": "48\"",
               "skill": "3+",
               "strength": "4"
@@ -5114,7 +5114,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -5141,7 +5141,7 @@
               "attacks": "2",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Stormhawk_Interceptor.rangedWeapons.0.profiles.0.name",
+              "name": "las_talon",
               "range": "24\"",
               "skill": "3+",
               "strength": "10"
@@ -5159,7 +5159,7 @@
               "keywords": [
                 "Anti-fly 2+"
               ],
-              "name": "datasheets.Grey_Knights_Stormtalon_Gunship.rangedWeapons.0.profiles.0.name",
+              "name": "skyhammer_missile_launcher",
               "range": "48\"",
               "skill": "3+",
               "strength": "8"
@@ -5178,7 +5178,7 @@
                 "Twin-linked",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.0.profiles.0.name",
+              "name": "twin_assault_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -5196,7 +5196,7 @@
               "keywords": [
                 "Anti-fly 2+"
               ],
-              "name": "datasheets.Grey_Knights_Stormhawk_Interceptor.rangedWeapons.3.profiles.0.name",
+              "name": "icarus_stormcannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "7"
@@ -5215,7 +5215,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.6.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -5231,7 +5231,7 @@
               "attacks": "2",
               "damage": "D6",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.1.profiles.0.name",
+              "name": "typhoon_missile_launcher_krak",
               "range": "48\"",
               "skill": "3+",
               "strength": "9"
@@ -5244,7 +5244,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.1.profiles.1.name",
+              "name": "typhoon_missile_launcher_frag",
               "range": "48\"",
               "skill": "3+",
               "strength": "4"
@@ -5329,7 +5329,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.meleeWeapons.0.profiles.0.name",
+              "name": "dreadfists",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -5347,7 +5347,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.meleeWeapons.1.profiles.0.name",
+              "name": "nemesis_daemon_greathammer",
               "range": "Melee",
               "skill": "3+",
               "strength": "14"
@@ -5365,7 +5365,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.meleeWeapons.2.profiles.0.name",
+              "name": "nemesis_greatsword_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -5378,7 +5378,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.meleeWeapons.2.profiles.1.name",
+              "name": "nemesis_greatsword_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "10"
@@ -5408,7 +5408,7 @@
                 "Sustained Hits 1",
                 "Psychic"
               ],
-              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.rangedWeapons.0.profiles.0.name",
+              "name": "gatling_psilencer",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -5427,7 +5427,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Land_Raider_Banisher.rangedWeapons.1.profiles.0.name",
+              "name": "heavy_incinerator",
               "range": "18\"",
               "skill": "N/A",
               "strength": "6"
@@ -5446,7 +5446,7 @@
                 "Psychic",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.rangedWeapons.2.profiles.0.name",
+              "name": "heavy_psycannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "10"
@@ -5534,7 +5534,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Brotherhood_Librarian.meleeWeapons.0.profiles.0.name",
+              "name": "nemesis_force_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -5550,7 +5550,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Strike_Squad.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -5585,7 +5585,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -5604,7 +5604,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.1.profiles.0.name",
+              "name": "incinerator",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -5623,7 +5623,7 @@
                 "Sustained Hits 1",
                 "Psychic"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.2.profiles.0.name",
+              "name": "psilencer",
               "range": "24\"",
               "skill": "3+",
               "strength": "5"
@@ -5641,7 +5641,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.3.profiles.0.name",
+              "name": "psycannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -5727,7 +5727,7 @@
               "attacks": "5",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.meleeWeapons.0.profiles.0.name",
+              "name": "dreadnought_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "12"
@@ -5745,7 +5745,7 @@
               "keywords": [
                 "psychic"
               ],
-              "name": "datasheets.Grey_Knights_Dreadnought.meleeWeapons.1.profiles.0.name",
+              "name": "nemesis_doomglaive",
               "range": "Melee",
               "skill": "3+",
               "strength": "14"
@@ -5761,7 +5761,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.meleeWeapons.1.profiles.0.name",
+              "name": "armoured_feet",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -5783,7 +5783,7 @@
               "keywords": [
                 "psychic"
               ],
-              "name": "datasheets.Grand_Master_in_Nemesis_Dreadknight.rangedWeapons.2.profiles.0.name",
+              "name": "heavy_psycannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "10"
@@ -5802,7 +5802,7 @@
                 "ignores cover",
                 "torrent"
               ],
-              "name": "datasheets.Grey_Knights_Venerable_Dreadnought.rangedWeapons.6.profiles.0.name",
+              "name": "heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -5821,7 +5821,7 @@
                 "ignores cover",
                 "torrent"
               ],
-              "name": "datasheets.Paladin_Squad.rangedWeapons.1.profiles.0.name",
+              "name": "incinerator",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -5837,7 +5837,7 @@
               "attacks": "1",
               "damage": "D6",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Dreadnought.rangedWeapons.3.profiles.0.name",
+              "name": "missile_launcher_krak",
               "range": "48\"",
               "skill": "3+",
               "strength": "9"
@@ -5850,7 +5850,7 @@
               "keywords": [
                 "blast"
               ],
-              "name": "datasheets.Grey_Knights_Dreadnought.rangedWeapons.3.profiles.1.name",
+              "name": "missile_launcher_frag",
               "range": "48\"",
               "skill": "3+",
               "strength": "4"
@@ -5868,7 +5868,7 @@
               "keywords": [
                 "blast"
               ],
-              "name": "datasheets.Grey_Knights_Dreadnought.rangedWeapons.4.profiles.0.name",
+              "name": "heavy_plasma_cannon_standard",
               "range": "36\"",
               "skill": "3+",
               "strength": "7"
@@ -5882,7 +5882,7 @@
                 "blast",
                 "hazardous"
               ],
-              "name": "datasheets.Grey_Knights_Dreadnought.rangedWeapons.4.profiles.1.name",
+              "name": "heavy_plasma_cannon_supercharge",
               "range": "36\"",
               "skill": "3+",
               "strength": "8"
@@ -5900,7 +5900,7 @@
               "keywords": [
                 "twin-linked"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.5.profiles.0.name",
+              "name": "twin_lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -5918,7 +5918,7 @@
               "keywords": [
                 "melta 2"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.3.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -5936,7 +5936,7 @@
               "keywords": [
                 "rapid fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -5954,7 +5954,7 @@
               "keywords": [
                 "devastating wounds"
               ],
-              "name": "datasheets.Grey_Knights_Dreadnought.rangedWeapons.8.profiles.0.name",
+              "name": "assault_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -6039,7 +6039,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -6069,7 +6069,7 @@
               "keywords": [
                 "one shot"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.2.profiles.0.name",
+              "name": "hunter_killer_missile",
               "range": "48\"",
               "skill": "2+",
               "strength": "14"
@@ -6088,7 +6088,7 @@
                 "psychic",
                 "twin-linked"
               ],
-              "name": "datasheets.Land_Raider_Banisher.rangedWeapons.0.profiles.0.name",
+              "name": "twin_psycannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -6107,7 +6107,7 @@
                 "sustained hits 1",
                 "twin-linked"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.6.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -6125,7 +6125,7 @@
               "keywords": [
                 "twin-linked"
               ],
-              "name": "datasheets.Grey_Knights_Stormraven_Gunship.rangedWeapons.5.profiles.0.name",
+              "name": "twin_lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -6143,7 +6143,7 @@
               "keywords": [
                 "melta 2"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.3.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -6161,7 +6161,7 @@
               "keywords": [
                 "rapid fire 2"
               ],
-              "name": "datasheets.Brotherhood_Chaplain.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -6180,7 +6180,7 @@
                 "devastating wounds",
                 "twin-linked"
               ],
-              "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.rangedWeapons.0.profiles.0.name",
+              "name": "twin_assault_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"

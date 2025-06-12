@@ -70,7 +70,7 @@
               "attacks": "5",
               "damage": "D6+2",
               "keywords": [],
-              "name": "datasheets.Soul_Grinder.meleeWeapons.0.profiles.0.name",
+              "name": "iron_claw",
               "range": "Melee",
               "skill": "3+",
               "strength": "16"
@@ -88,7 +88,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Soul_Grinder.meleeWeapons.1.profiles.0.name",
+              "name": "warpsword",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -106,7 +106,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Soul_Grinder.meleeWeapons.2.profiles.0.name",
+              "name": "warpclaw",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -133,7 +133,7 @@
               "attacks": "3",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Soul_Grinder.rangedWeapons.0.profiles.0.name",
+              "name": "harvester_cannon",
               "range": "36\"",
               "skill": "3+",
               "strength": "10"
@@ -152,7 +152,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Soul_Grinder.rangedWeapons.1.profiles.0.name",
+              "name": "torrent_of_burning_blood",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -170,7 +170,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Soul_Grinder.rangedWeapons.2.profiles.0.name",
+              "name": "warp_gaze",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -190,7 +190,7 @@
                 "Indirect Fire",
                 "Blast"
               ],
-              "name": "datasheets.Soul_Grinder.rangedWeapons.3.profiles.0.name",
+              "name": "phlegm_bombardment",
               "range": "36\"",
               "skill": "3+",
               "strength": "7"
@@ -209,7 +209,7 @@
                 "Sustained Hits 1",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Soul_Grinder.rangedWeapons.4.profiles.0.name",
+              "name": "scream_of_despair",
               "range": "24\"",
               "skill": "3+",
               "strength": "9"
@@ -308,7 +308,7 @@
               "attacks": "6",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Daemon_Prince_of_Chaos_with_Wings.meleeWeapons.0.profiles.0.name",
+              "name": "hellforged_weapons_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -319,7 +319,7 @@
               "attacks": "14",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Daemon_Prince_of_Chaos_with_Wings.meleeWeapons.0.profiles.1.name",
+              "name": "hellforged_weapons_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -346,7 +346,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Daemon_Prince_of_Chaos_with_Wings.rangedWeapons.0.profiles.0.name",
+              "name": "infernal_cannon",
               "range": "24\"",
               "skill": "2+",
               "strength": "5"
@@ -444,7 +444,7 @@
               "attacks": "6",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Daemon_Prince_of_Chaos_with_Wings.meleeWeapons.0.profiles.0.name",
+              "name": "hellforged_weapons_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -455,7 +455,7 @@
               "attacks": "14",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Daemon_Prince_of_Chaos_with_Wings.meleeWeapons.0.profiles.1.name",
+              "name": "hellforged_weapons_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -482,7 +482,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Daemon_Prince_of_Chaos_with_Wings.rangedWeapons.0.profiles.0.name",
+              "name": "infernal_cannon",
               "range": "24\"",
               "skill": "2+",
               "strength": "5"
@@ -586,7 +586,7 @@
                 "Psychic",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Rotigus.meleeWeapons.0.profiles.0.name",
+              "name": "gnarlrod_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -600,7 +600,7 @@
                 "Psychic",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Rotigus.meleeWeapons.0.profiles.1.name",
+              "name": "gnarlrod_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "10"
@@ -631,7 +631,7 @@
                 "Ignores Cover",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Rotigus.rangedWeapons.0.profiles.0.name",
+              "name": "streams_of_brackish_filth",
               "range": "12\"",
               "skill": "N/A",
               "strength": "8"
@@ -728,7 +728,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.The_Masque_of_Slaanesh.meleeWeapons.0.profiles.0.name",
+              "name": "serrated_claws",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -840,7 +840,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Daemonettes.meleeWeapons.0.profiles.0.name",
+              "name": "slashing_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -945,7 +945,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Nurglings.meleeWeapons.0.profiles.0.name",
+              "name": "diseased_claws_and_teeth",
               "range": "Melee",
               "skill": "5+",
               "strength": "2"
@@ -1059,7 +1059,7 @@
               "attacks": "5",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Bloodmaster.meleeWeapons.0.profiles.0.name",
+              "name": "blade_of_blood",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -1171,7 +1171,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Tranceweaver.meleeWeapons.0.profiles.0.name",
+              "name": "ravaging_claws",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -1272,7 +1272,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Burning_Chariot.meleeWeapons.0.profiles.0.name",
+              "name": "flamer_mouths",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -1292,7 +1292,7 @@
                 "Anti-monster 4+",
                 "Extra Attacks"
               ],
-              "name": "datasheets.Burning_Chariot.meleeWeapons.1.profiles.0.name",
+              "name": "screamer_bites",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -1323,7 +1323,7 @@
                 "Psychic",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Burning_Chariot.rangedWeapons.0.profiles.0.name",
+              "name": "fire_of_tzeentch_pink_fire",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -1337,7 +1337,7 @@
                 "Psychic",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Burning_Chariot.rangedWeapons.0.profiles.1.name",
+              "name": "fire_of_tzeentch_blue_fire",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -1444,7 +1444,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Pink_Horrors.meleeWeapons.0.profiles.0.name",
+              "name": "pink_claws",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -1460,7 +1460,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Pink_Horrors.meleeWeapons.1.profiles.0.name",
+              "name": "blue_claws",
               "range": "Melee",
               "skill": "5+",
               "strength": "3"
@@ -1476,7 +1476,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Pink_Horrors.meleeWeapons.2.profiles.0.name",
+              "name": "yellow_claws",
               "range": "Melee",
               "skill": "5+",
               "strength": "2"
@@ -1506,7 +1506,7 @@
                 "Pistol",
                 "Psychic"
               ],
-              "name": "datasheets.Pink_Horrors.rangedWeapons.0.profiles.0.name",
+              "name": "coruscating_pink_flames",
               "range": "18\"",
               "skill": "3+",
               "strength": "4"
@@ -1525,7 +1525,7 @@
                 "Pistol",
                 "Psychic"
               ],
-              "name": "datasheets.Pink_Horrors.rangedWeapons.1.profiles.0.name",
+              "name": "coruscating_blue_flames",
               "range": "18\"",
               "skill": "4+",
               "strength": "3"
@@ -1544,7 +1544,7 @@
                 "Pistol",
                 "Psychic"
               ],
-              "name": "datasheets.Pink_Horrors.rangedWeapons.2.profiles.0.name",
+              "name": "coruscating_yellow_flames",
               "range": "18\"",
               "skill": "5+",
               "strength": "2"
@@ -1657,7 +1657,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Tranceweaver.meleeWeapons.0.profiles.0.name",
+              "name": "ravaging_claws",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -1686,7 +1686,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Infernal_Enrapturess.rangedWeapons.0.profiles.0.name",
+              "name": "heartstring_lyre_euphonic_blast",
               "range": "24\"",
               "skill": "3+",
               "strength": "12"
@@ -1699,7 +1699,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Infernal_Enrapturess.rangedWeapons.0.profiles.1.name",
+              "name": "heartstring_lyre_cacophonous_melody",
               "range": "18\"",
               "skill": "3+",
               "strength": "6"
@@ -1806,7 +1806,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Plaguebearers.meleeWeapons.0.profiles.0.name",
+              "name": "plaguesword",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1932,7 +1932,7 @@
                 "Extra Attacks",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Keeper_of_Secrets.meleeWeapons.0.profiles.0.name",
+              "name": "snapping_claws",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -1948,7 +1948,7 @@
               "attacks": "6",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Keeper_of_Secrets.meleeWeapons.1.profiles.0.name",
+              "name": "witstealer_sword",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -1966,7 +1966,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Keeper_of_Secrets.meleeWeapons.2.profiles.0.name",
+              "name": "ritual_knife",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -1996,7 +1996,7 @@
                 "Psychic",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Keeper_of_Secrets.rangedWeapons.0.profiles.0.name",
+              "name": "phantasmagoria_witchfire",
               "range": "18\"",
               "skill": "2+",
               "strength": "6"
@@ -2011,7 +2011,7 @@
                 "Hazardous",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Keeper_of_Secrets.rangedWeapons.0.profiles.1.name",
+              "name": "phantasmagoria_focused_witchfire",
               "range": "18\"",
               "skill": "2+",
               "strength": "6"
@@ -2029,7 +2029,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Keeper_of_Secrets.rangedWeapons.1.profiles.0.name",
+              "name": "living_whip",
               "range": "12\"",
               "skill": "2+",
               "strength": "6"
@@ -2132,7 +2132,7 @@
                 "Extra Attacks",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Keeper_of_Secrets.meleeWeapons.0.profiles.0.name",
+              "name": "snapping_claws",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -2150,7 +2150,7 @@
               "keywords": [
                 "Precision"
               ],
-              "name": "datasheets.Shalaxi_Helbane.meleeWeapons.1.profiles.0.name",
+              "name": "soulpiercer",
               "range": "Melee",
               "skill": "2+",
               "strength": "12"
@@ -2179,7 +2179,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Shalaxi_Helbane.rangedWeapons.0.profiles.0.name",
+              "name": "lash_of_slaanesh",
               "range": "12\"",
               "skill": "2+",
               "strength": "6"
@@ -2198,7 +2198,7 @@
                 "Psychic",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Shalaxi_Helbane.rangedWeapons.1.profiles.0.name",
+              "name": "pavane_of_slaanesh_witchfire",
               "range": "18\"",
               "skill": "2+",
               "strength": "9"
@@ -2214,7 +2214,7 @@
                 "Devastating Wounds",
                 "Hazardous"
               ],
-              "name": "datasheets.Shalaxi_Helbane.rangedWeapons.1.profiles.1.name",
+              "name": "pavane_of_slaanesh_focused_witchfire",
               "range": "18\"",
               "skill": "2+",
               "strength": "9"
@@ -2316,7 +2316,7 @@
                 "Lethal Hits",
                 "Extra Attacks"
               ],
-              "name": "datasheets.Seekers.meleeWeapons.0.profiles.0.name",
+              "name": "lashing_tongue",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -2334,7 +2334,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Daemonettes.meleeWeapons.0.profiles.0.name",
+              "name": "slashing_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -2447,7 +2447,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.SyllEsske.meleeWeapons.0.profiles.0.name",
+              "name": "scourging_whip_melee",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -2463,7 +2463,7 @@
               "attacks": "6",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.SyllEsske.meleeWeapons.1.profiles.0.name",
+              "name": "axe_of_dominion",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -2496,7 +2496,7 @@
                 "Hazardous",
                 "Psychic"
               ],
-              "name": "datasheets.SyllEsske.rangedWeapons.0.profiles.0.name",
+              "name": "cacophonic_choir_focused_witchfire",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -2512,7 +2512,7 @@
                 "Ignores Cover",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.SyllEsske.rangedWeapons.0.profiles.1.name",
+              "name": "cacophonic_choir_witchfire",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -2530,7 +2530,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.SyllEsske.rangedWeapons.1.profiles.0.name",
+              "name": "scourging_whip_ranged",
               "range": "9\"",
               "skill": "3+",
               "strength": "4"
@@ -2624,7 +2624,7 @@
                 "Anti-vehicle 4+",
                 "Anti-monster 4+"
               ],
-              "name": "datasheets.Screamers.meleeWeapons.0.profiles.0.name",
+              "name": "lamprey_bite",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -2742,7 +2742,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Bloodletters.meleeWeapons.0.profiles.0.name",
+              "name": "hellblade",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -2859,7 +2859,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Lord_of_Change.meleeWeapons.0.profiles.0.name",
+              "name": "staff_of_tzeentch",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -2877,7 +2877,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Lord_of_Change.meleeWeapons.1.profiles.0.name",
+              "name": "baleful_sword",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -2906,7 +2906,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Lord_of_Change.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_of_change_witchfire",
               "range": "18\"",
               "skill": "2+",
               "strength": "9"
@@ -2920,7 +2920,7 @@
                 "Psychic",
                 "Hazardous"
               ],
-              "name": "datasheets.Lord_of_Change.rangedWeapons.0.profiles.1.name",
+              "name": "bolt_of_change_focused_witchfire",
               "range": "18\"",
               "skill": "2+",
               "strength": "9"
@@ -2938,7 +2938,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Lord_of_Change.rangedWeapons.1.profiles.0.name",
+              "name": "rod_of_sorcery",
               "range": "12\"",
               "skill": "2+",
               "strength": "8"
@@ -3033,7 +3033,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Changecaster.meleeWeapons.0.profiles.0.name",
+              "name": "herald_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -3062,7 +3062,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Changecaster.rangedWeapons.0.profiles.0.name",
+              "name": "arcane_fireball_witchfire",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -3077,7 +3077,7 @@
                 "Hazardous",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Changecaster.rangedWeapons.0.profiles.1.name",
+              "name": "arcane_fireball_focused_witchfire",
               "range": "18\"",
               "skill": "3+",
               "strength": "6"
@@ -3274,7 +3274,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Great_Unclean_One.meleeWeapons.0.profiles.0.name",
+              "name": "bilesword_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -3287,7 +3287,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Great_Unclean_One.meleeWeapons.0.profiles.1.name",
+              "name": "bilesword_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "10"
@@ -3306,7 +3306,7 @@
                 "Lethal Hits",
                 "Extra Attacks"
               ],
-              "name": "datasheets.Great_Unclean_One.meleeWeapons.1.profiles.0.name",
+              "name": "bileblade",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -3325,7 +3325,7 @@
                 "Lethal Hits",
                 "Reverberating Summons"
               ],
-              "name": "datasheets.Great_Unclean_One.meleeWeapons.2.profiles.0.name",
+              "name": "doomsday_bell",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -3360,7 +3360,7 @@
               "attacks": "D6+1",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Great_Unclean_One.rangedWeapons.0.profiles.0.name",
+              "name": "plague_flail",
               "range": "6\"",
               "skill": "3+",
               "strength": "7"
@@ -3379,7 +3379,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Great_Unclean_One.rangedWeapons.1.profiles.0.name",
+              "name": "putrid_vomit",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -3476,7 +3476,7 @@
                 "Extra Attacks",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Tormentbringer.meleeWeapons.0.profiles.0.name",
+              "name": "lashes_of_torment_melee",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -3495,7 +3495,7 @@
                 "Lethal Hits",
                 "Extra Attacks"
               ],
-              "name": "datasheets.Tormentbringer.meleeWeapons.1.profiles.0.name",
+              "name": "seeker_tongues",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -3513,7 +3513,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Daemonettes.meleeWeapons.0.profiles.0.name",
+              "name": "slashing_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -3544,7 +3544,7 @@
                 "Assault",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Tormentbringer.rangedWeapons.0.profiles.0.name",
+              "name": "lashes_of_torment_ranged",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -3648,7 +3648,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Bloodletters.meleeWeapons.0.profiles.0.name",
+              "name": "hellblade",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -3667,7 +3667,7 @@
                 "Lance",
                 "Extra Attacks"
               ],
-              "name": "datasheets.Bloodcrushers.meleeWeapons.1.profiles.0.name",
+              "name": "juggernaut_s_bladed_horn",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -3774,7 +3774,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Fiends.meleeWeapons.0.profiles.0.name",
+              "name": "barbed_tail_and_dissecting_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -3889,7 +3889,7 @@
               "attacks": "16",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Skarbrand.meleeWeapons.0.profiles.0.name",
+              "name": "slaughter_and_carnage_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -3900,7 +3900,7 @@
               "attacks": "8",
               "damage": "6",
               "keywords": [],
-              "name": "datasheets.Skarbrand.meleeWeapons.0.profiles.1.name",
+              "name": "slaughter_and_carnage_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "16"
@@ -3930,7 +3930,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Skarbrand.rangedWeapons.0.profiles.0.name",
+              "name": "bellow_of_endless_fury",
               "range": "12\"",
               "skill": "N/A",
               "strength": "8"
@@ -4059,7 +4059,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Belakor.meleeWeapons.0.profiles.0.name",
+              "name": "the_blade_of_shadows_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -4072,7 +4072,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Belakor.meleeWeapons.0.profiles.1.name",
+              "name": "the_blade_of_shadows_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "14"
@@ -4103,7 +4103,7 @@
                 "Ignores Cover",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Belakor.rangedWeapons.0.profiles.0.name",
+              "name": "betraying_shades_witchfire",
               "range": "18\"",
               "skill": "2+",
               "strength": "5"
@@ -4119,7 +4119,7 @@
                 "Hazardous",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Belakor.rangedWeapons.0.profiles.1.name",
+              "name": "betraying_shades_focused_witchfire",
               "range": "18\"",
               "skill": "2+",
               "strength": "6"
@@ -4215,7 +4215,7 @@
                 "Extra Attacks",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Horticulous_Slimux.meleeWeapons.0.profiles.0.name",
+              "name": "acidic_maw",
               "range": "Melee",
               "skill": "4+",
               "strength": "7"
@@ -4233,7 +4233,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Horticulous_Slimux.meleeWeapons.1.profiles.0.name",
+              "name": "lopping_shears",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -4344,7 +4344,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Contorted_Epitome.meleeWeapons.0.profiles.0.name",
+              "name": "coiled_tentacles",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -4362,7 +4362,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Tranceweaver.meleeWeapons.0.profiles.0.name",
+              "name": "ravaging_claws",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -4472,7 +4472,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Poxbringer.meleeWeapons.0.profiles.0.name",
+              "name": "foul_balesword",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -4584,7 +4584,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Changecaster.meleeWeapons.0.profiles.0.name",
+              "name": "herald_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -4604,7 +4604,7 @@
                 "Anti-monster 4+",
                 "Extra Attacks"
               ],
-              "name": "datasheets.Burning_Chariot.meleeWeapons.1.profiles.0.name",
+              "name": "screamer_bites",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -4633,7 +4633,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Changecaster.rangedWeapons.0.profiles.0.name",
+              "name": "arcane_fireball_witchfire",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -4648,7 +4648,7 @@
                 "Hazardous",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Changecaster.rangedWeapons.0.profiles.1.name",
+              "name": "arcane_fireball_focused_witchfire",
               "range": "18\"",
               "skill": "3+",
               "strength": "6"
@@ -4741,7 +4741,7 @@
                 "Extra Attacks",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Tormentbringer.meleeWeapons.0.profiles.0.name",
+              "name": "lashes_of_torment_melee",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -4760,7 +4760,7 @@
                 "Lethal Hits",
                 "Extra Attacks"
               ],
-              "name": "datasheets.Tormentbringer.meleeWeapons.1.profiles.0.name",
+              "name": "seeker_tongues",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -4778,7 +4778,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Daemonettes.meleeWeapons.0.profiles.0.name",
+              "name": "slashing_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -4815,7 +4815,7 @@
                 "Assault",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Tormentbringer.rangedWeapons.0.profiles.0.name",
+              "name": "lashes_of_torment_ranged",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -4920,7 +4920,7 @@
                 "Lethal Hits",
                 "Extra Attacks"
               ],
-              "name": "datasheets.Plague_Drones.meleeWeapons.0.profiles.0.name",
+              "name": "foul_mouthparts",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -4938,7 +4938,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Plaguebearers.meleeWeapons.0.profiles.0.name",
+              "name": "plaguesword",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -4974,7 +4974,7 @@
                 "Lethal Hits",
                 "Blast"
               ],
-              "name": "datasheets.Plague_Drones.rangedWeapons.0.profiles.0.name",
+              "name": "death_s_heads",
               "range": "12\"",
               "skill": "4+",
               "strength": "4"
@@ -5074,7 +5074,7 @@
               "attacks": "14",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Bloodthirster.meleeWeapons.0.profiles.0.name",
+              "name": "great_axe_of_khorne_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "10"
@@ -5085,7 +5085,7 @@
               "attacks": "7",
               "damage": "D6+2",
               "keywords": [],
-              "name": "datasheets.Bloodthirster.meleeWeapons.0.profiles.1.name",
+              "name": "great_axe_of_khorne_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "16"
@@ -5101,7 +5101,7 @@
               "attacks": "16",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Bloodthirster.meleeWeapons.1.profiles.0.name",
+              "name": "axe_of_khorne_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -5112,7 +5112,7 @@
               "attacks": "8",
               "damage": "D3+1",
               "keywords": [],
-              "name": "datasheets.Bloodthirster.meleeWeapons.1.profiles.1.name",
+              "name": "axe_of_khorne_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "14"
@@ -5142,7 +5142,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Bloodthirster.rangedWeapons.0.profiles.0.name",
+              "name": "hellfire_breath",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -5160,7 +5160,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Bloodthirster.rangedWeapons.1.profiles.0.name",
+              "name": "bloodflail",
               "range": "12\"",
               "skill": "2+",
               "strength": "16"
@@ -5176,7 +5176,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Bloodthirster.rangedWeapons.2.profiles.0.name",
+              "name": "lash_of_khorne",
               "range": "12\"",
               "skill": "2+",
               "strength": "8"
@@ -5276,7 +5276,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Burning_Chariot.meleeWeapons.0.profiles.0.name",
+              "name": "flamer_mouths",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -5307,7 +5307,7 @@
                 "Psychic",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Burning_Chariot.rangedWeapons.0.profiles.0.name",
+              "name": "fire_of_tzeentch_pink_fire",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -5321,7 +5321,7 @@
                 "Psychic",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Burning_Chariot.rangedWeapons.0.profiles.1.name",
+              "name": "fire_of_tzeentch_blue_fire",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -5419,7 +5419,7 @@
               "attacks": "5",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Bloodmaster.meleeWeapons.0.profiles.0.name",
+              "name": "blade_of_blood",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -5438,7 +5438,7 @@
                 "Lance",
                 "Extra Attacks"
               ],
-              "name": "datasheets.Bloodcrushers.meleeWeapons.1.profiles.0.name",
+              "name": "juggernaut_s_bladed_horn",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -5549,7 +5549,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Epidemius.meleeWeapons.0.profiles.0.name",
+              "name": "balesword_and_nurgling_attendants",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -5668,7 +5668,7 @@
                 "Precision",
                 "Anti-character 3+"
               ],
-              "name": "datasheets.Karanak.meleeWeapons.0.profiles.0.name",
+              "name": "soul_rending_fangs",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -5698,7 +5698,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Karanak.rangedWeapons.0.profiles.0.name",
+              "name": "scalding_roar",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -5798,7 +5798,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Spoilpox_Scrivener.meleeWeapons.0.profiles.0.name",
+              "name": "plaguesword_and_distended_maw",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -5828,7 +5828,7 @@
                 "Torrent",
                 "Pistol"
               ],
-              "name": "datasheets.Spoilpox_Scrivener.rangedWeapons.0.profiles.0.name",
+              "name": "disgusting_sneezes",
               "range": "6\"",
               "skill": "N/A",
               "strength": "3"
@@ -5930,7 +5930,7 @@
                 "Precision",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Skulltaker.meleeWeapons.0.profiles.0.name",
+              "name": "the_slayer_sword",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -6039,7 +6039,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Rendmaster_on_Blood_Throne.meleeWeapons.0.profiles.0.name",
+              "name": "attendants_hellblades",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -6055,7 +6055,7 @@
               "attacks": "5",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Bloodmaster.meleeWeapons.0.profiles.0.name",
+              "name": "blade_of_blood",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -6247,7 +6247,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Sloppity_Bilepiper.meleeWeapons.0.profiles.0.name",
+              "name": "marotter",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -6366,7 +6366,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Kairos_Fateweaver.meleeWeapons.0.profiles.0.name",
+              "name": "staff_of_tomorrow",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -6397,7 +6397,7 @@
                 "Indirect Fire",
                 "Blast"
               ],
-              "name": "datasheets.Kairos_Fateweaver.rangedWeapons.0.profiles.0.name",
+              "name": "infernal_gateway_witchfire",
               "range": "24\"",
               "skill": "2+",
               "strength": "9"
@@ -6413,7 +6413,7 @@
                 "Indirect Fire",
                 "Blast"
               ],
-              "name": "datasheets.Kairos_Fateweaver.rangedWeapons.0.profiles.1.name",
+              "name": "infernal_gateway_focused_witchfire",
               "range": "24\"",
               "skill": "2+",
               "strength": "9"
@@ -6512,7 +6512,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Pink_Horrors.meleeWeapons.1.profiles.0.name",
+              "name": "blue_claws",
               "range": "Melee",
               "skill": "5+",
               "strength": "3"
@@ -6528,7 +6528,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Pink_Horrors.meleeWeapons.2.profiles.0.name",
+              "name": "yellow_claws",
               "range": "Melee",
               "skill": "5+",
               "strength": "2"
@@ -6558,7 +6558,7 @@
                 "Pistol",
                 "Psychic"
               ],
-              "name": "datasheets.Pink_Horrors.rangedWeapons.1.profiles.0.name",
+              "name": "coruscating_blue_flames",
               "range": "18\"",
               "skill": "4+",
               "strength": "3"
@@ -6577,7 +6577,7 @@
                 "Pistol",
                 "Psychic"
               ],
-              "name": "datasheets.Pink_Horrors.rangedWeapons.2.profiles.0.name",
+              "name": "coruscating_yellow_flames",
               "range": "18\"",
               "skill": "5+",
               "strength": "2"
@@ -6677,7 +6677,7 @@
               "keywords": [
                 "Anti-psyker 2+"
               ],
-              "name": "datasheets.The_Blue_Scribes.meleeWeapons.0.profiles.0.name",
+              "name": "sharp_quills",
               "range": "Melee",
               "skill": "5+",
               "strength": "2"
@@ -6784,7 +6784,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.The_Changeling.meleeWeapons.0.profiles.0.name",
+              "name": "the_trickster_s_staff",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -6815,7 +6815,7 @@
                 "Psychic",
                 "Ignores Cover"
               ],
-              "name": "datasheets.The_Changeling.rangedWeapons.0.profiles.0.name",
+              "name": "infernal_flames_witchfire",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -6831,7 +6831,7 @@
                 "Hazardous",
                 "Ignores Cover"
               ],
-              "name": "datasheets.The_Changeling.rangedWeapons.0.profiles.1.name",
+              "name": "infernal_flames_focused_witchfire",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -6927,7 +6927,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Changecaster.meleeWeapons.0.profiles.0.name",
+              "name": "herald_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -6956,7 +6956,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Changecaster.rangedWeapons.0.profiles.0.name",
+              "name": "arcane_fireball_witchfire",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -6971,7 +6971,7 @@
                 "Hazardous",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Changecaster.rangedWeapons.0.profiles.1.name",
+              "name": "arcane_fireball_focused_witchfire",
               "range": "18\"",
               "skill": "3+",
               "strength": "6"
@@ -7064,7 +7064,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Burning_Chariot.meleeWeapons.0.profiles.0.name",
+              "name": "flamer_mouths",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -7101,7 +7101,7 @@
                 "Psychic",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Flamers.rangedWeapons.0.profiles.0.name",
+              "name": "flickering_flames",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -7192,7 +7192,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Beasts_of_Nurgle.meleeWeapons.0.profiles.0.name",
+              "name": "putrid_appendages",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -7309,7 +7309,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Flesh_Hounds.meleeWeapons.0.profiles.0.name",
+              "name": "gore_drenched_fangs",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -7345,7 +7345,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Flesh_Hounds.rangedWeapons.0.profiles.0.name",
+              "name": "burning_roar",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -7434,7 +7434,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Rendmaster_on_Blood_Throne.meleeWeapons.0.profiles.0.name",
+              "name": "attendants_hellblades",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -7450,7 +7450,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Skull_Cannon.meleeWeapons.1.profiles.0.name",
+              "name": "biting_maw",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -7479,7 +7479,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Skull_Cannon.rangedWeapons.0.profiles.0.name",
+              "name": "skull_cannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "9"
@@ -7577,7 +7577,7 @@
               "keywords": [
                 "lethal hits"
               ],
-              "name": "datasheets.Scabeiathrax_The_Bloated.meleeWeapons.0.profiles.0.name",
+              "name": "blade_of_decay_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -7590,7 +7590,7 @@
               "keywords": [
                 "lethal hits"
               ],
-              "name": "datasheets.Scabeiathrax_The_Bloated.meleeWeapons.0.profiles.1.name",
+              "name": "blade_of_decay_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "9"
@@ -7613,7 +7613,7 @@
                 "ignores cover",
                 "torrent"
               ],
-              "name": "datasheets.Great_Unclean_One.rangedWeapons.1.profiles.0.name",
+              "name": "putrid_vomit",
               "range": "6\"",
               "skill": "N/A",
               "strength": "5"
@@ -7711,7 +7711,7 @@
                 "devastating wounds",
                 "extra attacks"
               ],
-              "name": "datasheets.Keeper_of_Secrets.meleeWeapons.0.profiles.0.name",
+              "name": "snapping_claws",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -7727,7 +7727,7 @@
               "attacks": "6",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Zarakynel.meleeWeapons.1.profiles.0.name",
+              "name": "souleater_blade",
               "range": "Melee",
               "skill": "2+",
               "strength": "9"
@@ -7750,7 +7750,7 @@
                 "devastating wounds",
                 "psychic"
               ],
-              "name": "datasheets.Zarakynel.rangedWeapons.0.profiles.0.name",
+              "name": "phantasmagoria_witchfire",
               "range": "18\"",
               "skill": "2+",
               "strength": "6"
@@ -7765,7 +7765,7 @@
                 "hazardous",
                 "psychic"
               ],
-              "name": "datasheets.Zarakynel.rangedWeapons.0.profiles.1.name",
+              "name": "phantasmagoria_focused_witchfire",
               "range": "18\"",
               "skill": "2+",
               "strength": "6"
@@ -7865,7 +7865,7 @@
               "keywords": [
                 "psychic"
               ],
-              "name": "datasheets.Aetaosraukeres.meleeWeapons.0.profiles.0.name",
+              "name": "warpfire_talons",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -7883,7 +7883,7 @@
               "keywords": [
                 "psychic"
               ],
-              "name": "datasheets.Aetaosraukeres.meleeWeapons.1.profiles.0.name",
+              "name": "staff_of_cataclysm",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -7905,7 +7905,7 @@
               "keywords": [
                 "psychic"
               ],
-              "name": "datasheets.Aetaosraukeres.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_of_tzeentch_witchfire",
               "range": "24\"",
               "skill": "2+",
               "strength": "10"
@@ -7919,7 +7919,7 @@
                 "hazardous",
                 "psychic"
               ],
-              "name": "datasheets.Aetaosraukeres.rangedWeapons.0.profiles.1.name",
+              "name": "bolt_of_tzeentch_focused_witchfire",
               "range": "24\"",
               "skill": "2+",
               "strength": "10"
@@ -8015,7 +8015,7 @@
               "attacks": "16",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Anggrath_The_Unbound.meleeWeapons.0.profiles.0.name",
+              "name": "axe_of_khorne_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "10"
@@ -8026,7 +8026,7 @@
               "attacks": "8",
               "damage": "D6+2",
               "keywords": [],
-              "name": "datasheets.Anggrath_The_Unbound.meleeWeapons.0.profiles.1.name",
+              "name": "axe_of_khorne_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "16"
@@ -8046,7 +8046,7 @@
               "attacks": "9",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Anggrath_The_Unbound.rangedWeapons.0.profiles.0.name",
+              "name": "bloodlash",
               "range": "12\"",
               "skill": "2+",
               "strength": "8"
@@ -8168,7 +8168,7 @@
               "attacks": "D6+6",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Giant_Chaos_Spawn.meleeWeapons.0.profiles.0.name",
+              "name": "churning_fangs_and_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "10"
@@ -8274,7 +8274,7 @@
               "keywords": [
                 "devastating wounds"
               ],
-              "name": "datasheets.Tranceweaver.meleeWeapons.0.profiles.0.name",
+              "name": "ravaging_claws",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -8293,7 +8293,7 @@
                 "extra attacks",
                 "lethal hits"
               ],
-              "name": "datasheets.Seekers.meleeWeapons.0.profiles.0.name",
+              "name": "lashing_tongue",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -8388,7 +8388,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Furies.meleeWeapons.0.profiles.0.name",
+              "name": "daemonic_claws",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -8499,7 +8499,7 @@
                 "extra attacks",
                 "lethal hits"
               ],
-              "name": "datasheets.Pox_Riders.meleeWeapons.0.profiles.0.name",
+              "name": "pox_rider_plaguesword",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -8517,7 +8517,7 @@
               "keywords": [
                 "lethal hits"
               ],
-              "name": "datasheets.Pox_Riders.meleeWeapons.1.profiles.0.name",
+              "name": "yawning_maw",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -8539,7 +8539,7 @@
               "keywords": [
                 "lethal hits"
               ],
-              "name": "datasheets.Pox_Riders.rangedWeapons.0.profiles.0.name",
+              "name": "grasping_tongue",
               "range": "9\"",
               "skill": "4+",
               "strength": "5"
@@ -8634,7 +8634,7 @@
               "keywords": [
                 "lethal hits"
               ],
-              "name": "datasheets.Pox_Riders.meleeWeapons.1.profiles.0.name",
+              "name": "yawning_maw",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -8656,7 +8656,7 @@
               "keywords": [
                 "lethal hits"
               ],
-              "name": "datasheets.Pox_Riders.rangedWeapons.0.profiles.0.name",
+              "name": "grasping_tongue",
               "range": "9\"",
               "skill": "4+",
               "strength": "5"
@@ -8777,7 +8777,7 @@
               "attacks": "6",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Spined_Chaos_Beast.meleeWeapons.0.profiles.0.name",
+              "name": "jagged_claws_and_tusked_maw",
               "range": "Melee",
               "skill": "3+",
               "strength": "12"

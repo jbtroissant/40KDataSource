@@ -73,7 +73,7 @@
                 "Lethal Hits",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Lord_of_Poxes.meleeWeapons.0.profiles.0.name",
+              "name": "great_plague_blade",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -102,7 +102,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Lord_of_Poxes.rangedWeapons.0.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "2+",
               "strength": "7"
@@ -116,7 +116,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Lord_of_Poxes.rangedWeapons.0.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "2+",
               "strength": "8"
@@ -214,7 +214,7 @@
               "attacks": "5",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Defiler.meleeWeapons.0.profiles.0.name",
+              "name": "defiler_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "16"
@@ -232,7 +232,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Defiler.meleeWeapons.1.profiles.0.name",
+              "name": "defiler_scourge",
               "range": "Melee",
               "skill": "3+",
               "strength": "12"
@@ -262,7 +262,7 @@
                 "Lethal Hits",
                 "Blast"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.0.profiles.0.name",
+              "name": "battle_cannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "10"
@@ -281,7 +281,7 @@
                 "Sustained Hits 1",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.1.profiles.0.name",
+              "name": "reaper_autocannon",
               "range": "36\"",
               "skill": "3+",
               "strength": "7"
@@ -301,7 +301,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.2.profiles.0.name",
+              "name": "twin_heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -319,7 +319,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.3.profiles.0.name",
+              "name": "havoc_launcher",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -337,7 +337,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.4.profiles.0.name",
+              "name": "twin_lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -357,7 +357,7 @@
                 "Sustained Hits 1",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.5.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -376,7 +376,7 @@
                 "Rapid Fire 2",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.6.profiles.0.name",
+              "name": "combi_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -396,7 +396,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.7.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -483,7 +483,7 @@
               "attacks": "D6+2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Chaos_Spawn.meleeWeapons.0.profiles.0.name",
+              "name": "hideous_mutations",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -582,7 +582,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Tallyman.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -611,7 +611,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Lord_of_Poxes.rangedWeapons.0.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -625,7 +625,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Lord_of_Poxes.rangedWeapons.0.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -716,7 +716,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Poxwalkers.meleeWeapons.0.profiles.0.name",
+              "name": "improvised_weapon",
               "range": "Melee",
               "skill": "5+",
               "strength": "3"
@@ -830,7 +830,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Lord_of_Contagion.meleeWeapons.0.profiles.0.name",
+              "name": "manreaper_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -843,7 +843,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Lord_of_Contagion.meleeWeapons.0.profiles.1.name",
+              "name": "manreaper_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "9"
@@ -944,7 +944,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Chaos_Predator_Annihilator.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -973,7 +973,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Chaos_Predator_Annihilator.rangedWeapons.0.profiles.0.name",
+              "name": "predator_twin_lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "14"
@@ -989,7 +989,7 @@
               "attacks": "1",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Chaos_Predator_Annihilator.rangedWeapons.1.profiles.0.name",
+              "name": "lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -1008,7 +1008,7 @@
                 "Sustained Hits 1",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Chaos_Predator_Annihilator.rangedWeapons.2.profiles.0.name",
+              "name": "heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -1028,7 +1028,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.7.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -1047,7 +1047,7 @@
                 "Rapid Fire 2",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.6.profiles.0.name",
+              "name": "combi_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1065,7 +1065,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.3.profiles.0.name",
+              "name": "havoc_launcher",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -1150,7 +1150,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Chaos_Predator_Annihilator.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -1180,7 +1180,7 @@
                 "Rapid Fire 2",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Chaos_Predator_Destructor.rangedWeapons.0.profiles.0.name",
+              "name": "predator_autocannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "9"
@@ -1196,7 +1196,7 @@
               "attacks": "1",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Chaos_Predator_Annihilator.rangedWeapons.1.profiles.0.name",
+              "name": "lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -1215,7 +1215,7 @@
                 "Sustained Hits 1",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Chaos_Predator_Annihilator.rangedWeapons.2.profiles.0.name",
+              "name": "heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -1234,7 +1234,7 @@
                 "Rapid Fire 2",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.6.profiles.0.name",
+              "name": "combi_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1254,7 +1254,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.7.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -1272,7 +1272,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.3.profiles.0.name",
+              "name": "havoc_launcher",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -1360,7 +1360,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Foetid_Bloat_Drone_with_Heavy_Blight_Launcher.meleeWeapons.0.profiles.0.name",
+              "name": "plague_probe",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -1390,7 +1390,7 @@
                 "Lethal Hits",
                 "Blast"
               ],
-              "name": "datasheets.Foetid_Bloat_Drone_with_Heavy_Blight_Launcher.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_blight_launcher",
               "range": "36\"",
               "skill": "3+",
               "strength": "10"
@@ -1474,7 +1474,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Chaos_Predator_Annihilator.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -1503,7 +1503,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Plagueburst_Crawler.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_slugger",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -1523,7 +1523,7 @@
                 "Indirect Fire",
                 "Blast"
               ],
-              "name": "datasheets.Plagueburst_Crawler.rangedWeapons.1.profiles.0.name",
+              "name": "plagueburst_mortar",
               "range": "48\"",
               "skill": "3+",
               "strength": "8"
@@ -1541,7 +1541,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Plagueburst_Crawler.rangedWeapons.2.profiles.0.name",
+              "name": "entropy_cannon",
               "range": "36\"",
               "skill": "3+",
               "strength": "10"
@@ -1561,7 +1561,7 @@
                 "Ignores Cover",
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Plagueburst_Crawler.rangedWeapons.3.profiles.0.name",
+              "name": "plaguespitter",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -1580,7 +1580,7 @@
                 "Rapid Fire 3",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Plagueburst_Crawler.rangedWeapons.4.profiles.0.name",
+              "name": "rothail_volley_gun",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -1675,7 +1675,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Biologus_Putrifier.meleeWeapons.0.profiles.0.name",
+              "name": "plague_knives",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1706,7 +1706,7 @@
                 "Blast",
                 "Assault"
               ],
-              "name": "datasheets.Biologus_Putrifier.rangedWeapons.0.profiles.0.name",
+              "name": "hyper_blight_grenades",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -1726,7 +1726,7 @@
                 "Pistol",
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Biologus_Putrifier.rangedWeapons.1.profiles.0.name",
+              "name": "injector_pistol",
               "range": "3\"",
               "skill": "3+",
               "strength": "4"
@@ -1824,7 +1824,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Biologus_Putrifier.meleeWeapons.0.profiles.0.name",
+              "name": "plague_knives",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1842,7 +1842,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Plague_Marines.meleeWeapons.1.profiles.0.name",
+              "name": "bubotic_weapons",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -1860,7 +1860,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Plague_Marines.meleeWeapons.2.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -1878,7 +1878,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Plague_Marines.meleeWeapons.3.profiles.0.name",
+              "name": "heavy_plague_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -1919,7 +1919,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Plague_Marines.rangedWeapons.0.profiles.0.name",
+              "name": "boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1938,7 +1938,7 @@
                 "Pistol",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Plague_Marines.rangedWeapons.1.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -1956,7 +1956,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Plague_Marines.rangedWeapons.2.profiles.0.name",
+              "name": "plasma_gun_standard",
               "range": "24\"",
               "skill": "3+",
               "strength": "7"
@@ -1970,7 +1970,7 @@
                 "Rapid Fire 1",
                 "Hazardous"
               ],
-              "name": "datasheets.Plague_Marines.rangedWeapons.2.profiles.1.name",
+              "name": "plasma_gun_supercharge",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -1988,7 +1988,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Lord_of_Poxes.rangedWeapons.0.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -2002,7 +2002,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Lord_of_Poxes.rangedWeapons.0.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -2021,7 +2021,7 @@
                 "Lethal Hits",
                 "Blast"
               ],
-              "name": "datasheets.Plague_Marines.rangedWeapons.4.profiles.0.name",
+              "name": "blight_launcher",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -2041,7 +2041,7 @@
                 "Ignores Cover",
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Plague_Marines.rangedWeapons.5.profiles.0.name",
+              "name": "plague_spewer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -2059,7 +2059,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Plague_Marines.rangedWeapons.6.profiles.0.name",
+              "name": "meltagun",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -2079,7 +2079,7 @@
                 "Ignores Cover",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Plague_Marines.rangedWeapons.7.profiles.0.name",
+              "name": "plague_belcher",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -2187,7 +2187,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Plague_Surgeon.meleeWeapons.0.profiles.0.name",
+              "name": "balesword",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -2217,7 +2217,7 @@
                 "Pistol",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Plague_Marines.rangedWeapons.1.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -2321,7 +2321,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Daemon_Prince_of_Nurgle.meleeWeapons.0.profiles.0.name",
+              "name": "hellforged_weapons_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -2334,7 +2334,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Daemon_Prince_of_Nurgle.meleeWeapons.0.profiles.1.name",
+              "name": "hellforged_weapons_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -2363,7 +2363,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Daemon_Prince_of_Nurgle.rangedWeapons.0.profiles.0.name",
+              "name": "infernal_cannon",
               "range": "24\"",
               "skill": "2+",
               "strength": "5"
@@ -2463,7 +2463,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Lord_of_Contagion.meleeWeapons.0.profiles.0.name",
+              "name": "manreaper_sweep",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -2476,7 +2476,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Lord_of_Contagion.meleeWeapons.0.profiles.1.name",
+              "name": "manreaper_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -2514,7 +2514,7 @@
                 "Ignores Cover",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Deathshroud_Terminators.rangedWeapons.0.profiles.0.name",
+              "name": "plaguespurt_gauntlet",
               "range": "12\"",
               "skill": "N/A",
               "strength": "3"
@@ -2614,7 +2614,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Plague_Marines.meleeWeapons.2.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -2646,7 +2646,7 @@
                 "Ignores Cover",
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Lord_of_Virulence.rangedWeapons.0.profiles.0.name",
+              "name": "twin_plague_spewer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -2740,7 +2740,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Foetid_Bloat_Drone.meleeWeapons.0.profiles.0.name",
+              "name": "fleshmower",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -2758,7 +2758,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Foetid_Bloat_Drone_with_Heavy_Blight_Launcher.meleeWeapons.0.profiles.0.name",
+              "name": "plague_probe",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -2789,7 +2789,7 @@
                 "Ignores Cover",
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Plagueburst_Crawler.rangedWeapons.3.profiles.0.name",
+              "name": "plaguespitter",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -2882,7 +2882,7 @@
                 "Lethal Hits",
                 "Anti-psyker 2+"
               ],
-              "name": "datasheets.Noxious_Blightbringer.meleeWeapons.0.profiles.0.name",
+              "name": "cursed_plague_bell",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -2911,7 +2911,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Lord_of_Poxes.rangedWeapons.0.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -2925,7 +2925,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Lord_of_Poxes.rangedWeapons.0.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -3026,7 +3026,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Daemon_Prince_of_Nurgle.meleeWeapons.0.profiles.0.name",
+              "name": "hellforged_weapons_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -3039,7 +3039,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Daemon_Prince_of_Nurgle.meleeWeapons.0.profiles.1.name",
+              "name": "hellforged_weapons_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -3068,7 +3068,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Daemon_Prince_of_Nurgle.rangedWeapons.0.profiles.0.name",
+              "name": "infernal_cannon",
               "range": "24\"",
               "skill": "2+",
               "strength": "7"
@@ -3176,7 +3176,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Miasmic_Malignifier.rangedWeapons.0.profiles.0.name",
+              "name": "miasmic_gouts",
               "range": "9\"",
               "skill": "N/A",
               "strength": "3"
@@ -3265,7 +3265,7 @@
               "attacks": "5",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Helbrute.meleeWeapons.0.profiles.0.name",
+              "name": "helbrute_fist",
               "range": "Melee",
               "skill": "3+",
               "strength": "12"
@@ -3281,7 +3281,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Tallyman.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -3297,7 +3297,7 @@
               "attacks": "4",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Helbrute.meleeWeapons.2.profiles.0.name",
+              "name": "helbrute_hammer",
               "range": "Melee",
               "skill": "3+",
               "strength": "14"
@@ -3313,7 +3313,7 @@
               "attacks": "8",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Helbrute.meleeWeapons.3.profiles.0.name",
+              "name": "power_scourge",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -3343,7 +3343,7 @@
                 "Lethal Hits",
                 "Melta 2"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.0.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -3363,7 +3363,7 @@
                 "Hazardous",
                 "Blast"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.1.profiles.0.name",
+              "name": "plasma_cannon",
               "range": "36\"",
               "skill": "3+",
               "strength": "8"
@@ -3382,7 +3382,7 @@
                 "Lethal Hits",
                 "Twin-linked"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.2.profiles.0.name",
+              "name": "twin_autocannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "10"
@@ -3400,7 +3400,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.4.profiles.0.name",
+              "name": "twin_lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -3420,7 +3420,7 @@
                 "Sustained Hits 1",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.5.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -3436,7 +3436,7 @@
               "attacks": "1",
               "damage": "D6",
               "keywords": [],
-              "name": "datasheets.Helbrute.rangedWeapons.5.profiles.0.name",
+              "name": "missile_launcher_krak",
               "range": "48\"",
               "skill": "3+",
               "strength": "9"
@@ -3449,7 +3449,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.5.profiles.1.name",
+              "name": "missile_launcher_frag",
               "range": "48\"",
               "skill": "3+",
               "strength": "4"
@@ -3468,7 +3468,7 @@
                 "Rapid Fire 2",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.6.profiles.0.name",
+              "name": "combi_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -3487,7 +3487,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.7.profiles.0.name",
+              "name": "heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -3576,7 +3576,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Myphitic_Blight_Haulers.meleeWeapons.0.profiles.0.name",
+              "name": "gnashing_maw",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -3611,7 +3611,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Myphitic_Blight_Haulers.rangedWeapons.0.profiles.0.name",
+              "name": "bile_spurt",
               "range": "12\"",
               "skill": "3+",
               "strength": "5"
@@ -3627,7 +3627,7 @@
               "attacks": "1",
               "damage": "D6",
               "keywords": [],
-              "name": "datasheets.Helbrute.rangedWeapons.5.profiles.0.name",
+              "name": "missile_launcher_krak",
               "range": "48\"",
               "skill": "3+",
               "strength": "9"
@@ -3640,7 +3640,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.5.profiles.1.name",
+              "name": "missile_launcher_frag",
               "range": "48\"",
               "skill": "3+",
               "strength": "4"
@@ -3659,7 +3659,7 @@
                 "Lethal Hits",
                 "Melta 2"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.0.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -3792,7 +3792,7 @@
                 "Sustained Hits 1",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Mortarion.meleeWeapons.0.profiles.0.name",
+              "name": "silence_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -3806,7 +3806,7 @@
                 "Lethal Hits",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Mortarion.meleeWeapons.0.profiles.1.name",
+              "name": "silence_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "14"
@@ -3838,7 +3838,7 @@
                 "Devastating Wounds",
                 "Blast"
               ],
-              "name": "datasheets.Mortarion.rangedWeapons.0.profiles.0.name",
+              "name": "rotwind",
               "range": "24\"",
               "skill": "2+",
               "strength": "7"
@@ -3857,7 +3857,7 @@
                 "Sustained Hits D3",
                 "Pistol"
               ],
-              "name": "datasheets.Mortarion.rangedWeapons.1.profiles.0.name",
+              "name": "lantern",
               "range": "24\"",
               "skill": "2+",
               "strength": "10"
@@ -3951,7 +3951,7 @@
                 "Psychic",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Malignant_Plaguecaster.meleeWeapons.0.profiles.0.name",
+              "name": "corrupted_staff",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -3981,7 +3981,7 @@
                 "Pistol",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Plague_Marines.rangedWeapons.1.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -4000,7 +4000,7 @@
                 "Torrent",
                 "Psychic"
               ],
-              "name": "datasheets.Malignant_Plaguecaster.rangedWeapons.1.profiles.0.name",
+              "name": "plague_wind_witchfire",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -4015,7 +4015,7 @@
                 "Psychic",
                 "Hazardous"
               ],
-              "name": "datasheets.Malignant_Plaguecaster.rangedWeapons.1.profiles.1.name",
+              "name": "plague_wind_focused_witchfire",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -4108,7 +4108,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Chaos_Predator_Annihilator.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -4138,7 +4138,7 @@
                 "Rapid Fire 2",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.6.profiles.0.name",
+              "name": "combi_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -4158,7 +4158,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.7.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -4176,7 +4176,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.3.profiles.0.name",
+              "name": "havoc_launcher",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -4261,7 +4261,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Chaos_Predator_Annihilator.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -4292,7 +4292,7 @@
                 "Sustained Hits 1",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.5.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -4308,7 +4308,7 @@
               "attacks": "2",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.1.profiles.0.name",
+              "name": "soulshatter_lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -4327,7 +4327,7 @@
                 "Rapid Fire 2",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.6.profiles.0.name",
+              "name": "combi_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -4347,7 +4347,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.7.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -4365,7 +4365,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.3.profiles.0.name",
+              "name": "havoc_launcher",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -4456,7 +4456,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Tallyman.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -4487,7 +4487,7 @@
                 "Ignores Cover",
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Foul_Blightspawn.rangedWeapons.0.profiles.0.name",
+              "name": "plague_sprayer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "7"
@@ -4585,7 +4585,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Icon_Bearer.meleeWeapons.0.profiles.0.name",
+              "name": "plague_knife",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -4614,7 +4614,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Plague_Marines.rangedWeapons.0.profiles.0.name",
+              "name": "boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -4715,7 +4715,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Typhus.meleeWeapons.0.profiles.0.name",
+              "name": "lakrimae_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -4728,7 +4728,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Typhus.meleeWeapons.0.profiles.1.name",
+              "name": "lakrimae_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "9"
@@ -4833,7 +4833,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Blightlord_Terminators.meleeWeapons.0.profiles.0.name",
+              "name": "bubotic_blade",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -4851,7 +4851,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Blightlord_Terminators.meleeWeapons.1.profiles.0.name",
+              "name": "flail_of_corruption",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -4867,7 +4867,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Tallyman.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -4909,7 +4909,7 @@
                 "Rapid Fire 2",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.6.profiles.0.name",
+              "name": "combi_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -4929,7 +4929,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.7.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -4948,7 +4948,7 @@
                 "Lethal Hits",
                 "Blast"
               ],
-              "name": "datasheets.Plague_Marines.rangedWeapons.4.profiles.0.name",
+              "name": "blight_launcher",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -4967,7 +4967,7 @@
                 "Sustained Hits 1",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.1.profiles.0.name",
+              "name": "reaper_autocannon",
               "range": "36\"",
               "skill": "3+",
               "strength": "7"
@@ -4987,7 +4987,7 @@
                 "Ignores Cover",
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Plague_Marines.rangedWeapons.5.profiles.0.name",
+              "name": "plague_spewer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -5094,7 +5094,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Chaos_Spawn.meleeWeapons.0.profiles.0.name",
+              "name": "hideous_mutations",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"

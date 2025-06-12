@@ -82,7 +82,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Hearthkyn_Warriors.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -98,7 +98,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Hearthkyn_Warriors.meleeWeapons.1.profiles.0.name",
+              "name": "kin_melee_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -127,7 +127,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.0.profiles.0.name",
+              "name": "autoch_pattern_bolt_pistol",
               "range": "12\"",
               "skill": "4+",
               "strength": "4"
@@ -143,7 +143,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.1.profiles.0.name",
+              "name": "autoch_pattern_bolter",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -159,7 +159,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.2.profiles.0.name",
+              "name": "ion_blaster",
               "range": "18\"",
               "skill": "4+",
               "strength": "5"
@@ -177,7 +177,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.3.profiles.0.name",
+              "name": "ion_pistol",
               "range": "12\"",
               "skill": "4+",
               "strength": "5"
@@ -195,7 +195,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.4.profiles.0.name",
+              "name": "etacarn_plasma_pistol",
               "range": "6\"",
               "skill": "4+",
               "strength": "8"
@@ -214,7 +214,7 @@
                 "Rapid Fire 3",
                 "Assault"
               ],
-              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.5.profiles.0.name",
+              "name": "hylas_auto_rifle",
               "range": "24\"",
               "skill": "4+",
               "strength": "6"
@@ -233,7 +233,7 @@
                 "Sustained Hits 1",
                 "Heavy"
               ],
-              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.6.profiles.0.name",
+              "name": "hylas_rotary_cannon",
               "range": "24\"",
               "skill": "5+",
               "strength": "6"
@@ -249,7 +249,7 @@
               "attacks": "1",
               "damage": "D6",
               "keywords": [],
-              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.7.profiles.0.name",
+              "name": "l7_missile_launcher_focused",
               "range": "24\"",
               "skill": "4+",
               "strength": "9"
@@ -262,7 +262,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.7.profiles.1.name",
+              "name": "l7_missile_launcher_blast",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -280,7 +280,7 @@
               "keywords": [
                 "Sustained Hits D3"
               ],
-              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.8.profiles.0.name",
+              "name": "etacarn_plasma_beamer",
               "range": "18\"",
               "skill": "4+",
               "strength": "8"
@@ -299,7 +299,7 @@
                 "Heavy",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.9.profiles.0.name",
+              "name": "magna_rail_rifle",
               "range": "18\"",
               "skill": "5+",
               "strength": "12"
@@ -412,7 +412,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.thar_the_Destined.meleeWeapons.0.profiles.0.name",
+              "name": "blade_of_the_ancestors",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -441,7 +441,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.thar_the_Destined.rangedWeapons.0.profiles.0.name",
+              "name": "volkanite_disintegrator",
               "range": "18\"",
               "skill": "2+",
               "strength": "5"
@@ -541,7 +541,7 @@
               "keywords": [
                 "Anti-vehicle 2+"
               ],
-              "name": "datasheets.Brkhyr_Iron_master.meleeWeapons.0.profiles.0.name",
+              "name": "graviton_hammer",
               "range": "Melee",
               "skill": "4+",
               "strength": "9"
@@ -557,7 +557,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Hearthkyn_Warriors.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -573,7 +573,7 @@
               "attacks": "1",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Brkhyr_Iron_master.meleeWeapons.2.profiles.0.name",
+              "name": "plasma_torch",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -589,7 +589,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Brkhyr_Iron_master.meleeWeapons.3.profiles.0.name",
+              "name": "manipulator_arms",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -618,7 +618,7 @@
               "keywords": [
                 "Anti-vehicle 2+"
               ],
-              "name": "datasheets.Brkhyr_Iron_master.rangedWeapons.0.profiles.0.name",
+              "name": "graviton_rifle",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -634,7 +634,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Brkhyr_Iron_master.rangedWeapons.1.profiles.0.name",
+              "name": "las_beam_cutter",
               "range": "6\"",
               "skill": "4+",
               "strength": "6"
@@ -650,7 +650,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.0.profiles.0.name",
+              "name": "autoch_pattern_bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -774,7 +774,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Einhyr_Hearthguard.meleeWeapons.0.profiles.0.name",
+              "name": "concussion_gauntlet",
               "range": "Melee",
               "skill": "3+",
               "strength": "9"
@@ -790,7 +790,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Einhyr_Hearthguard.meleeWeapons.1.profiles.0.name",
+              "name": "plasma_blade_gauntlet",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -806,7 +806,7 @@
               "attacks": "3",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Einhyr_Hearthguard.meleeWeapons.2.profiles.0.name",
+              "name": "concussion_hammer",
               "range": "Melee",
               "skill": "4+",
               "strength": "9"
@@ -839,7 +839,7 @@
               "attacks": "1",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Einhyr_Hearthguard.rangedWeapons.0.profiles.0.name",
+              "name": "etacarn_plasma_gun",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -857,7 +857,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Einhyr_Hearthguard.rangedWeapons.1.profiles.0.name",
+              "name": "exo_armour_grenade_launcher",
               "range": "18\"",
               "skill": "3+",
               "strength": "4"
@@ -875,7 +875,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.thar_the_Destined.rangedWeapons.0.profiles.0.name",
+              "name": "volkanite_disintegrator",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -971,7 +971,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Hekaton_Land_Fortress.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_wheels",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -1000,7 +1000,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Hekaton_Land_Fortress.rangedWeapons.0.profiles.0.name",
+              "name": "cyclic_ion_cannon",
               "range": "24\"",
               "skill": "4+",
               "strength": "9"
@@ -1016,7 +1016,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Hekaton_Land_Fortress.rangedWeapons.1.profiles.0.name",
+              "name": "matr_autocannon",
               "range": "24\"",
               "skill": "4+",
               "strength": "7"
@@ -1035,7 +1035,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Hekaton_Land_Fortress.rangedWeapons.2.profiles.0.name",
+              "name": "twin_bolt_cannon",
               "range": "36\"",
               "skill": "4+",
               "strength": "6"
@@ -1054,7 +1054,7 @@
                 "Twin-linked",
                 "Sustained Hits D3"
               ],
-              "name": "datasheets.Hekaton_Land_Fortress.rangedWeapons.3.profiles.0.name",
+              "name": "twin_ion_beamer",
               "range": "18\"",
               "skill": "4+",
               "strength": "7"
@@ -1073,7 +1073,7 @@
                 "Sustained Hits D3",
                 "Conversion"
               ],
-              "name": "datasheets.Hekaton_Land_Fortress.rangedWeapons.4.profiles.0.name",
+              "name": "sp_heavy_conversion_beamer",
               "range": "24\"",
               "skill": "4+",
               "strength": "10"
@@ -1100,7 +1100,7 @@
                 "Heavy",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Hekaton_Land_Fortress.rangedWeapons.5.profiles.0.name",
+              "name": "heavy_magna_rail_cannon",
               "range": "30\"",
               "skill": "4+",
               "strength": "18"
@@ -1120,7 +1120,7 @@
                 "Indirect Fire",
                 "Blast"
               ],
-              "name": "datasheets.Hekaton_Land_Fortress.rangedWeapons.6.profiles.0.name",
+              "name": "hekaton_warhead",
               "range": "36\"",
               "skill": "4+",
               "strength": "7"
@@ -1209,7 +1209,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Hearthkyn_Warriors.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -1244,7 +1244,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Brkhyr_Thunderkyn.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_cannon",
               "range": "36\"",
               "skill": "4+",
               "strength": "6"
@@ -1263,7 +1263,7 @@
                 "Blast",
                 "Anti-vehicle 2+"
               ],
-              "name": "datasheets.Brkhyr_Thunderkyn.rangedWeapons.1.profiles.0.name",
+              "name": "graviton_blast_cannon",
               "range": "18\"",
               "skill": "4+",
               "strength": "5"
@@ -1282,7 +1282,7 @@
                 "Sustained Hits D3",
                 "Conversion"
               ],
-              "name": "datasheets.Brkhyr_Thunderkyn.rangedWeapons.2.profiles.0.name",
+              "name": "sp_conversion_beamer",
               "range": "24\"",
               "skill": "4+",
               "strength": "7"
@@ -1395,7 +1395,7 @@
               "attacks": "3",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Einhyr_Champion.meleeWeapons.0.profiles.0.name",
+              "name": "mass_hammer",
               "range": "Melee",
               "skill": "3+",
               "strength": "12"
@@ -1411,7 +1411,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Einhyr_Champion.meleeWeapons.1.profiles.0.name",
+              "name": "darkstar_axe",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -1438,7 +1438,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Einhyr_Champion.rangedWeapons.0.profiles.0.name",
+              "name": "autoch_pattern_combi_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -1528,7 +1528,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Hekaton_Land_Fortress.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_wheels",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -1557,7 +1557,7 @@
               "keywords": [
                 "Sustained Hits D3"
               ],
-              "name": "datasheets.Sagitaur.rangedWeapons.0.profiles.0.name",
+              "name": "hylas_beam_cannon",
               "range": "24\"",
               "skill": "4+",
               "strength": "12"
@@ -1576,7 +1576,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Hekaton_Land_Fortress.rangedWeapons.2.profiles.0.name",
+              "name": "twin_bolt_cannon",
               "range": "36\"",
               "skill": "4+",
               "strength": "6"
@@ -1592,7 +1592,7 @@
               "attacks": "1",
               "damage": "D6",
               "keywords": [],
-              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.7.profiles.0.name",
+              "name": "l7_missile_launcher_focused",
               "range": "24\"",
               "skill": "4+",
               "strength": "9"
@@ -1605,7 +1605,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.7.profiles.1.name",
+              "name": "l7_missile_launcher_blast",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -1621,7 +1621,7 @@
               "attacks": "2",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Sagitaur.rangedWeapons.3.profiles.0.name",
+              "name": "sagitaur_missile_launcher",
               "range": "36\"",
               "skill": "4+",
               "strength": "12"
@@ -1637,7 +1637,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Hekaton_Land_Fortress.rangedWeapons.1.profiles.0.name",
+              "name": "matr_autocannon",
               "range": "24\"",
               "skill": "4+",
               "strength": "7"
@@ -1729,7 +1729,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Grimnyr.meleeWeapons.0.profiles.0.name",
+              "name": "ancestral_ward_stave",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -1745,7 +1745,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Hearthkyn_Warriors.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -1774,7 +1774,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Grimnyr.rangedWeapons.0.profiles.0.name",
+              "name": "ancestral_wrath_witchfire",
               "range": "24\"",
               "skill": "2+",
               "strength": "6"
@@ -1788,7 +1788,7 @@
                 "Psychic",
                 "Hazardous"
               ],
-              "name": "datasheets.Grimnyr.rangedWeapons.0.profiles.1.name",
+              "name": "ancestral_wrath_focused_witchfire",
               "range": "24\"",
               "skill": "2+",
               "strength": "6"
@@ -1804,7 +1804,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.1.profiles.0.name",
+              "name": "autoch_pattern_bolter",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -1910,7 +1910,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Cthonian_Beserks.meleeWeapons.0.profiles.0.name",
+              "name": "heavy_plasma_axe_sweep",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1921,7 +1921,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Cthonian_Beserks.meleeWeapons.0.profiles.1.name",
+              "name": "heavy_plasma_axe_strike",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -1937,7 +1937,7 @@
               "attacks": "3",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Cthonian_Beserks.meleeWeapons.1.profiles.0.name",
+              "name": "concussion_maul",
               "range": "Melee",
               "skill": "4+",
               "strength": "9"
@@ -1955,7 +1955,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Cthonian_Beserks.meleeWeapons.2.profiles.0.name",
+              "name": "twin_concussion_gauntlet",
               "range": "Melee",
               "skill": "4+",
               "strength": "9"
@@ -1991,7 +1991,7 @@
                 "Indirect Fire",
                 "Blast"
               ],
-              "name": "datasheets.Cthonian_Beserks.rangedWeapons.0.profiles.0.name",
+              "name": "mole_grenade_launcher",
               "range": "24\"",
               "skill": "4+",
               "strength": "5"
@@ -2093,7 +2093,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Khl.meleeWeapons.0.profiles.0.name",
+              "name": "forgewrought_plasma_axe",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -2109,7 +2109,7 @@
               "attacks": "3",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Khl.meleeWeapons.1.profiles.0.name",
+              "name": "mass_gauntlet",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -2136,7 +2136,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Einhyr_Champion.rangedWeapons.0.profiles.0.name",
+              "name": "autoch_pattern_combi_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -2154,7 +2154,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.thar_the_Destined.rangedWeapons.0.profiles.0.name",
+              "name": "volkanite_disintegrator",
               "range": "18\"",
               "skill": "2+",
               "strength": "5"
@@ -2246,7 +2246,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Hearthkyn_Warriors.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -2262,7 +2262,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Hernkyn_Yaegirs.meleeWeapons.1.profiles.0.name",
+              "name": "plasma_knife",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -2291,7 +2291,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Hernkyn_Yaegirs.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_shotgun",
               "range": "18\"",
               "skill": "4+",
               "strength": "5"
@@ -2309,7 +2309,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Hernkyn_Yaegirs.rangedWeapons.1.profiles.0.name",
+              "name": "bolt_revolver",
               "range": "9\"",
               "skill": "4+",
               "strength": "5"
@@ -2328,7 +2328,7 @@
                 "Precision",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Hernkyn_Yaegirs.rangedWeapons.2.profiles.0.name",
+              "name": "magna_coil_rifle",
               "range": "24\"",
               "skill": "4+",
               "strength": "5"
@@ -2347,7 +2347,7 @@
                 "Anti-vehicle 3+",
                 "Anti-monster 3+"
               ],
-              "name": "datasheets.Hernkyn_Yaegirs.rangedWeapons.3.profiles.0.name",
+              "name": "apm_launcher",
               "range": "24\"",
               "skill": "4+",
               "strength": "6"
@@ -2450,7 +2450,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Hernkyn_Yaegirs.meleeWeapons.1.profiles.0.name",
+              "name": "plasma_knife",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -2485,7 +2485,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Hernkyn_Yaegirs.rangedWeapons.1.profiles.0.name",
+              "name": "bolt_revolver",
               "range": "9\"",
               "skill": "4+",
               "strength": "5"
@@ -2503,7 +2503,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Hernkyn_Yaegirs.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_shotgun",
               "range": "12\"",
               "skill": "4+",
               "strength": "5"
@@ -2519,7 +2519,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Hernkyn_Pioneers.rangedWeapons.2.profiles.0.name",
+              "name": "magna_coil_autocannon",
               "range": "24\"",
               "skill": "4+",
               "strength": "7"
@@ -2537,7 +2537,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Hearthkyn_Warriors.rangedWeapons.6.profiles.0.name",
+              "name": "hylas_rotary_cannon",
               "range": "24\"",
               "skill": "4+",
               "strength": "6"
@@ -2555,7 +2555,7 @@
               "keywords": [
                 "Sustained Hits D3"
               ],
-              "name": "datasheets.Hernkyn_Pioneers.rangedWeapons.4.profiles.0.name",
+              "name": "ion_beamer",
               "range": "18\"",
               "skill": "4+",
               "strength": "7"

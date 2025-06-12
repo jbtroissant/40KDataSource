@@ -62,7 +62,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -92,7 +92,7 @@
                 "Twin-linked",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.rangedWeapons.0.profiles.0.name",
+              "name": "twin_heavy_onslaught_gatling_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -110,7 +110,7 @@
               "keywords": [
                 "Rapid Fire 4"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.rangedWeapons.1.profiles.0.name",
+              "name": "tempest_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -128,7 +128,7 @@
               "keywords": [
                 "Rapid Fire 3"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.rangedWeapons.2.profiles.0.name",
+              "name": "ironhail_heavy_stubber",
               "range": "36\"",
               "skill": "3+",
               "strength": "4"
@@ -146,7 +146,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.rangedWeapons.3.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -164,7 +164,7 @@
               "keywords": [
                 "Anti-fly 2+"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.rangedWeapons.4.profiles.0.name",
+              "name": "icarus_rocket_pod",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -257,7 +257,7 @@
               "attacks": "12",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.High_Marshal_Helbrecht.meleeWeapons.0.profiles.0.name",
+              "name": "sword_of_the_high_marshals_one_handed",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -268,7 +268,7 @@
               "attacks": "6",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.High_Marshal_Helbrecht.meleeWeapons.0.profiles.1.name",
+              "name": "sword_of_the_high_marshals_two_handed",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -298,7 +298,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.High_Marshal_Helbrecht.rangedWeapons.0.profiles.0.name",
+              "name": "ferocity",
               "range": "24\"",
               "skill": "2+",
               "strength": "5"
@@ -391,7 +391,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -420,7 +420,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Black_Templars_Repulsor_Executioner.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_onslaught_gatling_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -438,7 +438,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Black_Templars_Repulsor_Executioner.rangedWeapons.1.profiles.0.name",
+              "name": "macro_plasma_incinerator_standard",
               "range": "36\"",
               "skill": "3+",
               "strength": "8"
@@ -452,7 +452,7 @@
                 "Hazardous",
                 "Blast"
               ],
-              "name": "datasheets.Black_Templars_Repulsor_Executioner.rangedWeapons.1.profiles.1.name",
+              "name": "macro_plasma_incinerator_supercharge",
               "range": "36\"",
               "skill": "3+",
               "strength": "9"
@@ -468,7 +468,7 @@
               "attacks": "10",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Black_Templars_Repulsor_Executioner.rangedWeapons.2.profiles.0.name",
+              "name": "repulsor_executioner_defensive_array",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -487,7 +487,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Black_Templars_Repulsor_Executioner.rangedWeapons.3.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -507,7 +507,7 @@
                 "Rapid Fire 3",
                 "Anti-fly 4+"
               ],
-              "name": "datasheets.Black_Templars_Repulsor_Executioner.rangedWeapons.4.profiles.0.name",
+              "name": "twin_icarus_ironhail_heavy_stubber",
               "range": "36\"",
               "skill": "3+",
               "strength": "4"
@@ -525,7 +525,7 @@
               "keywords": [
                 "Heavy"
               ],
-              "name": "datasheets.Black_Templars_Repulsor_Executioner.rangedWeapons.5.profiles.0.name",
+              "name": "heavy_laser_destroyer",
               "range": "72\"",
               "skill": "3+",
               "strength": "16"
@@ -543,7 +543,7 @@
               "keywords": [
                 "Rapid Fire 3"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.rangedWeapons.2.profiles.0.name",
+              "name": "ironhail_heavy_stubber",
               "range": "36\"",
               "skill": "3+",
               "strength": "4"
@@ -561,7 +561,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.rangedWeapons.3.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -579,7 +579,7 @@
               "keywords": [
                 "Anti-fly 2+"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.rangedWeapons.4.profiles.0.name",
+              "name": "icarus_rocket_pod",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -672,7 +672,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Castellan.meleeWeapons.0.profiles.0.name",
+              "name": "master_crafted_power_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -688,7 +688,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Castellan.meleeWeapons.1.profiles.0.name",
+              "name": "astartes_chainsword",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -719,7 +719,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Castellan.rangedWeapons.0.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -737,7 +737,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Castellan.rangedWeapons.1.profiles.0.name",
+              "name": "heavy_bolt_pistol",
               "range": "18\"",
               "skill": "2+",
               "strength": "4"
@@ -838,7 +838,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Castellan.meleeWeapons.1.profiles.0.name",
+              "name": "astartes_chainsword",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -854,7 +854,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Castellan.meleeWeapons.0.profiles.0.name",
+              "name": "master_crafted_power_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -870,7 +870,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Primaris_Sword_Brethren.meleeWeapons.2.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -888,7 +888,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Primaris_Sword_Brethren.meleeWeapons.3.profiles.0.name",
+              "name": "thunder_hammer",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -906,7 +906,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Primaris_Sword_Brethren.meleeWeapons.4.profiles.0.name",
+              "name": "twin_lightning_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -941,7 +941,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Primaris_Sword_Brethren.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolt_pistol",
               "range": "18\"",
               "skill": "3+",
               "strength": "4"
@@ -961,7 +961,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Castellan.rangedWeapons.0.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -979,7 +979,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Primaris_Sword_Brethren.rangedWeapons.2.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -993,7 +993,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Primaris_Sword_Brethren.rangedWeapons.2.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -1013,7 +1013,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Primaris_Sword_Brethren.rangedWeapons.3.profiles.0.name",
+              "name": "pyre_pistol",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -1115,7 +1115,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Crusader_Squad.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1131,7 +1131,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Castellan.meleeWeapons.1.profiles.0.name",
+              "name": "astartes_chainsword",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1147,7 +1147,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Primaris_Sword_Brethren.meleeWeapons.2.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -1165,7 +1165,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Primaris_Sword_Brethren.meleeWeapons.3.profiles.0.name",
+              "name": "thunder_hammer",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -1183,7 +1183,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Primaris_Sword_Brethren.meleeWeapons.4.profiles.0.name",
+              "name": "twin_lightning_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -1199,7 +1199,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Crusader_Squad.meleeWeapons.5.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -1215,7 +1215,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Crusader_Squad.meleeWeapons.6.profiles.0.name",
+              "name": "combat_knife",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1260,7 +1260,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.0.profiles.0.name",
+              "name": "boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1276,7 +1276,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.1.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -1294,7 +1294,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.2.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -1314,7 +1314,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Castellan.rangedWeapons.0.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -1333,7 +1333,7 @@
                 "Pistol",
                 "Anti-vehicle 2+"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.4.profiles.0.name",
+              "name": "grav_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "5"
@@ -1353,7 +1353,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.5.profiles.0.name",
+              "name": "hand_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "3"
@@ -1372,7 +1372,7 @@
                 "Pistol",
                 "Melta 2"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.6.profiles.0.name",
+              "name": "inferno_pistol",
               "range": "6\"",
               "skill": "3+",
               "strength": "8"
@@ -1390,7 +1390,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Primaris_Sword_Brethren.rangedWeapons.2.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -1404,7 +1404,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Primaris_Sword_Brethren.rangedWeapons.2.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -1422,7 +1422,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.8.profiles.0.name",
+              "name": "astartes_shotgun",
               "range": "18\"",
               "skill": "3+",
               "strength": "4"
@@ -1441,7 +1441,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.9.profiles.0.name",
+              "name": "flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -1459,7 +1459,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.10.profiles.0.name",
+              "name": "plasma_gun_standard",
               "range": "24\"",
               "skill": "3+",
               "strength": "7"
@@ -1473,7 +1473,7 @@
                 "Rapid Fire 1",
                 "Hazardous"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.10.profiles.1.name",
+              "name": "plasma_gun_supercharge",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -1491,7 +1491,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.11.profiles.0.name",
+              "name": "meltagun",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -1509,7 +1509,7 @@
               "keywords": [
                 "Anti-vehicle 2+"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.12.profiles.0.name",
+              "name": "grav_gun",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -1528,7 +1528,7 @@
                 "Sustained Hits 1",
                 "Heavy"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.13.profiles.0.name",
+              "name": "heavy_bolter",
               "range": "36\"",
               "skill": "4+",
               "strength": "5"
@@ -1547,7 +1547,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.14.profiles.0.name",
+              "name": "heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -1566,7 +1566,7 @@
                 "Heavy",
                 "Anti-vehicle 2+"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.15.profiles.0.name",
+              "name": "grav_cannon",
               "range": "24\"",
               "skill": "4+",
               "strength": "6"
@@ -1584,7 +1584,7 @@
               "keywords": [
                 "Heavy"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.16.profiles.0.name",
+              "name": "lascannon",
               "range": "48\"",
               "skill": "4+",
               "strength": "12"
@@ -1602,7 +1602,7 @@
               "keywords": [
                 "Heavy"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.17.profiles.0.name",
+              "name": "missile_launcher_krak",
               "range": "48\"",
               "skill": "4+",
               "strength": "9"
@@ -1616,7 +1616,7 @@
                 "Heavy",
                 "Blast"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.17.profiles.1.name",
+              "name": "missile_launcher_frag",
               "range": "48\"",
               "skill": "4+",
               "strength": "4"
@@ -1635,7 +1635,7 @@
                 "Melta 2",
                 "Heavy"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.rangedWeapons.3.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "4+",
               "strength": "9"
@@ -1654,7 +1654,7 @@
                 "Heavy",
                 "Blast"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.19.profiles.0.name",
+              "name": "plasma_cannon_standard",
               "range": "36\"",
               "skill": "4+",
               "strength": "7"
@@ -1669,7 +1669,7 @@
                 "Hazardous",
                 "Blast"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.19.profiles.1.name",
+              "name": "plasma_cannon_supercharge",
               "range": "36\"",
               "skill": "4+",
               "strength": "8"
@@ -1767,7 +1767,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -1796,7 +1796,7 @@
               "keywords": [
                 "Heavy"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Lancer.rangedWeapons.0.profiles.0.name",
+              "name": "lancer_laser_destroyer",
               "range": "72\"",
               "skill": "3+",
               "strength": "14"
@@ -1814,7 +1814,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.2.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1832,7 +1832,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Lancer.rangedWeapons.2.profiles.0.name",
+              "name": "fragstorm_grenade_launcher",
               "range": "18\"",
               "skill": "3+",
               "strength": "4"
@@ -1850,7 +1850,7 @@
               "keywords": [
                 "Rapid Fire 3"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.rangedWeapons.2.profiles.0.name",
+              "name": "ironhail_heavy_stubber",
               "range": "36\"",
               "skill": "3+",
               "strength": "4"
@@ -1868,7 +1868,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.rangedWeapons.3.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -1886,7 +1886,7 @@
               "keywords": [
                 "Anti-fly 2+"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.rangedWeapons.4.profiles.0.name",
+              "name": "icarus_rocket_pod",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -1979,7 +1979,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Castellan.meleeWeapons.0.profiles.0.name",
+              "name": "master_crafted_power_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -2008,7 +2008,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Primaris_Sword_Brethren.rangedWeapons.2.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "2+",
               "strength": "7"
@@ -2022,7 +2022,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Primaris_Sword_Brethren.rangedWeapons.2.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "2+",
               "strength": "8"
@@ -2042,7 +2042,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Castellan.rangedWeapons.0.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -2147,7 +2147,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Primaris_Sword_Brethren.meleeWeapons.2.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -2163,7 +2163,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Crusader_Squad.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -2179,7 +2179,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Castellan.meleeWeapons.1.profiles.0.name",
+              "name": "astartes_chainsword",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -2195,7 +2195,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Crusader_Squad.meleeWeapons.5.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -2230,7 +2230,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Primaris_Sword_Brethren.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolt_pistol",
               "range": "18\"",
               "skill": "3+",
               "strength": "4"
@@ -2250,7 +2250,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Primaris_Sword_Brethren.rangedWeapons.3.profiles.0.name",
+              "name": "pyre_pistol",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -2268,7 +2268,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Primaris_Crusader_Squad.rangedWeapons.2.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -2287,7 +2287,7 @@
                 "Heavy",
                 "Assault"
               ],
-              "name": "datasheets.Primaris_Crusader_Squad.rangedWeapons.3.profiles.0.name",
+              "name": "bolt_rifle",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -2306,7 +2306,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Primaris_Crusader_Squad.rangedWeapons.4.profiles.0.name",
+              "name": "pyreblaster",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -2324,7 +2324,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Primaris_Crusader_Squad.rangedWeapons.5.profiles.0.name",
+              "name": "neophyte_firearm",
               "range": "18\"",
               "skill": "3+",
               "strength": "4"
@@ -2429,7 +2429,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -2458,7 +2458,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Black_Templars_Repulsor_Executioner.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_onslaught_gatling_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -2477,7 +2477,7 @@
                 "One Shot",
                 "Indirect Fire"
               ],
-              "name": "datasheets.Black_Templars_Repulsor.rangedWeapons.1.profiles.0.name",
+              "name": "hunter_slayer_missile",
               "range": "48\"",
               "skill": "2+",
               "strength": "14"
@@ -2501,7 +2501,7 @@
               "attacks": "18",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Black_Templars_Repulsor.rangedWeapons.2.profiles.0.name",
+              "name": "repulsor_defensive_array",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -2520,7 +2520,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Black_Templars_Repulsor_Executioner.rangedWeapons.3.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -2538,7 +2538,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Black_Templars_Repulsor.rangedWeapons.4.profiles.0.name",
+              "name": "twin_lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -2554,7 +2554,7 @@
               "attacks": "2",
               "damage": "D6",
               "keywords": [],
-              "name": "datasheets.Black_Templars_Repulsor.rangedWeapons.5.profiles.0.name",
+              "name": "las_talon",
               "range": "36\"",
               "skill": "3+",
               "strength": "10"
@@ -2572,7 +2572,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.rangedWeapons.3.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -2665,7 +2665,7 @@
               "attacks": "10",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.The_Emperors_Champion.meleeWeapons.0.profiles.0.name",
+              "name": "black_sword_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -2678,7 +2678,7 @@
               "keywords": [
                 "Precision"
               ],
-              "name": "datasheets.The_Emperors_Champion.meleeWeapons.0.profiles.1.name",
+              "name": "black_sword_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -2707,7 +2707,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.1.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -2800,7 +2800,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -2829,7 +2829,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Valiant.rangedWeapons.0.profiles.0.name",
+              "name": "twin_las_talon",
               "range": "36\"",
               "skill": "3+",
               "strength": "10"
@@ -2847,7 +2847,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.rangedWeapons.3.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -2865,7 +2865,7 @@
               "keywords": [
                 "Rapid Fire 3"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.rangedWeapons.2.profiles.0.name",
+              "name": "ironhail_heavy_stubber",
               "range": "36\"",
               "skill": "3+",
               "strength": "4"
@@ -2883,7 +2883,7 @@
               "keywords": [
                 "Anti-fly 2+"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.rangedWeapons.4.profiles.0.name",
+              "name": "icarus_rocket_pod",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -2981,7 +2981,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -3010,7 +3010,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Crusader_Squad.rangedWeapons.2.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -3028,7 +3028,7 @@
               "keywords": [
                 "Rapid Fire 3"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.rangedWeapons.2.profiles.0.name",
+              "name": "ironhail_heavy_stubber",
               "range": "36\"",
               "skill": "3+",
               "strength": "4"
@@ -3046,7 +3046,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Reaper.rangedWeapons.3.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -3064,7 +3064,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Black_Templars_Gladiator_Lancer.rangedWeapons.2.profiles.0.name",
+              "name": "fragstorm_grenade_launcher",
               "range": "18\"",
               "skill": "3+",
               "strength": "4"
@@ -3082,7 +3082,7 @@
               "keywords": [
                 "Anti-fly 2+"
               ],
-              "name": "datasheets.Black_Templars_Impulsor.rangedWeapons.4.profiles.0.name",
+              "name": "bellicatus_missile_array_icarus",
               "range": "48\"",
               "skill": "3+",
               "strength": "8"
@@ -3093,7 +3093,7 @@
               "attacks": "1",
               "damage": "D6",
               "keywords": [],
-              "name": "datasheets.Black_Templars_Impulsor.rangedWeapons.4.profiles.1.name",
+              "name": "bellicatus_missile_array_krak",
               "range": "48\"",
               "skill": "3+",
               "strength": "8"
@@ -3106,7 +3106,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Black_Templars_Impulsor.rangedWeapons.4.profiles.2.name",
+              "name": "bellicatus_missile_array_frag",
               "range": "48\"",
               "skill": "3+",
               "strength": "4"
@@ -3125,7 +3125,7 @@
                 "Sustained Hits 1",
                 "Anti-fly 4+"
               ],
-              "name": "datasheets.Black_Templars_Impulsor.rangedWeapons.5.profiles.0.name",
+              "name": "ironhail_skytalon_array",
               "range": "36\"",
               "skill": "3+",
               "strength": "4"
@@ -3245,7 +3245,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Chaplain_Grimaldus.meleeWeapons.0.profiles.0.name",
+              "name": "artificer_crozius",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -3261,7 +3261,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Crusader_Squad.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -3290,7 +3290,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Primaris_Sword_Brethren.rangedWeapons.2.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "2+",
               "strength": "7"
@@ -3304,7 +3304,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Primaris_Sword_Brethren.rangedWeapons.2.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "2+",
               "strength": "8"

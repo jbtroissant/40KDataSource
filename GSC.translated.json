@@ -67,7 +67,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Atalan_Jackals.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -83,7 +83,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Atalan_Jackals.meleeWeapons.1.profiles.0.name",
+              "name": "atalan_power_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -124,7 +124,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Atalan_Jackals.rangedWeapons.0.profiles.0.name",
+              "name": "atalan_small_arms",
               "range": "12\"",
               "skill": "4+",
               "strength": "4"
@@ -143,7 +143,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Atalan_Jackals.rangedWeapons.1.profiles.0.name",
+              "name": "atalan_incinerator",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -159,7 +159,7 @@
               "attacks": "1",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Atalan_Jackals.rangedWeapons.2.profiles.0.name",
+              "name": "mining_laser",
               "range": "24\"",
               "skill": "4+",
               "strength": "12"
@@ -175,7 +175,7 @@
               "attacks": "1",
               "damage": "D3",
               "keywords": [],
-              "name": "datasheets.Atalan_Jackals.rangedWeapons.3.profiles.0.name",
+              "name": "grenade_launcher_krak",
               "range": "24\"",
               "skill": "4+",
               "strength": "9"
@@ -188,7 +188,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Atalan_Jackals.rangedWeapons.3.profiles.1.name",
+              "name": "grenade_launcher_frag",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -207,7 +207,7 @@
                 "Rapid Fire 3",
                 "Assault"
               ],
-              "name": "datasheets.Atalan_Jackals.rangedWeapons.4.profiles.0.name",
+              "name": "heavy_stubber",
               "range": "36\"",
               "skill": "4+",
               "strength": "4"
@@ -311,7 +311,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Atalan_Jackals.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -341,7 +341,7 @@
                 "Pistol",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Kelermorph.rangedWeapons.0.profiles.0.name",
+              "name": "liberator_autostubs",
               "range": "12\"",
               "skill": "2+",
               "strength": "6"
@@ -433,7 +433,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Atalan_Jackals.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -449,7 +449,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Neophyte_Hybrids.meleeWeapons.1.profiles.0.name",
+              "name": "chainsword",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -465,7 +465,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Neophyte_Hybrids.meleeWeapons.2.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -500,7 +500,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Neophyte_Hybrids.rangedWeapons.0.profiles.0.name",
+              "name": "autopistol",
               "range": "12\"",
               "skill": "4+",
               "strength": "3"
@@ -518,7 +518,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Neophyte_Hybrids.rangedWeapons.1.profiles.0.name",
+              "name": "hybrid_firearm",
               "range": "24\"",
               "skill": "4+",
               "strength": "3"
@@ -536,7 +536,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Neophyte_Hybrids.rangedWeapons.2.profiles.0.name",
+              "name": "anointed_pistol",
               "range": "12\"",
               "skill": "4+",
               "strength": "4"
@@ -554,7 +554,7 @@
               "keywords": [
                 "Rapid Fire 3"
               ],
-              "name": "datasheets.Atalan_Jackals.rangedWeapons.4.profiles.0.name",
+              "name": "heavy_stubber",
               "range": "36\"",
               "skill": "4+",
               "strength": "4"
@@ -572,7 +572,7 @@
               "keywords": [
                 "Heavy"
               ],
-              "name": "datasheets.Atalan_Jackals.rangedWeapons.2.profiles.0.name",
+              "name": "mining_laser",
               "range": "24\"",
               "skill": "5+",
               "strength": "10"
@@ -591,7 +591,7 @@
                 "Rapid Fire 2",
                 "Heavy"
               ],
-              "name": "datasheets.Neophyte_Hybrids.rangedWeapons.5.profiles.0.name",
+              "name": "seismic_cannon",
               "range": "24\"",
               "skill": "5+",
               "strength": "6"
@@ -610,7 +610,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Neophyte_Hybrids.rangedWeapons.6.profiles.0.name",
+              "name": "flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -626,7 +626,7 @@
               "attacks": "1",
               "damage": "D3",
               "keywords": [],
-              "name": "datasheets.Atalan_Jackals.rangedWeapons.3.profiles.0.name",
+              "name": "grenade_launcher_krak",
               "range": "24\"",
               "skill": "4+",
               "strength": "9"
@@ -639,7 +639,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Atalan_Jackals.rangedWeapons.3.profiles.1.name",
+              "name": "grenade_launcher_frag",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -658,7 +658,7 @@
                 "Torrent",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Neophyte_Hybrids.rangedWeapons.8.profiles.0.name",
+              "name": "webber",
               "range": "12\"",
               "skill": "N/A",
               "strength": "2"
@@ -758,7 +758,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Atalan_Jackals.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -787,7 +787,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Neophyte_Hybrids.rangedWeapons.0.profiles.0.name",
+              "name": "autopistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "3"
@@ -885,7 +885,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Atalan_Jackals.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -914,7 +914,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Neophyte_Hybrids.rangedWeapons.0.profiles.0.name",
+              "name": "autopistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "3"
@@ -934,7 +934,7 @@
                 "Blast",
                 "Assault"
               ],
-              "name": "datasheets.Reductus_Saboteur.rangedWeapons.1.profiles.0.name",
+              "name": "demolition_charges",
               "range": "8\"",
               "skill": "3+",
               "strength": "9"
@@ -961,7 +961,7 @@
                 "Indirect Fire",
                 "Blast"
               ],
-              "name": "datasheets.Reductus_Saboteur.rangedWeapons.2.profiles.0.name",
+              "name": "remote_explosives",
               "range": "24\"",
               "skill": "3+",
               "strength": "5"
@@ -1067,7 +1067,7 @@
                 "Twin-linked",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Patriarch.meleeWeapons.0.profiles.0.name",
+              "name": "patriarch_s_claws",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -1166,7 +1166,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Goliath_Truck.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -1195,7 +1195,7 @@
               "keywords": [
                 "Rapid Fire 3"
               ],
-              "name": "datasheets.Atalan_Jackals.rangedWeapons.4.profiles.0.name",
+              "name": "heavy_stubber",
               "range": "36\"",
               "skill": "4+",
               "strength": "4"
@@ -1213,7 +1213,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Goliath_Truck.rangedWeapons.1.profiles.0.name",
+              "name": "twin_autocannon",
               "range": "48\"",
               "skill": "4+",
               "strength": "9"
@@ -1233,7 +1233,7 @@
                 "Blast",
                 "Assault"
               ],
-              "name": "datasheets.Goliath_Truck.rangedWeapons.2.profiles.0.name",
+              "name": "demolition_charge_cache",
               "range": "8\"",
               "skill": "5+",
               "strength": "9"
@@ -1329,7 +1329,7 @@
               "keywords": [
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Biophagus.meleeWeapons.0.profiles.0.name",
+              "name": "injector_goad",
               "range": "Melee",
               "skill": "3+",
               "strength": "2"
@@ -1358,7 +1358,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Neophyte_Hybrids.rangedWeapons.0.profiles.0.name",
+              "name": "autopistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "3"
@@ -1376,7 +1376,7 @@
               "keywords": [
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Biophagus.rangedWeapons.1.profiles.0.name",
+              "name": "chemical_vials",
               "range": "6\"",
               "skill": "3+",
               "strength": "1"
@@ -1474,7 +1474,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Acolyte_Iconward.meleeWeapons.0.profiles.0.name",
+              "name": "cult_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1503,7 +1503,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Neophyte_Hybrids.rangedWeapons.0.profiles.0.name",
+              "name": "autopistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "3"
@@ -1610,7 +1610,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Goliath_Truck.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -1645,7 +1645,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Achilles_Ridgerunners.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_mining_laser",
               "range": "36\"",
               "skill": "4+",
               "strength": "12"
@@ -1664,7 +1664,7 @@
                 "Twin-linked",
                 "Rapid Fire 3"
               ],
-              "name": "datasheets.Achilles_Ridgerunners.rangedWeapons.1.profiles.0.name",
+              "name": "twin_heavy_stubber",
               "range": "36\"",
               "skill": "4+",
               "strength": "4"
@@ -1680,7 +1680,7 @@
               "attacks": "3",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Achilles_Ridgerunners.rangedWeapons.2.profiles.0.name",
+              "name": "achilles_missile_launcher",
               "range": "36\"",
               "skill": "4+",
               "strength": "9"
@@ -1699,7 +1699,7 @@
                 "Indirect Fire",
                 "Blast"
               ],
-              "name": "datasheets.Achilles_Ridgerunners.rangedWeapons.3.profiles.0.name",
+              "name": "heavy_mortar",
               "range": "48\"",
               "skill": "4+",
               "strength": "6"
@@ -1787,7 +1787,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Primus.meleeWeapons.0.profiles.0.name",
+              "name": "cult_bonesword",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -1806,7 +1806,7 @@
                 "Extra Attacks",
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Primus.meleeWeapons.1.profiles.0.name",
+              "name": "toxin_injector_claw",
               "range": "Melee",
               "skill": "2+",
               "strength": "2"
@@ -1837,7 +1837,7 @@
                 "Ignores Cover",
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Primus.rangedWeapons.0.profiles.0.name",
+              "name": "scoped_needle_pistol",
               "range": "18\"",
               "skill": "2+",
               "strength": "1"
@@ -1934,7 +1934,7 @@
               "attacks": "4",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Abominant.meleeWeapons.0.profiles.0.name",
+              "name": "power_sledgehammer",
               "range": "Melee",
               "skill": "3+",
               "strength": "12"
@@ -2037,7 +2037,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Atalan_Jackals.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -2066,7 +2066,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Neophyte_Hybrids.rangedWeapons.0.profiles.0.name",
+              "name": "autopistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "3"
@@ -2172,7 +2172,7 @@
                 "Precision",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Sanctus.meleeWeapons.0.profiles.0.name",
+              "name": "sanctus_bio_dagger",
               "range": "Melee",
               "skill": "2+",
               "strength": "3"
@@ -2188,7 +2188,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Atalan_Jackals.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -2219,7 +2219,7 @@
                 "Heavy",
                 "Anti-psyker 2+"
               ],
-              "name": "datasheets.Sanctus.rangedWeapons.0.profiles.0.name",
+              "name": "cult_sniper_rifle",
               "range": "36\"",
               "skill": "3+",
               "strength": "7"
@@ -2309,7 +2309,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Atalan_Jackals.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -2338,7 +2338,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Neophyte_Hybrids.rangedWeapons.0.profiles.0.name",
+              "name": "autopistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "3"
@@ -2357,7 +2357,7 @@
                 "Precision",
                 "Heavy"
               ],
-              "name": "datasheets.Sanctus.rangedWeapons.0.profiles.0.name",
+              "name": "cult_sniper_rifle",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -2446,7 +2446,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Aberrants.meleeWeapons.0.profiles.0.name",
+              "name": "aberrant_weapons",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -2558,7 +2558,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Acolyte_Hybrids_with_Autopistols.meleeWeapons.0.profiles.0.name",
+              "name": "cult_claws_and_knife",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -2576,7 +2576,7 @@
               "keywords": [
                 "Anti-vehicle 4+"
               ],
-              "name": "datasheets.Acolyte_Hybrids_with_Autopistols.meleeWeapons.1.profiles.0.name",
+              "name": "heavy_mining_tool",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -2592,7 +2592,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Acolyte_Hybrids_with_Autopistols.meleeWeapons.2.profiles.0.name",
+              "name": "leader_s_cult_weapons",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -2627,7 +2627,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Neophyte_Hybrids.rangedWeapons.0.profiles.0.name",
+              "name": "autopistol",
               "range": "12\"",
               "skill": "4+",
               "strength": "3"
@@ -2721,7 +2721,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Acolyte_Hybrids_with_Autopistols.meleeWeapons.2.profiles.0.name",
+              "name": "leader_s_cult_weapons",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -2737,7 +2737,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Hybrid_Metamorphs.meleeWeapons.1.profiles.0.name",
+              "name": "metamorph_mutations_strike",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -2748,7 +2748,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Hybrid_Metamorphs.meleeWeapons.1.profiles.1.name",
+              "name": "metamorph_mutations_sweep",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -2783,7 +2783,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Neophyte_Hybrids.rangedWeapons.0.profiles.0.name",
+              "name": "autopistol",
               "range": "12\"",
               "skill": "4+",
               "strength": "3"
@@ -2803,7 +2803,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Hybrid_Metamorphs.rangedWeapons.1.profiles.0.name",
+              "name": "hand_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "3"
@@ -2906,7 +2906,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Acolyte_Hybrids_with_Autopistols.meleeWeapons.0.profiles.0.name",
+              "name": "cult_claws_and_knife",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -2922,7 +2922,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Acolyte_Hybrids_with_Autopistols.meleeWeapons.2.profiles.0.name",
+              "name": "leader_s_cult_weapons",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -2959,7 +2959,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Hybrid_Metamorphs.rangedWeapons.1.profiles.0.name",
+              "name": "hand_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "3"
@@ -2980,7 +2980,7 @@
                 "Blast",
                 "Assault"
               ],
-              "name": "datasheets.Reductus_Saboteur.rangedWeapons.1.profiles.0.name",
+              "name": "demolition_charges",
               "range": "8\"",
               "skill": "5+",
               "strength": "9"
@@ -3078,7 +3078,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Locus.meleeWeapons.0.profiles.0.name",
+              "name": "locus_blades",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -3178,7 +3178,7 @@
               "attacks": "8",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Goliath_Rockgrinder.meleeWeapons.0.profiles.0.name",
+              "name": "drilldozer_blade",
               "range": "Melee",
               "skill": "3+",
               "strength": "10"
@@ -3207,7 +3207,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Achilles_Ridgerunners.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_mining_laser",
               "range": "36\"",
               "skill": "4+",
               "strength": "12"
@@ -3225,7 +3225,7 @@
               "keywords": [
                 "Rapid Fire 3"
               ],
-              "name": "datasheets.Atalan_Jackals.rangedWeapons.4.profiles.0.name",
+              "name": "heavy_stubber",
               "range": "36\"",
               "skill": "4+",
               "strength": "4"
@@ -3245,7 +3245,7 @@
                 "Blast",
                 "Assault"
               ],
-              "name": "datasheets.Goliath_Truck.rangedWeapons.2.profiles.0.name",
+              "name": "demolition_charge_cache",
               "range": "8\"",
               "skill": "5+",
               "strength": "9"
@@ -3264,7 +3264,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Goliath_Rockgrinder.rangedWeapons.3.profiles.0.name",
+              "name": "clearance_incinerator",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -3282,7 +3282,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Goliath_Rockgrinder.rangedWeapons.4.profiles.0.name",
+              "name": "heavy_seismic_cannon",
               "range": "24\"",
               "skill": "4+",
               "strength": "8"
@@ -3370,7 +3370,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Atalan_Jackals.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -3400,7 +3400,7 @@
                 "Psychic",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Benefictus.rangedWeapons.0.profiles.0.name",
+              "name": "psionic_cascade_witchfire",
               "range": "18\"",
               "skill": "3+",
               "strength": "12"
@@ -3415,7 +3415,7 @@
                 "Ignores Cover",
                 "Hazardous"
               ],
-              "name": "datasheets.Benefictus.rangedWeapons.0.profiles.1.name",
+              "name": "psionic_cascade_focused_witchfire",
               "range": "18\"",
               "skill": "3+",
               "strength": "12"
@@ -3506,7 +3506,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Purestrain_Genestealers.meleeWeapons.0.profiles.0.name",
+              "name": "cult_claws_and_talons",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -3622,7 +3622,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Magus.meleeWeapons.0.profiles.0.name",
+              "name": "force_stave",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -3651,7 +3651,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Neophyte_Hybrids.rangedWeapons.0.profiles.0.name",
+              "name": "autopistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "3"
@@ -3763,7 +3763,7 @@
               "attacks": "6",
               "damage": "D6",
               "keywords": [],
-              "name": "datasheets.Tectonic_Fragdrill.meleeWeapons.0.profiles.0.name",
+              "name": "fragdrill",
               "range": "Melee",
               "skill": "6+",
               "strength": "12"

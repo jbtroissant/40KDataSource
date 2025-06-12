@@ -64,7 +64,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Chaos_Land_Raider.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -94,7 +94,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.0.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -110,7 +110,7 @@
               "attacks": "2",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.1.profiles.0.name",
+              "name": "soulshatter_lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -128,7 +128,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.2.profiles.0.name",
+              "name": "combi_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -148,7 +148,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.3.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -166,7 +166,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.4.profiles.0.name",
+              "name": "havoc_launcher",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -251,7 +251,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Chaos_Terminators.meleeWeapons.0.profiles.0.name",
+              "name": "accursed_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -267,7 +267,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Chaos_Terminators.meleeWeapons.1.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -285,7 +285,7 @@
               "keywords": [
                 "Anti-vehicle 3+"
               ],
-              "name": "datasheets.Chaos_Terminators.meleeWeapons.2.profiles.0.name",
+              "name": "chainfist",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -303,7 +303,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Chaos_Terminators.meleeWeapons.3.profiles.0.name",
+              "name": "paired_accursed_weapons",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -332,7 +332,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.2.profiles.0.name",
+              "name": "combi_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -352,7 +352,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.3.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -371,7 +371,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Chaos_Terminators.rangedWeapons.2.profiles.0.name",
+              "name": "heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -390,7 +390,7 @@
                 "Sustained Hits 1",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Chaos_Terminators.rangedWeapons.3.profiles.0.name",
+              "name": "reaper_autocannon",
               "range": "36\"",
               "skill": "3+",
               "strength": "7"
@@ -488,7 +488,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Sorcerer.meleeWeapons.0.profiles.0.name",
+              "name": "force_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -517,7 +517,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Sorcerer.rangedWeapons.0.profiles.0.name",
+              "name": "agonising_energies_witchfire",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -532,7 +532,7 @@
                 "Hazardous",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Sorcerer.rangedWeapons.0.profiles.1.name",
+              "name": "agonising_energies_focused_witchfire",
               "range": "18\"",
               "skill": "3+",
               "strength": "6"
@@ -550,7 +550,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Sorcerer.rangedWeapons.1.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -657,7 +657,7 @@
               "keywords": [
                 "Lance"
               ],
-              "name": "datasheets.Lord_Exultant.meleeWeapons.0.profiles.0.name",
+              "name": "phoenix_power_spear",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -673,7 +673,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Lord_Exultant.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -689,7 +689,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Chaos_Terminators.meleeWeapons.1.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -707,7 +707,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Lord_Exultant.meleeWeapons.3.profiles.0.name",
+              "name": "rapture_lash",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -725,7 +725,7 @@
               "keywords": [
                 "Precision"
               ],
-              "name": "datasheets.Lord_Exultant.meleeWeapons.4.profiles.0.name",
+              "name": "master_crafted_power_sword",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -754,7 +754,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Lord_Exultant.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -772,7 +772,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Lord_Exultant.rangedWeapons.1.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "2+",
               "strength": "7"
@@ -786,7 +786,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Lord_Exultant.rangedWeapons.1.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "2+",
               "strength": "8"
@@ -805,7 +805,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Lord_Exultant.rangedWeapons.2.profiles.0.name",
+              "name": "screamer_pistol",
               "range": "12\"",
               "skill": "2+",
               "strength": "5"
@@ -904,7 +904,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Lord_Kakophonist.meleeWeapons.0.profiles.0.name",
+              "name": "power_sword",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -920,7 +920,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Lord_Exultant.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -950,7 +950,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Lord_Exultant.rangedWeapons.2.profiles.0.name",
+              "name": "screamer_pistol",
               "range": "12\"",
               "skill": "2+",
               "strength": "5"
@@ -1040,7 +1040,7 @@
               "attacks": "D6+2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Chaos_Spawn.meleeWeapons.0.profiles.0.name",
+              "name": "hideous_mutations",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -1146,7 +1146,7 @@
               "attacks": "6",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Daemon_Prince_of_Slaanesh.meleeWeapons.0.profiles.0.name",
+              "name": "hellforged_weapons_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -1157,7 +1157,7 @@
               "attacks": "14",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Daemon_Prince_of_Slaanesh.meleeWeapons.0.profiles.1.name",
+              "name": "hellforged_weapons_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -1184,7 +1184,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Daemon_Prince_of_Slaanesh.rangedWeapons.0.profiles.0.name",
+              "name": "infernal_cannon",
               "range": "24\"",
               "skill": "2+",
               "strength": "5"
@@ -1266,7 +1266,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Lord_Exultant.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1282,7 +1282,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Lord_Kakophonist.meleeWeapons.0.profiles.0.name",
+              "name": "power_sword",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -1311,7 +1311,7 @@
               "keywords": [
                 "Ignores Cover"
               ],
-              "name": "datasheets.Noise_Marines.rangedWeapons.0.profiles.0.name",
+              "name": "sonic_blaster",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -1329,7 +1329,7 @@
               "keywords": [
                 "Ignores Cover"
               ],
-              "name": "datasheets.Noise_Marines.rangedWeapons.1.profiles.0.name",
+              "name": "blastmaster_single_frequency",
               "range": "18\"",
               "skill": "3+",
               "strength": "10"
@@ -1342,7 +1342,7 @@
               "keywords": [
                 "Ignores Cover"
               ],
-              "name": "datasheets.Noise_Marines.rangedWeapons.1.profiles.1.name",
+              "name": "blastmaster_varied_frequency",
               "range": "18\"",
               "skill": "3+",
               "strength": "6"
@@ -1361,7 +1361,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Lord_Exultant.rangedWeapons.2.profiles.0.name",
+              "name": "screamer_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "5"
@@ -1458,7 +1458,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Lord_Kakophonist.meleeWeapons.0.profiles.0.name",
+              "name": "power_sword",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -1474,7 +1474,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Lord_Exultant.meleeWeapons.1.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1490,7 +1490,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Lord_Exultant.meleeWeapons.3.profiles.0.name",
+              "name": "rapture_lash",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1526,7 +1526,7 @@
                 "Precision",
                 "Pistol"
               ],
-              "name": "datasheets.Sorcerer.rangedWeapons.1.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -1544,7 +1544,7 @@
               "keywords": [
                 "Precision"
               ],
-              "name": "datasheets.Tormentors.rangedWeapons.1.profiles.0.name",
+              "name": "boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1563,7 +1563,7 @@
                 "Precision",
                 "Pistol"
               ],
-              "name": "datasheets.Lord_Exultant.rangedWeapons.1.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -1578,7 +1578,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Lord_Exultant.rangedWeapons.1.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -1597,7 +1597,7 @@
                 "Precision",
                 "Melta 2"
               ],
-              "name": "datasheets.Tormentors.rangedWeapons.3.profiles.0.name",
+              "name": "meltagun",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -1616,7 +1616,7 @@
                 "Rapid Fire 1",
                 "Precision"
               ],
-              "name": "datasheets.Tormentors.rangedWeapons.4.profiles.0.name",
+              "name": "plasma_gun_standard",
               "range": "24\"",
               "skill": "3+",
               "strength": "7"
@@ -1631,7 +1631,7 @@
                 "Precision",
                 "Hazardous"
               ],
-              "name": "datasheets.Tormentors.rangedWeapons.4.profiles.1.name",
+              "name": "plasma_gun_supercharge",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -1725,7 +1725,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Chaos_Land_Raider.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -1754,7 +1754,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.2.profiles.0.name",
+              "name": "combi_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1774,7 +1774,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.3.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -1792,7 +1792,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.4.profiles.0.name",
+              "name": "havoc_launcher",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -1885,7 +1885,7 @@
               "attacks": "6",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Daemon_Prince_of_Slaanesh.meleeWeapons.0.profiles.0.name",
+              "name": "hellforged_weapons_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -1896,7 +1896,7 @@
               "attacks": "14",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Daemon_Prince_of_Slaanesh.meleeWeapons.0.profiles.1.name",
+              "name": "hellforged_weapons_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -1923,7 +1923,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Daemon_Prince_of_Slaanesh.rangedWeapons.0.profiles.0.name",
+              "name": "infernal_cannon",
               "range": "24\"",
               "skill": "2+",
               "strength": "5"
@@ -2052,7 +2052,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Fulgrim.meleeWeapons.0.profiles.0.name",
+              "name": "daemonic_blades_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -2065,7 +2065,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Fulgrim.meleeWeapons.0.profiles.1.name",
+              "name": "daemonic_blades_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "14"
@@ -2083,7 +2083,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Fulgrim.meleeWeapons.1.profiles.0.name",
+              "name": "serpentine_tail",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -2112,7 +2112,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Fulgrim.rangedWeapons.0.profiles.0.name",
+              "name": "malefic_lash",
               "range": "12\"",
               "skill": "2+",
               "strength": "8"
@@ -2207,7 +2207,7 @@
               "keywords": [
                 "Precision"
               ],
-              "name": "datasheets.Lucius_the_Eternal.meleeWeapons.0.profiles.0.name",
+              "name": "blade_of_the_laer",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -2225,7 +2225,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Lucius_the_Eternal.meleeWeapons.1.profiles.0.name",
+              "name": "lash_of_torment",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -2331,7 +2331,7 @@
                 "Devastating Wounds",
                 "Anti-fly 2+"
               ],
-              "name": "datasheets.Heldrake.meleeWeapons.0.profiles.0.name",
+              "name": "heldrake_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -2358,7 +2358,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Heldrake.rangedWeapons.0.profiles.0.name",
+              "name": "hades_autocannon",
               "range": "36\"",
               "skill": "3+",
               "strength": "8"
@@ -2377,7 +2377,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Heldrake.rangedWeapons.1.profiles.0.name",
+              "name": "baleflamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -2472,7 +2472,7 @@
               "keywords": [
                 "Precision"
               ],
-              "name": "datasheets.Lord_Kakophonist.meleeWeapons.0.profiles.0.name",
+              "name": "power_sword",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -2490,7 +2490,7 @@
               "keywords": [
                 "Precision"
               ],
-              "name": "datasheets.Infractors.meleeWeapons.1.profiles.0.name",
+              "name": "duelling_sabre",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -2508,7 +2508,7 @@
               "keywords": [
                 "Precision"
               ],
-              "name": "datasheets.Lord_Exultant.meleeWeapons.3.profiles.0.name",
+              "name": "rapture_lash",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -2543,7 +2543,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Sorcerer.rangedWeapons.1.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -2561,7 +2561,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Lord_Exultant.rangedWeapons.1.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -2575,7 +2575,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Lord_Exultant.rangedWeapons.1.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -2667,7 +2667,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Maulerfiend.meleeWeapons.0.profiles.0.name",
+              "name": "lasher_tendrils",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -2683,7 +2683,7 @@
               "attacks": "6",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Maulerfiend.meleeWeapons.1.profiles.0.name",
+              "name": "maulerfiend_fists",
               "range": "Melee",
               "skill": "3+",
               "strength": "14"
@@ -2712,7 +2712,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Maulerfiend.rangedWeapons.0.profiles.0.name",
+              "name": "magma_cutters",
               "range": "6\"",
               "skill": "3+",
               "strength": "9"
@@ -2794,7 +2794,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Flawless_Blades.meleeWeapons.0.profiles.0.name",
+              "name": "blissblade",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -2829,7 +2829,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Sorcerer.rangedWeapons.1.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"

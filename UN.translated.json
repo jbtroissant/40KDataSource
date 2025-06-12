@@ -96,7 +96,7 @@
               "keywords": [
                 "sustained hits 1"
               ],
-              "name": "datasheets.Vortex_Missile_Strongpoint.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolter",
               "range": "36\"",
               "skill": "4+",
               "strength": "5"
@@ -117,7 +117,7 @@
                 "hazardous",
                 "indirect fire"
               ],
-              "name": "datasheets.Vortex_Missile_Strongpoint.rangedWeapons.1.profiles.0.name",
+              "name": "vortex_missile_battery",
               "range": "72\"",
               "skill": "5+",
               "strength": "16"
@@ -237,7 +237,7 @@
               "keywords": [
                 "sustained hits 1"
               ],
-              "name": "datasheets.Vortex_Missile_Strongpoint.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolter",
               "range": "36\"",
               "skill": "4+",
               "strength": "5"
@@ -253,7 +253,7 @@
               "attacks": "D6+6",
               "damage": "4",
               "keywords": [],
-              "name": "datasheets.Macro_cannon_Aquila_Strongpoint.rangedWeapons.1.profiles.0.name",
+              "name": "aquila_macro_cannon",
               "range": "72\"",
               "skill": "5+",
               "strength": "16"
@@ -373,7 +373,7 @@
               "keywords": [
                 "sustained hits 1"
               ],
-              "name": "datasheets.Vortex_Missile_Strongpoint.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolter",
               "range": "36\"",
               "skill": "4+",
               "strength": "5"
@@ -389,7 +389,7 @@
               "attacks": "2",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Fortress_Of_Redemption.rangedWeapons.1.profiles.0.name",
+              "name": "redemptor_missile_silo_superkrak",
               "range": "48\"",
               "skill": "4+",
               "strength": "10"
@@ -402,7 +402,7 @@
               "keywords": [
                 "blast"
               ],
-              "name": "datasheets.Fortress_Of_Redemption.rangedWeapons.1.profiles.1.name",
+              "name": "redemptor_missile_silo_superfrag",
               "range": "48\"",
               "skill": "4+",
               "strength": "5"
@@ -420,7 +420,7 @@
               "keywords": [
                 "anti-fly 2+"
               ],
-              "name": "datasheets.Fortress_Of_Redemption.rangedWeapons.2.profiles.0.name",
+              "name": "redemptor_lascannons",
               "range": "48\"",
               "skill": "4+",
               "strength": "14"
@@ -550,7 +550,7 @@
               "keywords": [
                 "twin-linked"
               ],
-              "name": "datasheets.Imperial_Fortress_Walls.rangedWeapons.0.profiles.0.name",
+              "name": "twin_long_barrelled_autocannon",
               "range": "60\"",
               "skill": "4+",
               "strength": "9"
@@ -569,7 +569,7 @@
                 "sustained hits 1",
                 "twin-linked"
               ],
-              "name": "datasheets.Imperial_Fortress_Walls.rangedWeapons.1.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "4+",
               "strength": "5"
@@ -587,7 +587,7 @@
               "keywords": [
                 "twin-linked"
               ],
-              "name": "datasheets.Imperial_Fortress_Walls.rangedWeapons.2.profiles.0.name",
+              "name": "twin_lascannon",
               "range": "48\"",
               "skill": "4+",
               "strength": "12"
@@ -719,7 +719,7 @@
                 "sustained hits 1",
                 "twin-linked"
               ],
-              "name": "datasheets.Imperial_Fortress_Walls.rangedWeapons.1.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "4+",
               "strength": "5"
@@ -739,7 +739,7 @@
                 "torrent",
                 "twin-linked"
               ],
-              "name": "datasheets.Castellum_Stronghold.rangedWeapons.1.profiles.0.name",
+              "name": "twin_heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -757,7 +757,7 @@
               "keywords": [
                 "blast"
               ],
-              "name": "datasheets.Castellum_Stronghold.rangedWeapons.2.profiles.0.name",
+              "name": "castellum_battle_cannon",
               "range": "48\"",
               "skill": "4+",
               "strength": "10"
@@ -775,7 +775,7 @@
               "keywords": [
                 "anti-fly 2+"
               ],
-              "name": "datasheets.Castellum_Stronghold.rangedWeapons.3.profiles.0.name",
+              "name": "castellum_air_defence_missiles",
               "range": "48\"",
               "skill": "4+",
               "strength": "9"
@@ -794,7 +794,7 @@
                 "blast",
                 "indirect fire"
               ],
-              "name": "datasheets.Castellum_Stronghold.rangedWeapons.4.profiles.0.name",
+              "name": "whirlwind_castellan_launcher",
               "range": "72\"",
               "skill": "4+",
               "strength": "8"
@@ -812,7 +812,7 @@
               "keywords": [
                 "twin-linked"
               ],
-              "name": "datasheets.Imperial_Fortress_Walls.rangedWeapons.2.profiles.0.name",
+              "name": "twin_lascannon",
               "range": "48\"",
               "skill": "4+",
               "strength": "12"
@@ -831,7 +831,7 @@
                 "anti-fly 2+",
                 "twin-linked"
               ],
-              "name": "datasheets.Castellum_Stronghold.rangedWeapons.6.profiles.0.name",
+              "name": "castellum_icarus_quad_lascannon",
               "range": "48\"",
               "skill": "4+",
               "strength": "12"
@@ -849,7 +849,7 @@
               "keywords": [
                 "melta 2"
               ],
-              "name": "datasheets.Castellum_Stronghold.rangedWeapons.7.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "4+",
               "strength": "9"
@@ -868,7 +868,7 @@
                 "devastating wounds",
                 "twin-linked"
               ],
-              "name": "datasheets.Castellum_Stronghold.rangedWeapons.8.profiles.0.name",
+              "name": "twin_assault_cannon",
               "range": "24\"",
               "skill": "4+",
               "strength": "6"
@@ -996,7 +996,7 @@
                 "anti-fly 3+",
                 "twin-linked"
               ],
-              "name": "datasheets.Wall_Of_Martyrs_Bunker.rangedWeapons.0.profiles.0.name",
+              "name": "quad_gun",
               "range": "48\"",
               "skill": "5+",
               "strength": "9"
@@ -1014,7 +1014,7 @@
               "keywords": [
                 "anti-fly 2+"
               ],
-              "name": "datasheets.Wall_Of_Martyrs_Bunker.rangedWeapons.1.profiles.0.name",
+              "name": "icarus_lascannon",
               "range": "48\"",
               "skill": "5+",
               "strength": "12"
@@ -1125,7 +1125,7 @@
               "keywords": [
                 "blast"
               ],
-              "name": "datasheets.Vengeance_Weapon_Battery.rangedWeapons.0.profiles.0.name",
+              "name": "battle_cannon",
               "range": "48\"",
               "skill": "5+",
               "strength": "9"
@@ -1144,7 +1144,7 @@
                 "anti-fly 2+",
                 "twin-linked"
               ],
-              "name": "datasheets.Vengeance_Weapon_Battery.rangedWeapons.1.profiles.0.name",
+              "name": "quad_lascannon",
               "range": "48\"",
               "skill": "5+",
               "strength": "12"
@@ -1160,7 +1160,7 @@
               "attacks": "20",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Vengeance_Weapon_Battery.rangedWeapons.2.profiles.0.name",
+              "name": "punisher_gatling_cannon",
               "range": "24\"",
               "skill": "5+",
               "strength": "6"
@@ -1370,7 +1370,7 @@
               "keywords": [
                 "blast"
               ],
-              "name": "datasheets.Plasma_Obliterator.rangedWeapons.0.profiles.0.name",
+              "name": "plasma_obliterator_standard",
               "range": "48\"",
               "skill": "5+",
               "strength": "9"
@@ -1384,7 +1384,7 @@
                 "blast",
                 "hazardous"
               ],
-              "name": "datasheets.Plasma_Obliterator.rangedWeapons.0.profiles.1.name",
+              "name": "plasma_obliterator_supercharge",
               "range": "48\"",
               "skill": "5+",
               "strength": "10"
@@ -1504,7 +1504,7 @@
               "keywords": [
                 "sustained hits 1"
               ],
-              "name": "datasheets.Vortex_Missile_Strongpoint.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolter",
               "range": "36\"",
               "skill": "4+",
               "strength": "5"
@@ -1523,7 +1523,7 @@
                 "anti-fly 3+",
                 "twin-linked"
               ],
-              "name": "datasheets.Wall_Of_Martyrs_Bunker.rangedWeapons.0.profiles.0.name",
+              "name": "quad_gun",
               "range": "48\"",
               "skill": "5+",
               "strength": "9"
@@ -1541,7 +1541,7 @@
               "keywords": [
                 "anti-fly 2+"
               ],
-              "name": "datasheets.Wall_Of_Martyrs_Bunker.rangedWeapons.1.profiles.0.name",
+              "name": "icarus_lascannon",
               "range": "48\"",
               "skill": "5+",
               "strength": "12"
@@ -1662,7 +1662,7 @@
                 "anti-fly 3+",
                 "twin-linked"
               ],
-              "name": "datasheets.Wall_Of_Martyrs_Bunker.rangedWeapons.0.profiles.0.name",
+              "name": "quad_gun",
               "range": "48\"",
               "skill": "5+",
               "strength": "9"
@@ -1680,7 +1680,7 @@
               "keywords": [
                 "blast"
               ],
-              "name": "datasheets.Vengeance_Weapon_Battery.rangedWeapons.0.profiles.0.name",
+              "name": "battle_cannon",
               "range": "48\"",
               "skill": "5+",
               "strength": "9"
@@ -1698,7 +1698,7 @@
               "keywords": [
                 "anti-fly 2+"
               ],
-              "name": "datasheets.Wall_Of_Martyrs_Bunker.rangedWeapons.1.profiles.0.name",
+              "name": "icarus_lascannon",
               "range": "48\"",
               "skill": "5+",
               "strength": "12"
@@ -1717,7 +1717,7 @@
                 "anti-fly 2+",
                 "twin-linked"
               ],
-              "name": "datasheets.Firestorm_Redoubt.rangedWeapons.3.profiles.0.name",
+              "name": "quad_lascannon",
               "range": "48\"",
               "skill": "5+",
               "strength": "12"
@@ -1733,7 +1733,7 @@
               "attacks": "20",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Vengeance_Weapon_Battery.rangedWeapons.2.profiles.0.name",
+              "name": "punisher_gatling_cannon",
               "range": "24\"",
               "skill": "5+",
               "strength": "6"
@@ -1939,7 +1939,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Primaris_Redoubt.rangedWeapons.0.profiles.0.name",
+              "name": "primaris_quad_gun",
               "range": "48\"",
               "skill": "4+",
               "strength": "8"
@@ -1958,7 +1958,7 @@
                 "blast",
                 "indirect fire"
               ],
-              "name": "datasheets.Primaris_Redoubt.rangedWeapons.1.profiles.0.name",
+              "name": "primaris_vengeance_launcher",
               "range": "72\"",
               "skill": "4+",
               "strength": "7"
@@ -1976,7 +1976,7 @@
               "keywords": [
                 "anti-fly 2+"
               ],
-              "name": "datasheets.Primaris_Redoubt.rangedWeapons.2.profiles.0.name",
+              "name": "primaris_air_defence_missiles",
               "range": "48\"",
               "skill": "4+",
               "strength": "6"
@@ -1994,7 +1994,7 @@
               "keywords": [
                 "anti-fly 2+"
               ],
-              "name": "datasheets.Primaris_Redoubt.rangedWeapons.3.profiles.0.name",
+              "name": "primaris_icarus_lascannon",
               "range": "48\"",
               "skill": "4+",
               "strength": "12"
@@ -2013,7 +2013,7 @@
                 "anti-fly 2+",
                 "twin-linked"
               ],
-              "name": "datasheets.Primaris_Redoubt.rangedWeapons.4.profiles.0.name",
+              "name": "primaris_icarus_quad_lascannon",
               "range": "48\"",
               "skill": "4+",
               "strength": "12"
@@ -2031,7 +2031,7 @@
               "keywords": [
                 "blast"
               ],
-              "name": "datasheets.Primaris_Redoubt.rangedWeapons.5.profiles.0.name",
+              "name": "primaris_redoubt_turbo_laser_destructor",
               "range": "96\"",
               "skill": "4+",
               "strength": "16"
@@ -2050,7 +2050,7 @@
                 "blast",
                 "indirect fire"
               ],
-              "name": "datasheets.Primaris_Redoubt.rangedWeapons.6.profiles.0.name",
+              "name": "primaris_castellan_launcher",
               "range": "72\"",
               "skill": "4+",
               "strength": "6"
@@ -2148,7 +2148,7 @@
               "attacks": "4",
               "damage": "D3",
               "keywords": [],
-              "name": "datasheets.Ambull.meleeWeapons.0.profiles.0.name",
+              "name": "enormous_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -2240,7 +2240,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Guardian_Drone.meleeWeapons.0.profiles.0.name",
+              "name": "manipulator_limbs",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -2262,7 +2262,7 @@
               "keywords": [
                 "blast"
               ],
-              "name": "datasheets.Guardian_Drone.rangedWeapons.0.profiles.0.name",
+              "name": "guardian_salvo_launchers",
               "range": "24\"",
               "skill": "4+",
               "strength": "5"
@@ -2280,7 +2280,7 @@
               "keywords": [
                 "pistol"
               ],
-              "name": "datasheets.Guardian_Drone.rangedWeapons.1.profiles.0.name",
+              "name": "destroyer_pulse",
               "range": "18\"",
               "skill": "4+",
               "strength": "8"
@@ -2367,7 +2367,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Spindle_Drones.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -2389,7 +2389,7 @@
               "keywords": [
                 "pistol"
               ],
-              "name": "datasheets.Spindle_Drones.rangedWeapons.0.profiles.0.name",
+              "name": "drone_pulse",
               "range": "18\"",
               "skill": "4+",
               "strength": "4"
@@ -2486,7 +2486,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.The_Archivist.meleeWeapons.0.profiles.0.name",
+              "name": "eradicator_glove",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -2509,7 +2509,7 @@
                 "ignores cover",
                 "pistol"
               ],
-              "name": "datasheets.The_Archivist.rangedWeapons.0.profiles.0.name",
+              "name": "atomic_disassembler",
               "range": "18\"",
               "skill": "3+",
               "strength": "8"
@@ -2807,7 +2807,7 @@
                 "anti-fly 3+",
                 "twin-linked"
               ],
-              "name": "datasheets.Wall_Of_Martyrs_Bunker.rangedWeapons.0.profiles.0.name",
+              "name": "quad_gun",
               "range": "48\"",
               "skill": "5+",
               "strength": "9"
@@ -2825,7 +2825,7 @@
               "keywords": [
                 "anti-fly 2+"
               ],
-              "name": "datasheets.Wall_Of_Martyrs_Bunker.rangedWeapons.1.profiles.0.name",
+              "name": "icarus_lascannon",
               "range": "48\"",
               "skill": "5+",
               "strength": "12"

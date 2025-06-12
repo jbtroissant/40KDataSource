@@ -61,7 +61,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Scourges.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -79,7 +79,7 @@
               "keywords": [
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Scourges.meleeWeapons.1.profiles.0.name",
+              "name": "solarite_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -115,7 +115,7 @@
                 "Assault",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.0.profiles.0.name",
+              "name": "shardcarbine",
               "range": "18\"",
               "skill": "3+",
               "strength": "2"
@@ -133,7 +133,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.1.profiles.0.name",
+              "name": "blast_pistol",
               "range": "6\"",
               "skill": "3+",
               "strength": "8"
@@ -153,7 +153,7 @@
                 "Assault",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.2.profiles.0.name",
+              "name": "splinter_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "2"
@@ -171,7 +171,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.3.profiles.0.name",
+              "name": "blaster",
               "range": "18\"",
               "skill": "3+",
               "strength": "8"
@@ -189,7 +189,7 @@
               "keywords": [
                 "Heavy"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.4.profiles.0.name",
+              "name": "dark_lance",
               "range": "36\"",
               "skill": "4+",
               "strength": "12"
@@ -209,7 +209,7 @@
                 "Devastating Wounds",
                 "Anti-vehicle 4+"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.5.profiles.0.name",
+              "name": "drukhari_haywire_blaster",
               "range": "24\"",
               "skill": "4+",
               "strength": "3"
@@ -229,7 +229,7 @@
                 "Heavy",
                 "Assault"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.6.profiles.0.name",
+              "name": "heat_lance",
               "range": "18\"",
               "skill": "4+",
               "strength": "14"
@@ -248,7 +248,7 @@
                 "Torrent",
                 "Assault"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.7.profiles.0.name",
+              "name": "shredder",
               "range": "18\"",
               "skill": "N/A",
               "strength": "6"
@@ -268,7 +268,7 @@
                 "Heavy",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.8.profiles.0.name",
+              "name": "splinter_cannon",
               "range": "36\"",
               "skill": "4+",
               "strength": "3"
@@ -355,7 +355,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Talos.meleeWeapons.0.profiles.0.name",
+              "name": "maco_scalpel",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -373,7 +373,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Talos.meleeWeapons.1.profiles.0.name",
+              "name": "talos_ichor_injector",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -389,7 +389,7 @@
               "attacks": "8",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Talos.meleeWeapons.2.profiles.0.name",
+              "name": "chain_flails",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -405,7 +405,7 @@
               "attacks": "5",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Talos.meleeWeapons.3.profiles.0.name",
+              "name": "talos_gauntlet",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -442,7 +442,7 @@
                 "Sustained Hits 1",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Talos.rangedWeapons.0.profiles.0.name",
+              "name": "twin_splinter_cannon",
               "range": "36\"",
               "skill": "4+",
               "strength": "3"
@@ -462,7 +462,7 @@
                 "Devastating Wounds",
                 "Anti-vehicle 4+"
               ],
-              "name": "datasheets.Talos.rangedWeapons.1.profiles.0.name",
+              "name": "twin_drukhari_haywire_blaster",
               "range": "24\"",
               "skill": "4+",
               "strength": "3"
@@ -482,7 +482,7 @@
                 "Melta 3",
                 "Assault"
               ],
-              "name": "datasheets.Talos.rangedWeapons.2.profiles.0.name",
+              "name": "twin_heat_lance",
               "range": "18\"",
               "skill": "4+",
               "strength": "14"
@@ -498,7 +498,7 @@
               "attacks": "2D6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Talos.rangedWeapons.3.profiles.0.name",
+              "name": "stinger_pod",
               "range": "24\"",
               "skill": "4+",
               "strength": "5"
@@ -517,7 +517,7 @@
                 "Twin-linked",
                 "Torrent"
               ],
-              "name": "datasheets.Talos.rangedWeapons.4.profiles.0.name",
+              "name": "twin_liquifier_gun",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -609,7 +609,7 @@
               "keywords": [
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Beastmaster.meleeWeapons.0.profiles.0.name",
+              "name": "agoniser",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -627,7 +627,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Beastmaster.meleeWeapons.1.profiles.0.name",
+              "name": "clawed_fiend_fists",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -645,7 +645,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Beastmaster.meleeWeapons.2.profiles.0.name",
+              "name": "khymerae_talons",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -663,7 +663,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Beastmaster.meleeWeapons.3.profiles.0.name",
+              "name": "razorwing_feathers",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -693,7 +693,7 @@
                 "Assault",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Beastmaster.rangedWeapons.0.profiles.0.name",
+              "name": "splinter_pods",
               "range": "18\"",
               "skill": "3+",
               "strength": "2"
@@ -817,7 +817,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Ravager.meleeWeapons.0.profiles.0.name",
+              "name": "bladevanes",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -844,7 +844,7 @@
               "attacks": "1",
               "damage": "D6+2",
               "keywords": [],
-              "name": "datasheets.Scourges.rangedWeapons.4.profiles.0.name",
+              "name": "dark_lance",
               "range": "36\"",
               "skill": "3+",
               "strength": "12"
@@ -860,7 +860,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Ravager.rangedWeapons.1.profiles.0.name",
+              "name": "disintegrator_cannon",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -971,7 +971,7 @@
               "keywords": [
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Court_of_the_Archon.meleeWeapons.0.profiles.0.name",
+              "name": "shaimeshi_blade",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -987,7 +987,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Scourges.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -1003,7 +1003,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Court_of_the_Archon.meleeWeapons.2.profiles.0.name",
+              "name": "sslyth_battle_blade",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -1021,7 +1021,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Court_of_the_Archon.meleeWeapons.3.profiles.0.name",
+              "name": "ur_ghul_talons",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1051,7 +1051,7 @@
                 "Torrent",
                 "Pistol"
               ],
-              "name": "datasheets.Court_of_the_Archon.rangedWeapons.0.profiles.0.name",
+              "name": "eyeburst",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -1070,7 +1070,7 @@
                 "Assault",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.0.profiles.0.name",
+              "name": "shardcarbine",
               "range": "18\"",
               "skill": "3+",
               "strength": "2"
@@ -1090,7 +1090,7 @@
                 "Assault",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.2.profiles.0.name",
+              "name": "splinter_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "2"
@@ -1201,7 +1201,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Ravager.meleeWeapons.0.profiles.0.name",
+              "name": "bladevanes",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1219,7 +1219,7 @@
               "keywords": [
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Beastmaster.meleeWeapons.0.profiles.0.name",
+              "name": "agoniser",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -1256,7 +1256,7 @@
                 "Assault",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.2.profiles.0.name",
+              "name": "splinter_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "2"
@@ -1275,7 +1275,7 @@
                 "Assault",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Reavers.rangedWeapons.1.profiles.0.name",
+              "name": "splinter_rifle",
               "range": "24\"",
               "skill": "3+",
               "strength": "2"
@@ -1293,7 +1293,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.3.profiles.0.name",
+              "name": "blaster",
               "range": "18\"",
               "skill": "3+",
               "strength": "8"
@@ -1312,7 +1312,7 @@
                 "Melta 3",
                 "Assault"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.6.profiles.0.name",
+              "name": "heat_lance",
               "range": "18\"",
               "skill": "3+",
               "strength": "14"
@@ -1410,7 +1410,7 @@
                 "Precision",
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Urien_Rakarth.meleeWeapons.0.profiles.0.name",
+              "name": "haemonculus_tools_and_scissorhands",
               "range": "Melee",
               "skill": "2+",
               "strength": "3"
@@ -1441,7 +1441,7 @@
                 "One Shot",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Urien_Rakarth.rangedWeapons.0.profiles.0.name",
+              "name": "casket_of_flensing",
               "range": "12\"",
               "skill": "N/A",
               "strength": "3"
@@ -1551,7 +1551,7 @@
                 "Sustained Hits 2",
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Lelith_Hesperax.meleeWeapons.0.profiles.0.name",
+              "name": "lelith_s_blades",
               "range": "Melee",
               "skill": "2+",
               "strength": "3"
@@ -1654,7 +1654,7 @@
               "keywords": [
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Wracks.meleeWeapons.0.profiles.0.name",
+              "name": "wrack_blades",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -1690,7 +1690,7 @@
                 "Precision",
                 "Heavy"
               ],
-              "name": "datasheets.Wracks.rangedWeapons.0.profiles.0.name",
+              "name": "hexrifle",
               "range": "36\"",
               "skill": "3+",
               "strength": "6"
@@ -1708,7 +1708,7 @@
               "keywords": [
                 "Torrent"
               ],
-              "name": "datasheets.Wracks.rangedWeapons.1.profiles.0.name",
+              "name": "liquifier_gun",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -1727,7 +1727,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Wracks.rangedWeapons.2.profiles.0.name",
+              "name": "ossefactor",
               "range": "24\"",
               "skill": "3+",
               "strength": "2"
@@ -1746,7 +1746,7 @@
                 "Pistol",
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Wracks.rangedWeapons.3.profiles.0.name",
+              "name": "stinger_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "2"
@@ -1835,7 +1835,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Razorwing_Jetfighter.meleeWeapons.0.profiles.0.name",
+              "name": "bladed_wings",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -1864,7 +1864,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Razorwing_Jetfighter.rangedWeapons.0.profiles.0.name",
+              "name": "razorwing_missiles_shatterfield_missiles",
               "range": "48\"",
               "skill": "3+",
               "strength": "7"
@@ -1877,7 +1877,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Razorwing_Jetfighter.rangedWeapons.0.profiles.1.name",
+              "name": "razorwing_missiles_monoscythe_missiles",
               "range": "48\"",
               "skill": "3+",
               "strength": "6"
@@ -1891,7 +1891,7 @@
                 "Blast",
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Razorwing_Jetfighter.rangedWeapons.0.profiles.2.name",
+              "name": "razorwing_missiles_neurotoxin_missiles",
               "range": "48\"",
               "skill": "3+",
               "strength": "2"
@@ -1912,7 +1912,7 @@
                 "Assault",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Razorwing_Jetfighter.rangedWeapons.1.profiles.0.name",
+              "name": "twin_splinter_rifle",
               "range": "24\"",
               "skill": "3+",
               "strength": "2"
@@ -1928,7 +1928,7 @@
               "attacks": "1",
               "damage": "D6+2",
               "keywords": [],
-              "name": "datasheets.Scourges.rangedWeapons.4.profiles.0.name",
+              "name": "dark_lance",
               "range": "36\"",
               "skill": "3+",
               "strength": "12"
@@ -1944,7 +1944,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Ravager.rangedWeapons.1.profiles.0.name",
+              "name": "disintegrator_cannon",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -1963,7 +1963,7 @@
                 "Sustained Hits 1",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.8.profiles.0.name",
+              "name": "splinter_cannon",
               "range": "36\"",
               "skill": "3+",
               "strength": "3"
@@ -2056,7 +2056,7 @@
               "keywords": [
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Archon.meleeWeapons.0.profiles.0.name",
+              "name": "huskblade",
               "range": "Melee",
               "skill": "2+",
               "strength": "3"
@@ -2087,7 +2087,7 @@
                 "Assault",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.2.profiles.0.name",
+              "name": "splinter_pistol",
               "range": "12\"",
               "skill": "2+",
               "strength": "2"
@@ -2105,7 +2105,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.1.profiles.0.name",
+              "name": "blast_pistol",
               "range": "6\"",
               "skill": "2+",
               "strength": "8"
@@ -2203,7 +2203,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wyches.meleeWeapons.0.profiles.0.name",
+              "name": "hekatarii_blade",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -2234,7 +2234,7 @@
                 "Assault",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.2.profiles.0.name",
+              "name": "splinter_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "2"
@@ -2252,7 +2252,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.1.profiles.0.name",
+              "name": "blast_pistol",
               "range": "6\"",
               "skill": "3+",
               "strength": "8"
@@ -2342,7 +2342,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Razorwing_Jetfighter.meleeWeapons.0.profiles.0.name",
+              "name": "bladed_wings",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -2369,7 +2369,7 @@
               "attacks": "2",
               "damage": "D6+2",
               "keywords": [],
-              "name": "datasheets.Voidraven_Bomber.rangedWeapons.0.profiles.0.name",
+              "name": "void_lance",
               "range": "36\"",
               "skill": "3+",
               "strength": "14"
@@ -2387,7 +2387,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Voidraven_Bomber.rangedWeapons.1.profiles.0.name",
+              "name": "voidraven_missiles_shatterfield_missiles",
               "range": "48\"",
               "skill": "3+",
               "strength": "7"
@@ -2400,7 +2400,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Voidraven_Bomber.rangedWeapons.1.profiles.1.name",
+              "name": "voidraven_missiles_implosion_missiles",
               "range": "48\"",
               "skill": "3+",
               "strength": "9"
@@ -2416,7 +2416,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Voidraven_Bomber.rangedWeapons.2.profiles.0.name",
+              "name": "dark_scythe",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -2504,7 +2504,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Ravager.meleeWeapons.0.profiles.0.name",
+              "name": "bladevanes",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -2531,7 +2531,7 @@
               "attacks": "1",
               "damage": "D6+2",
               "keywords": [],
-              "name": "datasheets.Scourges.rangedWeapons.4.profiles.0.name",
+              "name": "dark_lance",
               "range": "36\"",
               "skill": "3+",
               "strength": "12"
@@ -2547,7 +2547,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Ravager.rangedWeapons.1.profiles.0.name",
+              "name": "disintegrator_cannon",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -2632,7 +2632,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Cronos.meleeWeapons.0.profiles.0.name",
+              "name": "spirit_leech_tentacles",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -2668,7 +2668,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Cronos.rangedWeapons.0.profiles.0.name",
+              "name": "spirit_syphon",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -2687,7 +2687,7 @@
                 "Ignores Cover",
                 "Blast"
               ],
-              "name": "datasheets.Cronos.rangedWeapons.1.profiles.0.name",
+              "name": "spirit_vortex",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -2775,7 +2775,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Ravager.meleeWeapons.0.profiles.0.name",
+              "name": "bladevanes",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -2805,7 +2805,7 @@
                 "Sustained Hits 1",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.8.profiles.0.name",
+              "name": "splinter_cannon",
               "range": "36\"",
               "skill": "3+",
               "strength": "3"
@@ -2826,7 +2826,7 @@
                 "Assault",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Razorwing_Jetfighter.rangedWeapons.1.profiles.0.name",
+              "name": "twin_splinter_rifle",
               "range": "24\"",
               "skill": "3+",
               "strength": "2"
@@ -2916,7 +2916,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Scourges.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -2934,7 +2934,7 @@
               "keywords": [
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Kabalite_Warriors.meleeWeapons.1.profiles.0.name",
+              "name": "sybarite_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -2964,7 +2964,7 @@
                 "Assault",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Reavers.rangedWeapons.1.profiles.0.name",
+              "name": "splinter_rifle",
               "range": "24\"",
               "skill": "3+",
               "strength": "2"
@@ -2982,7 +2982,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.1.profiles.0.name",
+              "name": "blast_pistol",
               "range": "6\"",
               "skill": "3+",
               "strength": "8"
@@ -3002,7 +3002,7 @@
                 "Assault",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.2.profiles.0.name",
+              "name": "splinter_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "2"
@@ -3020,7 +3020,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.3.profiles.0.name",
+              "name": "blaster",
               "range": "18\"",
               "skill": "3+",
               "strength": "8"
@@ -3038,7 +3038,7 @@
               "keywords": [
                 "Heavy"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.4.profiles.0.name",
+              "name": "dark_lance",
               "range": "36\"",
               "skill": "4+",
               "strength": "12"
@@ -3057,7 +3057,7 @@
                 "Torrent",
                 "Assault"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.7.profiles.0.name",
+              "name": "shredder",
               "range": "18\"",
               "skill": "N/A",
               "strength": "6"
@@ -3077,7 +3077,7 @@
                 "Heavy",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.8.profiles.0.name",
+              "name": "splinter_cannon",
               "range": "36\"",
               "skill": "4+",
               "strength": "3"
@@ -3180,7 +3180,7 @@
                 "Precision",
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Urien_Rakarth.meleeWeapons.0.profiles.0.name",
+              "name": "haemonculus_tools_and_scissorhands",
               "range": "Melee",
               "skill": "2+",
               "strength": "3"
@@ -3211,7 +3211,7 @@
                 "Pistol",
                 "Anti-infantry 2+"
               ],
-              "name": "datasheets.Wracks.rangedWeapons.3.profiles.0.name",
+              "name": "stinger_pistol",
               "range": "12\"",
               "skill": "2+",
               "strength": "2"
@@ -3309,7 +3309,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Hellions.meleeWeapons.0.profiles.0.name",
+              "name": "hellglaive",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -3328,7 +3328,7 @@
                 "Sustained Hits 1",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Hellions.meleeWeapons.1.profiles.0.name",
+              "name": "helliarch_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -3365,7 +3365,7 @@
                 "Assault",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Beastmaster.rangedWeapons.0.profiles.0.name",
+              "name": "splinter_pods",
               "range": "18\"",
               "skill": "3+",
               "strength": "2"
@@ -3385,7 +3385,7 @@
                 "Assault",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.2.profiles.0.name",
+              "name": "splinter_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "2"
@@ -3478,7 +3478,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Drazhar.meleeWeapons.0.profiles.0.name",
+              "name": "the_executioner_s_demiklaives_single_blade",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -3491,7 +3491,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Drazhar.meleeWeapons.0.profiles.1.name",
+              "name": "the_executioner_s_demiklaives_dual_blade",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -3599,7 +3599,7 @@
               "keywords": [
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Succubus.meleeWeapons.0.profiles.0.name",
+              "name": "succubus_weapons",
               "range": "Melee",
               "skill": "2+",
               "strength": "3"
@@ -3628,7 +3628,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.1.profiles.0.name",
+              "name": "blast_pistol",
               "range": "6\"",
               "skill": "2+",
               "strength": "8"
@@ -3648,7 +3648,7 @@
                 "Assault",
                 "Anti-infantry 3+"
               ],
-              "name": "datasheets.Scourges.rangedWeapons.2.profiles.0.name",
+              "name": "splinter_pistol",
               "range": "12\"",
               "skill": "2+",
               "strength": "2"
@@ -3735,7 +3735,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Incubi.meleeWeapons.0.profiles.0.name",
+              "name": "klaive",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -3753,7 +3753,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Incubi.meleeWeapons.1.profiles.0.name",
+              "name": "demiklaives_dual_blades",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -3764,7 +3764,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Incubi.meleeWeapons.1.profiles.1.name",
+              "name": "demiklaives_single_blade",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -3880,7 +3880,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Grotesques.meleeWeapons.0.profiles.0.name",
+              "name": "monstrous_weapons",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -3915,7 +3915,7 @@
               "keywords": [
                 "Torrent"
               ],
-              "name": "datasheets.Wracks.rangedWeapons.1.profiles.0.name",
+              "name": "liquifier_gun",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -3999,7 +3999,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Mandrakes.meleeWeapons.0.profiles.0.name",
+              "name": "glimmersteel_blade",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -4035,7 +4035,7 @@
                 "Devastating Wounds",
                 "Assault"
               ],
-              "name": "datasheets.Mandrakes.rangedWeapons.0.profiles.0.name",
+              "name": "baleblast",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -4125,7 +4125,7 @@
                 "lance",
                 "sustained hits 3"
               ],
-              "name": "datasheets.Reaper.meleeWeapons.0.profiles.0.name",
+              "name": "prow_blade",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -4141,7 +4141,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Ravager.meleeWeapons.0.profiles.0.name",
+              "name": "bladevanes",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -4163,7 +4163,7 @@
               "keywords": [
                 "blast"
               ],
-              "name": "datasheets.Reaper.rangedWeapons.0.profiles.0.name",
+              "name": "storm_vortex_projector_blast",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -4174,7 +4174,7 @@
               "attacks": "3",
               "damage": "D6",
               "keywords": [],
-              "name": "datasheets.Reaper.rangedWeapons.0.profiles.1.name",
+              "name": "storm_vortex_projector_beam",
               "range": "36\"",
               "skill": "3+",
               "strength": "12"
@@ -4260,7 +4260,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Razorwing_Jetfighter.meleeWeapons.0.profiles.0.name",
+              "name": "bladed_wings",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -4283,7 +4283,7 @@
                 "anti-infantry 3+",
                 "sustained hits 2"
               ],
-              "name": "datasheets.Raven_Strike_Fighter.rangedWeapons.0.profiles.0.name",
+              "name": "splinterstorm_cannon",
               "range": "36\"",
               "skill": "3+",
               "strength": "3"
@@ -4299,7 +4299,7 @@
               "attacks": "1",
               "damage": "D6+2",
               "keywords": [],
-              "name": "datasheets.Scourges.rangedWeapons.4.profiles.0.name",
+              "name": "dark_lance",
               "range": "36\"",
               "skill": "3+",
               "strength": "12"

@@ -73,7 +73,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Death_Company_Dreadnought.meleeWeapons.0.profiles.0.name",
+              "name": "blood_fists",
               "range": "Melee",
               "skill": "3+",
               "strength": "12"
@@ -91,7 +91,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Death_Company_Dreadnought.meleeWeapons.1.profiles.0.name",
+              "name": "blood_talons_sweep",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -104,7 +104,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Death_Company_Dreadnought.meleeWeapons.1.profiles.1.name",
+              "name": "blood_talons_strike",
               "range": "Melee",
               "skill": "3+",
               "strength": "12"
@@ -135,7 +135,7 @@
                 "Rapid Fire 3",
                 "Anti-fly 4+"
               ],
-              "name": "datasheets.Death_Company_Dreadnought.rangedWeapons.0.profiles.0.name",
+              "name": "twin_icarus_ironhail_heavy_stubber",
               "range": "36\"",
               "skill": "3+",
               "strength": "4"
@@ -154,7 +154,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Death_Company_Dreadnought.rangedWeapons.1.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -172,7 +172,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Death_Company_Dreadnought.rangedWeapons.2.profiles.0.name",
+              "name": "blood_fist_bolt_rifles",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -191,7 +191,7 @@
                 "Twin-linked",
                 "Melta 2"
               ],
-              "name": "datasheets.Death_Company_Dreadnought.rangedWeapons.3.profiles.0.name",
+              "name": "twin_multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -282,7 +282,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sanguinary_Priest.meleeWeapons.0.profiles.0.name",
+              "name": "astartes_chainsword",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -311,7 +311,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Sanguinary_Priest.rangedWeapons.0.profiles.0.name",
+              "name": "absolver_bolt_pistol",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -425,7 +425,7 @@
               "attacks": "7",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sanguinary_Priest.meleeWeapons.0.profiles.0.name",
+              "name": "astartes_chainsword",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -441,7 +441,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.meleeWeapons.1.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -457,7 +457,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.meleeWeapons.2.profiles.0.name",
+              "name": "relic_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -486,7 +486,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolt_pistol",
               "range": "18\"",
               "skill": "2+",
               "strength": "4"
@@ -504,7 +504,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.1.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "2+",
               "strength": "7"
@@ -518,7 +518,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.1.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "2+",
               "strength": "8"
@@ -538,7 +538,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.2.profiles.0.name",
+              "name": "hand_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "3"
@@ -643,7 +643,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sanguinary_Priest.meleeWeapons.0.profiles.0.name",
+              "name": "astartes_chainsword",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -661,7 +661,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Death_Company_Marines.meleeWeapons.1.profiles.0.name",
+              "name": "eviscerator",
               "range": "Melee",
               "skill": "4+",
               "strength": "7"
@@ -677,7 +677,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.meleeWeapons.1.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -693,7 +693,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Death_Company_Marines.meleeWeapons.3.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -711,7 +711,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Death_Company_Marines.meleeWeapons.4.profiles.0.name",
+              "name": "thunder_hammer",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -746,7 +746,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Death_Company_Marines.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolt_pistol",
               "range": "18\"",
               "skill": "3+",
               "strength": "4"
@@ -766,7 +766,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.2.profiles.0.name",
+              "name": "hand_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "3"
@@ -785,7 +785,7 @@
                 "Pistol",
                 "Melta 2"
               ],
-              "name": "datasheets.Death_Company_Marines.rangedWeapons.2.profiles.0.name",
+              "name": "inferno_pistol",
               "range": "6\"",
               "skill": "3+",
               "strength": "8"
@@ -803,7 +803,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.1.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -817,7 +817,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.1.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -919,7 +919,7 @@
                 "Precision",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Astorath.meleeWeapons.0.profiles.0.name",
+              "name": "the_executioner_s_axe",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -1026,7 +1026,7 @@
               "attacks": "7",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Blood_Angels_Captain.meleeWeapons.0.profiles.0.name",
+              "name": "master_crafted_chainsword",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -1042,7 +1042,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.meleeWeapons.1.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -1058,7 +1058,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.meleeWeapons.2.profiles.0.name",
+              "name": "relic_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -1087,7 +1087,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolt_pistol",
               "range": "18\"",
               "skill": "2+",
               "strength": "4"
@@ -1106,7 +1106,7 @@
                 "Pistol",
                 "Melta 2"
               ],
-              "name": "datasheets.Death_Company_Marines.rangedWeapons.2.profiles.0.name",
+              "name": "inferno_pistol",
               "range": "6\"",
               "skill": "2+",
               "strength": "8"
@@ -1216,7 +1216,7 @@
                 "Lethal Hits",
                 "Psychic"
               ],
-              "name": "datasheets.Chief_Librarian_Mephiston.meleeWeapons.0.profiles.0.name",
+              "name": "vitarus",
               "range": "Melee",
               "skill": "2+",
               "strength": "9"
@@ -1245,7 +1245,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.1.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "2+",
               "strength": "7"
@@ -1259,7 +1259,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.1.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "2+",
               "strength": "8"
@@ -1279,7 +1279,7 @@
                 "Psychic",
                 "Pistol"
               ],
-              "name": "datasheets.Chief_Librarian_Mephiston.rangedWeapons.1.profiles.0.name",
+              "name": "fury_of_the_ancients_witchfire",
               "range": "18\"",
               "skill": "2+",
               "strength": "4"
@@ -1295,7 +1295,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Chief_Librarian_Mephiston.rangedWeapons.1.profiles.1.name",
+              "name": "fury_of_the_ancients_focused_witchfire",
               "range": "18\"",
               "skill": "2+",
               "strength": "5"
@@ -1394,7 +1394,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Lemartes.meleeWeapons.0.profiles.0.name",
+              "name": "the_blood_crozius",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -1423,7 +1423,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Lemartes.rangedWeapons.0.profiles.0.name",
+              "name": "absolvor_bolt_pistol",
               "range": "18\"",
               "skill": "2+",
               "strength": "5"
@@ -1527,7 +1527,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Commander_Dante.meleeWeapons.0.profiles.0.name",
+              "name": "the_axe_mortalis",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -1558,7 +1558,7 @@
                 "Pistol",
                 "Melta 2"
               ],
-              "name": "datasheets.Commander_Dante.rangedWeapons.0.profiles.0.name",
+              "name": "perdition_pistol",
               "range": "6\"",
               "skill": "2+",
               "strength": "9"
@@ -1664,7 +1664,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Death_Company_Marines_with_Bolt_Rifles.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1680,7 +1680,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sanguinary_Priest.meleeWeapons.0.profiles.0.name",
+              "name": "astartes_chainsword",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1698,7 +1698,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Death_Company_Marines.meleeWeapons.1.profiles.0.name",
+              "name": "eviscerator",
               "range": "Melee",
               "skill": "4+",
               "strength": "7"
@@ -1714,7 +1714,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.meleeWeapons.1.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -1730,7 +1730,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Death_Company_Marines.meleeWeapons.3.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -1748,7 +1748,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Death_Company_Marines.meleeWeapons.4.profiles.0.name",
+              "name": "thunder_hammer",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -1783,7 +1783,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Death_Company_Marines_with_Bolt_Rifles.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -1802,7 +1802,7 @@
                 "Heavy",
                 "Assault"
               ],
-              "name": "datasheets.Death_Company_Marines_with_Bolt_Rifles.rangedWeapons.1.profiles.0.name",
+              "name": "bolt_rifle",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1822,7 +1822,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.2.profiles.0.name",
+              "name": "hand_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "3"
@@ -1841,7 +1841,7 @@
                 "Pistol",
                 "Melta 2"
               ],
-              "name": "datasheets.Death_Company_Marines.rangedWeapons.2.profiles.0.name",
+              "name": "inferno_pistol",
               "range": "6\"",
               "skill": "3+",
               "strength": "8"
@@ -1859,7 +1859,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.1.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -1873,7 +1873,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.1.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -1889,7 +1889,7 @@
               "attacks": "1",
               "damage": "D3",
               "keywords": [],
-              "name": "datasheets.Death_Company_Marines_with_Bolt_Rifles.rangedWeapons.5.profiles.0.name",
+              "name": "astartes_grenade_launcher_krak",
               "range": "24\"",
               "skill": "3+",
               "strength": "9"
@@ -1902,7 +1902,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Death_Company_Marines_with_Bolt_Rifles.rangedWeapons.5.profiles.1.name",
+              "name": "astartes_grenade_launcher_frag",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -2004,7 +2004,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.The_Sanguinor.meleeWeapons.0.profiles.0.name",
+              "name": "encarmine_broadsword",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -2120,7 +2120,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Sanguinary_Guard.meleeWeapons.0.profiles.0.name",
+              "name": "encarmine_blade",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -2138,7 +2138,7 @@
               "keywords": [
                 "Lance"
               ],
-              "name": "datasheets.Sanguinary_Guard.meleeWeapons.1.profiles.0.name",
+              "name": "encarmine_spear",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -2173,7 +2173,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Sanguinary_Guard.rangedWeapons.0.profiles.0.name",
+              "name": "angelus_boltgun",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -2192,7 +2192,7 @@
                 "Pistol",
                 "Melta 2"
               ],
-              "name": "datasheets.Death_Company_Marines.rangedWeapons.2.profiles.0.name",
+              "name": "inferno_pistol",
               "range": "6\"",
               "skill": "3+",
               "strength": "8"
@@ -2280,7 +2280,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Baal_Predator.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -2311,7 +2311,7 @@
                 "Devastating Wounds",
                 "Assault"
               ],
-              "name": "datasheets.Baal_Predator.rangedWeapons.0.profiles.0.name",
+              "name": "twin_assault_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -2331,7 +2331,7 @@
                 "Ignores Cover",
                 "Assault"
               ],
-              "name": "datasheets.Baal_Predator.rangedWeapons.1.profiles.0.name",
+              "name": "baal_flamestorm_cannon",
               "range": "18\"",
               "skill": "N/A",
               "strength": "6"
@@ -2349,7 +2349,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Baal_Predator.rangedWeapons.2.profiles.0.name",
+              "name": "hunter_killer_missile",
               "range": "48\"",
               "skill": "2+",
               "strength": "14"
@@ -2375,7 +2375,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Baal_Predator.rangedWeapons.3.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -2394,7 +2394,7 @@
                 "Sustained Hits 1",
                 "Assault"
               ],
-              "name": "datasheets.Baal_Predator.rangedWeapons.4.profiles.0.name",
+              "name": "heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -2414,7 +2414,7 @@
                 "Ignores Cover",
                 "Assault"
               ],
-              "name": "datasheets.Baal_Predator.rangedWeapons.5.profiles.0.name",
+              "name": "heavy_flamer_1",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -2517,7 +2517,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sanguinary_Priest.meleeWeapons.0.profiles.0.name",
+              "name": "astartes_chainsword",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -2535,7 +2535,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Death_Company_Marines.meleeWeapons.1.profiles.0.name",
+              "name": "eviscerator",
               "range": "Melee",
               "skill": "4+",
               "strength": "7"
@@ -2551,7 +2551,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Death_Company_Marines.meleeWeapons.3.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -2567,7 +2567,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.meleeWeapons.1.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -2602,7 +2602,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Death_Company_Marines.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolt_pistol",
               "range": "18\"",
               "skill": "3+",
               "strength": "4"
@@ -2620,7 +2620,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.1.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -2634,7 +2634,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.1.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -2654,7 +2654,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.2.profiles.0.name",
+              "name": "hand_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "3"
@@ -2673,7 +2673,7 @@
                 "Pistol",
                 "Melta 2"
               ],
-              "name": "datasheets.Death_Company_Marines.rangedWeapons.2.profiles.0.name",
+              "name": "inferno_pistol",
               "range": "6\"",
               "skill": "3+",
               "strength": "8"
@@ -2779,7 +2779,7 @@
               "attacks": "7",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Blood_Angels_Captain.meleeWeapons.0.profiles.0.name",
+              "name": "master_crafted_chainsword",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -2795,7 +2795,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.meleeWeapons.1.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -2811,7 +2811,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.meleeWeapons.2.profiles.0.name",
+              "name": "relic_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -2840,7 +2840,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolt_pistol",
               "range": "18\"",
               "skill": "2+",
               "strength": "4"
@@ -2859,7 +2859,7 @@
                 "Pistol",
                 "Melta 2"
               ],
-              "name": "datasheets.Death_Company_Marines.rangedWeapons.2.profiles.0.name",
+              "name": "inferno_pistol",
               "range": "6\"",
               "skill": "2+",
               "strength": "8"
@@ -2966,7 +2966,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sanguinary_Priest.meleeWeapons.0.profiles.0.name",
+              "name": "astartes_chainsword",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -2984,7 +2984,7 @@
               "keywords": [
                 "devastating wounds"
               ],
-              "name": "datasheets.Death_Company_Marines.meleeWeapons.4.profiles.0.name",
+              "name": "thunder_hammer",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -3000,7 +3000,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Death_Company_Marines.meleeWeapons.3.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -3016,7 +3016,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.meleeWeapons.1.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -3039,7 +3039,7 @@
                 "anti-vehicle 2+",
                 "pistol"
               ],
-              "name": "datasheets.Sanguinary_Priest_On_Bike.rangedWeapons.0.profiles.0.name",
+              "name": "grav_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -3057,7 +3057,7 @@
               "keywords": [
                 "pistol"
               ],
-              "name": "datasheets.Sanguinary_Priest_On_Bike.rangedWeapons.1.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -3071,7 +3071,7 @@
                 "hazardous",
                 "pistol"
               ],
-              "name": "datasheets.Sanguinary_Priest_On_Bike.rangedWeapons.1.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -3090,7 +3090,7 @@
                 "melta 2",
                 "pistol"
               ],
-              "name": "datasheets.Death_Company_Marines.rangedWeapons.2.profiles.0.name",
+              "name": "inferno_pistol",
               "range": "6\"",
               "skill": "3+",
               "strength": "8"
@@ -3110,7 +3110,7 @@
                 "devastating wounds",
                 "rapid fire 1"
               ],
-              "name": "datasheets.Sanguinary_Priest_On_Bike.rangedWeapons.3.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -3128,7 +3128,7 @@
               "keywords": [
                 "pistol"
               ],
-              "name": "datasheets.Death_Company_Marines_with_Bolt_Rifles.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -3146,7 +3146,7 @@
               "keywords": [
                 "rapid fire 2"
               ],
-              "name": "datasheets.Baal_Predator.rangedWeapons.3.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -3164,7 +3164,7 @@
               "keywords": [
                 "twin-linked"
               ],
-              "name": "datasheets.Sanguinary_Priest_On_Bike.rangedWeapons.6.profiles.0.name",
+              "name": "twin_boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -3180,7 +3180,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sanguinary_Priest_On_Bike.rangedWeapons.7.profiles.0.name",
+              "name": "boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -3200,7 +3200,7 @@
                 "pistol",
                 "torrent"
               ],
-              "name": "datasheets.Death_Company_Captain_with_Jump_Pack.rangedWeapons.2.profiles.0.name",
+              "name": "hand_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "3"

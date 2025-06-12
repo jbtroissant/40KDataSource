@@ -59,7 +59,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Ghost_Ark.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_bulk",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -89,7 +89,7 @@
                 "Rapid Fire 5",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Ghost_Ark.rangedWeapons.0.profiles.0.name",
+              "name": "gauss_flayer_array",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -180,7 +180,7 @@
               "attacks": "12",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Seraptek_Heavy_Construct.meleeWeapons.0.profiles.0.name",
+              "name": "titanic_forelimbs_sweep",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -191,7 +191,7 @@
               "attacks": "6",
               "damage": "5",
               "keywords": [],
-              "name": "datasheets.Seraptek_Heavy_Construct.meleeWeapons.0.profiles.1.name",
+              "name": "titanic_forelimbs_strike",
               "range": "Melee",
               "skill": "3+",
               "strength": "14"
@@ -221,7 +221,7 @@
                 "Devastating Wounds",
                 "Blast"
               ],
-              "name": "datasheets.Seraptek_Heavy_Construct.rangedWeapons.0.profiles.0.name",
+              "name": "singularity_generator",
               "range": "36\"",
               "skill": "3+",
               "strength": "10"
@@ -239,7 +239,7 @@
               "keywords": [
                 "Sustained Hits 2"
               ],
-              "name": "datasheets.Seraptek_Heavy_Construct.rangedWeapons.1.profiles.0.name",
+              "name": "synaptic_obliterator",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -255,7 +255,7 @@
               "attacks": "2",
               "damage": "D6+4",
               "keywords": [],
-              "name": "datasheets.Seraptek_Heavy_Construct.rangedWeapons.2.profiles.0.name",
+              "name": "transdimensional_projector",
               "range": "48\"",
               "skill": "3+",
               "strength": "24"
@@ -338,7 +338,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Triarch_Praetorians.meleeWeapons.0.profiles.0.name",
+              "name": "rod_of_covenant_melee",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -354,7 +354,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Triarch_Praetorians.meleeWeapons.1.profiles.0.name",
+              "name": "voidblade",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -387,7 +387,7 @@
               "attacks": "1",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Triarch_Praetorians.rangedWeapons.0.profiles.0.name",
+              "name": "rod_of_covenant_ranged",
               "range": "12\"",
               "skill": "3+",
               "strength": "5"
@@ -406,7 +406,7 @@
                 "Pistol",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Triarch_Praetorians.rangedWeapons.1.profiles.0.name",
+              "name": "particle_caster",
               "range": "12\"",
               "skill": "3+",
               "strength": "5"
@@ -485,7 +485,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Necron_Warriors.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -521,7 +521,7 @@
                 "Rapid Fire 1",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Necron_Warriors.rangedWeapons.0.profiles.0.name",
+              "name": "gauss_flayer",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -539,7 +539,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Necron_Warriors.rangedWeapons.1.profiles.0.name",
+              "name": "gauss_reaper",
               "range": "12\"",
               "skill": "4+",
               "strength": "4"
@@ -640,7 +640,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Technomancer.meleeWeapons.0.profiles.0.name",
+              "name": "staff_of_light_melee",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -667,7 +667,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Technomancer.rangedWeapons.0.profiles.0.name",
+              "name": "staff_of_light_ranged",
               "range": "18\"",
               "skill": "4+",
               "strength": "5"
@@ -765,7 +765,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Ghost_Ark.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_bulk",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -795,7 +795,7 @@
                 "Twin-linked",
                 "Sustained Hits 2"
               ],
-              "name": "datasheets.Night_Scythe.rangedWeapons.0.profiles.0.name",
+              "name": "twin_tesla_destructor",
               "range": "36\"",
               "skill": "3+",
               "strength": "8"
@@ -892,7 +892,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Overlord.meleeWeapons.0.profiles.0.name",
+              "name": "overlord_s_blade",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -908,7 +908,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Technomancer.meleeWeapons.0.profiles.0.name",
+              "name": "staff_of_light_melee",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -926,7 +926,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Overlord.meleeWeapons.2.profiles.0.name",
+              "name": "voidscythe",
               "range": "Melee",
               "skill": "3+",
               "strength": "12"
@@ -955,7 +955,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "datasheets.Overlord.rangedWeapons.0.profiles.0.name",
+              "name": "tachyon_arrow",
               "range": "72\"",
               "skill": "2+",
               "strength": "16"
@@ -979,7 +979,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Technomancer.rangedWeapons.0.profiles.0.name",
+              "name": "staff_of_light_ranged",
               "range": "18\"",
               "skill": "2+",
               "strength": "5"
@@ -1076,7 +1076,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Necron_Warriors.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -1106,7 +1106,7 @@
                 "Rapid Fire 2",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Royal_Warden.rangedWeapons.0.profiles.0.name",
+              "name": "relic_gauss_blaster",
               "range": "24\"",
               "skill": "3+",
               "strength": "5"
@@ -1195,7 +1195,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Canoptek_Doomstalker.meleeWeapons.0.profiles.0.name",
+              "name": "doomstalker_limbs",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -1225,7 +1225,7 @@
                 "Heavy",
                 "Blast"
               ],
-              "name": "datasheets.Canoptek_Doomstalker.rangedWeapons.0.profiles.0.name",
+              "name": "doomsday_blaster",
               "range": "48\"",
               "skill": "4+",
               "strength": "14"
@@ -1245,7 +1245,7 @@
                 "Rapid Fire 1",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Canoptek_Doomstalker.rangedWeapons.1.profiles.0.name",
+              "name": "twin_gauss_flayer",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -1325,7 +1325,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Necron_Warriors.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1360,7 +1360,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Immortals.rangedWeapons.0.profiles.0.name",
+              "name": "gauss_blaster",
               "range": "24\"",
               "skill": "3+",
               "strength": "5"
@@ -1379,7 +1379,7 @@
                 "Sustained Hits 2",
                 "Assault"
               ],
-              "name": "datasheets.Immortals.rangedWeapons.1.profiles.0.name",
+              "name": "tesla_carbine",
               "range": "24\"",
               "skill": "3+",
               "strength": "5"
@@ -1482,7 +1482,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Cryptothralls.meleeWeapons.0.profiles.0.name",
+              "name": "scythed_limbs",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -1509,7 +1509,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Cryptothralls.rangedWeapons.0.profiles.0.name",
+              "name": "scouring_eye",
               "range": "6\"",
               "skill": "4+",
               "strength": "5"
@@ -1601,7 +1601,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Orikan_the_Diviner.meleeWeapons.0.profiles.0.name",
+              "name": "staff_of_tomorrow",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1702,7 +1702,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Ghost_Ark.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_bulk",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -1731,7 +1731,7 @@
               "keywords": [
                 "Sustained Hits 2"
               ],
-              "name": "datasheets.Tesseract_Vault.rangedWeapons.0.profiles.0.name",
+              "name": "tesla_spheres",
               "range": "24\"",
               "skill": "3+",
               "strength": "7"
@@ -1832,7 +1832,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Necron_Warriors.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -1868,7 +1868,7 @@
                 "Twin-linked",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Tomb_Blades.rangedWeapons.0.profiles.0.name",
+              "name": "twin_gauss_blaster",
               "range": "24\"",
               "skill": "3+",
               "strength": "5"
@@ -1887,7 +1887,7 @@
                 "Devastating Wounds",
                 "Blast"
               ],
-              "name": "datasheets.Tomb_Blades.rangedWeapons.1.profiles.0.name",
+              "name": "particle_beamer",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -1907,7 +1907,7 @@
                 "Sustained Hits 2",
                 "Assault"
               ],
-              "name": "datasheets.Tomb_Blades.rangedWeapons.2.profiles.0.name",
+              "name": "twin_tesla_carbine",
               "range": "24\"",
               "skill": "3+",
               "strength": "5"
@@ -1997,7 +1997,7 @@
               "attacks": "1",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Psychomancer.meleeWeapons.0.profiles.0.name",
+              "name": "abyssal_lance_melee",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -2024,7 +2024,7 @@
               "attacks": "1",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Psychomancer.rangedWeapons.0.profiles.0.name",
+              "name": "abyssal_lance_ranged",
               "range": "18\"",
               "skill": "4+",
               "strength": "6"
@@ -2111,7 +2111,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Necron_Warriors.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -2153,7 +2153,7 @@
                 "Lethal Hits",
                 "Heavy"
               ],
-              "name": "datasheets.Lokhust_Heavy_Destroyers.rangedWeapons.0.profiles.0.name",
+              "name": "gauss_destructor",
               "range": "48\"",
               "skill": "3+",
               "strength": "14"
@@ -2173,7 +2173,7 @@
                 "Rapid Fire 6",
                 "Heavy"
               ],
-              "name": "datasheets.Lokhust_Heavy_Destroyers.rangedWeapons.1.profiles.0.name",
+              "name": "enmitic_exterminator",
               "range": "36\"",
               "skill": "3+",
               "strength": "6"
@@ -2262,7 +2262,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Skorpekh_Destroyers.meleeWeapons.0.profiles.0.name",
+              "name": "skorpekh_hyperphase_weapons",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -2401,7 +2401,7 @@
               "attacks": "3",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Convergence_of_Dominion.rangedWeapons.0.profiles.0.name",
+              "name": "transdimensional_abductor",
               "range": "18\"",
               "skill": "4+",
               "strength": "6"
@@ -2489,7 +2489,7 @@
               "attacks": "8",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Skorpekh_Lord.meleeWeapons.0.profiles.0.name",
+              "name": "flensing_claw",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -2505,7 +2505,7 @@
               "attacks": "4",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Skorpekh_Lord.meleeWeapons.1.profiles.0.name",
+              "name": "hyperphase_harvester",
               "range": "Melee",
               "skill": "2+",
               "strength": "10"
@@ -2534,7 +2534,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Skorpekh_Lord.rangedWeapons.0.profiles.0.name",
+              "name": "enmitic_annihilator",
               "range": "18\"",
               "skill": "2+",
               "strength": "6"
@@ -2621,7 +2621,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Necron_Warriors.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -2657,7 +2657,7 @@
                 "Precision",
                 "Heavy"
               ],
-              "name": "datasheets.Deathmarks.rangedWeapons.0.profiles.0.name",
+              "name": "synaptic_disintegrator",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -2740,7 +2740,7 @@
               "attacks": "4",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Triarch_Stalker.meleeWeapons.0.profiles.0.name",
+              "name": "stalker_s_forelimbs",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -2770,7 +2770,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Triarch_Stalker.rangedWeapons.0.profiles.0.name",
+              "name": "heat_ray_dispersed",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -2783,7 +2783,7 @@
               "keywords": [
                 "Melta 4"
               ],
-              "name": "datasheets.Triarch_Stalker.rangedWeapons.0.profiles.1.name",
+              "name": "heat_ray_focused",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -2802,7 +2802,7 @@
                 "Devastating Wounds",
                 "Blast"
               ],
-              "name": "datasheets.Triarch_Stalker.rangedWeapons.1.profiles.0.name",
+              "name": "particle_shredder",
               "range": "18\"",
               "skill": "2+",
               "strength": "7"
@@ -2820,7 +2820,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Triarch_Stalker.rangedWeapons.2.profiles.0.name",
+              "name": "heavy_gauss_cannon_array",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -2912,7 +2912,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Imotekh_the_Stormlord.meleeWeapons.0.profiles.0.name",
+              "name": "staff_of_the_destroyer_melee",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -2942,7 +2942,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Imotekh_the_Stormlord.rangedWeapons.0.profiles.0.name",
+              "name": "gauntlet_of_fire",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -2958,7 +2958,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Imotekh_the_Stormlord.rangedWeapons.1.profiles.0.name",
+              "name": "staff_of_the_destroyer_ranged",
               "range": "18\"",
               "skill": "2+",
               "strength": "6"
@@ -3051,7 +3051,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Ghost_Ark.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_bulk",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -3081,7 +3081,7 @@
                 "Sustained Hits 2",
                 "Anti-fly 4+"
               ],
-              "name": "datasheets.Obelisk.rangedWeapons.0.profiles.0.name",
+              "name": "tesla_sphere",
               "range": "24\"",
               "skill": "3+",
               "strength": "7"
@@ -3163,7 +3163,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Canoptek_Reanimator.meleeWeapons.0.profiles.0.name",
+              "name": "reanimator_s_claws",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -3190,7 +3190,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Canoptek_Reanimator.rangedWeapons.0.profiles.0.name",
+              "name": "atomiser_beam",
               "range": "12\"",
               "skill": "4+",
               "strength": "6"
@@ -3285,7 +3285,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Technomancer.meleeWeapons.0.profiles.0.name",
+              "name": "staff_of_light_melee",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -3303,7 +3303,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Overlord.meleeWeapons.0.profiles.0.name",
+              "name": "overlord_s_blade",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -3332,7 +3332,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Catacomb_Command_Barge.rangedWeapons.0.profiles.0.name",
+              "name": "gauss_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "5"
@@ -3348,7 +3348,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Technomancer.rangedWeapons.0.profiles.0.name",
+              "name": "staff_of_light_ranged",
               "range": "18\"",
               "skill": "2+",
               "strength": "5"
@@ -3366,7 +3366,7 @@
               "keywords": [
                 "Sustained Hits 2"
               ],
-              "name": "datasheets.Catacomb_Command_Barge.rangedWeapons.2.profiles.0.name",
+              "name": "tesla_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -3449,7 +3449,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Necron_Warriors.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -3496,7 +3496,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Catacomb_Command_Barge.rangedWeapons.0.profiles.0.name",
+              "name": "gauss_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "5"
@@ -3586,7 +3586,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Lychguard.meleeWeapons.0.profiles.0.name",
+              "name": "warscythe",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -3602,7 +3602,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Lychguard.meleeWeapons.1.profiles.0.name",
+              "name": "hyperphase_sword",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -3708,7 +3708,7 @@
               "attacks": "6",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Monolith.meleeWeapons.0.profiles.0.name",
+              "name": "portal_of_exile",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -3738,7 +3738,7 @@
                 "Devastating Wounds",
                 "Blast"
               ],
-              "name": "datasheets.Monolith.rangedWeapons.0.profiles.0.name",
+              "name": "particle_whip",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -3757,7 +3757,7 @@
                 "Rapid Fire 3",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Monolith.rangedWeapons.1.profiles.0.name",
+              "name": "gauss_flux_arc",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -3775,7 +3775,7 @@
               "keywords": [
                 "Sustained Hits D3"
               ],
-              "name": "datasheets.Monolith.rangedWeapons.2.profiles.0.name",
+              "name": "death_ray",
               "range": "24\"",
               "skill": "3+",
               "strength": "12"
@@ -3873,7 +3873,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Overlord.meleeWeapons.0.profiles.0.name",
+              "name": "overlord_s_blade",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -3980,7 +3980,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Canoptek_Scarab_Swarms.meleeWeapons.0.profiles.0.name",
+              "name": "feeder_mandibles",
               "range": "Melee",
               "skill": "5+",
               "strength": "2"
@@ -4076,7 +4076,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Canoptek_Wraiths.meleeWeapons.0.profiles.0.name",
+              "name": "vicious_claws",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -4092,7 +4092,7 @@
               "attacks": "8",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Canoptek_Wraiths.meleeWeapons.1.profiles.0.name",
+              "name": "whip_coils",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -4128,7 +4128,7 @@
                 "Pistol",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Triarch_Praetorians.rangedWeapons.1.profiles.0.name",
+              "name": "particle_caster",
               "range": "12\"",
               "skill": "4+",
               "strength": "5"
@@ -4144,7 +4144,7 @@
               "attacks": "1",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Canoptek_Wraiths.rangedWeapons.1.profiles.0.name",
+              "name": "transdimensional_beamer",
               "range": "12\"",
               "skill": "4+",
               "strength": "4"
@@ -4240,7 +4240,7 @@
               "keywords": [
                 "Sustained Hits D3"
               ],
-              "name": "datasheets.Trazyn_the_Infinite.meleeWeapons.0.profiles.0.name",
+              "name": "empathic_obliterator",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -4361,7 +4361,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Technomancer.meleeWeapons.0.profiles.0.name",
+              "name": "staff_of_light_melee",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -4379,7 +4379,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Lokhust_Lord.meleeWeapons.1.profiles.0.name",
+              "name": "lord_s_blade",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -4406,7 +4406,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Technomancer.rangedWeapons.0.profiles.0.name",
+              "name": "staff_of_light_ranged",
               "range": "18\"",
               "skill": "2+",
               "strength": "5"
@@ -4499,7 +4499,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Flayed_Ones.meleeWeapons.0.profiles.0.name",
+              "name": "flayer_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -4596,7 +4596,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Ghost_Ark.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_bulk",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -4625,7 +4625,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Catacomb_Command_Barge.rangedWeapons.0.profiles.0.name",
+              "name": "gauss_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "5"
@@ -4644,7 +4644,7 @@
                 "Twin-linked",
                 "Sustained Hits 2"
               ],
-              "name": "datasheets.Night_Scythe.rangedWeapons.0.profiles.0.name",
+              "name": "twin_tesla_destructor",
               "range": "36\"",
               "skill": "3+",
               "strength": "8"
@@ -4662,7 +4662,7 @@
               "keywords": [
                 "Sustained Hits 2"
               ],
-              "name": "datasheets.Catacomb_Command_Barge.rangedWeapons.2.profiles.0.name",
+              "name": "tesla_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -4758,7 +4758,7 @@
               "attacks": "4",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Illuminor_Szeras.meleeWeapons.0.profiles.0.name",
+              "name": "eldritch_lance_melee",
               "range": "Melee",
               "skill": "3+",
               "strength": "9"
@@ -4776,7 +4776,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Illuminor_Szeras.meleeWeapons.1.profiles.0.name",
+              "name": "impaling_legs",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -4803,7 +4803,7 @@
               "attacks": "3",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Illuminor_Szeras.rangedWeapons.0.profiles.0.name",
+              "name": "eldritch_lance_ranged",
               "range": "36\"",
               "skill": "3+",
               "strength": "9"
@@ -4901,7 +4901,7 @@
               "attacks": "14",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Ctan_Shard_of_the_Nightbringer.meleeWeapons.0.profiles.0.name",
+              "name": "scythe_of_the_nightbringer_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -4914,7 +4914,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Ctan_Shard_of_the_Nightbringer.meleeWeapons.0.profiles.1.name",
+              "name": "scythe_of_the_nightbringer_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "14"
@@ -4941,7 +4941,7 @@
               "attacks": "D3",
               "damage": "D6+3",
               "keywords": [],
-              "name": "datasheets.Ctan_Shard_of_the_Nightbringer.rangedWeapons.0.profiles.0.name",
+              "name": "gaze_of_death",
               "range": "18\"",
               "skill": "2+",
               "strength": "12"
@@ -5030,7 +5030,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Ophydian_Destroyers.meleeWeapons.0.profiles.0.name",
+              "name": "ophydian_hyperphase_weapons",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -5134,7 +5134,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Plasmancer.meleeWeapons.0.profiles.0.name",
+              "name": "plasmic_lance_melee",
               "range": "Melee",
               "skill": "4+",
               "strength": "7"
@@ -5161,7 +5161,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Plasmancer.rangedWeapons.0.profiles.0.name",
+              "name": "plasmic_lance_ranged",
               "range": "18\"",
               "skill": "4+",
               "strength": "7"
@@ -5249,7 +5249,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Ghost_Ark.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_bulk",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -5279,7 +5279,7 @@
                 "Heavy",
                 "Blast"
               ],
-              "name": "datasheets.Doomsday_Ark.rangedWeapons.0.profiles.0.name",
+              "name": "doomsday_cannon",
               "range": "72\"",
               "skill": "3+",
               "strength": "18"
@@ -5298,7 +5298,7 @@
                 "Rapid Fire 5",
                 "Lethal Hits"
               ],
-              "name": "datasheets.Ghost_Ark.rangedWeapons.0.profiles.0.name",
+              "name": "gauss_flayer_array",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -5388,7 +5388,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Necron_Warriors.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -5418,7 +5418,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Hexmark_Destroyer.rangedWeapons.0.profiles.0.name",
+              "name": "enmitic_disintegrator_pistols",
               "range": "18\"",
               "skill": "2+",
               "strength": "6"
@@ -5515,7 +5515,7 @@
               "attacks": "10",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Ctan_Shard_of_the_Void_Dragon.meleeWeapons.0.profiles.0.name",
+              "name": "spear_of_the_void_dragon_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -5528,7 +5528,7 @@
               "keywords": [
                 "Anti-vehicle 2+"
               ],
-              "name": "datasheets.Ctan_Shard_of_the_Void_Dragon.meleeWeapons.0.profiles.1.name",
+              "name": "spear_of_the_void_dragon_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "12"
@@ -5546,7 +5546,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Ctan_Shard_of_the_Void_Dragon.meleeWeapons.1.profiles.0.name",
+              "name": "canoptek_tail_blades",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -5575,7 +5575,7 @@
               "keywords": [
                 "Anti-vehicle 2+"
               ],
-              "name": "datasheets.Ctan_Shard_of_the_Void_Dragon.rangedWeapons.0.profiles.0.name",
+              "name": "spear_of_the_void_dragon_ranged",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -5594,7 +5594,7 @@
                 "Sustained Hits 2",
                 "Blast"
               ],
-              "name": "datasheets.Ctan_Shard_of_the_Void_Dragon.rangedWeapons.1.profiles.0.name",
+              "name": "voltaic_storm",
               "range": "18\"",
               "skill": "2+",
               "strength": "7"
@@ -5693,7 +5693,7 @@
               "attacks": "8",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Ctan_Shard_of_the_Deceiver.meleeWeapons.0.profiles.0.name",
+              "name": "golden_fists",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -5724,7 +5724,7 @@
                 "Devastating Wounds",
                 "Anti-character 4+"
               ],
-              "name": "datasheets.Ctan_Shard_of_the_Deceiver.rangedWeapons.0.profiles.0.name",
+              "name": "cosmic_insanity",
               "range": "18\"",
               "skill": "2+",
               "strength": "6"
@@ -5807,7 +5807,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Ghost_Ark.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_bulk",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -5836,7 +5836,7 @@
               "keywords": [
                 "Sustained Hits D3"
               ],
-              "name": "datasheets.Doom_Scythe.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_death_ray",
               "range": "36\"",
               "skill": "3+",
               "strength": "16"
@@ -5855,7 +5855,7 @@
                 "Twin-linked",
                 "Sustained Hits 2"
               ],
-              "name": "datasheets.Night_Scythe.rangedWeapons.0.profiles.0.name",
+              "name": "twin_tesla_destructor",
               "range": "36\"",
               "skill": "3+",
               "strength": "8"
@@ -5985,7 +5985,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.The_Silent_King.meleeWeapons.0.profiles.0.name",
+              "name": "scythe_of_dust",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -6001,7 +6001,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Ghost_Ark.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_bulk",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -6030,7 +6030,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.The_Silent_King.rangedWeapons.0.profiles.0.name",
+              "name": "sceptre_of_eternal_glory",
               "range": "24\"",
               "skill": "2+",
               "strength": "10"
@@ -6048,7 +6048,7 @@
               "keywords": [
                 "Indirect Fire"
               ],
-              "name": "datasheets.The_Silent_King.rangedWeapons.1.profiles.0.name",
+              "name": "staff_of_stars",
               "range": "24\"",
               "skill": "2+",
               "strength": "6"
@@ -6064,7 +6064,7 @@
               "attacks": "1",
               "damage": "6",
               "keywords": [],
-              "name": "datasheets.The_Silent_King.rangedWeapons.2.profiles.0.name",
+              "name": "annihilator_beam",
               "range": "24\"",
               "skill": "2+",
               "strength": "14"
@@ -6166,7 +6166,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Chronomancer.meleeWeapons.0.profiles.0.name",
+              "name": "chronomancer_s_stave_melee",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -6195,7 +6195,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Chronomancer.rangedWeapons.0.profiles.0.name",
+              "name": "chronomancer_s_stave_ranged",
               "range": "18\"",
               "skill": "4+",
               "strength": "5"
@@ -6308,7 +6308,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Transcendent_Ctan.meleeWeapons.0.profiles.0.name",
+              "name": "crackling_tendrils",
               "range": "Melee",
               "skill": "2+",
               "strength": "9"
@@ -6338,7 +6338,7 @@
                 "Sustained Hits 1",
                 "Assault"
               ],
-              "name": "datasheets.Transcendent_Ctan.rangedWeapons.0.profiles.0.name",
+              "name": "seismic_assault",
               "range": "12\"",
               "skill": "2+",
               "strength": "8"
@@ -6434,7 +6434,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Canoptek_Spyders.meleeWeapons.0.profiles.0.name",
+              "name": "automaton_claws",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -6470,7 +6470,7 @@
                 "Devastating Wounds",
                 "Blast"
               ],
-              "name": "datasheets.Tomb_Blades.rangedWeapons.1.profiles.0.name",
+              "name": "particle_beamer",
               "range": "18\"",
               "skill": "3+",
               "strength": "6"
@@ -6579,7 +6579,7 @@
               "keywords": [
                 "LETHAL HITS"
               ],
-              "name": "datasheets.Tomb_Citadel_Walls.rangedWeapons.0.profiles.0.name",
+              "name": "gauss_exterminator",
               "range": "48\"",
               "skill": "4+",
               "strength": "14"
@@ -6598,7 +6598,7 @@
                 "sustained hits 2",
                 "twin-linked"
               ],
-              "name": "datasheets.Night_Scythe.rangedWeapons.0.profiles.0.name",
+              "name": "twin_tesla_destructor",
               "range": "36\"",
               "skill": "3+",
               "strength": "8"
@@ -6705,7 +6705,7 @@
               "keywords": [
                 "sustained hits 2"
               ],
-              "name": "datasheets.Sentry_Pylon.rangedWeapons.0.profiles.0.name",
+              "name": "focused_death_ray",
               "range": "36\"",
               "skill": "4+",
               "strength": "8"
@@ -6723,7 +6723,7 @@
               "keywords": [
                 "lethal hits"
               ],
-              "name": "datasheets.Tomb_Citadel_Walls.rangedWeapons.0.profiles.0.name",
+              "name": "gauss_exterminator",
               "range": "48\"",
               "skill": "4+",
               "strength": "14"
@@ -6741,7 +6741,7 @@
               "keywords": [
                 "melta 4"
               ],
-              "name": "datasheets.Sentry_Pylon.rangedWeapons.2.profiles.0.name",
+              "name": "heat_cannon",
               "range": "36\"",
               "skill": "4+",
               "strength": "9"
@@ -6824,7 +6824,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Ghost_Ark.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_bulk",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -6847,7 +6847,7 @@
                 "sustained hits 2",
                 "twin-linked"
               ],
-              "name": "datasheets.Night_Scythe.rangedWeapons.0.profiles.0.name",
+              "name": "twin_tesla_destructor",
               "range": "36\"",
               "skill": "3+",
               "strength": "8"
@@ -6956,7 +6956,7 @@
                 "ANTI-FLY 2+",
                 "LETHAL HITS"
               ],
-              "name": "datasheets.Gauss_Pylon.rangedWeapons.0.profiles.0.name",
+              "name": "gauss_annihilator",
               "range": "120\"",
               "skill": "4+",
               "strength": "16"
@@ -6974,7 +6974,7 @@
               "keywords": [
                 "sustained hits 2"
               ],
-              "name": "datasheets.Gauss_Pylon.rangedWeapons.1.profiles.0.name",
+              "name": "tesla_arc",
               "range": "6\"",
               "skill": "4+",
               "strength": "4"
@@ -7073,7 +7073,7 @@
               "keywords": [
                 "devastating wounds"
               ],
-              "name": "datasheets.Lychguard.meleeWeapons.0.profiles.0.name",
+              "name": "warscythe",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -7103,7 +7103,7 @@
               "keywords": [
                 "one shot"
               ],
-              "name": "datasheets.Overlord.rangedWeapons.0.profiles.0.name",
+              "name": "tachyon_arrow",
               "range": "72\"",
               "skill": "2+",
               "strength": "16"
@@ -7204,7 +7204,7 @@
                 "devastating wounds",
                 "precision"
               ],
-              "name": "datasheets.Lychguard.meleeWeapons.0.profiles.0.name",
+              "name": "warscythe",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -7311,7 +7311,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Lord.meleeWeapons.0.profiles.0.name",
+              "name": "staff_of_light",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -7329,7 +7329,7 @@
               "keywords": [
                 "devastating wounds"
               ],
-              "name": "datasheets.Lokhust_Lord.meleeWeapons.1.profiles.0.name",
+              "name": "lord_s_blade",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -7349,7 +7349,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Lord.meleeWeapons.0.profiles.0.name",
+              "name": "staff_of_light",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -7448,7 +7448,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Lord.meleeWeapons.0.profiles.0.name",
+              "name": "staff_of_light",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -7468,7 +7468,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Lord.meleeWeapons.0.profiles.0.name",
+              "name": "staff_of_light",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"

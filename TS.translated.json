@@ -67,7 +67,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Helbrute.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -83,7 +83,7 @@
               "attacks": "5",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Helbrute.meleeWeapons.1.profiles.0.name",
+              "name": "helbrute_fist",
               "range": "Melee",
               "skill": "3+",
               "strength": "12"
@@ -99,7 +99,7 @@
               "attacks": "5",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Helbrute.meleeWeapons.2.profiles.0.name",
+              "name": "helbrute_hammer",
               "range": "Melee",
               "skill": "4+",
               "strength": "14"
@@ -115,7 +115,7 @@
               "attacks": "8",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Helbrute.meleeWeapons.3.profiles.0.name",
+              "name": "power_scourge",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -142,7 +142,7 @@
               "attacks": "1",
               "damage": "D6",
               "keywords": [],
-              "name": "datasheets.Helbrute.rangedWeapons.0.profiles.0.name",
+              "name": "missile_launcher_krak",
               "range": "48\"",
               "skill": "3+",
               "strength": "9"
@@ -155,7 +155,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.0.profiles.1.name",
+              "name": "missile_launcher_frag",
               "range": "48\"",
               "skill": "3+",
               "strength": "4"
@@ -173,7 +173,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.1.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -192,7 +192,7 @@
                 "Hazardous",
                 "Blast"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.2.profiles.0.name",
+              "name": "helbrute_plasma_cannon",
               "range": "36\"",
               "skill": "3+",
               "strength": "8"
@@ -210,7 +210,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.3.profiles.0.name",
+              "name": "twin_autocannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "9"
@@ -229,7 +229,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.4.profiles.0.name",
+              "name": "twin_inferno_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -247,7 +247,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.5.profiles.0.name",
+              "name": "twin_lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -265,7 +265,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.6.profiles.0.name",
+              "name": "inferno_combi_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -284,7 +284,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.7.profiles.0.name",
+              "name": "heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -375,7 +375,7 @@
               "attacks": "15",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Mutalith_Vortex_Beast.meleeWeapons.0.profiles.0.name",
+              "name": "betentacled_maw",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -391,7 +391,7 @@
               "attacks": "5",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Mutalith_Vortex_Beast.meleeWeapons.1.profiles.0.name",
+              "name": "mutalith_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "10"
@@ -421,7 +421,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Mutalith_Vortex_Beast.rangedWeapons.0.profiles.0.name",
+              "name": "warp_vortex_torrent",
               "range": "18\"",
               "skill": "N/A",
               "strength": "6"
@@ -434,7 +434,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Mutalith_Vortex_Beast.rangedWeapons.0.profiles.1.name",
+              "name": "warp_vortex_blast",
               "range": "24\"",
               "skill": "3+",
               "strength": "9"
@@ -447,7 +447,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Mutalith_Vortex_Beast.rangedWeapons.0.profiles.2.name",
+              "name": "warp_vortex_beam",
               "range": "36\"",
               "skill": "3+",
               "strength": "18"
@@ -530,7 +530,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Chaos_Land_Raider.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -560,7 +560,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.4.profiles.0.name",
+              "name": "twin_inferno_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -576,7 +576,7 @@
               "attacks": "2",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.1.profiles.0.name",
+              "name": "soulshatter_lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -594,7 +594,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.6.profiles.0.name",
+              "name": "inferno_combi_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -614,7 +614,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.3.profiles.0.name",
+              "name": "inferno_combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -632,7 +632,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.4.profiles.0.name",
+              "name": "havoc_launcher",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -728,7 +728,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Tzaangor_Shaman.meleeWeapons.0.profiles.0.name",
+              "name": "force_stave",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -759,7 +759,7 @@
                 "Devastating Wounds",
                 "Blast"
               ],
-              "name": "datasheets.Tzaangor_Shaman.rangedWeapons.0.profiles.0.name",
+              "name": "baleful_devolution",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -848,7 +848,7 @@
               "attacks": "D6+2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Chaos_Spawn.meleeWeapons.0.profiles.0.name",
+              "name": "hideous_mutations",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -952,7 +952,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Sorcerer.meleeWeapons.0.profiles.0.name",
+              "name": "force_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -968,7 +968,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Sorcerer.meleeWeapons.1.profiles.0.name",
+              "name": "prosperine_khopesh",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -998,7 +998,7 @@
                 "Sustained Hits 3",
                 "Psychic"
               ],
-              "name": "datasheets.Sorcerer.rangedWeapons.0.profiles.0.name",
+              "name": "pandaemonic_delusion",
               "range": "24\"",
               "skill": "3+",
               "strength": "5"
@@ -1016,7 +1016,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Sorcerer.rangedWeapons.1.profiles.0.name",
+              "name": "inferno_bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -1104,7 +1104,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Chaos_Land_Raider.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -1133,7 +1133,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Chaos_Vindicator.rangedWeapons.0.profiles.0.name",
+              "name": "demolisher_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "14"
@@ -1151,7 +1151,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.6.profiles.0.name",
+              "name": "inferno_combi_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1171,7 +1171,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.3.profiles.0.name",
+              "name": "inferno_combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -1189,7 +1189,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.4.profiles.0.name",
+              "name": "havoc_launcher",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -1273,7 +1273,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Chaos_Land_Raider.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -1302,7 +1302,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.6.profiles.0.name",
+              "name": "inferno_combi_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1322,7 +1322,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.3.profiles.0.name",
+              "name": "inferno_combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -1340,7 +1340,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.4.profiles.0.name",
+              "name": "havoc_launcher",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -1436,7 +1436,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Ahriman.meleeWeapons.0.profiles.0.name",
+              "name": "black_staff_of_ahriman",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -1466,7 +1466,7 @@
                 "Psychic",
                 "Blast"
               ],
-              "name": "datasheets.Ahriman.rangedWeapons.0.profiles.0.name",
+              "name": "transmogrifying_blast",
               "range": "18\"",
               "skill": "2+",
               "strength": "6"
@@ -1484,7 +1484,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Sorcerer.rangedWeapons.1.profiles.0.name",
+              "name": "inferno_bolt_pistol",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -1585,7 +1585,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Sorcerer.meleeWeapons.0.profiles.0.name",
+              "name": "force_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -1601,7 +1601,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Helbrute.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1636,7 +1636,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Sorcerer.rangedWeapons.1.profiles.0.name",
+              "name": "inferno_bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -1656,7 +1656,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Rubric_Marines.rangedWeapons.1.profiles.0.name",
+              "name": "malefic_curse",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1676,7 +1676,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Rubric_Marines.rangedWeapons.2.profiles.0.name",
+              "name": "warpflame_pistol",
               "range": "12\"",
               "skill": "N/A",
               "strength": "3"
@@ -1692,7 +1692,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Rubric_Marines.rangedWeapons.3.profiles.0.name",
+              "name": "inferno_boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1710,7 +1710,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Rubric_Marines.rangedWeapons.4.profiles.0.name",
+              "name": "soulreaper_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -1729,7 +1729,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Rubric_Marines.rangedWeapons.5.profiles.0.name",
+              "name": "warpflamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -1846,7 +1846,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Sorcerer.meleeWeapons.0.profiles.0.name",
+              "name": "force_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -1873,7 +1873,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Sorcerer.rangedWeapons.1.profiles.0.name",
+              "name": "inferno_bolt_pistol",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -1893,7 +1893,7 @@
                 "Psychic",
                 "Hazardous"
               ],
-              "name": "datasheets.Infernal_Master.rangedWeapons.1.profiles.0.name",
+              "name": "fires_of_the_abyss_focused_witchfire",
               "range": "18\"",
               "skill": "N/A",
               "strength": "6"
@@ -1907,7 +1907,7 @@
                 "Torrent",
                 "Psychic"
               ],
-              "name": "datasheets.Infernal_Master.rangedWeapons.1.profiles.1.name",
+              "name": "fires_of_the_abyss_witchfire",
               "range": "18\"",
               "skill": "N/A",
               "strength": "6"
@@ -1998,7 +1998,7 @@
                 "Precision",
                 "Lance"
               ],
-              "name": "datasheets.Tzaangor_Enlightened.meleeWeapons.0.profiles.0.name",
+              "name": "divining_spear",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -2016,7 +2016,7 @@
               "keywords": [
                 "Precision"
               ],
-              "name": "datasheets.Tzaangor_Enlightened.meleeWeapons.1.profiles.0.name",
+              "name": "chainsword",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -2051,7 +2051,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Tzaangor_Enlightened.rangedWeapons.0.profiles.0.name",
+              "name": "autopistol",
               "range": "12\"",
               "skill": "4+",
               "strength": "3"
@@ -2139,7 +2139,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Helbrute.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -2176,7 +2176,7 @@
                 "Lethal Hits",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Tzaangor_Enlightened_with_Fatecaster_Greatbows.rangedWeapons.0.profiles.0.name",
+              "name": "fatecaster_greatbow",
               "range": "30\"",
               "skill": "4+",
               "strength": "5"
@@ -2265,7 +2265,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Sorcerer.meleeWeapons.0.profiles.0.name",
+              "name": "force_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -2281,7 +2281,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Sorcerer.meleeWeapons.1.profiles.0.name",
+              "name": "prosperine_khopesh",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -2316,7 +2316,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.6.profiles.0.name",
+              "name": "inferno_combi_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -2336,7 +2336,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Rubric_Marines.rangedWeapons.1.profiles.0.name",
+              "name": "malefic_curse",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -2355,7 +2355,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Scarab_Occult_Terminators.rangedWeapons.2.profiles.0.name",
+              "name": "heavy_warpflamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -2373,7 +2373,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Rubric_Marines.rangedWeapons.4.profiles.0.name",
+              "name": "soulreaper_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -2389,7 +2389,7 @@
               "attacks": "2",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Scarab_Occult_Terminators.rangedWeapons.4.profiles.0.name",
+              "name": "hellfyre_missile_rack",
               "range": "36\"",
               "skill": "3+",
               "strength": "10"
@@ -2537,7 +2537,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Magnus_the_Red.meleeWeapons.0.profiles.0.name",
+              "name": "blade_of_magnus_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -2551,7 +2551,7 @@
                 "Psychic",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Magnus_the_Red.meleeWeapons.0.profiles.1.name",
+              "name": "blade_of_magnus_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "16"
@@ -2581,7 +2581,7 @@
                 "Psychic",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Magnus_the_Red.rangedWeapons.0.profiles.0.name",
+              "name": "gaze_of_magnus",
               "range": "24\"",
               "skill": "2+",
               "strength": "11"
@@ -2601,7 +2601,7 @@
                 "Ignores Cover",
                 "Blast"
               ],
-              "name": "datasheets.Magnus_the_Red.rangedWeapons.1.profiles.0.name",
+              "name": "tzeentch_s_firestorm",
               "range": "24\"",
               "skill": "2+",
               "strength": "6"
@@ -2683,7 +2683,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Chaos_Land_Raider.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -2712,7 +2712,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Chaos_Predator_Destructor.rangedWeapons.0.profiles.0.name",
+              "name": "predator_autocannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "9"
@@ -2728,7 +2728,7 @@
               "attacks": "1",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Chaos_Predator_Destructor.rangedWeapons.1.profiles.0.name",
+              "name": "lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -2746,7 +2746,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Chaos_Predator_Destructor.rangedWeapons.2.profiles.0.name",
+              "name": "inferno_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -2764,7 +2764,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.6.profiles.0.name",
+              "name": "inferno_combi_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -2784,7 +2784,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.3.profiles.0.name",
+              "name": "inferno_combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -2802,7 +2802,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.4.profiles.0.name",
+              "name": "havoc_launcher",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -2894,7 +2894,7 @@
               "attacks": "5",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Defiler.meleeWeapons.0.profiles.0.name",
+              "name": "defiler_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "16"
@@ -2912,7 +2912,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Defiler.meleeWeapons.1.profiles.0.name",
+              "name": "defiler_scourge",
               "range": "Melee",
               "skill": "3+",
               "strength": "12"
@@ -2941,7 +2941,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.0.profiles.0.name",
+              "name": "defiler_cannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "10"
@@ -2960,7 +2960,7 @@
                 "Sustained Hits 1",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.1.profiles.0.name",
+              "name": "reaper_autocannon",
               "range": "36\"",
               "skill": "3+",
               "strength": "7"
@@ -2980,7 +2980,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Defiler.rangedWeapons.2.profiles.0.name",
+              "name": "twin_heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -2998,7 +2998,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.4.profiles.0.name",
+              "name": "havoc_launcher",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -3016,7 +3016,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.5.profiles.0.name",
+              "name": "twin_lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -3035,7 +3035,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.4.profiles.0.name",
+              "name": "twin_inferno_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -3055,7 +3055,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.3.profiles.0.name",
+              "name": "inferno_combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -3154,7 +3154,7 @@
                 "Psychic",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Daemon_Prince_of_Tzeentch_with_Wings.meleeWeapons.0.profiles.0.name",
+              "name": "hellforged_weapons_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -3168,7 +3168,7 @@
                 "Psychic",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Daemon_Prince_of_Tzeentch_with_Wings.meleeWeapons.0.profiles.1.name",
+              "name": "hellforged_weapons_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -3195,7 +3195,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Daemon_Prince_of_Tzeentch_with_Wings.rangedWeapons.0.profiles.0.name",
+              "name": "infernal_cannon",
               "range": "24\"",
               "skill": "2+",
               "strength": "5"
@@ -3215,7 +3215,7 @@
                 "Psychic",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Daemon_Prince_of_Tzeentch_with_Wings.rangedWeapons.1.profiles.0.name",
+              "name": "dark_blessing",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -3311,7 +3311,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Tzaangors.meleeWeapons.0.profiles.0.name",
+              "name": "tzaangor_blades",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -3327,7 +3327,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Tzaangor_Enlightened.meleeWeapons.1.profiles.0.name",
+              "name": "chainsword",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -3362,7 +3362,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Tzaangor_Enlightened.rangedWeapons.0.profiles.0.name",
+              "name": "autopistol",
               "range": "12\"",
               "skill": "4+",
               "strength": "3"
@@ -3450,7 +3450,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Helbrute.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -3466,7 +3466,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Sekhetar_Robots.meleeWeapons.1.profiles.0.name",
+              "name": "power_claw",
               "range": "Melee",
               "skill": "4+",
               "strength": "10"
@@ -3502,7 +3502,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Scarab_Occult_Terminators.rangedWeapons.2.profiles.0.name",
+              "name": "heavy_warpflamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -3518,7 +3518,7 @@
               "attacks": "2",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Scarab_Occult_Terminators.rangedWeapons.4.profiles.0.name",
+              "name": "hellfyre_missile_rack",
               "range": "36\"",
               "skill": "4+",
               "strength": "10"
@@ -3536,7 +3536,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Sekhetar_Robots.rangedWeapons.2.profiles.0.name",
+              "name": "pyreflux_meltagun",
               "range": "12\"",
               "skill": "4+",
               "strength": "10"
@@ -3555,7 +3555,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Sekhetar_Robots.rangedWeapons.3.profiles.0.name",
+              "name": "warpflame_projector",
               "range": "12\"",
               "skill": "N/A",
               "strength": "3"
@@ -3651,7 +3651,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Sorcerer.meleeWeapons.0.profiles.0.name",
+              "name": "force_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -3667,7 +3667,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Sorcerer.meleeWeapons.1.profiles.0.name",
+              "name": "prosperine_khopesh",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -3698,7 +3698,7 @@
                 "Psychic",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Exalted_Sorcerer_on_Disc_of_Tzeentch.rangedWeapons.0.profiles.0.name",
+              "name": "arcane_fire",
               "range": "18\"",
               "skill": "N/A",
               "strength": "6"
@@ -3716,7 +3716,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Sorcerer.rangedWeapons.1.profiles.0.name",
+              "name": "inferno_bolt_pistol",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -3808,7 +3808,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Maulerfiend.meleeWeapons.0.profiles.0.name",
+              "name": "lasher_tendrils",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -3824,7 +3824,7 @@
               "attacks": "6",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Maulerfiend.meleeWeapons.1.profiles.0.name",
+              "name": "maulerfiend_fists",
               "range": "Melee",
               "skill": "3+",
               "strength": "14"
@@ -3853,7 +3853,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Maulerfiend.rangedWeapons.0.profiles.0.name",
+              "name": "magma_cutter",
               "range": "6\"",
               "skill": "3+",
               "strength": "9"
@@ -3947,7 +3947,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Sorcerer.meleeWeapons.0.profiles.0.name",
+              "name": "force_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -3963,7 +3963,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Sorcerer.meleeWeapons.1.profiles.0.name",
+              "name": "prosperine_khopesh",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -3994,7 +3994,7 @@
                 "Devastating Wounds",
                 "Blast"
               ],
-              "name": "datasheets.Exalted_Sorcerer.rangedWeapons.0.profiles.0.name",
+              "name": "astral_blast",
               "range": "18\"",
               "skill": "2+",
               "strength": "6"
@@ -4012,7 +4012,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Sorcerer.rangedWeapons.1.profiles.0.name",
+              "name": "inferno_bolt_pistol",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -4113,7 +4113,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "datasheets.Sorcerer.meleeWeapons.0.profiles.0.name",
+              "name": "force_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -4145,7 +4145,7 @@
                 "Anti-vehicle 4+",
                 "Anti-monster 4+"
               ],
-              "name": "datasheets.Sorcerer_in_Terminator_Armour.rangedWeapons.0.profiles.0.name",
+              "name": "gaze_of_hate",
               "range": "18\"",
               "skill": "3+",
               "strength": "4"
@@ -4163,7 +4163,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.6.profiles.0.name",
+              "name": "inferno_combi_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -4183,7 +4183,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.3.profiles.0.name",
+              "name": "inferno_combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -4271,7 +4271,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Chaos_Land_Raider.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_tracks",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -4300,7 +4300,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Chaos_Predator_Annihilator.rangedWeapons.0.profiles.0.name",
+              "name": "predator_twin_lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "14"
@@ -4316,7 +4316,7 @@
               "attacks": "1",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Chaos_Predator_Destructor.rangedWeapons.1.profiles.0.name",
+              "name": "lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -4334,7 +4334,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Chaos_Predator_Destructor.rangedWeapons.2.profiles.0.name",
+              "name": "inferno_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -4352,7 +4352,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Helbrute.rangedWeapons.6.profiles.0.name",
+              "name": "inferno_combi_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -4372,7 +4372,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.3.profiles.0.name",
+              "name": "inferno_combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -4390,7 +4390,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Chaos_Land_Raider.rangedWeapons.4.profiles.0.name",
+              "name": "havoc_launcher",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -4474,7 +4474,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Forgefiend.meleeWeapons.0.profiles.0.name",
+              "name": "forgefiend_jaws",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -4490,7 +4490,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Forgefiend.meleeWeapons.1.profiles.0.name",
+              "name": "forgefiend_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -4517,7 +4517,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Forgefiend.rangedWeapons.0.profiles.0.name",
+              "name": "hades_autocannon",
               "range": "36\"",
               "skill": "3+",
               "strength": "8"
@@ -4535,7 +4535,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Forgefiend.rangedWeapons.1.profiles.0.name",
+              "name": "ectoplasma_cannon",
               "range": "36\"",
               "skill": "3+",
               "strength": "10"
@@ -4624,7 +4624,7 @@
                 "Devastating Wounds",
                 "Anti-fly 2+"
               ],
-              "name": "datasheets.Heldrake.meleeWeapons.0.profiles.0.name",
+              "name": "heldrake_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -4651,7 +4651,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Forgefiend.rangedWeapons.0.profiles.0.name",
+              "name": "hades_autocannon",
               "range": "36\"",
               "skill": "3+",
               "strength": "8"
@@ -4670,7 +4670,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Heldrake.rangedWeapons.1.profiles.0.name",
+              "name": "baleflamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -4771,7 +4771,7 @@
                 "Psychic",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Daemon_Prince_of_Tzeentch_with_Wings.meleeWeapons.0.profiles.0.name",
+              "name": "hellforged_weapons_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -4785,7 +4785,7 @@
                 "Psychic",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Daemon_Prince_of_Tzeentch_with_Wings.meleeWeapons.0.profiles.1.name",
+              "name": "hellforged_weapons_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -4812,7 +4812,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Daemon_Prince_of_Tzeentch_with_Wings.rangedWeapons.0.profiles.0.name",
+              "name": "infernal_cannon",
               "range": "24\"",
               "skill": "2+",
               "strength": "5"
@@ -4832,7 +4832,7 @@
                 "Psychic",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Daemon_Prince_of_Tzeentch_with_Wings.rangedWeapons.1.profiles.0.name",
+              "name": "dark_blessing",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"

@@ -73,7 +73,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -89,7 +89,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.1.profiles.0.name",
+              "name": "astartes_chainsword",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -105,7 +105,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.2.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -121,7 +121,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.3.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -139,7 +139,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.4.profiles.0.name",
+              "name": "thunder_hammer",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -157,7 +157,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.5.profiles.0.name",
+              "name": "twin_lightning_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -186,7 +186,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -202,7 +202,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.1.profiles.0.name",
+              "name": "boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -222,7 +222,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.2.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -240,7 +240,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -254,7 +254,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -272,7 +272,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.4.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -377,7 +377,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Thunderwolf_Cavalry.meleeWeapons.0.profiles.0.name",
+              "name": "crushing_teeth_and_claws",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -393,7 +393,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Thunderwolf_Cavalry.meleeWeapons.1.profiles.0.name",
+              "name": "heirloom_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -428,7 +428,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -444,7 +444,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.1.profiles.0.name",
+              "name": "boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -462,7 +462,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -476,7 +476,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -576,7 +576,7 @@
               "keywords": [
                 "Anti-monster 2+"
               ],
-              "name": "datasheets.Arjac_Rockfist.meleeWeapons.0.profiles.0.name",
+              "name": "foehammer_melee",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -606,7 +606,7 @@
                 "Assault",
                 "Anti-monster 2+"
               ],
-              "name": "datasheets.Arjac_Rockfist.rangedWeapons.0.profiles.0.name",
+              "name": "foehammer_ranged",
               "range": "6\"",
               "skill": "2+",
               "strength": "8"
@@ -711,7 +711,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Bjorn_the_Fell_Handed.meleeWeapons.0.profiles.0.name",
+              "name": "trueclaw",
               "range": "Melee",
               "skill": "2+",
               "strength": "12"
@@ -740,7 +740,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.0.profiles.0.name",
+              "name": "assault_cannon",
               "range": "24\"",
               "skill": "2+",
               "strength": "6"
@@ -759,7 +759,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.1.profiles.0.name",
+              "name": "heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -777,7 +777,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.2.profiles.0.name",
+              "name": "heavy_plasma_cannon_standard",
               "range": "36\"",
               "skill": "2+",
               "strength": "7"
@@ -791,7 +791,7 @@
                 "Hazardous",
                 "Blast"
               ],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.2.profiles.1.name",
+              "name": "heavy_plasma_cannon_supercharge",
               "range": "36\"",
               "skill": "2+",
               "strength": "8"
@@ -809,7 +809,7 @@
               "keywords": [
                 "Torrent"
               ],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.3.profiles.0.name",
+              "name": "helfrost_cannon_dispersed",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -820,7 +820,7 @@
               "attacks": "1",
               "damage": "5",
               "keywords": [],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.3.profiles.1.name",
+              "name": "helfrost_cannon_focused",
               "range": "36\"",
               "skill": "2+",
               "strength": "9"
@@ -838,7 +838,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.4.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "2+",
               "strength": "9"
@@ -856,7 +856,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.5.profiles.0.name",
+              "name": "twin_lascannon",
               "range": "48\"",
               "skill": "2+",
               "strength": "12"
@@ -946,7 +946,7 @@
               "attacks": "5",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Space_Wolves_Venerable_Dreadnought.meleeWeapons.0.profiles.0.name",
+              "name": "dreadnought_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "12"
@@ -962,7 +962,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -978,7 +978,7 @@
               "attacks": "10",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Space_Wolves_Venerable_Dreadnought.meleeWeapons.2.profiles.0.name",
+              "name": "fenrisian_great_axe_sweep",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -989,7 +989,7 @@
               "attacks": "5",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Space_Wolves_Venerable_Dreadnought.meleeWeapons.2.profiles.1.name",
+              "name": "fenrisian_great_axe_strike",
               "range": "Melee",
               "skill": "3+",
               "strength": "10"
@@ -1018,7 +1018,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Space_Wolves_Venerable_Dreadnought.rangedWeapons.0.profiles.0.name",
+              "name": "assault_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -1036,7 +1036,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.4.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1054,7 +1054,7 @@
               "keywords": [
                 "Torrent"
               ],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.3.profiles.0.name",
+              "name": "helfrost_cannon_dispersed",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -1065,7 +1065,7 @@
               "attacks": "1",
               "damage": "5",
               "keywords": [],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.3.profiles.1.name",
+              "name": "helfrost_cannon_focused",
               "range": "36\"",
               "skill": "3+",
               "strength": "9"
@@ -1083,7 +1083,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.4.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -1101,7 +1101,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Space_Wolves_Venerable_Dreadnought.rangedWeapons.4.profiles.0.name",
+              "name": "plasma_cannon_standard",
               "range": "36\"",
               "skill": "3+",
               "strength": "7"
@@ -1115,7 +1115,7 @@
                 "Hazardous",
                 "Blast"
               ],
-              "name": "datasheets.Space_Wolves_Venerable_Dreadnought.rangedWeapons.4.profiles.1.name",
+              "name": "plasma_cannon_supercharge",
               "range": "36\"",
               "skill": "3+",
               "strength": "8"
@@ -1133,7 +1133,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.5.profiles.0.name",
+              "name": "twin_lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -1149,7 +1149,7 @@
               "attacks": "1",
               "damage": "D6",
               "keywords": [],
-              "name": "datasheets.Space_Wolves_Venerable_Dreadnought.rangedWeapons.6.profiles.0.name",
+              "name": "missile_launcher_krak",
               "range": "48\"",
               "skill": "3+",
               "strength": "9"
@@ -1162,7 +1162,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Space_Wolves_Venerable_Dreadnought.rangedWeapons.6.profiles.1.name",
+              "name": "missile_launcher_frag",
               "range": "48\"",
               "skill": "3+",
               "strength": "4"
@@ -1181,7 +1181,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.1.profiles.0.name",
+              "name": "heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -1269,7 +1269,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1285,7 +1285,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Scouts.meleeWeapons.1.profiles.0.name",
+              "name": "combat_knife",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -1301,7 +1301,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.2.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -1317,7 +1317,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.3.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -1335,7 +1335,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.4.profiles.0.name",
+              "name": "thunder_hammer",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -1353,7 +1353,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.5.profiles.0.name",
+              "name": "twin_lightning_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -1369,7 +1369,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.1.profiles.0.name",
+              "name": "astartes_chainsword",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1404,7 +1404,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -1420,7 +1420,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.1.profiles.0.name",
+              "name": "boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1438,7 +1438,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.2.profiles.0.name",
+              "name": "astartes_shotgun",
               "range": "18\"",
               "skill": "3+",
               "strength": "4"
@@ -1458,7 +1458,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.2.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -1477,7 +1477,7 @@
                 "Pistol",
                 "Anti-vehicle 2+"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.4.profiles.0.name",
+              "name": "grav_pistol",
               "range": "18\"",
               "skill": "3+",
               "strength": "4"
@@ -1497,7 +1497,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.5.profiles.0.name",
+              "name": "hand_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "3"
@@ -1516,7 +1516,7 @@
                 "Pistol",
                 "Melta 2"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.6.profiles.0.name",
+              "name": "inferno_pistol",
               "range": "6\"",
               "skill": "3+",
               "strength": "8"
@@ -1534,7 +1534,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -1548,7 +1548,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -1566,7 +1566,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.4.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -1585,7 +1585,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.9.profiles.0.name",
+              "name": "flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -1603,7 +1603,7 @@
               "keywords": [
                 "Anti-vehicle 2+"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.10.profiles.0.name",
+              "name": "grav_gun",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -1622,7 +1622,7 @@
                 "Sustained Hits 1",
                 "Heavy"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.11.profiles.0.name",
+              "name": "heavy_bolter",
               "range": "36\"",
               "skill": "4+",
               "strength": "5"
@@ -1640,7 +1640,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.12.profiles.0.name",
+              "name": "meltagun",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -1658,7 +1658,7 @@
               "keywords": [
                 "Heavy"
               ],
-              "name": "datasheets.Space_Wolves_Venerable_Dreadnought.rangedWeapons.6.profiles.0.name",
+              "name": "missile_launcher_krak",
               "range": "48\"",
               "skill": "4+",
               "strength": "9"
@@ -1672,7 +1672,7 @@
                 "Heavy",
                 "Blast"
               ],
-              "name": "datasheets.Space_Wolves_Venerable_Dreadnought.rangedWeapons.6.profiles.1.name",
+              "name": "missile_launcher_frag",
               "range": "48\"",
               "skill": "4+",
               "strength": "4"
@@ -1690,7 +1690,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.14.profiles.0.name",
+              "name": "plasma_gun_standard",
               "range": "24\"",
               "skill": "3+",
               "strength": "7"
@@ -1704,7 +1704,7 @@
                 "Rapid Fire 1",
                 "Hazardous"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.14.profiles.1.name",
+              "name": "plasma_gun_supercharge",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -1804,7 +1804,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Lukas_the_Trickster.meleeWeapons.0.profiles.0.name",
+              "name": "claw_of_the_jackalwolf",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -1833,7 +1833,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -1847,7 +1847,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -1944,7 +1944,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Ulrik_the_Slayer.meleeWeapons.0.profiles.0.name",
+              "name": "artificer_crozius",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -1973,7 +1973,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "2+",
               "strength": "7"
@@ -1987,7 +1987,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "2+",
               "strength": "8"
@@ -2092,7 +2092,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Cyberwolf.meleeWeapons.0.profiles.0.name",
+              "name": "teeth_and_claws",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -2203,7 +2203,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Ragnar_Blackmane.meleeWeapons.0.profiles.0.name",
+              "name": "frostfang",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -2232,7 +2232,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Ragnar_Blackmane.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -2348,7 +2348,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.3.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -2364,7 +2364,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -2382,7 +2382,7 @@
               "keywords": [
                 "Anti-vehicle 3+"
               ],
-              "name": "datasheets.Wolf_Guard_Terminators.meleeWeapons.2.profiles.0.name",
+              "name": "chainfist",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -2398,7 +2398,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.2.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -2416,7 +2416,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.4.profiles.0.name",
+              "name": "thunder_hammer",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -2434,7 +2434,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.5.profiles.0.name",
+              "name": "twin_lightning_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -2469,7 +2469,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.4.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -2489,7 +2489,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.2.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -2507,7 +2507,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Space_Wolves_Venerable_Dreadnought.rangedWeapons.0.profiles.0.name",
+              "name": "assault_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -2526,7 +2526,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.1.profiles.0.name",
+              "name": "heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -2542,7 +2542,7 @@
               "attacks": "2",
               "damage": "D6",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Terminators.rangedWeapons.4.profiles.0.name",
+              "name": "cyclone_missile_launcher_krak",
               "range": "36\"",
               "skill": "3+",
               "strength": "9"
@@ -2555,7 +2555,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Wolf_Guard_Terminators.rangedWeapons.4.profiles.1.name",
+              "name": "cyclone_missile_launcher_frag",
               "range": "36\"",
               "skill": "3+",
               "strength": "4"
@@ -2649,7 +2649,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Stormwolf.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -2679,7 +2679,7 @@
                 "Twin-linked",
                 "Torrent"
               ],
-              "name": "datasheets.Stormwolf.rangedWeapons.0.profiles.0.name",
+              "name": "twin_helfrost_cannon_dispersed",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -2692,7 +2692,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Stormwolf.rangedWeapons.0.profiles.1.name",
+              "name": "twin_helfrost_cannon_focused",
               "range": "36\"",
               "skill": "3+",
               "strength": "9"
@@ -2710,7 +2710,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.5.profiles.0.name",
+              "name": "twin_lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -2728,7 +2728,7 @@
               "keywords": [
                 "Anti-fly 2+"
               ],
-              "name": "datasheets.Stormwolf.rangedWeapons.2.profiles.0.name",
+              "name": "skyhammer_missile_launcher",
               "range": "48\"",
               "skill": "3+",
               "strength": "8"
@@ -2747,7 +2747,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Stormwolf.rangedWeapons.3.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -2766,7 +2766,7 @@
                 "Twin-linked",
                 "Melta 2"
               ],
-              "name": "datasheets.Stormwolf.rangedWeapons.4.profiles.0.name",
+              "name": "twin_multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -2855,7 +2855,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.1.profiles.0.name",
+              "name": "astartes_chainsword",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -2871,7 +2871,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.2.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -2887,7 +2887,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.3.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -2903,7 +2903,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -2938,7 +2938,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -2956,7 +2956,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -2970,7 +2970,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -2989,7 +2989,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.9.profiles.0.name",
+              "name": "flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -3007,7 +3007,7 @@
               "keywords": [
                 "Anti-vehicle 2+"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.10.profiles.0.name",
+              "name": "grav_gun",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -3025,7 +3025,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.12.profiles.0.name",
+              "name": "meltagun",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -3043,7 +3043,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.14.profiles.0.name",
+              "name": "plasma_gun_standard",
               "range": "24\"",
               "skill": "3+",
               "strength": "7"
@@ -3057,7 +3057,7 @@
                 "Rapid Fire 1",
                 "Hazardous"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.14.profiles.1.name",
+              "name": "plasma_gun_supercharge",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -3163,7 +3163,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wulfen.meleeWeapons.0.profiles.0.name",
+              "name": "wulfen_claws_and_melee_weapons",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -3179,7 +3179,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Wulfen.meleeWeapons.1.profiles.0.name",
+              "name": "wulfen_hammer",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -3215,7 +3215,7 @@
                 "Blast",
                 "Assault"
               ],
-              "name": "datasheets.Wulfen.rangedWeapons.0.profiles.0.name",
+              "name": "stormfrag_auto_launcher",
               "range": "12\"",
               "skill": "5+",
               "strength": "4"
@@ -3305,7 +3305,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -3321,7 +3321,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.1.profiles.0.name",
+              "name": "astartes_chainsword",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -3337,7 +3337,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.2.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -3353,7 +3353,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.3.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -3388,7 +3388,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -3404,7 +3404,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.1.profiles.0.name",
+              "name": "boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -3423,7 +3423,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.9.profiles.0.name",
+              "name": "flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -3441,7 +3441,7 @@
               "keywords": [
                 "Anti-vehicle 2+"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.10.profiles.0.name",
+              "name": "grav_gun",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -3459,7 +3459,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.12.profiles.0.name",
+              "name": "meltagun",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -3477,7 +3477,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.14.profiles.0.name",
+              "name": "plasma_gun_standard",
               "range": "24\"",
               "skill": "3+",
               "strength": "7"
@@ -3491,7 +3491,7 @@
                 "Rapid Fire 1",
                 "Hazardous"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.14.profiles.1.name",
+              "name": "plasma_gun_supercharge",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -3509,7 +3509,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -3523,7 +3523,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -3625,7 +3625,7 @@
               "attacks": "10",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Space_Wolves_Venerable_Dreadnought.meleeWeapons.2.profiles.0.name",
+              "name": "fenrisian_great_axe_sweep",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -3636,7 +3636,7 @@
               "attacks": "5",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Space_Wolves_Venerable_Dreadnought.meleeWeapons.2.profiles.1.name",
+              "name": "fenrisian_great_axe_strike",
               "range": "Melee",
               "skill": "3+",
               "strength": "10"
@@ -3652,7 +3652,7 @@
               "attacks": "5",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Wulfen_Dreadnought.meleeWeapons.1.profiles.0.name",
+              "name": "great_wolf_claw",
               "range": "Melee",
               "skill": "3+",
               "strength": "10"
@@ -3681,7 +3681,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.4.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -3700,7 +3700,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.1.profiles.0.name",
+              "name": "heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -3794,7 +3794,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Krom_Dragongaze.meleeWeapons.0.profiles.0.name",
+              "name": "wyrmclaw",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -3823,7 +3823,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Ragnar_Blackmane.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -3927,7 +3927,7 @@
                 "Sustained Hits 2",
                 "Psychic"
               ],
-              "name": "datasheets.Njal_Stormcaller.meleeWeapons.0.profiles.0.name",
+              "name": "staff_of_the_stormcaller",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -3956,7 +3956,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -3976,7 +3976,7 @@
                 "Psychic",
                 "Hazardous"
               ],
-              "name": "datasheets.Njal_Stormcaller.rangedWeapons.1.profiles.0.name",
+              "name": "living_lightning_focused_witchfire",
               "range": "24\"",
               "skill": "3+",
               "strength": "7"
@@ -3990,7 +3990,7 @@
                 "Sustained Hits 2",
                 "Psychic"
               ],
-              "name": "datasheets.Njal_Stormcaller.rangedWeapons.1.profiles.1.name",
+              "name": "living_lightning_witchfire",
               "range": "24\"",
               "skill": "3+",
               "strength": "7"
@@ -4101,7 +4101,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Thunderwolf_Cavalry.meleeWeapons.1.profiles.0.name",
+              "name": "heirloom_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -4136,7 +4136,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -4152,7 +4152,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.1.profiles.0.name",
+              "name": "boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -4172,7 +4172,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.2.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -4190,7 +4190,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -4204,7 +4204,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -4222,7 +4222,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.4.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -4327,7 +4327,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.1.profiles.0.name",
+              "name": "astartes_chainsword",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -4343,7 +4343,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.2.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -4359,7 +4359,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.3.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -4377,7 +4377,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.4.profiles.0.name",
+              "name": "thunder_hammer",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -4395,7 +4395,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.5.profiles.0.name",
+              "name": "twin_lightning_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -4424,7 +4424,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -4444,7 +4444,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.2.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -4462,7 +4462,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -4476,7 +4476,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -4494,7 +4494,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.4.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -4599,7 +4599,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Iron_Priest.meleeWeapons.0.profiles.0.name",
+              "name": "servo_arm",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -4615,7 +4615,7 @@
               "attacks": "3",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Iron_Priest.meleeWeapons.1.profiles.0.name",
+              "name": "tempest_hammer",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -4645,7 +4645,7 @@
                 "Torrent",
                 "Pistol"
               ],
-              "name": "datasheets.Iron_Priest.rangedWeapons.0.profiles.0.name",
+              "name": "helfrost_pistol_dispersed",
               "range": "12\"",
               "skill": "N/A",
               "strength": "3"
@@ -4658,7 +4658,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Iron_Priest.rangedWeapons.0.profiles.1.name",
+              "name": "helfrost_pistol_focused",
               "range": "12\"",
               "skill": "2+",
               "strength": "6"
@@ -4761,7 +4761,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -4777,7 +4777,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.1.profiles.0.name",
+              "name": "astartes_chainsword",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -4793,7 +4793,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.2.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -4809,7 +4809,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.3.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -4842,7 +4842,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.1.profiles.0.name",
+              "name": "boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -4860,7 +4860,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -4879,7 +4879,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.9.profiles.0.name",
+              "name": "flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -4897,7 +4897,7 @@
               "keywords": [
                 "Anti-vehicle 2+"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.10.profiles.0.name",
+              "name": "grav_gun",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -4915,7 +4915,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.12.profiles.0.name",
+              "name": "meltagun",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -4933,7 +4933,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.14.profiles.0.name",
+              "name": "plasma_gun_standard",
               "range": "24\"",
               "skill": "3+",
               "strength": "7"
@@ -4947,7 +4947,7 @@
                 "Rapid Fire 1",
                 "Hazardous"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.14.profiles.1.name",
+              "name": "plasma_gun_supercharge",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -4965,7 +4965,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -4979,7 +4979,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -4998,7 +4998,7 @@
                 "Heavy",
                 "Anti-vehicle 2+"
               ],
-              "name": "datasheets.Long_Fangs.rangedWeapons.7.profiles.0.name",
+              "name": "grav_cannon",
               "range": "24\"",
               "skill": "4+",
               "strength": "6"
@@ -5017,7 +5017,7 @@
                 "Sustained Hits 1",
                 "Heavy"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.11.profiles.0.name",
+              "name": "heavy_bolter",
               "range": "36\"",
               "skill": "4+",
               "strength": "5"
@@ -5036,7 +5036,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.1.profiles.0.name",
+              "name": "heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -5054,7 +5054,7 @@
               "keywords": [
                 "Heavy"
               ],
-              "name": "datasheets.Long_Fangs.rangedWeapons.10.profiles.0.name",
+              "name": "lascannon",
               "range": "48\"",
               "skill": "4+",
               "strength": "12"
@@ -5072,7 +5072,7 @@
               "keywords": [
                 "Heavy"
               ],
-              "name": "datasheets.Space_Wolves_Venerable_Dreadnought.rangedWeapons.6.profiles.0.name",
+              "name": "missile_launcher_krak",
               "range": "48\"",
               "skill": "4+",
               "strength": "9"
@@ -5086,7 +5086,7 @@
                 "Heavy",
                 "Blast"
               ],
-              "name": "datasheets.Space_Wolves_Venerable_Dreadnought.rangedWeapons.6.profiles.1.name",
+              "name": "missile_launcher_frag",
               "range": "48\"",
               "skill": "4+",
               "strength": "4"
@@ -5105,7 +5105,7 @@
                 "Melta 2",
                 "Heavy"
               ],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.4.profiles.0.name",
+              "name": "multi_melta",
               "range": "18\"",
               "skill": "4+",
               "strength": "9"
@@ -5124,7 +5124,7 @@
                 "Heavy",
                 "Blast"
               ],
-              "name": "datasheets.Space_Wolves_Venerable_Dreadnought.rangedWeapons.4.profiles.0.name",
+              "name": "plasma_cannon_standard",
               "range": "36\"",
               "skill": "4+",
               "strength": "7"
@@ -5139,7 +5139,7 @@
                 "Hazardous",
                 "Blast"
               ],
-              "name": "datasheets.Space_Wolves_Venerable_Dreadnought.rangedWeapons.4.profiles.1.name",
+              "name": "plasma_cannon_supercharge",
               "range": "36\"",
               "skill": "4+",
               "strength": "8"
@@ -5226,7 +5226,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Cyberwolf.meleeWeapons.0.profiles.0.name",
+              "name": "teeth_and_claws",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -5343,7 +5343,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.3.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -5361,7 +5361,7 @@
               "keywords": [
                 "Anti-vehicle 3+"
               ],
-              "name": "datasheets.Wolf_Guard_Terminators.meleeWeapons.2.profiles.0.name",
+              "name": "chainfist",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -5377,7 +5377,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.2.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -5393,7 +5393,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -5411,7 +5411,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.4.profiles.0.name",
+              "name": "thunder_hammer",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -5429,7 +5429,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.5.profiles.0.name",
+              "name": "twin_lightning_claws",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -5458,7 +5458,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.4.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -5478,7 +5478,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.2.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -5589,7 +5589,7 @@
               "attacks": "10",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Logan_Grimnar.meleeWeapons.0.profiles.0.name",
+              "name": "the_axe_morkai_one_handed",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -5600,7 +5600,7 @@
               "attacks": "6",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Logan_Grimnar.meleeWeapons.0.profiles.1.name",
+              "name": "the_axe_morkai_two_handed",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -5629,7 +5629,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.4.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -5730,7 +5730,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Thunderwolf_Cavalry.meleeWeapons.0.profiles.0.name",
+              "name": "crushing_teeth_and_claws",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -5748,7 +5748,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Canis_Wolfborn.meleeWeapons.1.profiles.0.name",
+              "name": "wolf_claws",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -5777,7 +5777,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Canis_Wolfborn.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "5+",
               "strength": "4"
@@ -5877,7 +5877,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Thunderwolf_Cavalry.meleeWeapons.0.profiles.0.name",
+              "name": "crushing_teeth_and_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -5893,7 +5893,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Harald_Deathwolf.meleeWeapons.1.profiles.0.name",
+              "name": "glacius",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -5922,7 +5922,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Ragnar_Blackmane.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -6028,7 +6028,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Thunderwolf_Cavalry.meleeWeapons.0.profiles.0.name",
+              "name": "crushing_teeth_and_claws",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -6044,7 +6044,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Wolf_Lord_on_Thunderwolf.meleeWeapons.1.profiles.0.name",
+              "name": "relic_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -6060,7 +6060,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.2.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -6078,7 +6078,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.4.profiles.0.name",
+              "name": "thunder_hammer",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -6094,7 +6094,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -6112,7 +6112,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.5.profiles.0.name",
+              "name": "twin_lightning_claws",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -6141,7 +6141,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Ragnar_Blackmane.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -6159,7 +6159,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "2+",
               "strength": "7"
@@ -6173,7 +6173,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "2+",
               "strength": "8"
@@ -6193,7 +6193,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.2.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -6209,7 +6209,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Wolf_Lord_on_Thunderwolf.rangedWeapons.3.profiles.0.name",
+              "name": "master_crafted_boltgun",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -6227,7 +6227,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.4.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -6328,7 +6328,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.1.profiles.0.name",
+              "name": "astartes_chainsword",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -6344,7 +6344,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.2.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -6360,7 +6360,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.3.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -6376,7 +6376,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -6417,7 +6417,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -6435,7 +6435,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -6449,7 +6449,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -6468,7 +6468,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.9.profiles.0.name",
+              "name": "flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -6486,7 +6486,7 @@
               "keywords": [
                 "Anti-vehicle 2+"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.10.profiles.0.name",
+              "name": "grav_gun",
               "range": "18\"",
               "skill": "3+",
               "strength": "5"
@@ -6504,7 +6504,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.12.profiles.0.name",
+              "name": "meltagun",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -6522,7 +6522,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.14.profiles.0.name",
+              "name": "plasma_gun_standard",
               "range": "24\"",
               "skill": "3+",
               "strength": "7"
@@ -6536,7 +6536,7 @@
                 "Rapid Fire 1",
                 "Hazardous"
               ],
-              "name": "datasheets.Wolf_Scouts.rangedWeapons.14.profiles.1.name",
+              "name": "plasma_gun_supercharge",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -6639,7 +6639,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Thunderwolf_Cavalry.meleeWeapons.0.profiles.0.name",
+              "name": "crushing_teeth_and_claws",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -6655,7 +6655,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Wolf_Lord_on_Thunderwolf.meleeWeapons.1.profiles.0.name",
+              "name": "relic_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -6671,7 +6671,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.2.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -6689,7 +6689,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.4.profiles.0.name",
+              "name": "thunder_hammer",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -6705,7 +6705,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -6723,7 +6723,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.5.profiles.0.name",
+              "name": "twin_lightning_claws",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -6752,7 +6752,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Ragnar_Blackmane.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -6770,7 +6770,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_pistol_standard",
               "range": "12\"",
               "skill": "2+",
               "strength": "7"
@@ -6784,7 +6784,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_pistol_supercharge",
               "range": "12\"",
               "skill": "2+",
               "strength": "8"
@@ -6804,7 +6804,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.2.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -6820,7 +6820,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Wolf_Lord_on_Thunderwolf.rangedWeapons.3.profiles.0.name",
+              "name": "master_crafted_boltgun",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -6838,7 +6838,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.4.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -6941,7 +6941,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Murderfang.meleeWeapons.0.profiles.0.name",
+              "name": "the_murderclaws",
               "range": "Melee",
               "skill": "3+",
               "strength": "14"
@@ -6971,7 +6971,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.1.profiles.0.name",
+              "name": "heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -6989,7 +6989,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.4.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -7088,7 +7088,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.3.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -7106,7 +7106,7 @@
               "keywords": [
                 "Anti-vehicle 3+"
               ],
-              "name": "datasheets.Wolf_Guard_Terminators.meleeWeapons.2.profiles.0.name",
+              "name": "chainfist",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -7122,7 +7122,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.2.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -7140,7 +7140,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.4.profiles.0.name",
+              "name": "thunder_hammer",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -7158,7 +7158,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.meleeWeapons.5.profiles.0.name",
+              "name": "twin_lightning_claws",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -7187,7 +7187,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.4.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -7205,7 +7205,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Space_Wolves_Venerable_Dreadnought.rangedWeapons.0.profiles.0.name",
+              "name": "assault_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -7224,7 +7224,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.1.profiles.0.name",
+              "name": "heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -7240,7 +7240,7 @@
               "attacks": "2",
               "damage": "D6",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Terminators.rangedWeapons.4.profiles.0.name",
+              "name": "cyclone_missile_launcher_krak",
               "range": "36\"",
               "skill": "3+",
               "strength": "9"
@@ -7253,7 +7253,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Wolf_Guard_Terminators.rangedWeapons.4.profiles.1.name",
+              "name": "cyclone_missile_launcher_frag",
               "range": "36\"",
               "skill": "3+",
               "strength": "4"
@@ -7273,7 +7273,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.2.profiles.0.name",
+              "name": "combi_weapon",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -7382,7 +7382,7 @@
               "attacks": "10",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Logan_Grimnar.meleeWeapons.0.profiles.0.name",
+              "name": "the_axe_morkai_one_handed",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -7393,7 +7393,7 @@
               "attacks": "6",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Logan_Grimnar.meleeWeapons.0.profiles.1.name",
+              "name": "the_axe_morkai_two_handed",
               "range": "Melee",
               "skill": "2+",
               "strength": "8"
@@ -7411,7 +7411,7 @@
               "keywords": [
                 "Extra Attacks"
               ],
-              "name": "datasheets.Logan_Grimnar_on_Stormrider.meleeWeapons.1.profiles.0.name",
+              "name": "flurry_of_teeth_and_claws",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -7440,7 +7440,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.4.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -7532,7 +7532,7 @@
               "attacks": "6",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Stormwolf.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -7561,7 +7561,7 @@
               "keywords": [
                 "Torrent"
               ],
-              "name": "datasheets.Stormfang_Gunship.rangedWeapons.0.profiles.0.name",
+              "name": "helfrost_destructor_focused",
               "range": "12\"",
               "skill": "N/A",
               "strength": "8"
@@ -7574,7 +7574,7 @@
               "keywords": [
                 "Sustained Hits D3"
               ],
-              "name": "datasheets.Stormfang_Gunship.rangedWeapons.0.profiles.1.name",
+              "name": "helfrost_destructor_dispersed",
               "range": "36\"",
               "skill": "3+",
               "strength": "11"
@@ -7592,7 +7592,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Stormfang_Gunship.rangedWeapons.1.profiles.0.name",
+              "name": "twin_stormstrike_missile_launcher",
               "range": "48\"",
               "skill": "3+",
               "strength": "10"
@@ -7610,7 +7610,7 @@
               "keywords": [
                 "Anti-fly 2+"
               ],
-              "name": "datasheets.Stormwolf.rangedWeapons.2.profiles.0.name",
+              "name": "skyhammer_missile_launcher",
               "range": "48\"",
               "skill": "3+",
               "strength": "8"
@@ -7629,7 +7629,7 @@
                 "Twin-linked",
                 "Melta 2"
               ],
-              "name": "datasheets.Stormwolf.rangedWeapons.4.profiles.0.name",
+              "name": "twin_multi_melta",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -7648,7 +7648,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Stormwolf.rangedWeapons.3.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -7666,7 +7666,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "datasheets.Bjorn_the_Fell_Handed.rangedWeapons.5.profiles.0.name",
+              "name": "twin_lascannon",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -7763,7 +7763,7 @@
                 "Devastating Wounds",
                 "Anti-psyker 4+"
               ],
-              "name": "datasheets.Hounds_of_Morkai.meleeWeapons.0.profiles.0.name",
+              "name": "morkai_combat_knife",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -7801,7 +7801,7 @@
                 "Devastating Wounds",
                 "Anti-psyker 4+"
               ],
-              "name": "datasheets.Hounds_of_Morkai.rangedWeapons.0.profiles.0.name",
+              "name": "morkai_bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -7907,7 +7907,7 @@
               "keywords": [
                 "extra attacks"
               ],
-              "name": "datasheets.Thunderwolf_Cavalry.meleeWeapons.0.profiles.0.name",
+              "name": "crushing_teeth_and_claws",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -7925,7 +7925,7 @@
               "keywords": [
                 "extra attacks"
               ],
-              "name": "datasheets.Iron_Priest_On_Thunderwolf.meleeWeapons.1.profiles.0.name",
+              "name": "servo_arm",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -7941,7 +7941,7 @@
               "attacks": "3",
               "damage": "3",
               "keywords": [],
-              "name": "datasheets.Iron_Priest_On_Thunderwolf.meleeWeapons.2.profiles.0.name",
+              "name": "iron_priest_hammer",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -7964,7 +7964,7 @@
                 "pistol",
                 "torrent"
               ],
-              "name": "datasheets.Iron_Priest_On_Thunderwolf.rangedWeapons.0.profiles.0.name",
+              "name": "helfrost_pistol_dispersed",
               "range": "12\"",
               "skill": "N/A",
               "strength": "3"
@@ -7977,7 +7977,7 @@
               "keywords": [
                 "pistol"
               ],
-              "name": "datasheets.Iron_Priest_On_Thunderwolf.rangedWeapons.0.profiles.1.name",
+              "name": "helfrost_pistol_focused",
               "range": "12\"",
               "skill": "2+",
               "strength": "6"
@@ -7995,7 +7995,7 @@
               "keywords": [
                 "pistol"
               ],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -8011,7 +8011,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Wolf_Guard_Pack_Leader.rangedWeapons.1.profiles.0.name",
+              "name": "boltgun",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"

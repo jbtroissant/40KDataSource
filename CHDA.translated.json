@@ -63,7 +63,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Ravenwing_Darkshroud.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -92,7 +92,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Ravenwing_Darkshroud.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -110,7 +110,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Ravenwing_Darkshroud.rangedWeapons.1.profiles.0.name",
+              "name": "assault_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -202,7 +202,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Ravenwing_Black_Knights.meleeWeapons.0.profiles.0.name",
+              "name": "black_knight_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -237,7 +237,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Ravenwing_Black_Knights.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -255,7 +255,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Ravenwing_Black_Knights.rangedWeapons.1.profiles.0.name",
+              "name": "plasma_talon_standard",
               "range": "18\"",
               "skill": "3+",
               "strength": "7"
@@ -269,7 +269,7 @@
                 "Rapid Fire 1",
                 "Hazardous"
               ],
-              "name": "datasheets.Ravenwing_Black_Knights.rangedWeapons.1.profiles.1.name",
+              "name": "plasma_talon_supercharge",
               "range": "18\"",
               "skill": "3+",
               "strength": "8"
@@ -285,7 +285,7 @@
               "attacks": "1",
               "damage": "D3",
               "keywords": [],
-              "name": "datasheets.Ravenwing_Black_Knights.rangedWeapons.2.profiles.0.name",
+              "name": "astartes_grenade_launcher_krak",
               "range": "24\"",
               "skill": "3+",
               "strength": "9"
@@ -298,7 +298,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Ravenwing_Black_Knights.rangedWeapons.2.profiles.1.name",
+              "name": "astartes_grenade_launcher_frag",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -406,7 +406,7 @@
                 "Psychic",
                 "Anti-chaos 2+"
               ],
-              "name": "datasheets.Ezekiel.meleeWeapons.0.profiles.0.name",
+              "name": "traitor_s_bane",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -436,7 +436,7 @@
                 "Precision",
                 "Pistol"
               ],
-              "name": "datasheets.Ezekiel.rangedWeapons.0.profiles.0.name",
+              "name": "the_deliverer",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -456,7 +456,7 @@
                 "Precision",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Ezekiel.rangedWeapons.1.profiles.0.name",
+              "name": "mind_wipe_witchfire",
               "range": "12\"",
               "skill": "2+",
               "strength": "6"
@@ -473,7 +473,7 @@
                 "Devastating Wounds",
                 "Anti-character 4+"
               ],
-              "name": "datasheets.Ezekiel.rangedWeapons.1.profiles.1.name",
+              "name": "mind_wipe_focused_witchfire",
               "range": "12\"",
               "skill": "2+",
               "strength": "6"
@@ -591,7 +591,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Deathwing_Terminator_Squad.meleeWeapons.0.profiles.0.name",
+              "name": "power_fist",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -609,7 +609,7 @@
               "keywords": [
                 "Anti-vehicle 3+"
               ],
-              "name": "datasheets.Deathwing_Terminator_Squad.meleeWeapons.1.profiles.0.name",
+              "name": "chainfist",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -625,7 +625,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Deathwing_Terminator_Squad.meleeWeapons.2.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -660,7 +660,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Deathwing_Terminator_Squad.rangedWeapons.0.profiles.0.name",
+              "name": "storm_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -678,7 +678,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Ravenwing_Darkshroud.rangedWeapons.1.profiles.0.name",
+              "name": "assault_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -697,7 +697,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "datasheets.Deathwing_Terminator_Squad.rangedWeapons.2.profiles.0.name",
+              "name": "heavy_flamer",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -715,7 +715,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Deathwing_Terminator_Squad.rangedWeapons.3.profiles.0.name",
+              "name": "plasma_cannon_standard",
               "range": "36\"",
               "skill": "3+",
               "strength": "7"
@@ -729,7 +729,7 @@
                 "Blast",
                 "Hazardous"
               ],
-              "name": "datasheets.Deathwing_Terminator_Squad.rangedWeapons.3.profiles.1.name",
+              "name": "plasma_cannon_supercharge",
               "range": "36\"",
               "skill": "3+",
               "strength": "8"
@@ -745,7 +745,7 @@
               "attacks": "2",
               "damage": "D6",
               "keywords": [],
-              "name": "datasheets.Deathwing_Terminator_Squad.rangedWeapons.4.profiles.0.name",
+              "name": "cyclone_missile_launcher_krak",
               "range": "36\"",
               "skill": "3+",
               "strength": "9"
@@ -758,7 +758,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Deathwing_Terminator_Squad.rangedWeapons.4.profiles.1.name",
+              "name": "cyclone_missile_launcher_frag",
               "range": "36\"",
               "skill": "3+",
               "strength": "4"
@@ -860,7 +860,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Inner_Circle_Companions.meleeWeapons.0.profiles.0.name",
+              "name": "calibanite_greatsword_strike",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -873,7 +873,7 @@
               "keywords": [
                 "Sustained Hits 2"
               ],
-              "name": "datasheets.Inner_Circle_Companions.meleeWeapons.0.profiles.1.name",
+              "name": "calibanite_greatsword_sweep",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -908,7 +908,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Inner_Circle_Companions.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolt_pistol",
               "range": "18\"",
               "skill": "3+",
               "strength": "4"
@@ -1016,7 +1016,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Azrael.meleeWeapons.0.profiles.0.name",
+              "name": "the_sword_of_secrets",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -1047,7 +1047,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "datasheets.Azrael.rangedWeapons.0.profiles.0.name",
+              "name": "lion_s_wrath",
               "range": "24\"",
               "skill": "2+",
               "strength": "8"
@@ -1144,7 +1144,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Ravenwing_Darkshroud.meleeWeapons.0.profiles.0.name",
+              "name": "close_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1173,7 +1173,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Ravenwing_Darkshroud.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -1192,7 +1192,7 @@
                 "Twin-linked",
                 "Blast"
               ],
-              "name": "datasheets.Land_Speeder_Vengeance.rangedWeapons.1.profiles.0.name",
+              "name": "plasma_storm_battery_standard",
               "range": "36\"",
               "skill": "3+",
               "strength": "8"
@@ -1207,7 +1207,7 @@
                 "Hazardous",
                 "Blast"
               ],
-              "name": "datasheets.Land_Speeder_Vengeance.rangedWeapons.1.profiles.1.name",
+              "name": "plasma_storm_battery_supercharge",
               "range": "36\"",
               "skill": "3+",
               "strength": "9"
@@ -1225,7 +1225,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Ravenwing_Darkshroud.rangedWeapons.1.profiles.0.name",
+              "name": "assault_cannon",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -1311,7 +1311,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Nephilim_Jetfighter.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -1340,7 +1340,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Nephilim_Jetfighter.rangedWeapons.0.profiles.0.name",
+              "name": "avenger_mega_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -1358,7 +1358,7 @@
               "keywords": [
                 "Anti-fly 2+"
               ],
-              "name": "datasheets.Nephilim_Jetfighter.rangedWeapons.1.profiles.0.name",
+              "name": "blacksword_missiles",
               "range": "36\"",
               "skill": "3+",
               "strength": "8"
@@ -1377,7 +1377,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Nephilim_Jetfighter.rangedWeapons.2.profiles.0.name",
+              "name": "twin_heavy_bolter",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -1393,7 +1393,7 @@
               "attacks": "2",
               "damage": "D6+1",
               "keywords": [],
-              "name": "datasheets.Nephilim_Jetfighter.rangedWeapons.3.profiles.0.name",
+              "name": "nephilim_lascannons",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -1487,7 +1487,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Asmodai.meleeWeapons.0.profiles.0.name",
+              "name": "crozius_arcanum_and_power_weapon_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -1498,7 +1498,7 @@
               "attacks": "8",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Asmodai.meleeWeapons.0.profiles.1.name",
+              "name": "crozius_arcanum_and_power_weapon_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -1527,7 +1527,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Inner_Circle_Companions.rangedWeapons.0.profiles.0.name",
+              "name": "heavy_bolt_pistol",
               "range": "18\"",
               "skill": "3+",
               "strength": "4"
@@ -1648,7 +1648,7 @@
                 "Sustained Hits 1",
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Deathwing_Knights.meleeWeapons.0.profiles.0.name",
+              "name": "great_weapon_of_the_unforgiven",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -1667,7 +1667,7 @@
                 "Anti-vehicle 4+",
                 "Anti-monster 4+"
               ],
-              "name": "datasheets.Deathwing_Knights.meleeWeapons.1.profiles.0.name",
+              "name": "mace_of_absolution",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -1685,7 +1685,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Deathwing_Knights.meleeWeapons.2.profiles.0.name",
+              "name": "relic_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "7"
@@ -1701,7 +1701,7 @@
               "attacks": "5",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Deathwing_Terminator_Squad.meleeWeapons.2.profiles.0.name",
+              "name": "power_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -1812,7 +1812,7 @@
               "keywords": [
                 "Precision"
               ],
-              "name": "datasheets.Belial.meleeWeapons.0.profiles.0.name",
+              "name": "the_sword_of_silence",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -1842,7 +1842,7 @@
                 "Rapid Fire 2",
                 "Precision"
               ],
-              "name": "datasheets.Belial.rangedWeapons.0.profiles.0.name",
+              "name": "master_crafted_storm_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -1983,7 +1983,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "datasheets.Lion_ElJonson.meleeWeapons.0.profiles.0.name",
+              "name": "fealty_sweep",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -1996,7 +1996,7 @@
               "keywords": [
                 "Lethal Hits"
               ],
-              "name": "datasheets.Lion_ElJonson.meleeWeapons.0.profiles.1.name",
+              "name": "fealty_strike",
               "range": "Melee",
               "skill": "2+",
               "strength": "12"
@@ -2025,7 +2025,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Lion_ElJonson.rangedWeapons.0.profiles.0.name",
+              "name": "arma_luminis_bolt",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -2038,7 +2038,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Lion_ElJonson.rangedWeapons.0.profiles.1.name",
+              "name": "arma_luminis_plasma",
               "range": "12\"",
               "skill": "2+",
               "strength": "8"
@@ -2137,7 +2137,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "datasheets.Ravenwing_Command_Squad.meleeWeapons.0.profiles.0.name",
+              "name": "master_crafted_power_weapon",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -2155,7 +2155,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "datasheets.Ravenwing_Black_Knights.meleeWeapons.0.profiles.0.name",
+              "name": "black_knight_combat_weapon",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -2184,7 +2184,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Ravenwing_Black_Knights.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -2202,7 +2202,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "datasheets.Ravenwing_Black_Knights.rangedWeapons.1.profiles.0.name",
+              "name": "plasma_talon_standard",
               "range": "18\"",
               "skill": "3+",
               "strength": "7"
@@ -2216,7 +2216,7 @@
                 "Rapid Fire 1",
                 "Hazardous"
               ],
-              "name": "datasheets.Ravenwing_Black_Knights.rangedWeapons.1.profiles.1.name",
+              "name": "plasma_talon_supercharge",
               "range": "18\"",
               "skill": "3+",
               "strength": "8"
@@ -2232,7 +2232,7 @@
               "attacks": "1",
               "damage": "D3",
               "keywords": [],
-              "name": "datasheets.Ravenwing_Black_Knights.rangedWeapons.2.profiles.0.name",
+              "name": "astartes_grenade_launcher_krak",
               "range": "24\"",
               "skill": "3+",
               "strength": "9"
@@ -2245,7 +2245,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Ravenwing_Black_Knights.rangedWeapons.2.profiles.1.name",
+              "name": "astartes_grenade_launcher_frag",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -2348,7 +2348,7 @@
               "keywords": [
                 "Anti-psyker 2+"
               ],
-              "name": "datasheets.Lazarus.meleeWeapons.0.profiles.0.name",
+              "name": "enmity_s_edge",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -2377,7 +2377,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Lazarus.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -2475,7 +2475,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "datasheets.Nephilim_Jetfighter.meleeWeapons.0.profiles.0.name",
+              "name": "armoured_hull",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -2505,7 +2505,7 @@
                 "Devastating Wounds",
                 "Blast"
               ],
-              "name": "datasheets.Ravenwing_Dark_Talon.rangedWeapons.0.profiles.0.name",
+              "name": "rift_cannon",
               "range": "18\"",
               "skill": "3+",
               "strength": "16"
@@ -2524,7 +2524,7 @@
                 "Twin-linked",
                 "Rapid Fire 6"
               ],
-              "name": "datasheets.Ravenwing_Dark_Talon.rangedWeapons.1.profiles.0.name",
+              "name": "hurricane_bolter",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -2620,7 +2620,7 @@
               "keywords": [
                 "Sustained Hits 2"
               ],
-              "name": "datasheets.Sammael.meleeWeapons.0.profiles.0.name",
+              "name": "the_raven_sword",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -2649,7 +2649,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "datasheets.Lazarus.rangedWeapons.0.profiles.0.name",
+              "name": "bolt_pistol",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -2667,7 +2667,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "datasheets.Sammael.rangedWeapons.1.profiles.0.name",
+              "name": "master_crafted_plasma_cannon",
               "range": "36\"",
               "skill": "2+",
               "strength": "8"
@@ -2686,7 +2686,7 @@
                 "Twin-linked",
                 "Rapid Fire 2"
               ],
-              "name": "datasheets.Sammael.rangedWeapons.2.profiles.0.name",
+              "name": "twin_storm_bolter",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"

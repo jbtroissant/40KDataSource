@@ -387,7 +387,7 @@
   "stratagems.Lions_Will.name": "VOLONTÉ DU LION",
   "stratagems.Lions_Will.target": " 1 unité de l’Adeptus Astartes de votre armée \nqui est à Portée d’Engagement d’une ou plusieurs \nunités ennemies.",
   "stratagems.Lions_Will.when": " À la phase de Commandement.",
-  "stratagems.Lions_Will.effect": " Votre unité est éligible pour tirer et déclarer \nune charge à un tour où elle a Avancé. Si votre unité \na le mot-clé Ravenwing, elle est également éligible \npour tirer et déclarer une charge à un tour où elle a \nBattu en Retraite.",
+  "stratagems.Lions_Will.effect": "usqu’au début de votre prochaine phase  \nde Commandement, ajoutez 1 à la caractéristique  \nde Contrôle d’Objectif des figurines de votre unité.  \nDe plus, jusqu’à la fin du tour, si votre unité n’a pas  \nle mot-clé Deathwing, Ravenwing ou Véhicule, à  \nchaque attaque d’une figurine de votre unité, ajoutez  \n1 au jet de Touche.",
   "stratagems.Lions_Will.fluff": "Quand les éléments constitutifs des Dark Angels \nluttent à l’unisson, l’ennemi est généralement \nsubmergé et démembré par la fluidité de la \nprogression, des replis stratégiques et des contre\u0002offensives du Chapitre.",
   "stratagems.Relics_of_the_Dark_Age.name": "RELIQUES DU MOYEN-ÂGE",
   "stratagems.Relics_of_the_Dark_Age.target": " 1 unité d’Infanterie de l’Adeptus Astartes \nou Montée de l’Adeptus Astartes de votre armée \nqui n’a pas été choisie pour tirer à cette phase",

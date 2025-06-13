@@ -213,7 +213,7 @@
   "datasheets.Lion_ElJonson.abilities.other.0.name": "Primarque de la première légion",
   "datasheets.Lion_ElJonson.abilities.other.0.description": "À votre phase de Commandement, choisissez 1 des aptitudes de Primarque de la Première Légion (voir ci-contre). Jusqu'au début de votre prochaine phase de Commandement, cette figurine a l'aptitude choisie. ",
   "datasheets.Lion_ElJonson.abilities.other.1.name": "Le Bouclier de l'Empereur",
-  "datasheets.Lion_ElJonson.abilities.other.1.description": "À chaque attaque de mêlée qui cible cette figurine, sur un jet de sauvegarde non modifié de 6, l'unité attaquante subit I blessure mortelle après qu'elle a résolu ses attaques.",
+  "datasheets.Lion_ElJonson.abilities.other.1.description": "À chaque attaque qui cible cette figurine, si la caractéristique de Force de l'attaque est supérieure à la caractéristique d'Endurance de cette figurine, soustrayez 1 au jet de Blessure.",
   "datasheets.Lion_ElJonson.abilities.other.2.name": "Escorte de Dark Angels",
   "datasheets.Lion_ElJonson.abilities.other.2.description": " Tant que cette figurine est à 3\" dune ou plusieurs unités INFANTERIE AOEPTUS ASTARTES amies, cette figurine a l'aptitude Agent Solitaire.",
   "datasheets.Lion_ElJonson.abilities.primarch.0.abilities.0.name": "Royaumes de l'Ombre Embrumés",

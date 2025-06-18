@@ -1,7 +1,7 @@
 {
   "Deadly Demise D3": "Deadly Demise D3",
   "Hover": "Hover",
-  "datasheets.Archaeopter_Stratoraptor.abilities.faction.0": "Doctrina Imperatives",
+  "doctrina_imperatives": "Doctrina Imperatives",
   "datasheets.Archaeopter_Stratoraptor.abilities.other.0.name": "Strafing Run",
   "datasheets.Archaeopter_Stratoraptor.abilities.other.0.description": "Each time this model makes a ranged attack that targets a unit that cannot FLY, add 1 to the Hit roll.",
   "datasheets.Archaeopter_Stratoraptor.abilities.wargear.0.name": "Command Uplink",

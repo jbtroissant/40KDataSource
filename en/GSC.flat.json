@@ -1,7 +1,7 @@
 {
   "Scouts 9\"": "Scouts 9\"",
   "Stealth": "Stealth",
-  "datasheets.Atalan_Jackals.abilities.faction.0": "Cult Ambush",
+  "cult_ambush": "Cult Ambush",
   "datasheets.Atalan_Jackals.abilities.other.0.name": "Outrider Gangs",
   "datasheets.Atalan_Jackals.abilities.other.0.description": "Each time you use the Cult Ambush ability to set this unit back up on the battlefield, in addition to the normal rules, all of its models must be set up wholly within 9\" of a battlefield edge and at least one of its models must be touching one of your Cult Ambush markers (that marker is then removed from the battlefield). If this cannot be done, this unit cannot be set back up.",
   "datasheets.Atalan_Jackals.abilities.other.1.name": "Demolition Run",

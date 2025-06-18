@@ -1,6 +1,6 @@
 {
   "Leader": "Leader",
-  "datasheets.Lord_of_Poxes.abilities.faction.0": "Nurgle’s Gift (Aura)",
+  "nurgle_s_gift_aura": "Nurgle’s Gift (Aura)",
   "datasheets.Lord_of_Poxes.abilities.other.0.name": "Gift of Poxes",
   "datasheets.Lord_of_Poxes.abilities.other.0.description": "Add 3\" to the range of this model’s Contagion Range",
   "datasheets.Lord_of_Poxes.abilities.other.1.name": "Shroud of Disease",
@@ -430,7 +430,7 @@
   "datasheets.Blightlord_Terminators.wargear.3": "For every 5 models in this unit, 1 Blightlord Terminator’s combi-bolter can be replaced with 1 blight launcher.",
   "datasheets.Blightlord_Terminators.wargear.4": "For every 5 models in this unit, 1 Blightlord Terminator’s combi-bolter and bubotic blade can be replaced with 1 flail of corruption.",
   "datasheets.Blightlord_Terminators.wargear.5": "For every 5 models in this unit, up to 3 models’ combi-bolters can each be replaced with 1 combi-weapon.",
-  "datasheets.Death_Guard_Possessed.abilities.faction.0": "Nurgle's Gift (Aura)",
+  "nurgle_s_gift_aura": "Nurgle's Gift (Aura)",
   "datasheets.Death_Guard_Possessed.abilities.other.0.description": "Each time this unit makes a Charge move, until the end of the turn, weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.",
   "datasheets.Death_Guard_Possessed.abilities.other.0.name": "Infectious Bloodshed",
   "datasheets.Death_Guard_Possessed.abilities.special.0.description": "For the purposes of embarking within Transports, each Death Guard Possessed model counts as one Terminator model.",

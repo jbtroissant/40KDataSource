@@ -3,7 +3,7 @@
   "Deep Strike": "Deep Strike",
   "datasheets.Soul_Grinder.abilities.damaged.range": "1-5 WOUNDS REMAINING",
   "datasheets.Soul_Grinder.abilities.damaged.description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-  "datasheets.Soul_Grinder.abilities.faction.0": "The Shadow of Chaos",
+  "the_shadow_of_chaos": "The Shadow of Chaos",
   "datasheets.Soul_Grinder.abilities.other.0.name": "Scuttling Walker",
   "datasheets.Soul_Grinder.abilities.other.0.description": "Each time this model makes a Normal or Advance move, it can move over friendly MONSTER and VEHICLE models and terrain features that are 4\" or less in height as if they were not there.",
   "datasheets.Soul_Grinder.abilities.special.0.description": "When you select this model to include in your army, you must select one of the keywords below. Until the end of the battle, this model has that keyword and the additional wargear stated for that keyword below.\n\nKHORNE - This model is additionally equipped with: torrent of burning blood\n\nTZEENTCH - This model is additionally equipped with: warp gaze\n\nNURGLE - This model is additionally equipped with: phlegm bombardment\n\nSLAANESH - This model is additionally equipped with: scream of despair",

@@ -3,7 +3,7 @@
   "Feel No Pain 6+": "Feel No Pain 6+",
   "datasheets.Death_Company_Dreadnought.abilities.damaged.range": "1-4 WOUNDS REMAINING",
   "datasheets.Death_Company_Dreadnought.abilities.damaged.description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-  "datasheets.Death_Company_Dreadnought.abilities.faction.0": "Oath of Moment",
+  "oath_of_moment": "Oath of Moment",
   "datasheets.Death_Company_Dreadnought.abilities.other.0.name": "Black Rage",
   "datasheets.Death_Company_Dreadnought.abilities.other.0.description": "Each time this model makes a melee attack, you can re‐roll the Hit roll. While this model is not within 12\" of one or more friendly CHAPLAIN models, it cannot be selected to Fall Back and its Objective Control characteristic is 0.",
   "datasheets.Death_Company_Dreadnought.abilities.other.1.name": "Driven by Fury",

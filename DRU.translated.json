@@ -16,7 +16,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -312,7 +312,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -560,7 +560,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -774,7 +774,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -899,7 +899,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -1132,7 +1132,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -1356,7 +1356,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -1497,7 +1497,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -1608,7 +1608,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -1792,7 +1792,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -2005,7 +2005,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -2152,7 +2152,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -2299,7 +2299,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -2460,7 +2460,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -2589,7 +2589,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -2731,7 +2731,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -2865,7 +2865,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -3128,7 +3128,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -3256,7 +3256,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -3427,7 +3427,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -3548,7 +3548,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -3693,7 +3693,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -3838,7 +3838,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -3957,7 +3957,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scourges.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -4077,7 +4077,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Reaper.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -4216,7 +4216,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Reaper.abilities.faction.0"
+          "power_from_pain"
         ],
         "other": [
           {
@@ -4868,7 +4868,7 @@
   "rules": {
     "army": [
       {
-        "name": "datasheets.Scourges.abilities.faction.0",
+        "name": "power_from_pain",
         "rule": [
           {
             "order": 1,

@@ -673,7 +673,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tzaangor_Shaman.abilities.faction.0"
+          "cabal_of_sorcerers"
         ],
         "other": [
           {
@@ -899,7 +899,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tzaangor_Shaman.abilities.faction.0"
+          "cabal_of_sorcerers"
         ],
         "other": [
           {
@@ -1381,7 +1381,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tzaangor_Shaman.abilities.faction.0"
+          "cabal_of_sorcerers"
         ],
         "other": [
           {
@@ -1530,7 +1530,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Rubric_Marines.abilities.faction.0"
+          "cabal_of_sorcerers_aspiring_sorcerer_model_only"
         ],
         "other": [
           {
@@ -1793,7 +1793,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tzaangor_Shaman.abilities.faction.0"
+          "cabal_of_sorcerers"
         ],
         "other": [
           {
@@ -2217,7 +2217,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Scarab_Occult_Terminators.abilities.faction.0"
+          "cabal_of_sorcerers_scarab_occult_sorcerer_model_only"
         ],
         "other": [
           {
@@ -2449,7 +2449,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tzaangor_Shaman.abilities.faction.0"
+          "cabal_of_sorcerers"
         ],
         "other": [
           {
@@ -3099,7 +3099,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tzaangor_Shaman.abilities.faction.0"
+          "cabal_of_sorcerers"
         ],
         "other": [
           {
@@ -3596,7 +3596,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tzaangor_Shaman.abilities.faction.0"
+          "cabal_of_sorcerers"
         ],
         "other": [
           {
@@ -3894,7 +3894,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tzaangor_Shaman.abilities.faction.0"
+          "cabal_of_sorcerers"
         ],
         "other": [
           {
@@ -4060,7 +4060,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tzaangor_Shaman.abilities.faction.0"
+          "cabal_of_sorcerers"
         ],
         "other": [
           {
@@ -4711,7 +4711,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tzaangor_Shaman.abilities.faction.0"
+          "cabal_of_sorcerers"
         ],
         "other": [
           {
@@ -5862,7 +5862,7 @@
   "rules": {
     "army": [
       {
-        "name": "datasheets.Tzaangor_Shaman.abilities.faction.0",
+        "name": "cabal_of_sorcerers",
         "rule": [
           {
             "order": 1,

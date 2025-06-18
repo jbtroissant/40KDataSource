@@ -1,6 +1,6 @@
 {
   "Deadly Demise D3": "Deadly Demise D3",
-  "datasheets.Heretic_Astartes_Daemon_Prince.abilities.faction.0": "Dark Pacts",
+  "dark_pacts": "Dark Pacts",
   "datasheets.Heretic_Astartes_Daemon_Prince.abilities.other.0.name": "Dark Blessing (Aura)",
   "datasheets.Heretic_Astartes_Daemon_Prince.abilities.other.0.description": "While a friendly HERETIC ASTARTES INFANTRY unit is within 6\" of this model, each time a ranged attack is allocated to a model in that unit, that model has the Benefit of Cover against that attack.",
   "datasheets.Heretic_Astartes_Daemon_Prince.abilities.other.1.name": "Ascended Daemon",

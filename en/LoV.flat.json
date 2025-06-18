@@ -1,5 +1,5 @@
 {
-  "datasheets.Hearthkyn_Warriors.abilities.faction.0": "Eye of the Ancestors",
+  "eye_of_the_ancestors": "Eye of the Ancestors",
   "datasheets.Hearthkyn_Warriors.abilities.other.0.name": "Luck Has. Need Keeps. Toil Earns",
   "datasheets.Hearthkyn_Warriors.abilities.other.0.description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
   "datasheets.Hearthkyn_Warriors.abilities.wargear.0.name": "Weavefield Crest",

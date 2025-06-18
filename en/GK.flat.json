@@ -1,7 +1,7 @@
 {
   "Deep Strike": "Deep Strike",
   "Leader": "Leader",
-  "datasheets.Brotherhood_Chaplain.abilities.faction.0": "Teleport Assault",
+  "teleport_assault": "Teleport Assault",
   "datasheets.Brotherhood_Chaplain.abilities.other.0.name": "Words of Power (Psychic)",
   "datasheets.Brotherhood_Chaplain.abilities.other.0.description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Wound roll.",
   "datasheets.Brotherhood_Chaplain.abilities.other.1.name": "Dread Bearing (Aura)",

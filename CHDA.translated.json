@@ -20,7 +20,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+          "oath_of_moment"
         ],
         "other": [
           {
@@ -149,7 +149,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+          "oath_of_moment"
         ],
         "other": [
           {
@@ -343,7 +343,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+          "oath_of_moment"
         ],
         "other": [
           {
@@ -527,7 +527,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+          "oath_of_moment"
         ],
         "other": [
           {
@@ -802,7 +802,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+          "oath_of_moment"
         ],
         "other": [
           {
@@ -954,7 +954,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+          "oath_of_moment"
         ],
         "other": [
           {
@@ -1101,7 +1101,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+          "oath_of_moment"
         ],
         "other": [
           {
@@ -1267,7 +1267,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+          "oath_of_moment"
         ],
         "other": [
           {
@@ -1434,7 +1434,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+          "oath_of_moment"
         ],
         "other": [
           {
@@ -1581,7 +1581,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+          "oath_of_moment"
         ],
         "other": [
           {
@@ -1758,7 +1758,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+          "oath_of_moment"
         ],
         "other": [
           {
@@ -1893,7 +1893,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+          "oath_of_moment"
         ],
         "other": [
           {
@@ -2079,7 +2079,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+          "oath_of_moment"
         ],
         "other": [
           {
@@ -2293,7 +2293,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+          "oath_of_moment"
         ],
         "other": [
           {
@@ -2431,7 +2431,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+          "oath_of_moment"
         ],
         "other": [
           {
@@ -2565,7 +2565,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Ravenwing_Darkshroud.abilities.faction.0"
+          "oath_of_moment"
         ],
         "other": [
           {
@@ -3580,7 +3580,7 @@
   "rules": {
     "army": [
       {
-        "name": "datasheets.Ravenwing_Darkshroud.abilities.faction.0",
+        "name": "oath_of_moment",
         "rule": [
           {
             "order": 1,

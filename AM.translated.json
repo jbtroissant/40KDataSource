@@ -296,7 +296,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Cadian_Castellan.abilities.faction.0"
+          "voice_of_command"
         ],
         "other": [
           {
@@ -550,7 +550,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Cadian_Castellan.abilities.faction.0"
+          "voice_of_command"
         ],
         "other": [
           {
@@ -1619,7 +1619,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Cadian_Castellan.abilities.faction.0"
+          "voice_of_command"
         ],
         "other": [
           {
@@ -3379,7 +3379,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Cadian_Castellan.abilities.faction.0"
+          "voice_of_command"
         ],
         "other": [
           {
@@ -5287,7 +5287,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Cadian_Castellan.abilities.faction.0"
+          "voice_of_command"
         ],
         "other": [
           {
@@ -7432,7 +7432,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Cadian_Castellan.abilities.faction.0"
+          "voice_of_command"
         ],
         "other": [
           {
@@ -7811,7 +7811,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Cadian_Castellan.abilities.faction.0"
+          "voice_of_command"
         ],
         "other": [
           {
@@ -10267,7 +10267,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Cadian_Castellan.abilities.faction.0"
+          "voice_of_command"
         ],
         "other": [
           {
@@ -11343,7 +11343,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Cadian_Castellan.abilities.faction.0"
+          "voice_of_command"
         ],
         "other": [
           {
@@ -11989,7 +11989,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Cadian_Castellan.abilities.faction.0"
+          "voice_of_command"
         ],
         "other": [
           {
@@ -12589,7 +12589,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Cadian_Castellan.abilities.faction.0"
+          "voice_of_command"
         ],
         "other": [
           {
@@ -19071,7 +19071,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Cadian_Castellan.abilities.faction.0"
+          "voice_of_command"
         ],
         "other": [
           {
@@ -21393,7 +21393,7 @@
   "rules": {
     "army": [
       {
-        "name": "datasheets.Cadian_Castellan.abilities.faction.0",
+        "name": "voice_of_command",
         "rule": [
           {
             "order": 1,

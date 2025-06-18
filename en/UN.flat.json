@@ -174,7 +174,7 @@
   "Monster": "Monster",
   "datasheets.Ambull.loadout": "This model is equipped with: enormous claws.",
   "enormous_claws": "Enormous claws",
-  "datasheets.Guardian_Drone.abilities.faction.0": "Unaligned Forces",
+  "unaligned_forces": "Unaligned Forces",
   "datasheets.Guardian_Drone.abilities.other.0.description": "While a friendly Spindle Drones unit is within 6 of this model, each time a model in that unit makes an attack, add 1 to the Hit roll.",
   "datasheets.Guardian_Drone.abilities.other.0.name": "Drone Commander (Aura)",
   "datasheets.Guardian_Drone.composition.0": "1 Guardian Drone",

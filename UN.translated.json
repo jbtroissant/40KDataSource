@@ -2191,7 +2191,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Guardian_Drone.abilities.faction.0"
+          "unaligned_forces"
         ],
         "other": [
           {
@@ -2429,7 +2429,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Guardian_Drone.abilities.faction.0"
+          "unaligned_forces"
         ],
         "other": [
           {
@@ -2857,6 +2857,6 @@
   "detachments": [],
   "id": "UN",
   "is_subfaction": false,
-  "name": "datasheets.Guardian_Drone.abilities.faction.0",
+  "name": "unaligned_forces",
   "parent_id": ""
 }

@@ -2,7 +2,7 @@
   "Deadly Demise D3": "Deadly Demise D3",
   "datasheets.Forgefiend.abilities.damaged.range": "1-4 WOUNDS REMAINING",
   "datasheets.Forgefiend.abilities.damaged.description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-  "datasheets.Forgefiend.abilities.faction.0": "Blessings of Khorne",
+  "blessings_of_khorne": "Blessings of Khorne",
   "datasheets.Forgefiend.abilities.other.0.name": "Furious Onslaught",
   "datasheets.Forgefiend.abilities.other.0.description": "Each time this model makes a ranged attack that targets the closest eligible target within 18\", you can re-roll the Hit roll.",
   "datasheets.Forgefiend.composition.0": "1 Forgefiend",

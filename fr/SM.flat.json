@@ -1,6 +1,6 @@
 {
   "Deadly Demise D3": "Deadly Demise D3",
-  "datasheets.Ravenwing_Darkshroud.abilities.faction.0": "Oath of Moment",
+  "oath_of_moment": "Oath of Moment",
   "Vehicle": "Vehicle",
   "Fly": "Fly",
   "Imperium": "Imperium",
@@ -247,7 +247,7 @@
   "force_weapon": "Force weapon",
   "smite_witchfire": "Smite – witchfire",
   "smite_focused_witchfire": "Smite – focused witchfire",
-  "datasheets.Watch_Captain_Artemis.abilities.faction.0": "Mission Tactics",
+  "mission_tactics": "Mission Tactics",
   "datasheets.Watch_Captain_Artemis.abilities.other.0.description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability.",
   "datasheets.Vulkan_Hestan.abilities.other.0.name": "Forgefather",
   "datasheets.Vulkan_Hestan.abilities.other.0.description": "In your Shooting phase, select one enemy unit within 24\" of and visible to this model. Until the end of the phase, each time a friendly ADEPTUS ASTARTES model makes a ranged attack with a Torrent or Melta weapon that targets that enemy unit, you can re-roll the Wound roll.",

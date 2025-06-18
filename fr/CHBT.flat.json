@@ -2,7 +2,7 @@
   "Deadly Demise D3": "Deadly Demise D3",
   "datasheets.Black_Templars_Gladiator_Reaper.abilities.damaged.range": "1-4 WOUNDS REMAINING",
   "datasheets.Black_Templars_Gladiator_Reaper.abilities.damaged.description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-  "datasheets.Black_Templars_Gladiator_Reaper.abilities.faction.0": "Oath of Moment",
+  "oath_of_moment": "Oath of Moment",
   "datasheets.Black_Templars_Gladiator_Reaper.abilities.other.0.name": "Rotating Death",
   "datasheets.Black_Templars_Gladiator_Reaper.abilities.other.0.description": "This model’s twin heavy onslaught gatling cannon has the [SUSTAINED HITS 2] ability when targeting INFANTRY units.",
   "datasheets.Black_Templars_Gladiator_Reaper.composition.0": "1 Gladiator Reaper",

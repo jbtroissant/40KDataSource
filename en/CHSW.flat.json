@@ -1,6 +1,6 @@
 {
   "Leader": "Leader",
-  "datasheets.Wolf_Guard_Pack_Leader.abilities.faction.0": "Oath of Moment",
+  "oath_of_moment": "Oath of Moment",
   "datasheets.Wolf_Guard_Pack_Leader.abilities.other.0.name": "Inspiring Leader",
   "datasheets.Wolf_Guard_Pack_Leader.abilities.other.0.description": "While this model is leading a unit, once per battle, when a Battle-shock test is taken for that unit, you can re-roll that test.",
   "datasheets.Wolf_Guard_Pack_Leader.abilities.other.1.name": "Pack Leader",

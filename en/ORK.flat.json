@@ -1,7 +1,7 @@
 {
   "Deadly Demise D3": "Deadly Demise D3",
   "Leader": "Leader",
-  "datasheets.Weirdboy.abilities.faction.0": "Waaagh!",
+  "waaagh": "Waaagh!",
   "datasheets.Weirdboy.abilities.other.0.name": "Waaagh! Energy",
   "datasheets.Weirdboy.abilities.other.0.description": "While this model is leading a unit, add 1 to the Strength and Damage characteristics of this model’s ’Eadbanger weapon for every 5 models in that unit (rounding down), but while that unit contains 10 or more models, that weapon has the [HAZARDOUS] ability.",
   "datasheets.Weirdboy.abilities.other.1.name": "Da Jump (Psychic)",

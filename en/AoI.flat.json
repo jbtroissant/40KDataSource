@@ -1,6 +1,6 @@
 {
   "Scouts 6\"": "Scouts 6\"",
-  "datasheets.Sanctifiers.abilities.faction.0": "Assigned Agents",
+  "assigned_agents": "Assigned Agents",
   "datasheets.Sanctifiers.abilities.other.0.name": "Ministorum Sermon",
   "datasheets.Sanctifiers.abilities.other.0.description": "While this unit contains a MINISTORUM PRIEST, each time a model in this unit makes a melee attack, add 1 to the Wound roll.",
   "datasheets.Sanctifiers.abilities.other.1.name": "Cherub",

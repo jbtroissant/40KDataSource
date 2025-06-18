@@ -22,7 +22,7 @@
   "Hover": "Hover",
   "datasheets.Manta.abilities.damaged.range": "1-20 WOUNDS REMAINING",
   "datasheets.Manta.abilities.damaged.description": "While this model has 1-20 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-  "datasheets.Manta.abilities.faction.0": "For the Greater Good",
+  "for_the_greater_good": "For the Greater Good",
   "datasheets.Manta.abilities.other.0.name": "Aggressive Deployment",
   "datasheets.Manta.abilities.other.0.description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this TRANSPORT this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll.",
   "datasheets.Manta.abilities.other.1.name": "Air Caste Colossus",

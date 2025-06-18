@@ -2,7 +2,7 @@
   "Deadly Demise D6": "Deadly Demise D6",
   "datasheets.Chaos_Land_Raider.abilities.damaged.range": "1-5 WOUNDS REMAINING",
   "datasheets.Chaos_Land_Raider.abilities.damaged.description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-  "datasheets.Chaos_Land_Raider.abilities.faction.0": "Thrill Seekers",
+  "thrill_seekers": "Thrill Seekers",
   "datasheets.Chaos_Land_Raider.abilities.other.0.name": "Assault Ramp",
   "datasheets.Chaos_Land_Raider.abilities.other.0.description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
   "datasheets.Chaos_Land_Raider.composition.0": "1 Chaos Land Raider",

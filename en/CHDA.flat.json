@@ -1,6 +1,6 @@
 {
   "Deadly Demise D3": "Deadly Demise D3",
-  "datasheets.Ravenwing_Darkshroud.abilities.faction.0": "Oath of Moment",
+  "oath_of_moment": "Oath of Moment",
   "datasheets.Ravenwing_Darkshroud.abilities.other.0.name": "Icon of Old Caliban (Aura)",
   "datasheets.Ravenwing_Darkshroud.abilities.other.0.description": "While a friendly ADEPTUS ASTARTES unit is within 6\" of this model, models in that unit have the Stealth ability and each time a ranged attack targets that unit, that unit has the Benefit of Cover against that attack.",
   "datasheets.Ravenwing_Darkshroud.composition.0": "1 Ravenwing Darkshroud",

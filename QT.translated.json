@@ -19,7 +19,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.War_Dog_Stalker.abilities.faction.0"
+          "harbingers_of_dread"
         ],
         "other": [
           {
@@ -216,8 +216,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.War_Dog_Stalker.abilities.faction.0",
-          "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.faction.1"
+          "harbingers_of_dread",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -371,7 +371,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.War_Dog_Stalker.abilities.faction.0"
+          "harbingers_of_dread"
         ],
         "other": [
           {
@@ -519,8 +519,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.War_Dog_Stalker.abilities.faction.0",
-          "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.faction.1"
+          "harbingers_of_dread",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -696,8 +696,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.War_Dog_Stalker.abilities.faction.0",
-          "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.faction.1"
+          "harbingers_of_dread",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -1021,8 +1021,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.War_Dog_Stalker.abilities.faction.0",
-          "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.faction.1"
+          "harbingers_of_dread",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -1211,8 +1211,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.War_Dog_Stalker.abilities.faction.0",
-          "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.faction.1"
+          "harbingers_of_dread",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -1396,8 +1396,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.War_Dog_Stalker.abilities.faction.0",
-          "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.faction.1"
+          "harbingers_of_dread",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -1558,8 +1558,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.War_Dog_Stalker.abilities.faction.0",
-          "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.faction.1"
+          "harbingers_of_dread",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -1724,8 +1724,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.War_Dog_Stalker.abilities.faction.0",
-          "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.faction.1"
+          "harbingers_of_dread",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -1859,8 +1859,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.War_Dog_Stalker.abilities.faction.0",
-          "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.faction.1"
+          "harbingers_of_dread",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -1997,8 +1997,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.War_Dog_Stalker.abilities.faction.0",
-          "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.faction.1"
+          "harbingers_of_dread",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -2248,8 +2248,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.War_Dog_Stalker.abilities.faction.0",
-          "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.faction.1"
+          "harbingers_of_dread",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -2449,7 +2449,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.War_Dog_Stalker.abilities.faction.0"
+          "harbingers_of_dread"
         ],
         "other": [
           {
@@ -2610,7 +2610,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.War_Dog_Stalker.abilities.faction.0"
+          "harbingers_of_dread"
         ],
         "other": [
           {
@@ -2777,8 +2777,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.War_Dog_Stalker.abilities.faction.0",
-          "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.faction.1"
+          "harbingers_of_dread",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -2979,7 +2979,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.War_Dog_Stalker.abilities.faction.0"
+          "harbingers_of_dread"
         ],
         "other": [
           {
@@ -3195,8 +3195,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.War_Dog_Stalker.abilities.faction.0",
-          "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.faction.1"
+          "harbingers_of_dread",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -3356,7 +3356,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.War_Dog_Stalker.abilities.faction.0"
+          "harbingers_of_dread"
         ],
         "other": [
           {
@@ -3865,7 +3865,7 @@
         ]
       },
       {
-        "name": "datasheets.War_Dog_Stalker.abilities.faction.0",
+        "name": "harbingers_of_dread",
         "rule": [
           {
             "order": 1,
@@ -3895,7 +3895,7 @@
         ]
       },
       {
-        "name": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.faction.1",
+        "name": "super_heavy_walker",
         "rule": [
           {
             "order": 1,

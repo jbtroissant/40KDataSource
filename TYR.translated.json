@@ -16,7 +16,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Mawloc.abilities.faction.0"
+          "synapse"
         ],
         "other": [
           {
@@ -126,8 +126,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tyranid_Warriors_with_Ranged_Bio_weapons.abilities.faction.0",
-          "datasheets.Mawloc.abilities.faction.0"
+          "shadow_in_the_warp",
+          "synapse"
         ],
         "other": [
           {
@@ -321,7 +321,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tyranid_Warriors_with_Ranged_Bio_weapons.abilities.faction.0",
+          "shadow_in_the_warp",
           "Synapse"
         ],
         "other": [
@@ -615,7 +615,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tyranid_Warriors_with_Ranged_Bio_weapons.abilities.faction.0",
+          "shadow_in_the_warp",
           "Synapse"
         ],
         "other": [
@@ -783,7 +783,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tyranid_Warriors_with_Ranged_Bio_weapons.abilities.faction.0",
+          "shadow_in_the_warp",
           "Synapse"
         ],
         "other": [
@@ -1279,7 +1279,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tyranid_Warriors_with_Ranged_Bio_weapons.abilities.faction.0",
+          "shadow_in_the_warp",
           "Synapse"
         ],
         "other": [
@@ -1626,7 +1626,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tyranid_Warriors_with_Ranged_Bio_weapons.abilities.faction.0",
+          "shadow_in_the_warp",
           "Synapse"
         ],
         "other": [
@@ -2294,7 +2294,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tyranid_Warriors_with_Ranged_Bio_weapons.abilities.faction.0",
+          "shadow_in_the_warp",
           "Synapse"
         ],
         "other": [
@@ -2719,7 +2719,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tyranid_Warriors_with_Ranged_Bio_weapons.abilities.faction.0",
+          "shadow_in_the_warp",
           "Synapse"
         ],
         "other": [
@@ -2948,7 +2948,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tyranid_Warriors_with_Ranged_Bio_weapons.abilities.faction.0",
+          "shadow_in_the_warp",
           "Synapse"
         ],
         "other": [
@@ -3206,7 +3206,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tyranid_Warriors_with_Ranged_Bio_weapons.abilities.faction.0",
+          "shadow_in_the_warp",
           "Synapse"
         ],
         "other": [
@@ -3470,7 +3470,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tyranid_Warriors_with_Ranged_Bio_weapons.abilities.faction.0",
+          "shadow_in_the_warp",
           "Synapse"
         ],
         "other": [
@@ -4366,7 +4366,7 @@
         },
         "faction": [
           "Synapse",
-          "datasheets.Tyranid_Warriors_with_Ranged_Bio_weapons.abilities.faction.0"
+          "shadow_in_the_warp"
         ],
         "other": [
           {
@@ -5238,7 +5238,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tyranid_Warriors_with_Ranged_Bio_weapons.abilities.faction.0",
+          "shadow_in_the_warp",
           "Synapse"
         ],
         "other": [
@@ -5500,7 +5500,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tyranid_Warriors_with_Ranged_Bio_weapons.abilities.faction.0",
+          "shadow_in_the_warp",
           "Synapse"
         ],
         "other": [
@@ -5886,7 +5886,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tyranid_Warriors_with_Ranged_Bio_weapons.abilities.faction.0",
+          "shadow_in_the_warp",
           "Synapse"
         ],
         "other": [
@@ -6603,7 +6603,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Tyranid_Warriors_with_Ranged_Bio_weapons.abilities.faction.0",
+          "shadow_in_the_warp",
           "Synapse"
         ],
         "other": [
@@ -7923,7 +7923,7 @@
   "rules": {
     "army": [
       {
-        "name": "datasheets.Tyranid_Warriors_with_Ranged_Bio_weapons.abilities.faction.0",
+        "name": "shadow_in_the_warp",
         "rule": [
           {
             "order": 1,

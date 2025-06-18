@@ -21,7 +21,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+          "teleport_assault"
         ],
         "other": [
           {
@@ -149,7 +149,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+          "teleport_assault"
         ],
         "other": [
           {
@@ -331,7 +331,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+          "teleport_assault"
         ],
         "other": [
           {
@@ -863,7 +863,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+          "teleport_assault"
         ],
         "other": [
           {
@@ -1320,7 +1320,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+          "teleport_assault"
         ],
         "other": [
           {
@@ -1838,7 +1838,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+          "teleport_assault"
         ],
         "other": [
           {
@@ -2424,7 +2424,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+          "teleport_assault"
         ],
         "other": [
           {
@@ -2630,7 +2630,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+          "teleport_assault"
         ],
         "other": [
           {
@@ -2780,7 +2780,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+          "teleport_assault"
         ],
         "other": [
           {
@@ -2996,7 +2996,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+          "teleport_assault"
         ],
         "other": [
           {
@@ -3191,7 +3191,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+          "teleport_assault"
         ],
         "other": [
           {
@@ -3789,7 +3789,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+          "teleport_assault"
         ],
         "other": [
           {
@@ -4268,7 +4268,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+          "teleport_assault"
         ],
         "other": [
           {
@@ -4454,7 +4454,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+          "teleport_assault"
         ],
         "other": [
           {
@@ -4614,7 +4614,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+          "teleport_assault"
         ],
         "other": [
           {
@@ -4745,7 +4745,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+          "teleport_assault"
         ],
         "other": [
           {
@@ -5286,7 +5286,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+          "teleport_assault"
         ],
         "other": [
           {
@@ -5488,7 +5488,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Brotherhood_Chaplain.abilities.faction.0"
+          "teleport_assault"
         ],
         "other": [
           {
@@ -6556,7 +6556,7 @@
   "rules": {
     "army": [
       {
-        "name": "datasheets.Brotherhood_Chaplain.abilities.faction.0",
+        "name": "teleport_assault",
         "rule": [
           {
             "order": 1,

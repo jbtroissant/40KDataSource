@@ -2,7 +2,7 @@
   "Deadly Demise D3": "Deadly Demise D3",
   "datasheets.Telemon_Heavy_Dreadnought.abilities.damaged.range": "1-4 WOUNDS REMAINING",
   "datasheets.Telemon_Heavy_Dreadnought.abilities.damaged.description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-  "datasheets.Telemon_Heavy_Dreadnought.abilities.faction.0": "Martial Ka’tah",
+  "martial_ka_tah": "Martial Ka’tah",
   "datasheets.Telemon_Heavy_Dreadnought.abilities.other.0.name": "Guardian Eternal",
   "datasheets.Telemon_Heavy_Dreadnought.abilities.other.0.description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.",
   "datasheets.Telemon_Heavy_Dreadnought.abilities.other.1.name": "Devoted to Destruction",

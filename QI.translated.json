@@ -19,8 +19,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+          "code_chivalric",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -185,8 +185,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+          "code_chivalric",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -419,8 +419,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+          "code_chivalric",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -673,8 +673,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+          "code_chivalric",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -927,8 +927,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+          "code_chivalric",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -1082,8 +1082,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+          "code_chivalric",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -1272,8 +1272,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+          "code_chivalric",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -1407,8 +1407,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+          "code_chivalric",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -1677,8 +1677,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+          "code_chivalric",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -1856,8 +1856,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+          "code_chivalric",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -1994,7 +1994,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.0"
+          "code_chivalric"
         ],
         "other": [
           {
@@ -2210,8 +2210,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+          "code_chivalric",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -2422,7 +2422,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.0"
+          "code_chivalric"
         ],
         "other": [
           {
@@ -2673,8 +2673,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+          "code_chivalric",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -2874,8 +2874,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+          "code_chivalric",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -3156,8 +3156,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+          "code_chivalric",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -3426,8 +3426,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+          "code_chivalric",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -3627,8 +3627,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+          "code_chivalric",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -3829,7 +3829,7 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.0"
+          "code_chivalric"
         ],
         "other": [
           {
@@ -3990,8 +3990,8 @@
           "showDescription": true
         },
         "faction": [
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
-          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
+          "code_chivalric",
+          "super_heavy_walker"
         ],
         "other": [
           {
@@ -4532,7 +4532,7 @@
         ]
       },
       {
-        "name": "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+        "name": "code_chivalric",
         "rule": [
           {
             "order": 1,
@@ -4572,7 +4572,7 @@
         ]
       },
       {
-        "name": "datasheets.Acastus_Knight_Asterius.abilities.faction.1",
+        "name": "super_heavy_walker",
         "rule": [
           {
             "order": 1,

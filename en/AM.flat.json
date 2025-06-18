@@ -35,7 +35,7 @@
   "datasheets.Scout_Sentinels.wargear.1": "Any number of models can each be equipped with 1 Sentinel chainsaw.",
   "datasheets.Scout_Sentinels.wargear.2": "Any number of models can each have their multi-laser replaced with one of the following: ◦ 1 autocannon ◦ 1 heavy flamer ◦ 1 lascannon ◦ 1 missile launcher ◦ 1 plasma cannon",
   "Leader": "Leader",
-  "datasheets.Cadian_Castellan.abilities.faction.0": "Voice of Command",
+  "voice_of_command": "Voice of Command",
   "datasheets.Cadian_Castellan.abilities.other.0.name": "Senior Officer",
   "datasheets.Cadian_Castellan.abilities.other.0.description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
   "datasheets.Cadian_Castellan.abilities.other.1.name": "Get Back in the Fight",

@@ -1,5 +1,5 @@
 {
-  "datasheets.Celestian_Sacresants.abilities.faction.0": "Acts of Faith",
+  "acts_of_faith": "Acts of Faith",
   "datasheets.Celestian_Sacresants.abilities.other.0.name": "Sworn Protectors",
   "datasheets.Celestian_Sacresants.abilities.other.0.description": "While an ADEPTA SORORITAS CHARACTER is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll.",
   "datasheets.Celestian_Sacresants.composition.0": "1 Sacresant Superior",

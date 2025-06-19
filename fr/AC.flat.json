@@ -592,7 +592,7 @@
   "detachments.Lions_of_the_Emperor.stratagems.Witch_Hunters.fluff": "Bien que chaque Custodien soit dévastateurement rapide sur le champ de bataille, avec des réactions préternaturelles à l'avenant, les Lions de l'Empereur se distinguent même parmi leurs pairs.",
   "rules.army.Martial_Katah.rule.0.text": "Chaque fois qu'une unité de votre armée avec cette capacité est sélectionnée pour combattre, sélectionnez l'une des Postures Ka’tah ci-dessous. Jusqu'à ce que l'unité ait terminé ses attaques, la Posture sélectionnée est active pour elle et elle obtient la capacité pertinente :",
   "rules.army.Martial_Katah.rule.1.text": "Posture Dacatari",
-  "rules.army.Martial_Katah.rule.2.text": "Les armes de mêlée équipées par les modèles de cette unité ont la capacité [COUPS SOUTENUS 1].",
+  "rules.army.Martial_Katah.rule.2.text": "Les armes de mêlée équipées par les modèles de cette unité ont la capacité [TOUCHES SOUTENUS 1].",
   "rules.army.Martial_Katah.rule.3.text": "Posture Rendax",
-  "rules.army.Martial_Katah.rule.4.text": "Les armes de mêlée équipées par les modèles de cette unité ont la capacité [COUPS MORTELS]."
+  "rules.army.Martial_Katah.rule.4.text": "Les armes de mêlée équipées par les modèles de cette unité ont la capacité [TOUCHES FATALES]."
 }

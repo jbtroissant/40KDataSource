@@ -185,7 +185,7 @@
   "datasheets.Knight_Centura.composition.0": "1 Knight-Centura",
   "datasheets.Knight_Centura.fluff": "Les Knight-Centuras sont les chefs des cadres des Sœurs du Silence et les gardiennes de leurs traditions. Elles ont gagné le respect de leurs Sœurs grâce à leurs années de service, leurs compétences de combat impeccables, leur maîtrise et leur contrôle en tant que Nulls et leurs connaissances encyclopédiques sur la meilleure façon de chasser la sorcière et le sorcier.",
   "Knight-Centura": "Knight-Centura",
-  "datasheets.Knight_Centura.leader": "Cette figurine peut être attachée aux unités suivantes : ■ PROSECUTEURS ■ VIGILATRICES ■ CHASSEUSES DE SORCIÈRES",
+  "datasheets.Knight_Centura.leader": "Cette figurine peut être attachée aux unités suivantes : ■ PROSECUTORS ■ VIGILATORS ■ RÉPOURGATRICES",
   "datasheets.Knight_Centura.loadout": "Cette figurine est équipée de : grande épée d'exécution.",
   "master_crafted_boltgun": "Bolter de maître",
   "datasheets.Knight_Centura.wargear.0": "La grande épée d'exécution de cette figurine peut être remplacée par l'un des éléments suivants : ■ 1 Bolter de maître et 1 arme de corps a coprs ■ 1 lance-flammes de répurgatrice et 1 arme de combat rapproché",
@@ -592,7 +592,7 @@
   "detachments.Lions_of_the_Emperor.stratagems.Witch_Hunters.fluff": "Bien que chaque Custodien soit dévastateurement rapide sur le champ de bataille, avec des réactions préternaturelles à l'avenant, les Lions de l'Empereur se distinguent même parmi leurs pairs.",
   "rules.army.Martial_Katah.rule.0.text": "Chaque fois qu'une unité de votre armée avec cette capacité est sélectionnée pour combattre, sélectionnez l'une des Postures Ka’tah ci-dessous. Jusqu'à ce que l'unité ait terminé ses attaques, la Posture sélectionnée est active pour elle et elle obtient la capacité pertinente :",
   "rules.army.Martial_Katah.rule.1.text": "Posture Dacatari",
-  "rules.army.Martial_Katah.rule.2.text": "Les armes de mêlée équipées par les modèles de cette unité ont la capacité [TOUCHES SOUTENUS 1].",
+  "rules.army.Martial_Katah.rule.2.text": "Les armes de mêlée équipées par les modèles de cette unité ont la capacité [COUPS SOUTENUS 1].",
   "rules.army.Martial_Katah.rule.3.text": "Posture Rendax",
-  "rules.army.Martial_Katah.rule.4.text": "Les armes de mêlée équipées par les modèles de cette unité ont la capacité [TOUCHES FATALES]."
+  "rules.army.Martial_Katah.rule.4.text": "Les armes de mêlée équipées par les modèles de cette unité ont la capacité [COUPS MORTELS]."
 }

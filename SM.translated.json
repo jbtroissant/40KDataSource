@@ -447,32 +447,32 @@
       ],
       "leadBy": [
         "Adrax Agatone",
-        "datasheets.Assault_Intercessor_Squad.leadBy.1",
-        "datasheets.Assault_Intercessor_Squad.leadBy.2",
+        "Techmarine",
+        "Ezekiel",
         "datasheets.Assault_Intercessor_Squad.leadBy.3",
-        "datasheets.Assault_Intercessor_Squad.leadBy.4",
-        "datasheets.Assault_Intercessor_Squad.leadBy.5",
-        "datasheets.Assault_Intercessor_Squad.leadBy.6",
-        "datasheets.Assault_Intercessor_Squad.leadBy.7",
-        "datasheets.Assault_Intercessor_Squad.leadBy.8",
-        "datasheets.Assault_Intercessor_Squad.leadBy.9",
-        "datasheets.Assault_Intercessor_Squad.leadBy.10",
-        "datasheets.Assault_Intercessor_Squad.leadBy.11",
-        "datasheets.Assault_Intercessor_Squad.leadBy.12",
-        "datasheets.Assault_Intercessor_Squad.leadBy.13",
-        "datasheets.Assault_Intercessor_Squad.leadBy.14",
-        "datasheets.Assault_Intercessor_Squad.leadBy.15",
+        "Librarian",
+        "Vulkan He’stan",
+        "Kor’sarro Khan",
+        "Sanguinary Priest",
+        "Judiciar",
+        "Marneus Calgar",
+        "High Marshal Helbrecht",
+        "Uriel Ventris",
+        "Azrael",
+        "Ragnar Blackmane",
+        "Castellan",
+        "Chief Librarian Tigurius",
         "datasheets.Assault_Intercessor_Squad.leadBy.16",
-        "datasheets.Assault_Intercessor_Squad.leadBy.17",
-        "datasheets.Assault_Intercessor_Squad.leadBy.18",
-        "datasheets.Assault_Intercessor_Squad.leadBy.19",
-        "datasheets.Assault_Intercessor_Squad.leadBy.20",
-        "datasheets.Assault_Intercessor_Squad.leadBy.21",
-        "datasheets.Assault_Intercessor_Squad.leadBy.22",
-        "datasheets.Assault_Intercessor_Squad.leadBy.23",
+        "Asmodai",
+        "Apothecary",
+        "Lieutenant",
+        "Ancient",
+        "Marshal",
+        "Lazarus",
+        "The Emperor’s Champion",
         "Captain",
         "datasheets.Assault_Intercessor_Squad.leadBy.25",
-        "datasheets.Assault_Intercessor_Squad.leadBy.26"
+        "Chaplain"
       ]
     },
     {
@@ -799,7 +799,7 @@
         ],
         "other": [
           {
-            "name": "datasheets.Assault_Intercessor_Squad.leadBy.1",
+            "name": "Techmarine",
             "description": "datasheets.Techmarine.abilities.other.0.description",
             "showAbility": true,
             "showDescription": true
@@ -1252,10 +1252,10 @@
       ],
       "leadBy": [
         "datasheets.Captain_in_Gravis_Armour.name",
-        "datasheets.Assault_Intercessor_Squad.leadBy.9",
-        "datasheets.Eradicator_Squad.leadBy.2",
+        "Marneus Calgar",
+        "Tor Garadon",
         "datasheets.Eradicator_Squad.leadBy.3",
-        "datasheets.Eradicator_Squad.leadBy.4"
+        "Iron Father Feirros"
       ]
     },
     {
@@ -2483,19 +2483,19 @@
         "Ezekiel",
         "datasheets.Assault_Intercessor_Squad.leadBy.3",
         "Kor’sarro Khan",
-        "datasheets.Assault_Intercessor_Squad.leadBy.8",
-        "datasheets.Assault_Intercessor_Squad.leadBy.9",
-        "datasheets.Assault_Intercessor_Squad.leadBy.11",
-        "datasheets.Assault_Intercessor_Squad.leadBy.12",
-        "datasheets.Assault_Intercessor_Squad.leadBy.13",
-        "datasheets.Assault_Intercessor_Squad.leadBy.15",
-        "datasheets.Assault_Intercessor_Squad.leadBy.17",
-        "datasheets.Assault_Intercessor_Squad.leadBy.19",
-        "datasheets.Bladeguard_Veteran_Squad.leadBy.12",
-        "datasheets.Assault_Intercessor_Squad.leadBy.22",
+        "Judiciar",
+        "Marneus Calgar",
+        "Uriel Ventris",
+        "Azrael",
+        "Ragnar Blackmane",
+        "Chief Librarian Tigurius",
+        "Asmodai",
+        "Lieutenant",
+        "Pedro Kantor",
+        "Lazarus",
         "Captain",
-        "datasheets.Assault_Intercessor_Squad.leadBy.26",
-        "datasheets.Bladeguard_Veteran_Squad.leadBy.16"
+        "Chaplain",
+        "Bladeguard Ancient"
       ]
     },
     {
@@ -3125,10 +3125,10 @@
         "units": [
           "Assault Intercessor Squad",
           "Bladeguard Veteran Squad",
-          "datasheets.Judiciar.leads.units.2",
-          "datasheets.Judiciar.leads.units.3",
-          "datasheets.Judiciar.leads.units.4",
-          "datasheets.Judiciar.leads.units.5"
+          "Infernus Squad",
+          "Intercessor Squad",
+          "Sternguard Veteran Squad",
+          "Tactical Squad"
         ],
         "extra": ""
       }
@@ -5456,9 +5456,9 @@
         "Techmarine",
         "Librarian",
         "Sanguinary Priest",
-        "datasheets.Assault_Intercessor_Squad.leadBy.15",
-        "datasheets.Assault_Intercessor_Squad.leadBy.18",
-        "datasheets.Assault_Intercessor_Squad.leadBy.20"
+        "Chief Librarian Tigurius",
+        "Apothecary",
+        "Ancient"
       ]
     },
     {
@@ -6431,10 +6431,10 @@
         "Librarian",
         "Sanguinary Priest",
         "Azrael",
-        "datasheets.Assault_Intercessor_Squad.leadBy.17",
-        "datasheets.Assault_Intercessor_Squad.leadBy.18",
+        "Asmodai",
+        "Apothecary",
         "Lieutenant",
-        "datasheets.Assault_Intercessor_Squad.leadBy.20",
+        "Ancient",
         "Captain",
         "Chaplain"
       ]
@@ -6598,9 +6598,9 @@
       "leadBy": [
         "datasheets.Captain_in_Gravis_Armour.name",
         "Marneus Calgar",
-        "datasheets.Eradicator_Squad.leadBy.2",
+        "Tor Garadon",
         "datasheets.Eradicator_Squad.leadBy.3",
-        "datasheets.Eradicator_Squad.leadBy.4"
+        "Iron Father Feirros"
       ]
     },
     {
@@ -6874,8 +6874,8 @@
       "leadBy": [
         "High Marshal Helbrecht",
         "Castellan",
-        "datasheets.Assault_Intercessor_Squad.leadBy.21",
-        "datasheets.Assault_Intercessor_Squad.leadBy.23",
+        "Marshal",
+        "The Emperor’s Champion",
         "datasheets.Assault_Intercessor_Squad.leadBy.25"
       ]
     },
@@ -9800,7 +9800,7 @@
           "active": true,
           "ld": "6+",
           "m": "12\"",
-          "name": "datasheets.Outrider_Squad.stats.1.name",
+          "name": "Invader ATV",
           "oc": "2",
           "showDamagedMarker": false,
           "showName": true,
@@ -10011,7 +10011,7 @@
         "Sanguinary Priest",
         "Chief Librarian Tigurius",
         "Apothecary",
-        "datasheets.Assault_Intercessor_Squad.leadBy.20"
+        "Ancient"
       ]
     },
     {
@@ -10889,9 +10889,9 @@
         "Asmodai",
         "Apothecary",
         "Lieutenant",
-        "datasheets.Assault_Intercessor_Squad.leadBy.20",
-        "datasheets.Bladeguard_Veteran_Squad.leadBy.12",
-        "datasheets.Assault_Intercessor_Squad.leadBy.22",
+        "Ancient",
+        "Pedro Kantor",
+        "Lazarus",
         "Captain",
         "Chaplain"
       ]
@@ -12350,7 +12350,7 @@
       "leadBy": [
         "Kayvaan Shrike",
         "datasheets.Captain_with_Jump_Pack.name",
-        "datasheets.Assault_Intercessors_with_Jump_Packs.leadBy.2",
+        "Commander Dante",
         "datasheets.Assault_Intercessors_with_Jump_Packs.leadBy.3"
       ]
     },
@@ -12642,7 +12642,7 @@
         "High Marshal Helbrecht",
         "Castellan",
         "Marshal",
-        "datasheets.Assault_Intercessor_Squad.leadBy.23",
+        "The Emperor’s Champion",
         "datasheets.Assault_Intercessor_Squad.leadBy.25"
       ]
     },
@@ -13155,7 +13155,7 @@
         "special": [
           {
             "description": "datasheets.Company_Heroes.abilities.special.0.description",
-            "name": "datasheets.Company_Heroes.abilities.special.0.name",
+            "name": "Company Heroes",
             "showAbility": true,
             "showDescription": true
           }
@@ -13673,7 +13673,7 @@
         "Marneus Calgar",
         "Tor Garadon",
         "datasheets.Eradicator_Squad.leadBy.3",
-        "datasheets.Eradicator_Squad.leadBy.4"
+        "Iron Father Feirros"
       ]
     },
     {
@@ -29876,7 +29876,7 @@
         "other": [
           {
             "description": "datasheets.Ultramarines_Honour_Guard.abilities.other.0.description",
-            "name": "datasheets.Ultramarines_Honour_Guard.abilities.other.0.name",
+            "name": "Honour Guard",
             "showAbility": true,
             "showDescription": true
           },
@@ -31477,7 +31477,7 @@
   "rules": {
     "army": [
       {
-        "name": "rules.army.Oath_of_Moment.name",
+        "name": "oath_of_moment",
         "rule": [
           {
             "order": 1,

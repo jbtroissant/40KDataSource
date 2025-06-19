@@ -1390,8 +1390,8 @@
         "datasheets.Contemptor_Galatus_Dreadnought.wargear.0"
       ],
       "leadBy": [
-        "datasheets.Vigilators.leadBy.0",
-        "datasheets.Vigilators.leadBy.1"
+        "Knight-Centura",
+        "Aleya"
       ]
     },
     {
@@ -1426,7 +1426,7 @@
         "special": [
           {
             "description": "datasheets.Sagittarum_Custodians.abilities.special.0.description",
-            "name": "datasheets.Sagittarum_Custodians.abilities.special.0.name",
+            "name": "Custodian Guard",
             "showAbility": true,
             "showDescription": true
           }
@@ -1654,8 +1654,8 @@
         "datasheets.Contemptor_Galatus_Dreadnought.wargear.0"
       ],
       "leadBy": [
-        "datasheets.Vigilators.leadBy.0",
-        "datasheets.Vigilators.leadBy.1"
+        "Knight-Centura",
+        "Aleya"
       ]
     },
     {
@@ -1983,9 +1983,9 @@
       ],
       "leadBy": [
         "Blade Champion",
-        "datasheets.Custodian_Guard.leadBy.1",
+        "Valerian",
         "Shield-Captain",
-        "datasheets.Custodian_Guard.leadBy.3"
+        "Trajann Valoris"
       ]
     },
     {
@@ -3077,9 +3077,9 @@
       ],
       "leadBy": [
         "Blade Champion",
-        "datasheets.Custodian_Guard.leadBy.1",
+        "Valerian",
         "Shield-Captain",
-        "datasheets.Custodian_Guard.leadBy.3"
+        "Trajann Valoris"
       ]
     },
     {

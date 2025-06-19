@@ -12676,14 +12676,7 @@
           }
         ],
         "primarch": [],
-        "special": [
-          {
-            "description": "datasheets.Lieutenant_Titus.abilities.special.0.description",
-            "name": "datasheets.Lieutenant_Titus.abilities.special.0.name",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
+        "special": [],
         "wargear": []
       },
       "cardType": "DataCard",
@@ -12706,7 +12699,7 @@
         "Lieutenant",
         "Titus"
       ],
-      "leader": "",
+      "leader": "datasheets_lieutenant_titus_leader",
       "loadout": "datasheets.Death_Company_Captain_with_Jump_Pack.loadout",
       "meleeWeapons": [
         {

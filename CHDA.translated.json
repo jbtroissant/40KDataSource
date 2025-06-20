@@ -327,8 +327,8 @@
         "datasheets.Ravenwing_Black_Knights.wargear.0"
       ],
       "leadBy": [
-        "datasheets.Ravenwing_Black_Knights.leadBy.0",
-        "datasheets.Ravenwing_Black_Knights.leadBy.1"
+        "Ravenwing Command Squad",
+        "Sammael"
       ]
     },
     {
@@ -789,7 +789,11 @@
         "datasheets.Deathwing_Terminator_Squad.wargear.2"
       ],
       "leadBy": [
-        "datasheets.Deathwing_Terminator_Squad.leadBy.0"
+        "Belial",
+        "chaplain_terminator_armour",
+        "captain_terminator_armour",
+        "librarian_terminator_armour",
+        "ancien_terminator_armour"
       ]
     },
     {
@@ -932,14 +936,19 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "datasheets.Ezekiel.wargear.0"
-      ],
+      "wargear": [],
       "leadBy": [
         "Ezekiel",
-        "datasheets.Inner_Circle_Companions.leadBy.1",
-        "datasheets.Inner_Circle_Companions.leadBy.2",
-        "datasheets.Inner_Circle_Companions.leadBy.3"
+        "Azrael",
+        "Asmodai",
+        "Lazarus",
+        "judiciar",
+        "Chaplain",
+        "apothecary_name",
+        "Ancient",
+        "Librarian",
+        "Lieutenant",
+        "capitain_name"
       ]
     },
     {
@@ -1742,7 +1751,7 @@
         "datasheets.Deathwing_Knights.wargear.2"
       ],
       "leadBy": [
-        "datasheets.Deathwing_Terminator_Squad.leadBy.0"
+        "Belial"
       ]
     },
     {

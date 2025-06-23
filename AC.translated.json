@@ -4782,9 +4782,7 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "datasheets.Contemptor_Galatus_Dreadnought.wargear.0"
-      ],
+      "wargear": [],
       "leads": {
         "units": [
           "datasheets.Blade_Champion.leads.units.0",

@@ -1081,9 +1081,7 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "datasheets.Ezekiel.wargear.0"
-      ],
+      "wargear": [],
       "leads": {
         "units": [
           "datasheets.Ezekiel.leads.units.0",

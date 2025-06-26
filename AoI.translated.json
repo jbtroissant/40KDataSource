@@ -19,7 +19,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -94,7 +94,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "burning_hands",
+              "name": "datasheets.Sanctifiers.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -110,7 +110,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "close_combat_weapon",
+              "name": "datasheets.Sanctifiers.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -128,7 +128,7 @@
               "keywords": [
                 "Precision"
               ],
-              "name": "death_cult_blades",
+              "name": "datasheets.Sanctifiers.meleeWeapons.2.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -144,7 +144,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "sanctifier_melee_weapon",
+              "name": "datasheets.Sanctifiers.meleeWeapons.3.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -175,7 +175,7 @@
                 "One Shot",
                 "Ignores Cover"
               ],
-              "name": "holy_fire",
+              "name": "datasheets.Sanctifiers.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -201,7 +201,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "plasma_gun_standard",
+              "name": "datasheets.Sanctifiers.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
               "skill": "4+",
               "strength": "7"
@@ -215,7 +215,7 @@
                 "Rapid Fire 1",
                 "Hazardous"
               ],
-              "name": "plasma_gun_supercharge",
+              "name": "datasheets.Sanctifiers.rangedWeapons.1.profiles.1.name",
               "range": "24\"",
               "skill": "4+",
               "strength": "8"
@@ -234,7 +234,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "ministorum_flamer",
+              "name": "datasheets.Sanctifiers.rangedWeapons.2.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -254,7 +254,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "ministorum_hand_flamer",
+              "name": "datasheets.Sanctifiers.rangedWeapons.3.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -272,7 +272,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "meltagun",
+              "name": "datasheets.Sanctifiers.rangedWeapons.4.profiles.0.name",
               "range": "12\"",
               "skill": "4+",
               "strength": "9"
@@ -369,7 +369,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -421,7 +421,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "master_crafted_power_weapon",
+              "name": "datasheets.Watch_Captain_Artemis.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -459,7 +459,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "hellfire_extremis",
+              "name": "datasheets.Watch_Captain_Artemis.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -507,7 +507,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -551,7 +551,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "armoured_tracks",
+              "name": "datasheets.Inquisitorial_Chimera.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -584,7 +584,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "multi_laser",
+              "name": "datasheets.Inquisitorial_Chimera.rangedWeapons.0.profiles.0.name",
               "range": "36\"",
               "skill": "4+",
               "strength": "6"
@@ -602,7 +602,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "heavy_bolter",
+              "name": "datasheets.Inquisitorial_Chimera.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "4+",
               "strength": "5"
@@ -620,7 +620,7 @@
               "keywords": [
                 "Rapid Fire 6"
               ],
-              "name": "lasgun_array",
+              "name": "datasheets.Inquisitorial_Chimera.rangedWeapons.2.profiles.0.name",
               "range": "24\"",
               "skill": "4+",
               "strength": "3"
@@ -639,7 +639,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "heavy_flamer",
+              "name": "datasheets.Inquisitorial_Chimera.rangedWeapons.3.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -657,7 +657,7 @@
               "keywords": [
                 "Rapid Fire 3"
               ],
-              "name": "heavy_stubber",
+              "name": "datasheets.Inquisitorial_Chimera.rangedWeapons.4.profiles.0.name",
               "range": "36\"",
               "skill": "4+",
               "strength": "4"
@@ -675,7 +675,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "storm_bolter",
+              "name": "datasheets.Inquisitorial_Chimera.rangedWeapons.5.profiles.0.name",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -693,7 +693,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "hunter_killer_missile",
+              "name": "datasheets.Inquisitorial_Chimera.rangedWeapons.6.profiles.0.name",
               "range": "48\"",
               "skill": "4+",
               "strength": "14"
@@ -747,7 +747,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -807,7 +807,7 @@
                 "Precision",
                 "Lethal Hits"
               ],
-              "name": "phase_sword_and_poison_blades",
+              "name": "datasheets.Callidus_Assassin.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -850,7 +850,7 @@
                 "Precision",
                 "Anti-infantry 2+"
               ],
-              "name": "neural_shredder",
+              "name": "datasheets.Callidus_Assassin.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -891,7 +891,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -950,7 +950,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "master_crafted_power_sword",
+              "name": "datasheets.Inquisitor_Greyfax.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -988,7 +988,7 @@
                 "Devastating Wounds",
                 "Anti-character 4+"
               ],
-              "name": "castigation",
+              "name": "datasheets.Inquisitor_Greyfax.rangedWeapons.0.profiles.0.name",
               "range": "18\"",
               "skill": "3+",
               "strength": "8"
@@ -1009,7 +1009,7 @@
                 "Devastating Wounds",
                 "Anti-psyker 2+"
               ],
-              "name": "condemnor_stake",
+              "name": "datasheets.Inquisitor_Greyfax.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1062,7 +1062,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -1107,7 +1107,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "armoured_tracks",
+              "name": "datasheets.Inquisitorial_Chimera.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -1142,7 +1142,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "heavy_bolter",
+              "name": "datasheets.Inquisitorial_Chimera.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -1161,7 +1161,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "immolation_flamers",
+              "name": "datasheets.Sisters_of_Battle_Immolator.rangedWeapons.1.profiles.0.name",
               "range": "18\"",
               "skill": "N/A",
               "strength": "6"
@@ -1180,7 +1180,7 @@
                 "Twin-linked",
                 "Sustained Hits 2"
               ],
-              "name": "twin_heavy_bolter",
+              "name": "datasheets.Sisters_of_Battle_Immolator.rangedWeapons.2.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -1199,7 +1199,7 @@
                 "Twin-linked",
                 "Melta 2"
               ],
-              "name": "twin_multi_melta",
+              "name": "datasheets.Sisters_of_Battle_Immolator.rangedWeapons.3.profiles.0.name",
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
@@ -1217,7 +1217,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "hunter_killer_missile",
+              "name": "datasheets.Inquisitorial_Chimera.rangedWeapons.6.profiles.0.name",
               "range": "48\"",
               "skill": "2+",
               "strength": "14"
@@ -1265,7 +1265,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -1323,7 +1323,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "agent_melee_weapon",
+              "name": "datasheets.Inquisitorial_Agents.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -1341,7 +1341,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "eviscerator",
+              "name": "datasheets.Inquisitorial_Agents.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -1360,7 +1360,7 @@
                 "Psychic",
                 "Anti-infantry 4+"
               ],
-              "name": "mystic_stave",
+              "name": "datasheets.Inquisitorial_Agents.meleeWeapons.2.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -1419,7 +1419,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "agent_firearm",
+              "name": "datasheets.Inquisitorial_Agents.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -1437,7 +1437,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "plasma_pistol_standard",
+              "name": "datasheets.Inquisitorial_Agents.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -1451,7 +1451,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "plasma_pistol_supercharge",
+              "name": "datasheets.Inquisitorial_Agents.rangedWeapons.1.profiles.1.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -1470,7 +1470,7 @@
                 "Sustained Hits 1",
                 "Heavy"
               ],
-              "name": "heavy_bolter",
+              "name": "datasheets.Inquisitorial_Chimera.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "4+",
               "strength": "5"
@@ -1489,7 +1489,7 @@
                 "Melta 2",
                 "Heavy"
               ],
-              "name": "multi_melta",
+              "name": "datasheets.Inquisitorial_Agents.rangedWeapons.3.profiles.0.name",
               "range": "18\"",
               "skill": "4+",
               "strength": "9"
@@ -1508,7 +1508,7 @@
                 "Blast",
                 "Heavy"
               ],
-              "name": "plasma_cannon_standard",
+              "name": "datasheets.Inquisitorial_Agents.rangedWeapons.4.profiles.0.name",
               "range": "36\"",
               "skill": "4+",
               "strength": "7"
@@ -1523,7 +1523,7 @@
                 "Hazardous",
                 "Blast"
               ],
-              "name": "plasma_cannon_supercharge",
+              "name": "datasheets.Inquisitorial_Agents.rangedWeapons.4.profiles.1.name",
               "range": "36\"",
               "skill": "4+",
               "strength": "8"
@@ -1575,7 +1575,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -1637,7 +1637,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "inquisitorial_melee_weapon",
+              "name": "datasheets.Inquisitor.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -1655,7 +1655,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "force_weapon",
+              "name": "datasheets.Inquisitor.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -1690,7 +1690,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "bolt_pistol",
+              "name": "datasheets.Inquisitor.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -1710,7 +1710,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "combi_weapon",
+              "name": "datasheets.Inquisitor.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1730,7 +1730,7 @@
                 "Psychic",
                 "Devastating Wounds"
               ],
-              "name": "psychic_shock_wave",
+              "name": "datasheets.Inquisitor.rangedWeapons.2.profiles.0.name",
               "range": "18\"",
               "skill": "N/A",
               "strength": "3"
@@ -1787,7 +1787,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -1856,7 +1856,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "nemesis_force_weapon",
+              "name": "datasheets.Grey_Knights_Terminator_Squad.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -1891,7 +1891,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "storm_bolter",
+              "name": "datasheets.Inquisitorial_Chimera.rangedWeapons.5.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -1910,7 +1910,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "incinerator",
+              "name": "datasheets.Grey_Knights_Terminator_Squad.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -1929,7 +1929,7 @@
                 "Sustained Hits 1",
                 "Psychic"
               ],
-              "name": "psilencer",
+              "name": "datasheets.Grey_Knights_Terminator_Squad.rangedWeapons.2.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "5"
@@ -1947,7 +1947,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "psycannon",
+              "name": "datasheets.Grey_Knights_Terminator_Squad.rangedWeapons.3.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -1993,7 +1993,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -2046,7 +2046,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "close_combat_weapon",
+              "name": "datasheets.Sanctifiers.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -2062,7 +2062,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "vicious_bite",
+              "name": "datasheets.Voidsmen_at_Arms.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -2097,7 +2097,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "artificer_shotgun",
+              "name": "datasheets.Voidsmen_at_Arms.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "4+",
               "strength": "4"
@@ -2115,7 +2115,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "laspistol",
+              "name": "datasheets.Voidsmen_at_Arms.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
               "skill": "4+",
               "strength": "3"
@@ -2134,7 +2134,7 @@
                 "Sustained Hits 1",
                 "Heavy"
               ],
-              "name": "voidsman_rotor_cannon",
+              "name": "datasheets.Voidsmen_at_Arms.rangedWeapons.2.profiles.0.name",
               "range": "24\"",
               "skill": "5+",
               "strength": "6"
@@ -2152,7 +2152,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "lasgun",
+              "name": "datasheets.Voidsmen_at_Arms.rangedWeapons.3.profiles.0.name",
               "range": "24\"",
               "skill": "4+",
               "strength": "3"
@@ -2193,7 +2193,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -2253,7 +2253,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "power_weapon",
+              "name": "datasheets.Deathwatch_Kill_Team.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -2271,7 +2271,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "deathwatch_thunder_hammer",
+              "name": "datasheets.Deathwatch_Kill_Team.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "10"
@@ -2287,7 +2287,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "close_combat_weapon",
+              "name": "datasheets.Sanctifiers.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -2305,7 +2305,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "black_shield_blades",
+              "name": "datasheets.Deathwatch_Kill_Team.meleeWeapons.3.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -2323,7 +2323,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "xenophase_blade",
+              "name": "datasheets.Deathwatch_Kill_Team.meleeWeapons.4.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -2368,7 +2368,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "boltgun",
+              "name": "datasheets.Deathwatch_Kill_Team.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -2388,7 +2388,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "combi_weapon",
+              "name": "datasheets.Inquisitor.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -2407,7 +2407,7 @@
                 "Precision",
                 "Heavy"
               ],
-              "name": "stalker_pattern_boltgun",
+              "name": "datasheets.Deathwatch_Kill_Team.rangedWeapons.2.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -2425,7 +2425,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "deathwatch_shotgun",
+              "name": "datasheets.Deathwatch_Kill_Team.rangedWeapons.3.profiles.0.name",
               "range": "18\"",
               "skill": "3+",
               "strength": "4"
@@ -2445,7 +2445,7 @@
                 "Heavy",
                 "Blast"
               ],
-              "name": "frag_cannon",
+              "name": "datasheets.Deathwatch_Kill_Team.rangedWeapons.4.profiles.0.name",
               "range": "18\"",
               "skill": "4+",
               "strength": "7"
@@ -2464,7 +2464,7 @@
                 "Sustained Hits 1",
                 "Heavy"
               ],
-              "name": "infernus_heavy_bolter_heavy_bolter",
+              "name": "datasheets.Deathwatch_Kill_Team.rangedWeapons.5.profiles.0.name",
               "range": "36\"",
               "skill": "4+",
               "strength": "5"
@@ -2478,7 +2478,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "infernus_heavy_bolter_heavy_flamer",
+              "name": "datasheets.Deathwatch_Kill_Team.rangedWeapons.5.profiles.1.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -2546,7 +2546,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -2608,7 +2608,7 @@
                 "Precision",
                 "Anti-infantry 3+"
               ],
-              "name": "power_sword_and_neuro_gauntlet",
+              "name": "datasheets.Eversor_Assassin.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "5"
@@ -2652,7 +2652,7 @@
                 "Pistol",
                 "Anti-infantry 3+"
               ],
-              "name": "executioner_pistol",
+              "name": "datasheets.Eversor_Assassin.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "2+",
               "strength": "4"
@@ -2694,7 +2694,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -2738,7 +2738,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "armoured_tracks",
+              "name": "datasheets.Inquisitorial_Chimera.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -2773,7 +2773,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "storm_bolter",
+              "name": "datasheets.Inquisitorial_Chimera.rangedWeapons.5.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -2791,7 +2791,7 @@
               "keywords": [
                 "One Shot"
               ],
-              "name": "hunter_killer_missile",
+              "name": "datasheets.Inquisitorial_Chimera.rangedWeapons.6.profiles.0.name",
               "range": "48\"",
               "skill": "2+",
               "strength": "14"
@@ -2841,7 +2841,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -2899,7 +2899,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "vindicare_combat_knife",
+              "name": "datasheets.Vindicare_Assassin.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -2943,7 +2943,7 @@
                 "Ignores Cover",
                 "Devastating Wounds"
               ],
-              "name": "exitus_pistol",
+              "name": "datasheets.Vindicare_Assassin.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "2+",
               "strength": "6"
@@ -2964,7 +2964,7 @@
                 "Heavy",
                 "Devastating Wounds"
               ],
-              "name": "exitus_rifle",
+              "name": "datasheets.Vindicare_Assassin.rangedWeapons.1.profiles.0.name",
               "range": "48\"",
               "skill": "2+",
               "strength": "8"
@@ -3003,7 +3003,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -3068,7 +3068,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "close_combat_weapon",
+              "name": "datasheets.Sanctifiers.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -3084,7 +3084,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "excruciator_maul",
+              "name": "datasheets.Exaction_Squad.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -3100,7 +3100,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "mechanical_bite",
+              "name": "datasheets.Exaction_Squad.meleeWeapons.2.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -3135,7 +3135,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "arbites_combat_shotgun",
+              "name": "datasheets.Exaction_Squad.rangedWeapons.0.profiles.0.name",
               "range": "18\"",
               "skill": "4+",
               "strength": "4"
@@ -3153,7 +3153,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "arbites_shotpistol",
+              "name": "datasheets.Exaction_Squad.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
               "skill": "4+",
               "strength": "4"
@@ -3172,7 +3172,7 @@
                 "Precision",
                 "Ignores Cover"
               ],
-              "name": "executioner_shotgun",
+              "name": "datasheets.Exaction_Squad.rangedWeapons.2.profiles.0.name",
               "range": "24\"",
               "skill": "4+",
               "strength": "5"
@@ -3188,7 +3188,7 @@
               "attacks": "1",
               "damage": "D3",
               "keywords": [],
-              "name": "arbites_grenade_launcher_krak",
+              "name": "datasheets.Exaction_Squad.rangedWeapons.3.profiles.0.name",
               "range": "24\"",
               "skill": "4+",
               "strength": "9"
@@ -3201,7 +3201,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "arbites_grenade_launcher_frag",
+              "name": "datasheets.Exaction_Squad.rangedWeapons.3.profiles.1.name",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -3219,7 +3219,7 @@
               "keywords": [
                 "Rapid Fire 3"
               ],
-              "name": "heavy_stubber",
+              "name": "datasheets.Inquisitorial_Chimera.rangedWeapons.4.profiles.0.name",
               "range": "36\"",
               "skill": "4+",
               "strength": "4"
@@ -3239,7 +3239,7 @@
                 "Devastating Wounds",
                 "Assault"
               ],
-              "name": "webber",
+              "name": "datasheets.Exaction_Squad.rangedWeapons.5.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "2"
@@ -3289,7 +3289,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -3355,7 +3355,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "close_combat_weapon",
+              "name": "datasheets.Sanctifiers.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -3371,7 +3371,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "power_weapon",
+              "name": "datasheets.Deathwatch_Kill_Team.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -3389,7 +3389,7 @@
               "keywords": [
                 "Anti-vehicle 3+"
               ],
-              "name": "chainfist",
+              "name": "datasheets.Imperial_Navy_Breachers.meleeWeapons.2.profiles.0.name",
               "range": "Melee",
               "skill": "5+",
               "strength": "6"
@@ -3405,7 +3405,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "chainsword",
+              "name": "datasheets.Imperial_Navy_Breachers.meleeWeapons.3.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -3440,7 +3440,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "navis_shotgun",
+              "name": "datasheets.Imperial_Navy_Breachers.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "4+",
               "strength": "4"
@@ -3458,7 +3458,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "autopistol",
+              "name": "datasheets.Imperial_Navy_Breachers.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
               "skill": "4+",
               "strength": "3"
@@ -3479,7 +3479,7 @@
                 "Blast",
                 "Assault"
               ],
-              "name": "demolition_charge",
+              "name": "datasheets.Imperial_Navy_Breachers.rangedWeapons.2.profiles.0.name",
               "range": "6\"",
               "skill": "5+",
               "strength": "9"
@@ -3505,7 +3505,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "bolt_pistol",
+              "name": "datasheets.Inquisitor.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "4+",
               "strength": "4"
@@ -3521,7 +3521,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "navis_las_volley",
+              "name": "datasheets.Imperial_Navy_Breachers.rangedWeapons.4.profiles.0.name",
               "range": "18\"",
               "skill": "4+",
               "strength": "6"
@@ -3539,7 +3539,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "meltagun",
+              "name": "datasheets.Sanctifiers.rangedWeapons.4.profiles.0.name",
               "range": "12\"",
               "skill": "4+",
               "strength": "9"
@@ -3557,7 +3557,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "plasma_gun_standard",
+              "name": "datasheets.Sanctifiers.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
               "skill": "4+",
               "strength": "7"
@@ -3571,7 +3571,7 @@
                 "Rapid Fire 1",
                 "Hazardous"
               ],
-              "name": "plasma_gun_supercharge",
+              "name": "datasheets.Sanctifiers.rangedWeapons.1.profiles.1.name",
               "range": "24\"",
               "skill": "4+",
               "strength": "8"
@@ -3589,7 +3589,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "navis_heavy_shotgun",
+              "name": "datasheets.Imperial_Navy_Breachers.rangedWeapons.7.profiles.0.name",
               "range": "12\"",
               "skill": "4+",
               "strength": "4"
@@ -3644,7 +3644,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -3712,7 +3712,7 @@
                 "Devastating Wounds",
                 "Anti-psyker 2+"
               ],
-              "name": "life_draining_touch",
+              "name": "datasheets.Culexus_Assassin.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -3756,7 +3756,7 @@
                 "Assault",
                 "Anti-psyker 2+"
               ],
-              "name": "animus_speculum",
+              "name": "datasheets.Culexus_Assassin.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
               "skill": "2+",
               "strength": "5"
@@ -3803,7 +3803,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -3857,7 +3857,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "close_combat_weapon",
+              "name": "datasheets.Sanctifiers.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -3873,7 +3873,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "mechanical_bite",
+              "name": "datasheets.Exaction_Squad.meleeWeapons.2.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -3908,7 +3908,7 @@
               "keywords": [
                 "Assault"
               ],
-              "name": "arbites_combat_shotgun",
+              "name": "datasheets.Exaction_Squad.rangedWeapons.0.profiles.0.name",
               "range": "18\"",
               "skill": "4+",
               "strength": "4"
@@ -3926,7 +3926,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "arbites_shotpistol",
+              "name": "datasheets.Exaction_Squad.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
               "skill": "4+",
               "strength": "4"
@@ -3945,7 +3945,7 @@
                 "Precision",
                 "Ignores Cover"
               ],
-              "name": "executioner_shotgun",
+              "name": "datasheets.Exaction_Squad.rangedWeapons.2.profiles.0.name",
               "range": "24\"",
               "skill": "4+",
               "strength": "5"
@@ -3961,7 +3961,7 @@
               "attacks": "1",
               "damage": "D3",
               "keywords": [],
-              "name": "arbites_grenade_launcher_krak",
+              "name": "datasheets.Exaction_Squad.rangedWeapons.3.profiles.0.name",
               "range": "24\"",
               "skill": "4+",
               "strength": "9"
@@ -3974,7 +3974,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "arbites_grenade_launcher_frag",
+              "name": "datasheets.Exaction_Squad.rangedWeapons.3.profiles.1.name",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -3992,7 +3992,7 @@
               "keywords": [
                 "Rapid Fire 3"
               ],
-              "name": "heavy_stubber",
+              "name": "datasheets.Inquisitorial_Chimera.rangedWeapons.4.profiles.0.name",
               "range": "36\"",
               "skill": "4+",
               "strength": "4"
@@ -4012,7 +4012,7 @@
                 "Devastating Wounds",
                 "Assault"
               ],
-              "name": "webber",
+              "name": "datasheets.Exaction_Squad.rangedWeapons.5.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "2"
@@ -4058,7 +4058,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -4111,7 +4111,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "shock_maul",
+              "name": "datasheets.Subductor_Squad.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -4127,7 +4127,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "mechanical_bite",
+              "name": "datasheets.Exaction_Squad.meleeWeapons.2.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -4162,7 +4162,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "arbites_shotpistol",
+              "name": "datasheets.Exaction_Squad.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
               "skill": "4+",
               "strength": "4"
@@ -4210,7 +4210,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -4262,7 +4262,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "force_orb_cane",
+              "name": "datasheets.Navigator.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -4297,7 +4297,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "laspistol",
+              "name": "datasheets.Voidsmen_at_Arms.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
               "skill": "4+",
               "strength": "3"
@@ -4345,7 +4345,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -4404,7 +4404,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "power_fist",
+              "name": "datasheets.Inquisitor_Draxus.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -4441,7 +4441,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "dirgesinger",
+              "name": "datasheets.Inquisitor_Draxus.rangedWeapons.0.profiles.0.name",
               "range": "18\"",
               "skill": "3+",
               "strength": "4"
@@ -4460,7 +4460,7 @@
                 "Sustained Hits 2",
                 "Psychic"
               ],
-              "name": "psychic_tempest",
+              "name": "datasheets.Inquisitor_Draxus.rangedWeapons.1.profiles.0.name",
               "range": "18\"",
               "skill": "3+",
               "strength": "6"
@@ -4513,7 +4513,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -4566,7 +4566,7 @@
               "keywords": [
                 "Lance"
               ],
-              "name": "vigil_spear_melee",
+              "name": "datasheets.Watch_Master.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "6"
@@ -4599,7 +4599,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "vigil_spear_ranged",
+              "name": "datasheets.Watch_Master.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
               "skill": "2+",
               "strength": "4"
@@ -4646,7 +4646,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -4713,7 +4713,7 @@
               "keywords": [
                 "Psychic"
               ],
-              "name": "nemesis_daemon_hammer",
+              "name": "datasheets.Inquisitor_Coteaz.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "9"
@@ -4748,7 +4748,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "bolt_pistol",
+              "name": "datasheets.Inquisitor.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -4769,7 +4769,7 @@
                 "Anti-infantry 5+",
                 "Anti-daemon 4+"
               ],
-              "name": "psychic_blast",
+              "name": "datasheets.Inquisitor_Coteaz.rangedWeapons.1.profiles.0.name",
               "range": "18\"",
               "skill": "3+",
               "strength": "3"
@@ -4820,7 +4820,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -4878,7 +4878,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "close_combat_weapon",
+              "name": "datasheets.Sanctifiers.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -4894,7 +4894,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "chainsword",
+              "name": "datasheets.Imperial_Navy_Breachers.meleeWeapons.3.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -4910,7 +4910,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "power_weapon",
+              "name": "datasheets.Deathwatch_Kill_Team.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -4945,7 +4945,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "bolt_pistol",
+              "name": "datasheets.Inquisitor.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -4963,7 +4963,7 @@
               "keywords": [
                 "Rapid Fire 1"
               ],
-              "name": "boltgun",
+              "name": "datasheets.Deathwatch_Kill_Team.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -4983,7 +4983,7 @@
                 "Devastating Wounds",
                 "Anti-infantry 4+"
               ],
-              "name": "combi_weapon",
+              "name": "datasheets.Inquisitor.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
               "skill": "4+",
               "strength": "4"
@@ -5004,7 +5004,7 @@
                 "Devastating Wounds",
                 "Anti-psyker 2+"
               ],
-              "name": "condemnor_boltgun",
+              "name": "datasheets.Sisters_of_Battle_Squad.rangedWeapons.3.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -5023,7 +5023,7 @@
                 "Pistol",
                 "Melta 2"
               ],
-              "name": "inferno_pistol",
+              "name": "datasheets.Sisters_of_Battle_Squad.rangedWeapons.4.profiles.0.name",
               "range": "6\"",
               "skill": "3+",
               "strength": "8"
@@ -5043,7 +5043,7 @@
                 "Pistol",
                 "Ignores Cover"
               ],
-              "name": "ministorum_hand_flamer",
+              "name": "datasheets.Sanctifiers.rangedWeapons.3.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -5061,7 +5061,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "plasma_pistol_standard",
+              "name": "datasheets.Inquisitorial_Agents.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -5075,7 +5075,7 @@
                 "Pistol",
                 "Hazardous"
               ],
-              "name": "plasma_pistol_supercharge",
+              "name": "datasheets.Inquisitorial_Agents.rangedWeapons.1.profiles.1.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -5093,7 +5093,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "artificer_crafted_storm_bolter",
+              "name": "datasheets.Sisters_of_Battle_Squad.rangedWeapons.7.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -5111,7 +5111,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "meltagun",
+              "name": "datasheets.Sanctifiers.rangedWeapons.4.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -5130,7 +5130,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "ministorum_flamer",
+              "name": "datasheets.Sanctifiers.rangedWeapons.2.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -5149,7 +5149,7 @@
                 "Sustained Hits 1",
                 "Heavy"
               ],
-              "name": "heavy_bolter",
+              "name": "datasheets.Inquisitorial_Chimera.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "4+",
               "strength": "5"
@@ -5168,7 +5168,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "ministorum_heavy_flamer",
+              "name": "datasheets.Sisters_of_Battle_Squad.rangedWeapons.11.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "6"
@@ -5187,7 +5187,7 @@
                 "Melta 2",
                 "Heavy"
               ],
-              "name": "multi_melta",
+              "name": "datasheets.Inquisitorial_Agents.rangedWeapons.3.profiles.0.name",
               "range": "18\"",
               "skill": "4+",
               "strength": "9"
@@ -5239,7 +5239,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -5299,7 +5299,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "armoured_hull",
+              "name": "datasheets.Corvus_Blackstar.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -5335,7 +5335,7 @@
                 "Twin-linked",
                 "Devastating Wounds"
               ],
-              "name": "twin_assault_cannon",
+              "name": "datasheets.Corvus_Blackstar.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -5353,7 +5353,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "blackstar_rocket_launcher",
+              "name": "datasheets.Corvus_Blackstar.rangedWeapons.1.profiles.0.name",
               "range": "30\"",
               "skill": "3+",
               "strength": "5"
@@ -5371,7 +5371,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "twin_lascannon",
+              "name": "datasheets.Corvus_Blackstar.rangedWeapons.2.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -5387,7 +5387,7 @@
               "attacks": "1",
               "damage": "3",
               "keywords": [],
-              "name": "stormstrike_missile_launcher",
+              "name": "datasheets.Corvus_Blackstar.rangedWeapons.3.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "10"
@@ -5406,7 +5406,7 @@
                 "Twin-linked",
                 "Rapid Fire 6"
               ],
-              "name": "hurricane_bolter",
+              "name": "datasheets.Corvus_Blackstar.rangedWeapons.4.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -5496,7 +5496,7 @@
               "attacks": "3",
               "damage": "2",
               "keywords": [],
-              "name": "zealot_s_vindictor_melee",
+              "name": "datasheets.Ministorum_Priest.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "5"
@@ -5512,7 +5512,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "power_weapon",
+              "name": "datasheets.Deathwatch_Kill_Team.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "4"
@@ -5548,7 +5548,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "zealot_s_vindictor_ranged",
+              "name": "datasheets.Ministorum_Priest.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -5566,7 +5566,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "holy_pistol",
+              "name": "datasheets.Ministorum_Priest.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
               "skill": "4+",
               "strength": "4"
@@ -5618,7 +5618,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -5678,7 +5678,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "monomolecular_cane_rapier",
+              "name": "datasheets.Rogue_Trader_Entourage.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -5696,7 +5696,7 @@
               "keywords": [
                 "Precision"
               ],
-              "name": "death_cult_power_blade",
+              "name": "datasheets.Rogue_Trader_Entourage.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "4"
@@ -5712,7 +5712,7 @@
               "attacks": "1",
               "damage": "1",
               "keywords": [],
-              "name": "close_combat_weapon",
+              "name": "datasheets.Sanctifiers.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "3"
@@ -5748,7 +5748,7 @@
                 "Devastating Wounds",
                 "Pistol"
               ],
-              "name": "household_pistol",
+              "name": "datasheets.Rogue_Trader_Entourage.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "5"
@@ -5768,7 +5768,7 @@
                 "Pistol",
                 "Anti-infantry 2+"
               ],
-              "name": "dartmask",
+              "name": "datasheets.Rogue_Trader_Entourage.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
               "skill": "4+",
               "strength": "2"
@@ -5787,7 +5787,7 @@
                 "Sustained Hits 2",
                 "Pistol"
               ],
-              "name": "voltaic_pistol",
+              "name": "datasheets.Rogue_Trader_Entourage.rangedWeapons.2.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -5805,7 +5805,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "laspistol",
+              "name": "datasheets.Voidsmen_at_Arms.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
               "skill": "4+",
               "strength": "3"
@@ -5867,7 +5867,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -5940,7 +5940,7 @@
               "keywords": [
                 "psychic"
               ],
-              "name": "force_weapon",
+              "name": "datasheets.Inquisitor.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -5956,7 +5956,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "inquisitorial_melee_weapon",
+              "name": "datasheets.Inquisitor.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -5972,7 +5972,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "close_combat_weapon",
+              "name": "datasheets.Sanctifiers.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -5996,7 +5996,7 @@
                 "psychic",
                 "torrent"
               ],
-              "name": "psychic_shock_wave",
+              "name": "datasheets.Inquisitor_In_Terminator_Armour.rangedWeapons.0.profiles.0.name",
               "range": "18\"",
               "skill": "N/A",
               "strength": "3"
@@ -6014,7 +6014,7 @@
               "keywords": [
                 "psychic"
               ],
-              "name": "psycannon",
+              "name": "datasheets.Grey_Knights_Terminator_Squad.rangedWeapons.3.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -6034,7 +6034,7 @@
                 "devastating wounds",
                 "rapid fire 1"
               ],
-              "name": "combi_weapon",
+              "name": "datasheets.Inquisitor.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -6052,7 +6052,7 @@
               "keywords": [
                 "rapid fire 2"
               ],
-              "name": "storm_bolter",
+              "name": "datasheets.Inquisitorial_Chimera.rangedWeapons.5.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -6096,7 +6096,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -6141,7 +6141,7 @@
               "attacks": "5",
               "damage": "1",
               "keywords": [],
-              "name": "astartes_chainsword",
+              "name": "datasheets.Damned_Legionnaires.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -6157,7 +6157,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "power_weapon",
+              "name": "datasheets.Deathwatch_Kill_Team.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "5"
@@ -6173,7 +6173,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "close_combat_weapon",
+              "name": "datasheets.Sanctifiers.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "4"
@@ -6196,7 +6196,7 @@
                 "ignores cover",
                 "torrent"
               ],
-              "name": "heavy_flamer",
+              "name": "datasheets.Inquisitorial_Chimera.rangedWeapons.3.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -6214,7 +6214,7 @@
               "keywords": [
                 "pistol"
               ],
-              "name": "plasma_pistol_standard",
+              "name": "datasheets.Damned_Legionnaires.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "7"
@@ -6228,7 +6228,7 @@
                 "hazardous",
                 "pistol"
               ],
-              "name": "plasma_pistol_supercharge",
+              "name": "datasheets.Damned_Legionnaires.rangedWeapons.1.profiles.1.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "8"
@@ -6246,7 +6246,7 @@
               "keywords": [
                 "rapid fire 1"
               ],
-              "name": "plasma_gun_standard",
+              "name": "datasheets.Damned_Legionnaires.rangedWeapons.2.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "7"
@@ -6260,7 +6260,7 @@
                 "hazardous",
                 "rapid fire 1"
               ],
-              "name": "plasma_gun_supercharge",
+              "name": "datasheets.Damned_Legionnaires.rangedWeapons.2.profiles.1.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -6278,7 +6278,7 @@
               "keywords": [
                 "melta 2"
               ],
-              "name": "meltagun",
+              "name": "datasheets.Sanctifiers.rangedWeapons.4.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -6297,7 +6297,7 @@
                 "heavy",
                 "melta 2"
               ],
-              "name": "multi_melta",
+              "name": "datasheets.Inquisitorial_Agents.rangedWeapons.3.profiles.0.name",
               "range": "18\"",
               "skill": "4+",
               "strength": "9"
@@ -6316,7 +6316,7 @@
                 "ignores cover",
                 "pistol"
               ],
-              "name": "bolt_pistol",
+              "name": "datasheets.Inquisitor.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -6334,7 +6334,7 @@
               "keywords": [
                 "ignores cover"
               ],
-              "name": "boltgun",
+              "name": "datasheets.Deathwatch_Kill_Team.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "4"
@@ -6353,7 +6353,7 @@
                 "ignores cover",
                 "torrent"
               ],
-              "name": "flamer",
+              "name": "datasheets.Damned_Legionnaires.rangedWeapons.7.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "4"
@@ -6397,7 +6397,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -6464,7 +6464,7 @@
               "keywords": [
                 "sustained hits 1"
               ],
-              "name": "monomolecular_rapier",
+              "name": "datasheets.Janus_Draik.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -6487,7 +6487,7 @@
                 "anti-infantry 4+",
                 "pistol"
               ],
-              "name": "heirloom_pistol",
+              "name": "datasheets.Janus_Draik.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -6529,7 +6529,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -6594,7 +6594,7 @@
               "attacks": "3",
               "damage": "1",
               "keywords": [],
-              "name": "close_combat_weapon",
+              "name": "datasheets.Sanctifiers.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "3"
@@ -6616,7 +6616,7 @@
               "keywords": [
                 "precision"
               ],
-              "name": "negotiator_pistol",
+              "name": "datasheets.Neyam_Shai_Murad.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "4"
@@ -6657,7 +6657,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -6718,7 +6718,7 @@
               "keywords": [
                 "psychic"
               ],
-              "name": "force_orb_cane",
+              "name": "datasheets.Espern_Locarno.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "6"
@@ -6740,7 +6740,7 @@
               "keywords": [
                 "pistol"
               ],
-              "name": "laspistol",
+              "name": "datasheets.Voidsmen_at_Arms.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
               "skill": "4+",
               "strength": "3"
@@ -6781,7 +6781,7 @@
           "showDescription": true
         },
         "faction": [
-          "assigned_agents"
+          "datasheets.Sanctifiers.abilities.faction.0"
         ],
         "other": [
           {
@@ -6831,7 +6831,7 @@
               "attacks": "2",
               "damage": "2",
               "keywords": [],
-              "name": "power_claw",
+              "name": "datasheets.Ur_025.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -6851,7 +6851,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "mk_1_assault_weapon",
+              "name": "datasheets.Ur_025.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "5"
@@ -7758,7 +7758,7 @@
   "rules": {
     "army": [
       {
-        "name": "assigned_agents",
+        "name": "datasheets.Sanctifiers.abilities.faction.0",
         "rule": [
           {
             "order": 1,

@@ -12671,27 +12671,27 @@
           },
           {
             "order": 5,
-            "text": "rules.army.Battle_Focus.rule.3.text",
+            "text": "rules.army.Battle_Focus.rule.4.text",
             "type": "triggerEffectAccordion"
           },
           {
             "order": 6,
-            "text": "rules.army.Battle_Focus.rule.3.text",
+            "text": "rules.army.Battle_Focus.rule.5.text",
             "type": "triggerEffectAccordion"
           },
           {
             "order": 7,
-            "text": "rules.army.Battle_Focus.rule.3.text",
+            "text": "rules.army.Battle_Focus.rule.6.text",
             "type": "triggerEffectAccordion"
           },
           {
             "order": 8,
-            "text": "rules.army.Battle_Focus.rule.3.text",
+            "text": "rules.army.Battle_Focus.rule.7.text",
             "type": "triggerEffectAccordion"
           },
           {
             "order": 9,
-            "text": "rules.army.Battle_Focus.rule.3.text",
+            "text": "rules.army.Battle_Focus.rule.8.text",
             "type": "triggerEffectAccordion"
           }
         ]

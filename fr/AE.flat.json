@@ -1154,5 +1154,12 @@
   "rules.army.Battle_Focus.rule.1.text": "Chaque fois qu'un des déclencheurs montrés dans la section Manoeuvres Agiles ci-dessous se produit, vous pouvez dépenser un jeton de Focus de Bataille pour permettre à l'unité éligible pertinente d'effectuer cette Manoeuvre Agile. Une unité est éligible pour effectuer une Manoeuvre Agile si elle a cette aptitude et n'a pas déjà effectué une Manoeuvre Agile dans la même phase. Sauf indication contraire, vous ne pouvez pas déclencher la même Manoeuvre Agile plus d'une fois par phase. À la fin du tour de bataille, tous les jetons de Focus de Bataille non dépensés sont perdus.",
   "rules.army.Battle_Focus.rule.2.text": "Manoeuvres Agiles",
   "rules.army.Disparate_Paths.name": "Voies Disparates",
-  "rules.army.Disparate_Paths.rule.0.text": "Lors de la constitution de votre armée, vous pouvez inclure des unités **ARLEQUINS** dans votre armée, même s'ils n'ont pas le mot-clé de Faction **ASURYANI**. Sauf indication contraire, vous ne pouvez pas sélectionner **ARLEQUINS** ou **YNNARI** comme votre Faction d'Armée."
+  "rules.army.Disparate_Paths.rule.0.text": "Lors de la constitution de votre armée, vous pouvez inclure des unités **ARLEQUINS** dans votre armée, même s'ils n'ont pas le mot-clé de Faction **ASURYANI**. Sauf indication contraire, vous ne pouvez pas sélectionner **ARLEQUINS** ou **YNNARI** comme votre Faction d'Armée.",
+  "rules.army.Battle_Focus.rule.3.text": "texte",
+  "rules.army.Battle_Focus.rule.4.text": "texte",
+  "rules.army.Battle_Focus.rule.5.text": "texte",
+  "rules.army.Battle_Focus.rule.6.text": "texte",
+  "rules.army.Battle_Focus.rule.7.text": "texte",
+  "rules.army.Battle_Focus.rule.8.text": "texte",
+  "rules.army.Battle_Focus.rule.9.text": "texte"
 }

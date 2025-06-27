@@ -12666,32 +12666,32 @@
           },
           {
             "order": 4,
-            "text": null,
+            "text": "rules.army.Battle_Focus.rule.3.text",
             "type": "triggerEffectAccordion"
           },
           {
             "order": 5,
-            "text": null,
+            "text": "rules.army.Battle_Focus.rule.3.text",
             "type": "triggerEffectAccordion"
           },
           {
             "order": 6,
-            "text": null,
+            "text": "rules.army.Battle_Focus.rule.3.text",
             "type": "triggerEffectAccordion"
           },
           {
             "order": 7,
-            "text": null,
+            "text": "rules.army.Battle_Focus.rule.3.text",
             "type": "triggerEffectAccordion"
           },
           {
             "order": 8,
-            "text": null,
+            "text": "rules.army.Battle_Focus.rule.3.text",
             "type": "triggerEffectAccordion"
           },
           {
             "order": 9,
-            "text": null,
+            "text": "rules.army.Battle_Focus.rule.3.text",
             "type": "triggerEffectAccordion"
           }
         ]

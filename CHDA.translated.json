@@ -2064,9 +2064,7 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "datasheets.Ezekiel.wargear.0"
-      ]
+      "wargear": []
     },
     {
       "abilities": {

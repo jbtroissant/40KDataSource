@@ -207,7 +207,7 @@
   "master_crafted_power_weapon": "Master-crafted power weapon",
   "datasheets.Ravenwing_Command_Squad.stats.0.name": "Ravenwing Champion",
   "datasheets.Ravenwing_Command_Squad.wargear.0": "For every 3 models in this unit, 1 model’s plasma talon can be replaced with 1 Astartes grenade launcher.",
-  "datasheets.Ravenwing_Command_Squad.leads.units.0": "OUTRIDER SQUAD",
+  "datasheets.Ravenwing_Command_Squad.leads.units.0": "ESCOUADE D'OUTRIDER",
   "datasheets.Ravenwing_Command_Squad.leads.units.1": "RAVENWING BLACK KNIGHTS",
   "datasheets.Lazarus.abilities.other.0.name": "Intractable Will",
   "datasheets.Lazarus.abilities.other.0.description": "While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",

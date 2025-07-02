@@ -498,9 +498,7 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "datasheets.Ezekiel.wargear.0"
-      ],
+      "wargear": [],
       "leads": {
         "units": [
           "datasheets.Ezekiel.leads.units.0",
@@ -1559,9 +1557,7 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "datasheets.Ezekiel.wargear.0"
-      ],
+      "wargear": [],
       "leads": {
         "units": [
           "datasheets.Ezekiel.leads.units.0",
@@ -1874,9 +1870,7 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "datasheets.Ezekiel.wargear.0"
-      ],
+      "wargear": [],
       "leads": {
         "units": [
           "datasheets.Belial.leads.units.0",
@@ -2409,9 +2403,7 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "datasheets.Ezekiel.wargear.0"
-      ],
+      "wargear": [],
       "leads": {
         "units": [
           "datasheets.Ezekiel.leads.units.0",
@@ -2556,9 +2548,7 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "datasheets.Ezekiel.wargear.0"
-      ]
+      "wargear": []
     },
     {
       "abilities": {
@@ -2718,9 +2708,7 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "datasheets.Ezekiel.wargear.0"
-      ],
+      "wargear": [],
       "leads": {
         "units": [
           "datasheets.Ravenwing_Command_Squad.leads.units.0",

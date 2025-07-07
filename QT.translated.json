@@ -6,6 +6,7 @@
     "banner": "#102824",
     "header": "#49584c"
   },
+  "compatibleDataVersion": 640,
   "datasheets": [
     {
       "abilities": {
@@ -13,8 +14,482 @@
           "Deadly Demise D3"
         ],
         "damaged": {
-          "range": "datasheets.War_Dog_Stalker.abilities.damaged.range",
-          "description": "datasheets.War_Dog_Stalker.abilities.damaged.description",
+          "range": "datasheets.War_Dog_Huntsman.abilities.damaged.range",
+          "description": "datasheets.War_Dog_Huntsman.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "harbingers_of_dread"
+        ],
+        "other": [
+          {
+            "name": "datasheets.War_Dog_Huntsman.abilities.other.0.name",
+            "description": "datasheets.War_Dog_Huntsman.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.War_Dog_Huntsman.composition.0"
+      ],
+      "factions": [
+        "Chaos Knights"
+      ],
+      "faction_id": "QT",
+      "fluff": "datasheets.War_Dog_Huntsman.fluff",
+      "id": "208a6a2a-3186-5629-b390-e1f0d4f16fb4",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "War Dog",
+        "Huntsman"
+      ],
+      "leader": "",
+      "loadout": "datasheets.War_Dog_Huntsman.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "8",
+              "damage": "1",
+              "keywords": [],
+              "name": "reaper_chaintalon_sweep",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "8"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "4",
+              "damage": "3",
+              "keywords": [],
+              "name": "reaper_chaintalon_strike",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "10"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.War_Dog_Huntsman.name",
+      "points": [
+        {
+          "cost": "140",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [
+                "Melta 4"
+              ],
+              "name": "daemonbreath_spear",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 3"
+              ],
+              "name": "diabolus_heavy_stubber",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "Melta 2"
+              ],
+              "name": "daemonbreath_meltagun",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "12\"",
+          "name": "datasheets.War_Dog_Huntsman.name",
+          "oc": "6",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "9",
+          "w": "14",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.War_Dog_Huntsman.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "damaged": {
+          "range": "datasheets.War_Dog_Huntsman.abilities.damaged.range",
+          "description": "datasheets.War_Dog_Huntsman.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "harbingers_of_dread"
+        ],
+        "other": [
+          {
+            "name": "datasheets.War_Dog_Brigand.abilities.other.0.name",
+            "description": "datasheets.War_Dog_Brigand.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.War_Dog_Brigand.composition.0"
+      ],
+      "factions": [
+        "Chaos Knights"
+      ],
+      "faction_id": "QT",
+      "fluff": "datasheets.War_Dog_Brigand.fluff",
+      "id": "c7cbf1c7-f75f-5c73-9740-47797bb1eb17",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "War Dog",
+        "Brigand"
+      ],
+      "leader": "",
+      "loadout": "datasheets.War_Dog_Brigand.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "armoured_feet",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.War_Dog_Brigand.name",
+      "points": [
+        {
+          "cost": "140",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "12",
+              "damage": "1",
+              "keywords": [],
+              "name": "avenger_chaincannon",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [
+                "Melta 4"
+              ],
+              "name": "daemonbreath_spear",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 3"
+              ],
+              "name": "diabolus_heavy_stubber",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Indirect Fire",
+                "Blast"
+              ],
+              "name": "havoc_multi_launcher",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "12\"",
+          "name": "datasheets.War_Dog_Brigand.name",
+          "oc": "6",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "9",
+          "w": "14",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.War_Dog_Brigand.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "damaged": {
+          "range": "datasheets.War_Dog_Huntsman.abilities.damaged.range",
+          "description": "datasheets.War_Dog_Huntsman.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "harbingers_of_dread"
+        ],
+        "other": [
+          {
+            "name": "datasheets.War_Dog_Executioner.abilities.other.0.name",
+            "description": "datasheets.War_Dog_Executioner.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.War_Dog_Executioner.composition.0"
+      ],
+      "factions": [
+        "Chaos Knights"
+      ],
+      "faction_id": "QT",
+      "fluff": "datasheets.War_Dog_Executioner.fluff",
+      "id": "5108c12c-83c1-55aa-914b-599a6c51e060",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "War Dog",
+        "Executioner"
+      ],
+      "leader": "",
+      "loadout": "datasheets.War_Dog_Executioner.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "armoured_feet",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.War_Dog_Executioner.name",
+      "points": [
+        {
+          "cost": "130",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 3"
+              ],
+              "name": "diabolus_heavy_stubber",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "3",
+              "keywords": [],
+              "name": "war_dog_autocannon",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "Melta 2"
+              ],
+              "name": "daemonbreath_meltagun",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "7+",
+          "m": "12\"",
+          "name": "datasheets.War_Dog_Executioner.name",
+          "oc": "6",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "9",
+          "w": "14",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.War_Dog_Huntsman.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3",
+          "Scouts 6\""
+        ],
+        "damaged": {
+          "range": "datasheets.War_Dog_Huntsman.abilities.damaged.range",
+          "description": "datasheets.War_Dog_Huntsman.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
@@ -46,8 +521,6 @@
       "keywords": [
         "Vehicle",
         "Walker",
-        "Battleline",
-        "Character",
         "Chaos",
         "War Dog",
         "Stalker"
@@ -155,7 +628,7 @@
                 "Melta 4"
               ],
               "name": "daemonbreath_spear",
-              "range": "24\"",
+              "range": "18\"",
               "skill": "3+",
               "strength": "12"
             }
@@ -188,175 +661,20 @@
           "ld": "7+",
           "m": "12\"",
           "name": "datasheets.War_Dog_Stalker.name",
-          "oc": "8",
+          "oc": "6",
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "10",
-          "w": "12",
+          "t": "9",
+          "w": "14",
           "invul": "5+"
         }
       ],
       "transport": "",
       "wargear": [
         "datasheets.War_Dog_Stalker.wargear.0",
-        "datasheets.War_Dog_Stalker.wargear.1",
+        "datasheets.War_Dog_Brigand.wargear.0",
         "datasheets.War_Dog_Stalker.wargear.2"
-      ]
-    },
-    {
-      "abilities": {
-        "core": [
-          "Deadly Demise D6+2"
-        ],
-        "damaged": {
-          "range": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.damaged.range",
-          "description": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.damaged.description",
-          "showDamagedAbility": true,
-          "showDescription": true
-        },
-        "faction": [
-          "harbingers_of_dread",
-          "super_heavy_walker"
-        ],
-        "other": [
-          {
-            "name": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.other.0.name",
-            "description": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.other.0.description",
-            "showAbility": true,
-            "showDescription": true
-          },
-          {
-            "name": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.other.1.name",
-            "description": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.other.1.description",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "datasheets.Chaos_Cerastus_Knight_Acheron.composition.0"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
-      "faction_id": "QT",
-      "fluff": "datasheets.Chaos_Cerastus_Knight_Acheron.fluff",
-      "id": "4982d1aa-990c-54c1-bbd3-f3b6fd7114b9",
-      "imperialArmour": true,
-      "keywords": [
-        "Vehicle",
-        "Walker",
-        "Character",
-        "Titanic",
-        "Towering",
-        "Chaos",
-        "Cerastus",
-        "Knight Acheron"
-      ],
-      "leader": "",
-      "loadout": "datasheets.Chaos_Cerastus_Knight_Acheron.loadout",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "12",
-              "damage": "2",
-              "keywords": [],
-              "name": "reaper_chainfist_sweep",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "9"
-            },
-            {
-              "active": true,
-              "ap": "-4",
-              "attacks": "4",
-              "damage": "6",
-              "keywords": [],
-              "name": "reaper_chainfist_strike",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "14"
-            }
-          ]
-        }
-      ],
-      "name": "datasheets.Chaos_Cerastus_Knight_Acheron.name",
-      "points": [
-        {
-          "cost": "420",
-          "keyword": null,
-          "models": "1",
-          "active": true
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "2D6",
-              "damage": "2",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
-              "name": "acheron_flame_cannon",
-              "range": "18\"",
-              "skill": "N/A",
-              "strength": "8"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "3",
-              "damage": "2",
-              "keywords": [
-                "Twin-linked",
-                "Sustained Hits 1"
-              ],
-              "name": "twin_heavy_bolter",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "5"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "12\"",
-          "name": "datasheets.Chaos_Cerastus_Knight_Acheron.name",
-          "oc": "10",
-          "showDamagedMarker": true,
-          "showName": false,
-          "sv": "3+",
-          "t": "12",
-          "w": "25",
-          "invul": "5+"
-        }
-      ],
-      "transport": "",
-      "wargear": [
-        "datasheets.Chaos_Cerastus_Knight_Acheron.wargear.0"
       ]
     },
     {
@@ -365,8 +683,8 @@
           "Deadly Demise D3"
         ],
         "damaged": {
-          "range": "datasheets.War_Dog_Stalker.abilities.damaged.range",
-          "description": "datasheets.War_Dog_Stalker.abilities.damaged.description",
+          "range": "datasheets.War_Dog_Huntsman.abilities.damaged.range",
+          "description": "datasheets.War_Dog_Moirax.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
@@ -375,8 +693,8 @@
         ],
         "other": [
           {
-            "name": "datasheets.War_Dog_Executioner.abilities.other.0.name",
-            "description": "datasheets.War_Dog_Executioner.abilities.other.0.description",
+            "name": "datasheets.War_Dog_Moirax.abilities.other.0.name",
+            "description": "datasheets.War_Dog_Moirax.abilities.other.0.description",
             "showAbility": true,
             "showDescription": true
           }
@@ -387,24 +705,24 @@
       },
       "cardType": "DataCard",
       "composition": [
-        "datasheets.War_Dog_Executioner.composition.0"
+        "datasheets.War_Dog_Moirax.composition.0"
       ],
       "factions": [
         "Chaos Knights"
       ],
       "faction_id": "QT",
-      "fluff": "datasheets.War_Dog_Executioner.fluff",
-      "id": "5108c12c-83c1-55aa-914b-599a6c51e060",
+      "fluff": "datasheets.War_Dog_Moirax.fluff",
+      "id": "0ef085b1-f322-524a-9b3b-c51c8368e67d",
+      "imperialArmour": true,
       "keywords": [
         "Vehicle",
         "Walker",
-        "Battleline",
         "Chaos",
         "War Dog",
-        "Executioner"
+        "Moirax"
       ],
       "leader": "",
-      "loadout": "datasheets.War_Dog_Executioner.loadout",
+      "loadout": "datasheets.War_Dog_Moirax.loadout",
       "meleeWeapons": [
         {
           "active": true,
@@ -421,12 +739,28 @@
               "strength": "6"
             }
           ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "4",
+              "damage": "D6+2",
+              "keywords": [],
+              "name": "siege_claw",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
         }
       ],
-      "name": "datasheets.War_Dog_Executioner.name",
+      "name": "datasheets.War_Dog_Moirax.name",
       "points": [
         {
-          "cost": "130",
+          "cost": "150",
           "keyword": null,
           "models": "1",
           "active": true
@@ -438,16 +772,35 @@
           "profiles": [
             {
               "active": true,
-              "ap": "0",
-              "attacks": "3",
-              "damage": "1",
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "2",
               "keywords": [
-                "Rapid Fire 3"
+                "Blast",
+                "Anti-vehicle 2+"
               ],
-              "name": "diabolus_heavy_stubber",
+              "name": "graviton_pulsar",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "7"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "volkite_veuglaire",
               "range": "36\"",
               "skill": "3+",
-              "strength": "5"
+              "strength": "8"
             }
           ]
         },
@@ -456,32 +809,63 @@
           "profiles": [
             {
               "active": true,
-              "ap": "-1",
-              "attacks": "4",
-              "damage": "3",
-              "keywords": [],
-              "name": "war_dog_autocannon",
-              "range": "48\"",
-              "skill": "3+",
-              "strength": "9"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-4",
-              "attacks": "1",
-              "damage": "D6",
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
               "keywords": [
-                "Melta 2"
+                "Torrent",
+                "Ignores Cover",
+                "Anti-infantry 2+"
               ],
-              "name": "daemonbreath_meltagun",
+              "name": "rad_cleanser",
               "range": "12\"",
+              "skill": "N/A",
+              "strength": "2"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 2"
+              ],
+              "name": "lightning_lock",
+              "range": "36\"",
               "skill": "3+",
-              "strength": "9"
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "3",
+              "keywords": [
+                "Sustained Hits D3",
+                "Conversion"
+              ],
+              "name": "conversion_beam_cannon",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "10"
+            }
+          ],
+          "abilities": [
+            {
+              "name": "Conversion",
+              "description": "datasheets.War_Dog_Moirax.rangedWeapons.4.abilities.0.description",
+              "showAbility": true,
+              "showDescription": true
             }
           ]
         }
@@ -492,46 +876,40 @@
           "active": true,
           "ld": "7+",
           "m": "12\"",
-          "name": "datasheets.War_Dog_Executioner.name",
-          "oc": "8",
+          "name": "datasheets.War_Dog_Moirax.name",
+          "oc": "6",
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "10",
-          "w": "12",
+          "t": "9",
+          "w": "14",
           "invul": "5+"
         }
       ],
       "transport": "",
       "wargear": [
-        "datasheets.War_Dog_Executioner.wargear.0"
+        "datasheets.War_Dog_Moirax.wargear.0",
+        "datasheets.War_Dog_Moirax.wargear.1"
       ]
     },
     {
       "abilities": {
         "core": [
-          "Deadly Demise D6"
+          "Deadly Demise D3"
         ],
         "damaged": {
-          "range": "datasheets.Knight_Desecrator.abilities.damaged.range",
-          "description": "datasheets.Knight_Desecrator.abilities.damaged.description",
+          "range": "datasheets.War_Dog_Huntsman.abilities.damaged.range",
+          "description": "datasheets.War_Dog_Huntsman.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
         "faction": [
-          "harbingers_of_dread",
-          "super_heavy_walker"
+          "harbingers_of_dread"
         ],
         "other": [
           {
-            "name": "datasheets.Knight_Desecrator.abilities.other.0.name",
-            "description": "datasheets.Knight_Desecrator.abilities.other.0.description",
-            "showAbility": true,
-            "showDescription": true
-          },
-          {
-            "name": "datasheets.Knight_Desecrator.abilities.other.1.name",
-            "description": "datasheets.Knight_Desecrator.abilities.other.1.description",
+            "name": "datasheets.War_Dog_Karnivore.abilities.other.0.name",
+            "description": "datasheets.War_Dog_Karnivore.abilities.other.0.description",
             "showAbility": true,
             "showDescription": true
           }
@@ -542,51 +920,39 @@
       },
       "cardType": "DataCard",
       "composition": [
-        "datasheets.Knight_Desecrator.composition.0"
+        "datasheets.War_Dog_Karnivore.composition.0"
       ],
       "factions": [
         "Chaos Knights"
       ],
       "faction_id": "QT",
-      "fluff": "datasheets.Knight_Desecrator.fluff",
-      "id": "b3020c8a-0fda-5b0a-842c-528e42effcd7",
+      "fluff": "datasheets.War_Dog_Karnivore.fluff",
+      "id": "3aab31ea-3f13-507e-8e41-0a59f4966b7a",
       "keywords": [
         "Vehicle",
         "Walker",
-        "Titanic",
-        "Towering",
-        "Abhorrent",
-        "Character",
         "Chaos",
-        "Knight Desecrator"
+        "War Dog",
+        "Karnivore"
       ],
       "leader": "",
-      "loadout": "datasheets.Knight_Desecrator.loadout",
+      "loadout": "datasheets.War_Dog_Karnivore.loadout",
       "meleeWeapons": [
         {
           "active": true,
           "profiles": [
             {
               "active": true,
-              "ap": "-3",
+              "ap": "-2",
               "attacks": "12",
-              "damage": "2",
-              "keywords": [],
-              "name": "reaper_chainsword_sweep",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "reaper_chaintalon",
               "range": "Melee",
               "skill": "3+",
-              "strength": "9"
-            },
-            {
-              "active": true,
-              "ap": "-4",
-              "attacks": "4",
-              "damage": "6",
-              "keywords": [],
-              "name": "reaper_chainsword_strike",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "14"
+              "strength": "8"
             }
           ]
         },
@@ -595,55 +961,30 @@
           "profiles": [
             {
               "active": true,
-              "ap": "-2",
-              "attacks": "8",
-              "damage": "3",
-              "keywords": [],
-              "name": "warpstrike_claw_sweep",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "10"
-            },
-            {
-              "active": true,
               "ap": "-3",
-              "attacks": "4",
-              "damage": "8",
-              "keywords": [],
-              "name": "warpstrike_claw_strike",
+              "attacks": "6",
+              "damage": "D6+2",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "slaughterclaw",
               "range": "Melee",
               "skill": "3+",
-              "strength": "20"
+              "strength": "12"
             }
           ]
         }
       ],
-      "name": "Knight Desecrator",
+      "name": "datasheets.War_Dog_Karnivore.name",
       "points": [
         {
-          "cost": "400",
+          "cost": "140",
           "keyword": null,
           "models": "1",
           "active": true
         }
       ],
       "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-4",
-              "attacks": "3",
-              "damage": "D6+3",
-              "keywords": [],
-              "name": "desecrator_laser_destructor",
-              "range": "72\"",
-              "skill": "2+",
-              "strength": "18"
-            }
-          ]
-        },
         {
           "active": true,
           "profiles": [
@@ -657,7 +998,26 @@
               ],
               "name": "diabolus_heavy_stubber",
               "range": "36\"",
-              "skill": "2+",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Indirect Fire",
+                "Blast"
+              ],
+              "name": "havoc_multi_launcher",
+              "range": "48\"",
+              "skill": "3+",
               "strength": "5"
             }
           ]
@@ -667,21 +1027,21 @@
       "stats": [
         {
           "active": true,
-          "ld": "6+",
-          "m": "10\"",
-          "name": "Knight Desecrator",
-          "oc": "10",
+          "ld": "7+",
+          "m": "14\"",
+          "name": "datasheets.War_Dog_Karnivore.name",
+          "oc": "6",
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "12",
-          "w": "22",
+          "t": "9",
+          "w": "14",
           "invul": "5+"
         }
       ],
       "transport": "",
       "wargear": [
-        "datasheets.Knight_Desecrator.wargear.0"
+        "datasheets.War_Dog_Brigand.wargear.0"
       ]
     },
     {
@@ -690,8 +1050,8 @@
           "Deadly Demise D6"
         ],
         "damaged": {
-          "range": "datasheets.Knight_Desecrator.abilities.damaged.range",
-          "description": "datasheets.Knight_Desecrator.abilities.damaged.description",
+          "range": "datasheets.Knight_Despoiler.abilities.damaged.range",
+          "description": "datasheets.Knight_Despoiler.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
@@ -778,7 +1138,7 @@
               "keywords": [],
               "name": "titanic_feet",
               "range": "Melee",
-              "skill": "3+",
+              "skill": "4+",
               "strength": "8"
             }
           ]
@@ -814,7 +1174,7 @@
       "name": "Knight Despoiler",
       "points": [
         {
-          "cost": "400",
+          "cost": "335",
           "keyword": null,
           "models": "1",
           "active": true
@@ -996,8 +1356,8 @@
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "12",
-          "w": "22",
+          "t": "11",
+          "w": "26",
           "invul": "5+"
         }
       ],
@@ -1012,11 +1372,499 @@
     {
       "abilities": {
         "core": [
+          "Deadly Demise D6+2"
+        ],
+        "damaged": {
+          "range": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.damaged.range",
+          "description": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "harbingers_of_dread",
+          "super_heavy_walker"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.other.0.name",
+            "description": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.other.1.name",
+            "description": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Chaos_Cerastus_Knight_Acheron.composition.0"
+      ],
+      "factions": [
+        "Chaos Knights"
+      ],
+      "faction_id": "QT",
+      "fluff": "datasheets.Chaos_Cerastus_Knight_Acheron.fluff",
+      "id": "4982d1aa-990c-54c1-bbd3-f3b6fd7114b9",
+      "imperialArmour": true,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Character",
+        "Titanic",
+        "Towering",
+        "Chaos",
+        "Cerastus",
+        "Knight Acheron"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Chaos_Cerastus_Knight_Acheron.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "12",
+              "damage": "2",
+              "keywords": [],
+              "name": "reaper_chainfist_sweep",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "4",
+              "damage": "6",
+              "keywords": [],
+              "name": "reaper_chainfist_strike",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "14"
+            }
+          ]
+        }
+      ],
+      "name": "datasheets.Chaos_Cerastus_Knight_Acheron.name",
+      "points": [
+        {
+          "cost": "355",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "2D6",
+              "damage": "2",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "acheron_flame_cannon",
+              "range": "18\"",
+              "skill": "N/A",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits 1"
+              ],
+              "name": "twin_heavy_bolter",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "datasheets.Chaos_Cerastus_Knight_Acheron.name",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "11",
+          "w": "28",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Chaos_Cerastus_Knight_Acheron.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "damaged": {
+          "range": "datasheets.Knight_Ruinator.abilities.damaged.range",
+          "description": "datasheets.Knight_Ruinator.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "harbingers_of_dread",
+          "super_heavy_walker"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Knight_Ruinator.abilities.other.0.name",
+            "description": "datasheets.Knight_Ruinator.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Knight_Ruinator.abilities.other.1.name",
+            "description": "datasheets.Knight_Ruinator.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Knight_Ruinator.composition.0"
+      ],
+      "factions": [
+        "Chaos Knights"
+      ],
+      "faction_id": "QT",
+      "fluff": "datasheets.Knight_Ruinator.fluff",
+      "id": "a77c6b14-b349-5794-877b-4b17dbf93908",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Abhorrent",
+        "Character",
+        "Chaos",
+        "Knight Ruinator"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Knight_Ruinator.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "10",
+              "damage": "2",
+              "keywords": [],
+              "name": "fellbore_sweep",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "4",
+              "damage": "6",
+              "keywords": [
+                "Anti-vehicle 2+",
+                "Anti-monster 2+"
+              ],
+              "name": "fellbore_strike",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "14"
+            }
+          ]
+        }
+      ],
+      "name": "Knight Ruinator",
+      "points": [
+        {
+          "cost": "350",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "2D6",
+              "damage": "2",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "darkflame_lance",
+              "range": "18\"",
+              "skill": "N/A",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "2D6",
+              "damage": "2",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "terrorpulse_missiles",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "10\"",
+          "name": "Knight Ruinator",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "11",
+          "w": "26",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Chaos_Cerastus_Knight_Acheron.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "damaged": {
+          "range": "datasheets.Knight_Despoiler.abilities.damaged.range",
+          "description": "datasheets.Knight_Despoiler.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "harbingers_of_dread",
+          "super_heavy_walker"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Knight_Desecrator.abilities.other.0.name",
+            "description": "datasheets.Knight_Desecrator.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Knight_Desecrator.abilities.other.1.name",
+            "description": "datasheets.Knight_Desecrator.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Knight_Desecrator.composition.0"
+      ],
+      "factions": [
+        "Chaos Knights"
+      ],
+      "faction_id": "QT",
+      "fluff": "datasheets.Knight_Desecrator.fluff",
+      "id": "b3020c8a-0fda-5b0a-842c-528e42effcd7",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Abhorrent",
+        "Character",
+        "Chaos",
+        "Knight Desecrator"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Knight_Desecrator.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "12",
+              "damage": "2",
+              "keywords": [],
+              "name": "reaper_chainsword_sweep",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "4",
+              "damage": "6",
+              "keywords": [],
+              "name": "reaper_chainsword_strike",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "14"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "8",
+              "damage": "3",
+              "keywords": [],
+              "name": "warpstrike_claw_sweep",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "10"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "4",
+              "damage": "8",
+              "keywords": [],
+              "name": "warpstrike_claw_strike",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "20"
+            }
+          ]
+        }
+      ],
+      "name": "Knight Desecrator",
+      "points": [
+        {
+          "cost": "335",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "3",
+              "damage": "D6+3",
+              "keywords": [],
+              "name": "desecrator_laser_destructor",
+              "range": "72\"",
+              "skill": "2+",
+              "strength": "18"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 3"
+              ],
+              "name": "diabolus_heavy_stubber",
+              "range": "36\"",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "10\"",
+          "name": "Knight Desecrator",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "11",
+          "w": "26",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Knight_Desecrator.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
           "Deadly Demise 2D6"
         ],
         "damaged": {
-          "range": "datasheets.Chaos_Acastus_Knight_Porphyrion.abilities.damaged.range",
-          "description": "datasheets.Chaos_Acastus_Knight_Porphyrion.abilities.damaged.description",
+          "range": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.damaged.range",
+          "description": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
@@ -1291,7 +2139,7 @@
       "name": "datasheets.Chaos_Cerastus_Knight_Atrapos.name",
       "points": [
         {
-          "cost": "420",
+          "cost": "355",
           "keyword": null,
           "models": "1",
           "active": true
@@ -1374,170 +2222,8 @@
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "12",
-          "w": "25",
-          "invul": "5+"
-        }
-      ],
-      "transport": "",
-      "wargear": [
-        "datasheets.Chaos_Cerastus_Knight_Acheron.wargear.0"
-      ]
-    },
-    {
-      "abilities": {
-        "core": [
-          "Deadly Demise D6"
-        ],
-        "damaged": {
-          "range": "datasheets.Knight_Desecrator.abilities.damaged.range",
-          "description": "datasheets.Knight_Desecrator.abilities.damaged.description",
-          "showDamagedAbility": true,
-          "showDescription": true
-        },
-        "faction": [
-          "harbingers_of_dread",
-          "super_heavy_walker"
-        ],
-        "other": [
-          {
-            "name": "datasheets.Knight_Abominant.abilities.other.0.name",
-            "description": "datasheets.Knight_Abominant.abilities.other.0.description",
-            "showAbility": true,
-            "showDescription": true
-          },
-          {
-            "name": "datasheets.Knight_Abominant.abilities.other.1.name",
-            "description": "datasheets.Knight_Abominant.abilities.other.1.description",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "datasheets.Knight_Abominant.composition.0"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
-      "faction_id": "QT",
-      "fluff": "datasheets.Knight_Abominant.fluff",
-      "id": "d95540c7-c761-55d4-8e56-4a80c738b11d",
-      "keywords": [
-        "Vehicle",
-        "Walker",
-        "Titanic",
-        "Towering",
-        "Abhorrent",
-        "Psyker",
-        "Character",
-        "Chaos",
-        "Knight Abominant"
-      ],
-      "leader": "",
-      "loadout": "datasheets.Knight_Abominant.loadout",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "3",
-              "damage": "2",
-              "keywords": [
-                "Extra Attacks"
-              ],
-              "name": "balemace",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "8"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "9",
-              "damage": "3",
-              "keywords": [
-                "Sustained Hits 1"
-              ],
-              "name": "electroscourge",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "10"
-            }
-          ]
-        }
-      ],
-      "name": "Knight Abominant",
-      "points": [
-        {
-          "cost": "365",
-          "keyword": null,
-          "models": "1",
-          "active": true
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
-              "name": "diabolus_heavy_stubber",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "9",
-              "damage": "3",
-              "keywords": [
-                "Devastating Wounds"
-              ],
-              "name": "volkite_combustor",
-              "range": "30\"",
-              "skill": "3+",
-              "strength": "12"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "10\"",
-          "name": "Knight Abominant",
-          "oc": "10",
-          "showDamagedMarker": true,
-          "showName": false,
-          "sv": "3+",
-          "t": "12",
-          "w": "22",
+          "t": "11",
+          "w": "28",
           "invul": "5+"
         }
       ],
@@ -1552,8 +2238,8 @@
           "Deadly Demise 2D6"
         ],
         "damaged": {
-          "range": "datasheets.Chaos_Acastus_Knight_Porphyrion.abilities.damaged.range",
-          "description": "datasheets.Chaos_Acastus_Knight_Porphyrion.abilities.damaged.description",
+          "range": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.damaged.range",
+          "description": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
@@ -1684,7 +2370,7 @@
           "abilities": [
             {
               "name": "Conversion",
-              "description": "datasheets.Chaos_Acastus_Knight_Asterius.rangedWeapons.2.abilities.0.description",
+              "description": "datasheets.War_Dog_Moirax.rangedWeapons.4.abilities.0.description",
               "showAbility": true,
               "showDescription": true
             }
@@ -1800,7 +2486,7 @@
       "name": "datasheets.Chaos_Cerastus_Knight_Castigator.name",
       "points": [
         {
-          "cost": "445",
+          "cost": "355",
           "keyword": null,
           "models": "1",
           "active": true
@@ -1837,8 +2523,8 @@
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "12",
-          "w": "25",
+          "t": "11",
+          "w": "28",
           "invul": "5+"
         }
       ],
@@ -1937,7 +2623,7 @@
       "name": "datasheets.Chaos_Cerastus_Knight_Lancer.name",
       "points": [
         {
-          "cost": "420",
+          "cost": "355",
           "keyword": null,
           "models": "1",
           "active": true
@@ -1975,8 +2661,8 @@
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "12",
-          "w": "25",
+          "t": "11",
+          "w": "28",
           "invul": "4+"
         }
       ],
@@ -1988,11 +2674,11 @@
     {
       "abilities": {
         "core": [
-          "Deadly Demise D6+2"
+          "Deadly Demise D6"
         ],
         "damaged": {
-          "range": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.damaged.range",
-          "description": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.damaged.description",
+          "range": "datasheets.Knight_Despoiler.abilities.damaged.range",
+          "description": "datasheets.Knight_Despoiler.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
@@ -2002,14 +2688,14 @@
         ],
         "other": [
           {
-            "name": "datasheets.Knight_Tyrant.abilities.other.0.name",
-            "description": "datasheets.Knight_Tyrant.abilities.other.0.description",
+            "name": "datasheets.Knight_Rampager.abilities.other.0.name",
+            "description": "datasheets.Knight_Rampager.abilities.other.0.description",
             "showAbility": true,
             "showDescription": true
           },
           {
-            "name": "datasheets.Knight_Tyrant.abilities.other.1.name",
-            "description": "datasheets.Knight_Tyrant.abilities.other.1.description",
+            "name": "datasheets.Knight_Rampager.abilities.other.1.name",
+            "description": "datasheets.Knight_Rampager.abilities.other.1.description",
             "showAbility": true,
             "showDescription": true
           }
@@ -2020,47 +2706,94 @@
       },
       "cardType": "DataCard",
       "composition": [
-        "datasheets.Knight_Tyrant.composition.0"
+        "datasheets.Knight_Rampager.composition.0"
       ],
       "factions": [
         "Chaos Knights"
       ],
       "faction_id": "QT",
-      "fluff": "datasheets.Knight_Tyrant.fluff",
-      "id": "0f79c94c-49d6-5184-8897-cffbdcd3ac8b",
+      "fluff": "datasheets.Knight_Rampager.fluff",
+      "id": "e5aa2527-8533-569f-9950-635260e41ad5",
       "keywords": [
         "Vehicle",
         "Walker",
         "Titanic",
         "Towering",
+        "Abhorrent",
         "Character",
         "Chaos",
-        "Knight Tyrant"
+        "Knight Rampager"
       ],
       "leader": "",
-      "loadout": "datasheets.Knight_Tyrant.loadout",
+      "loadout": "datasheets.Knight_Rampager.loadout",
       "meleeWeapons": [
         {
           "active": true,
           "profiles": [
             {
               "active": true,
-              "ap": "-1",
-              "attacks": "4",
+              "ap": "-3",
+              "attacks": "18",
               "damage": "2",
-              "keywords": [],
-              "name": "titanic_feet",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "reaper_chainsword_sweep",
               "range": "Melee",
-              "skill": "4+",
-              "strength": "8"
+              "skill": "2+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "6",
+              "damage": "6",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "reaper_chainsword_strike",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "14"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "12",
+              "damage": "3",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "warpstrike_claw_sweep",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "10"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "6",
+              "damage": "8",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "warpstrike_claw_strike",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "20"
             }
           ]
         }
       ],
-      "name": "Knight Tyrant",
+      "name": "Knight Rampager",
       "points": [
         {
-          "cost": "480",
+          "cost": "335",
           "keyword": null,
           "models": "1",
           "active": true
@@ -2072,144 +2805,16 @@
           "profiles": [
             {
               "active": true,
-              "ap": "-5",
-              "attacks": "D3",
-              "damage": "D6+8",
-              "keywords": [
-                "Blast"
-              ],
-              "name": "brimstone_volcano_lance",
-              "range": "60\"",
-              "skill": "3+",
-              "strength": "20"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "D6+3",
-              "damage": "2",
-              "keywords": [
-                "Blast"
-              ],
-              "name": "ectoplasma_decimator_standard",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "8"
-            },
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "D6+3",
-              "damage": "3",
-              "keywords": [
-                "Hazardous",
-                "Blast"
-              ],
-              "name": "ectoplasma_decimator_supercharge",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "9"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
               "ap": "0",
-              "attacks": "D6",
+              "attacks": "3",
               "damage": "1",
               "keywords": [
-                "Twin-linked",
-                "Blast"
+                "Rapid Fire 3"
               ],
-              "name": "twin_desecrator_cannon",
+              "name": "diabolus_heavy_stubber",
               "range": "36\"",
               "skill": "3+",
-              "strength": "6"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-6",
-              "attacks": "1",
-              "damage": "D6+1",
-              "keywords": [
-                "Devastating Wounds",
-                "Anti-titanic 4+"
-              ],
-              "name": "gheiststrike_missile_launcher",
-              "range": "72\"",
-              "skill": "3+",
-              "strength": "12"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-4",
-              "attacks": "1",
-              "damage": "D6",
-              "keywords": [
-                "Twin-linked",
-                "Melta 2"
-              ],
-              "name": "twin_daemonbreath_meltagun",
-              "range": "12\"",
-              "skill": "3+",
-              "strength": "9"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "3D6",
-              "damage": "2",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
-              "name": "darkflame_cannon",
-              "range": "18\"",
-              "skill": "N/A",
-              "strength": "8"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-6",
-              "attacks": "1",
-              "damage": "12",
-              "keywords": [
-                "Devastating Wounds",
-                "Anti-vehicle 4+",
-                "Anti-monster 4+"
-              ],
-              "name": "warpshock_harpoon",
-              "range": "18\"",
-              "skill": "2+",
-              "strength": "24"
+              "strength": "5"
             }
           ]
         }
@@ -2219,21 +2824,20 @@
         {
           "active": true,
           "ld": "6+",
-          "m": "8\"",
-          "name": "Knight Tyrant",
+          "m": "12\"",
+          "name": "Knight Rampager",
           "oc": "10",
           "showDamagedMarker": true,
           "showName": false,
-          "sv": "2+",
-          "t": "13",
-          "w": "24",
+          "sv": "3+",
+          "t": "11",
+          "w": "26",
           "invul": "5+"
         }
       ],
       "transport": "",
       "wargear": [
-        "datasheets.Knight_Tyrant.wargear.0",
-        "datasheets.Knight_Tyrant.wargear.1"
+        "datasheets.Chaos_Cerastus_Knight_Acheron.wargear.0"
       ]
     },
     {
@@ -2242,8 +2846,8 @@
           "Deadly Demise D6"
         ],
         "damaged": {
-          "range": "datasheets.Knight_Desecrator.abilities.damaged.range",
-          "description": "datasheets.Knight_Desecrator.abilities.damaged.description",
+          "range": "datasheets.Knight_Despoiler.abilities.damaged.range",
+          "description": "datasheets.Knight_Despoiler.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
@@ -2254,7 +2858,7 @@
         "other": [
           {
             "name": "datasheets.Chaos_Questoris_Knight_Magaera.abilities.other.0.name",
-            "description": "datasheets.Chaos_Questoris_Knight_Magaera.abilities.other.0.description",
+            "description": "datasheets.Chaos_Cerastus_Knight_Lancer.abilities.other.1.description",
             "showAbility": true,
             "showDescription": true
           },
@@ -2351,7 +2955,7 @@
       "name": "datasheets.Chaos_Questoris_Knight_Magaera.name",
       "points": [
         {
-          "cost": "435",
+          "cost": "345",
           "keyword": null,
           "models": "1",
           "active": true
@@ -2427,8 +3031,8 @@
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "12",
-          "w": "22",
+          "t": "11",
+          "w": "26",
           "invul": "5+"
         }
       ],
@@ -2440,21 +3044,28 @@
     {
       "abilities": {
         "core": [
-          "Deadly Demise D3"
+          "Deadly Demise D6+2"
         ],
         "damaged": {
-          "range": "datasheets.War_Dog_Stalker.abilities.damaged.range",
-          "description": "datasheets.War_Dog_Stalker.abilities.damaged.description",
+          "range": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.damaged.range",
+          "description": "datasheets.Chaos_Cerastus_Knight_Acheron.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
         "faction": [
-          "harbingers_of_dread"
+          "harbingers_of_dread",
+          "super_heavy_walker"
         ],
         "other": [
           {
-            "name": "datasheets.War_Dog_Huntsman.abilities.other.0.name",
-            "description": "datasheets.War_Dog_Huntsman.abilities.other.0.description",
+            "name": "datasheets.Knight_Tyrant.abilities.other.0.name",
+            "description": "datasheets.Knight_Tyrant.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Knight_Tyrant.abilities.other.1.name",
+            "description": "datasheets.Knight_Tyrant.abilities.other.1.description",
             "showAbility": true,
             "showDescription": true
           }
@@ -2465,262 +3076,100 @@
       },
       "cardType": "DataCard",
       "composition": [
-        "datasheets.War_Dog_Huntsman.composition.0"
+        "datasheets.Knight_Tyrant.composition.0"
       ],
       "factions": [
         "Chaos Knights"
       ],
       "faction_id": "QT",
-      "fluff": "datasheets.War_Dog_Huntsman.fluff",
-      "id": "208a6a2a-3186-5629-b390-e1f0d4f16fb4",
+      "fluff": "datasheets.Knight_Tyrant.fluff",
+      "id": "0f79c94c-49d6-5184-8897-cffbdcd3ac8b",
       "keywords": [
         "Vehicle",
         "Walker",
-        "Battleline",
+        "Titanic",
+        "Towering",
+        "Character",
         "Chaos",
-        "War Dog",
-        "Huntsman"
+        "Knight Tyrant"
       ],
       "leader": "",
-      "loadout": "datasheets.War_Dog_Huntsman.loadout",
+      "loadout": "datasheets.Knight_Tyrant.loadout",
       "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "8",
-              "damage": "1",
-              "keywords": [],
-              "name": "reaper_chaintalon_sweep",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "8"
-            },
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "4",
-              "damage": "3",
-              "keywords": [],
-              "name": "reaper_chaintalon_strike",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "10"
-            }
-          ]
-        }
-      ],
-      "name": "datasheets.War_Dog_Huntsman.name",
-      "points": [
-        {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-4",
-              "attacks": "2",
-              "damage": "D6",
-              "keywords": [
-                "Melta 4"
-              ],
-              "name": "daemonbreath_spear",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "12"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
-              "name": "diabolus_heavy_stubber",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-4",
-              "attacks": "1",
-              "damage": "D6",
-              "keywords": [
-                "Melta 2"
-              ],
-              "name": "daemonbreath_meltagun",
-              "range": "12\"",
-              "skill": "3+",
-              "strength": "9"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "7+",
-          "m": "12\"",
-          "name": "datasheets.War_Dog_Huntsman.name",
-          "oc": "8",
-          "showDamagedMarker": true,
-          "showName": false,
-          "sv": "3+",
-          "t": "10",
-          "w": "12",
-          "invul": "5+"
-        }
-      ],
-      "transport": "",
-      "wargear": [
-        "datasheets.War_Dog_Executioner.wargear.0"
-      ]
-    },
-    {
-      "abilities": {
-        "core": [
-          "Deadly Demise D3"
-        ],
-        "damaged": {
-          "range": "datasheets.War_Dog_Stalker.abilities.damaged.range",
-          "description": "datasheets.War_Dog_Stalker.abilities.damaged.description",
-          "showDamagedAbility": true,
-          "showDescription": true
-        },
-        "faction": [
-          "harbingers_of_dread"
-        ],
-        "other": [
-          {
-            "name": "datasheets.War_Dog_Brigand.abilities.other.0.name",
-            "description": "datasheets.War_Dog_Brigand.abilities.other.0.description",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "datasheets.War_Dog_Brigand.composition.0"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
-      "faction_id": "QT",
-      "fluff": "datasheets.War_Dog_Brigand.fluff",
-      "id": "c7cbf1c7-f75f-5c73-9740-47797bb1eb17",
-      "keywords": [
-        "Vehicle",
-        "Walker",
-        "Battleline",
-        "Chaos",
-        "War Dog",
-        "Brigand"
-      ],
-      "leader": "",
-      "loadout": "datasheets.War_Dog_Brigand.loadout",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "4",
-              "damage": "1",
-              "keywords": [],
-              "name": "armoured_feet",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "6"
-            }
-          ]
-        }
-      ],
-      "name": "datasheets.War_Dog_Brigand.name",
-      "points": [
-        {
-          "cost": "165",
-          "keyword": null,
-          "models": "1",
-          "active": true
-        }
-      ],
-      "rangedWeapons": [
         {
           "active": true,
           "profiles": [
             {
               "active": true,
               "ap": "-1",
-              "attacks": "12",
-              "damage": "1",
+              "attacks": "4",
+              "damage": "2",
               "keywords": [],
-              "name": "avenger_chaincannon",
-              "range": "24\"",
-              "skill": "2+",
-              "strength": "6"
+              "name": "titanic_feet",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "Knight Tyrant",
+      "points": [
+        {
+          "cost": "395",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-5",
+              "attacks": "D3",
+              "damage": "D6+8",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "brimstone_volcano_lance",
+              "range": "60\"",
+              "skill": "3+",
+              "strength": "20"
             }
           ]
         },
         {
           "active": true,
           "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "D6+3",
+              "damage": "2",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "ectoplasma_decimator_standard",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "8"
+            },
             {
               "active": true,
               "ap": "-4",
-              "attacks": "2",
-              "damage": "D6",
+              "attacks": "D6+3",
+              "damage": "3",
               "keywords": [
-                "Melta 4"
+                "Hazardous",
+                "Blast"
               ],
-              "name": "daemonbreath_spear",
-              "range": "24\"",
-              "skill": "2+",
-              "strength": "12"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
-              "name": "diabolus_heavy_stubber",
+              "name": "ectoplasma_decimator_supercharge",
               "range": "36\"",
-              "skill": "2+",
-              "strength": "5"
+              "skill": "3+",
+              "strength": "9"
             }
           ]
         },
@@ -2733,13 +3182,89 @@
               "attacks": "D6",
               "damage": "1",
               "keywords": [
-                "Indirect Fire",
+                "Twin-linked",
                 "Blast"
               ],
-              "name": "havoc_multi_launcher",
-              "range": "48\"",
-              "skill": "2+",
-              "strength": "5"
+              "name": "twin_desecrator_cannon",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-6",
+              "attacks": "1",
+              "damage": "D6+1",
+              "keywords": [
+                "Devastating Wounds",
+                "Anti-titanic 4+"
+              ],
+              "name": "gheiststrike_missile_launcher",
+              "range": "72\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "Twin-linked",
+                "Melta 2"
+              ],
+              "name": "twin_daemonbreath_meltagun",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3D6",
+              "damage": "2",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "darkflame_cannon",
+              "range": "18\"",
+              "skill": "N/A",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-6",
+              "attacks": "D3",
+              "damage": "12",
+              "keywords": [
+                "Devastating Wounds",
+                "Blast"
+              ],
+              "name": "warpshock_harpoon",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "24"
             }
           ]
         }
@@ -2748,21 +3273,22 @@
       "stats": [
         {
           "active": true,
-          "ld": "7+",
-          "m": "12\"",
-          "name": "datasheets.War_Dog_Brigand.name",
-          "oc": "8",
+          "ld": "6+",
+          "m": "8\"",
+          "name": "Knight Tyrant",
+          "oc": "10",
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "10",
-          "w": "12",
+          "t": "12",
+          "w": "28",
           "invul": "5+"
         }
       ],
       "transport": "",
       "wargear": [
-        "datasheets.War_Dog_Stalker.wargear.1"
+        "datasheets.Knight_Tyrant.wargear.0",
+        "datasheets.Knight_Tyrant.wargear.1"
       ]
     },
     {
@@ -2771,8 +3297,8 @@
           "Deadly Demise D6"
         ],
         "damaged": {
-          "range": "datasheets.Knight_Desecrator.abilities.damaged.range",
-          "description": "datasheets.Knight_Desecrator.abilities.damaged.description",
+          "range": "datasheets.Knight_Despoiler.abilities.damaged.range",
+          "description": "datasheets.Knight_Despoiler.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
@@ -2782,8 +3308,170 @@
         ],
         "other": [
           {
-            "name": "datasheets.Chaos_Questoris_Knight_Magaera.abilities.other.0.name",
-            "description": "datasheets.Chaos_Questoris_Knight_Magaera.abilities.other.0.description",
+            "name": "datasheets.Knight_Abominant.abilities.other.0.name",
+            "description": "datasheets.Knight_Abominant.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Knight_Abominant.abilities.other.1.name",
+            "description": "datasheets.Knight_Abominant.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Knight_Abominant.composition.0"
+      ],
+      "factions": [
+        "Chaos Knights"
+      ],
+      "faction_id": "QT",
+      "fluff": "datasheets.Knight_Abominant.fluff",
+      "id": "d95540c7-c761-55d4-8e56-4a80c738b11d",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Abhorrent",
+        "Psyker",
+        "Character",
+        "Chaos",
+        "Knight Abominant"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Knight_Abominant.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Extra Attacks"
+              ],
+              "name": "balemace",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "9",
+              "damage": "3",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "electroscourge",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "10"
+            }
+          ]
+        }
+      ],
+      "name": "Knight Abominant",
+      "points": [
+        {
+          "cost": "325",
+          "keyword": null,
+          "models": "1",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 3"
+              ],
+              "name": "diabolus_heavy_stubber",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "12",
+              "damage": "3",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "volkite_combustor",
+              "range": "30\"",
+              "skill": "3+",
+              "strength": "12"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "10\"",
+          "name": "Knight Abominant",
+          "oc": "10",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "3+",
+          "t": "11",
+          "w": "26",
+          "invul": "5+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Chaos_Cerastus_Knight_Acheron.wargear.0"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "damaged": {
+          "range": "datasheets.Knight_Despoiler.abilities.damaged.range",
+          "description": "datasheets.Knight_Despoiler.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "harbingers_of_dread",
+          "super_heavy_walker"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Chaos_Questoris_Knight_Styrix.abilities.other.0.name",
+            "description": "datasheets.Chaos_Questoris_Knight_Styrix.abilities.other.0.description",
             "showAbility": true,
             "showDescription": true
           },
@@ -2880,7 +3568,7 @@
       "name": "datasheets.Chaos_Questoris_Knight_Styrix.name",
       "points": [
         {
-          "cost": "430",
+          "cost": "345",
           "keyword": null,
           "models": "1",
           "active": true
@@ -2912,7 +3600,7 @@
             {
               "active": true,
               "ap": "0",
-              "attacks": "9",
+              "attacks": "12",
               "damage": "3",
               "keywords": [
                 "Devastating Wounds"
@@ -2957,551 +3645,14 @@
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "12",
-          "w": "22",
+          "t": "11",
+          "w": "26",
           "invul": "5+"
         }
       ],
       "transport": "",
       "wargear": [
         "datasheets.Chaos_Questoris_Knight_Magaera.wargear.0"
-      ]
-    },
-    {
-      "abilities": {
-        "core": [
-          "Deadly Demise D3"
-        ],
-        "damaged": {
-          "range": "datasheets.War_Dog_Stalker.abilities.damaged.range",
-          "description": "datasheets.War_Dog_Stalker.abilities.damaged.description",
-          "showDamagedAbility": true,
-          "showDescription": true
-        },
-        "faction": [
-          "harbingers_of_dread"
-        ],
-        "other": [
-          {
-            "name": "datasheets.War_Dog_Moirax.abilities.other.0.name",
-            "description": "datasheets.War_Dog_Moirax.abilities.other.0.description",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "datasheets.War_Dog_Moirax.composition.0"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
-      "faction_id": "QT",
-      "fluff": "datasheets.War_Dog_Moirax.fluff",
-      "id": "0ef085b1-f322-524a-9b3b-c51c8368e67d",
-      "imperialArmour": true,
-      "keywords": [
-        "Vehicle",
-        "Walker",
-        "Battleline",
-        "Chaos",
-        "War Dog",
-        "Moirax"
-      ],
-      "leader": "",
-      "loadout": "datasheets.War_Dog_Moirax.loadout",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "4",
-              "damage": "1",
-              "keywords": [],
-              "name": "armoured_feet",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "6"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "4",
-              "damage": "D6+2",
-              "keywords": [],
-              "name": "siege_claw",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "12"
-            }
-          ]
-        }
-      ],
-      "name": "datasheets.War_Dog_Moirax.name",
-      "points": [
-        {
-          "cost": "160",
-          "keyword": null,
-          "models": "1",
-          "active": true
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "D6",
-              "damage": "2",
-              "keywords": [
-                "Blast",
-                "Anti-vehicle 2+"
-              ],
-              "name": "graviton_pulsar",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "7"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "4",
-              "damage": "2",
-              "keywords": [
-                "Devastating Wounds"
-              ],
-              "name": "volkite_veuglaire",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "8"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "D6",
-              "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover",
-                "Anti-infantry 2+"
-              ],
-              "name": "rad_cleanser",
-              "range": "12\"",
-              "skill": "N/A",
-              "strength": "2"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "6",
-              "damage": "1",
-              "keywords": [
-                "Sustained Hits 2"
-              ],
-              "name": "lightning_lock",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "8"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "1",
-              "damage": "3",
-              "keywords": [
-                "Sustained Hits D3",
-                "Conversion"
-              ],
-              "name": "conversion_beam_cannon",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "10"
-            }
-          ],
-          "abilities": [
-            {
-              "name": "Conversion",
-              "description": "datasheets.Chaos_Acastus_Knight_Asterius.rangedWeapons.2.abilities.0.description",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "7+",
-          "m": "12\"",
-          "name": "datasheets.War_Dog_Moirax.name",
-          "oc": "8",
-          "showDamagedMarker": true,
-          "showName": false,
-          "sv": "3+",
-          "t": "10",
-          "w": "12",
-          "invul": "5+"
-        }
-      ],
-      "transport": "",
-      "wargear": [
-        "datasheets.War_Dog_Moirax.wargear.0",
-        "datasheets.War_Dog_Moirax.wargear.1"
-      ]
-    },
-    {
-      "abilities": {
-        "core": [
-          "Deadly Demise D6"
-        ],
-        "damaged": {
-          "range": "datasheets.Knight_Desecrator.abilities.damaged.range",
-          "description": "datasheets.Knight_Desecrator.abilities.damaged.description",
-          "showDamagedAbility": true,
-          "showDescription": true
-        },
-        "faction": [
-          "harbingers_of_dread",
-          "super_heavy_walker"
-        ],
-        "other": [
-          {
-            "name": "datasheets.Knight_Rampager.abilities.other.0.name",
-            "description": "datasheets.Knight_Rampager.abilities.other.0.description",
-            "showAbility": true,
-            "showDescription": true
-          },
-          {
-            "name": "datasheets.Knight_Rampager.abilities.other.1.name",
-            "description": "datasheets.Knight_Rampager.abilities.other.1.description",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "datasheets.Knight_Rampager.composition.0"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
-      "faction_id": "QT",
-      "fluff": "datasheets.Knight_Rampager.fluff",
-      "id": "e5aa2527-8533-569f-9950-635260e41ad5",
-      "keywords": [
-        "Vehicle",
-        "Walker",
-        "Titanic",
-        "Towering",
-        "Abhorrent",
-        "Character",
-        "Chaos",
-        "Knight Rampager"
-      ],
-      "leader": "",
-      "loadout": "datasheets.Knight_Rampager.loadout",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "18",
-              "damage": "2",
-              "keywords": [],
-              "name": "reaper_chainsword_sweep",
-              "range": "Melee",
-              "skill": "2+",
-              "strength": "9"
-            },
-            {
-              "active": true,
-              "ap": "-4",
-              "attacks": "6",
-              "damage": "6",
-              "keywords": [],
-              "name": "reaper_chainsword_strike",
-              "range": "Melee",
-              "skill": "2+",
-              "strength": "14"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "12",
-              "damage": "3",
-              "keywords": [],
-              "name": "warpstrike_claw_sweep",
-              "range": "Melee",
-              "skill": "2+",
-              "strength": "10"
-            },
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "6",
-              "damage": "8",
-              "keywords": [],
-              "name": "warpstrike_claw_strike",
-              "range": "Melee",
-              "skill": "2+",
-              "strength": "20"
-            }
-          ]
-        }
-      ],
-      "name": "Knight Rampager",
-      "points": [
-        {
-          "cost": "380",
-          "keyword": null,
-          "models": "1",
-          "active": true
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
-              "name": "diabolus_heavy_stubber",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "5"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "12\"",
-          "name": "Knight Rampager",
-          "oc": "10",
-          "showDamagedMarker": true,
-          "showName": false,
-          "sv": "3+",
-          "t": "12",
-          "w": "22",
-          "invul": "5+"
-        }
-      ],
-      "transport": "",
-      "wargear": [
-        "datasheets.Chaos_Cerastus_Knight_Acheron.wargear.0"
-      ]
-    },
-    {
-      "abilities": {
-        "core": [
-          "Deadly Demise D3"
-        ],
-        "damaged": {
-          "range": "datasheets.War_Dog_Stalker.abilities.damaged.range",
-          "description": "datasheets.War_Dog_Stalker.abilities.damaged.description",
-          "showDamagedAbility": true,
-          "showDescription": true
-        },
-        "faction": [
-          "harbingers_of_dread"
-        ],
-        "other": [
-          {
-            "name": "datasheets.War_Dog_Karnivore.abilities.other.0.name",
-            "description": "datasheets.War_Dog_Karnivore.abilities.other.0.description",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "datasheets.War_Dog_Karnivore.composition.0"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
-      "faction_id": "QT",
-      "fluff": "datasheets.War_Dog_Karnivore.fluff",
-      "id": "3aab31ea-3f13-507e-8e41-0a59f4966b7a",
-      "keywords": [
-        "Vehicle",
-        "Walker",
-        "Battleline",
-        "Chaos",
-        "War Dog",
-        "Karnivore"
-      ],
-      "leader": "",
-      "loadout": "datasheets.War_Dog_Karnivore.loadout",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "12",
-              "damage": "1",
-              "keywords": [],
-              "name": "reaper_chaintalon_sweep",
-              "range": "Melee",
-              "skill": "2+",
-              "strength": "8"
-            },
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "6",
-              "damage": "3",
-              "keywords": [],
-              "name": "reaper_chaintalon_strike",
-              "range": "Melee",
-              "skill": "2+",
-              "strength": "10"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "6",
-              "damage": "D6+2",
-              "keywords": [],
-              "name": "slaughterclaw",
-              "range": "Melee",
-              "skill": "2+",
-              "strength": "12"
-            }
-          ]
-        }
-      ],
-      "name": "datasheets.War_Dog_Karnivore.name",
-      "points": [
-        {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
-              "name": "diabolus_heavy_stubber",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "D6",
-              "damage": "1",
-              "keywords": [
-                "Indirect Fire",
-                "Blast"
-              ],
-              "name": "havoc_multi_launcher",
-              "range": "48\"",
-              "skill": "3+",
-              "strength": "5"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "7+",
-          "m": "14\"",
-          "name": "datasheets.War_Dog_Karnivore.name",
-          "oc": "8",
-          "showDamagedMarker": true,
-          "showName": false,
-          "sv": "3+",
-          "t": "10",
-          "w": "12",
-          "invul": "5+"
-        }
-      ],
-      "transport": "",
-      "wargear": [
-        "datasheets.War_Dog_Stalker.wargear.1"
       ]
     }
   ],
@@ -3510,22 +3661,9 @@
       "name": "detachments.Traitoris_Lance.name",
       "enhancements": [
         {
-          "name": "detachments.Traitoris_Lance.enhancements.Lord_of_Dread.name",
-          "id": "41e65454-9c65-5a6c-a432-2ff26a375c39",
-          "cost": "15",
-          "keywords": [
-            "Chaos Knights"
-          ],
-          "excludes": [],
-          "description": "detachments.Traitoris_Lance.enhancements.Lord_of_Dread.description",
-          "faction_id": "QT",
-          "source": "40k-10e",
-          "cardType": "enhancement"
-        },
-        {
           "name": "detachments.Traitoris_Lance.enhancements.Profane_Altar.name",
-          "id": "22be9ffc-1288-5f0e-9cc5-a60c5a569227",
-          "cost": "25",
+          "id": "7f3862f1-b330-5813-b8b2-45b42d5319b6",
+          "cost": "20",
           "keywords": [
             "Chaos Knights"
           ],
@@ -3537,8 +3675,8 @@
         },
         {
           "name": "detachments.Traitoris_Lance.enhancements.Pave_The_Way.name",
-          "id": "4f32f502-96a7-50d3-9aaf-b603128e2bcb",
-          "cost": "30",
+          "id": "963007d9-9889-5924-b561-d12d6eeb1b1e",
+          "cost": "25",
           "keywords": [
             "Chaos Knights"
           ],
@@ -3549,14 +3687,27 @@
           "cardType": "enhancement"
         },
         {
-          "name": "detachments.Traitoris_Lance.enhancements.Aura_of_Terror.name",
-          "id": "787fd0ab-066d-5592-aabc-87b447c84648",
-          "cost": "40",
+          "name": "detachments.Traitoris_Lance.enhancements.Tyrants_Banner.name",
+          "id": "ccb1bfc1-3f62-5514-a0dc-8551cc9adfad",
+          "cost": "30",
           "keywords": [
             "Chaos Knights"
           ],
           "excludes": [],
-          "description": "detachments.Traitoris_Lance.enhancements.Aura_of_Terror.description",
+          "description": "detachments.Traitoris_Lance.enhancements.Tyrants_Banner.description",
+          "faction_id": "QT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Traitoris_Lance.enhancements.Diabolical_Resilience.name",
+          "id": "c80a3a6f-e9fb-5f63-9278-15e73aa9713f",
+          "cost": "35",
+          "keywords": [
+            "Chaos Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Traitoris_Lance.enhancements.Diabolical_Resilience.description",
           "faction_id": "QT",
           "source": "40k-10e",
           "cardType": "enhancement"
@@ -3582,7 +3733,7 @@
       "stratagems": [
         {
           "name": "detachments.Traitoris_Lance.stratagems.Soul_Hunger.name",
-          "id": "c2310f9a-156d-55b3-9182-38b8bf2ce581",
+          "id": "3e65e435-05ed-5bcf-98d0-86d012278735",
           "cost": 1,
           "turn": "either",
           "target": "detachments.Traitoris_Lance.stratagems.Soul_Hunger.target",
@@ -3591,36 +3742,19 @@
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
-            "fight",
-            "shooting"
+            "fight"
           ],
           "faction_id": "QT",
           "fluff": "detachments.Traitoris_Lance.stratagems.Soul_Hunger.fluff"
         },
         {
-          "name": "detachments.Traitoris_Lance.stratagems.Dread_Hounds.name",
-          "id": "2fb2a43d-7a85-56e7-a9ab-a81d4aaf8e5d",
-          "cost": 1,
-          "turn": "either",
-          "target": "detachments.Traitoris_Lance.stratagems.Dread_Hounds.target",
-          "when": "detachments.Traitoris_Lance.stratagems.Dread_Hounds.when",
-          "effect": "detachments.Traitoris_Lance.stratagems.Dread_Hounds.effect",
-          "restrictions": "",
-          "type": "Battle Tactic",
-          "phase": [
-            "fight"
-          ],
-          "faction_id": "QT",
-          "fluff": "detachments.Traitoris_Lance.stratagems.Dread_Hounds.fluff"
-        },
-        {
-          "name": "detachments.Traitoris_Lance.stratagems.Disdain_for_the_Weak.name",
-          "id": "13b7f334-a288-5a69-9ce8-42042090571e",
+          "name": "detachments.Traitoris_Lance.stratagems.Profane_Symbiosis.name",
+          "id": "4f17ee77-8533-5176-8cff-0a3e251be33b",
           "cost": 1,
           "turn": "your",
-          "target": "detachments.Traitoris_Lance.stratagems.Disdain_for_the_Weak.target",
-          "when": "detachments.Traitoris_Lance.stratagems.Disdain_for_the_Weak.when",
-          "effect": "detachments.Traitoris_Lance.stratagems.Disdain_for_the_Weak.effect",
+          "target": "detachments.Traitoris_Lance.stratagems.Profane_Symbiosis.target",
+          "when": "detachments.Traitoris_Lance.stratagems.Profane_Symbiosis.when",
+          "effect": "detachments.Traitoris_Lance.stratagems.Profane_Symbiosis.effect",
           "restrictions": "",
           "type": "Epic Deed",
           "phase": [
@@ -3628,55 +3762,383 @@
             "movement"
           ],
           "faction_id": "QT",
-          "fluff": "detachments.Traitoris_Lance.stratagems.Disdain_for_the_Weak.fluff"
+          "fluff": "detachments.Traitoris_Lance.stratagems.Profane_Symbiosis.fluff"
         },
         {
-          "name": "detachments.Traitoris_Lance.stratagems.Wretched_Masses.name",
+          "name": "detachments.Traitoris_Lance.stratagems.Hellforged_Construction.name",
+          "id": "2fb2a43d-7a85-56e7-a9ab-a81d4aaf8e5d",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Traitoris_Lance.stratagems.Hellforged_Construction.target",
+          "when": "detachments.Traitoris_Lance.stratagems.Hellforged_Construction.when",
+          "effect": "detachments.Traitoris_Lance.stratagems.Hellforged_Construction.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "QT",
+          "fluff": "detachments.Traitoris_Lance.stratagems.Hellforged_Construction.fluff"
+        },
+        {
+          "name": "detachments.Traitoris_Lance.stratagems.Hungry_for_Combat.name",
           "id": "5000274e-d141-5677-95dd-e38477f94f72",
           "cost": 1,
           "turn": "your",
-          "target": "detachments.Traitoris_Lance.stratagems.Wretched_Masses.target",
-          "when": "detachments.Traitoris_Lance.stratagems.Wretched_Masses.when",
-          "effect": "detachments.Traitoris_Lance.stratagems.Wretched_Masses.effect",
+          "target": "detachments.Traitoris_Lance.stratagems.Hungry_for_Combat.target",
+          "when": "detachments.Traitoris_Lance.stratagems.Hungry_for_Combat.when",
+          "effect": "detachments.Traitoris_Lance.stratagems.Hungry_for_Combat.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
           "phase": [
             "command"
           ],
           "faction_id": "QT",
-          "fluff": "detachments.Traitoris_Lance.stratagems.Wretched_Masses.fluff"
+          "fluff": "detachments.Traitoris_Lance.stratagems.Hungry_for_Combat.fluff"
         },
         {
-          "name": "detachments.Traitoris_Lance.stratagems.Knights_of_Shade.name",
+          "name": "detachments.Traitoris_Lance.stratagems.Animalistic_Rage.name",
+          "id": "f6d38c6f-509a-5720-a27c-52d33ccbe3da",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Traitoris_Lance.stratagems.Hellforged_Construction.target",
+          "when": "detachments.Traitoris_Lance.stratagems.Animalistic_Rage.when",
+          "effect": "detachments.Traitoris_Lance.stratagems.Animalistic_Rage.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "QT",
+          "fluff": "detachments.Traitoris_Lance.stratagems.Animalistic_Rage.fluff"
+        },
+        {
+          "name": "detachments.Traitoris_Lance.stratagems.Conquerors_Without_Mercy.name",
           "id": "5c961850-6458-5c25-b063-c3b450adb855",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Traitoris_Lance.stratagems.Knights_of_Shade.target",
-          "when": "detachments.Traitoris_Lance.stratagems.Knights_of_Shade.when",
-          "effect": "detachments.Traitoris_Lance.stratagems.Knights_of_Shade.effect",
-          "restrictions": "",
+          "target": "detachments.Traitoris_Lance.stratagems.Conquerors_Without_Mercy.target",
+          "when": "detachments.Traitoris_Lance.stratagems.Conquerors_Without_Mercy.when",
+          "effect": "detachments.Traitoris_Lance.stratagems.Conquerors_Without_Mercy.effect",
+          "restrictions": "detachments.Traitoris_Lance.stratagems.Conquerors_Without_Mercy.restrictions",
           "type": "Wargear",
           "phase": [
             "any"
           ],
           "faction_id": "QT",
-          "fluff": "detachments.Traitoris_Lance.stratagems.Knights_of_Shade.fluff"
+          "fluff": "detachments.Traitoris_Lance.stratagems.Conquerors_Without_Mercy.fluff"
+        }
+      ]
+    },
+    {
+      "name": "detachments.Houndpack_Lance.name",
+      "enhancements": [
+        {
+          "name": "detachments.Houndpack_Lance.enhancements.Profane_Altar.name",
+          "id": "3941ef26-7036-53a0-84cf-f549ed2061ca",
+          "cost": "15",
+          "keywords": [
+            "War Dog"
+          ],
+          "excludes": [],
+          "description": "detachments.Houndpack_Lance.enhancements.Profane_Altar.description",
+          "faction_id": "QT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
         },
         {
-          "name": "detachments.Traitoris_Lance.stratagems.Unrestrained_Rage.name",
-          "id": "e660df91-7533-5f33-a8fa-1ce97d7033b4",
+          "name": "detachments.Houndpack_Lance.enhancements.Pave_The_Way.name",
+          "id": "d4c4cafe-1a75-53fc-805e-47b2153d0ada",
+          "cost": "20",
+          "keywords": [
+            "War Dog"
+          ],
+          "excludes": [],
+          "description": "detachments.Houndpack_Lance.enhancements.Pave_The_Way.description",
+          "faction_id": "QT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Houndpack_Lance.enhancements.Tyrants_Banner.name",
+          "id": "3cf963b0-8a2f-54f0-877c-b24b9177388e",
+          "cost": "10",
+          "keywords": [
+            "War Dog"
+          ],
+          "excludes": [],
+          "description": "detachments.Houndpack_Lance.enhancements.Tyrants_Banner.description",
+          "faction_id": "QT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Houndpack_Lance.enhancements.Diabolical_Resilience.name",
+          "id": "787fd0ab-066d-5592-aabc-87b447c84648",
+          "cost": "15",
+          "keywords": [
+            "War Dog"
+          ],
+          "excludes": [],
+          "description": "detachments.Houndpack_Lance.enhancements.Diabolical_Resilience.description",
+          "faction_id": "QT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.Houndpack_Lance.stratagems.Soul_Hunger.name",
+          "id": "e5a7d95d-271e-564e-8e35-40cbb8184912",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Houndpack_Lance.stratagems.Soul_Hunger.target",
+          "when": "detachments.Houndpack_Lance.stratagems.Soul_Hunger.when",
+          "effect": "detachments.Houndpack_Lance.stratagems.Soul_Hunger.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "QT",
+          "fluff": "detachments.Houndpack_Lance.stratagems.Soul_Hunger.fluff"
+        },
+        {
+          "name": "detachments.Houndpack_Lance.stratagems.Profane_Symbiosis.name",
+          "id": "1652fd25-2c6a-50c1-9e01-d18e8c45e543",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Houndpack_Lance.stratagems.Profane_Symbiosis.target",
+          "when": "detachments.Houndpack_Lance.stratagems.Profane_Symbiosis.when",
+          "effect": "detachments.Houndpack_Lance.stratagems.Profane_Symbiosis.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "QT",
+          "fluff": "detachments.Houndpack_Lance.stratagems.Profane_Symbiosis.fluff"
+        },
+        {
+          "name": "detachments.Houndpack_Lance.stratagems.Hellforged_Construction.name",
+          "id": "31b92d83-cee2-52ad-b792-e47b42b54c12",
+          "cost": 2,
+          "turn": "either",
+          "target": "detachments.Houndpack_Lance.stratagems.Hellforged_Construction.target",
+          "when": "detachments.Houndpack_Lance.stratagems.Hellforged_Construction.when",
+          "effect": "detachments.Houndpack_Lance.stratagems.Hellforged_Construction.effect",
+          "restrictions": "detachments.Houndpack_Lance.stratagems.Hellforged_Construction.restrictions",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "QT",
+          "fluff": "detachments.Houndpack_Lance.stratagems.Hellforged_Construction.fluff"
+        },
+        {
+          "name": "detachments.Houndpack_Lance.stratagems.Hungry_for_Combat.name",
+          "id": "64d0307f-0b0c-59d9-953b-7b535d5ea7b0",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Houndpack_Lance.stratagems.Hungry_for_Combat.target",
+          "when": "detachments.Houndpack_Lance.stratagems.Hungry_for_Combat.when",
+          "effect": "detachments.Houndpack_Lance.stratagems.Hungry_for_Combat.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "QT",
+          "fluff": "detachments.Houndpack_Lance.stratagems.Hungry_for_Combat.fluff"
+        },
+        {
+          "name": "detachments.Houndpack_Lance.stratagems.Animalistic_Rage.name",
+          "id": "4640468c-0378-533b-bd21-22f22391ed6b",
           "cost": 1,
           "turn": "opponents",
-          "target": "detachments.Traitoris_Lance.stratagems.Dread_Hounds.target",
-          "when": "detachments.Traitoris_Lance.stratagems.Unrestrained_Rage.when",
-          "effect": "detachments.Traitoris_Lance.stratagems.Unrestrained_Rage.effect",
+          "target": "detachments.Houndpack_Lance.stratagems.Animalistic_Rage.target",
+          "when": "detachments.Houndpack_Lance.stratagems.Animalistic_Rage.when",
+          "effect": "detachments.Houndpack_Lance.stratagems.Animalistic_Rage.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "QT",
+          "fluff": "detachments.Houndpack_Lance.stratagems.Animalistic_Rage.fluff"
+        },
+        {
+          "name": "detachments.Houndpack_Lance.stratagems.Conquerors_Without_Mercy.name",
+          "id": "536d6656-93f5-568a-b962-5a1602dbfb93",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Houndpack_Lance.stratagems.Conquerors_Without_Mercy.target",
+          "when": "detachments.Houndpack_Lance.stratagems.Conquerors_Without_Mercy.when",
+          "effect": "detachments.Houndpack_Lance.stratagems.Conquerors_Without_Mercy.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "QT",
+          "fluff": "detachments.Houndpack_Lance.stratagems.Conquerors_Without_Mercy.fluff"
+        }
+      ]
+    },
+    {
+      "name": "detachments.Infernal_Lance.name",
+      "enhancements": [
+        {
+          "name": "detachments.Infernal_Lance.enhancements.Profane_Altar.name",
+          "id": "2520e06b-206d-5fe9-8564-601d745689da",
+          "cost": "25",
+          "keywords": [
+            "Chaos Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Infernal_Lance.enhancements.Profane_Altar.description",
+          "faction_id": "QT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Infernal_Lance.enhancements.Pave_The_Way.name",
+          "id": "9e776064-6bd7-5d0b-ac59-be26ead29581",
+          "cost": "35",
+          "keywords": [
+            "Chaos Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Infernal_Lance.enhancements.Pave_The_Way.description",
+          "faction_id": "QT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Infernal_Lance.enhancements.Tyrants_Banner.name",
+          "id": "e36d0fac-81a7-58ad-a74b-8be484ccf185",
+          "cost": "35",
+          "keywords": [
+            "Chaos Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Infernal_Lance.enhancements.Tyrants_Banner.description",
+          "faction_id": "QT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Infernal_Lance.enhancements.Diabolical_Resilience.name",
+          "id": "3bb588c8-b868-5f9d-973e-d14a57e723d2",
+          "cost": "20",
+          "keywords": [
+            "Chaos Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Infernal_Lance.enhancements.Diabolical_Resilience.description",
+          "faction_id": "QT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.Infernal_Lance.stratagems.Soul_Hunger.name",
+          "id": "b6d2f98d-f80c-5ede-a638-b46b7e22ce6f",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Infernal_Lance.stratagems.Soul_Hunger.target",
+          "when": "detachments.Infernal_Lance.stratagems.Soul_Hunger.when",
+          "effect": "detachments.Infernal_Lance.stratagems.Soul_Hunger.effect",
+          "restrictions": "detachments.Infernal_Lance.stratagems.Soul_Hunger.restrictions",
+          "type": "Battle Tactic",
+          "phase": [
+            "any"
+          ],
+          "faction_id": "QT",
+          "fluff": "detachments.Infernal_Lance.stratagems.Soul_Hunger.fluff"
+        },
+        {
+          "name": "detachments.Infernal_Lance.stratagems.Profane_Symbiosis.name",
+          "id": "d041b727-dd62-56ef-ac1b-078bc4d49a60",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Traitoris_Lance.stratagems.Hellforged_Construction.target",
+          "when": "detachments.Traitoris_Lance.stratagems.Hellforged_Construction.when",
+          "effect": "detachments.Infernal_Lance.stratagems.Profane_Symbiosis.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "QT",
+          "fluff": "detachments.Infernal_Lance.stratagems.Profane_Symbiosis.fluff"
+        },
+        {
+          "name": "detachments.Infernal_Lance.stratagems.Hellforged_Construction.name",
+          "id": "54a21a1d-417f-522f-9bfc-2fb504dda5d1",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Infernal_Lance.stratagems.Hellforged_Construction.target",
+          "when": "detachments.Infernal_Lance.stratagems.Hellforged_Construction.when",
+          "effect": "detachments.Infernal_Lance.stratagems.Hellforged_Construction.effect",
+          "restrictions": "",
+          "type": "Epic Deed",
+          "phase": [
+            "command"
+          ],
+          "faction_id": "QT",
+          "fluff": "detachments.Infernal_Lance.stratagems.Hellforged_Construction.fluff"
+        },
+        {
+          "name": "detachments.Infernal_Lance.stratagems.Hungry_for_Combat.name",
+          "id": "18d13afc-3d36-5f22-bca0-b8b357ed5d32",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Infernal_Lance.stratagems.Hungry_for_Combat.target",
+          "when": "detachments.Infernal_Lance.stratagems.Hungry_for_Combat.when",
+          "effect": "detachments.Infernal_Lance.stratagems.Hungry_for_Combat.effect",
           "restrictions": "",
           "type": "Wargear",
           "phase": [
             "shooting"
           ],
           "faction_id": "QT",
-          "fluff": "detachments.Traitoris_Lance.stratagems.Unrestrained_Rage.fluff"
+          "fluff": "detachments.Infernal_Lance.stratagems.Hungry_for_Combat.fluff"
+        },
+        {
+          "name": "detachments.Infernal_Lance.stratagems.Animalistic_Rage.name",
+          "id": "e8628b98-c51e-5111-bcb1-8ad7809327e3",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Infernal_Lance.stratagems.Hungry_for_Combat.target",
+          "when": "detachments.Infernal_Lance.stratagems.Hungry_for_Combat.when",
+          "effect": "detachments.Infernal_Lance.stratagems.Animalistic_Rage.effect",
+          "restrictions": "",
+          "type": "Wargear",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "QT",
+          "fluff": "detachments.Infernal_Lance.stratagems.Animalistic_Rage.fluff"
+        },
+        {
+          "name": "detachments.Infernal_Lance.stratagems.Conquerors_Without_Mercy.name",
+          "id": "e660df91-7533-5f33-a8fa-1ce97d7033b4",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Traitoris_Lance.stratagems.Hellforged_Construction.target",
+          "when": "detachments.Traitoris_Lance.stratagems.Animalistic_Rage.when",
+          "effect": "detachments.Infernal_Lance.stratagems.Conquerors_Without_Mercy.effect",
+          "restrictions": "",
+          "type": "Wargear",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "QT",
+          "fluff": "detachments.Infernal_Lance.stratagems.Conquerors_Without_Mercy.fluff"
         }
       ]
     },
@@ -3684,22 +4146,9 @@
       "name": "detachments.Iconoclast_Fiefdom.name",
       "enhancements": [
         {
-          "name": "detachments.Iconoclast_Fiefdom.enhancements.Lord_of_Dread.name",
+          "name": "detachments.Iconoclast_Fiefdom.enhancements.Profane_Altar.name",
           "id": "50662511-6648-55a7-92b7-84f55484b78e",
           "cost": "20",
-          "keywords": [
-            "Chaos Knights"
-          ],
-          "excludes": [],
-          "description": "detachments.Iconoclast_Fiefdom.enhancements.Lord_of_Dread.description",
-          "faction_id": "QT",
-          "source": "40k-10e",
-          "cardType": "enhancement"
-        },
-        {
-          "name": "detachments.Iconoclast_Fiefdom.enhancements.Profane_Altar.name",
-          "id": "936e0e56-315e-533b-968a-f5a56d8d4362",
-          "cost": "15",
           "keywords": [
             "Chaos Knights"
           ],
@@ -3711,8 +4160,8 @@
         },
         {
           "name": "detachments.Iconoclast_Fiefdom.enhancements.Pave_The_Way.name",
-          "id": "f2f69e10-a9b5-5564-803f-c6d31b7e904e",
-          "cost": "5",
+          "id": "936e0e56-315e-533b-968a-f5a56d8d4362",
+          "cost": "15",
           "keywords": [
             "Chaos Knights"
           ],
@@ -3723,14 +4172,27 @@
           "cardType": "enhancement"
         },
         {
-          "name": "detachments.Iconoclast_Fiefdom.enhancements.Aura_of_Terror.name",
+          "name": "detachments.Iconoclast_Fiefdom.enhancements.Tyrants_Banner.name",
+          "id": "f2f69e10-a9b5-5564-803f-c6d31b7e904e",
+          "cost": "5",
+          "keywords": [
+            "Chaos Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Iconoclast_Fiefdom.enhancements.Tyrants_Banner.description",
+          "faction_id": "QT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Iconoclast_Fiefdom.enhancements.Diabolical_Resilience.name",
           "id": "40509376-f34b-5614-b1f0-3e858145ba52",
           "cost": "35",
           "keywords": [
             "Chaos Knights"
           ],
           "excludes": [],
-          "description": "detachments.Iconoclast_Fiefdom.enhancements.Aura_of_Terror.description",
+          "description": "detachments.Iconoclast_Fiefdom.enhancements.Diabolical_Resilience.description",
           "faction_id": "QT",
           "source": "40k-10e",
           "cardType": "enhancement"
@@ -3766,84 +4228,267 @@
           "fluff": "detachments.Iconoclast_Fiefdom.stratagems.Soul_Hunger.fluff"
         },
         {
-          "name": "detachments.Iconoclast_Fiefdom.stratagems.Dread_Hounds.name",
+          "name": "detachments.Iconoclast_Fiefdom.stratagems.Profane_Symbiosis.name",
           "id": "04721e18-ed31-545e-a10c-742ac6580b5d",
           "cost": 2,
           "turn": "either",
-          "target": "detachments.Iconoclast_Fiefdom.stratagems.Dread_Hounds.target",
-          "when": "detachments.Iconoclast_Fiefdom.stratagems.Dread_Hounds.when",
-          "effect": "detachments.Iconoclast_Fiefdom.stratagems.Dread_Hounds.effect",
-          "restrictions": "detachments.Iconoclast_Fiefdom.stratagems.Dread_Hounds.restrictions",
+          "target": "detachments.Iconoclast_Fiefdom.stratagems.Profane_Symbiosis.target",
+          "when": "detachments.Iconoclast_Fiefdom.stratagems.Profane_Symbiosis.when",
+          "effect": "detachments.Iconoclast_Fiefdom.stratagems.Profane_Symbiosis.effect",
+          "restrictions": "detachments.Iconoclast_Fiefdom.stratagems.Profane_Symbiosis.restrictions",
           "type": "Battle Tactic",
           "phase": [
             "any"
           ],
           "faction_id": "QT",
-          "fluff": "detachments.Iconoclast_Fiefdom.stratagems.Dread_Hounds.fluff"
+          "fluff": "detachments.Iconoclast_Fiefdom.stratagems.Profane_Symbiosis.fluff"
         },
         {
-          "name": "detachments.Iconoclast_Fiefdom.stratagems.Disdain_for_the_Weak.name",
+          "name": "detachments.Iconoclast_Fiefdom.stratagems.Hellforged_Construction.name",
           "id": "0ed85d05-b64f-50f3-89c6-0a8a5146a657",
           "cost": 1,
           "turn": "your",
-          "target": "detachments.Iconoclast_Fiefdom.stratagems.Disdain_for_the_Weak.target",
-          "when": "detachments.Iconoclast_Fiefdom.stratagems.Disdain_for_the_Weak.when",
-          "effect": "detachments.Iconoclast_Fiefdom.stratagems.Disdain_for_the_Weak.effect",
+          "target": "detachments.Iconoclast_Fiefdom.stratagems.Hellforged_Construction.target",
+          "when": "detachments.Iconoclast_Fiefdom.stratagems.Hellforged_Construction.when",
+          "effect": "detachments.Iconoclast_Fiefdom.stratagems.Hellforged_Construction.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
           "phase": [
             "movement"
           ],
           "faction_id": "QT",
-          "fluff": "detachments.Iconoclast_Fiefdom.stratagems.Disdain_for_the_Weak.fluff"
+          "fluff": "detachments.Iconoclast_Fiefdom.stratagems.Hellforged_Construction.fluff"
         },
         {
-          "name": "detachments.Iconoclast_Fiefdom.stratagems.Wretched_Masses.name",
+          "name": "detachments.Iconoclast_Fiefdom.stratagems.Hungry_for_Combat.name",
           "id": "f4b05bc8-1dc2-582f-b473-9a2c24c3dc57",
           "cost": 1,
           "turn": "your",
-          "target": "detachments.Iconoclast_Fiefdom.stratagems.Wretched_Masses.target",
-          "when": "detachments.Iconoclast_Fiefdom.stratagems.Wretched_Masses.when",
-          "effect": "detachments.Iconoclast_Fiefdom.stratagems.Wretched_Masses.effect",
+          "target": "detachments.Iconoclast_Fiefdom.stratagems.Hungry_for_Combat.target",
+          "when": "detachments.Infernal_Lance.stratagems.Hungry_for_Combat.when",
+          "effect": "detachments.Iconoclast_Fiefdom.stratagems.Hungry_for_Combat.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
           "phase": [
             "shooting"
           ],
           "faction_id": "QT",
-          "fluff": "detachments.Iconoclast_Fiefdom.stratagems.Wretched_Masses.fluff"
+          "fluff": "detachments.Iconoclast_Fiefdom.stratagems.Hungry_for_Combat.fluff"
         },
         {
-          "name": "detachments.Iconoclast_Fiefdom.stratagems.Knights_of_Shade.name",
+          "name": "detachments.Iconoclast_Fiefdom.stratagems.Animalistic_Rage.name",
           "id": "4bcc1b93-b992-5744-a857-8e928aa97dd2",
           "cost": 1,
           "turn": "opponents",
-          "target": "detachments.Iconoclast_Fiefdom.stratagems.Knights_of_Shade.target",
-          "when": "detachments.Iconoclast_Fiefdom.stratagems.Knights_of_Shade.when",
-          "effect": "detachments.Iconoclast_Fiefdom.stratagems.Knights_of_Shade.effect",
+          "target": "detachments.Iconoclast_Fiefdom.stratagems.Animalistic_Rage.target",
+          "when": "detachments.Houndpack_Lance.stratagems.Animalistic_Rage.when",
+          "effect": "detachments.Iconoclast_Fiefdom.stratagems.Animalistic_Rage.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
           "phase": [
             "movement"
           ],
           "faction_id": "QT",
-          "fluff": "detachments.Iconoclast_Fiefdom.stratagems.Knights_of_Shade.fluff"
+          "fluff": "detachments.Iconoclast_Fiefdom.stratagems.Animalistic_Rage.fluff"
         },
         {
-          "name": "detachments.Iconoclast_Fiefdom.stratagems.Unrestrained_Rage.name",
+          "name": "detachments.Iconoclast_Fiefdom.stratagems.Conquerors_Without_Mercy.name",
           "id": "ff0c5072-214e-54f7-aca4-4466383df3bc",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Iconoclast_Fiefdom.stratagems.Unrestrained_Rage.target",
-          "when": "detachments.Iconoclast_Fiefdom.stratagems.Dread_Hounds.when",
-          "effect": "detachments.Iconoclast_Fiefdom.stratagems.Unrestrained_Rage.effect",
+          "target": "detachments.Iconoclast_Fiefdom.stratagems.Conquerors_Without_Mercy.target",
+          "when": "detachments.Iconoclast_Fiefdom.stratagems.Profane_Symbiosis.when",
+          "effect": "detachments.Iconoclast_Fiefdom.stratagems.Conquerors_Without_Mercy.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
           "phase": [
             "any"
           ],
           "faction_id": "QT",
-          "fluff": "detachments.Iconoclast_Fiefdom.stratagems.Unrestrained_Rage.fluff"
+          "fluff": "detachments.Iconoclast_Fiefdom.stratagems.Conquerors_Without_Mercy.fluff"
+        }
+      ]
+    },
+    {
+      "name": "detachments.Lords_of_Dread.name",
+      "enhancements": [
+        {
+          "name": "detachments.Lords_of_Dread.enhancements.Profane_Altar.name",
+          "id": "7d3fd832-5481-55f6-bf55-acb64084853a",
+          "cost": "25",
+          "keywords": [
+            "Chaos Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Lords_of_Dread.enhancements.Profane_Altar.description",
+          "faction_id": "QT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Lords_of_Dread.enhancements.Pave_The_Way.name",
+          "id": "c8aee852-0b8a-59d6-a9c2-30c4a12e352c",
+          "cost": "35",
+          "keywords": [
+            "Chaos Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Lords_of_Dread.enhancements.Pave_The_Way.description",
+          "faction_id": "QT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Lords_of_Dread.enhancements.Tyrants_Banner.name",
+          "id": "33eddcde-e4ac-5922-9b58-a5ee2480d794",
+          "cost": "10",
+          "keywords": [
+            "Chaos Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Lords_of_Dread.enhancements.Tyrants_Banner.description",
+          "faction_id": "QT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Lords_of_Dread.enhancements.Diabolical_Resilience.name",
+          "id": "9895ff12-b92d-5158-bcbe-e9153cb6819d",
+          "cost": "30",
+          "keywords": [
+            "Chaos Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Lords_of_Dread.enhancements.Diabolical_Resilience.description",
+          "faction_id": "QT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Lords_of_Dread.enhancements.Nightmares_Master.name",
+          "id": "5aa79521-64a5-5c01-b842-913f0d9ebad9",
+          "cost": "30",
+          "keywords": [
+            "Chaos Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Lords_of_Dread.enhancements.Nightmares_Master.description",
+          "faction_id": "QT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Lords_of_Dread.enhancements.Tyrants_Shadow.name",
+          "id": "4f00b8ce-0497-5b39-a42b-52889404d50e",
+          "cost": "20",
+          "keywords": [
+            "Chaos Knights"
+          ],
+          "excludes": [],
+          "description": "detachments.Lords_of_Dread.enhancements.Tyrants_Shadow.description",
+          "faction_id": "QT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.Lords_of_Dread.stratagems.Soul_Hunger.name",
+          "id": "9828fd65-d4e5-5395-9ad1-c0f9ca92b958",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Lords_of_Dread.stratagems.Soul_Hunger.target",
+          "when": "detachments.Lords_of_Dread.stratagems.Soul_Hunger.when",
+          "effect": "detachments.Lords_of_Dread.stratagems.Soul_Hunger.effect",
+          "restrictions": "",
+          "type": "Epic Deed",
+          "phase": [
+            "any"
+          ],
+          "faction_id": "QT",
+          "fluff": "detachments.Lords_of_Dread.stratagems.Soul_Hunger.fluff"
+        },
+        {
+          "name": "detachments.Lords_of_Dread.stratagems.Profane_Symbiosis.name",
+          "id": "74bb6a54-70ef-5b0c-9e6c-a66454312904",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Lords_of_Dread.stratagems.Profane_Symbiosis.target",
+          "when": "detachments.Lords_of_Dread.stratagems.Profane_Symbiosis.when",
+          "effect": "detachments.Lords_of_Dread.stratagems.Profane_Symbiosis.effect",
+          "restrictions": "",
+          "type": "Epic Deed",
+          "phase": [
+            "any"
+          ],
+          "faction_id": "QT",
+          "fluff": "detachments.Lords_of_Dread.stratagems.Profane_Symbiosis.fluff"
+        },
+        {
+          "name": "detachments.Lords_of_Dread.stratagems.Hellforged_Construction.name",
+          "id": "086ed7cb-3f50-5ad0-9d0e-6420f05f89db",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Lords_of_Dread.stratagems.Hellforged_Construction.target",
+          "when": "detachments.Lords_of_Dread.stratagems.Hellforged_Construction.when",
+          "effect": "detachments.Lords_of_Dread.stratagems.Hellforged_Construction.effect",
+          "restrictions": "",
+          "type": "Epic Deed",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "QT",
+          "fluff": "detachments.Lords_of_Dread.stratagems.Hellforged_Construction.fluff"
+        },
+        {
+          "name": "detachments.Lords_of_Dread.stratagems.Hungry_for_Combat.name",
+          "id": "3f16cd89-d3da-5f1a-a6c9-d7d5aa875837",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Infernal_Lance.stratagems.Hellforged_Construction.target",
+          "when": "detachments.Lords_of_Dread.stratagems.Hungry_for_Combat.when",
+          "effect": "detachments.Lords_of_Dread.stratagems.Hungry_for_Combat.effect",
+          "restrictions": "",
+          "type": "Epic Deed",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "QT",
+          "fluff": "detachments.Lords_of_Dread.stratagems.Hungry_for_Combat.fluff"
+        },
+        {
+          "name": "detachments.Lords_of_Dread.stratagems.Animalistic_Rage.name",
+          "id": "b963e352-4eb9-578f-8629-99cbf2462b7e",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Infernal_Lance.stratagems.Hellforged_Construction.target",
+          "when": "detachments.Lords_of_Dread.stratagems.Animalistic_Rage.when",
+          "effect": "detachments.Lords_of_Dread.stratagems.Animalistic_Rage.effect",
+          "restrictions": "",
+          "type": "Epic Deed",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "QT",
+          "fluff": "detachments.Lords_of_Dread.stratagems.Animalistic_Rage.fluff"
+        },
+        {
+          "name": "detachments.Lords_of_Dread.stratagems.Conquerors_Without_Mercy.name",
+          "id": "d86cc9e0-d5d6-506d-b4f8-307acfecc16b",
+          "cost": 2,
+          "turn": "either",
+          "target": "detachments.Lords_of_Dread.stratagems.Conquerors_Without_Mercy.target",
+          "when": "detachments.Lords_of_Dread.stratagems.Conquerors_Without_Mercy.when",
+          "effect": "detachments.Lords_of_Dread.stratagems.Conquerors_Without_Mercy.effect",
+          "restrictions": "",
+          "type": "Epic Deed",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "QT",
+          "fluff": "detachments.Lords_of_Dread.stratagems.Conquerors_Without_Mercy.fluff"
         }
       ]
     }
@@ -3906,5 +4551,5 @@
       }
     ]
   },
-  "updated": "2025-05-29T08:37:07.701Z"
+  "updated": "2025-06-27T11:33:38.154Z"
 }

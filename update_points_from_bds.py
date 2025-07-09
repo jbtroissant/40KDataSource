@@ -37,29 +37,29 @@ def parse_bds_file(file_path):
             'ADEPTUS CUSTODES': 'adeptuscustodes',
             'ADEPTUS MECHANICUS': 'adeptusmechanicus',
             'AELDARI': 'aeldari',
+            'AGENTS OF THE IMPERIUM': 'agents',
             'ASTRA MILITARUM': 'astramilitarum',
-            'BLOOD ANGELS': 'bloodangels',
             'BLACK TEMPLARS': 'blacktemplar',
+            'BLOOD ANGELS': 'bloodangels',
+            'CHAOS SPACE MARINES': 'chaos_spacemarines',
             'CHAOS DAEMONS': 'chaosdaemons',
             'CHAOS KNIGHTS': 'chaosknights',
-            'CHAOS SPACE MARINES': 'chaos_spacemarines',
             'DARK ANGELS': 'darkangels',
             'DEATH GUARD': 'deathguard',
             'DEATHWATCH': 'Deathwatch',
             'DRUKHARI': 'drukhari',
             'EMPEROR\'S CHILDREN': 'emperors_children',
-            'GENESTEALER CULTS': 'gsc',
             'GREY KNIGHTS': 'greyknights',
-            'IMPERIAL AGENTS': 'agents',
+            'GENESTEALER CULTS': 'gsc',
             'IMPERIAL KNIGHTS': 'imperialknights',
-            'LEAGUES OF VOTANN': 'votann',
             'NECRONS': 'necrons',
             'ORKS': 'orks',
             'SPACE MARINES': 'space_marines',
             'SPACE WOLVES': 'spacewolves',
-            'T\'AU EMPIRE': 'tau',
+            'TAU EMPIRE': 'tau',
             'THOUSAND SONS': 'thousandsons',
             'TYRANIDS': 'tyranids',
+            'VOTANN': 'votann',
             'WORLD EATERS': 'worldeaters'
         }
         
@@ -219,7 +219,7 @@ def process_faction_file(faction_file, faction_points):
     """
     if not os.path.exists(faction_file):
         print(f"Fichier {faction_file} non trouvé!")
-        return [], []
+        return
     
     print(f"Traitement de {faction_file}...")
     
@@ -229,12 +229,14 @@ def process_faction_file(faction_file, faction_points):
     
     faction_name = os.path.basename(faction_file).replace('.json', '')
     updated_count = 0
+    legends_count = 0
+    legends_list = []
     missing_count = 0
     missing_list = []
     
     if faction_name not in faction_points:
         print(f"Faction {faction_name} non trouvée dans le bds.txt")
-        return [], []
+        return
     
     # Créer une liste des noms de datasheets dans l'archive
     archive_datasheets = [datasheet['name'] for datasheet in data.get('datasheets', [])]
@@ -258,7 +260,13 @@ def process_faction_file(faction_file, faction_points):
             update_datasheet_points(datasheet, matching_data)
             print(f"  Mis à jour: {datasheet_name}")
             updated_count += 1
-        # Si pas trouvée dans le bds.txt, on ne fait rien (pas de passage automatique à legends)
+        else:
+            # Datasheet non trouvée dans le bds.txt, ajouter "legends": true
+            if 'legends' not in datasheet:
+                datasheet['legends'] = True
+                legends_count += 1
+                legends_list.append(datasheet_name)
+                print(f"  Ajouté legends: {datasheet_name}")
     
     # Vérifier les datasheets du bds.txt qui ne sont pas dans l'archive
     for bds_name in faction_points[faction_name].keys():
@@ -275,19 +283,23 @@ def process_faction_file(faction_file, faction_points):
             missing_list.append(bds_name)
             print(f"  Manquant dans archive: {bds_name}")
     
-    # Sauvegarder le fichier seulement si des modifications ont été apportées
-    if updated_count > 0:
-        with open(faction_file, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
+    # Sauvegarder le fichier
+    with open(faction_file, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
     
     print(f"{updated_count} datasheets mises à jour dans {faction_file}")
+    if legends_count > 0:
+        print(f"{legends_count} datasheets marquées comme legends dans {faction_file}")
+        print("  Liste des datasheets legends:")
+        for name in legends_list:
+            print(f"    - {name}")
     if missing_count > 0:
         print(f"{missing_count} datasheets du bds.txt manquantes dans {faction_file}")
         print("  Liste des datasheets manquantes:")
         for name in missing_list:
             print(f"    - {name}")
     
-    return [], missing_list
+    return legends_list, missing_list
 
 def main():
     """
@@ -306,21 +318,45 @@ def main():
     print(f"Factions trouvées: {list(faction_points.keys())}")
     
     # Traiter chaque fichier de faction
+    all_legends = []
     all_missing = []
     for faction_name in faction_points.keys():
         faction_file = os.path.join(archive_dir, f"{faction_name}.json")
         legends_list, missing_list = process_faction_file(faction_file, faction_points)
+        if legends_list:
+            all_legends.extend([(faction_name, name) for name in legends_list])
         if missing_list:
             all_missing.extend([(faction_name, name) for name in missing_list])
     
     print("\nMise à jour terminée!")
     
+    # Afficher la liste complète des datasheets legends
+    if all_legends:
+        print(f"\n=== LISTE COMPLÈTE DES DATASHEETS LEGENDS ===")
+        print(f"Total: {len(all_legends)} datasheets marquées comme legends")
+        print()
+        
+        # Grouper par faction
+        legends_by_faction = {}
+        for faction, name in all_legends:
+            if faction not in legends_by_faction:
+                legends_by_faction[faction] = []
+            legends_by_faction[faction].append(name)
+        
+        for faction in sorted(legends_by_faction.keys()):
+            print(f"{faction.upper()}:")
+            for name in sorted(legends_by_faction[faction]):
+                print(f"  - {name}")
+            print()
+    else:
+        print("\nAucune datasheet marquée comme legends.")
+
     # Afficher la liste complète des datasheets manquantes
     if all_missing:
         print(f"\n=== LISTE COMPLÈTE DES DATASHEETS MANQUANTES ===")
         print(f"Total: {len(all_missing)} datasheets du bds.txt manquantes")
         print()
-        
+
         # Grouper par faction
         missing_by_faction = {}
         for faction, name in all_missing:

@@ -1330,7 +1330,7 @@
       "name": "Master of Possession",
       "points": [
         {
-          "cost": "70",
+          "cost": "60",
           "keyword": null,
           "models": "1",
           "active": true
@@ -2526,7 +2526,7 @@
       "name": "Traitor Enforcer",
       "points": [
         {
-          "cost": "65",
+          "cost": "55",
           "keyword": null,
           "models": "2",
           "active": true
@@ -2687,7 +2687,7 @@
       "name": "Dark Apostle",
       "points": [
         {
-          "cost": "75",
+          "cost": "65",
           "keyword": null,
           "models": "3",
           "active": true
@@ -6437,7 +6437,7 @@
       "name": "datasheets.Raptors.leadBy.0",
       "points": [
         {
-          "cost": "90",
+          "cost": "80",
           "keyword": null,
           "models": "1",
           "active": true
@@ -7292,7 +7292,7 @@
       "name": "Fellgor Beastmen",
       "points": [
         {
-          "cost": "85",
+          "cost": "70",
           "keyword": null,
           "models": "10",
           "active": true

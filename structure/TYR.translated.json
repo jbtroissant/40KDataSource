@@ -422,7 +422,7 @@
       "name": "Winged Hive Tyrant",
       "points": [
         {
-          "cost": "200",
+          "cost": "170",
           "keyword": null,
           "models": "1",
           "active": true
@@ -1214,15 +1214,9 @@
       "name": "Raveners",
       "points": [
         {
-          "cost": "150",
+          "cost": "125",
           "keyword": null,
-          "models": "6",
-          "active": true
-        },
-        {
-          "cost": "75",
-          "keyword": null,
-          "models": "3",
+          "models": "5",
           "active": true
         }
       ],
@@ -1351,7 +1345,7 @@
       "name": "The Swarmlord",
       "points": [
         {
-          "cost": "240",
+          "cost": "220",
           "keyword": null,
           "models": "1",
           "active": true
@@ -2891,7 +2885,7 @@
       "name": "Psychophage",
       "points": [
         {
-          "cost": "95",
+          "cost": "110",
           "keyword": null,
           "models": "1",
           "active": true
@@ -3777,7 +3771,7 @@
       "name": "Screamer-Killer",
       "points": [
         {
-          "cost": "145",
+          "cost": "135",
           "keyword": null,
           "models": "1",
           "active": true
@@ -4766,13 +4760,13 @@
       "name": "Hive Guard",
       "points": [
         {
-          "cost": "200",
+          "cost": "180",
           "keyword": null,
           "models": "6",
           "active": true
         },
         {
-          "cost": "100",
+          "cost": "90",
           "keyword": null,
           "models": "3",
           "active": true
@@ -5968,7 +5962,7 @@
       "name": "Hive Tyrant",
       "points": [
         {
-          "cost": "225",
+          "cost": "195",
           "keyword": null,
           "models": "1",
           "active": true

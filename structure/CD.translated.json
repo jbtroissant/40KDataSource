@@ -956,19 +956,13 @@
       "name": "Nurglings",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "9",
-          "active": true
-        },
-        {
-          "cost": "60",
+          "cost": "70",
           "keyword": null,
           "models": "6",
           "active": true
         },
         {
-          "cost": "35",
+          "cost": "40",
           "keyword": null,
           "models": "3",
           "active": true

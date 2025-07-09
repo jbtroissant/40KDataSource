@@ -1293,7 +1293,7 @@
       "name": "Noise Marines",
       "points": [
         {
-          "cost": "135",
+          "cost": "145",
           "keyword": null,
           "models": "6",
           "active": true
@@ -1907,7 +1907,7 @@
       "name": "datasheets.Daemon_Prince_of_Slaanesh_with_Wings.name",
       "points": [
         {
-          "cost": "180",
+          "cost": "200",
           "keyword": null,
           "models": "1",
           "active": true
@@ -2094,7 +2094,7 @@
       "name": "Fulgrim",
       "points": [
         {
-          "cost": "385",
+          "cost": "365",
           "keyword": null,
           "models": "1",
           "active": true
@@ -2236,7 +2236,7 @@
       "name": "Lucius the Eternal",
       "points": [
         {
-          "cost": "140",
+          "cost": "150",
           "keyword": null,
           "models": "1",
           "active": true

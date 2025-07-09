@@ -1491,7 +1491,7 @@
       "name": "Triumph of Saint Katherine",
       "points": [
         {
-          "cost": "250",
+          "cost": "235",
           "keyword": null,
           "models": "1",
           "active": true
@@ -1644,13 +1644,13 @@
       "name": "Seraphim Squad",
       "points": [
         {
-          "cost": "170",
+          "cost": "160",
           "keyword": null,
           "models": "10",
           "active": true
         },
         {
-          "cost": "85",
+          "cost": "80",
           "keyword": null,
           "models": "5",
           "active": true
@@ -2249,7 +2249,7 @@
       "name": "Immolator",
       "points": [
         {
-          "cost": "125",
+          "cost": "115",
           "keyword": null,
           "models": "1",
           "active": true
@@ -2788,7 +2788,7 @@
       "name": "Retributor Squad",
       "points": [
         {
-          "cost": "125",
+          "cost": "115",
           "keyword": null,
           "models": "5",
           "active": true
@@ -3701,7 +3701,7 @@
       "name": "Paragon Warsuits",
       "points": [
         {
-          "cost": "220",
+          "cost": "210",
           "keyword": null,
           "models": "3",
           "active": true
@@ -3910,7 +3910,7 @@
       "name": "Castigator",
       "points": [
         {
-          "cost": "170",
+          "cost": "160",
           "keyword": null,
           "models": "1",
           "active": true
@@ -4473,7 +4473,7 @@
       "name": "Junith Eruita",
       "points": [
         {
-          "cost": "90",
+          "cost": "80",
           "keyword": null,
           "models": "1",
           "active": true

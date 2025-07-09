@@ -287,7 +287,7 @@
       "name": "Knight Gallant",
       "points": [
         {
-          "cost": "380",
+          "cost": "345",
           "keyword": null,
           "models": "1",
           "active": true
@@ -521,7 +521,7 @@
       "name": "Knight Errant",
       "points": [
         {
-          "cost": "390",
+          "cost": "345",
           "keyword": null,
           "models": "1",
           "active": true
@@ -775,7 +775,7 @@
       "name": "Knight Paladin",
       "points": [
         {
-          "cost": "405",
+          "cost": "345",
           "keyword": null,
           "models": "1",
           "active": true
@@ -1003,7 +1003,7 @@
       "name": "datasheets.Cerastus_Knight_Acheron.name",
       "points": [
         {
-          "cost": "425",
+          "cost": "365",
           "keyword": null,
           "models": "1",
           "active": true
@@ -1140,7 +1140,7 @@
       "name": "datasheets.Acastus_Knight_Porphyrion.name",
       "points": [
         {
-          "cost": "710",
+          "cost": "700",
           "keyword": null,
           "models": "1",
           "active": true
@@ -1348,7 +1348,7 @@
       "name": "datasheets.Cerastus_Knight_Castigator.name",
       "points": [
         {
-          "cost": "465",
+          "cost": "365",
           "keyword": null,
           "models": "1",
           "active": true
@@ -1509,7 +1509,7 @@
       "name": "Knight Warden",
       "points": [
         {
-          "cost": "450",
+          "cost": "365",
           "keyword": null,
           "models": "1",
           "active": true
@@ -1764,7 +1764,7 @@
       "name": "Canis Rex",
       "points": [
         {
-          "cost": "450",
+          "cost": "380",
           "keyword": null,
           "models": "1",
           "active": true
@@ -1934,7 +1934,7 @@
       "name": "datasheets.Cerastus_Knight_Lancer.name",
       "points": [
         {
-          "cost": "430",
+          "cost": "365",
           "keyword": null,
           "models": "1",
           "active": true
@@ -2066,7 +2066,7 @@
       "name": "datasheets.Armiger_Moirax.name",
       "points": [
         {
-          "cost": "160",
+          "cost": "150",
           "keyword": null,
           "models": "1",
           "active": true
@@ -2274,7 +2274,7 @@
       "name": "Knight Castellan",
       "points": [
         {
-          "cost": "480",
+          "cost": "395",
           "keyword": null,
           "models": "1",
           "active": true
@@ -2737,7 +2737,7 @@
       "name": "Knight Valiant",
       "points": [
         {
-          "cost": "480",
+          "cost": "395",
           "keyword": null,
           "models": "1",
           "active": true
@@ -2976,7 +2976,7 @@
       "name": "Knight Preceptor",
       "points": [
         {
-          "cost": "405",
+          "cost": "335",
           "keyword": null,
           "models": "1",
           "active": true
@@ -3220,7 +3220,7 @@
       "name": "Knight Crusader",
       "points": [
         {
-          "cost": "445",
+          "cost": "365",
           "keyword": null,
           "models": "1",
           "active": true
@@ -3529,7 +3529,7 @@
       "name": "datasheets.Questoris_Knight_Magaera.name",
       "points": [
         {
-          "cost": "425",
+          "cost": "355",
           "keyword": null,
           "models": "1",
           "active": true
@@ -3730,7 +3730,7 @@
       "name": "datasheets.Questoris_Knight_Styrix.name",
       "points": [
         {
-          "cost": "430",
+          "cost": "355",
           "keyword": null,
           "models": "1",
           "active": true
@@ -4070,7 +4070,7 @@
       "name": "datasheets.Cerastus_Knight_Atrapos.name",
       "points": [
         {
-          "cost": "425",
+          "cost": "365",
           "keyword": null,
           "models": "1",
           "active": true

@@ -4878,12 +4878,6 @@
       "name": "Blightlord Terminators",
       "points": [
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "3",
-          "active": true
-        },
-        {
           "cost": "370",
           "keyword": null,
           "models": "10",
@@ -4893,6 +4887,12 @@
           "cost": "185",
           "keyword": null,
           "models": "5",
+          "active": true
+        },
+        {
+          "cost": "115",
+          "keyword": null,
+          "models": "3",
           "active": true
         }
       ],

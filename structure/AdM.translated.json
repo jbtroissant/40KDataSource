@@ -793,19 +793,19 @@
       "name": "Ironstrider Ballistarii",
       "points": [
         {
-          "cost": "225",
+          "cost": "210",
           "keyword": null,
           "models": "3",
           "active": true
         },
         {
-          "cost": "150",
+          "cost": "140",
           "keyword": null,
           "models": "2",
           "active": true
         },
         {
-          "cost": "75",
+          "cost": "70",
           "keyword": null,
           "models": "1",
           "active": true
@@ -1551,7 +1551,7 @@
       "name": "Skorpius Disintegrator",
       "points": [
         {
-          "cost": "175",
+          "cost": "165",
           "keyword": null,
           "models": "1",
           "active": true
@@ -3501,19 +3501,19 @@
       "name": "datasheets.Sydonian_Dragoons_with_Taser_Lances.name",
       "points": [
         {
-          "cost": "210",
+          "cost": "195",
           "keyword": null,
           "models": "3",
           "active": true
         },
         {
-          "cost": "140",
+          "cost": "130",
           "keyword": null,
           "models": "2",
           "active": true
         },
         {
-          "cost": "70",
+          "cost": "65",
           "keyword": null,
           "models": "1",
           "active": true

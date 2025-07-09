@@ -827,7 +827,7 @@
           "active": true
         },
         {
-          "cost": "60",
+          "cost": "80",
           "keyword": null,
           "models": "3",
           "active": true
@@ -7172,7 +7172,7 @@
       "name": "datasheets.Kroot_Carnivores.name",
       "points": [
         {
-          "cost": "130",
+          "cost": "140",
           "keyword": null,
           "models": "20",
           "active": true

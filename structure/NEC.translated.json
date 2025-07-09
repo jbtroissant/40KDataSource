@@ -651,7 +651,7 @@
       "name": "Technomancer",
       "points": [
         {
-          "cost": "85",
+          "cost": "80",
           "keyword": null,
           "models": "1",
           "active": true
@@ -1206,7 +1206,7 @@
       "name": "datasheets.Canoptek_Doomstalker.name",
       "points": [
         {
-          "cost": "145",
+          "cost": "140",
           "keyword": null,
           "models": "1",
           "active": true
@@ -2516,7 +2516,7 @@
       "name": "Skorpekh Lord",
       "points": [
         {
-          "cost": "80",
+          "cost": "90",
           "keyword": null,
           "models": "1",
           "active": true
@@ -2632,13 +2632,13 @@
       "name": "Deathmarks",
       "points": [
         {
-          "cost": "130",
+          "cost": "120",
           "keyword": null,
           "models": "10",
           "active": true
         },
         {
-          "cost": "65",
+          "cost": "60",
           "keyword": null,
           "models": "5",
           "active": true
@@ -3478,7 +3478,7 @@
           "active": true
         },
         {
-          "cost": "35",
+          "cost": "40",
           "keyword": null,
           "models": "1",
           "active": true
@@ -4103,13 +4103,13 @@
       "name": "datasheets.Canoptek_Wraiths.name",
       "points": [
         {
-          "cost": "230",
+          "cost": "220",
           "keyword": null,
           "models": "6",
           "active": true
         },
         {
-          "cost": "115",
+          "cost": "110",
           "keyword": null,
           "models": "3",
           "active": true
@@ -4787,7 +4787,7 @@
       "name": "Illuminor Szeras",
       "points": [
         {
-          "cost": "175",
+          "cost": "165",
           "keyword": null,
           "models": "1",
           "active": true
@@ -5145,7 +5145,7 @@
       "name": "Plasmancer",
       "points": [
         {
-          "cost": "60",
+          "cost": "55",
           "keyword": null,
           "models": "1",
           "active": true

@@ -3417,7 +3417,7 @@
       "name": "Marneus Calgar",
       "points": [
         {
-          "cost": "210",
+          "cost": "200",
           "keyword": null,
           "models": "3",
           "active": true
@@ -4084,7 +4084,7 @@
       "name": "datasheets.Captain_with_Jump_Pack.name",
       "points": [
         {
-          "cost": "85",
+          "cost": "75",
           "keyword": null,
           "models": "1",
           "active": true
@@ -6141,13 +6141,13 @@
       "name": "Hellblaster Squad",
       "points": [
         {
-          "cost": "230",
+          "cost": "220",
           "keyword": null,
           "models": "10",
           "active": true
         },
         {
-          "cost": "115",
+          "cost": "110",
           "keyword": null,
           "models": "5",
           "active": true
@@ -6337,13 +6337,13 @@
       "name": "Heavy Intercessor Squad",
       "points": [
         {
-          "cost": "220",
+          "cost": "200",
           "keyword": null,
           "models": "10",
           "active": true
         },
         {
-          "cost": "110",
+          "cost": "100",
           "keyword": null,
           "models": "5",
           "active": true
@@ -11574,13 +11574,13 @@
       "name": "Vanguard Veteran Squad with Jump Packs",
       "points": [
         {
-          "cost": "220",
+          "cost": "190",
           "keyword": null,
           "models": "10",
           "active": true
         },
         {
-          "cost": "110",
+          "cost": "95",
           "keyword": null,
           "models": "5",
           "active": true
@@ -12063,7 +12063,7 @@
       "name": "Roboute Guilliman",
       "points": [
         {
-          "cost": "345",
+          "cost": "320",
           "keyword": null,
           "models": "1",
           "active": true
@@ -12176,13 +12176,13 @@
       "name": "Aggressor Squad",
       "points": [
         {
-          "cost": "240",
+          "cost": "220",
           "keyword": null,
           "models": "6",
           "active": true
         },
         {
-          "cost": "120",
+          "cost": "100",
           "keyword": null,
           "models": "3",
           "active": true

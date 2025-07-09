@@ -828,7 +828,7 @@
       "name": "Ravager",
       "points": [
         {
-          "cost": "110",
+          "cost": "100",
           "keyword": null,
           "models": "1",
           "active": true
@@ -2515,7 +2515,7 @@
       "name": "Raider",
       "points": [
         {
-          "cost": "80",
+          "cost": "75",
           "keyword": null,
           "models": "1",
           "active": true
@@ -2786,7 +2786,7 @@
       "name": "Venom",
       "points": [
         {
-          "cost": "70",
+          "cost": "65",
           "keyword": null,
           "models": "1",
           "active": true
@@ -4010,13 +4010,13 @@
       "name": "Mandrakes",
       "points": [
         {
-          "cost": "130",
+          "cost": "120",
           "keyword": null,
           "models": "10",
           "active": true
         },
         {
-          "cost": "70",
+          "cost": "65",
           "keyword": null,
           "models": "5",
           "active": true

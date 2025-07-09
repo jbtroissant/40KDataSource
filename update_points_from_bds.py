@@ -16,7 +16,7 @@ FACTION_FILENAME_TO_BDS = {
     "adeptuscustodes": "ADEPTUS CUSTODES",
     "adeptusmechanicus": "ADEPTUS MECHANICUS",
     "aeldari": "AELDARI",
-    "agents": "IMPERIAL AGENTS",
+    "agents": "AGENTS OF THE IMPERIUM",
     "astramilitarum": "ASTRA MILITARUM",
     "blacktemplar": "BLACK TEMPLARS",
     "bloodangels": "BLOOD ANGELS",
@@ -41,7 +41,7 @@ FACTION_FILENAME_TO_BDS = {
     "tyranids": "TYRANIDS",
     "unaligned": "UNALIGNED",
     "votann": "LEAGUES OF VOTANN",
-    "worldeaters": "WORLD EATERS",
+    "worldeaters": "WORLD EATERS"
 }
 
 def parse_bds_file(file_path):

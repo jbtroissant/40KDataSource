@@ -8879,7 +8879,7 @@
         {
           "name": "detachments.Scintillating_Legion.stratagems.Sheathed_In_Brass.name",
           "id": "88b15926-a20d-57f5-afdf-4314b93f727b",
-          "cost": 2,
+          "cost": 1,
           "turn": "either",
           "target": "detachments.Scintillating_Legion.stratagems.Sheathed_In_Brass.target",
           "when": "detachments.Scintillating_Legion.stratagems.Sheathed_In_Brass.when",
@@ -8982,7 +8982,7 @@
         {
           "name": "detachments.Shadow_Legion.enhancements.Argath_The_King_of_Blades.name",
           "id": "0fe07932-ffa8-5bca-934c-152e4e208165",
-          "cost": "15",
+          "cost": "25",
           "keywords": [
             "Shadow Legion"
           ],
@@ -9008,7 +9008,7 @@
         {
           "name": "detachments.Shadow_Legion.enhancements.The_Endless_Gift.name",
           "id": "39ea4cd6-99fd-5ec1-9e26-27ac3c23609a",
-          "cost": "15",
+          "cost": "30",
           "keywords": [
             "Shadow Legion"
           ],
@@ -9184,7 +9184,7 @@
         {
           "name": "detachments.Blood_Legion.enhancements.Argath_The_King_of_Blades.name",
           "id": "0d42e7a5-7de9-505a-baa2-fe6dcdc3e8cc",
-          "cost": "35",
+          "cost": "25",
           "keywords": [
             "Khorne"
           ],

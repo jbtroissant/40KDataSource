@@ -54,15 +54,19 @@ def update_costs_for_faction(archive_file_path, translated_file_path):
         with open(translated_file_path, 'r', encoding='utf-8') as f:
             translated_data = json.load(f)
         
-        # Créer un dictionnaire des datasheets par ID pour l'archive
+        updated_counts = {
+            'datasheets': 0,
+            'enhancements': 0,
+            'stratagems': 0
+        }
+        
+        # 1. Mettre à jour les coûts des datasheets
         archive_datasheets = {}
         for datasheet in archive_data.get('datasheets', []):
             datasheet_id = datasheet.get('id')
             if datasheet_id:
                 archive_datasheets[datasheet_id] = datasheet
         
-        # Mettre à jour les coûts dans le fichier traduit
-        updated_count = 0
         for translated_datasheet in translated_data.get('datasheets', []):
             datasheet_id = translated_datasheet.get('id')
             if datasheet_id in archive_datasheets:
@@ -71,17 +75,53 @@ def update_costs_for_faction(archive_file_path, translated_file_path):
                 # Mettre à jour les points si ils existent dans l'archive
                 if 'points' in archive_datasheet:
                     translated_datasheet['points'] = archive_datasheet['points']
-                    updated_count += 1
+                    updated_counts['datasheets'] += 1
+        
+        # 2. Mettre à jour les coûts des enhancements
+        archive_enhancements = {}
+        for enhancement in archive_data.get('enhancements', []):
+            enhancement_id = enhancement.get('id')
+            if enhancement_id:
+                archive_enhancements[enhancement_id] = enhancement
+        
+        # Chercher les enhancements dans les détachements du fichier traduit
+        for detachment in translated_data.get('detachments', []):
+            if 'enhancements' in detachment:
+                for enhancement in detachment['enhancements']:
+                    enhancement_id = enhancement.get('id')
+                    if enhancement_id in archive_enhancements:
+                        archive_enhancement = archive_enhancements[enhancement_id]
+                        if 'cost' in archive_enhancement:
+                            enhancement['cost'] = archive_enhancement['cost']
+                            updated_counts['enhancements'] += 1
+        
+        # 3. Mettre à jour les coûts des stratagèmes
+        archive_stratagems = {}
+        for stratagem in archive_data.get('stratagems', []):
+            stratagem_id = stratagem.get('id')
+            if stratagem_id:
+                archive_stratagems[stratagem_id] = stratagem
+        
+        # Chercher les stratagèmes dans les détachements du fichier traduit
+        for detachment in translated_data.get('detachments', []):
+            if 'stratagems' in detachment:
+                for stratagem in detachment['stratagems']:
+                    stratagem_id = stratagem.get('id')
+                    if stratagem_id in archive_stratagems:
+                        archive_stratagem = archive_stratagems[stratagem_id]
+                        if 'cost' in archive_stratagem:
+                            stratagem['cost'] = archive_stratagem['cost']
+                            updated_counts['stratagems'] += 1
         
         # Sauvegarder le fichier traduit mis à jour
         with open(translated_file_path, 'w', encoding='utf-8') as f:
             json.dump(translated_data, f, indent=2, ensure_ascii=False)
         
-        return updated_count
+        return updated_counts
         
     except Exception as e:
         print(f"Erreur lors de la mise à jour de {translated_file_path}: {e}")
-        return 0
+        return {'datasheets': 0, 'enhancements': 0, 'stratagems': 0}
 
 def main():
     """
@@ -98,7 +138,11 @@ def main():
         print("Le dossier 'structure' n'existe pas.")
         return
     
-    total_updated = 0
+    total_updated = {
+        'datasheets': 0,
+        'enhancements': 0,
+        'stratagems': 0
+    }
     
     # Parcourir tous les fichiers JSON dans le dossier archive
     for archive_file in archive_dir.glob("*.json"):
@@ -118,11 +162,16 @@ def main():
             continue
         
         print(f"Traitement de {archive_file.name} -> {faction_id}")
-        updated_count = update_costs_for_faction(archive_file, translated_file)
-        total_updated += updated_count
-        print(f"  ✓ {updated_count} datasheets mises à jour")
+        updated_counts = update_costs_for_faction(archive_file, translated_file)
+        
+        # Ajouter aux totaux
+        for key in total_updated:
+            total_updated[key] += updated_counts[key]
+        
+        print(f"  ✓ {updated_counts['datasheets']} datasheets, {updated_counts['enhancements']} enhancements, {updated_counts['stratagems']} stratagèmes mis à jour")
     
-    print(f"\nMise à jour terminée. Total: {total_updated} datasheets mises à jour.")
+    print(f"\nMise à jour terminée.")
+    print(f"Total: {total_updated['datasheets']} datasheets, {total_updated['enhancements']} enhancements, {total_updated['stratagems']} stratagèmes mis à jour.")
 
 if __name__ == "__main__":
     main() 

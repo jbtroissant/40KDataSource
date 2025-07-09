@@ -4,6 +4,7 @@
     "banner": "#1a3445",
     "header": "#244b6a"
   },
+  "compatibleDataVersion": 640,
   "datasheets": [
     {
       "abilities": {
@@ -7228,5 +7229,5 @@
       "detachment": "Ordo Malleus, Daemon Hunters"
     }
   ],
-  "updated": "2025-05-29T08:37:08.052Z"
+  "updated": "2025-06-27T11:33:38.797Z"
 }

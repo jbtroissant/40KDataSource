@@ -3,6 +3,7 @@
     "banner": "#283743",
     "header": "#435d63"
   },
+  "compatibleDataVersion": 640,
   "datasheets": [
     {
       "abilities": {
@@ -7816,6 +7817,5 @@
       "detachment": "Champions of Russ"
     }
   ],
-  "updated": "2025-05-29T08:37:07.471Z"
+  "updated": "2025-06-27T11:33:37.580Z"
 }
-

@@ -4,6 +4,7 @@
     "banner": "#325b68",
     "header": "#4a5e67"
   },
+  "compatibleDataVersion": 640,
   "datasheets": [
     {
       "abilities": {
@@ -363,7 +364,7 @@
       "name": "Paladin Squad",
       "points": [
         {
-          "cost": "450",
+          "cost": "430",
           "keyword": null,
           "models": "10",
           "active": true
@@ -1277,7 +1278,7 @@
       "name": "Brotherhood Champion",
       "points": [
         {
-          "cost": "80",
+          "cost": "70",
           "keyword": null,
           "models": "1",
           "active": true
@@ -2314,7 +2315,7 @@
       "name": "Brotherhood Terminator Squad",
       "points": [
         {
-          "cost": "420",
+          "cost": "400",
           "keyword": null,
           "models": "10",
           "active": true
@@ -6056,6 +6057,5 @@
       "detachment": "Teleport Strike Force"
     }
   ],
-  "updated": "2025-05-29T08:37:07.874Z"
+  "updated": "2025-06-27T11:33:38.499Z"
 }
-

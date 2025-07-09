@@ -3,6 +3,7 @@
     "banner": "#0a353a",
     "header": "#347379"
   },
+  "compatibleDataVersion": 640,
   "datasheets": [
     {
       "abilities": {
@@ -1520,7 +1521,7 @@
       "name": "Fire Prism",
       "points": [
         {
-          "cost": "160",
+          "cost": "150",
           "keyword": null,
           "models": "1",
           "active": true
@@ -1719,7 +1720,7 @@
       "name": "Autarch",
       "points": [
         {
-          "cost": "75",
+          "cost": "85",
           "keyword": null,
           "models": "1",
           "active": true
@@ -1945,7 +1946,7 @@
           "active": true
         },
         {
-          "cost": "110",
+          "cost": "120",
           "keyword": null,
           "models": "5",
           "active": true
@@ -3763,13 +3764,13 @@
       "name": "War Walkers",
       "points": [
         {
-          "cost": "190",
+          "cost": "170",
           "keyword": null,
           "models": "2",
           "active": true
         },
         {
-          "cost": "95",
+          "cost": "85",
           "keyword": null,
           "models": "1",
           "active": true
@@ -4765,13 +4766,13 @@
       "name": "Shining Spears",
       "points": [
         {
-          "cost": "240",
+          "cost": "220",
           "keyword": null,
           "models": "6",
           "active": true
         },
         {
-          "cost": "120",
+          "cost": "110",
           "keyword": null,
           "models": "3",
           "active": true
@@ -6352,7 +6353,7 @@
       "name": "Warlock Conclave",
       "points": [
         {
-          "cost": "110",
+          "cost": "130",
           "keyword": null,
           "models": "4",
           "active": true
@@ -7477,13 +7478,13 @@
       "name": "Howling Banshees",
       "points": [
         {
-          "cost": "180",
+          "cost": "190",
           "keyword": null,
           "models": "10",
           "active": true
         },
         {
-          "cost": "90",
+          "cost": "95",
           "keyword": null,
           "models": "5",
           "active": true
@@ -11660,5 +11661,5 @@
       "detachment": "Devoted of Ynnead"
     }
   ],
-  "updated": "2025-05-29T08:37:08.308Z"
+  "updated": "2025-06-27T11:33:39.229Z"
 }

@@ -3,6 +3,7 @@
     "banner": "#291221",
     "header": "#391625"
   },
+  "compatibleDataVersion": 640,
   "datasheets": [
     {
       "abilities": {
@@ -89,19 +90,19 @@
       "name": "Atalan Jackals",
       "points": [
         {
-          "cost": "160",
+          "cost": "150",
           "keyword": null,
           "models": "10",
           "active": true
         },
         {
-          "cost": "160",
+          "cost": "150",
           "keyword": null,
           "models": "9",
           "active": true
         },
         {
-          "cost": "80",
+          "cost": "75",
           "keyword": null,
           "models": "5",
           "active": true
@@ -4463,6 +4464,5 @@
       "detachment": "Xenocreed Congregation"
     }
   ],
-  "updated": "2025-05-29T08:37:08.369Z"
+  "updated": "2025-06-27T11:33:39.362Z"
 }
-

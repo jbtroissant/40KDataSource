@@ -16,7 +16,7 @@ FACTION_FILENAME_TO_BDS = {
     "adeptuscustodes": "ADEPTUS CUSTODES",
     "adeptusmechanicus": "ADEPTUS MECHANICUS",
     "aeldari": "AELDARI",
-    "agents": "AGENTS OF THE IMPERIUM",
+    "agents": "IMPERIAL AGENTS",
     "astramilitarum": "ASTRA MILITARUM",
     "blacktemplar": "BLACK TEMPLARS",
     "bloodangels": "BLOOD ANGELS",
@@ -59,8 +59,8 @@ def parse_bds_file(file_path):
             if not line:
                 continue
             
-            # Détecter une nouvelle faction (ligne commençant par CODEX, INDEX, ou AGENTS OF THE IMPERIUM)
-            if line.startswith('CODEX') or line.startswith('INDEX') or line == 'AGENTS OF THE IMPERIUM':
+            # Détecter une nouvelle faction (ligne commençant par CODEX ou INDEX)
+            if line.startswith('CODEX') or line.startswith('INDEX'):
                 # Extraire le nom de faction en ignorant les préfixes
                 faction_name = line
                 if line.startswith('CODEX SUPPLEMENT: '):
@@ -69,8 +69,6 @@ def parse_bds_file(file_path):
                     faction_name = line.replace('CODEX: ', '')
                 elif line.startswith('INDEX: '):
                     faction_name = line.replace('INDEX: ', '')
-                elif line == 'AGENTS OF THE IMPERIUM':
-                    faction_name = 'AGENTS OF THE IMPERIUM'
                 
                 # Si c'est juste "CODEX SUPPLEMENT:" sans nom, on attend la ligne suivante
                 if faction_name == 'CODEX SUPPLEMENT:':
@@ -127,11 +125,6 @@ def parse_bds_file(file_path):
                 line.startswith('CHAMPIONS') or
                 line.startswith('HALLOWED') or
                 line.startswith('PENITENT')):
-                current_faction = None
-                continue
-            
-            # Ignorer la section "EVERY MODEL HAS IMPERIUM KEYWORD" pour les agents
-            if line == 'EVERY MODEL HAS IMPERIUM KEYWORD':
                 current_faction = None
                 continue
             
@@ -203,14 +196,7 @@ def update_datasheet_points(datasheet, points_data):
     
     # Mettre à jour les points de base
     if points_data.get('base_points') is not None:
-        # Pour les agents, la structure des points est différente
-        if 'points' in datasheet and isinstance(datasheet['points'], list):
-            # Structure avec liste de points (agents.json)
-            if datasheet['points']:
-                datasheet['points'][0]['cost'] = str(points_data['base_points'])
-        else:
-            # Structure simple avec points directement
-            datasheet['points'] = points_data['base_points']
+        datasheet['points'] = points_data['base_points']
     
     # Ajouter les nouvelles options
     for option in points_data.get('options', []):

@@ -10,152 +10,138 @@ import os
 from pathlib import Path
 import unicodedata
 
+# Mapping des noms de fichiers archive vers les noms de factions du bds.txt
+FACTION_FILENAME_TO_BDS = {
+    "adeptasororitas": "ADEPTA SORORITAS",
+    "adeptuscustodes": "ADEPTUS CUSTODES",
+    "adeptusmechanicus": "ADEPTUS MECHANICUS",
+    "aeldari": "AELDARI",
+    "agents": "IMPERIAL AGENTS",
+    "astramilitarum": "ASTRA MILITARUM",
+    "blacktemplar": "BLACK TEMPLARS",
+    "bloodangels": "BLOOD ANGELS",
+    "chaos_spacemarines": "CHAOS SPACE MARINES",
+    "chaosdaemons": "CHAOS DAEMONS",
+    "chaosknights": "CHAOS KNIGHTS",
+    "core": "CORE",
+    "darkangels": "DARK ANGELS",
+    "deathguard": "DEATH GUARD",
+    "Deathwatch": "DEATHWATCH",
+    "drukhari": "DRUKHARI",
+    "emperors_children": "EMPEROR'S CHILDREN",
+    "greyknights": "GREY KNIGHTS",
+    "gsc": "GENESTEALER CULTS",
+    "imperialknights": "IMPERIAL KNIGHTS",
+    "necrons": "NECRONS",
+    "orks": "ORKS",
+    "space_marines": "SPACE MARINES",
+    "spacewolves": "SPACE WOLVES",
+    "tau": "T'AU EMPIRE",
+    "thousandsons": "THOUSAND SONS",
+    "tyranids": "TYRANIDS",
+    "unaligned": "UNALIGNED",
+    "votann": "LEAGUES OF VOTANN",
+    "worldeaters": "WORLD EATERS",
+}
+
 def parse_bds_file(file_path):
     """
-    Parse le fichier bds.txt et extrait les points pour chaque faction
+    Parse le fichier bds.txt et extrait les points par faction
     """
-    with open(file_path, 'r', encoding='utf-8') as f:
-        content = f.read()
-    
-    # Diviser le contenu par les sections CODEX/INDEX
-    sections = re.split(r'CODEX:|INDEX:', content)
-    
     faction_points = {}
     current_faction = None
+    current_datasheet = None
     
-    for section in sections[1:]:  # Ignorer la première section vide
-        lines = section.strip().split('\n')
-        if not lines:
-            continue
-            
-        # Extraire le nom de la faction de la première ligne
-        faction_name = lines[0].strip()
-        
-        # Mapper les noms de faction vers les noms de fichiers
-        faction_mapping = {
-            'ADEPTA SORORITAS': 'adeptasororitas',
-            'ADEPTUS CUSTODES': 'adeptuscustodes',
-            'ADEPTUS MECHANICUS': 'adeptusmechanicus',
-            'AELDARI': 'aeldari',
-            'AGENTS OF THE IMPERIUM': 'agents',
-            'ASTRA MILITARUM': 'astramilitarum',
-            'BLACK TEMPLARS': 'blacktemplar',
-            'BLOOD ANGELS': 'bloodangels',
-            'CHAOS SPACE MARINES': 'chaos_spacemarines',
-            'CHAOS DAEMONS': 'chaosdaemons',
-            'CHAOS KNIGHTS': 'chaosknights',
-            'DARK ANGELS': 'darkangels',
-            'DEATH GUARD': 'deathguard',
-            'DEATHWATCH': 'Deathwatch',
-            'DRUKHARI': 'drukhari',
-            'EMPEROR\'S CHILDREN': 'emperors_children',
-            'GREY KNIGHTS': 'greyknights',
-            'GENESTEALER CULTS': 'gsc',
-            'IMPERIAL KNIGHTS': 'imperialknights',
-            'NECRONS': 'necrons',
-            'ORKS': 'orks',
-            'SPACE MARINES': 'space_marines',
-            'SPACE WOLVES': 'spacewolves',
-            'TAU EMPIRE': 'tau',
-            'THOUSAND SONS': 'thousandsons',
-            'TYRANIDS': 'tyranids',
-            'VOTANN': 'votann',
-            'WORLD EATERS': 'worldeaters'
-        }
-        
-        file_name = faction_mapping.get(faction_name)
-        if not file_name:
-            print(f"Faction non reconnue: {faction_name}")
-            continue
-            
-        faction_points[file_name] = {}
-        
-        # Parser les points pour cette faction
-        i = 1
-        datasheet_count = 0
-        current_datasheet = None
-        while i < len(lines):
-            line = lines[i].strip()
-            if not line or line.startswith('DETACHMENT ENHANCEMENTS') or line.startswith('FORGE WORLD'):
-                break
-            
-            # Vérifier si c'est une option avec "+"
-            option_match = re.match(r'^(.+?)\s+.*?\+(\d+)\s+pts$', line)
-            if option_match:
-                option_name = option_match.group(1).strip()
-                points = option_match.group(2)
-                
-                # Nettoyer le nom de l'option
-                option_name = re.sub(r'[^\w\s\-\.]', '', option_name).strip()
-                
-                # Si on a une datasheet courante, ajouter l'option à cette datasheet
-                if current_datasheet and current_datasheet in faction_points[file_name]:
-                    faction_points[file_name][current_datasheet].append({
-                        'models': '1',
-                        'points': points,
-                        'is_option': True,
-                        'option_name': option_name
-                    })
-                i += 1
+    with open(file_path, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            if not line:
                 continue
             
-            # Vérifier si la ligne suivante contient les points
-            if i + 1 < len(lines):
-                next_line = lines[i + 1].strip()
+            # Détecter une nouvelle faction (ligne commençant par CODEX ou INDEX)
+            if line.startswith('CODEX') or line.startswith('INDEX'):
+                # Extraire le nom de faction en ignorant les préfixes
+                faction_name = line
+                if line.startswith('CODEX SUPPLEMENT: '):
+                    faction_name = line.replace('CODEX SUPPLEMENT: ', '')
+                elif line.startswith('CODEX: '):
+                    faction_name = line.replace('CODEX: ', '')
+                elif line.startswith('INDEX: '):
+                    faction_name = line.replace('INDEX: ', '')
                 
-                # Pattern pour matcher les points: "X models" + "Y pts"
-                match = re.match(r'^(\d+)\s+models?\s+.*?(\d+)\s+pts$', next_line)
-                if match:
-                    datasheet_name = line
-                    models = match.group(1)
-                    points = match.group(2)
-                    
-                    # Nettoyer le nom de la datasheet
-                    datasheet_name = re.sub(r'[^\w\s\-\.]', '', datasheet_name).strip()
-                    current_datasheet = datasheet_name
-                    
-                    if datasheet_name not in faction_points[file_name]:
-                        faction_points[file_name][datasheet_name] = []
-                    
-                    # Ajouter cette entrée de points
-                    faction_points[file_name][datasheet_name].append({
-                        'models': models,
-                        'points': points,
-                        'is_option': False
-                    })
-                    
-                    # Vérifier s'il y a d'autres entrées de points pour la même datasheet
-                    j = i + 2
-                    while j < len(lines):
-                        next_next_line = lines[j].strip()
-                        if not next_next_line:
-                            break
-                        
-                        # Si c'est une nouvelle datasheet, arrêter
-                        if not re.match(r'^\d+\s+models?\s+.*?\d+\s+pts$', next_next_line):
-                            break
-                        
-                        # C'est une autre entrée de points pour la même datasheet
-                        match2 = re.match(r'^(\d+)\s+models?\s+.*?(\d+)\s+pts$', next_next_line)
-                        if match2:
-                            models2 = match2.group(1)
-                            points2 = match2.group(2)
-                            
-                            faction_points[file_name][datasheet_name].append({
-                                'models': models2,
-                                'points': points2,
-                                'is_option': False
-                            })
-                            j += 1
-                        else:
-                            break
-                    
-                    i = j
-                    datasheet_count += 1
+                # Ignorer les lignes vides après les préfixes
+                if not faction_name:
+                    continue
+                
+                current_faction = faction_name
+                faction_points[current_faction] = {}
+                print(f"Faction trouvée: {current_faction}")
+                continue
+            
+            # Ignorer les lignes de détachement et d'amélioration
+            if (line.startswith('DETACHMENT') or 
+                line.startswith('FORGE WORLD') or 
+                line.startswith('LEGIONS OF') or
+                line.startswith('SCINTILLATING') or
+                line.startswith('AUXILIARY') or
+                line.startswith('EXPERIMENTAL') or
+                line.startswith('KAUYON') or
+                line.startswith('KROOT') or
+                line.startswith('MONT\'KA') or
+                line.startswith('RETALIATION') or
+                line.startswith('CARNIVAL') or
+                line.startswith('COTERIE') or
+                line.startswith('MERCURIAL') or
+                line.startswith('PEERLESS') or
+                line.startswith('RAPID') or
+                line.startswith('SLAANESH\'S') or
+                line.startswith('BIOSANCTIC') or
+                line.startswith('BROOD') or
+                line.startswith('FINAL') or
+                line.startswith('HOST') or
+                line.startswith('OUTLANDER') or
+                line.startswith('XENOCREED') or
+                line.startswith('AURIC') or
+                line.startswith('LIONS') or
+                line.startswith('NULL') or
+                line.startswith('SHIELD') or
+                line.startswith('ARMY') or
+                line.startswith('BRINGERS') or
+                line.startswith('CHAMPIONS') or
+                line.startswith('HALLOWED') or
+                line.startswith('PENITENT')):
+                current_faction = None
+                continue
+            
+            # Si on n'a pas de faction courante, ignorer la ligne
+            if not current_faction:
+                continue
+            
+            # Détecter une datasheet (ligne qui ne contient pas de points)
+            if not re.search(r'\d+\s+pts', line) and not line.startswith('+'):
+                # C'est probablement une datasheet
+                datasheet_name = line
+                current_datasheet = datasheet_name
+                faction_points[current_faction][datasheet_name] = {
+                    'base_points': None,
+                    'options': []
+                }
+                continue
+            
+            # Détecter les points de base ou les options
+            if re.search(r'\d+\s+pts', line):
+                if line.startswith('+'):
+                    # C'est une option
+                    if current_datasheet:
+                        faction_points[current_faction][current_datasheet]['options'].append(line)
                 else:
-                    i += 1
-            else:
-                i += 1
+                    # C'est probablement les points de base
+                    if current_datasheet:
+                        # Extraire les points
+                        match = re.search(r'(\d+)\s+pts', line)
+                        if match:
+                            points = int(match.group(1))
+                            faction_points[current_faction][current_datasheet]['base_points'] = points
     
     return faction_points
 
@@ -185,33 +171,30 @@ def find_matching_datasheet(datasheet_name, archive_data):
             return datasheet
     return None
 
-def update_datasheet_points(datasheet, new_points_data):
+def update_datasheet_points(datasheet, points_data):
     """
-    Met à jour les points d'une datasheet en remplaçant complètement les points existants
+    Met à jour les points d'une datasheet avec les nouvelles données
     """
-    # Remplacer complètement le tableau points
-    datasheet['points'] = []
+    # Supprimer les anciennes options
+    if 'options' in datasheet:
+        datasheet['options'] = []
     
-    # Ajouter les nouveaux points
-    for point_data in new_points_data:
-        if point_data.get('is_option', False):
-            # C'est une option, ajouter avec un keyword
-            new_point = {
-                "cost": point_data['points'],
-                "keyword": "option",
-                "models": point_data['models'],
-                "active": True
-            }
-            datasheet['points'].append(new_point)
-        else:
-            # C'est un point de base
-            new_point = {
-                "cost": point_data['points'],
-                "keyword": None,
-                "models": point_data['models'],
-                "active": True
-            }
-            datasheet['points'].append(new_point)
+    # Mettre à jour les points de base
+    if points_data.get('base_points') is not None:
+        datasheet['points'] = points_data['base_points']
+    
+    # Ajouter les nouvelles options
+    for option in points_data.get('options', []):
+        # Extraire le nom et les points de l'option
+        option_match = re.match(r'^(.+?)\s+\+(\d+)\s+pts$', option)
+        if option_match:
+            option_name = option_match.group(1).strip()
+            option_points = int(option_match.group(2))
+            
+            datasheet['options'].append({
+                'name': option_name,
+                'points': option_points
+            })
 
 def process_faction_file(faction_file, faction_points):
     """
@@ -219,7 +202,7 @@ def process_faction_file(faction_file, faction_points):
     """
     if not os.path.exists(faction_file):
         print(f"Fichier {faction_file} non trouvé!")
-        return
+        return [], []
     
     print(f"Traitement de {faction_file}...")
     
@@ -228,15 +211,15 @@ def process_faction_file(faction_file, faction_points):
         data = json.load(f)
     
     faction_name = os.path.basename(faction_file).replace('.json', '')
+    # Utiliser le mapping pour obtenir le nom du bds.txt
+    bds_faction_name = FACTION_FILENAME_TO_BDS.get(faction_name, faction_name)
     updated_count = 0
-    legends_count = 0
-    legends_list = []
     missing_count = 0
     missing_list = []
     
-    if faction_name not in faction_points:
-        print(f"Faction {faction_name} non trouvée dans le bds.txt")
-        return
+    if bds_faction_name not in faction_points:
+        print(f"Faction {bds_faction_name} non trouvée dans le bds.txt")
+        return [], []
     
     # Créer une liste des noms de datasheets dans l'archive
     archive_datasheets = [datasheet['name'] for datasheet in data.get('datasheets', [])]
@@ -247,7 +230,7 @@ def process_faction_file(faction_file, faction_points):
         
         # Chercher la correspondance dans le bds.txt
         matching_data = None
-        for bds_name, points_data in faction_points[faction_name].items():
+        for bds_name, points_data in faction_points[bds_faction_name].items():
             # Vérifier si cette datasheet correspond au nom du bds
             clean_bds_name = normalize_name(bds_name)
             clean_datasheet_name = normalize_name(datasheet_name)
@@ -260,16 +243,10 @@ def process_faction_file(faction_file, faction_points):
             update_datasheet_points(datasheet, matching_data)
             print(f"  Mis à jour: {datasheet_name}")
             updated_count += 1
-        else:
-            # Datasheet non trouvée dans le bds.txt, ajouter "legends": true
-            if 'legends' not in datasheet:
-                datasheet['legends'] = True
-                legends_count += 1
-                legends_list.append(datasheet_name)
-                print(f"  Ajouté legends: {datasheet_name}")
+        # Si pas trouvée dans le bds.txt, on ne fait rien (pas de passage automatique à legends)
     
     # Vérifier les datasheets du bds.txt qui ne sont pas dans l'archive
-    for bds_name in faction_points[faction_name].keys():
+    for bds_name in faction_points[bds_faction_name].keys():
         found = False
         for archive_name in archive_datasheets:
             clean_bds_name = normalize_name(bds_name)
@@ -283,23 +260,19 @@ def process_faction_file(faction_file, faction_points):
             missing_list.append(bds_name)
             print(f"  Manquant dans archive: {bds_name}")
     
-    # Sauvegarder le fichier
-    with open(faction_file, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+    # Sauvegarder le fichier seulement si des modifications ont été apportées
+    if updated_count > 0:
+        with open(faction_file, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
     
     print(f"{updated_count} datasheets mises à jour dans {faction_file}")
-    if legends_count > 0:
-        print(f"{legends_count} datasheets marquées comme legends dans {faction_file}")
-        print("  Liste des datasheets legends:")
-        for name in legends_list:
-            print(f"    - {name}")
     if missing_count > 0:
         print(f"{missing_count} datasheets du bds.txt manquantes dans {faction_file}")
         print("  Liste des datasheets manquantes:")
         for name in missing_list:
             print(f"    - {name}")
     
-    return legends_list, missing_list
+    return [], missing_list
 
 def main():
     """
@@ -318,45 +291,31 @@ def main():
     print(f"Factions trouvées: {list(faction_points.keys())}")
     
     # Traiter chaque fichier de faction
-    all_legends = []
     all_missing = []
     for faction_name in faction_points.keys():
-        faction_file = os.path.join(archive_dir, f"{faction_name}.json")
+        # Utiliser le mapping inverse pour trouver le nom de fichier
+        faction_file = None
+        for filename, bds_name in FACTION_FILENAME_TO_BDS.items():
+            if bds_name == faction_name:
+                faction_file = os.path.join(archive_dir, f"{filename}.json")
+                break
+        
+        if not faction_file or not os.path.exists(faction_file):
+            print(f"Fichier {faction_file} non trouvé!")
+            continue
+            
         legends_list, missing_list = process_faction_file(faction_file, faction_points)
-        if legends_list:
-            all_legends.extend([(faction_name, name) for name in legends_list])
         if missing_list:
             all_missing.extend([(faction_name, name) for name in missing_list])
     
     print("\nMise à jour terminée!")
     
-    # Afficher la liste complète des datasheets legends
-    if all_legends:
-        print(f"\n=== LISTE COMPLÈTE DES DATASHEETS LEGENDS ===")
-        print(f"Total: {len(all_legends)} datasheets marquées comme legends")
-        print()
-        
-        # Grouper par faction
-        legends_by_faction = {}
-        for faction, name in all_legends:
-            if faction not in legends_by_faction:
-                legends_by_faction[faction] = []
-            legends_by_faction[faction].append(name)
-        
-        for faction in sorted(legends_by_faction.keys()):
-            print(f"{faction.upper()}:")
-            for name in sorted(legends_by_faction[faction]):
-                print(f"  - {name}")
-            print()
-    else:
-        print("\nAucune datasheet marquée comme legends.")
-
     # Afficher la liste complète des datasheets manquantes
     if all_missing:
         print(f"\n=== LISTE COMPLÈTE DES DATASHEETS MANQUANTES ===")
         print(f"Total: {len(all_missing)} datasheets du bds.txt manquantes")
         print()
-
+        
         # Grouper par faction
         missing_by_faction = {}
         for faction, name in all_missing:

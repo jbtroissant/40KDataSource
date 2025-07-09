@@ -28,7 +28,7 @@ FACTION_FILENAME_TO_BDS = {
     "deathguard": "DEATH GUARD",
     "Deathwatch": "DEATHWATCH",
     "drukhari": "DRUKHARI",
-    "emperors_children": "EMPEROR'S CHILDREN",
+    "emperors_children": "EMPEROR\u2019S CHILDREN",
     "greyknights": "GREY KNIGHTS",
     "gsc": "GENESTEALER CULTS",
     "imperialknights": "IMPERIAL KNIGHTS",
@@ -36,7 +36,7 @@ FACTION_FILENAME_TO_BDS = {
     "orks": "ORKS",
     "space_marines": "SPACE MARINES",
     "spacewolves": "SPACE WOLVES",
-    "tau": "T'AU EMPIRE",
+    "tau": "T\u2019AU EMPIRE",
     "thousandsons": "THOUSAND SONS",
     "tyranids": "TYRANIDS",
     "unaligned": "UNALIGNED",
@@ -51,6 +51,7 @@ def parse_bds_file(file_path):
     faction_points = {}
     current_faction = None
     current_datasheet = None
+    waiting_for_faction_name = False
     
     with open(file_path, 'r', encoding='utf-8') as f:
         for line in f:
@@ -69,6 +70,11 @@ def parse_bds_file(file_path):
                 elif line.startswith('INDEX: '):
                     faction_name = line.replace('INDEX: ', '')
                 
+                # Si c'est juste "CODEX SUPPLEMENT:" sans nom, on attend la ligne suivante
+                if faction_name == 'CODEX SUPPLEMENT:':
+                    waiting_for_faction_name = True
+                    continue
+                
                 # Ignorer les lignes vides après les préfixes
                 if not faction_name:
                     continue
@@ -76,6 +82,15 @@ def parse_bds_file(file_path):
                 current_faction = faction_name
                 faction_points[current_faction] = {}
                 print(f"Faction trouvée: {current_faction}")
+                waiting_for_faction_name = False
+                continue
+            
+            # Si on attend le nom de faction après CODEX SUPPLEMENT:
+            if waiting_for_faction_name:
+                current_faction = line
+                faction_points[current_faction] = {}
+                print(f"Faction trouvée: {current_faction}")
+                waiting_for_faction_name = False
                 continue
             
             # Ignorer les lignes de détachement et d'amélioration
@@ -289,6 +304,12 @@ def main():
     faction_points = parse_bds_file(bds_file)
     
     print(f"Factions trouvées: {list(faction_points.keys())}")
+    print("\nMapping des factions:")
+    for filename, bds_name in FACTION_FILENAME_TO_BDS.items():
+        if bds_name in faction_points:
+            print(f"  ✅ {filename} -> {bds_name}")
+        else:
+            print(f"  ❌ {filename} -> {bds_name} (non trouvée)")
     
     # Traiter chaque fichier de faction
     all_missing = []
@@ -300,10 +321,15 @@ def main():
                 faction_file = os.path.join(archive_dir, f"{filename}.json")
                 break
         
-        if not faction_file or not os.path.exists(faction_file):
-            print(f"Fichier {faction_file} non trouvé!")
+        if not faction_file:
+            print(f"❌ Aucun fichier trouvé pour la faction: {faction_name}")
             continue
             
+        if not os.path.exists(faction_file):
+            print(f"❌ Fichier {faction_file} non trouvé!")
+            continue
+            
+        print(f"✅ Traitement de {faction_file} pour {faction_name}")
         legends_list, missing_list = process_faction_file(faction_file, faction_points)
         if missing_list:
             all_missing.extend([(faction_name, name) for name in missing_list])

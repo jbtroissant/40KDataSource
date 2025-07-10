@@ -1,30 +1,7 @@
 import requests
 import os
 import json
-import re
-import sys
 from urllib.parse import urljoin
-from pathlib import Path
-from typing import List, Dict
-
-# Configurer l'encodage pour Windows
-if sys.platform.startswith('win'):
-    import codecs
-    sys.stdout = codecs.getwriter('utf-8')(sys.stdout.detach())
-    sys.stderr = codecs.getwriter('utf-8')(sys.stderr.detach())
-
-# Icônes pour améliorer la lisibilité
-ICONS = {
-    "success": "✅",
-    "warning": "⚠️",
-    "error": "❌",
-    "info": "ℹ️",
-    "processing": "🔄",
-    "file": "📁",
-    "check": "✓",
-    "skip": "⏭️",
-    "clean": "🧹"
-}
 
 def download_json_files():
     """
@@ -97,6 +74,9 @@ def download_json_files():
     
     # Nettoyer space_marines.json en supprimant les datasheets en double
     clean_space_marines_json()
+    
+    # Ajouter les datasheets de démons du chaos
+    add_daemon_datasheets()
 
 def clean_space_marines_json():
     """
@@ -184,125 +164,114 @@ def clean_space_marines_json():
     except Exception as e:
         print(f"❌ Erreur lors du nettoyage: {e}")
 
-def is_valid_composition_entry(entry: str) -> bool:
+def add_daemon_datasheets():
     """
-    Vérifie si une entrée de composition est valide.
-    
-    Formats valides :
-    - "1 Nom" (nombre + nom)
-    - "1-5 Nom" (plage + nom)
-    - "0-1 Nom" (plage optionnelle + nom)
-    - "1 Nom – SUFFIX" (avec suffixe)
+    Ajoute les datasheets de démons du chaos dans les fichiers appropriés.
     """
-    entry = entry.strip()
+    print("\n👹 Ajout des datasheets de démons du chaos...")
     
-    # Patterns valides pour les entrées de composition
-    valid_patterns = [
-        r'^\d+\s+[A-Za-z\s\-\'\.]+$',  # "1 Nom"
-        r'^\d+-\d+\s+[A-Za-z\s\-\'\.]+$',  # "1-5 Nom"
-        r'^\d+\s+[A-Za-z\s\-\'\.]+\s*–\s*[A-Za-z\s\-\'\.]+$',  # "1 Nom – SUFFIX"
-        r'^\d+-\d+\s+[A-Za-z\s\-\'\.]+\s*–\s*[A-Za-z\s\-\'\.]+$',  # "1-5 Nom – SUFFIX"
-    ]
-    
-    for pattern in valid_patterns:
-        if re.match(pattern, entry):
-            return True
-    
-    return False
-
-def clean_composition(composition: List[str]) -> List[str]:
-    """
-    Nettoie une liste de composition en supprimant les entrées invalides.
-    """
-    cleaned = []
-    removed = []
-    
-    for entry in composition:
-        if is_valid_composition_entry(entry):
-            cleaned.append(entry)
-        else:
-            removed.append(entry)
-    
-    if removed:
-        print(f"{ICONS['warning']} Entrées supprimées de la composition:")
-        for entry in removed:
-            print(f"   - {entry}")
-    
-    return cleaned
-
-def process_faction_file(file_path: Path) -> None:
-    """Traite un fichier de faction."""
-    print(f"{ICONS['processing']} Traitement de {file_path.name}...")
+    # Charger chaosdaemons.json
+    chaosdaemons_path = os.path.join("archive", "chaosdaemons.json")
+    if not os.path.exists(chaosdaemons_path):
+        print("❌ chaosdaemons.json non trouvé")
+        return
     
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
+        with open(chaosdaemons_path, 'r', encoding='utf-8') as f:
+            chaosdaemons_data = json.load(f)
         
-        if 'datasheets' not in data:
-            print(f"{ICONS['warning']} Pas de datasheets dans {file_path.name}")
-            return
+        # Définir les mappings des datasheets à ajouter
+        daemon_mappings = {
+            "thousandsons.json": [
+                "Blue Horrors",
+                "Flamers", 
+                "Kairos Fateweaver",
+                "Lord of Change",
+                "Pink Horrors",
+                "Screamers"
+            ],
+            "worldeaters.json": [
+                "Bloodcrushers",
+                "Bloodletters", 
+                "Bloodthirster",
+                "Flesh Hounds",
+                "Skarbrand"
+            ],
+            "emperors_children.json": [
+                "Daemonettes",
+                "Fiends",
+                "Keeper of Secrets", 
+                "Seekers",
+                "Shalaxi Helbane"
+            ],
+            "deathguard.json": [
+                "Beasts of Nurgle",
+                "Great Unclean One",
+                "Nurglings",
+                "Plague Drones",
+                "Plaguebearers",
+                "Rotigus"
+            ]
+        }
         
-        modified = False
-        processed_datasheets = 0
-        total_removed_entries = 0
-        
-        for datasheet in data['datasheets']:
-            if 'composition' in datasheet and isinstance(datasheet['composition'], list):
-                original_count = len(datasheet['composition'])
-                cleaned_composition = clean_composition(datasheet['composition'])
-                
-                if len(cleaned_composition) != original_count:
-                    datasheet['composition'] = cleaned_composition
-                    modified = True
-                    processed_datasheets += 1
-                    removed_count = original_count - len(cleaned_composition)
-                    total_removed_entries += removed_count
-                    
-                    print(f"{ICONS['clean']} {datasheet.get('name', 'Unknown')}: {removed_count} entrées supprimées")
-        
-        if modified:
-            # Sauvegarder directement sans backup
-            with open(file_path, 'w', encoding='utf-8') as f:
-                json.dump(data, f, indent=2, ensure_ascii=False)
+        # Traiter chaque fichier cible
+        for target_file, daemon_names in daemon_mappings.items():
+            target_path = os.path.join("archive", target_file)
             
-            print(f"{ICONS['success']} {file_path.name} traité et sauvegardé ({processed_datasheets} datasheets modifiées, {total_removed_entries} entrées supprimées)")
-        else:
-            print(f"{ICONS['skip']} {file_path.name} déjà propre ou pas de modifications")
-    
+            if not os.path.exists(target_path):
+                print(f"⚠️ {target_file} non trouvé, ignoré")
+                continue
+            
+            try:
+                # Charger le fichier cible
+                with open(target_path, 'r', encoding='utf-8') as f:
+                    target_data = json.load(f)
+                
+                # Collecter les datasheets à ajouter
+                datasheets_to_add = []
+                existing_names = {ds.get('name', '') for ds in target_data.get('datasheets', [])}
+                
+                for daemon_name in daemon_names:
+                    # Chercher la datasheet dans chaosdaemons.json
+                    found = False
+                    for datasheet in chaosdaemons_data.get('datasheets', []):
+                        if datasheet.get('name') == daemon_name:
+                            if daemon_name not in existing_names:
+                                datasheets_to_add.append(datasheet)
+                                print(f"➕ Ajout de {daemon_name} dans {target_file}")
+                                found = True
+                            else:
+                                print(f"⏭️ {daemon_name} existe déjà dans {target_file}")
+                                found = True
+                            break
+                    
+                    if not found:
+                        print(f"⚠️ {daemon_name} non trouvé dans chaosdaemons.json")
+                
+                # Ajouter les datasheets au fichier cible
+                if datasheets_to_add:
+                    target_data['datasheets'].extend(datasheets_to_add)
+                    
+                    # Sauvegarder avec backup
+                    backup_path = target_path + ".backup"
+                    if not os.path.exists(backup_path):
+                        os.rename(target_path, backup_path)
+                        print(f"💾 Backup créé pour {target_file}")
+                    
+                    with open(target_path, 'w', encoding='utf-8') as f:
+                        json.dump(target_data, f, indent=2, ensure_ascii=False)
+                    
+                    print(f"✅ {len(datasheets_to_add)} datasheets ajoutées à {target_file}")
+                else:
+                    print(f"ℹ️ Aucune nouvelle datasheet à ajouter à {target_file}")
+                
+            except Exception as e:
+                print(f"❌ Erreur lors du traitement de {target_file}: {e}")
+        
+        print("✅ Ajout des datasheets de démons terminé")
+        
     except Exception as e:
-        print(f"{ICONS['error']} Erreur lors du traitement de {file_path.name}: {e}")
-
-def fix_composition_errors():
-    """
-    Corrige les erreurs dans les sections composition des datasheets.
-    """
-    print(f"\n{ICONS['clean']} Correction des erreurs de composition...")
-    
-    # Traiter tous les fichiers du dossier archive
-    archive_dir = Path("archive")
-    
-    if not archive_dir.exists():
-        print(f"{ICONS['error']} Le dossier 'archive' n'existe pas")
-        return
-    
-    # Traiter tous les fichiers JSON dans le dossier archive
-    json_files = list(archive_dir.glob("*.json"))
-    
-    if not json_files:
-        print(f"{ICONS['warning']} Aucun fichier JSON trouvé dans le dossier archive")
-        return
-    
-    print(f"{ICONS['info']} Traitement de {len(json_files)} fichiers...")
-    print(f"{ICONS['info']} Icônes: {ICONS['success']} Succès | {ICONS['warning']} Avertissement | {ICONS['error']} Erreur | {ICONS['skip']} Ignoré | {ICONS['clean']} Nettoyage")
-    print("-" * 80)
-    
-    for i, file_path in enumerate(json_files, 1):
-        print(f"\n{ICONS['info']} [{i}/{len(json_files)}] ", end="")
-        process_faction_file(file_path)
-    
-    print(f"\n{ICONS['success']} Traitement terminé !")
+        print(f"❌ Erreur lors du chargement de chaosdaemons.json: {e}")
 
 if __name__ == "__main__":
-    download_json_files()
-    # Corriger les erreurs de composition après le téléchargement
-    fix_composition_errors() 
+    download_json_files() 

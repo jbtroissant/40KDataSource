@@ -147,12 +147,7 @@ def clean_space_marines_json():
         # Mettre à jour space_marines.json
         space_marines_data['datasheets'] = filtered_datasheets
         
-        # Sauvegarder avec backup
-        backup_path = space_marines_path + ".backup"
-        if not os.path.exists(backup_path):
-            os.rename(space_marines_path, backup_path)
-            print(f"💾 Backup créé: {backup_path}")
-        
+        # Sauvegarder directement
         with open(space_marines_path, 'w', encoding='utf-8') as f:
             json.dump(space_marines_data, f, indent=2, ensure_ascii=False)
         
@@ -252,12 +247,7 @@ def add_daemon_datasheets():
                 if datasheets_to_add:
                     target_data['datasheets'].extend(datasheets_to_add)
                     
-                    # Sauvegarder avec backup
-                    backup_path = target_path + ".backup"
-                    if not os.path.exists(backup_path):
-                        os.rename(target_path, backup_path)
-                        print(f"💾 Backup créé pour {target_file}")
-                    
+                    # Sauvegarder directement
                     with open(target_path, 'w', encoding='utf-8') as f:
                         json.dump(target_data, f, indent=2, ensure_ascii=False)
                     

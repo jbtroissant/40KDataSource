@@ -104,10 +104,27 @@ def create_compo_structure(composition: List[str], stats: List[Dict]) -> List[Di
     """
     compo_structure = []
     
+    # Si il n'y a qu'une seule stat, utiliser son ID pour toutes les entrées
+    single_stat_id = None
+    if len(stats) == 1:
+        single_stat_id = ensure_stat_has_id(stats[0])
+        print(f"{ICONS['info']} Une seule stat trouvée, utilisation de l'ID unique: {single_stat_id}")
+    
     for entry in composition:
         name, count, min_count, max_count = parse_composition_entry(entry)
         
-        # Trouver la stat correspondante
+        # Si il n'y a qu'une seule stat, utiliser son ID
+        if single_stat_id:
+            compo_structure.append({
+                "name": name,
+                "id": single_stat_id,
+                "count": count,
+                "min": min_count,
+                "max": max_count
+            })
+            continue
+        
+        # Sinon, chercher la stat correspondante
         matching_stat_name = find_matching_stat_name(name, stats)
         
         if matching_stat_name:

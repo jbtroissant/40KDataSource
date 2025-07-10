@@ -245,7 +245,7 @@ def extract_munitorum_data(pdf_path: str) -> Dict[str, Any]:
         if "T'AU EMPIRE" in faction["name"] or "T’AU EMPIRE" in faction["name"]:
             faction["name"] = "TAU"
         elif "EMPEROR'S CHILDREN" in faction["name"] or "EMPEROR’S CHILDREN" in faction["name"]:
-            faction["name"] = "EMPERORS CHILDREN"
+            faction["name"] = "EMPERORS_CHILDREN"
 
     return data
 

@@ -85,10 +85,9 @@
       "name": "Watch Captain Artemis",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -235,16 +234,9 @@
       "name": "Indomitor Kill Team",
       "points": [
         {
-          "cost": "270",
-          "keyword": null,
-          "models": "16",
-          "active": true
-        },
-        {
-          "cost": "270",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "270"
         }
       ],
       "rangedWeapons": [
@@ -581,16 +573,14 @@
       "name": "Deathwatch Veterans",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "100"
         },
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -891,16 +881,9 @@
       "name": "Talonstrike Kill Team",
       "points": [
         {
-          "cost": "290",
-          "keyword": null,
-          "models": "15",
-          "active": true
-        },
-        {
-          "cost": "290",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "290"
         }
       ],
       "rangedWeapons": [
@@ -1143,10 +1126,9 @@
       "name": "Watch Master",
       "points": [
         {
-          "cost": "105",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "105"
         }
       ],
       "rangedWeapons": [
@@ -1278,10 +1260,9 @@
       "name": "Corvus Blackstar",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -1563,16 +1544,14 @@
       "name": "Deathwatch Terminator Squad",
       "points": [
         {
-          "cost": "350",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "190"
         },
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "350"
         }
       ],
       "rangedWeapons": [
@@ -1859,16 +1838,9 @@
       "name": "Fortis Kill Team",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "24",
-          "active": true
-        },
-        {
-          "cost": "200",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -2302,16 +2274,9 @@
       "name": "Spectrus Kill Team",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "21",
-          "active": true
-        },
-        {
-          "cost": "200",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [

@@ -86,10 +86,9 @@
       "name": "Revenant Titan",
       "points": [
         {
-          "cost": "1100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "1100"
         }
       ],
       "rangedWeapons": [
@@ -247,10 +246,9 @@
       "name": "Shadow Weaver Platform",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -442,16 +440,14 @@
       "name": "Striking Scorpions",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "85"
         },
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -610,10 +606,9 @@
       "name": "Eldrad Ulthran",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -783,10 +778,9 @@
       "name": "Wraithlord",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -1015,10 +1009,9 @@
       "name": "Wave Serpent",
       "points": [
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "125"
         }
       ],
       "rangedWeapons": [
@@ -1327,34 +1320,14 @@
       "name": "Corsair Voidscarred",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "8",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "80"
         },
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "7",
-          "active": true
-        },
-        {
-          "cost": "160",
-          "keyword": null,
-          "models": "6",
-          "active": true
-        },
-        {
-          "cost": "160",
-          "keyword": null,
-          "models": "13",
-          "active": true
-        },
-        {
-          "cost": "80",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -1638,10 +1611,9 @@
       "name": "Fire Prism",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -1857,10 +1829,9 @@
       "name": "Autarch",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -2097,16 +2068,14 @@
       "name": "Fire Dragons",
       "points": [
         {
-          "cost": "220",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "120"
         },
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -2324,10 +2293,9 @@
       "name": "Asurmen",
       "points": [
         {
-          "cost": "135",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "135"
         }
       ],
       "rangedWeapons": [
@@ -2473,10 +2441,9 @@
       "name": "Storm Guardians",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "11",
-          "active": true
+          "name": "model",
+          "model": "11",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -2653,10 +2620,9 @@
       "name": "D-cannon Platform",
       "points": [
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "125"
         }
       ],
       "rangedWeapons": [
@@ -2813,16 +2779,14 @@
       "name": "datasheets.Warlock_Skyrunners.name",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "45"
         },
         {
-          "cost": "45",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -3031,10 +2995,9 @@
       "name": "Lhykhis",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -3181,10 +3144,9 @@
       "name": "Farseer Skyrunner",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -3367,10 +3329,9 @@
       "name": "Maugan Ra",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -3493,10 +3454,9 @@
       "name": "Guardian Defenders",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "11",
-          "active": true
+          "name": "model",
+          "model": "11",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -3762,10 +3722,9 @@
       "name": "Phantom Titan",
       "points": [
         {
-          "cost": "2100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "2100"
         }
       ],
       "rangedWeapons": [
@@ -3960,10 +3919,9 @@
       "name": "Avatar of Khaine",
       "points": [
         {
-          "cost": "300",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "300"
         }
       ],
       "rangedWeapons": [
@@ -4072,16 +4030,14 @@
       "name": "War Walkers",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         },
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -4268,10 +4224,9 @@
       "name": "Hemlock Wraithfighter",
       "points": [
         {
-          "cost": "155",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "155"
         }
       ],
       "rangedWeapons": [
@@ -4395,10 +4350,9 @@
       "name": "Wraithknight",
       "points": [
         {
-          "cost": "435",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "420"
         }
       ],
       "rangedWeapons": [
@@ -4605,16 +4559,14 @@
       "name": "Swooping Hawks",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "85"
         },
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -4819,10 +4771,9 @@
       "name": "Wraithguard",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -4956,10 +4907,9 @@
       "name": "Fuegan",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -5137,16 +5087,14 @@
       "name": "Shining Spears",
       "points": [
         {
-          "cost": "220",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "110"
         },
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -5351,16 +5299,14 @@
       "name": "Corsair Voidreavers",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "60"
         },
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -5592,10 +5538,9 @@
       "name": "Vibro Cannon Platform",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -5731,10 +5676,9 @@
       "name": "Jain Zar",
       "points": [
         {
-          "cost": "105",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "105"
         }
       ],
       "rangedWeapons": [
@@ -5897,16 +5841,14 @@
       "name": "Warp Spiders",
       "points": [
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "95"
         },
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "190"
         }
       ],
       "rangedWeapons": [
@@ -6098,16 +6040,14 @@
       "name": "Dark Reapers",
       "points": [
         {
-          "cost": "195",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "90"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "195"
         }
       ],
       "rangedWeapons": [
@@ -6318,16 +6258,14 @@
       "name": "Shroud Runners",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -6501,10 +6439,14 @@
       "name": "Warlock",
       "points": [
         {
-          "cost": "45",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "55"
+        },
+        {
+          "name": "model",
+          "model": "4",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -7225,10 +7167,9 @@
       "name": "Night Spinner",
       "points": [
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "190"
         }
       ],
       "rangedWeapons": [
@@ -7678,16 +7619,14 @@
       "name": "Dire Avengers",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -7835,16 +7774,14 @@
       "name": "Vypers",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         },
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -8114,16 +8051,14 @@
       "name": "Howling Banshees",
       "points": [
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "95"
         },
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "190"
         }
       ],
       "rangedWeapons": [
@@ -8273,10 +8208,9 @@
       "name": "Falcon",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -8497,16 +8431,14 @@
       "name": "Windriders",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -8655,16 +8587,14 @@
       "name": "Rangers",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "55"
         },
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -8791,10 +8721,9 @@
       "name": "Crimson Hunter",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -8948,10 +8877,9 @@
       "name": "Baharroth",
       "points": [
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "115"
         }
       ],
       "rangedWeapons": [
@@ -9092,10 +9020,9 @@
       "name": "Wraithblades",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [],
@@ -9200,10 +9127,9 @@
       "name": "Spiritseer",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [

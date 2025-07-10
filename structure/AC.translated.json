@@ -96,10 +96,9 @@
       "name": "Telemon Heavy Dreadnought",
       "points": [
         {
-          "cost": "225",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "225"
         }
       ],
       "rangedWeapons": [
@@ -264,10 +263,9 @@
       "name": "Contemptor-Achillus Dreadnought",
       "points": [
         {
-          "cost": "155",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "155"
         }
       ],
       "rangedWeapons": [
@@ -430,10 +428,9 @@
       "name": "Contemptor-Galatus Dreadnought",
       "points": [
         {
-          "cost": "165",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "165"
         }
       ],
       "rangedWeapons": [
@@ -544,10 +541,9 @@
       "name": "Venerable Contemptor Dreadnought",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -727,10 +723,9 @@
       "name": "Blade Champion",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [],
@@ -828,10 +823,9 @@
       "name": "Caladius Grav-tank",
       "points": [
         {
-          "cost": "215",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "215"
         }
       ],
       "rangedWeapons": [
@@ -1022,28 +1016,24 @@
       "name": "Allarus Custodians",
       "points": [
         {
-          "cost": "360",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "120"
         },
         {
-          "cost": "300",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "180"
         },
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "300"
         },
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "360"
         }
       ],
       "rangedWeapons": [
@@ -1202,10 +1192,9 @@
       "name": "datasheets.Shield_Captain_on_Dawneagle_Jetbike.name",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -1345,28 +1334,24 @@
       "name": "Vigilators",
       "points": [
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "4",
+          "cost": "50"
         },
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "9",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "65"
         },
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "9",
+          "cost": "115"
         },
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "4",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "125"
         }
       ],
       "rangedWeapons": [],
@@ -1472,10 +1457,9 @@
       "name": "Sagittarum Custodians",
       "points": [
         {
-          "cost": "225",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "225"
         }
       ],
       "rangedWeapons": [
@@ -1589,28 +1573,24 @@
       "name": "Witchseekers",
       "points": [
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "4",
+          "cost": "50"
         },
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "9",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "65"
         },
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "9",
+          "cost": "115"
         },
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "4",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "125"
         }
       ],
       "rangedWeapons": [
@@ -1726,10 +1706,9 @@
       "name": "Ares Gunship",
       "points": [
         {
-          "cost": "580",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "580"
         }
       ],
       "rangedWeapons": [
@@ -1909,16 +1888,14 @@
       "name": "Custodian Guard",
       "points": [
         {
-          "cost": "215",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "4",
+          "cost": "170"
         },
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "4",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "215"
         }
       ],
       "rangedWeapons": [
@@ -2057,10 +2034,9 @@
       "name": "Orion Assault Dropship",
       "points": [
         {
-          "cost": "690",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "690"
         }
       ],
       "rangedWeapons": [
@@ -2234,10 +2210,9 @@
       "name": "Knight-Centura",
       "points": [
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "55"
         }
       ],
       "rangedWeapons": [
@@ -2381,10 +2356,9 @@
       "name": "datasheets.Anathema_Psykana_Rhino.name",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -2535,10 +2509,9 @@
       "name": "Aleya",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [],
@@ -2650,16 +2623,14 @@
       "name": "Agamatus Custodians",
       "points": [
         {
-          "cost": "450",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "225"
         },
         {
-          "cost": "225",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "450"
         }
       ],
       "rangedWeapons": [
@@ -2803,10 +2774,9 @@
       "name": "Venerable Land Raider",
       "points": [
         {
-          "cost": "240",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "240"
         }
       ],
       "rangedWeapons": [
@@ -3004,16 +2974,14 @@
       "name": "Custodian Wardens",
       "points": [
         {
-          "cost": "260",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "4",
+          "cost": "210"
         },
         {
-          "cost": "210",
-          "keyword": null,
-          "models": "4",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "260"
         }
       ],
       "rangedWeapons": [
@@ -3148,10 +3116,9 @@
       "name": "Pallas Grav-attack",
       "points": [
         {
-          "cost": "105",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "105"
         }
       ],
       "rangedWeapons": [
@@ -3267,16 +3234,14 @@
       "name": "Vertus Praetors",
       "points": [
         {
-          "cost": "225",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "150"
         },
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "225"
         }
       ],
       "rangedWeapons": [
@@ -3417,10 +3382,9 @@
       "name": "Valerian",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -3560,16 +3524,14 @@
       "name": "Venatari Custodians",
       "points": [
         {
-          "cost": "330",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "165"
         },
         {
-          "cost": "165",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "330"
         }
       ],
       "rangedWeapons": [
@@ -3721,10 +3683,9 @@
       "name": "datasheets.Allarus_Custodians.leadBy.0",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -3905,16 +3866,14 @@
       "name": "Aquilon Custodians",
       "points": [
         {
-          "cost": "390",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "195"
         },
         {
-          "cost": "195",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "390"
         }
       ],
       "rangedWeapons": [
@@ -4090,10 +4049,9 @@
       "name": "Custodian Guard with Adrasite and Pyrithite Spears",
       "points": [
         {
-          "cost": "250",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "250"
         }
       ],
       "rangedWeapons": [
@@ -4220,10 +4178,9 @@
       "name": "Coronus Grav-carrier",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -4354,28 +4311,24 @@
       "name": "Prosecutors",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "4",
+          "cost": "40"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "9",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "50"
         },
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "9",
+          "cost": "90"
         },
         {
-          "cost": "40",
-          "keyword": null,
-          "models": "4",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -4739,10 +4692,9 @@
       "name": "Trajann Valoris",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [

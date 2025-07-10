@@ -108,16 +108,14 @@
       "name": "Celestian Sacresants",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "70"
         },
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -376,16 +374,14 @@
       "name": "Mortifiers",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         },
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -560,10 +556,9 @@
       "name": "datasheets.Canoness_with_Jump_Pack.name",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -688,10 +683,9 @@
       "name": "Palatine",
       "points": [
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "50"
         }
       ],
       "rangedWeapons": [
@@ -924,10 +918,9 @@
       "name": "Sanctifiers",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "9",
-          "active": true
+          "name": "model",
+          "model": "9",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -1192,16 +1185,14 @@
       "name": "Arco-flagellants",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "45"
         },
         {
-          "cost": "45",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [],
@@ -1301,10 +1292,9 @@
       "name": "Imagifier",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -1491,10 +1481,9 @@
       "name": "Triumph of Saint Katherine",
       "points": [
         {
-          "cost": "235",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "235"
         }
       ],
       "rangedWeapons": [
@@ -1644,16 +1633,14 @@
       "name": "Seraphim Squad",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -1860,16 +1847,14 @@
       "name": "Repentia Squad",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "75"
         },
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -1997,10 +1982,9 @@
       "name": "Dialogus",
       "points": [
         {
-          "cost": "40",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "40"
         }
       ],
       "rangedWeapons": [
@@ -2126,10 +2110,9 @@
       "name": "Dogmata",
       "points": [
         {
-          "cost": "45",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "45"
         }
       ],
       "rangedWeapons": [
@@ -2249,10 +2232,9 @@
       "name": "Immolator",
       "points": [
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "115"
         }
       ],
       "rangedWeapons": [
@@ -2451,10 +2433,9 @@
       "name": "Hospitaller",
       "points": [
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "50"
         }
       ],
       "rangedWeapons": [
@@ -2604,10 +2585,9 @@
       "name": "Morvenn Vahl",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -2788,10 +2768,9 @@
       "name": "Retributor Squad",
       "points": [
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "115"
         }
       ],
       "rangedWeapons": [
@@ -3145,10 +3124,9 @@
       "name": "Sisters Novitiate Squad",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -3419,10 +3397,9 @@
       "name": "Daemonifuge",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -3547,10 +3524,9 @@
       "name": "Sororitas Rhino",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -3701,10 +3677,9 @@
       "name": "Paragon Warsuits",
       "points": [
         {
-          "cost": "210",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "210"
         }
       ],
       "rangedWeapons": [
@@ -3910,10 +3885,9 @@
       "name": "Castigator",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -4106,10 +4080,9 @@
       "name": "Exorcist",
       "points": [
         {
-          "cost": "210",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "210"
         }
       ],
       "rangedWeapons": [
@@ -4343,16 +4316,14 @@
       "name": "Penitent Engines",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         },
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -4473,10 +4444,9 @@
       "name": "Junith Eruita",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -4627,10 +4597,9 @@
       "name": "Ministorum Priest",
       "points": [
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "50"
         }
       ],
       "rangedWeapons": [
@@ -4777,16 +4746,14 @@
       "name": "Zephyrim Squad",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -4985,10 +4952,9 @@
       "name": "Dominion Squad",
       "points": [
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "115"
         }
       ],
       "rangedWeapons": [
@@ -5336,10 +5302,9 @@
       "name": "Saint Celestine",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -5532,10 +5497,9 @@
       "name": "Battle Sisters Squad",
       "points": [
         {
-          "cost": "105",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "105"
         }
       ],
       "rangedWeapons": [
@@ -6207,10 +6171,9 @@
       "name": "datasheets.Celestian_Sacresants.leadBy.7",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [

@@ -82,10 +82,9 @@
       "name": "Brotherhood Chaplain",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -212,10 +211,9 @@
       "name": "Brotherhood Librarian",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -396,16 +394,14 @@
       "name": "Paladin Squad",
       "points": [
         {
-          "cost": "430",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "215"
         },
         {
-          "cost": "215",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "430"
         }
       ],
       "rangedWeapons": [
@@ -581,10 +577,9 @@
       "name": "datasheets.Grey_Knights_Land_Raider_Redeemer.name",
       "points": [
         {
-          "cost": "285",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "285"
         }
       ],
       "rangedWeapons": [
@@ -777,10 +772,9 @@
       "name": "datasheets.Grey_Knights_Rhino.name",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -927,10 +921,9 @@
       "name": "Grand Master",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -1103,10 +1096,9 @@
       "name": "datasheets.Grey_Knights_Stormraven_Gunship.name",
       "points": [
         {
-          "cost": "280",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "280"
         }
       ],
       "rangedWeapons": [
@@ -1383,10 +1375,9 @@
       "name": "Brotherhood Champion",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -1501,10 +1492,9 @@
       "name": "datasheets.Grey_Knights_Land_Raider.name",
       "points": [
         {
-          "cost": "240",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -1694,10 +1684,9 @@
       "name": "datasheets.Land_Raider_Banisher.name",
       "points": [
         {
-          "cost": "255",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "255"
         }
       ],
       "rangedWeapons": [
@@ -1912,16 +1901,14 @@
       "name": "Strike Squad",
       "points": [
         {
-          "cost": "240",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "120"
         },
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "240"
         }
       ],
       "rangedWeapons": [
@@ -2099,10 +2086,9 @@
       "name": "datasheets.Grey_Knights_Thunderhawk_Gunship.name",
       "points": [
         {
-          "cost": "805",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "805"
         }
       ],
       "rangedWeapons": [
@@ -2282,10 +2268,9 @@
       "name": "datasheets.Grey_Knights_Razorback.name",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -2496,16 +2481,14 @@
       "name": "Brotherhood Terminator Squad",
       "points": [
         {
-          "cost": "400",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "200"
         },
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "400"
         }
       ],
       "rangedWeapons": [
@@ -2694,10 +2677,9 @@
       "name": "Castellan Crowe",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -2896,10 +2878,9 @@
       "name": "Brotherhood Techmarine",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -3070,16 +3051,14 @@
       "name": "Interceptor Squad",
       "points": [
         {
-          "cost": "250",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "125"
         },
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "250"
         }
       ],
       "rangedWeapons": [
@@ -3301,10 +3280,9 @@
       "name": "Grand Master in Nemesis Dreadknight",
       "points": [
         {
-          "cost": "210",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "210"
         }
       ],
       "rangedWeapons": [
@@ -3477,10 +3455,9 @@
       "name": "Servitors",
       "points": [
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "4",
-          "active": true
+          "name": "model",
+          "model": "4",
+          "cost": "50"
         }
       ],
       "rangedWeapons": [
@@ -3862,16 +3839,14 @@
       "name": "Purifier Squad",
       "points": [
         {
-          "cost": "250",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "125"
         },
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "250"
         }
       ],
       "rangedWeapons": [
@@ -4074,10 +4049,9 @@
       "name": "datasheets.Grey_Knights_Venerable_Dreadnought.name",
       "points": [
         {
-          "cost": "155",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "155"
         }
       ],
       "rangedWeapons": [
@@ -4331,10 +4305,9 @@
       "name": "Brother-Captain",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -4527,10 +4500,9 @@
       "name": "Kaldor Draigo",
       "points": [
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "125"
         }
       ],
       "rangedWeapons": [
@@ -4928,10 +4900,9 @@
       "name": "datasheets.Grey_Knights_Stormtalon_Gunship.name",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -5125,10 +5096,9 @@
       "name": "datasheets.Grey_Knights_Stormhawk_Interceptor.name",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -5561,16 +5531,14 @@
       "name": "Purgation Squad",
       "points": [
         {
-          "cost": "240",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "120"
         },
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "240"
         }
       ],
       "rangedWeapons": [

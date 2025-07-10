@@ -405,16 +405,14 @@
       "name": "Thunderwolf Cavalry",
       "points": [
         {
-          "cost": "240",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "100"
         },
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -588,10 +586,9 @@
       "name": "Arjac Rockfist",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -723,10 +720,9 @@
       "name": "Bjorn the Fell-Handed",
       "points": [
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -1001,10 +997,9 @@
       "name": "datasheets.Space_Wolves_Venerable_Dreadnought.name",
       "points": [
         {
-          "cost": "155",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -1956,10 +1951,9 @@
       "name": "Ulrik the Slayer",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -2215,10 +2209,9 @@
       "name": "Ragnar Blackmane",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -2446,16 +2439,14 @@
       "name": "Wolf Guard Terminators",
       "points": [
         {
-          "cost": "370",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "170"
         },
         {
-          "cost": "185",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "340"
         }
       ],
       "rangedWeapons": [
@@ -2915,16 +2906,14 @@
       "name": "Blood Claws",
       "points": [
         {
-          "cost": "210",
-          "keyword": null,
-          "models": "15",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "135"
         },
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "20",
+          "cost": "270"
         }
       ],
       "rangedWeapons": [
@@ -3191,16 +3180,14 @@
       "name": "Wulfen",
       "points": [
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "100"
         },
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -3365,16 +3352,9 @@
       "name": "Grey Hunters",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "10",
-          "active": true
-        },
-        {
-          "cost": "85",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -3939,10 +3919,9 @@
       "name": "Njal Stormcaller",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -4113,16 +4092,9 @@
       "name": "Wolf Guard",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "10",
-          "active": true
-        },
-        {
-          "cost": "85",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -4627,10 +4599,9 @@
       "name": "Iron Priest",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -5238,16 +5209,14 @@
       "name": "Fenrisian Wolves",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "40"
         },
         {
-          "cost": "30",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [],
@@ -5612,10 +5581,9 @@
       "name": "Logan Grimnar",
       "points": [
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -6953,10 +6921,9 @@
       "name": "Murderfang",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [

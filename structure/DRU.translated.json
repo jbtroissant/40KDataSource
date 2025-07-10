@@ -90,16 +90,14 @@
       "name": "Scourges",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "130"
         },
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -416,16 +414,14 @@
       "name": "Talos",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -674,10 +670,9 @@
       "name": "Beastmaster",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "7",
-          "active": true
+          "name": "model",
+          "model": "7",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -828,10 +823,9 @@
       "name": "Ravager",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -1032,10 +1026,9 @@
       "name": "Court of the Archon",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "4",
-          "active": true
+          "name": "model",
+          "model": "4",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -1230,16 +1223,14 @@
       "name": "Reavers",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "65"
         },
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -1421,10 +1412,9 @@
       "name": "Urien Rakarth",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -1562,10 +1552,9 @@
       "name": "Lelith Hesperax",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [],
@@ -1665,16 +1654,14 @@
       "name": "Wracks",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "55"
         },
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -1846,10 +1833,9 @@
       "name": "Razorwing Jetfighter",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -2214,10 +2200,9 @@
       "name": "Wyches",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -2353,10 +2338,9 @@
       "name": "Voidraven Bomber",
       "points": [
         {
-          "cost": "235",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "235"
         }
       ],
       "rangedWeapons": [
@@ -2515,10 +2499,9 @@
       "name": "Raider",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -2643,16 +2626,14 @@
       "name": "Cronos",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "50"
         },
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -2786,10 +2767,9 @@
       "name": "Venom",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -2945,10 +2925,9 @@
       "name": "Kabalite Warriors",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -3191,10 +3170,9 @@
       "name": "Haemonculus",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -3339,16 +3317,14 @@
       "name": "Hellions",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "75"
         },
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -3502,10 +3478,9 @@
       "name": "Drazhar",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [],
@@ -3610,10 +3585,9 @@
       "name": "Succubus",
       "points": [
         {
-          "cost": "45",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "45"
         }
       ],
       "rangedWeapons": [
@@ -3775,16 +3749,14 @@
       "name": "Incubi",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "85"
         },
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [],
@@ -3891,16 +3863,14 @@
       "name": "Grotesques",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -4010,16 +3980,14 @@
       "name": "Mandrakes",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "65"
         },
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [

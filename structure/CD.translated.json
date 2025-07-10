@@ -117,10 +117,9 @@
       "name": "Soul Grinder",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -330,10 +329,9 @@
       "name": "Daemon Prince of Chaos with Wings",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -611,10 +609,9 @@
       "name": "Rotigus",
       "points": [
         {
-          "cost": "250",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "250"
         }
       ],
       "rangedWeapons": [
@@ -739,10 +736,9 @@
       "name": "The Masque of Slaanesh",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [],
@@ -851,10 +847,9 @@
       "name": "Daemonettes",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [],
@@ -956,16 +951,14 @@
       "name": "Nurglings",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "40"
         },
         {
-          "cost": "40",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [],
@@ -1064,10 +1057,9 @@
       "name": "Bloodmaster",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [],
@@ -1176,10 +1168,9 @@
       "name": "Tranceweaver",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [],
@@ -1297,10 +1288,9 @@
       "name": "Burning Chariot",
       "points": [
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "115"
         }
       ],
       "rangedWeapons": [
@@ -1481,10 +1471,9 @@
       "name": "datasheets.Pink_Horrors.name",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -1662,10 +1651,9 @@
       "name": "Infernal Enrapturess",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -1811,10 +1799,9 @@
       "name": "Plaguebearers",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [],
@@ -1971,10 +1958,9 @@
       "name": "Keeper of Secrets",
       "points": [
         {
-          "cost": "290",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "290"
         }
       ],
       "rangedWeapons": [
@@ -2155,10 +2141,9 @@
       "name": "Shalaxi Helbane",
       "points": [
         {
-          "cost": "380",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "380"
         }
       ],
       "rangedWeapons": [
@@ -2339,16 +2324,14 @@
       "name": "Seekers",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [],
@@ -2468,10 +2451,9 @@
       "name": "Syll’Esske",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -2629,16 +2611,14 @@
       "name": "Screamers",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [],
@@ -2747,10 +2727,9 @@
       "name": "Bloodletters",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [],
@@ -2882,10 +2861,9 @@
       "name": "Lord of Change",
       "points": [
         {
-          "cost": "260",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "260"
         }
       ],
       "rangedWeapons": [
@@ -3038,10 +3016,9 @@
       "name": "Changecaster",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -3168,10 +3145,9 @@
       "name": "Feculent Gnarlmaw",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [],
@@ -3338,10 +3314,9 @@
       "name": "Great Unclean One",
       "points": [
         {
-          "cost": "250",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "250"
         }
       ],
       "rangedWeapons": [
@@ -3518,10 +3493,9 @@
       "name": "datasheets.Tormentbringer.name",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -3672,16 +3646,14 @@
       "name": "Bloodcrushers",
       "points": [
         {
-          "cost": "220",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "110"
         },
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "220"
         }
       ],
       "rangedWeapons": [],
@@ -3779,16 +3751,14 @@
       "name": "Fiends",
       "points": [
         {
-          "cost": "220",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "110"
         },
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "220"
         }
       ],
       "rangedWeapons": [],
@@ -3905,10 +3875,9 @@
       "name": "Skarbrand",
       "points": [
         {
-          "cost": "305",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "305"
         }
       ],
       "rangedWeapons": [
@@ -4077,10 +4046,9 @@
       "name": "Be’lakor",
       "points": [
         {
-          "cost": "375",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "375"
         }
       ],
       "rangedWeapons": [
@@ -4238,10 +4206,9 @@
       "name": "Horticulous Slimux",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [],
@@ -4367,10 +4334,9 @@
       "name": "Contorted Epitome",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [],
@@ -4477,10 +4443,9 @@
       "name": "Poxbringer",
       "points": [
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "55"
         }
       ],
       "rangedWeapons": [],
@@ -4609,10 +4574,9 @@
       "name": "Fateskimmer",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -4783,16 +4747,14 @@
       "name": "Hellflayers",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -4943,16 +4905,14 @@
       "name": "Plague Drones",
       "points": [
         {
-          "cost": "220",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "110"
         },
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -5117,10 +5077,9 @@
       "name": "Bloodthirster",
       "points": [
         {
-          "cost": "305",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "305"
         }
       ],
       "rangedWeapons": [
@@ -5281,10 +5240,9 @@
       "name": "Exalted Flamer",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -5443,10 +5401,9 @@
       "name": "Skullmaster",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [],
@@ -5554,10 +5511,9 @@
       "name": "Epidemius",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [],
@@ -5673,10 +5629,9 @@
       "name": "Karanak",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -5803,10 +5758,9 @@
       "name": "Spoilpox Scrivener",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -5935,10 +5889,9 @@
       "name": "Skulltaker",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [],
@@ -6060,10 +6013,9 @@
       "name": "Rendmaster on Blood Throne",
       "points": [
         {
-          "cost": "165",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "165"
         }
       ],
       "rangedWeapons": [],
@@ -6149,10 +6101,9 @@
       "name": "Skull Altar",
       "points": [
         {
-          "cost": "105",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "105"
         }
       ],
       "rangedWeapons": [],
@@ -6252,10 +6203,9 @@
       "name": "Sloppity Bilepiper",
       "points": [
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "55"
         }
       ],
       "rangedWeapons": [],
@@ -6371,10 +6321,9 @@
       "name": "Kairos Fateweaver",
       "points": [
         {
-          "cost": "270",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "270"
         }
       ],
       "rangedWeapons": [
@@ -6533,10 +6482,9 @@
       "name": "datasheets.Blue_Horrors.name",
       "points": [
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "125"
         }
       ],
       "rangedWeapons": [
@@ -6682,10 +6630,9 @@
       "name": "The Blue Scribes",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [],
@@ -6789,10 +6736,9 @@
       "name": "The Changeling",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -6932,10 +6878,9 @@
       "name": "Fluxmaster",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -7069,16 +7014,14 @@
       "name": "Flamers",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "65"
         },
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -7197,16 +7140,14 @@
       "name": "Beasts of Nurgle",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         },
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [],
@@ -7314,16 +7255,14 @@
       "name": "Flesh Hounds",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "75"
         },
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -7455,10 +7394,9 @@
       "name": "Skull Cannon",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [

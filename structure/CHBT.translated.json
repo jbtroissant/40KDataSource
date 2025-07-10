@@ -73,10 +73,9 @@
       "name": "datasheets.Black_Templars_Gladiator_Reaper.name",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -279,10 +278,9 @@
       "name": "High Marshal Helbrecht",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -402,10 +400,9 @@
       "name": "datasheets.Black_Templars_Repulsor_Executioner.name",
       "points": [
         {
-          "cost": "230",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "230"
         }
       ],
       "rangedWeapons": [
@@ -699,10 +696,9 @@
       "name": "Castellan",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -917,16 +913,14 @@
       "name": "Primaris Sword Brethren",
       "points": [
         {
-          "cost": "270",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "140"
         },
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "270"
         }
       ],
       "rangedWeapons": [
@@ -1778,10 +1772,9 @@
       "name": "datasheets.Black_Templars_Gladiator_Lancer.name",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -2689,10 +2682,9 @@
       "name": "The Emperor’s Champion",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -2811,10 +2803,9 @@
       "name": "datasheets.Black_Templars_Gladiator_Valiant.name",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -2992,10 +2983,9 @@
       "name": "datasheets.Black_Templars_Impulsor.name",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -3272,10 +3262,9 @@
       "name": "Chaplain Grimaldus",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "4",
-          "active": true
+          "name": "model",
+          "model": "4",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [

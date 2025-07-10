@@ -11,7 +11,9 @@
       "type": "Battle Tactic",
       "detachment": "core",
       "turn": "either",
-      "phase": ["any"],
+      "phase": [
+        "any"
+      ],
       "fluff": "A great commander can bend even the vagaries of fate and fortune to their will, the better to ensure victory",
       "when": "Any phase, just after you make an Advance roll, a Charge roll, a Desperate Escape test or a Hazardous test for a unit from your army, or a Hit roll, a Wound roll, a Damage roll or a saving throw for a model in that unit, or a roll to determine the number of attacks made with a weapon equipped by a model in that unit. If you are using fast dice rolling (pg 24), this Stratagem can still be used after rolling multiple rolls or saving throws at once.",
       "target": "That unit or model from your army.",
@@ -25,7 +27,9 @@
       "type": "Strategic Ploy",
       "detachment": "core",
       "turn": "either",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "fluff": "In close-quarters combat, the slightest hesitation can leave an opening for a swift foe to exploit.",
       "when": "Fight phase, just after an enemy unit has fought.",
       "target": "One unit from your army that is within Engagement Range of one or more enemy units and that has not already been selected to fight this phase.",
@@ -39,7 +43,9 @@
       "type": "Epic Deed",
       "detachment": "core",
       "turn": "either",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "fluff": "The legends of the 41st Millennium are replete with\ndeadly duels between mighty champions.",
       "when": "Fight phase, when a Character unit from your army that is within Engagement Range of one or more Attached units is selected to fight.",
       "target": "One Character model in your unit.",
@@ -53,7 +59,9 @@
       "type": "Battle Tactic",
       "detachment": "core",
       "turn": "your",
-      "phase": ["command"],
+      "phase": [
+        "command"
+      ],
       "fluff": "Indifferent to their own survival, these warriors hold \ntheir ground against seemingly impossible odds.",
       "when": "Battle-shock step of your Command phase, just before you take a Battle-shock test taken for a unit from your army.",
       "target": "That unit from your army.",
@@ -67,7 +75,9 @@
       "type": "Wargear",
       "detachment": "core",
       "turn": "your",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "fluff": "Priming their hand-held projectiles, these warriors\ndraw back and hurl death into the enemy’s midst.",
       "when": "Your Shooting phase.",
       "target": "One Grenades unit from your army (excluding units that Advanced, Fell Back or have shot this turn) that is not within Engagement Range of one or more enemy units",
@@ -81,7 +91,9 @@
       "type": "Strategic Ploy",
       "detachment": "core",
       "turn": "your",
-      "phase": ["charge"],
+      "phase": [
+        "charge"
+      ],
       "fluff": "Ramming the foe with a speeding vehicle may be an\nunsubtle tactic, but it is a murderously effective one.",
       "when": " Your Charge phase, just after a Vehicle unit from your army ends a Charge move.",
       "target": "That Vehicle unit",
@@ -95,7 +107,9 @@
       "type": "Strategic Ploy",
       "detachment": "core",
       "turn": "opponents",
-      "phase": ["movement"],
+      "phase": [
+        "movement"
+      ],
       "fluff": "Be it cunning strategy, potent technology or\nsupernatural ritual, there are many means by which a\ncommander may hasten their warriors’ onset.",
       "when": "End of your opponent’s Movement phase.",
       "target": "One unit from your army that is in Reserves.",
@@ -109,7 +123,10 @@
       "type": "Strategic Ploy",
       "detachment": "core",
       "turn": "opponents",
-      "phase": ["movement", "charge"],
+      "phase": [
+        "movement",
+        "charge"
+      ],
       "fluff": "A hail of wildfire can drive back advancing foes.",
       "when": "Your opponent’s Movement or Charge phase, just after an enemy unit is set up or when an enemy unit starts or ends a Normal, Advance, Fall Back or Charge move. ",
       "target": "One unit from your army that is within 24\" of that enemy unit and that would be eligible to shoot if it were your Shooting phase.",
@@ -123,7 +140,9 @@
       "type": "Battle Tactic",
       "detachment": "core",
       "turn": "opponents",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "fluff": "Seeking salvation from incoming fire, warriors hurl\nthemselves into whatever cover they can find.",
       "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
       "target": "One Infantry unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
@@ -137,7 +156,9 @@
       "type": "Wargear",
       "detachment": "core",
       "turn": "opponents",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "fluff": "Even the most skilled marksmen struggle to hit targets\nveiled by billowing screens of smoke.",
       "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
       "target": "One Smoke unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
@@ -151,7 +172,9 @@
       "type": "Strategic Ploy",
       "detachment": "core",
       "turn": "opponents",
-      "phase": ["charge"],
+      "phase": [
+        "charge"
+      ],
       "fluff": "Voices raised in furious war cries, your warriors surge\nforth to meet the enemy’s onslaught head-on.",
       "when": "Your opponent’s Charge phase, just after an enemy unit ends a Charge move.",
       "target": "One unit from your army that is within 6\" of that enemy unit and would be eligible to declare a charge against that enemy unit if it were your Charge phase.",

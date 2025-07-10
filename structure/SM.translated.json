@@ -151,10 +151,9 @@
       "name": "datasheets.Captain_in_Gravis_Armour.name",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -341,16 +340,14 @@
       "name": "Assault Intercessor Squad",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "80"
         },
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -543,16 +540,14 @@
       "name": "Inceptor Squad",
       "points": [
         {
-          "cost": "240",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "120"
         },
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "240"
         }
       ],
       "rangedWeapons": [
@@ -700,10 +695,9 @@
       "name": "Storm Speeder Hailstrike",
       "points": [
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "115"
         }
       ],
       "rangedWeapons": [
@@ -880,10 +874,9 @@
       "name": "Techmarine",
       "points": [
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "55"
         }
       ],
       "rangedWeapons": [
@@ -1041,10 +1034,9 @@
       "name": "Kayvaan Shrike",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -1161,16 +1153,14 @@
       "name": "Eradicator Squad",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "100"
         },
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -1334,10 +1324,9 @@
       "name": "datasheets.Assault_Intercessor_Squad.leadBy.3",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -1467,10 +1456,9 @@
       "name": "Librarian",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -1640,10 +1628,9 @@
       "name": "Vulkan He’stan",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -1798,10 +1785,9 @@
       "name": "Kor’sarro Khan",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -1938,10 +1924,9 @@
       "name": "Dreadnought",
       "points": [
         {
-          "cost": "135",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "210"
         }
       ],
       "rangedWeapons": [
@@ -2184,10 +2169,9 @@
       "name": "Predator Destructor",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -2375,16 +2359,14 @@
       "name": "Bladeguard Veteran Squad",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -2561,16 +2543,14 @@
       "name": "Firestrike Servo-turrets",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         },
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -2711,10 +2691,9 @@
       "name": "Impulsor",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -2922,10 +2901,9 @@
       "name": "Storm Speeder Hammerstrike",
       "points": [
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "125"
         }
       ],
       "rangedWeapons": [
@@ -3075,10 +3053,9 @@
       "name": "Judiciar",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -3198,10 +3175,9 @@
       "name": "Gladiator Lancer",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -3417,10 +3393,9 @@
       "name": "Marneus Calgar",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -3582,10 +3557,9 @@
       "name": "datasheets.Captain_in_Terminator_Armour.name",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -3733,10 +3707,9 @@
       "name": "Uriel Ventris",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -4258,10 +4231,9 @@
       "name": "Storm Speeder Thunderstrike",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -4403,10 +4375,9 @@
       "name": "Repulsor",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -4606,10 +4577,9 @@
       "name": "Hammerfall Bunker",
       "points": [
         {
-          "cost": "175",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "175"
         }
       ],
       "rangedWeapons": [
@@ -4771,10 +4741,9 @@
       "name": "Suppressor Squad",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -5154,16 +5123,14 @@
       "name": "Devastator Squad",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "120"
         },
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -6141,16 +6108,14 @@
       "name": "Hellblaster Squad",
       "points": [
         {
-          "cost": "220",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "110"
         },
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -6337,16 +6302,14 @@
       "name": "Heavy Intercessor Squad",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "100"
         },
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -6535,16 +6498,14 @@
       "name": "Scout Squad",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "70"
         },
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -6771,10 +6732,9 @@
       "name": "Tor Garadon",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -6899,10 +6859,9 @@
       "name": "datasheets.Eradicator_Squad.leadBy.3",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -7538,10 +7497,9 @@
       "name": "Land Raider",
       "points": [
         {
-          "cost": "240",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "285"
         }
       ],
       "rangedWeapons": [
@@ -7777,10 +7735,9 @@
       "name": "Lieutenant",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -7991,10 +7948,9 @@
       "name": "Stormtalon Gunship",
       "points": [
         {
-          "cost": "165",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "165"
         }
       ],
       "rangedWeapons": [
@@ -8190,10 +8146,9 @@
       "name": "Razorback",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -8375,10 +8330,9 @@
       "name": "Eliminator Squad",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -8562,28 +8516,18 @@
       "name": "Outrider Squad",
       "points": [
         {
-          "cost": "220",
-          "keyword": null,
-          "models": "7",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "80"
         },
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "160"
         },
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "4",
-          "active": true
-        },
-        {
-          "cost": "80",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "cost_name": "Invader ATV",
+          "cost": "+60"
         }
       ],
       "rangedWeapons": [
@@ -8780,10 +8724,9 @@
       "name": "Desolation Squad",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -8989,16 +8932,14 @@
       "name": "Centurion Assault Squad",
       "points": [
         {
-          "cost": "300",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "150"
         },
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "300"
         }
       ],
       "rangedWeapons": [
@@ -9147,10 +9088,9 @@
       "name": "Vindicator",
       "points": [
         {
-          "cost": "185",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "185"
         }
       ],
       "rangedWeapons": [
@@ -9387,10 +9327,9 @@
       "name": "Tactical Squad",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -9857,10 +9796,9 @@
       "name": "Whirlwind",
       "points": [
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "190"
         }
       ],
       "rangedWeapons": [
@@ -9998,10 +9936,9 @@
       "name": "Drop Pod",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -10391,10 +10328,9 @@
       "name": "Ancient",
       "points": [
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "45"
         }
       ],
       "rangedWeapons": [
@@ -10558,10 +10494,9 @@
       "name": "Pedro Kantor",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -10695,10 +10630,9 @@
       "name": "datasheets.Chaplain_in_Terminator_Armour.name",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -10961,16 +10895,14 @@
       "name": "Incursor Squad",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -11138,16 +11070,14 @@
       "name": "Assault Intercessors with Jump Packs",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "90"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -11457,10 +11387,9 @@
       "name": "Darnath Lysander",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [],
@@ -11574,16 +11503,14 @@
       "name": "Vanguard Veteran Squad with Jump Packs",
       "points": [
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "95"
         },
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "190"
         }
       ],
       "rangedWeapons": [
@@ -11819,10 +11746,9 @@
       "name": "Company Heroes",
       "points": [
         {
-          "cost": "105",
-          "keyword": null,
-          "models": "4",
-          "active": true
+          "name": "model",
+          "model": "4",
+          "cost": "105"
         }
       ],
       "rangedWeapons": [
@@ -12063,10 +11989,9 @@
       "name": "Roboute Guilliman",
       "points": [
         {
-          "cost": "320",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "320"
         }
       ],
       "rangedWeapons": [
@@ -12176,16 +12101,14 @@
       "name": "Aggressor Squad",
       "points": [
         {
-          "cost": "220",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "100"
         },
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -12340,10 +12263,9 @@
       "name": "Stormhawk Interceptor",
       "points": [
         {
-          "cost": "155",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "155"
         }
       ],
       "rangedWeapons": [
@@ -12600,10 +12522,9 @@
       "name": "Captain",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -13032,10 +12953,9 @@
       "name": "Predator Annihilator",
       "points": [
         {
-          "cost": "135",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "135"
         }
       ],
       "rangedWeapons": [
@@ -13230,10 +13150,9 @@
       "name": "datasheets.Outrider_Squad.leadBy.1",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -13369,10 +13288,9 @@
       "name": "Stormraven Gunship",
       "points": [
         {
-          "cost": "280",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "280"
         }
       ],
       "rangedWeapons": [
@@ -13808,16 +13726,14 @@
       "name": "Terminator Assault Squad",
       "points": [
         {
-          "cost": "360",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "180"
         },
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "360"
         }
       ],
       "rangedWeapons": [],
@@ -13957,10 +13873,9 @@
       "name": "Iron Father Feirros",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -14269,10 +14184,9 @@
       "name": "datasheets.Assault_Intercessors_with_Jump_Packs.leadBy.3",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -14852,10 +14766,9 @@
       "name": "Astraeus",
       "points": [
         {
-          "cost": "525",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "525"
         }
       ],
       "rangedWeapons": [
@@ -15543,10 +15456,9 @@
       "name": "Thunderhawk Gunship",
       "points": [
         {
-          "cost": "840",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "840"
         }
       ],
       "rangedWeapons": [
@@ -16100,10 +16012,9 @@
       "name": "Rhino",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -16235,10 +16146,9 @@
       "name": "Invader ATV",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -16416,16 +16326,14 @@
       "name": "Infiltrator Squad",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "100"
         },
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -16716,16 +16624,14 @@
       "name": "Infernus Squad",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "90"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -16921,16 +16827,14 @@
       "name": "Sternguard Veteran Squad",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "100"
         },
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -17709,16 +17613,14 @@
       "name": "Reiver Squad",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -17988,10 +17890,9 @@
       "name": "Invictor Tactical Warsuit",
       "points": [
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "125"
         }
       ],
       "rangedWeapons": [

@@ -89,10 +89,9 @@
       "name": "Archaeopter Stratoraptor",
       "points": [
         {
-          "cost": "185",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "185"
         }
       ],
       "rangedWeapons": [
@@ -253,10 +252,9 @@
       "name": "Onager Dunecrawler",
       "points": [
         {
-          "cost": "155",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "155"
         }
       ],
       "rangedWeapons": [
@@ -474,16 +472,14 @@
       "name": "datasheets.Kataphron_Destroyers.name",
       "points": [
         {
-          "cost": "210",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "105"
         },
         {
-          "cost": "105",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "210"
         }
       ],
       "rangedWeapons": [
@@ -666,10 +662,9 @@
       "name": "Cybernetica Datasmith",
       "points": [
         {
-          "cost": "35",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "35"
         }
       ],
       "rangedWeapons": [
@@ -793,22 +788,19 @@
       "name": "Ironstrider Ballistarii",
       "points": [
         {
-          "cost": "210",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         },
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "140"
         },
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "210"
         }
       ],
       "rangedWeapons": [
@@ -943,10 +935,9 @@
       "name": "datasheets.Kataphron_Destroyers.leadBy.0",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -1095,22 +1086,19 @@
       "name": "datasheets.Sydonian_Dragoons_with_Radium_Jezzails.name",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "55"
         },
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "100"
         },
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -1323,10 +1311,9 @@
       "name": "Belisarius Cawl",
       "points": [
         {
-          "cost": "135",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "135"
         }
       ],
       "rangedWeapons": [
@@ -1439,16 +1426,14 @@
       "name": "datasheets.Fulgurite_Electro_Priests.name",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "70"
         },
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [],
@@ -1551,10 +1536,9 @@
       "name": "Skorpius Disintegrator",
       "points": [
         {
-          "cost": "165",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "165"
         }
       ],
       "rangedWeapons": [
@@ -1732,10 +1716,9 @@
       "name": "datasheets.Sydonian_Skatros.name",
       "points": [
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "50"
         }
       ],
       "rangedWeapons": [
@@ -1913,16 +1896,14 @@
       "name": "datasheets.Sicarian_Infiltrators.name",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "70"
         },
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -2067,10 +2048,9 @@
       "name": "Archaeopter Transvector",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -2209,10 +2189,9 @@
       "name": "datasheets.Skitarii_Vanguard.name",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -2428,10 +2407,9 @@
       "name": "datasheets.Kataphron_Destroyers.leadBy.1",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -2639,16 +2617,14 @@
       "name": "datasheets.Pteraxii_Skystalkers.name",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "70"
         },
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -2790,16 +2766,14 @@
       "name": "datasheets.Kataphron_Breachers.name",
       "points": [
         {
-          "cost": "320",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "160"
         },
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "320"
         }
       ],
       "rangedWeapons": [
@@ -2979,16 +2953,14 @@
       "name": "datasheets.Sicarian_Ruststalkers.name",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "75"
         },
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [],
@@ -3090,10 +3062,9 @@
       "name": "Technoarcheologist",
       "points": [
         {
-          "cost": "45",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "45"
         }
       ],
       "rangedWeapons": [
@@ -3217,16 +3188,14 @@
       "name": "datasheets.Corpuscarii_Electro_Priests.name",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "65"
         },
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -3350,16 +3319,14 @@
       "name": "Serberys Raiders",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "60"
         },
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -3501,22 +3468,19 @@
       "name": "datasheets.Sydonian_Dragoons_with_Taser_Lances.name",
       "points": [
         {
-          "cost": "195",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         },
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "130"
         },
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "195"
         }
       ],
       "rangedWeapons": [
@@ -3645,16 +3609,14 @@
       "name": "Serberys Sulphurhounds",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "55"
         },
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -3854,10 +3816,9 @@
       "name": "datasheets.Kataphron_Destroyers.leadBy.3",
       "points": [
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "55"
         }
       ],
       "rangedWeapons": [
@@ -3985,10 +3946,9 @@
       "name": "datasheets.Skitarii_Vanguard.leadBy.4",
       "points": [
         {
-          "cost": "35",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "35"
         }
       ],
       "rangedWeapons": [
@@ -4115,10 +4075,9 @@
       "name": "Skorpius Dunerider",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -4267,16 +4226,14 @@
       "name": "Kastelan Robots",
       "points": [
         {
-          "cost": "360",
-          "keyword": null,
-          "models": "4",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "180"
         },
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "4",
+          "cost": "360"
         }
       ],
       "rangedWeapons": [
@@ -4467,16 +4424,14 @@
       "name": "datasheets.Pteraxii_Sterylizors.name",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -4620,10 +4575,9 @@
       "name": "Archaeopter Fusilave",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -4764,10 +4718,9 @@
       "name": "datasheets.Skitarii_Rangers.name",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [

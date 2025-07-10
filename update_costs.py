@@ -18,7 +18,7 @@ def get_faction_id_from_filename(filename):
         "bloodangels.json": "CHBA",
         "chaos_spacemarines.json": "CSM",
         "chaosdaemons.json": "CD",
-        "chaosknights.json": "CHKN",
+        "chaosknights.json": "QT",
         "darkangels.json": "CHDA",
         "deathguard.json": "DG",
         "Deathwatch.json": "CHDW",

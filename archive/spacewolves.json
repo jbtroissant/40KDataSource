@@ -7,14 +7,18 @@
   "datasheets": [
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -48,8 +52,12 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Wolf Guard Pack Leader"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Wolf Guard Pack Leader"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Wolf Guard of proven leadership ability and bellicose charisma may be assigned to lead packs of battle-brothers. These warriors’ extensive battlefield wisdom and saga-worthy combat prowess are inspirational to the Space Wolves under their charge, and fighting alongside them is seen as a great honour.",
       "id": "06183523-025f-5f5c-95c6-dd748b948f91",
@@ -136,7 +144,9 @@
               "ap": "-2",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Thunder hammer",
               "range": "Melee",
               "skill": "4+",
@@ -152,7 +162,9 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin lightning claws",
               "range": "Melee",
               "skill": "3+",
@@ -179,7 +191,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -231,7 +245,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Plasma pistol – Standard",
               "range": "12\"",
               "skill": "3+",
@@ -242,7 +258,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Pistol", "Hazardous"],
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
               "name": "Plasma pistol – Supercharge",
               "range": "12\"",
               "skill": "3+",
@@ -258,7 +277,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "3+",
@@ -288,7 +309,11 @@
         "This model’s bolt pistol and boltgun can be replaced with two different weapons from the following list: ◦ 1 bolt pistol ◦ 1 boltgun ◦ 1 combi-weapon ◦ 1 plasma pistol ◦ 1 storm bolter ◦ 1 Astartes chainsword ◦ 1 power fist ◦ 1 power weapon ◦ 1 thunder hammer ◦ 1 storm shield   This model can only be equipped with two ranged weapons if one of them is a Pistol (and it can only have one Pistol)."
       ],
       "leads": {
-        "units": ["BLOOD CLAWS", "GREY HUNTERS", "LONG FANGS"],
+        "units": [
+          "BLOOD CLAWS",
+          "GREY HUNTERS",
+          "LONG FANGS"
+        ],
         "extra": "You must attach this model to one of the above units, and can do so even if one or more CHARACTER units have already been attached to that unit, but a unit can never include more than one PACK LEADER model. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths. If it is not possible to attach this model to a unit, it does not take part in the battle and counts as having been destroyed."
       }
     },
@@ -301,7 +326,9 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -339,11 +366,18 @@
         "1 Thunderwolf Cavalry Pack Leader",
         "2-5 Thunderwolf Cavalry"
       ],
-      "factions": ["Space Wolves"],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Thunderwolves are monstrous and solitary alpha predators, and only the most dauntless elite within the Wolf Guard have the dominance to ride them to war. When they charge, crushing jaws tear through armoured plates, flesh and bone with feral butchery, while the Thunderwolves’ riders hack down the foe with heroic ferocity.",
       "id": "5d78ad6a-0eaa-5cb9-877f-76b039ebac0a",
-      "keywords": ["Mounted", "Grenades", "Imperium", "Thunderwolf Cavalry"],
+      "keywords": [
+        "Mounted",
+        "Grenades",
+        "Imperium",
+        "Thunderwolf Cavalry"
+      ],
       "leader": "",
       "loadout": "Every model is equipped with: bolt pistol; crushing teeth and claws; heirloom weapon.",
       "meleeWeapons": [
@@ -355,7 +389,9 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Extra Attacks"],
+              "keywords": [
+                "Extra Attacks"
+              ],
               "name": "Crushing teeth and claws",
               "range": "Melee",
               "skill": "4+",
@@ -383,16 +419,14 @@
       "name": "Thunderwolf Cavalry",
       "points": [
         {
-          "cost": "240",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "100"
         },
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -404,7 +438,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -436,7 +472,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Plasma pistol – Standard",
               "range": "12\"",
               "skill": "3+",
@@ -447,7 +485,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Pistol", "Hazardous"],
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
               "name": "Plasma pistol – Supercharge",
               "range": "12\"",
               "skill": "3+",
@@ -485,14 +526,19 @@
     },
     {
       "abilities": {
-        "core": ["Deep Strike", "Leader"],
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -519,8 +565,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Arjac Rockfist – EPIC HERO"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Arjac Rockfist – EPIC HERO"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Arjac Rockfist is a towering mass of muscle and a taciturn anvil of endurance. Wielding the enormous Foehammer – recalling his former role as an Iron Priest of the forge – Arjac crushes his foes with pulverising strength. As personal champion of the Great Wolf, Arjac upholds the honour of the Chapter.",
       "id": "cede527d-411f-53f3-b0cd-f0770b1937c6",
@@ -543,7 +593,9 @@
               "ap": "-2",
               "attacks": "5",
               "damage": "3",
-              "keywords": ["Anti-monster 2+"],
+              "keywords": [
+                "Anti-monster 2+"
+              ],
               "name": "Foehammer – Melee",
               "range": "Melee",
               "skill": "2+",
@@ -555,10 +607,9 @@
       "name": "Arjac Rockfist",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -570,7 +621,10 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "3",
-              "keywords": ["Assault", "Anti-monster 2+"],
+              "keywords": [
+                "Assault",
+                "Anti-monster 2+"
+              ],
               "name": "Foehammer – Ranged",
               "range": "6\"",
               "skill": "2+",
@@ -595,7 +649,9 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
         "units": [
           "RELIC TERMINATOR SQUAD",
@@ -608,14 +664,19 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise 1", "Feel No Pain 5+"],
+        "core": [
+          "Deadly Demise 1",
+          "Feel No Pain 5+"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -642,8 +703,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Bjorn the Fell-Handed– EPIC HERO"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Bjorn the Fell-Handed– EPIC HERO"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Most ancient of all Space Marines and last of the Company of Russ, Bjorn the Fell-Handed has fought for millennia within a Dreadnought’s sarcophagus. The Space Wolves revere Bjorn as a living link to their deepest past, waking him only in times of dire need, and he still fights as furiously as he did at Russ’ side.",
       "id": "edd355c2-4e85-5611-823c-cb639b3b193e",
@@ -668,7 +733,9 @@
               "ap": "-2",
               "attacks": "6",
               "damage": "3",
-              "keywords": ["Lethal Hits"],
+              "keywords": [
+                "Lethal Hits"
+              ],
               "name": "Trueclaw",
               "range": "Melee",
               "skill": "2+",
@@ -680,10 +747,9 @@
       "name": "Bjorn the Fell-Handed",
       "points": [
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -695,7 +761,9 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Assault cannon",
               "range": "24\"",
               "skill": "2+",
@@ -711,7 +779,10 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Heavy flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -727,7 +798,9 @@
               "ap": "-2",
               "attacks": "D3",
               "damage": "2",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Heavy plasma cannon – Standard",
               "range": "36\"",
               "skill": "2+",
@@ -738,7 +811,10 @@
               "ap": "-3",
               "attacks": "D3",
               "damage": "3",
-              "keywords": ["Hazardous", "Blast"],
+              "keywords": [
+                "Hazardous",
+                "Blast"
+              ],
               "name": "Heavy plasma cannon – Supercharge",
               "range": "36\"",
               "skill": "2+",
@@ -754,7 +830,9 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "2",
-              "keywords": ["Torrent"],
+              "keywords": [
+                "Torrent"
+              ],
               "name": "Helfrost cannon – Dispersed",
               "range": "12\"",
               "skill": "N/A",
@@ -781,7 +859,9 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": ["Melta 2"],
+              "keywords": [
+                "Melta 2"
+              ],
               "name": "Multi-melta",
               "range": "18\"",
               "skill": "2+",
@@ -797,7 +877,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin lascannon",
               "range": "48\"",
               "skill": "2+",
@@ -828,14 +910,18 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise 1"],
+        "core": [
+          "Deadly Demise 1"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -863,8 +949,12 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Space Wolves Venerable Dreadnought"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Space Wolves Venerable Dreadnought"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Venerable Dreadnoughts are priceless relics steeped in centuries of battle. The ancient warriors at the heart of each are living legends of the Space Wolves, with wisdom as deep as the ocean and intuition as sharp as krakens’ teeth. Awoken from dormancy, they fight as lords of battle, seemingly stepping from the sagas to kill in the name of Russ.",
       "id": "438ff307-e29d-508c-9f00-2d1f9cc3c397",
@@ -941,10 +1031,9 @@
       "name": "Space Wolves Venerable Dreadnought",
       "points": [
         {
-          "cost": "155",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -956,7 +1045,9 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Assault Cannon",
               "range": "24\"",
               "skill": "3+",
@@ -972,7 +1063,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "3+",
@@ -988,7 +1081,9 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "2",
-              "keywords": ["Torrent"],
+              "keywords": [
+                "Torrent"
+              ],
               "name": "Helfrost cannon – Dispersed",
               "range": "12\"",
               "skill": "N/A",
@@ -1015,7 +1110,9 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": ["Melta 2"],
+              "keywords": [
+                "Melta 2"
+              ],
               "name": "Multi-melta",
               "range": "18\"",
               "skill": "3+",
@@ -1031,7 +1128,9 @@
               "ap": "-2",
               "attacks": "D3",
               "damage": "2",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Plasma cannon – Standard",
               "range": "36\"",
               "skill": "3+",
@@ -1042,7 +1141,10 @@
               "ap": "-3",
               "attacks": "D3",
               "damage": "3",
-              "keywords": ["Hazardous", "Blast"],
+              "keywords": [
+                "Hazardous",
+                "Blast"
+              ],
               "name": "Plasma cannon – Supercharge",
               "range": "36\"",
               "skill": "3+",
@@ -1058,7 +1160,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin lascannon",
               "range": "48\"",
               "skill": "3+",
@@ -1085,7 +1189,9 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Missile launcher – Frag",
               "range": "48\"",
               "skill": "3+",
@@ -1101,7 +1207,10 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Heavy flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -1134,14 +1243,19 @@
     },
     {
       "abilities": {
-        "core": ["Infiltrators", "Scouts 6\""],
+        "core": [
+          "Infiltrators",
+          "Scouts 6\""
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1162,8 +1276,13 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Wolf Scout Pack Leader", "4-9 Wolf Scouts"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Wolf Scout Pack Leader",
+        "4-9 Wolf Scouts"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Wolf Scouts are brooding stalkers and taciturn killers, at ease prowling behind enemy lines or at a battle’s edges. Commonly experienced battle-brothers rather than neophytes, Wolf Scouts employ patience and guile in their roles as reconnaissance experts and forward hunters, sniffing out isolated foes and falling upon them with fury.",
       "id": "c086546e-a615-5212-be4a-d91d1f6a1b70",
@@ -1250,7 +1369,9 @@
               "ap": "-2",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Thunder hammer",
               "range": "Melee",
               "skill": "4+",
@@ -1266,7 +1387,9 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin lightning claws",
               "range": "Melee",
               "skill": "3+",
@@ -1315,7 +1438,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -1347,7 +1472,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Assault"],
+              "keywords": [
+                "Assault"
+              ],
               "name": "Astartes shotgun",
               "range": "18\"",
               "skill": "3+",
@@ -1383,7 +1510,10 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Pistol", "Anti-vehicle 2+"],
+              "keywords": [
+                "Pistol",
+                "Anti-vehicle 2+"
+              ],
               "name": "Grav-pistol",
               "range": "18\"",
               "skill": "3+",
@@ -1399,7 +1529,11 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Pistol", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Pistol",
+                "Ignores Cover"
+              ],
               "name": "Hand flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -1415,7 +1549,10 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D3",
-              "keywords": ["Pistol", "Melta 2"],
+              "keywords": [
+                "Pistol",
+                "Melta 2"
+              ],
               "name": "Inferno pistol",
               "range": "6\"",
               "skill": "3+",
@@ -1431,7 +1568,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Plasma pistol – Standard",
               "range": "12\"",
               "skill": "3+",
@@ -1442,7 +1581,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Pistol", "Hazardous"],
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
               "name": "Plasma pistol – Supercharge",
               "range": "12\"",
               "skill": "3+",
@@ -1458,7 +1600,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "4+",
@@ -1474,7 +1618,10 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -1490,7 +1637,9 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Anti-vehicle 2+"],
+              "keywords": [
+                "Anti-vehicle 2+"
+              ],
               "name": "Grav-gun",
               "range": "18\"",
               "skill": "3+",
@@ -1506,7 +1655,10 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Sustained Hits 1", "Heavy"],
+              "keywords": [
+                "Sustained Hits 1",
+                "Heavy"
+              ],
               "name": "Heavy bolter",
               "range": "36\"",
               "skill": "4+",
@@ -1522,7 +1674,9 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["Melta 2"],
+              "keywords": [
+                "Melta 2"
+              ],
               "name": "Meltagun",
               "range": "12\"",
               "skill": "3+",
@@ -1538,7 +1692,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["Heavy"],
+              "keywords": [
+                "Heavy"
+              ],
               "name": "Missile launcher – Krak",
               "range": "48\"",
               "skill": "4+",
@@ -1549,7 +1705,10 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Heavy", "Blast"],
+              "keywords": [
+                "Heavy",
+                "Blast"
+              ],
               "name": "Missile launcher – Frag",
               "range": "48\"",
               "skill": "4+",
@@ -1565,7 +1724,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Rapid Fire 1"],
+              "keywords": [
+                "Rapid Fire 1"
+              ],
               "name": "Plasma gun – Standard",
               "range": "24\"",
               "skill": "3+",
@@ -1576,7 +1737,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Rapid Fire 1", "Hazardous"],
+              "keywords": [
+                "Rapid Fire 1",
+                "Hazardous"
+              ],
               "name": "Plasma gun – Supercharge",
               "range": "24\"",
               "skill": "3+",
@@ -1610,14 +1774,18 @@
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1651,8 +1819,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Lukas the Trickster – EPIC HERO"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Lukas the Trickster – EPIC HERO"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "A legend amongst impulsive warriors, Lukas – called the Trickster by his many detractors – is synonymous with the irreverence and spirit of youth. His inventive sabotages and murderous jests rank him as one of the most cunning in the Chapter. A dirty fighter, rebel and rogue, Lukas’ skills are as deadly as they are mischievous.",
       "id": "9dc673ac-d16d-515e-a888-d9aa6a138542",
@@ -1702,7 +1874,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Plasma pistol – Standard",
               "range": "12\"",
               "skill": "3+",
@@ -1713,7 +1887,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Pistol", "Hazardous"],
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
               "name": "Plasma pistol – Supercharge",
               "range": "12\"",
               "skill": "3+",
@@ -1738,22 +1915,31 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
-        "units": ["BLOOD CLAWS"],
+        "units": [
+          "BLOOD CLAWS"
+        ],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": ["Feel No Pain 6+", "Leader"],
+        "core": [
+          "Feel No Pain 6+",
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1780,8 +1966,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Ulrik the Slayer – EPIC HERO"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Ulrik the Slayer – EPIC HERO"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "A paragon of wisdom and experience, Ulrik the Slayer has mentored many of the Space Wolves’ greatest champions. He is the Wolf High Priest, inspiring all who fight alongside him with his aggression and martial prowess. Turning his fearsome gaze upon mighty foes, Ulrik swears weighty oaths to cut them down.",
       "id": "2ffa5346-6ffc-517d-9767-1fdbe0f895c2",
@@ -1816,10 +2006,9 @@
       "name": "Ulrik the Slayer",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -1831,7 +2020,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Plasma pistol – Standard",
               "range": "12\"",
               "skill": "2+",
@@ -1842,7 +2033,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Pistol", "Hazardous"],
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
               "name": "Plasma pistol – Supercharge",
               "range": "12\"",
               "skill": "2+",
@@ -1867,22 +2061,33 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
-        "units": ["BLOOD CLAWS", "GREY HUNTERS", "LONG FANGS", "WOLF GUARD"],
+        "units": [
+          "BLOOD CLAWS",
+          "GREY HUNTERS",
+          "LONG FANGS",
+          "WOLF GUARD"
+        ],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1916,12 +2121,21 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Cyberwolf"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Cyberwolf"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "If critically injured, the largest and most ferocious Fenrisian Wolves are rebuilt, mechanically augmented by the Chapter’s Iron Priests. These Cyberwolves may return to their old pack, to lead their kin and hunt with bionically enhanced muscles and steel fangs. Exhibiting such strength, flesh-and-blood wolves instinctively follow them.",
       "id": "e0803be6-0ad7-53cb-bcea-d4acbb965234",
-      "keywords": ["Beast", "Character", "Imperium", "Cyberwolf"],
+      "keywords": [
+        "Beast",
+        "Character",
+        "Imperium",
+        "Cyberwolf"
+      ],
       "leader": "This model can be attached to the following unit: ■ FENRISIAN WOLVES You must attach this model to the above unit, even if CANIS WOLFBORN has been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths. If it is not possible to attach this model to a unit, it does not take part in the battle and counts as having been destroyed.",
       "loadout": "This model is equipped with: teeth and claws.",
       "meleeWeapons": [
@@ -1968,22 +2182,30 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
-        "units": ["FENRISIAN WOLVES"],
+        "units": [
+          "FENRISIAN WOLVES"
+        ],
         "extra": "You must attach this model to the above unit, even if CANIS WOLFBORN has been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths. If it is not possible to attach this model to a unit, it does not take part in the battle and counts as having been destroyed."
       }
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2010,8 +2232,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Ragnar Blackmane – EPIC HERO"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Ragnar Blackmane – EPIC HERO"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Supremely confident and eager always to be first into the fray, Wolf Lord Ragnar Blackmane regularly leads his Great Company in devastating planetary invasions. No longer as headstrong as in his youth, Ragnar’s berserk rages are still furious hurricanes of violence, and his terrifying howls freeze the blood of his foes.",
       "id": "f7c221df-be2f-5050-9b4d-1af14f9d6716",
@@ -2036,7 +2262,9 @@
               "ap": "-3",
               "attacks": "8",
               "damage": "2",
-              "keywords": ["Sustained Hits 1"],
+              "keywords": [
+                "Sustained Hits 1"
+              ],
               "name": "Frostfang",
               "range": "Melee",
               "skill": "2+",
@@ -2048,10 +2276,9 @@
       "name": "Ragnar Blackmane",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -2063,7 +2290,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt Pistol",
               "range": "12\"",
               "skill": "2+",
@@ -2088,7 +2317,9 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
         "units": [
           "WOLF GUARD",
@@ -2103,14 +2334,18 @@
     },
     {
       "abilities": {
-        "core": ["Deep Strike"],
+        "core": [
+          "Deep Strike"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2155,7 +2390,9 @@
         "1 Wolf Guard Terminator Pack Leader",
         "4-9 Wolf Guard Terminators"
       ],
-      "factions": ["Space Wolves"],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Wolf Guard bedeck their Terminator armour with totems, trophies and marks of honour gained over their years of battle. They fight at the spearhead of assaults, eagerly seeking glory as enemy fire deflects harmlessly from their relic armour, the earth shaking beneath their heavy tread as they slay with stunning skill.",
       "id": "b2efd0c3-1e96-53b3-af25-531fda7b309b",
@@ -2209,7 +2446,9 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Anti-vehicle 3+"],
+              "keywords": [
+                "Anti-vehicle 3+"
+              ],
               "name": "Chainfist",
               "range": "Melee",
               "skill": "4+",
@@ -2241,7 +2480,9 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Thunder hammer",
               "range": "Melee",
               "skill": "4+",
@@ -2257,7 +2498,9 @@
               "ap": "-2",
               "attacks": "5",
               "damage": "1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin lightning claws",
               "range": "Melee",
               "skill": "3+",
@@ -2269,16 +2512,14 @@
       "name": "Wolf Guard Terminators",
       "points": [
         {
-          "cost": "370",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "170"
         },
         {
-          "cost": "185",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "340"
         }
       ],
       "rangedWeapons": [
@@ -2290,7 +2531,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "3+",
@@ -2326,7 +2569,9 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Assault Cannon",
               "range": "24\"",
               "skill": "3+",
@@ -2342,7 +2587,10 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Heavy flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -2369,7 +2617,9 @@
               "ap": "0",
               "attacks": "2D6",
               "damage": "1",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Cyclone missile launcher – Frag",
               "range": "36\"",
               "skill": "3+",
@@ -2408,14 +2658,19 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D6", "Hover"],
+        "core": [
+          "Deadly Demise D6",
+          "Hover"
+        ],
         "damaged": {
           "range": "1-5 WOUNDS REMAINING",
           "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2436,8 +2691,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Stormwolf"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Stormwolf"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Stormwolves enable the sons of Russ to bring the fight to the enemy wherever they hide. Within their wide hold, packs of warriors are borne with incredible speed into the foe’s midst. As the packs leap out to attack, Stormwolves saturate the area with an array of heavy fire, before rising to hunt for yet more targets.",
       "id": "549b2934-8504-547e-9459-9995f8ec7b66",
@@ -2487,7 +2746,10 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "2",
-              "keywords": ["Twin-linked", "Torrent"],
+              "keywords": [
+                "Twin-linked",
+                "Torrent"
+              ],
               "name": "Twin helfrost cannon – Dispersed",
               "range": "12\"",
               "skill": "N/A",
@@ -2498,7 +2760,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "5",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin helfrost cannon – Focused",
               "range": "36\"",
               "skill": "3+",
@@ -2514,7 +2778,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin lascannon",
               "range": "48\"",
               "skill": "3+",
@@ -2530,7 +2796,9 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "D3",
-              "keywords": ["Anti-fly 2+"],
+              "keywords": [
+                "Anti-fly 2+"
+              ],
               "name": "Skyhammer missile launcher",
               "range": "48\"",
               "skill": "3+",
@@ -2546,7 +2814,10 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Twin-linked", "Sustained Hits 1"],
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits 1"
+              ],
               "name": "Twin heavy bolter",
               "range": "36\"",
               "skill": "3+",
@@ -2562,7 +2833,10 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": ["Twin-linked", "Melta 2"],
+              "keywords": [
+                "Twin-linked",
+                "Melta 2"
+              ],
               "name": "Twin multi-melta",
               "range": "18\"",
               "skill": "3+",
@@ -2600,7 +2874,9 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2628,8 +2904,13 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Blood Claw Pack Leader", "9-14 Blood Claws"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Blood Claw Pack Leader",
+        "9-14 Blood Claws"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Young and fiery warriors full of belligerent enthusiasm, Blood Claws hunger to prove themselves in savage battle. With relentless exuberance they plunge headlong into the foe, straddling the line between sheer heroism and recklessness. Many great sagas start with the Blood Claws’ glory hunts.",
       "id": "509a8a8a-43d8-5db1-98f2-823ea51919e9",
@@ -2711,16 +2992,14 @@
       "name": "Blood Claws",
       "points": [
         {
-          "cost": "210",
-          "keyword": null,
-          "models": "15",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "135"
         },
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "20",
+          "cost": "270"
         }
       ],
       "rangedWeapons": [
@@ -2732,7 +3011,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -2748,7 +3029,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Plasma pistol – Standard",
               "range": "12\"",
               "skill": "3+",
@@ -2759,7 +3042,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Pistol", "Hazardous"],
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
               "name": "Plasma pistol – Supercharge",
               "range": "12\"",
               "skill": "3+",
@@ -2775,7 +3061,10 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -2791,7 +3080,9 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Anti-vehicle 2+"],
+              "keywords": [
+                "Anti-vehicle 2+"
+              ],
               "name": "Grav-gun",
               "range": "18\"",
               "skill": "3+",
@@ -2807,7 +3098,9 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["Melta 2"],
+              "keywords": [
+                "Melta 2"
+              ],
               "name": "Meltagun",
               "range": "12\"",
               "skill": "3+",
@@ -2823,7 +3116,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Rapid Fire 1"],
+              "keywords": [
+                "Rapid Fire 1"
+              ],
               "name": "Plasma gun – Standard",
               "range": "24\"",
               "skill": "3+",
@@ -2834,7 +3129,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Rapid Fire 1", "Hazardous"],
+              "keywords": [
+                "Rapid Fire 1",
+                "Hazardous"
+              ],
               "name": "Plasma gun – Supercharge",
               "range": "24\"",
               "skill": "3+",
@@ -2876,14 +3174,18 @@
     },
     {
       "abilities": {
-        "core": ["Feel No Pain 6+"],
+        "core": [
+          "Feel No Pain 6+"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2917,12 +3219,21 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Wulfen Pack Leader", "4-9 Wulfen"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Wulfen Pack Leader",
+        "4-9 Wulfen"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Wulfen exist on the brink of constant berserk rages, and their chilling howls unleash the inner beast in sons of Russ nearby. Wulfen are bestial warriors, altered by the Curse lying in the blood of all scions of the Wolf King. They are hunters, bounding forward with fangs bared and claws outstretched, ripping foes apart with inhuman speed.",
       "id": "6f5e1517-b22e-544e-bf10-b3b3a2d66daf",
-      "keywords": ["Infantry", "Imperium", "Wulfen"],
+      "keywords": [
+        "Infantry",
+        "Imperium",
+        "Wulfen"
+      ],
       "leader": "",
       "loadout": "Every model is equipped with: Wulfen claws and melee weapons.",
       "meleeWeapons": [
@@ -2962,16 +3273,14 @@
       "name": "Wulfen",
       "points": [
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "100"
         },
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -2983,7 +3292,10 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Blast", "Assault"],
+              "keywords": [
+                "Blast",
+                "Assault"
+              ],
               "name": "Stormfrag auto-launcher",
               "range": "12\"",
               "skill": "5+",
@@ -3022,7 +3334,9 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3050,8 +3364,13 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Grey Hunter Pack Leader", "4-9 Grey Hunters"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Grey Hunter Pack Leader",
+        "4-9 Grey Hunters"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "With their instinctive raw aggression tempered – but never quashed – by countless battlefield victories, Grey Hunters are patient, cunning and adaptable. Some packs take and hold ground, unleashing volleys of disciplined firepower, while others stalk the flanks. When the trap is set, Grey Hunters leap in for the kill.",
       "id": "4b6c3e90-12a2-5555-8d6a-8823a984108f",
@@ -3133,16 +3452,9 @@
       "name": "Grey Hunters",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "10",
-          "active": true
-        },
-        {
-          "cost": "85",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -3154,7 +3466,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -3186,7 +3500,10 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -3202,7 +3519,9 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Anti-vehicle 2+"],
+              "keywords": [
+                "Anti-vehicle 2+"
+              ],
               "name": "Grav-gun",
               "range": "18\"",
               "skill": "3+",
@@ -3218,7 +3537,9 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["Melta 2"],
+              "keywords": [
+                "Melta 2"
+              ],
               "name": "Meltagun",
               "range": "12\"",
               "skill": "3+",
@@ -3234,7 +3555,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Rapid Fire 1"],
+              "keywords": [
+                "Rapid Fire 1"
+              ],
               "name": "Plasma gun – Standard",
               "range": "24\"",
               "skill": "3+",
@@ -3245,7 +3568,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Rapid Fire 1", "Hazardous"],
+              "keywords": [
+                "Rapid Fire 1",
+                "Hazardous"
+              ],
               "name": "Plasma gun – Supercharge",
               "range": "24\"",
               "skill": "3+",
@@ -3261,7 +3587,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Plasma pistol – Standard",
               "range": "12\"",
               "skill": "3+",
@@ -3272,7 +3600,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Pistol", "Hazardous"],
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
               "name": "Plasma pistol – Supercharge",
               "range": "12\"",
               "skill": "3+",
@@ -3314,14 +3645,19 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise 1", "Feel No Pain 6+"],
+        "core": [
+          "Deadly Demise 1",
+          "Feel No Pain 6+"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3349,8 +3685,12 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Wulfen Dreadnought"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Wulfen Dreadnought"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Even near death and interred in a Dreadnought sarcophagus, a warrior may yet succumb to the Curse of the Wulfen. Joints and servos twitch and spasm like a crazed animal’s muscles as a Wulfen Dreadnought seeks to maul and eviscerate. From emitters, baleful howls blare its mindless hunger for violence.",
       "id": "91b61de1-b739-56ea-9a66-5c2c3d1bf286",
@@ -3426,7 +3766,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "3+",
@@ -3442,7 +3784,10 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Heavy flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -3474,14 +3819,18 @@
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3508,8 +3857,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Krom Dragongaze"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Krom Dragongaze"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Belligerent, violent and seldom suffering anyone gainsaying his bloodthirsty tactics, Krom Dragongaze is notoriously short of temper. His fierce gaze is petrifying to lesser men, yet his critical eye seeks deeds of valour and his Great Company boasts many veteran Wolf Guard. Wildly competitive, Krom refuses to accept defeat.",
       "id": "454dc0e4-a704-57b8-98ea-d953925c4783",
@@ -3533,7 +3886,9 @@
               "ap": "-2",
               "attacks": "6",
               "damage": "2",
-              "keywords": ["Lethal Hits"],
+              "keywords": [
+                "Lethal Hits"
+              ],
               "name": "Wyrmclaw",
               "range": "Melee",
               "skill": "2+",
@@ -3560,7 +3915,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt Pistol",
               "range": "12\"",
               "skill": "2+",
@@ -3585,22 +3942,33 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
-        "units": ["BLOOD CLAWS", "GREY HUNTERS", "WOLF GUARD"],
+        "units": [
+          "BLOOD CLAWS",
+          "GREY HUNTERS",
+          "WOLF GUARD"
+        ],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": ["Deep Strike", "Leader"],
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3627,8 +3995,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Njal Stormcaller – EPIC HERO"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Njal Stormcaller – EPIC HERO"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Summoning ice-toothed blizzards to scatter his foes, Njal Stormcaller is an elemental focus of psychic fury. He is High Rune Priest of the Space Wolves and wields a crackling staff by which he nullifies enemy sorceries.",
       "id": "4e1ce088-51f7-5366-90d0-bc8ad197383f",
@@ -3652,7 +4024,10 @@
               "ap": "-1",
               "attacks": "4",
               "damage": "D3",
-              "keywords": ["Sustained Hits 2", "Psychic"],
+              "keywords": [
+                "Sustained Hits 2",
+                "Psychic"
+              ],
               "name": "Staff of the Stormcaller",
               "range": "Melee",
               "skill": "3+",
@@ -3664,10 +4039,9 @@
       "name": "Njal Stormcaller",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -3679,7 +4053,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -3695,7 +4071,11 @@
               "ap": "-1",
               "attacks": "2D6",
               "damage": "1",
-              "keywords": ["Sustained Hits 2", "Psychic", "Hazardous"],
+              "keywords": [
+                "Sustained Hits 2",
+                "Psychic",
+                "Hazardous"
+              ],
               "name": "Living Lightning – Focused witchfire",
               "range": "24\"",
               "skill": "3+",
@@ -3706,7 +4086,10 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Sustained Hits 2", "Psychic"],
+              "keywords": [
+                "Sustained Hits 2",
+                "Psychic"
+              ],
               "name": "Living Lightning – Witchfire",
               "range": "24\"",
               "skill": "3+",
@@ -3731,7 +4114,9 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
         "units": [
           "RELIC TERMINATOR SQUAD",
@@ -3751,7 +4136,9 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3792,12 +4179,22 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Wolf Guard Pack Leader", "4-9 Wolf Guard"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Wolf Guard Pack Leader",
+        "4-9 Wolf Guard"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Earning their place through exceptional feats of arms, every Wolf Guard is a heroic warrior chosen by their lord. They act as his council and household companions, and when not tearing apart foes at his side, they form bodyguards around other senior warriors or pursue dangerous missions in their own right.",
       "id": "bd10ec7d-6877-5c3f-a760-cd6d113feb14",
-      "keywords": ["Infantry", "Grenades", "Imperium", "Wolf Guard"],
+      "keywords": [
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Wolf Guard"
+      ],
       "leader": "",
       "loadout": "Every model is equipped with: bolt pistol; heirloom weapon.",
       "meleeWeapons": [
@@ -3821,16 +4218,9 @@
       "name": "Wolf Guard",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "10",
-          "active": true
-        },
-        {
-          "cost": "85",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -3842,7 +4232,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -3894,7 +4286,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Plasma pistol – Standard",
               "range": "12\"",
               "skill": "3+",
@@ -3905,7 +4299,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Pistol", "Hazardous"],
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
               "name": "Plasma pistol – Supercharge",
               "range": "12\"",
               "skill": "3+",
@@ -3921,7 +4318,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "3+",
@@ -3949,18 +4348,27 @@
       "wargear": [
         "Any number of models can have their bolt pistol replaced with one of the following: ◦ 1 boltgun ◦ 1 combi-weapon ◦ 1 plasma pistol ◦ 1 storm bolter ◦ 1 storm shield"
       ],
-      "leadBy": ["Ulrik the Slayer", "Ragnar Blackmane", "Krom Dragongaze"]
+      "leadBy": [
+        "Ulrik the Slayer",
+        "Ragnar Blackmane",
+        "Krom Dragongaze"
+      ]
     },
     {
       "abilities": {
-        "core": ["Deep Strike", "Leader"],
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3994,8 +4402,12 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Wolf Guard Pack Leader with Jump Pack"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Wolf Guard Pack Leader with Jump Pack"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Wolf Guard entrusted with leading packs of free-spirited Skyclaws wear powerful jump packs that allow them to pounce on the foe in arcing leaps. Their stern composure reins in the reckless excesses of their headstrong wards, but in the bloodletting brutality of the charge, the Pack Leader is a blizzard of furious destruction.",
       "id": "ef837b1f-51d3-5877-ba64-2b39a5e696b7",
@@ -4068,7 +4480,9 @@
               "ap": "-2",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Thunder hammer",
               "range": "Melee",
               "skill": "4+",
@@ -4084,7 +4498,9 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin lightning claws",
               "range": "Melee",
               "skill": "3+",
@@ -4111,7 +4527,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -4147,7 +4565,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Plasma pistol – Standard",
               "range": "12\"",
               "skill": "3+",
@@ -4158,7 +4578,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Pistol", "Hazardous"],
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
               "name": "Plasma pistol – Supercharge",
               "range": "12\"",
               "skill": "3+",
@@ -4174,7 +4597,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "3+",
@@ -4204,20 +4629,26 @@
         "This model’s bolt pistol and Astartes chainsword can be replaced with two different weapons from the following list: ◦ 1 bolt pistol ◦ 1 combi-weapon ◦ 1 plasma pistol ◦ 1 storm bolter ◦ 1 Astartes chainsword ◦ 1 power fist ◦ 1 power weapon ◦ 1 thunder hammer ◦ 1 storm shield   This model can only be equipped with two ranged weapons if one of them is a Pistol (and it can only have one Pistol)."
       ],
       "leads": {
-        "units": ["SKYCLAWS"],
+        "units": [
+          "SKYCLAWS"
+        ],
         "extra": "You must attach this model to the above unit, and can do so even if one or more CHARACTER units have already been attached to that unit, but a unit can never include more than one PACK LEADER model. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths. If it is not possible to attach this model to a unit, it does not take part in the battle and counts as having been destroyed."
       }
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -4250,8 +4681,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Iron Priest"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Iron Priest"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Space Wolves Techmarines – the Iron Priests – are holders of arcane technological lore that they use to repair the Chapter’s damaged war engines and soothe their affronted machine spirits. Warriors of Fenris first and foremost, Iron Priests will not hesitate to bring their own esoteric weapons to bear on the foe if needed.",
       "id": "36402ee1-25bb-540f-8ebd-b42ec847a408",
@@ -4274,7 +4709,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "3",
-              "keywords": ["Extra Attacks"],
+              "keywords": [
+                "Extra Attacks"
+              ],
               "name": "Servo-arm",
               "range": "Melee",
               "skill": "3+",
@@ -4302,10 +4739,9 @@
       "name": "Iron Priest",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -4317,7 +4753,10 @@
               "ap": "-1",
               "attacks": "D3",
               "damage": "1",
-              "keywords": ["Torrent", "Pistol"],
+              "keywords": [
+                "Torrent",
+                "Pistol"
+              ],
               "name": "Helfrost pistol – Dispersed",
               "range": "12\"",
               "skill": "N/A",
@@ -4328,7 +4767,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "3",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Helfrost pistol – Focused",
               "range": "12\"",
               "skill": "2+",
@@ -4353,7 +4794,9 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
         "units": [
           "ASTARTES SERVITORS",
@@ -4373,7 +4816,9 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -4407,12 +4852,22 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Long Fang Pack Leader", "4-5 Long Fangs"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Long Fang Pack Leader",
+        "4-5 Long Fangs"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Dour and grizzled veterans, Long Fangs are steady of hand and temperament, hoary with wisdom and literally long of fang. To these patient warriors are granted some of the Great Company’s most devastating ranged weapons. Keen of eye, Long Fangs hunt the monstrous beasts and battle tanks of the foe.",
       "id": "6abb2df6-2bbf-50f1-96ea-ef2a7d778af5",
-      "keywords": ["Infantry", "Grenades", "Imperium", "Long Fangs"],
+      "keywords": [
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Long Fangs"
+      ],
       "leader": "",
       "loadout": "Every model is equipped with: boltgun; bolt pistol; close combat weapon.",
       "meleeWeapons": [
@@ -4521,7 +4976,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -4537,7 +4994,10 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -4553,7 +5013,9 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Anti-vehicle 2+"],
+              "keywords": [
+                "Anti-vehicle 2+"
+              ],
               "name": "Grav-gun",
               "range": "18\"",
               "skill": "3+",
@@ -4569,7 +5031,9 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["Melta 2"],
+              "keywords": [
+                "Melta 2"
+              ],
               "name": "Meltagun",
               "range": "12\"",
               "skill": "3+",
@@ -4585,7 +5049,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Rapid Fire 1"],
+              "keywords": [
+                "Rapid Fire 1"
+              ],
               "name": "Plasma gun – Standard",
               "range": "24\"",
               "skill": "3+",
@@ -4596,7 +5062,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Rapid Fire 1", "Hazardous"],
+              "keywords": [
+                "Rapid Fire 1",
+                "Hazardous"
+              ],
               "name": "Plasma gun – Supercharge",
               "range": "24\"",
               "skill": "3+",
@@ -4612,7 +5081,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Plasma pistol – Standard",
               "range": "12\"",
               "skill": "3+",
@@ -4623,7 +5094,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Pistol", "Hazardous"],
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
               "name": "Plasma pistol – Supercharge",
               "range": "12\"",
               "skill": "3+",
@@ -4639,7 +5113,10 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "3",
-              "keywords": ["Heavy", "Anti-vehicle 2+"],
+              "keywords": [
+                "Heavy",
+                "Anti-vehicle 2+"
+              ],
               "name": "Grav-cannon",
               "range": "24\"",
               "skill": "4+",
@@ -4655,7 +5132,10 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Sustained Hits 1", "Heavy"],
+              "keywords": [
+                "Sustained Hits 1",
+                "Heavy"
+              ],
               "name": "Heavy bolter",
               "range": "36\"",
               "skill": "4+",
@@ -4671,7 +5151,10 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Heavy flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -4687,7 +5170,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": ["Heavy"],
+              "keywords": [
+                "Heavy"
+              ],
               "name": "Lascannon",
               "range": "48\"",
               "skill": "4+",
@@ -4703,7 +5188,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["Heavy"],
+              "keywords": [
+                "Heavy"
+              ],
               "name": "Missile launcher – Krak",
               "range": "48\"",
               "skill": "4+",
@@ -4714,7 +5201,10 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Heavy", "Blast"],
+              "keywords": [
+                "Heavy",
+                "Blast"
+              ],
               "name": "Missile launcher – Frag",
               "range": "48\"",
               "skill": "4+",
@@ -4730,7 +5220,10 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": ["Melta 2", "Heavy"],
+              "keywords": [
+                "Melta 2",
+                "Heavy"
+              ],
               "name": "Multi-melta",
               "range": "18\"",
               "skill": "4+",
@@ -4746,7 +5239,10 @@
               "ap": "-2",
               "attacks": "D3",
               "damage": "1",
-              "keywords": ["Heavy", "Blast"],
+              "keywords": [
+                "Heavy",
+                "Blast"
+              ],
               "name": "Plasma cannon – Standard",
               "range": "36\"",
               "skill": "4+",
@@ -4757,7 +5253,11 @@
               "ap": "-3",
               "attacks": "D3",
               "damage": "2",
-              "keywords": ["Heavy", "Hazardous", "Blast"],
+              "keywords": [
+                "Heavy",
+                "Hazardous",
+                "Blast"
+              ],
               "name": "Plasma cannon – Supercharge",
               "range": "36\"",
               "skill": "4+",
@@ -4803,7 +5303,9 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -4824,12 +5326,20 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["5-10 Fenrisian Wolves"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "5-10 Fenrisian Wolves"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Amongst the most vicious and intelligent predators in the galaxy, Fenrisian Wolves accompany the sons of Russ to battle, following them as the pack follows the alpha. Even the sleekest are as big as a Human, yet they prowl silently before pouncing in a swift and coordinated flurry of razor-sharp teeth and claws.",
       "id": "813450b5-2d22-5134-8274-91854c51eac2",
-      "keywords": ["Beasts", "Imperium", "Fenrisian Wolves"],
+      "keywords": [
+        "Beasts",
+        "Imperium",
+        "Fenrisian Wolves"
+      ],
       "leader": "",
       "loadout": "Every model is equipped with: teeth and claws.",
       "meleeWeapons": [
@@ -4853,16 +5363,14 @@
       "name": "Fenrisian Wolves",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "40"
         },
         {
-          "cost": "30",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [],
@@ -4882,19 +5390,29 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
-      "leadBy": ["Cyberwolf", "Canis Wolfborn"]
+      "wargear": [
+        "None"
+      ],
+      "leadBy": [
+        "Cyberwolf",
+        "Canis Wolfborn"
+      ]
     },
     {
       "abilities": {
-        "core": ["Deep Strike", "Leader"],
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -4928,8 +5446,12 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Wolf Guard Battle Leader in Terminator Armour"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Wolf Guard Battle Leader in Terminator Armour"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Wolf Guard Battle Leaders possess vast experience and dominant personalities, using them to guide others in the art of war. Each combines preternatural combat prowess with the greatest relics from their lord’s armouries, the most prized of which are suits of fearsome Terminator armour.",
       "id": "acb24a8d-f272-5386-947a-476758a98642",
@@ -4967,7 +5489,9 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "2",
-              "keywords": ["Anti-vehicle 3+"],
+              "keywords": [
+                "Anti-vehicle 3+"
+              ],
               "name": "Chainfist",
               "range": "Melee",
               "skill": "3+",
@@ -5015,7 +5539,9 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "2",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Thunder hammer",
               "range": "Melee",
               "skill": "3+",
@@ -5031,7 +5557,9 @@
               "ap": "-2",
               "attacks": "6",
               "damage": "1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin lightning claws",
               "range": "Melee",
               "skill": "2+",
@@ -5058,7 +5586,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "2+",
@@ -5120,14 +5650,19 @@
     },
     {
       "abilities": {
-        "core": ["Deep Strike", "Leader"],
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -5161,8 +5696,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["Logan Grimnar – EPIC HERO"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "Logan Grimnar – EPIC HERO"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Logan Grimnar – Great Wolf and High King of Fenris – is one of the longest serving Chapter Masters. Waging war against any who threaten the Space Wolves or the Imperium, Grimnar’s charisma and centuries of heroic victories have immortalised him as one of the most lauded warriors in the galaxy.",
       "id": "75374f5c-5b30-5b87-b2e4-1f8c176b21e6",
@@ -5209,10 +5748,9 @@
       "name": "Logan Grimnar",
       "points": [
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -5224,7 +5762,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "2+",
@@ -5249,7 +5789,9 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
         "units": [
           "RELIC TERMINATOR SQUAD",
@@ -5262,14 +5804,18 @@
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -5296,8 +5842,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Canis Wolfborn – EPIC HERO"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Canis Wolfborn – EPIC HERO"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "The most feral of Harald Deathwolf’s veterans, Canis Wolfborn moves with animalistic assurance. Believed to have been raised by a she-wolf, Canis speaks to his brothers in snarls and growls, and on the battlefield his frenzied rages, slashing claws and Thunderwolf’s jaws are all the communication he needs.",
       "id": "62a5ca87-1dfb-5da3-9dc1-f276b3ff9ed7",
@@ -5319,7 +5869,9 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Extra Attacks"],
+              "keywords": [
+                "Extra Attacks"
+              ],
               "name": "Crushing teeth and claws",
               "range": "Melee",
               "skill": "4+",
@@ -5335,7 +5887,9 @@
               "ap": "-2",
               "attacks": "8",
               "damage": "1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Wolf claws",
               "range": "Melee",
               "skill": "2+",
@@ -5362,7 +5916,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "bolt pistol",
               "range": "12\"",
               "skill": "5+",
@@ -5387,22 +5943,31 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
-        "units": ["FENRISIAN WOLVES", "THUNDERWOLF CAVALRY"],
+        "units": [
+          "FENRISIAN WOLVES",
+          "THUNDERWOLF CAVALRY"
+        ],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -5429,8 +5994,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Harald Deathwolf – EPIC HERO"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Harald Deathwolf – EPIC HERO"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Harald Deathwolf is attuned to the lupine beasts of Fenris as few others are. The lair of his Great Company resounds to their howls, and many of these wolves fight with his warriors. A peerless hunter, Harald tracks his prey with speed and stealth, launching his ferocious strikes from atop his giant Thunderwolf, Icetooth.",
       "id": "42290b24-960f-55cf-88e9-ebe336bb751e",
@@ -5454,7 +6023,9 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Extra Attacks"],
+              "keywords": [
+                "Extra Attacks"
+              ],
               "name": "Crushing teeth and claws",
               "range": "Melee",
               "skill": "3+",
@@ -5497,7 +6068,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt Pistol",
               "range": "12\"",
               "skill": "2+",
@@ -5522,22 +6095,30 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
-        "units": ["THUNDERWOLF CAVALRY"],
+        "units": [
+          "THUNDERWOLF CAVALRY"
+        ],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -5571,8 +6152,12 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Wolf Lord on Thunderwolf"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Wolf Lord on Thunderwolf"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Raised from a pup or bested in the wastes, a Thunderwolf makes for a savage and fearsome mount for a Wolf Lord. Often leading wild and wilful Great Companies, these Wolf Lords meld their centuries of experience and strategic acumen with the ferocity and speed of a hunter as deadly as the lord himself.",
       "id": "0570ea3d-a3ec-5da1-ab3a-81beea8a908e",
@@ -5595,7 +6180,9 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Extra Attacks"],
+              "keywords": [
+                "Extra Attacks"
+              ],
               "name": "Crushing teeth and claws",
               "range": "Melee",
               "skill": "4+",
@@ -5643,7 +6230,9 @@
               "ap": "-2",
               "attacks": "5",
               "damage": "2",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Thunder hammer",
               "range": "Melee",
               "skill": "3+",
@@ -5675,7 +6264,9 @@
               "ap": "-2",
               "attacks": "7",
               "damage": "1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin lightning claws",
               "range": "Melee",
               "skill": "2+",
@@ -5702,7 +6293,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt Pistol",
               "range": "12\"",
               "skill": "2+",
@@ -5718,7 +6311,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Plasma pistol – Standard",
               "range": "12\"",
               "skill": "2+",
@@ -5729,7 +6324,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Pistol", "Hazardous"],
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
               "name": "Plasma pistol – Supercharge",
               "range": "12\"",
               "skill": "2+",
@@ -5781,7 +6379,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "2+",
@@ -5812,20 +6412,26 @@
         "This model’s relic weapon can be replaced with one of the following: ◦ 1 plasma pistol ◦ 1 power fist ◦ 1 thunder hammer ◦ 1 relic shield and 1 close combat weapon"
       ],
       "leads": {
-        "units": ["THUNDERWOLF CAVALRY"],
+        "units": [
+          "THUNDERWOLF CAVALRY"
+        ],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": ["Deep Strike"],
+        "core": [
+          "Deep Strike"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -5853,8 +6459,13 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Skyclaw Pack Leader", "4-14 Skyclaws"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Skyclaw Pack Leader",
+        "4-14 Skyclaws"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Especially headstrong Blood Claws are reassigned to jump pack wearing Skyclaw packs. Rebellious and free-spirited, Skyclaws seize any opportunity to push their luck. They rocket forward fearlessly in great loping bounds, chainswords roaring as they slay, plunging into the enemy’s heart with reckless fury.",
       "id": "1776e9fd-926e-503e-a319-438429ed5650",
@@ -5964,7 +6575,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -5980,7 +6593,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Plasma pistol – Standard",
               "range": "12\"",
               "skill": "3+",
@@ -5991,7 +6606,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Pistol", "Hazardous"],
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
               "name": "Plasma pistol – Supercharge",
               "range": "12\"",
               "skill": "3+",
@@ -6007,7 +6625,10 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -6023,7 +6644,9 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Anti-vehicle 2+"],
+              "keywords": [
+                "Anti-vehicle 2+"
+              ],
               "name": "Grav-gun",
               "range": "18\"",
               "skill": "3+",
@@ -6039,7 +6662,9 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["Melta 2"],
+              "keywords": [
+                "Melta 2"
+              ],
               "name": "Meltagun",
               "range": "12\"",
               "skill": "3+",
@@ -6055,7 +6680,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Rapid Fire 1"],
+              "keywords": [
+                "Rapid Fire 1"
+              ],
               "name": "Plasma gun – Standard",
               "range": "24\"",
               "skill": "3+",
@@ -6066,7 +6693,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Rapid Fire 1", "Hazardous"],
+              "keywords": [
+                "Rapid Fire 1",
+                "Hazardous"
+              ],
               "name": "Plasma gun – Supercharge",
               "range": "24\"",
               "skill": "3+",
@@ -6096,18 +6726,24 @@
         "The Skyclaw Pack Leader’s Astartes chainsword can be replaced with one of the following: ◦ 1 power fist ◦ 1 power weapon",
         "The Skyclaw Pack Leader’s bolt pistol can be replaced with 1 plasma pistol."
       ],
-      "leadBy": ["Wolf Guard Pack Leader with Jump Pack"]
+      "leadBy": [
+        "Wolf Guard Pack Leader with Jump Pack"
+      ]
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -6141,8 +6777,12 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Wolf Guard Battle Leader on Thunderwolf"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Wolf Guard Battle Leader on Thunderwolf"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Battle Leaders are champions possessing great tactical acumen, and are hand-picked by their lord to lead forces of their own. The most aggressive often choose to ride to war on the back of a Thunderwolf.",
       "id": "7fa0b5b6-5063-5871-ac4a-d5df736694a0",
@@ -6164,7 +6804,9 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Extra Attacks"],
+              "keywords": [
+                "Extra Attacks"
+              ],
               "name": "Crushing teeth and claws",
               "range": "Melee",
               "skill": "4+",
@@ -6212,7 +6854,9 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "2",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Thunder hammer",
               "range": "Melee",
               "skill": "3+",
@@ -6244,7 +6888,9 @@
               "ap": "-2",
               "attacks": "6",
               "damage": "1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin lightning claws",
               "range": "Melee",
               "skill": "2+",
@@ -6271,7 +6917,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt Pistol",
               "range": "12\"",
               "skill": "2+",
@@ -6287,7 +6935,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Plasma pistol – Standard",
               "range": "12\"",
               "skill": "2+",
@@ -6298,7 +6948,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Pistol", "Hazardous"],
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
               "name": "Plasma pistol – Supercharge",
               "range": "12\"",
               "skill": "2+",
@@ -6350,7 +7003,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "2+",
@@ -6381,20 +7036,27 @@
         "This model’s relic weapon can be replaced with one of the following: ◦ 1 plasma pistol ◦ 1 power fist ◦ 1 thunder hammer ◦ 1 storm shield and 1 close combat weapon"
       ],
       "leads": {
-        "units": ["THUNDERWOLF CAVALRY"],
+        "units": [
+          "THUNDERWOLF CAVALRY"
+        ],
         "extra": "You can attach this model to the above unit even if one CAPTAIN or CHAPTER MASTER model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
       }
     },
     {
       "abilities": {
-        "core": ["Deadly Demise 1", "Feel No Pain 6+"],
+        "core": [
+          "Deadly Demise 1",
+          "Feel No Pain 6+"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -6422,8 +7084,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["Murderfang – EPIC HERO"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "Murderfang – EPIC HERO"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "A stampeding mechanical beast is unleashed from beneath the Fang in times of need, its massively brutal claws tearing its foes limb from bloody limb. The Chapter names it Murderfang. Its true identity is unknown for its insensate snarling rages are bereft of speech; it is known now only as a force of untamed destruction.",
       "id": "cbc3fcf5-ecb4-5134-a733-a67e904e4698",
@@ -6447,7 +7113,9 @@
               "ap": "-2",
               "attacks": "8",
               "damage": "3",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "The Murderclaws",
               "range": "Melee",
               "skill": "3+",
@@ -6459,10 +7127,9 @@
       "name": "Murderfang",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -6474,7 +7141,10 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Heavy flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -6490,7 +7160,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "3+",
@@ -6515,18 +7187,25 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"]
+      "wargear": [
+        "None"
+      ]
     },
     {
       "abilities": {
-        "core": ["Deep Strike", "Leader"],
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -6560,8 +7239,12 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Wolf Guard Pack Leader in Terminator Armour"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Wolf Guard Pack Leader in Terminator Armour"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Those Wolf Guard granted the raw power afforded by Terminator armour bestride the battlefield as nigh-invulnerable champions. Amongst the packs they lead, they serve as indomitable anvils, anchoring their battle-brothers’ lines with their intimidating bulk and unleashing the power of their ornate weapons to destructive effect.",
       "id": "fd9892eb-b7c7-55ad-acd8-00c326e45606",
@@ -6601,7 +7284,9 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Anti-vehicle 3+"],
+              "keywords": [
+                "Anti-vehicle 3+"
+              ],
               "name": "Chainfist",
               "range": "Melee",
               "skill": "4+",
@@ -6633,7 +7318,9 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Thunder hammer",
               "range": "Melee",
               "skill": "4+",
@@ -6649,7 +7336,9 @@
               "ap": "-2",
               "attacks": "5",
               "damage": "1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin lightning claws",
               "range": "Melee",
               "skill": "3+",
@@ -6676,7 +7365,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "3+",
@@ -6692,7 +7383,9 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Assault Cannon",
               "range": "24\"",
               "skill": "3+",
@@ -6708,7 +7401,10 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Heavy flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -6735,7 +7431,9 @@
               "ap": "0",
               "attacks": "2D6",
               "damage": "1",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Cyclone missile launcher – Frag",
               "range": "36\"",
               "skill": "3+",
@@ -6786,20 +7484,29 @@
         "This model’s storm bolter and power weapon can be replaced with two different options from the following list: ◦ 1 assault cannon ◦ 1 heavy flamer ◦ 1 cyclone missile launcher and 1 storm bolter ◦ 1 storm bolter ◦ 1 chainfist ◦ 1 power fist ◦ 1 thunder hammer ◦ 1 storm shield   This model can only be equipped with two ranged weapons if one of them is a cyclone missile launcher and the other is either a storm bolter or a combi-weapon."
       ],
       "leads": {
-        "units": ["BLOOD CLAWS", "GREY HUNTERS", "LONG FANGS"],
+        "units": [
+          "BLOOD CLAWS",
+          "GREY HUNTERS",
+          "LONG FANGS"
+        ],
         "extra": "You must attach this model to one of the above units, and can do so even if one or more CHARACTER units have already been attached to that unit, but a unit can never include more than one PACK LEADER model. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths. If it is not possible to attach this model to a unit, it does not take part in the battle and counts as having been destroyed."
       }
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D3", "Leader"],
+        "core": [
+          "Deadly Demise D3",
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -6833,8 +7540,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Logan Grimnar on Stormrider – EPIC HERO"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Logan Grimnar on Stormrider – EPIC HERO"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "When riding to battle upon his ornate anti-grav chariot, Stormrider, Logan Grimnar is a destructive and swift tempest of war. Drawn by a pair of giant and ferocious Thunderwolves, Stormrider’s saga-inscribed hull bears the grizzled leader into the heart of the enemy, there to reap a fell tally with the Axe Morkai.",
       "id": "50a707a7-5b60-5701-be2c-37758e417ddf",
@@ -6884,7 +7595,9 @@
               "ap": "-1",
               "attacks": "6",
               "damage": "1",
-              "keywords": ["Extra Attacks"],
+              "keywords": [
+                "Extra Attacks"
+              ],
               "name": "Flurry of teeth and claws",
               "range": "Melee",
               "skill": "4+",
@@ -6911,7 +7624,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "2+",
@@ -6936,22 +7651,31 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
-        "units": ["THUNDERWOLF CAVALRY"],
+        "units": [
+          "THUNDERWOLF CAVALRY"
+        ],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D6", "Hover"],
+        "core": [
+          "Deadly Demise D6",
+          "Hover"
+        ],
         "damaged": {
           "range": "1-5 WOUNDS REMAINING",
           "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -6972,8 +7696,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Stormfang Gunship"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Stormfang Gunship"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Dominating the skies like the dread ice wyrms of myth, Stormfang Gunships are heavily armed and armoured vessels, bludgeoning their way through enemy aerial assets. Each is built around a monstrous helfrost destructor that freezes its target; even monstrous flesh is ice-burned, and unyielding tank armour swiftly cracks and shatters.",
       "id": "26c24538-81e7-5e6c-91b8-07c238217f01",
@@ -7023,7 +7751,9 @@
               "ap": "-1",
               "attacks": "D6+6",
               "damage": "2",
-              "keywords": ["Torrent"],
+              "keywords": [
+                "Torrent"
+              ],
               "name": "Helfrost destructor – Focused",
               "range": "12\"",
               "skill": "N/A",
@@ -7034,7 +7764,9 @@
               "ap": "-3",
               "attacks": "D3",
               "damage": "7",
-              "keywords": ["Sustained Hits D3"],
+              "keywords": [
+                "Sustained Hits D3"
+              ],
               "name": "Helfrost destructor – Dispersed",
               "range": "36\"",
               "skill": "3+",
@@ -7050,7 +7782,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "3",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin stormstrike missile launcher",
               "range": "48\"",
               "skill": "3+",
@@ -7066,7 +7800,9 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "D3",
-              "keywords": ["Anti-fly 2+"],
+              "keywords": [
+                "Anti-fly 2+"
+              ],
               "name": "Skyhammer missile launcher",
               "range": "48\"",
               "skill": "3+",
@@ -7082,7 +7818,10 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": ["Twin-linked", "Melta 2"],
+              "keywords": [
+                "Twin-linked",
+                "Melta 2"
+              ],
               "name": "Twin multi-melta",
               "range": "18\"",
               "skill": "3+",
@@ -7098,7 +7837,10 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Twin-linked", "Sustained Hits 1"],
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits 1"
+              ],
               "name": "Twin heavy bolter",
               "range": "36\"",
               "skill": "3+",
@@ -7114,7 +7856,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin lascannon",
               "range": "48\"",
               "skill": "3+",
@@ -7146,14 +7890,18 @@
     },
     {
       "abilities": {
-        "core": ["Scouts 6\""],
+        "core": [
+          "Scouts 6\""
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "This invulnerable save is improved to 4+ against Psychic Attacks.",
           "showAtTop": true,
@@ -7181,8 +7929,13 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Hound of Morkai Pack Leader", "4-9 Hound of Morkai"],
-      "factions": ["Space Wolves"],
+      "composition": [
+        "1 Hound of Morkai Pack Leader",
+        "4-9 Hound of Morkai"
+      ],
+      "factions": [
+        "Space Wolves"
+      ],
       "faction_id": "CHSW",
       "fluff": "Daubed beneath their Phobos armour with runes of warding and abjuration, Hounds of Morkai are hunters of psykers. Sniffing them out with psycept detectors, these obsessed warriors emit uniquely pitched howls. Runic circuitry augments their hunting call, disrupting their prey’s powers and sowing fear before the kill.",
       "id": "3ed231b8-6e4b-5ed8-96cb-302d1606e12e",
@@ -7205,7 +7958,11 @@
               "ap": "0",
               "attacks": "4",
               "damage": "1",
-              "keywords": ["Precision", "Devastating Wounds", "Anti-psyker 4+"],
+              "keywords": [
+                "Precision",
+                "Devastating Wounds",
+                "Anti-psyker 4+"
+              ],
               "name": "Morkai combat knife",
               "range": "Melee",
               "skill": "3+",
@@ -7268,18 +8025,24 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"]
+      "wargear": [
+        "None"
+      ]
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -7311,9 +8074,14 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Iron Priest on Thunderwolf"],
+      "composition": [
+        "1 Iron Priest on Thunderwolf"
+      ],
       "faction_id": "CHSW",
-      "factions": ["Adeptus Astartes", "Space Wolves"],
+      "factions": [
+        "Adeptus Astartes",
+        "Space Wolves"
+      ],
       "fluff": "",
       "id": "4a2c9852-e20a-5463-a43a-bca78aeb302a",
       "keywords": [
@@ -7326,7 +8094,9 @@
       "leader": "This model can be attached to the following unit: ■ Thunderwolf Cavalry",
       "leads": {
         "extra": "",
-        "units": ["Thunderwolf Cavalry"]
+        "units": [
+          "Thunderwolf Cavalry"
+        ]
       },
       "legends": true,
       "loadout": "This model is equipped with: boltgun; crushing teeth and claws; Iron Priest hammer; servo-arm.",
@@ -7339,7 +8109,9 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["extra attacks"],
+              "keywords": [
+                "extra attacks"
+              ],
               "name": "Crushing teeth and claws",
               "range": "Melee",
               "skill": "4+",
@@ -7355,7 +8127,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "3",
-              "keywords": ["extra attacks"],
+              "keywords": [
+                "extra attacks"
+              ],
               "name": "Servo arm",
               "range": "Melee",
               "skill": "3+",
@@ -7391,7 +8165,10 @@
               "ap": "-1",
               "attacks": "D3",
               "damage": "1",
-              "keywords": ["pistol", "torrent"],
+              "keywords": [
+                "pistol",
+                "torrent"
+              ],
               "name": "Helfrost pistol – dispersed",
               "range": "12\"",
               "skill": "N/A",
@@ -7402,7 +8179,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "3",
-              "keywords": ["pistol"],
+              "keywords": [
+                "pistol"
+              ],
               "name": "Helfrost pistol – focused",
               "range": "12\"",
               "skill": "2+",
@@ -7418,7 +8197,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["pistol"],
+              "keywords": [
+                "pistol"
+              ],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -7464,13 +8245,18 @@
       ]
     }
   ],
-  "detachments": ["Champions of Russ", "Champions of Fenris"],
+  "detachments": [
+    "Champions of Russ",
+    "Champions of Fenris"
+  ],
   "enhancements": [
     {
       "name": "The Pelt of the Balewolf",
       "id": "e07b5bd3-15ff-5bac-8a52-5416b042033f",
       "cost": "10",
-      "keywords": ["Space Wolves"],
+      "keywords": [
+        "Space Wolves"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. At the start of the Fight phase, each enemy unit within Engagement Range of the bearer must take a Battle-shock test.",
       "faction_id": "CHSW",
@@ -7482,7 +8268,9 @@
       "name": "Black Death",
       "id": "fc2a1152-45df-57b5-ac3f-efe700fcb531",
       "cost": "25",
-      "keywords": ["Space Wolves"],
+      "keywords": [
+        "Space Wolves"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. The bearer’s melee weapons have the [ANTI-MONSTER 4+] and [ANTI-VEHICLE 4+] abilities.",
       "faction_id": "CHSW",
@@ -7494,7 +8282,9 @@
       "name": "Wolf Tail Talisman",
       "id": "84521f57-42ca-5662-b298-b32de8c3ed72",
       "cost": "20",
-      "keywords": ["Space Wolves"],
+      "keywords": [
+        "Space Wolves"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack.",
       "faction_id": "CHSW",
@@ -7506,7 +8296,9 @@
       "name": "Frost Weapon",
       "id": "0c4fd8bc-4b6a-5178-9663-97490275e1ef",
       "cost": "15",
-      "keywords": ["Space Wolves"],
+      "keywords": [
+        "Space Wolves"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. The bearer’s melee weapons have the [PRECISION] ability, and the Strength and Armour Penetration characteristics of those weapons are improved by 1.",
       "faction_id": "CHSW",
@@ -7518,7 +8310,9 @@
       "name": "Wolves’ Wisdom",
       "id": "52176f96-bfda-5e90-b7d7-9ef3de0c4f10",
       "cost": "30",
-      "keywords": ["Infantry"],
+      "keywords": [
+        "Infantry"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES INFANTRY model only. The bearer’s unit can declare a charge against one or more units within 6\" instead of within 3\" when using The Great Wolf Watches Detachment rule.",
       "faction_id": "CHSW",
@@ -7530,7 +8324,9 @@
       "name": "Foes’ Fate",
       "id": "a0de36c9-0fe3-5051-9658-85017358368a",
       "cost": "15",
-      "keywords": ["Terminator"],
+      "keywords": [
+        "Terminator"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES TERMINATOR model only. Each time an enemy unit (excluding MONSTERS and VEHICLES) within Engagement Range of the bearer’s unit Falls Back, all models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is Battle‑shocked, subtract 1 from each of those tests.",
       "faction_id": "CHSW",
@@ -7542,7 +8338,9 @@
       "name": "Fangrune Pendant",
       "id": "98c68af0-87f7-50fa-ac6d-b6496bd3778b",
       "cost": "15",
-      "keywords": ["Terminator"],
+      "keywords": [
+        "Terminator"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES TERMINATOR model only. The bearer’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
       "faction_id": "CHSW",
@@ -7554,7 +8352,9 @@
       "name": "Longstrider",
       "id": "d3fc9968-b287-5229-b189-97aadb286031",
       "cost": "20",
-      "keywords": ["Space Wolves"],
+      "keywords": [
+        "Space Wolves"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. You can re‑roll Charge rolls made for the bearer’s unit.",
       "faction_id": "CHSW",
@@ -7646,7 +8446,10 @@
       "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "CHSW",
       "fluff": "The belligerency and transhuman physiologies of the Adeptus Astartes make them unyielding foes.",
       "detachment": "Champions of Russ"
@@ -7661,7 +8464,9 @@
       "effect": "Until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1. If the Saga of the Beastslayer has been completed by your army, until the end of the phase, such weapons have the [LANCE] ability as well.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "CHSW",
       "fluff": "With the scent of blood in the air and the rushing joy of battle surging through every true warrior’s hearts, even the greatest quarry can be brought down.",
       "detachment": "Champions of Russ"
@@ -7676,7 +8481,9 @@
       "effect": "Select one Saga that has not yet been completed by your army. Until the end of the turn, models in your CHARACTER’s unit have the benefit of the selected Saga as if it had been completed by your army.",
       "restrictions": "",
       "type": "Epic Deed",
-      "phase": ["command"],
+      "phase": [
+        "command"
+      ],
       "faction_id": "CHSW",
       "fluff": "The greatest champions amongst the sons of Russ must take the fight to the enemy, leading by example to uphold the honour of their Chapter.",
       "detachment": "Champions of Russ"
@@ -7691,7 +8498,9 @@
       "effect": "Each enemy unit within 6\" of your unit must take a Battle‑shock test, subtracting 1 from that test if that unit is Below Half‑strength.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["command"],
+      "phase": [
+        "command"
+      ],
       "faction_id": "CHSW",
       "fluff": "Raising their feral voices as one, the elite champions of Fenris give voice to a predatory howl fit to freeze the marrow of the bravest warriors.",
       "detachment": "Champions of Fenris"
@@ -7706,7 +8515,9 @@
       "effect": "Until the end of the phase, models in your unit have the Stealth ability.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "CHSW",
       "fluff": "These veteran warriors approach the foe like wolves on the hunt. They are ever‑poised to drop into cover or fade into the shadows to avoid their prey’s increasingly desperate attempts to drive them of.",
       "detachment": "Champions of Fenris"
@@ -7721,7 +8532,9 @@
       "effect": "Remove your unit from the battlefield and place it into Strategic Reserves.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "CHSW",
       "fluff": "A Fenrisian gunship skims low over the battlefield, touching down just long enough for these elite warriors to embark before it lifts off again. The enemy’s respite will not last long; it will return with its deadly cargo soon enough.",
       "detachment": "Champions of Fenris"
@@ -7736,7 +8549,10 @@
       "effect": "Select either the [LETHAL HITS] or [SUSTAINED HITS 1] abilities. Until the end of the phase, weapons equipped by models in your unit have that ability.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "CHSW",
       "fluff": "Long and bloody experience has taught these warriors how best to identify the slightest weakness in their prey and exploit it to the fullest.",
       "detachment": "Champions of Fenris"
@@ -7751,7 +8567,10 @@
       "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "CHSW",
       "fluff": "The belligerence and transhuman physiologies of the Adeptus Astartes make them unyielding foes.",
       "detachment": "Champions of Fenris"
@@ -7766,7 +8585,9 @@
       "effect": "Select one objective marker you control that your unit is within range of. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["command"],
+      "phase": [
+        "command"
+      ],
       "faction_id": "CHSW",
       "fluff": "A few quick cuts with a diamond‑keen hunting knife or energised claw tip leave Fenrisian runes carved into bedrock, plasteel or flesh, marks of abjuration against the foe and secret messages between Space Wolves alike.",
       "detachment": "Champions of Fenris"
@@ -7781,7 +8602,9 @@
       "effect": "Until the end of the phase, each time a model in your unit makes a Consolidation move, it can move up to 6\" instead of up to 3\", provided your unit ends that Consolidation move in Unit Coherency and within Engagement Range of one or more enemy units. In addition, if the Saga of Majesty has been completed by your army, each enemy unit within 6\" of your unit when it ends that Consolidation move must take a Battle-shock test.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "CHSW",
       "fluff": "Having stalked their prey or run them to ground, all that remains is to go for the enemy’s weakest points, to rip them apart in a furious bloodletting. Onlookers are stricken with terror at the bloody spectacle, an instant before the sons of Russ pounce upon them.",
       "detachment": "Champions of Russ"
@@ -7796,7 +8619,9 @@
       "effect": "Until the end of the turn, your unit is eligible to shoot even though it Fell Back or Advanced this phase. If the Saga of the Warrior Born has been completed by your army, until the end of the turn, your unit is also eligible to declare a charge.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["movement"],
+      "phase": [
+        "movement"
+      ],
       "faction_id": "CHSW",
       "fluff": "Once their blades and claws run red with the enemy’s blood, nothing will hold the savage sons of Russ back from new prey.",
       "detachment": "Champions of Russ"
@@ -7811,7 +8636,10 @@
       "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds and Psychic Attacks. If the Saga of the Bear has been completed by your army, until the end of the phase, models in your unit have the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks instead.",
       "restrictions": "",
       "type": "Wargear",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "CHSW",
       "fluff": "Imbued as they are with the cunning psychic might of the Rune Priests, shamanistic totems, tattoos and fetishes are a potent shield against baleful attacks and the foul sorcery of witches.",
       "detachment": "Champions of Russ"

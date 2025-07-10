@@ -34,13 +34,8 @@ def find_matching_datasheet(datasheet_name, munitorum_units):
 def update_datasheet_points(datasheet, munitorum_unit):
     datasheet['points'] = []
     for cost in munitorum_unit.get('costs', []):
-        # On garde la structure la plus simple possible
-        new_point = {
-            "cost": cost["cost"],
-            "name": cost.get("cost_name", None),
-        }
-        if "source" in cost:
-            new_point["source"] = cost["source"]
+        # Copier toutes les clés du coût tel quel
+        new_point = {k: v for k, v in cost.items()}
         datasheet['points'].append(new_point)
 
 def main():

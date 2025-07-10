@@ -147,7 +147,8 @@ def extract_munitorum_data(pdf_path: str) -> Dict[str, Any]:
                 
                 for model_count, cost_value in cost_matches:
                     current_unit["costs"].append({
-                        "cost_name": f"{model_count} model",
+                        "name": "model",
+                        "model": model_count,
                         "cost": cost_value
                     })
                 
@@ -190,8 +191,17 @@ def extract_munitorum_data(pdf_path: str) -> Dict[str, Any]:
             for unit in agents_faction["units"]:
                 if unit["name"].strip() == enh["category"].strip():
                     for enh_item in enh.get("enhancements", []):
+                        # Essayer d'extraire le nombre et le type depuis le nom de l'enhancement (ex: '1 model')
+                        m = re.match(r'^(\d+)\s*(model|models)', enh_item["name"].strip(), re.IGNORECASE)
+                        if m:
+                            model = int(m.group(1))
+                            name_type = "model"
+                        else:
+                            model = None
+                            name_type = enh_item["name"].strip()
                         unit["costs"].append({
-                            "cost_name": enh_item["name"],
+                            "name": name_type,
+                            "model": model,
                             "cost": enh_item["cost"],
                             "source": "ALLIED"
                         })
@@ -239,7 +249,12 @@ if __name__ == "__main__":
                 for unit in faction['units'][:2]:
                     print(f"    - {unit['name']}: {len(unit['costs'])} coûts")
                     for cost in unit['costs'][:2]:
-                        print(f"      {cost['cost_name']}: {cost['cost']} pts")
+                        if 'model' in cost and 'name' in cost:
+                            print(f"      {cost['model']} {cost['name']}: {cost['cost']} pts")
+                        elif 'name' in cost:
+                            print(f"      {cost['name']}: {cost['cost']} pts")
+                        else:
+                            print(f"      {cost}: {cost.get('cost', '')} pts")
             
             # Afficher quelques exemples d'améliorations
             if faction['enhancements']:

@@ -138,22 +138,12 @@
           "showName": false,
           "sv": "3+",
           "t": "8",
-          "w": "10",
-          "id": "f0d209ba-8e2f-4663-8f1e-48034f75437c"
+          "w": "10"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s heavy bolter can be replaced with 1 assault cannon."
-      ],
-      "compo_structure": [
-        {
-          "name": "Ravenwing Darkshroud",
-          "id": "f0d209ba-8e2f-4663-8f1e-48034f75437c",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -362,8 +352,7 @@
           "showName": false,
           "sv": "3+",
           "t": "6",
-          "w": "6",
-          "id": "d2629c2f-e93f-4a5e-bf8c-4f186409319e"
+          "w": "6"
         }
       ],
       "transport": "",
@@ -377,16 +366,7 @@
           "HEAVY INTERCESSOR SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Captain in Gravis Armour",
-          "id": "d2629c2f-e93f-4a5e-bf8c-4f186409319e",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -597,23 +577,13 @@
           "showName": false,
           "sv": "2+",
           "t": "10",
-          "w": "12",
-          "id": "12a096eb-828f-4fb2-af4b-fedb54179d04"
+          "w": "12"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s blood fists and blood fist bolt rifles can be replaced with 1 blood talons.",
         "This model’s twin heavy bolter can be replaced with 1 twin multi-melta."
-      ],
-      "compo_structure": [
-        {
-          "name": "Death Company Dreadnought",
-          "id": "12a096eb-828f-4fb2-af4b-fedb54179d04",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -736,8 +706,7 @@
           "showName": false,
           "sv": "2+",
           "t": "4",
-          "w": "5",
-          "id": "056ed2b6-29ab-4070-b4bd-9da2efbb19cb"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -755,16 +724,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Adrax Agatone",
-          "id": "056ed2b6-29ab-4070-b4bd-9da2efbb19cb",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -983,8 +943,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "5f716285-5c08-428e-ba16-35f175a52193"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -1020,22 +979,6 @@
         "Captain",
         "Chaplain Grimaldus",
         "Chaplain"
-      ],
-      "compo_structure": [
-        {
-          "name": "Assault Intercessor Sergeant",
-          "id": "5f716285-5c08-428e-ba16-35f175a52193",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Assault Intercessors",
-          "id": "5f716285-5c08-428e-ba16-35f175a52193",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -1333,8 +1276,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "e94c41b7-ce50-4059-87b4-9c99313e0735"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -1349,16 +1291,7 @@
           "LONG FANGS"
         ],
         "extra": "You must attach this model to one of the above units, and can do so even if one or more CHARACTER units have already been attached to that unit, but a unit can never include more than one PACK LEADER model. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths. If it is not possible to attach this model to a unit, it does not take part in the battle and counts as having been destroyed."
-      },
-      "compo_structure": [
-        {
-          "name": "Wolf Guard Pack Leader",
-          "id": "e94c41b7-ce50-4059-87b4-9c99313e0735",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -1516,29 +1449,12 @@
           "showName": true,
           "sv": "3+",
           "t": "6",
-          "w": "3",
-          "id": "daa26023-9259-4eac-9f74-84f05821d22c"
+          "w": "3"
         }
       ],
       "transport": "",
       "wargear": [
         "All models in this unit can each have their assault bolters replaced with 1 plasma exterminators."
-      ],
-      "compo_structure": [
-        {
-          "name": "Inceptor Sergeant",
-          "id": "daa26023-9259-4eac-9f74-84f05821d22c",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Inceptors",
-          "id": "daa26023-9259-4eac-9f74-84f05821d22c",
-          "count": 2,
-          "min": 2,
-          "max": 5
-        }
       ]
     },
     {
@@ -1688,22 +1604,12 @@
           "showName": false,
           "sv": "3+",
           "t": "9",
-          "w": "11",
-          "id": "acc09c5b-b5ce-4d72-97d2-2f866907fd86"
+          "w": "11"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Storm Speeder Hailstrike",
-          "id": "acc09c5b-b5ce-4d72-97d2-2f866907fd86",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -1864,8 +1770,7 @@
           "showName": false,
           "sv": "2+",
           "t": "4",
-          "w": "4",
-          "id": "9b95e293-38e2-4b91-8292-65c3ccfe9758"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -1881,16 +1786,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Techmarine",
-          "id": "9b95e293-38e2-4b91-8292-65c3ccfe9758",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -2078,8 +1974,7 @@
           "showName": true,
           "sv": "3+",
           "t": "5",
-          "w": "3",
-          "id": "0873295b-7e35-4cd9-ac57-a7bf1423e114"
+          "w": "3"
         }
       ],
       "transport": "",
@@ -2089,22 +1984,6 @@
       "leadBy": [
         "Ravenwing Command Squad",
         "Sammael"
-      ],
-      "compo_structure": [
-        {
-          "name": "Ravenwing Huntmaster",
-          "id": "0873295b-7e35-4cd9-ac57-a7bf1423e114",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Ravenwing Black Knights",
-          "id": "0873295b-7e35-4cd9-ac57-a7bf1423e114",
-          "count": 2,
-          "min": 2,
-          "max": 5
-        }
       ]
     },
     {
@@ -2276,8 +2155,7 @@
           "showName": false,
           "sv": "2+",
           "t": "4",
-          "w": "4",
-          "id": "3e272ec3-e574-41dd-a0cc-9d93812a67e7"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -2296,16 +2174,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Ezekiel",
-          "id": "3e272ec3-e574-41dd-a0cc-9d93812a67e7",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -2440,8 +2309,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "5",
-          "id": "26cd0a68-2a28-4011-ad29-175bf23d2ca7"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -2454,16 +2322,7 @@
           "VANGUARD VETERAN SQUAD WITH JUMP PACKS"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Kayvaan Shrike",
-          "id": "26cd0a68-2a28-4011-ad29-175bf23d2ca7",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -2647,23 +2506,13 @@
           "showName": false,
           "sv": "3+",
           "t": "10",
-          "w": "12",
-          "id": "7c02dfae-9fbf-424c-b33d-de3c38190199"
+          "w": "12"
         }
       ],
       "transport": "",
       "wargear": [
         "This model can be equipped with 1 Icarus rocket pod.",
         "This model can be equipped with one of the following: ◦ 1 ironhail heavy stubber ◦ 1 multi-melta"
-      ],
-      "compo_structure": [
-        {
-          "name": "Gladiator Reaper",
-          "id": "7c02dfae-9fbf-424c-b33d-de3c38190199",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -2818,8 +2667,7 @@
           "showName": true,
           "sv": "3+",
           "t": "6",
-          "w": "3",
-          "id": "9061efa4-18bd-4203-abca-2ea58b915c57"
+          "w": "3"
         }
       ],
       "transport": "",
@@ -2832,22 +2680,6 @@
         "Tor Garadon",
         "Apothecary Biologis",
         "Iron Father Feirros"
-      ],
-      "compo_structure": [
-        {
-          "name": "Eradicator Sergeant",
-          "id": "9061efa4-18bd-4203-abca-2ea58b915c57",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Eradicators",
-          "id": "9061efa4-18bd-4203-abca-2ea58b915c57",
-          "count": 2,
-          "min": 2,
-          "max": 5
-        }
       ]
     },
     {
@@ -3044,8 +2876,7 @@
           "showName": true,
           "sv": "3+",
           "t": "6",
-          "w": "4",
-          "id": "0e815c71-a1f0-47ed-9a42-f842a0ca4b3b"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -3058,22 +2889,6 @@
         "Wolf Lord on Thunderwolf",
         "Wolf Guard Battle Leader on Thunderwolf",
         "Logan Grimnar on Stormrider"
-      ],
-      "compo_structure": [
-        {
-          "name": "Thunderwolf Cavalry Pack Leader",
-          "id": "0e815c71-a1f0-47ed-9a42-f842a0ca4b3b",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Thunderwolf Cavalry",
-          "id": "0e815c71-a1f0-47ed-9a42-f842a0ca4b3b",
-          "count": 2,
-          "min": 2,
-          "max": 5
-        }
       ]
     },
     {
@@ -3196,8 +3011,7 @@
           "showName": false,
           "sv": "2+",
           "t": "4",
-          "w": "5",
-          "id": "9ae76fba-f9df-477a-9bf3-417fc0c2e9a8"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -3213,16 +3027,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Captain Sicarius",
-          "id": "9ae76fba-f9df-477a-9bf3-417fc0c2e9a8",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -3377,8 +3182,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "d6488d22-e3d6-4724-b9c2-751abc550145"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -3397,16 +3201,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Librarian",
-          "id": "d6488d22-e3d6-4724-b9c2-751abc550145",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -3532,8 +3327,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "6228b811-bb44-45d4-af8b-ebaf0c9e9a34"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -3546,16 +3340,7 @@
           "FORTIS KILL TEAM"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Watch Captain Artemis",
-          "id": "6228b811-bb44-45d4-af8b-ebaf0c9e9a34",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -3701,8 +3486,7 @@
           "showName": false,
           "sv": "2+",
           "t": "4",
-          "w": "5",
-          "id": "ef3bcf9e-8c0d-430b-b694-af1cd47b0544"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -3717,16 +3501,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Vulkan He’stan",
-          "id": "ef3bcf9e-8c0d-430b-b694-af1cd47b0544",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -3855,8 +3630,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "5",
-          "id": "27c1698d-b55a-43f9-8e7b-db80da9a3d5c"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -3873,16 +3647,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Kor’sarro Khan",
-          "id": "27c1698d-b55a-43f9-8e7b-db80da9a3d5c",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -4144,23 +3909,13 @@
           "showName": false,
           "sv": "2+",
           "t": "9",
-          "w": "8",
-          "id": "0454f740-65a6-4624-a172-ef83019b7f79"
+          "w": "8"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s Dreadnought combat weapon and storm bolter can be replaced with one of the following: ◦ 1 missile launcher and 1 close combat weapon ◦ 1 heavy flamer and 1 Dreadnought combat weapon",
         "This model’s assault cannon can be replaced with one of the following: ◦ 1 heavy plasma cannon ◦ 1 multi-melta ◦ 1 twin lascannon"
-      ],
-      "compo_structure": [
-        {
-          "name": "Dreadnought",
-          "id": "0454f740-65a6-4624-a172-ef83019b7f79",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -4350,8 +4105,7 @@
           "showName": false,
           "sv": "3+",
           "t": "10",
-          "w": "11",
-          "id": "44351b3b-b73f-4cde-9840-95a16c1ec9b2"
+          "w": "11"
         }
       ],
       "transport": "",
@@ -4359,15 +4113,6 @@
         "This model can be equipped with 1 storm bolter.",
         "This model can be equipped with 1 hunter-killer missile.",
         "This model can be equipped with one of the following: ◦ 2 heavy bolters ◦ 2 lascannons"
-      ],
-      "compo_structure": [
-        {
-          "name": "Predator Destructor",
-          "id": "44351b3b-b73f-4cde-9840-95a16c1ec9b2",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -4488,8 +4233,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "7d32b5e0-77f7-4d34-905e-7372fe2d3ef8"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -4508,16 +4252,7 @@
           "STERNGUARD VETERAN SQUAD"
         ],
         "extra": "You can attach this model to one of the above units, even if one CAPTAIN, CHAPTER MASTER or LIEUTENANT model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
-      },
-      "compo_structure": [
-        {
-          "name": "Sanguinary Priest",
-          "id": "7d32b5e0-77f7-4d34-905e-7372fe2d3ef8",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -4641,8 +4376,7 @@
           "showName": false,
           "sv": "2+",
           "t": "5",
-          "w": "6",
-          "id": "a95a3bd9-7646-4bcb-afb5-14d3919154f5"
+          "w": "6"
         }
       ],
       "transport": "",
@@ -4657,16 +4391,7 @@
           "WOLF GUARD TERMINATORS"
         ],
         "extra": "You can attach this model to one of the above units even if one CAPTAIN or CHAPTER MASTER model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
-      },
-      "compo_structure": [
-        {
-          "name": "Arjac Rockfist",
-          "id": "a95a3bd9-7646-4bcb-afb5-14d3919154f5",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -4833,8 +4558,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "3",
-          "id": "438174b5-4339-417c-8701-fb40c8635db1"
+          "w": "3"
         }
       ],
       "transport": "",
@@ -4859,22 +4583,6 @@
         "Captain",
         "Chaplain",
         "Bladeguard Ancient"
-      ],
-      "compo_structure": [
-        {
-          "name": "Bladeguard Veteran Sergeant",
-          "id": "438174b5-4339-417c-8701-fb40c8635db1",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Bladeguard Veterans",
-          "id": "438174b5-4339-417c-8701-fb40c8635db1",
-          "count": 2,
-          "min": 2,
-          "max": 5
-        }
       ]
     },
     {
@@ -5116,22 +4824,12 @@
           "showName": false,
           "sv": "2+",
           "t": "9",
-          "w": "8",
-          "id": "8c21955f-f4c7-44e7-9032-7236010b946c"
+          "w": "8"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s assault cannon can be replaced with one of the following: ◦ heavy plasma cannon ◦ helfrost cannon ◦ multi-melta ◦ twin lascannon"
-      ],
-      "compo_structure": [
-        {
-          "name": "Bjorn the Fell-Handed",
-          "id": "8c21955f-f4c7-44e7-9032-7236010b946c",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -5458,8 +5156,7 @@
           "showName": false,
           "sv": "2+",
           "t": "9",
-          "w": "8",
-          "id": "509095b7-a505-4ac3-ae81-a8f0f187646c"
+          "w": "8"
         }
       ],
       "transport": "",
@@ -5467,15 +5164,6 @@
         "This model’s assault cannon, storm bolter and Dreadnought combat weapon can be replaced with one of the following: ◦ 1 Fenrisian great axe, 1 blizzard shield and 1 storm bolter ◦ 1 Fenrisian great axe, 1 blizzard shield and 1 heavy flamer",
         "This model’s Dreadnought combat weapon and storm bolter can be replaced with one of the following: ◦ 1 missile launcher and 1 close combat weapon ◦ 1 Dreadnought combat weapon and 1 heavy flamer",
         "This model’s assault cannon can be replaced with one of the following: ◦ 1 helfrost cannon ◦ 1 multi-melta ◦ 1 plasma cannon ◦ 1 twin lascannon"
-      ],
-      "compo_structure": [
-        {
-          "name": "Space Wolves Venerable Dreadnought",
-          "id": "509095b7-a505-4ac3-ae81-a8f0f187646c",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -5690,8 +5378,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "5",
-          "id": "29a3aadc-9a48-4c12-9eda-536ef151dac4"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -5704,16 +5391,7 @@
           "DEATH COMPANY MARINES WITH JUMP PACKS"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Death Company Captain with Jump Pack",
-          "id": "29a3aadc-9a48-4c12-9eda-536ef151dac4",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -5845,22 +5523,12 @@
           "showName": false,
           "sv": "2+",
           "t": "6",
-          "w": "6",
-          "id": "0bf4429f-bf83-4eee-aaf4-d403de21d0c5"
+          "w": "6"
         }
       ],
       "transport": "",
       "wargear": [
         "Any number of models can each have their twin Firestrike las-talon replaced with 1 twin Firestrike autocannon."
-      ],
-      "compo_structure": [
-        {
-          "name": "Firestrike Servo-turrets",
-          "id": "0bf4429f-bf83-4eee-aaf4-d403de21d0c5",
-          "count": 1,
-          "min": 1,
-          "max": 2
-        }
       ]
     },
     {
@@ -6084,8 +5752,7 @@
           "showName": false,
           "sv": "3+",
           "t": "9",
-          "w": "11",
-          "id": "894ac033-3a53-4ef0-8528-92ae45adbc00"
+          "w": "11"
         }
       ],
       "transport": "This model has a transport capacity of 7 TACTICUS or PHOBOS INFANTRY models. It cannot transport JUMP PACK models.",
@@ -6093,15 +5760,6 @@
         "This model can be equipped with one of the following: ◦ 1 bellicatus missile array ◦ 1 ironhail skytalon array ◦ 1 orbital comms array ◦ 1 shield dome",
         "This model’s 2 storm bolters can be replaced with 2 fragstorm grenade launchers.",
         "This model can be equipped with 1 ironhail heavy stubber."
-      ],
-      "compo_structure": [
-        {
-          "name": "Impulsor",
-          "id": "894ac033-3a53-4ef0-8528-92ae45adbc00",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -6246,22 +5904,12 @@
           "showName": false,
           "sv": "3+",
           "t": "9",
-          "w": "11",
-          "id": "ea8e147b-04e0-452c-8cd4-788eecf6bd15"
+          "w": "11"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Storm Speeder Hammerstrike",
-          "id": "ea8e147b-04e0-452c-8cd4-788eecf6bd15",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -6532,8 +6180,7 @@
           "showName": true,
           "sv": "2+",
           "t": "5",
-          "w": "3",
-          "id": "933a294e-7c1c-4cb9-a054-f85462ea6548"
+          "w": "3"
         }
       ],
       "transport": "",
@@ -6544,22 +6191,6 @@
       ],
       "leadBy": [
         "Belial"
-      ],
-      "compo_structure": [
-        {
-          "name": "Deathwing Sergeant",
-          "id": "933a294e-7c1c-4cb9-a054-f85462ea6548",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Deathwing Terminators",
-          "id": "933a294e-7c1c-4cb9-a054-f85462ea6548",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -6832,8 +6463,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "d76feaf6-4b13-436d-ad91-fe6353e4d2a0"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -6844,15 +6474,6 @@
       ],
       "leadBy": [
         "Death Company Captain"
-      ],
-      "compo_structure": [
-        {
-          "name": "Death Company Marines",
-          "id": "d76feaf6-4b13-436d-ad91-fe6353e4d2a0",
-          "count": 5,
-          "min": 5,
-          "max": 10
-        }
       ]
     },
     {
@@ -6974,8 +6595,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "d7d5e1e9-4097-4cce-bac4-e64179a26d38"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -6992,16 +6612,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Judiciar",
-          "id": "d7d5e1e9-4097-4cce-bac4-e64179a26d38",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -7523,8 +7134,7 @@
           "showName": true,
           "sv": "4+",
           "t": "4",
-          "w": "2",
-          "id": "4ec8dd95-cb58-4c95-8725-4cbc3a418162"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -7533,22 +7143,6 @@
         "1 Wolf Scout’s boltgun and bolt pistol can be replaced with one of the following: ◦ 1 bolt pistol and 1 power weapon ◦ 1 plasma pistol and 1 boltgun",
         "1 Wolf Scout’s boltgun can be replaced with one of the following: ◦ 1 flamer ◦ 1 grav-gun ◦ 1 heavy bolter ◦ 1 meltagun ◦ 1 missile launcher ◦ 1 plasma gun",
         "Any number of models can each have their boltgun replaced with one of the following: ◦ 1 Astartes shotgun ◦ 1 combat knife"
-      ],
-      "compo_structure": [
-        {
-          "name": "Wolf Scout Pack Leader",
-          "id": "4ec8dd95-cb58-4c95-8725-4cbc3a418162",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Wolf Scouts",
-          "id": "4ec8dd95-cb58-4c95-8725-4cbc3a418162",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -7657,8 +7251,7 @@
           "showName": false,
           "sv": "2+",
           "t": "4",
-          "w": "5",
-          "id": "aee3dca2-8c5e-431d-8c0d-ae723cb5fbec"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -7670,16 +7263,7 @@
           "DEATH COMPANY MARINES WITH JUMP PACKS"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Astorath",
-          "id": "aee3dca2-8c5e-431d-8c0d-ae723cb5fbec",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -7862,8 +7446,7 @@
           "showName": false,
           "sv": "3+",
           "t": "10",
-          "w": "12",
-          "id": "8d12f12b-3a9f-43fc-94ed-b5b506ae48ef"
+          "w": "12"
         }
       ],
       "transport": "",
@@ -7871,15 +7454,6 @@
         "This model can be equipped with 1 Icarus rocket pod.",
         "This model can be equipped with 1 ironhail heavy stubber.",
         "This model’s 2 storm bolters can be replaced with 2 fragstorm grenade launchers."
-      ],
-      "compo_structure": [
-        {
-          "name": "Gladiator Lancer",
-          "id": "8d12f12b-3a9f-43fc-94ed-b5b506ae48ef",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -8021,8 +7595,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "b53cf474-b449-459e-a16a-899e42ebd827"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -8034,16 +7607,7 @@
           "BLOOD CLAWS"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Lukas the Trickster",
-          "id": "b53cf474-b449-459e-a16a-899e42ebd827",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -8189,8 +7753,7 @@
           "showName": true,
           "sv": "2+",
           "t": "6",
-          "w": "6",
-          "id": "2f298854-e998-489f-ac6f-92bc92134631"
+          "w": "6"
         },
         {
           "active": true,
@@ -8202,8 +7765,7 @@
           "showName": true,
           "sv": "2+",
           "t": "4",
-          "w": "3",
-          "id": "f969048b-4d8b-4e4b-828f-0dcc185424a0"
+          "w": "3"
         }
       ],
       "transport": "",
@@ -8224,23 +7786,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Marneus Calgar",
-          "id": "2f298854-e998-489f-ac6f-92bc92134631",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Victrix Honour Guard",
-          "id": "f969048b-4d8b-4e4b-828f-0dcc185424a0",
-          "count": 2,
-          "min": 2,
-          "max": 2
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -8395,8 +7941,7 @@
           "showName": false,
           "sv": "2+",
           "t": "5",
-          "w": "6",
-          "id": "81dca59e-5dfa-405c-abeb-04c4180825b4"
+          "w": "6"
         }
       ],
       "transport": "",
@@ -8410,16 +7955,7 @@
           "TERMINATOR SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Captain in Terminator Armour",
-          "id": "81dca59e-5dfa-405c-abeb-04c4180825b4",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -8553,8 +8089,7 @@
           "showName": false,
           "sv": "2+",
           "t": "4",
-          "w": "5",
-          "id": "69f0ed0a-720c-41c2-a61c-56ba6561b069"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -8569,16 +8104,7 @@
           "PRIMARIS SWORD BRETHREN"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "High Marshal Helbrecht",
-          "id": "69f0ed0a-720c-41c2-a61c-56ba6561b069",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -8716,8 +8242,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "5",
-          "id": "b519dd3f-4d8a-455a-88e2-d8382c19ac56"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -8734,23 +8259,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Uriel Ventris",
-          "id": "b519dd3f-4d8a-455a-88e2-d8382c19ac56",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "This model is equipped with: bolt pistol; Invictus; Sword of Idaeus.",
-          "id": "b519dd3f-4d8a-455a-88e2-d8382c19ac56",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -8895,8 +8404,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "3",
-          "id": "b0c5e6bb-2b2a-4a3b-8616-d72733e5ab03"
+          "w": "3"
         }
       ],
       "transport": "",
@@ -8908,15 +8416,6 @@
         "Azrael",
         "Asmodai",
         "Lazarus"
-      ],
-      "compo_structure": [
-        {
-          "name": "Inner Circle Companions",
-          "id": "b0c5e6bb-2b2a-4a3b-8616-d72733e5ab03",
-          "count": 3,
-          "min": 3,
-          "max": 6
-        }
       ]
     },
     {
@@ -9052,8 +8551,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "07928d7c-199a-424b-964d-0bcd096dc324"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -9068,16 +8566,7 @@
           "WOLF GUARD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Ulrik the Slayer",
-          "id": "07928d7c-199a-424b-964d-0bcd096dc324",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -9309,8 +8798,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "5",
-          "id": "ea41bc63-f7f8-4cc9-9c05-44618fb540e0"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -9325,16 +8813,7 @@
           "VANGUARD VETERAN SQUAD WITH JUMP PACKS"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Captain with Jump Pack",
-          "id": "ea41bc63-f7f8-4cc9-9c05-44618fb540e0",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -9479,22 +8958,12 @@
           "showName": false,
           "sv": "3+",
           "t": "9",
-          "w": "11",
-          "id": "a7be5c71-8cd3-40fa-a330-cb94d0cb71b1"
+          "w": "11"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Storm Speeder Thunderstrike",
-          "id": "a7be5c71-8cd3-40fa-a330-cb94d0cb71b1",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -9703,23 +9172,13 @@
           "showName": false,
           "sv": "3+",
           "t": "12",
-          "w": "16",
-          "id": "017ad7b1-e090-47f9-bc50-ac8b564e9326"
+          "w": "16"
         }
       ],
       "transport": "This model has a transport capacity of 14 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.",
       "wargear": [
         "This model’s heavy onslaught gatling cannon can be replaced with 1 las-talon.",
         "This model’s twin heavy bolter can be replaced with 1 twin lascannon."
-      ],
-      "compo_structure": [
-        {
-          "name": "Repulsor",
-          "id": "017ad7b1-e090-47f9-bc50-ac8b564e9326",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -9876,22 +9335,12 @@
           "showName": false,
           "sv": "2+",
           "t": "12",
-          "w": "14",
-          "id": "ff1b14a2-a229-4171-9a00-44cde754ed05"
+          "w": "14"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s Hammerfall heavy bolter array can be replaced with 1 Hammerfall heavy flamer array."
-      ],
-      "compo_structure": [
-        {
-          "name": "Hammerfall Bunker",
-          "id": "ff1b14a2-a229-4171-9a00-44cde754ed05",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -10025,29 +9474,12 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "986958c0-6f7e-49b0-94b0-7512edae4a3a"
+          "w": "2"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Suppressor Sergeant",
-          "id": "986958c0-6f7e-49b0-94b0-7512edae4a3a",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Suppressors",
-          "id": "986958c0-6f7e-49b0-94b0-7512edae4a3a",
-          "count": 2,
-          "min": 2,
-          "max": 2
-        }
       ]
     },
     {
@@ -10224,8 +9656,7 @@
           "showName": false,
           "sv": "2+",
           "t": "5",
-          "w": "5",
-          "id": "d3f668c4-2981-4964-b275-c25483068877"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -10238,16 +9669,7 @@
           "TERMINATOR SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Librarian in Terminator Armour",
-          "id": "d3f668c4-2981-4964-b275-c25483068877",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -10381,8 +9803,7 @@
           "showName": false,
           "sv": "2+",
           "t": "4",
-          "w": "6",
-          "id": "aa40ce2f-ad84-4725-8eec-ac61e5b3ab73"
+          "w": "6"
         }
       ],
       "transport": "",
@@ -10401,16 +9822,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Azrael",
-          "id": "aa40ce2f-ad84-4725-8eec-ac61e5b3ab73",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -10682,8 +10094,7 @@
           "showName": false,
           "sv": "3+",
           "t": "12",
-          "w": "16",
-          "id": "30551946-0fd7-4f3f-85be-8d2dc090a58b"
+          "w": "16"
         }
       ],
       "transport": "This model has a transport capacity of 7 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.",
@@ -10691,15 +10102,6 @@
         "This model can be equipped with 1 Icarus rocket pod.",
         "This model can be equipped with one of the following: ◦ 1 ironhail heavy stubber ◦ 1 multi-melta",
         "This model’s macro plasma incinerator can be replaced with 1 heavy laser destroyer."
-      ],
-      "compo_structure": [
-        {
-          "name": "Repulsor Executioner",
-          "id": "30551946-0fd7-4f3f-85be-8d2dc090a58b",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -10806,8 +10208,7 @@
           "showName": false,
           "sv": "6+",
           "t": "4",
-          "w": "2",
-          "id": "6451f36e-42b9-4718-80d8-e26e3f2acfc5"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -10819,16 +10220,7 @@
           "FENRISIAN WOLVES"
         ],
         "extra": "You must attach this model to the above unit, even if CANIS WOLFBORN has been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths. If it is not possible to attach this model to a unit, it does not take part in the battle and counts as having been destroyed."
-      },
-      "compo_structure": [
-        {
-          "name": "Cyberwolf",
-          "id": "6451f36e-42b9-4718-80d8-e26e3f2acfc5",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -10952,8 +10344,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "5",
-          "id": "95ed7ac9-bab9-4c0d-be84-bd6edde33fd2"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -10970,16 +10361,7 @@
           "INTERCESSOR SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Ragnar Blackmane",
-          "id": "95ed7ac9-bab9-4c0d-be84-bd6edde33fd2",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -11412,8 +10794,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "a778ee0e-a000-434f-8825-8a4fdf35ed15"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -11428,22 +10809,6 @@
         "Chief Librarian Tigurius",
         "Apothecary",
         "Ancient"
-      ],
-      "compo_structure": [
-        {
-          "name": "Devastator Sergeant",
-          "id": "a778ee0e-a000-434f-8825-8a4fdf35ed15",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Devastator Marines",
-          "id": "a778ee0e-a000-434f-8825-8a4fdf35ed15",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -11756,8 +11121,7 @@
           "showName": true,
           "sv": "2+",
           "t": "5",
-          "w": "3",
-          "id": "5567fc3b-422b-4bf1-9e71-85d277566536"
+          "w": "3"
         }
       ],
       "transport": "",
@@ -11771,22 +11135,6 @@
         "Njal Stormcaller",
         "Wolf Guard Battle Leader in Terminator Armour",
         "Logan Grimnar"
-      ],
-      "compo_structure": [
-        {
-          "name": "Wolf Guard Terminator Pack Leader",
-          "id": "5567fc3b-422b-4bf1-9e71-85d277566536",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Wolf Guard Terminators",
-          "id": "5567fc3b-422b-4bf1-9e71-85d277566536",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -11952,22 +11300,12 @@
           "showName": false,
           "sv": "3+",
           "t": "8",
-          "w": "10",
-          "id": "24b24abf-7ec1-4637-9557-6e6ec8b0b70d"
+          "w": "10"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s heavy bolter can be replaced with 1 assault cannon."
-      ],
-      "compo_structure": [
-        {
-          "name": "Ravenwing Land Speeder Vengeance",
-          "id": "24b24abf-7ec1-4637-9557-6e6ec8b0b70d",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -12125,8 +11463,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "1e827664-e4df-4cce-aa01-e10cca30f671"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -12144,16 +11481,7 @@
           "STERNGUARD VETERAN SQUAD"
         ],
         "extra": "You can attach this model to one of the above units even if one CAPTAIN or CHAPTER MASTER model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
-      },
-      "compo_structure": [
-        {
-          "name": "Castellan",
-          "id": "1e827664-e4df-4cce-aa01-e10cca30f671",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -12434,8 +11762,7 @@
           "showName": true,
           "sv": "3+",
           "t": "6",
-          "w": "3",
-          "id": "068a63aa-ce57-4300-b156-f433f2e52134"
+          "w": "3"
         }
       ],
       "transport": "",
@@ -12443,29 +11770,6 @@
         "Any number of models can each have their flamestorm gauntlets replaced with 1 auto boltstorm gauntlets and 1 fragstorm grenade launcher.",
         "1 model can replace its melta rifle with 1 multi-melta.",
         "For every 5 models in this unit, 1 model can replace its Deathwatch heavy bolt rifle with 1 Deathwatch heavy bolter."
-      ],
-      "compo_structure": [
-        {
-          "name": "3‐10 Kill Team Heavy Intercessors",
-          "id": "068a63aa-ce57-4300-b156-f433f2e52134",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "0‐3 Kill Team Heavy Intercessors with power fists",
-          "id": "068a63aa-ce57-4300-b156-f433f2e52134",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "0‐3 Kill Team Heavy Intercessors with melta rifles",
-          "id": "068a63aa-ce57-4300-b156-f433f2e52134",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -12784,8 +12088,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "7ed5781b-51b9-4e64-ab7a-278d560e76d2"
+          "w": "2"
         },
         {
           "active": true,
@@ -12797,8 +12100,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "292fadbe-8952-45f1-a321-a92a128f694c"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -12816,22 +12118,6 @@
       "leadBy": [
         "Watch Captain Artemis",
         "Watch Master"
-      ],
-      "compo_structure": [
-        {
-          "name": "Watch Sergeant",
-          "id": "7ed5781b-51b9-4e64-ab7a-278d560e76d2",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "4‐9 Deathwatch Veterans",
-          "id": "292fadbe-8952-45f1-a321-a92a128f694c",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -12989,8 +12275,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "1c306267-ac99-40d9-9a08-c3aba7fe2503"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -13008,16 +12293,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Chief Librarian Tigurius",
-          "id": "1c306267-ac99-40d9-9a08-c3aba7fe2503",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -13208,30 +12484,13 @@
           "showName": true,
           "sv": "2+",
           "t": "7",
-          "w": "4",
-          "id": "a23cb36c-235b-44ee-8eef-651156feef74"
+          "w": "4"
         }
       ],
       "transport": "",
       "wargear": [
         "Any number of models can each have their grav-cannon replaced with one of the following: ◦ 1 twin heavy bolter ◦ 1 twin lascannon",
         "Any number of models can each have their Centurion bolters replaced with 1 Centurion missile launcher."
-      ],
-      "compo_structure": [
-        {
-          "name": "Devastator Centurion Sergeant",
-          "id": "a23cb36c-235b-44ee-8eef-651156feef74",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Devastator Centurions",
-          "id": "a23cb36c-235b-44ee-8eef-651156feef74",
-          "count": 2,
-          "min": 2,
-          "max": 5
-        }
       ]
     },
     {
@@ -13486,8 +12745,7 @@
           "showName": false,
           "sv": "3+",
           "t": "12",
-          "w": "16",
-          "id": "c9b66012-c3ba-48ce-9f21-3b0244077177"
+          "w": "16"
         }
       ],
       "transport": "This model has a transport capacity of 7 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.",
@@ -13495,15 +12753,6 @@
         "This model can be equipped with 1 Icarus rocket pod.",
         "This model can be equipped with 1 ironhail heavy stubber.",
         "This model’s macro plasma incinerator can be replaced with 1 heavy laser destroyer."
-      ],
-      "compo_structure": [
-        {
-          "name": "Repulsor Executioner",
-          "id": "c9b66012-c3ba-48ce-9f21-3b0244077177",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -13686,8 +12935,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "d5ac0e9e-e0f6-4edc-b611-565c903ef9a6"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -13705,22 +12953,6 @@
         "Ancient",
         "Captain",
         "Chaplain"
-      ],
-      "compo_structure": [
-        {
-          "name": "Hellblaster Sergeant",
-          "id": "d5ac0e9e-e0f6-4edc-b611-565c903ef9a6",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Hellblasters",
-          "id": "d5ac0e9e-e0f6-4edc-b611-565c903ef9a6",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -13877,8 +13109,7 @@
           "showName": true,
           "sv": "3+",
           "t": "6",
-          "w": "3",
-          "id": "f5e4e35e-b0a5-4e45-8fd3-afde805a3350"
+          "w": "3"
         }
       ],
       "transport": "",
@@ -13891,22 +13122,6 @@
         "Tor Garadon",
         "Apothecary Biologis",
         "Iron Father Feirros"
-      ],
-      "compo_structure": [
-        {
-          "name": "Heavy Intercessor Sergeant",
-          "id": "f5e4e35e-b0a5-4e45-8fd3-afde805a3350",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Heavy Intercessors",
-          "id": "f5e4e35e-b0a5-4e45-8fd3-afde805a3350",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -14172,8 +13387,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "3",
-          "id": "37d731b4-e23a-47ae-b3db-f66760d894a4"
+          "w": "3"
         }
       ],
       "transport": "",
@@ -14191,22 +13405,6 @@
         "Marshal",
         "The Emperor’s Champion",
         "Chaplain Grimaldus"
-      ],
-      "compo_structure": [
-        {
-          "name": "Sword Brother Castellan",
-          "id": "37d731b4-e23a-47ae-b3db-f66760d894a4",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Primaris Sword Brothers",
-          "id": "37d731b4-e23a-47ae-b3db-f66760d894a4",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -14410,22 +13608,12 @@
           "showName": false,
           "sv": "3+",
           "t": "10",
-          "w": "14",
-          "id": "773296e8-24ca-4364-8e01-a9cd465ad359"
+          "w": "14"
         }
       ],
       "transport": "This model has a transport capacity of 16 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.",
       "wargear": [
         "This model’s 2 skyhammer missile launchers can replaced with one of the following: ◦ 2 twin heavy bolters ◦ 2 twin multi-meltas"
-      ],
-      "compo_structure": [
-        {
-          "name": "Stormwolf",
-          "id": "773296e8-24ca-4364-8e01-a9cd465ad359",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -14718,8 +13906,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "2180ce59-eeba-4a53-8fc7-ad48bb031ace"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -14736,22 +13923,6 @@
         "Krom Dragongaze",
         "Iron Priest",
         "Wolf Guard Pack Leader in Terminator Armour"
-      ],
-      "compo_structure": [
-        {
-          "name": "Blood Claw Pack Leader",
-          "id": "2180ce59-eeba-4a53-8fc7-ad48bb031ace",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Blood Claws",
-          "id": "2180ce59-eeba-4a53-8fc7-ad48bb031ace",
-          "count": 9,
-          "min": 9,
-          "max": 14
-        }
       ]
     },
     {
@@ -15007,8 +14178,7 @@
           "showName": true,
           "sv": "4+",
           "t": "4",
-          "w": "2",
-          "id": "41dc1836-3d32-424e-a83a-41be354ad9c1"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -15020,22 +14190,6 @@
       ],
       "leadBy": [
         "Captain in Phobos Armour"
-      ],
-      "compo_structure": [
-        {
-          "name": "Scout Sergeant",
-          "id": "41dc1836-3d32-424e-a83a-41be354ad9c1",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Scouts",
-          "id": "41dc1836-3d32-424e-a83a-41be354ad9c1",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -15184,30 +14338,13 @@
           "showName": true,
           "sv": "4+",
           "t": "5",
-          "w": "2",
-          "id": "dde73b78-2350-401a-9032-09096d24e759"
+          "w": "2"
         }
       ],
       "transport": "",
       "wargear": [
         "Any number of models can each have their Wulfen claws and melee weapons replaced with 1 Wulfen hammer and 1 storm shield.",
         "Any number of models can each be equipped with 1 stormfrag auto-launcher."
-      ],
-      "compo_structure": [
-        {
-          "name": "Wulfen Pack Leader",
-          "id": "dde73b78-2350-401a-9032-09096d24e759",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Wulfen",
-          "id": "dde73b78-2350-401a-9032-09096d24e759",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -15328,8 +14465,7 @@
           "showName": false,
           "sv": "3+",
           "t": "6",
-          "w": "6",
-          "id": "9cd42d8a-1b6c-4e6b-80fc-2e21ff49665b"
+          "w": "6"
         }
       ],
       "transport": "",
@@ -15343,16 +14479,7 @@
           "HEAVY INTERCESSOR SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Tor Garadon",
-          "id": "9cd42d8a-1b6c-4e6b-80fc-2e21ff49665b",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -15471,8 +14598,7 @@
           "showName": false,
           "sv": "3+",
           "t": "6",
-          "w": "5",
-          "id": "ed18fac0-62fc-42f2-9808-ea936be5decb"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -15486,16 +14612,7 @@
           "HEAVY INTERCESSOR SQUAD"
         ],
         "extra": "You can attach this model to one of the above units even if one CAPTAIN or CHAPTER MASTER model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
-      },
-      "compo_structure": [
-        {
-          "name": "Apothecary Biologis",
-          "id": "ed18fac0-62fc-42f2-9808-ea936be5decb",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -16140,8 +15257,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "3b887686-c2dc-4bbd-a908-7c94c70b4250"
+          "w": "2"
         },
         {
           "active": true,
@@ -16153,8 +15269,7 @@
           "showName": true,
           "sv": "4+",
           "t": "4",
-          "w": "2",
-          "id": "91e15b93-e36a-4b7b-bc39-a4540ad27f76"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -16164,29 +15279,6 @@
         "Any number of Initiates can each have their boltgun replaced with 1 Astartes chainsword.",
         "Any number of Neophytes can each have their boltgun replaced with one of the following: ◦ 1 Astartes shotgun ◦ 1 combat knife",
         "The Sword Brother’s bolt pistol and boltgun can be replaced with 1 twin lightning claws or two different weapons from the following list: ◦ 1 Astartes chainsword ◦ 1 bolt pistol ◦ 1 boltgun ◦ 1 combi-weapon ◦ 1 grav-pistol ◦ 1 hand flamer ◦ 1 inferno pistol ◦ 1 plasma pistol ◦ 1 power fist ◦ 1 power weapon ◦ 1 storm bolter ◦ 1 thunder hammer   This model can only be equipped with two ranged weapons if one of them is a Pistol (and it can only have one Pistol)."
-      ],
-      "compo_structure": [
-        {
-          "name": "Sword Brother",
-          "id": "29a2f307-74fd-4efe-817c-c3a04e567fd5",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Initiates",
-          "id": "3b887686-c2dc-4bbd-a908-7c94c70b4250",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        },
-        {
-          "name": "Neophytes",
-          "id": "91e15b93-e36a-4b7b-bc39-a4540ad27f76",
-          "count": 0,
-          "min": 0,
-          "max": 10
-        }
       ]
     },
     {
@@ -16495,8 +15587,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "26700de5-00e5-4059-aa4e-6c932f65f712"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -16513,22 +15604,6 @@
         "Krom Dragongaze",
         "Iron Priest",
         "Wolf Guard Pack Leader in Terminator Armour"
-      ],
-      "compo_structure": [
-        {
-          "name": "Grey Hunter Pack Leader",
-          "id": "26700de5-00e5-4059-aa4e-6c932f65f712",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Grey Hunters",
-          "id": "26700de5-00e5-4059-aa4e-6c932f65f712",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -16731,8 +15806,7 @@
           "showName": false,
           "sv": "3+",
           "t": "10",
-          "w": "12",
-          "id": "90c7c9b0-4724-4ce2-96b5-7b6a4dcca16a"
+          "w": "12"
         }
       ],
       "transport": "",
@@ -16740,15 +15814,6 @@
         "This model can be equipped with 1 Icarus rocket pod.",
         "This model can be equipped with one of the following: ◦ 1 ironhail heavy stubber ◦ 1 multi-melta",
         "This model’s 2 storm bolters can be replaced with 2 fragstorm grenade launchers."
-      ],
-      "compo_structure": [
-        {
-          "name": "Gladiator Lancer",
-          "id": "90c7c9b0-4724-4ce2-96b5-7b6a4dcca16a",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -16916,23 +15981,13 @@
           "showName": false,
           "sv": "2+",
           "t": "9",
-          "w": "8",
-          "id": "b7aebb84-074a-4cf0-be4f-553c04af20ab"
+          "w": "8"
         }
       ],
       "transport": "",
       "wargear": [
         "Any number of this model’s storm bolters can each be replaced with 1 heavy flamer.",
         "This model’s Fenrisian great axe or great wolf claw and storm bolter can be replaced with 1 blizzard shield and 1 storm bolter."
-      ],
-      "compo_structure": [
-        {
-          "name": "Wulfen Dreadnought",
-          "id": "b7aebb84-074a-4cf0-be4f-553c04af20ab",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -17104,8 +16159,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "5",
-          "id": "e4a3afc7-8250-4df2-b47b-ece55b227083"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -17123,16 +16177,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Blood Angels Captain",
-          "id": "e4a3afc7-8250-4df2-b47b-ece55b227083",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -17300,22 +16345,12 @@
           "showName": false,
           "sv": "3+",
           "t": "8",
-          "w": "11",
-          "id": "dc4a958f-dce2-4162-842a-16b923a1744b"
+          "w": "11"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s avenger mega bolter can be replaced with 1 Nephilim lascannons."
-      ],
-      "compo_structure": [
-        {
-          "name": "Nephilim Jetfighter",
-          "id": "dc4a958f-dce2-4162-842a-16b923a1744b",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -17450,8 +16485,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "799bd939-2ecd-48c3-8829-ff759119e81d"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -17470,16 +16504,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Asmodai",
-          "id": "799bd939-2ecd-48c3-8829-ff759119e81d",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -17683,23 +16708,13 @@
           "showName": false,
           "sv": "2+",
           "t": "10",
-          "w": "12",
-          "id": "80bc10a7-e88a-4039-aa5c-6ff0878bcdf3"
+          "w": "12"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s Brutalis fists and Brutalis bolt rifles can be replaced with 1 Brutalis talons.",
         "This model’s twin heavy bolter can be replaced with 1 twin multi-melta."
-      ],
-      "compo_structure": [
-        {
-          "name": "Brutalis Dreadnought",
-          "id": "80bc10a7-e88a-4039-aa5c-6ff0878bcdf3",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -17857,8 +16872,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "01d62c8f-b133-4732-a43e-268367bc89f3"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -17873,16 +16887,7 @@
           "REIVER SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Librarian in Phobos Armour",
-          "id": "01d62c8f-b133-4732-a43e-268367bc89f3",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -18020,8 +17025,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "3cf222de-6166-487b-af4c-a1e6682d9b72"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -18040,16 +17044,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": "You can attach this model to one of the above units even if one CAPTAIN, CHAPTER MASTER or LIEUTENANT model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
-      },
-      "compo_structure": [
-        {
-          "name": "Apothecary",
-          "id": "3cf222de-6166-487b-af4c-a1e6682d9b72",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -18240,8 +17235,7 @@
           "showName": false,
           "sv": "2+",
           "t": "12",
-          "w": "16",
-          "id": "2de946bd-e304-431b-91f0-00478613811d"
+          "w": "16"
         }
       ],
       "transport": "This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.",
@@ -18249,15 +17243,6 @@
         "This model can be equipped with 1 storm bolter.",
         "This model can be equipped with 1 multi-melta.",
         "This model can be equipped with 1 hunter-killer missile."
-      ],
-      "compo_structure": [
-        {
-          "name": "Land Raider",
-          "id": "2de946bd-e304-431b-91f0-00478613811d",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -18501,8 +17486,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "058497e3-110e-4961-bbbd-a93746ad6faa"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -18524,16 +17508,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": "You can attach this model to a unit it can lead even if one CAPTAIN or CHAPTER MASTER model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
-      },
-      "compo_structure": [
-        {
-          "name": "Lieutenant",
-          "id": "058497e3-110e-4961-bbbd-a93746ad6faa",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -18704,8 +17679,7 @@
           "showName": true,
           "sv": "2+",
           "t": "5",
-          "w": "4",
-          "id": "0e9ca715-1750-4547-8848-ccfbb52783fe"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -18716,22 +17690,6 @@
       ],
       "leadBy": [
         "Belial"
-      ],
-      "compo_structure": [
-        {
-          "name": "Knight Master",
-          "id": "0e9ca715-1750-4547-8848-ccfbb52783fe",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Deathwing Knights",
-          "id": "0e9ca715-1750-4547-8848-ccfbb52783fe",
-          "count": 4,
-          "min": 4,
-          "max": 4
-        }
       ]
     },
     {
@@ -18931,22 +17889,12 @@
           "showName": false,
           "sv": "3+",
           "t": "8",
-          "w": "10",
-          "id": "36460e98-f13b-4578-8035-3e4512c60ad6"
+          "w": "10"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s skyhammer missile launcher can be replaced with one of the following: ◦ 1 twin heavy bolter ◦ 1 twin lascannon ◦ 1 typhoon missile launcher"
-      ],
-      "compo_structure": [
-        {
-          "name": "Stormtalon Gunship",
-          "id": "36460e98-f13b-4578-8035-3e4512c60ad6",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -19123,8 +18071,7 @@
           "showName": false,
           "sv": "3+",
           "t": "9",
-          "w": "10",
-          "id": "9cf92338-a259-42f5-8570-7a4de613d165"
+          "w": "10"
         }
       ],
       "transport": "This model has a transport capacity of 6 ADEPTUS ASTARTES INFANTRY models. It cannot transport JUMP PACK, WULFEN, PHOBOS, GRAVIS, CENTURION, TERMINATOR or TACTICUS models (excluding TACTICUS CHARACTER models that began the battle attached to a non-TACTICUS unit).",
@@ -19132,15 +18079,6 @@
         "This model can be equipped with 1 storm bolter.",
         "This model can be equipped with 1 hunter-killer missile.",
         "This model’s twin heavy bolter can be replaced with 1 twin lascannon."
-      ],
-      "compo_structure": [
-        {
-          "name": "Razorback",
-          "id": "9cf92338-a259-42f5-8570-7a4de613d165",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -19316,8 +18254,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "09ca9522-df37-4bde-bf7d-e7ae3d3559a1"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -19328,22 +18265,6 @@
       "leadBy": [
         "Librarian in Phobos Armour",
         "Captain in Phobos Armour"
-      ],
-      "compo_structure": [
-        {
-          "name": "Eliminator Sergeant",
-          "id": "09ca9522-df37-4bde-bf7d-e7ae3d3559a1",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Eliminators",
-          "id": "09ca9522-df37-4bde-bf7d-e7ae3d3559a1",
-          "count": 2,
-          "min": 2,
-          "max": 2
-        }
       ]
     },
     {
@@ -19552,8 +18473,7 @@
           "showName": true,
           "sv": "3+",
           "t": "5",
-          "w": "4",
-          "id": "d48918f1-3a64-4f0d-86c4-68d45f74430d"
+          "w": "4"
         },
         {
           "active": true,
@@ -19565,8 +18485,7 @@
           "showName": true,
           "sv": "3+",
           "t": "5",
-          "w": "8",
-          "id": "0519f32c-e575-4133-aa4a-f3f02a8cb74c"
+          "w": "8"
         }
       ],
       "transport": "",
@@ -19577,29 +18496,6 @@
         "Ravenwing Command Squad",
         "Chaplain on Bike",
         "Sammael"
-      ],
-      "compo_structure": [
-        {
-          "name": "Outrider Sergeant",
-          "id": "d48918f1-3a64-4f0d-86c4-68d45f74430d",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Outriders",
-          "id": "d48918f1-3a64-4f0d-86c4-68d45f74430d",
-          "count": 2,
-          "min": 2,
-          "max": 5
-        },
-        {
-          "name": "Invader ATV",
-          "id": "0519f32c-e575-4133-aa4a-f3f02a8cb74c",
-          "count": 0,
-          "min": 0,
-          "max": 1
-        }
       ]
     },
     {
@@ -19786,8 +18682,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "783367f9-f34a-4200-adc0-a32967fb7424"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -19802,22 +18697,6 @@
         "Chief Librarian Tigurius",
         "Apothecary",
         "Ancient"
-      ],
-      "compo_structure": [
-        {
-          "name": "Desolation Sergeant",
-          "id": "783367f9-f34a-4200-adc0-a32967fb7424",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Desolation Marines",
-          "id": "783367f9-f34a-4200-adc0-a32967fb7424",
-          "count": 4,
-          "min": 4,
-          "max": 4
-        }
       ]
     },
     {
@@ -19988,30 +18867,13 @@
           "showName": true,
           "sv": "2+",
           "t": "7",
-          "w": "4",
-          "id": "8d94702d-c3db-4cfa-8008-8b6409a16557"
+          "w": "4"
         }
       ],
       "transport": "",
       "wargear": [
         "Any number of models can each have their Centurion bolters replaced with 1 Centurion assault launcher.",
         "Any number of models can each have their twin flamer replaced with 1 twin meltagun."
-      ],
-      "compo_structure": [
-        {
-          "name": "Assault Centurion Sergeant",
-          "id": "8d94702d-c3db-4cfa-8008-8b6409a16557",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Assault Centurions",
-          "id": "8d94702d-c3db-4cfa-8008-8b6409a16557",
-          "count": 2,
-          "min": 2,
-          "max": 5
-        }
       ]
     },
     {
@@ -20189,22 +19051,12 @@
           "showName": false,
           "sv": "2+",
           "t": "5",
-          "w": "6",
-          "id": "8ab1f977-cd4a-4c3c-9900-e065f15ae609"
+          "w": "6"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Chief Librarian Mephiston",
-          "id": "8ab1f977-cd4a-4c3c-9900-e065f15ae609",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -20360,23 +19212,13 @@
           "showName": false,
           "sv": "2+",
           "t": "11",
-          "w": "11",
-          "id": "9cfee8a2-f574-4769-a3b9-b784303609ac"
+          "w": "11"
         }
       ],
       "transport": "",
       "wargear": [
         "This model can be equipped with 1 storm bolter.",
         "This model can be equipped with 1 hunter-killer missile."
-      ],
-      "compo_structure": [
-        {
-          "name": "Vindicator",
-          "id": "9cfee8a2-f574-4769-a3b9-b784303609ac",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -20500,8 +19342,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "7dd4cc5f-8c4d-4c95-b241-b88baacb171e"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -20515,16 +19356,7 @@
           "WOLF GUARD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Krom Dragongaze",
-          "id": "7dd4cc5f-8c4d-4c95-b241-b88baacb171e",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -21052,8 +19884,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "5ff0fb18-c8bf-4739-9347-ef2028000d58"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -21085,22 +19916,6 @@
         "Lazarus",
         "Captain",
         "Chaplain"
-      ],
-      "compo_structure": [
-        {
-          "name": "Tactical Sergeant",
-          "id": "5ff0fb18-c8bf-4739-9347-ef2028000d58",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Tactical Marines",
-          "id": "5ff0fb18-c8bf-4739-9347-ef2028000d58",
-          "count": 9,
-          "min": 9,
-          "max": 9
-        }
       ]
     },
     {
@@ -21257,23 +20072,13 @@
           "showName": false,
           "sv": "3+",
           "t": "10",
-          "w": "11",
-          "id": "0e27a4c4-4bab-4efd-9423-59a527d1102d"
+          "w": "11"
         }
       ],
       "transport": "",
       "wargear": [
         "This model can be equipped with 1 storm bolter.",
         "This model can be equipped with 1 hunter-killer missile."
-      ],
-      "compo_structure": [
-        {
-          "name": "Whirlwind",
-          "id": "0e27a4c4-4bab-4efd-9423-59a527d1102d",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -21387,22 +20192,12 @@
           "showName": false,
           "sv": "3+",
           "t": "7",
-          "w": "8",
-          "id": "49ea7a80-deb7-4102-9175-6beacc5a011d"
+          "w": "8"
         }
       ],
       "transport": "This model has a transport capacity of 10 ADEPTUS ASTARTES INFANTRY models. It cannot transport JUMP PACK, WULFEN, GRAVIS, CENTURION or TERMINATOR models.",
       "wargear": [
         "This model’s storm bolter can be replaced with 1 deathwind launcher."
-      ],
-      "compo_structure": [
-        {
-          "name": "Drop Pod",
-          "id": "49ea7a80-deb7-4102-9175-6beacc5a011d",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -21641,8 +20436,7 @@
           "showName": false,
           "sv": "2+",
           "t": "10",
-          "w": "12",
-          "id": "d36547e7-370c-4a17-b67d-62be191d97df"
+          "w": "12"
         }
       ],
       "transport": "",
@@ -21651,15 +20445,6 @@
         "This model’s heavy onslaught gatling cannon can be replaced with 1 macro plasma incinerator.",
         "This model’s heavy flamer can be replaced with 1 onslaught gatling cannon.",
         "This model can be equipped with 1 Icarus rocket pod."
-      ],
-      "compo_structure": [
-        {
-          "name": "Redemptor Dreadnought",
-          "id": "d36547e7-370c-4a17-b67d-62be191d97df",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -21788,8 +20573,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "62665673-9ef4-430c-aa04-0f2aa27a0e23"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -21801,16 +20585,7 @@
           "DEATH COMPANY MARINES WITH JUMP PACKS"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Lemartes",
-          "id": "62665673-9ef4-430c-aa04-0f2aa27a0e23",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -21964,8 +20739,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "467336ee-e2fd-46e2-9a25-ad3f1de7fc2e"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -21984,16 +20758,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": "You can attach this model to one of the above units even if one CAPTAIN, CHAPTER MASTER or LIEUTENANT model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
-      },
-      "compo_structure": [
-        {
-          "name": "Ancient",
-          "id": "467336ee-e2fd-46e2-9a25-ad3f1de7fc2e",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -22119,8 +20884,7 @@
           "showName": false,
           "sv": "2+",
           "t": "5",
-          "w": "6",
-          "id": "538b4dc5-ff70-47fe-a96b-82ca980fe0af"
+          "w": "6"
         }
       ],
       "transport": "",
@@ -22135,16 +20899,7 @@
           "TERMINATOR SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Belial",
-          "id": "538b4dc5-ff70-47fe-a96b-82ca980fe0af",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -22280,8 +21035,7 @@
           "showName": false,
           "sv": "2+",
           "t": "4",
-          "w": "5",
-          "id": "d5dbbb26-e90f-496a-af13-7a416c39992b"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -22296,16 +21050,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Pedro Kantor",
-          "id": "d5dbbb26-e90f-496a-af13-7a416c39992b",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -22460,8 +21205,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "5",
-          "id": "89e6b36d-9df2-4da3-95e0-403cabcde2bd"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -22478,16 +21222,7 @@
           "STERNGUARD VETERAN SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Marshal",
-          "id": "89e6b36d-9df2-4da3-95e0-403cabcde2bd",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -22613,8 +21348,7 @@
           "showName": false,
           "sv": "2+",
           "t": "5",
-          "w": "5",
-          "id": "083d4965-6c47-4843-af94-e79156e2d5cc"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -22627,16 +21361,7 @@
           "TERMINATOR SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Chaplain in Terminator Armour",
-          "id": "083d4965-6c47-4843-af94-e79156e2d5cc",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -22772,22 +21497,12 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "1bc04fd5-6e57-4b9a-b953-14bdf3f80401"
+          "w": "4"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Lieutenant with Combi-weapon",
-          "id": "1bc04fd5-6e57-4b9a-b953-14bdf3f80401",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -22947,8 +21662,7 @@
           "showName": false,
           "sv": "2+",
           "t": "5",
-          "w": "5",
-          "id": "2e9f1918-5d47-467c-acc3-2be92101735f"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -22963,16 +21677,7 @@
           "WOLF GUARD TERMINATORS"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Njal Stormcaller",
-          "id": "2e9f1918-5d47-467c-acc3-2be92101735f",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -23119,8 +21824,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "3a35026c-5a3e-417c-a16c-a9691a09cfc9"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -23131,22 +21835,6 @@
         "Librarian in Phobos Armour",
         "Captain in Phobos Armour",
         "Lieutenant in Phobos Armour"
-      ],
-      "compo_structure": [
-        {
-          "name": "Incursor Sergeant",
-          "id": "3a35026c-5a3e-417c-a16c-a9691a09cfc9",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Incursors",
-          "id": "3a35026c-5a3e-417c-a16c-a9691a09cfc9",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -23334,22 +22022,12 @@
           "showName": false,
           "sv": "2+",
           "t": "9",
-          "w": "10",
-          "id": "6e084d1f-a01d-47a4-8744-61bdd17a88db"
+          "w": "10"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Lion El’Jonson",
-          "id": "6e084d1f-a01d-47a4-8744-61bdd17a88db",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -23554,8 +22232,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "a85fa731-6982-437e-907d-72a1306757b2"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -23569,22 +22246,6 @@
         "Captain with Jump Pack",
         "Commander Dante",
         "Chaplain with Jump Pack"
-      ],
-      "compo_structure": [
-        {
-          "name": "Assault Intercessor Sergeant with Jump Pack",
-          "id": "a85fa731-6982-437e-907d-72a1306757b2",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Assault Intercessors with Jump Packs",
-          "id": "a85fa731-6982-437e-907d-72a1306757b2",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -23894,29 +22555,6 @@
         "For every 5 models in this unit, 1 model can replace its heavy bolt pistol with 1 plasma pistol.",
         "The Kill Team Sergeant with Jump Pack can replace its Astartes chainsword with one of the following: ◦ 1 power fist ◦ 1 power weapon",
         "The Kill Team Sergeant with Jump Pack can replace its heavy bolt pistol with one of the following: ◦ 1 hand flamer ◦ 1 plasma pistol"
-      ],
-      "compo_structure": [
-        {
-          "name": "Kill Team Sergeant with Jump Pack",
-          "id": "cd5eea57-f44b-482b-9564-544fbed6f94f",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "2‐9 Kill Team Intercessors with Jump Packs",
-          "id": "d6ed4c72-5559-48ec-8012-9e6482375af2",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "0‐5 Kill Team Heavy Intercessors with Jump Packs",
-          "id": "20c24efc-88b9-48f9-a250-8095e6ce63d8",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -24188,8 +22826,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "d4f24997-1749-4f3d-adfb-7f325815c4b5"
+          "w": "2"
         },
         {
           "active": true,
@@ -24201,8 +22838,7 @@
           "showName": true,
           "sv": "4+",
           "t": "4",
-          "w": "2",
-          "id": "7e459919-b6e3-498f-8223-aa0cdd87c03e"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -24218,29 +22854,6 @@
         "Marshal",
         "The Emperor’s Champion",
         "Chaplain Grimaldus"
-      ],
-      "compo_structure": [
-        {
-          "name": "Primaris Sword Brother",
-          "id": "589b2ca1-bf7e-4931-8e53-cf761ec2bc30",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Primaris Initiates",
-          "id": "d4f24997-1749-4f3d-adfb-7f325815c4b5",
-          "count": 5,
-          "min": 5,
-          "max": 11
-        },
-        {
-          "name": "Primaris Neophytes",
-          "id": "7e459919-b6e3-498f-8223-aa0cdd87c03e",
-          "count": 4,
-          "min": 4,
-          "max": 8
-        }
       ]
     },
     {
@@ -24464,8 +23077,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "84ff42e5-451a-4d7d-ab1f-71b26bd9f1e4"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -24476,22 +23088,6 @@
         "Ulrik the Slayer",
         "Ragnar Blackmane",
         "Krom Dragongaze"
-      ],
-      "compo_structure": [
-        {
-          "name": "Wolf Guard Pack Leader",
-          "id": "84ff42e5-451a-4d7d-ab1f-71b26bd9f1e4",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Wolf Guard",
-          "id": "84ff42e5-451a-4d7d-ab1f-71b26bd9f1e4",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -24699,8 +23295,7 @@
           "showName": false,
           "sv": "3+",
           "t": "5",
-          "w": "4",
-          "id": "b6a9da95-7db1-4b23-a894-9994581975be"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -24713,30 +23308,7 @@
           "RAVENWING BLACK KNIGHTS"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Ravenwing Champion",
-          "id": "b6a9da95-7db1-4b23-a894-9994581975be",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Ravenwing Apothecary",
-          "id": "b6a9da95-7db1-4b23-a894-9994581975be",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Ravenwing Ancient",
-          "id": "b6a9da95-7db1-4b23-a894-9994581975be",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -25004,8 +23576,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "6107910c-4113-46bc-89e0-fe9e1b1a29ba"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -25018,16 +23589,7 @@
           "SKYCLAWS"
         ],
         "extra": "You must attach this model to the above unit, and can do so even if one or more CHARACTER units have already been attached to that unit, but a unit can never include more than one PACK LEADER model. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths. If it is not possible to attach this model to a unit, it does not take part in the battle and counts as having been destroyed."
-      },
-      "compo_structure": [
-        {
-          "name": "Wolf Guard Pack Leader with Jump Pack",
-          "id": "6107910c-4113-46bc-89e0-fe9e1b1a29ba",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -25185,8 +23747,7 @@
           "showName": false,
           "sv": "2+",
           "t": "4",
-          "w": "4",
-          "id": "4308d562-9879-4d29-8814-c7c89a136eed"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -25201,16 +23762,7 @@
           "LONG FANGS"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Iron Priest",
-          "id": "4308d562-9879-4d29-8814-c7c89a136eed",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -25342,22 +23894,12 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "5",
-          "id": "7e5db01b-13b5-4ffd-81c6-89481b9d28e9"
+          "w": "5"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Lieutenant Titus",
-          "id": "7e5db01b-13b5-4ffd-81c6-89481b9d28e9",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -25487,8 +24029,7 @@
           "showName": false,
           "sv": "2+",
           "t": "4",
-          "w": "6",
-          "id": "7d980044-da8a-4737-9de2-180a79c3d2bf"
+          "w": "6"
         }
       ],
       "transport": "",
@@ -25502,16 +24043,7 @@
           "VANGUARD VETERAN SQUAD WITH JUMP PACKS"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Commander Dante",
-          "id": "7d980044-da8a-4737-9de2-180a79c3d2bf",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -25847,8 +24379,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "f96fbe81-e626-4fbc-9dd3-c690de7c07de"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -25860,15 +24391,6 @@
       ],
       "leadBy": [
         "Death Company Captain"
-      ],
-      "compo_structure": [
-        {
-          "name": "Death Company Intercessors with Bolt Rifles",
-          "id": "f96fbe81-e626-4fbc-9dd3-c690de7c07de",
-          "count": 5,
-          "min": 5,
-          "max": 10
-        }
       ]
     },
     {
@@ -25979,8 +24501,7 @@
           "showName": false,
           "sv": "2+",
           "t": "5",
-          "w": "6",
-          "id": "1bac5210-5dc4-440e-bde4-3becd890dde2"
+          "w": "6"
         }
       ],
       "transport": "",
@@ -25993,16 +24514,7 @@
           "TERMINATOR SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Darnath Lysander",
-          "id": "1bac5210-5dc4-440e-bde4-3becd890dde2",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -26109,22 +24621,12 @@
           "showName": false,
           "sv": "2+",
           "t": "4",
-          "w": "7",
-          "id": "e4b27366-7595-4ca8-a83d-cce695382cfe"
+          "w": "7"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "The Sanguinor",
-          "id": "e4b27366-7595-4ca8-a83d-cce695382cfe",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -26303,8 +24805,7 @@
           "showName": false,
           "sv": "2+",
           "t": "4",
-          "w": "3",
-          "id": "07d654b4-6cac-457c-9ada-b85992f5a940"
+          "w": "3"
         }
       ],
       "transport": "",
@@ -26315,15 +24816,6 @@
       ],
       "leadBy": [
         "Commander Dante"
-      ],
-      "compo_structure": [
-        {
-          "name": "3‐6 Sanguinary Guard",
-          "id": "07d654b4-6cac-457c-9ada-b85992f5a940",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -26449,8 +24941,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "5",
-          "id": "245e1ae3-3986-4186-b794-682ece66afef"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -26468,16 +24959,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Lazarus",
-          "id": "245e1ae3-3986-4186-b794-682ece66afef",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -26950,8 +25432,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "34bd7dbd-c404-43e5-be7f-10792149a653"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -26965,22 +25446,6 @@
         "Ulrik the Slayer",
         "Iron Priest",
         "Wolf Guard Pack Leader in Terminator Armour"
-      ],
-      "compo_structure": [
-        {
-          "name": "Long Fang Pack Leader",
-          "id": "34bd7dbd-c404-43e5-be7f-10792149a653",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Long Fangs",
-          "id": "34bd7dbd-c404-43e5-be7f-10792149a653",
-          "count": 4,
-          "min": 4,
-          "max": 5
-        }
       ]
     },
     {
@@ -27204,8 +25669,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "ff76482a-62ab-4db4-ab3a-e9e2a05e140a"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -27217,22 +25681,6 @@
         "Captain with Jump Pack",
         "Commander Dante",
         "Chaplain with Jump Pack"
-      ],
-      "compo_structure": [
-        {
-          "name": "Vanguard Veteran Sergeant with Jump Pack",
-          "id": "ff76482a-62ab-4db4-ab3a-e9e2a05e140a",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Vanguard Veterans with Jump Packs",
-          "id": "ff76482a-62ab-4db4-ab3a-e9e2a05e140a",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -27460,8 +25908,7 @@
           "showName": false,
           "sv": "3+",
           "t": "12",
-          "w": "16",
-          "id": "c3546d17-c7cc-4048-92e0-5cd5a9abd0b2"
+          "w": "16"
         }
       ],
       "transport": "This model has a transport capacity of 14 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.",
@@ -27469,15 +25916,6 @@
         "This model can be equipped with 1 multi-melta.",
         "This model’s heavy onslaught gatling cannon can be replaced with 1 las-talon.",
         "This model’s twin heavy bolter can be replaced with 1 twin lascannon."
-      ],
-      "compo_structure": [
-        {
-          "name": "Repulsor",
-          "id": "c3546d17-c7cc-4048-92e0-5cd5a9abd0b2",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -27574,8 +26012,7 @@
           "showName": false,
           "sv": "6+",
           "t": "4",
-          "w": "1",
-          "id": "2810fa82-80da-4956-bb2c-4855acc2a10a"
+          "w": "1"
         }
       ],
       "transport": "",
@@ -27585,15 +26022,6 @@
       "leadBy": [
         "Cyberwolf",
         "Canis Wolfborn"
-      ],
-      "compo_structure": [
-        {
-          "name": "Fenrisian Wolves",
-          "id": "2810fa82-80da-4956-bb2c-4855acc2a10a",
-          "count": 5,
-          "min": 5,
-          "max": 10
-        }
       ]
     },
     {
@@ -27794,8 +26222,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "ee31a672-19a2-4427-964a-d97595d7ade1"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -27813,29 +26240,6 @@
         "Lieutenant",
         "Pedro Kantor",
         "Captain"
-      ],
-      "compo_structure": [
-        {
-          "name": "Ancient",
-          "id": "ee31a672-19a2-4427-964a-d97595d7ade1",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Company Champion",
-          "id": "ee31a672-19a2-4427-964a-d97595d7ade1",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Company Veterans",
-          "id": "ee31a672-19a2-4427-964a-d97595d7ade1",
-          "count": 2,
-          "min": 2,
-          "max": 2
-        }
       ]
     },
     {
@@ -28011,22 +26415,12 @@
           "showName": false,
           "sv": "2+",
           "t": "9",
-          "w": "10",
-          "id": "c4da43e2-4978-4ac0-9fb2-00289796fcf9"
+          "w": "10"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Roboute Guilliman",
-          "id": "c4da43e2-4978-4ac0-9fb2-00289796fcf9",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -28260,8 +26654,7 @@
           "showName": false,
           "sv": "2+",
           "t": "5",
-          "w": "5",
-          "id": "46816edf-bcbf-479a-8bdb-375a639a71c7"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -28278,16 +26671,7 @@
           "WOLF GUARD TERMINATORS"
         ],
         "extra": "You can attach this model to one of the above units even if one CAPTAIN or CHAPTER MASTER model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
-      },
-      "compo_structure": [
-        {
-          "name": "Wolf Guard Battle Leader in Terminator Armour",
-          "id": "46816edf-bcbf-479a-8bdb-375a639a71c7",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -28427,8 +26811,7 @@
           "showName": false,
           "sv": "2+",
           "t": "5",
-          "w": "6",
-          "id": "c62decd4-9576-4ed2-99fc-52fa119c3abf"
+          "w": "6"
         }
       ],
       "transport": "",
@@ -28443,16 +26826,7 @@
           "WOLF GUARD TERMINATORS"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Logan Grimnar – EPIC HERO",
-          "id": "c62decd4-9576-4ed2-99fc-52fa119c3abf",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -28607,8 +26981,7 @@
           "showName": true,
           "sv": "3+",
           "t": "6",
-          "w": "3",
-          "id": "2cc3768b-0047-466f-b83d-cd809cb781c0"
+          "w": "3"
         }
       ],
       "transport": "",
@@ -28621,22 +26994,6 @@
         "Tor Garadon",
         "Apothecary Biologis",
         "Iron Father Feirros"
-      ],
-      "compo_structure": [
-        {
-          "name": "Aggressor Sergeant",
-          "id": "2cc3768b-0047-466f-b83d-cd809cb781c0",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Aggressors",
-          "id": "2cc3768b-0047-466f-b83d-cd809cb781c0",
-          "count": 2,
-          "min": 2,
-          "max": 5
-        }
       ]
     },
     {
@@ -28771,8 +27128,7 @@
           "showName": false,
           "sv": "2+",
           "t": "4",
-          "w": "5",
-          "id": "5a9eb87f-aa12-40b9-a74e-41573af800cc"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -28788,16 +27144,7 @@
           "STERNGUARD VETERAN SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Emperor’s Champion",
-          "id": "5a9eb87f-aa12-40b9-a74e-41573af800cc",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -29011,23 +27358,13 @@
           "showName": false,
           "sv": "3+",
           "t": "9",
-          "w": "10",
-          "id": "514f3153-b0fc-4dde-9fb9-08df66fa2641"
+          "w": "10"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s las-talon can be replaced with 1 Icarus stormcannon.",
         "This model’s skyhammer missile launcher can be replaced with one of the following: ◦ 1 twin heavy bolter ◦ 1 typhoon missile launcher"
-      ],
-      "compo_structure": [
-        {
-          "name": "Stormhawk Interceptor",
-          "id": "514f3153-b0fc-4dde-9fb9-08df66fa2641",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -29271,8 +27608,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "5",
-          "id": "fd97224e-6edf-44fc-8ca6-ca9ea50c0a36"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -29292,16 +27628,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": "This model cannot be attached to a BLADEGUARD VETERAN SQUAD unless this model is equipped with a relic shield, and cannot be attached to a HELLBLASTER SQUAD unless this model is equipped with a plasma pistol.*"
-      },
-      "compo_structure": [
-        {
-          "name": "Captain",
-          "id": "fd97224e-6edf-44fc-8ca6-ca9ea50c0a36",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -29440,8 +27767,7 @@
           "showName": false,
           "sv": "3+",
           "t": "6",
-          "w": "6",
-          "id": "8cfac20b-a1ff-4fd5-ae17-2c751dfa831f"
+          "w": "6"
         }
       ],
       "transport": "",
@@ -29454,16 +27780,7 @@
           "THUNDERWOLF CAVALRY"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Canis Wolfborn",
-          "id": "8cfac20b-a1ff-4fd5-ae17-2c751dfa831f",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -29598,22 +27915,12 @@
           "showName": false,
           "sv": "3+",
           "t": "8",
-          "w": "11",
-          "id": "3c84dcbe-2351-45c1-8bb6-cd5bdc9b0172"
+          "w": "11"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Ravenwing Dark Talon",
-          "id": "3c84dcbe-2351-45c1-8bb6-cd5bdc9b0172",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -29827,8 +28134,7 @@
           "showName": false,
           "sv": "2+",
           "t": "5",
-          "w": "5",
-          "id": "7efc055e-ef0b-4e31-bbaa-9909620b10fd"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -29842,16 +28148,7 @@
           "TERMINATOR ASSAULT SQUAD"
         ],
         "extra": "You can attach this model to one of the above units even if one CAPTAIN, CHAPTER MASTER or LIEUTENANT model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
-      },
-      "compo_structure": [
-        {
-          "name": "Ancient in Terminator Armour",
-          "id": "7efc055e-ef0b-4e31-bbaa-9909620b10fd",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -30040,8 +28337,7 @@
           "showName": false,
           "sv": "3+",
           "t": "10",
-          "w": "11",
-          "id": "43539b4b-3a73-44f9-acf1-eb7382833dbc"
+          "w": "11"
         }
       ],
       "transport": "",
@@ -30049,15 +28345,6 @@
         "This model can be equipped with 1 storm bolter.",
         "This model can be equipped with 1 hunter-killer missile.",
         "This model can be equipped with one of the following: ◦ 2 heavy bolters ◦ 2 lascannons"
-      ],
-      "compo_structure": [
-        {
-          "name": "Predator Annihilator",
-          "id": "43539b4b-3a73-44f9-acf1-eb7382833dbc",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -30197,8 +28484,7 @@
           "showName": false,
           "sv": "3+",
           "t": "6",
-          "w": "7",
-          "id": "aecba95a-702b-482e-983f-18637427415b"
+          "w": "7"
         }
       ],
       "transport": "",
@@ -30210,16 +28496,7 @@
           "THUNDERWOLF CAVALRY"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Harald Deathwolf",
-          "id": "aecba95a-702b-482e-983f-18637427415b",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -30355,8 +28632,7 @@
           "showName": false,
           "sv": "3+",
           "t": "5",
-          "w": "5",
-          "id": "51ee024c-1ca9-412b-ae13-b2661e53916a"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -30368,16 +28644,7 @@
           "OUTRIDER SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Chaplain on Bike",
-          "id": "51ee024c-1ca9-412b-ae13-b2661e53916a",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -30646,8 +28913,7 @@
           "showName": false,
           "sv": "3+",
           "t": "10",
-          "w": "14",
-          "id": "a71eaba5-e5b4-4a82-91bd-d71b044df997"
+          "w": "14"
         }
       ],
       "transport": "This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY models and 1 DREADNOUGHT model. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.",
@@ -30655,15 +28921,6 @@
         "This model can be equipped with 2 hurricane bolters.",
         "This model’s typhoon missile launcher can be replaced with one of the following: ◦ 1 twin heavy bolter ◦ 1 twin multi-melta",
         "This model’s twin assault cannon can be replaced with one of the following: ◦ 1 twin heavy plasma cannon ◦ 1 twin lascannon"
-      ],
-      "compo_structure": [
-        {
-          "name": "Stormraven Gunship",
-          "id": "a71eaba5-e5b4-4a82-91bd-d71b044df997",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -30790,8 +29047,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "1ba60197-0e2a-4c96-9a89-7179e3f5ba5c"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -30803,16 +29059,7 @@
           "REIVER SQUAD"
         ],
         "extra": "You can attach this model to a unit it can lead even if one CAPTAIN or CHAPTER MASTER model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
-      },
-      "compo_structure": [
-        {
-          "name": "Lieutenant in Reiver Armour",
-          "id": "1ba60197-0e2a-4c96-9a89-7179e3f5ba5c",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -31111,8 +29358,7 @@
           "showName": false,
           "sv": "3+",
           "t": "6",
-          "w": "6",
-          "id": "431a628b-b7ab-4018-8a17-8df5029bcc0c"
+          "w": "6"
         }
       ],
       "transport": "",
@@ -31126,16 +29372,7 @@
           "THUNDERWOLF CAVALRY"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Wolf Lord on Thunderwolf",
-          "id": "431a628b-b7ab-4018-8a17-8df5029bcc0c",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -31272,8 +29509,7 @@
           "showName": true,
           "sv": "2+",
           "t": "5",
-          "w": "3",
-          "id": "5a0c9ce6-da7e-447b-a5de-1ceeb86a904a"
+          "w": "3"
         }
       ],
       "transport": "",
@@ -31291,22 +29527,6 @@
         "Wolf Guard Battle Leader in Terminator Armour",
         "Logan Grimnar",
         "Ancient in Terminator Armour"
-      ],
-      "compo_structure": [
-        {
-          "name": "Assault Terminator Sergeant",
-          "id": "5a0c9ce6-da7e-447b-a5de-1ceeb86a904a",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Assault Terminators",
-          "id": "5a0c9ce6-da7e-447b-a5de-1ceeb86a904a",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -31524,8 +29744,7 @@
           "showName": false,
           "sv": "3+",
           "t": "10",
-          "w": "11",
-          "id": "8c44e2ed-e505-4b5a-83ce-7360a9670d9d"
+          "w": "11"
         }
       ],
       "transport": "",
@@ -31534,15 +29753,6 @@
         "This model can be equipped with 1 storm bolter.",
         "This model can be equipped with 1 hunter-killer missile.",
         "This model’s twin assault cannon can be replaced with 1 Baal flamestorm cannon."
-      ],
-      "compo_structure": [
-        {
-          "name": "Baal Predator",
-          "id": "8c44e2ed-e505-4b5a-83ce-7360a9670d9d",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -31710,8 +29920,7 @@
           "showName": false,
           "sv": "2+",
           "t": "6",
-          "w": "6",
-          "id": "c89a56fa-4fa3-41c8-8b9b-7f23fd9d460d"
+          "w": "6"
         }
       ],
       "transport": "",
@@ -31725,16 +29934,7 @@
           "HEAVY INTERCESSOR SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Iron Father Feirros",
-          "id": "c89a56fa-4fa3-41c8-8b9b-7f23fd9d460d",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -31896,8 +30096,7 @@
           "showName": false,
           "sv": "3+",
           "t": "5",
-          "w": "7",
-          "id": "e2a5a122-2a01-43ea-855c-59bc44a8e3bc"
+          "w": "7"
         }
       ],
       "transport": "",
@@ -31910,16 +30109,7 @@
           "RAVENWING BLACK KNIGHTS"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Sammael",
-          "id": "e2a5a122-2a01-43ea-855c-59bc44a8e3bc",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -32059,8 +30249,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "5",
-          "id": "9dd903fe-d122-431d-9784-5c500810e82c"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -32076,16 +30265,7 @@
           "SCOUT SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Captain in Phobos Armour",
-          "id": "9dd903fe-d122-431d-9784-5c500810e82c",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -32386,8 +30566,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "a929e54e-a015-4287-9bd6-c8387d6dcf2a"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -32398,22 +30577,6 @@
       ],
       "leadBy": [
         "Wolf Guard Pack Leader with Jump Pack"
-      ],
-      "compo_structure": [
-        {
-          "name": "Skyclaw Pack Leader",
-          "id": "a929e54e-a015-4287-9bd6-c8387d6dcf2a",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Skyclaws",
-          "id": "a929e54e-a015-4287-9bd6-c8387d6dcf2a",
-          "count": 4,
-          "min": 4,
-          "max": 14
-        }
       ]
     },
     {
@@ -32535,8 +30698,7 @@
           "showName": false,
           "sv": "2+",
           "t": "4",
-          "w": "5",
-          "id": "59e46c7a-d14b-442f-b5f5-b2924fd21271"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -32549,16 +30711,7 @@
           "FORTIS KILL TEAM"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Watch Master",
-          "id": "59e46c7a-d14b-442f-b5f5-b2924fd21271",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -32838,8 +30991,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "275ce4cd-bd62-4e22-afd8-7fe81e2cc371"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -32852,16 +31004,7 @@
           "VANGUARD VETERAN SQUAD WITH JUMP PACKS"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Chaplain with Jump Pack",
-          "id": "275ce4cd-bd62-4e22-afd8-7fe81e2cc371",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -33159,8 +31302,7 @@
           "showName": false,
           "sv": "3+",
           "t": "6",
-          "w": "5",
-          "id": "1ae5bddf-4b2e-45f7-9d78-8f98ffab6a01"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -33174,16 +31316,7 @@
           "THUNDERWOLF CAVALRY"
         ],
         "extra": "You can attach this model to the above unit even if one CAPTAIN or CHAPTER MASTER model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
-      },
-      "compo_structure": [
-        {
-          "name": "Wolf Guard Battle Leader on Thunderwolf",
-          "id": "1ae5bddf-4b2e-45f7-9d78-8f98ffab6a01",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -33474,8 +31607,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "d75bd634-ea4a-427d-b870-8ed17f00ff2e"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -33510,22 +31642,6 @@
         "Captain",
         "Chaplain Grimaldus",
         "Chaplain"
-      ],
-      "compo_structure": [
-        {
-          "name": "Intercessor Sergeant",
-          "id": "d75bd634-ea4a-427d-b870-8ed17f00ff2e",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Intercessors",
-          "id": "d75bd634-ea4a-427d-b870-8ed17f00ff2e",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -33760,8 +31876,7 @@
           "showName": false,
           "sv": "2+",
           "t": "12",
-          "w": "24",
-          "id": "77731652-0250-4536-a274-43645822502b"
+          "w": "24"
         }
       ],
       "transport": "",
@@ -33769,15 +31884,6 @@
         "This model can be equipped with 1 ironhail heavy stubber.",
         "This model’s twin heavy bolter can be replaced with 1 twin lascannon.",
         "This model’s 2 Astraeus las-rippers can be replaced with 2 plasma eradicators."
-      ],
-      "compo_structure": [
-        {
-          "name": "Astraeus",
-          "id": "77731652-0250-4536-a274-43645822502b",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -33943,23 +32049,13 @@
           "showName": false,
           "sv": "3+",
           "t": "10",
-          "w": "12",
-          "id": "257e5d49-0a00-4e0d-829c-362749f65d88"
+          "w": "12"
         }
       ],
       "transport": "",
       "wargear": [
         "This model can be equipped with 1 Icarus rocket pod.",
         "This model can be equipped with one of the following: ◦ 1 ironhail heavy stubber ◦ 1 multi-melta"
-      ],
-      "compo_structure": [
-        {
-          "name": "Gladiator Valiant",
-          "id": "257e5d49-0a00-4e0d-829c-362749f65d88",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -34156,8 +32252,7 @@
           "showName": false,
           "sv": "2+",
           "t": "12",
-          "w": "16",
-          "id": "8318f3ec-743c-41c1-abd4-10ee72b7fa3d"
+          "w": "16"
         }
       ],
       "transport": "This model has a transport capacity of 14 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.",
@@ -34165,15 +32260,6 @@
         "This model can be equipped with 1 storm bolter.",
         "This model can be equipped with 1 multi-melta.",
         "This model can be equipped with 1 hunter-killer missile."
-      ],
-      "compo_structure": [
-        {
-          "name": "Land Raider Redeemer",
-          "id": "8318f3ec-743c-41c1-abd4-10ee72b7fa3d",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -34399,8 +32485,7 @@
           "showName": true,
           "sv": "2+",
           "t": "5",
-          "w": "3",
-          "id": "5d55bbcc-ed54-43aa-a193-163afb93f23f"
+          "w": "3"
         }
       ],
       "transport": "",
@@ -34420,22 +32505,6 @@
         "Wolf Guard Battle Leader in Terminator Armour",
         "Logan Grimnar",
         "Ancient in Terminator Armour"
-      ],
-      "compo_structure": [
-        {
-          "name": "Terminator Sergeant",
-          "id": "5d55bbcc-ed54-43aa-a193-163afb93f23f",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Terminators",
-          "id": "5d55bbcc-ed54-43aa-a193-163afb93f23f",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -34693,8 +32762,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "a4114ae0-a8f6-4d7d-84ae-f23e3167209a"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -34708,15 +32776,6 @@
         "Death Company Captain with Jump Pack",
         "Astorath",
         "Lemartes"
-      ],
-      "compo_structure": [
-        {
-          "name": "Death Company Marines with Jump Packs",
-          "id": "a4114ae0-a8f6-4d7d-84ae-f23e3167209a",
-          "count": 5,
-          "min": 5,
-          "max": 10
-        }
       ]
     },
     {
@@ -34861,22 +32920,12 @@
           "showName": false,
           "sv": "2+",
           "t": "9",
-          "w": "8",
-          "id": "b44fbdea-4df3-4f74-9b0c-ee2ec66dee9b"
+          "w": "8"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Murderfang – EPIC HERO",
-          "id": "b44fbdea-4df3-4f74-9b0c-ee2ec66dee9b",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -35078,23 +33127,13 @@
           "showName": false,
           "sv": "2+",
           "t": "12",
-          "w": "30",
-          "id": "d5b4810b-b347-468a-a280-6b06d179baea"
+          "w": "30"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s Thunderhawk cluster bombs can be replaced with 1 hellstrike missile battery.",
         "This model’s Thunderhawk heavy cannon can be replaced with 1 turbo-laser destructor."
-      ],
-      "compo_structure": [
-        {
-          "name": "Thunderhawk Gunship",
-          "id": "d5b4810b-b347-468a-a280-6b06d179baea",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -35262,23 +33301,13 @@
           "showName": false,
           "sv": "3+",
           "t": "10",
-          "w": "12",
-          "id": "0ba5db43-c554-4a4c-a351-4a36c6a3d473"
+          "w": "12"
         }
       ],
       "transport": "",
       "wargear": [
         "This model can be equipped with 1 Icarus rocket pod.",
         "This model can be equipped with 1 ironhail heavy stubber."
-      ],
-      "compo_structure": [
-        {
-          "name": "Gladiator Reaper",
-          "id": "0ba5db43-c554-4a4c-a351-4a36c6a3d473",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -35564,8 +33593,7 @@
           "showName": false,
           "sv": "2+",
           "t": "5",
-          "w": "3",
-          "id": "5ea0de03-6c37-46f6-b50c-4428c8fac09d"
+          "w": "3"
         }
       ],
       "transport": "",
@@ -35581,16 +33609,7 @@
           "LONG FANGS"
         ],
         "extra": "You must attach this model to one of the above units, and can do so even if one or more CHARACTER units have already been attached to that unit, but a unit can never include more than one PACK LEADER model. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths. If it is not possible to attach this model to a unit, it does not take part in the battle and counts as having been destroyed."
-      },
-      "compo_structure": [
-        {
-          "name": "Wolf Guard Pack Leader in Terminator Armour",
-          "id": "5ea0de03-6c37-46f6-b50c-4428c8fac09d",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -35769,8 +33788,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "5",
-          "id": "501442ee-ce73-4f62-a27f-de905731fa11"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -35784,16 +33802,7 @@
           "DEATH COMPANY MARINES WITH BOLT RIFLES"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Death Company Captain",
-          "id": "501442ee-ce73-4f62-a27f-de905731fa11",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -36035,8 +34044,7 @@
           "showName": false,
           "sv": "3+",
           "t": "9",
-          "w": "11",
-          "id": "dc56e3ee-1129-48bb-95a6-9cc1072716f4"
+          "w": "11"
         }
       ],
       "transport": "This model has a transport capacity of 7 TACTICUS or PHOBOS INFANTRY models. It cannot transport JUMP PACK models.",
@@ -36044,15 +34052,6 @@
         "This model can be equipped with one of the following: ◦ 1 bellicatus missile array ◦ 1 ironhail skytalon array ◦ 1 orbital comms array ◦ 1 shield dome",
         "This model’s 2 storm bolters can be replaced with 2 fragstorm grenade launchers.",
         "This model can be equipped with one of the following: ◦ 1 ironhail heavy stubber ◦ 1 multi-melta"
-      ],
-      "compo_structure": [
-        {
-          "name": "Impulsor",
-          "id": "dc56e3ee-1129-48bb-95a6-9cc1072716f4",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -36255,8 +34254,7 @@
           "showName": false,
           "sv": "3+",
           "t": "10",
-          "w": "14",
-          "id": "e7873a93-f852-4273-9ad5-e8176da0d664"
+          "w": "14"
         }
       ],
       "transport": "This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY or KILL TEAM models. Each JUMP PACK, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.",
@@ -36265,15 +34263,6 @@
         "This model can be equipped with 1 hurricane bolter.",
         "This model’s 2 Blackstar rocket launchers can be replaced with 2 stormstrike missile launchers.",
         "This model’s twin assault cannon can be replaced with 1 twin lascannon."
-      ],
-      "compo_structure": [
-        {
-          "name": "Corvus Blackstar",
-          "id": "e7873a93-f852-4273-9ad5-e8176da0d664",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -36414,22 +34403,12 @@
           "showName": false,
           "sv": "3+",
           "t": "9",
-          "w": "10",
-          "id": "6f032cf7-4402-44e8-9c96-b5d9029f05af"
+          "w": "10"
         }
       ],
       "transport": "This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY models. It cannot transport JUMP PACK, WULFEN, PHOBOS, GRAVIS, CENTURION, TERMINATOR or TACTICUS models (excluding TACTICUS CHARACTER models that began the battle attached to a non-TACTICUS unit).",
       "wargear": [
         "This model can be equipped with 1 hunter-killer missile."
-      ],
-      "compo_structure": [
-        {
-          "name": "Rhino",
-          "id": "6f032cf7-4402-44e8-9c96-b5d9029f05af",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -36593,22 +34572,12 @@
           "showName": false,
           "sv": "3+",
           "t": "5",
-          "w": "8",
-          "id": "fd526909-5c84-46a7-92df-7974afac2e4f"
+          "w": "8"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s onslaught gatling cannon can be replaced with 1 multi-melta."
-      ],
-      "compo_structure": [
-        {
-          "name": "Invader ATV",
-          "id": "fd526909-5c84-46a7-92df-7974afac2e4f",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -36759,8 +34728,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "ea53cdf3-440e-4b54-b4d0-657c20262028"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -36773,22 +34741,6 @@
         "Librarian in Phobos Armour",
         "Captain in Phobos Armour",
         "Lieutenant in Phobos Armour"
-      ],
-      "compo_structure": [
-        {
-          "name": "Infiltrator Sergeant",
-          "id": "ea53cdf3-440e-4b54-b4d0-657c20262028",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Infiltrators",
-          "id": "ea53cdf3-440e-4b54-b4d0-657c20262028",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -36948,22 +34900,12 @@
           "showName": false,
           "sv": "2+",
           "t": "10",
-          "w": "12",
-          "id": "abecdee5-411e-473d-8239-9b4b273ab25a"
+          "w": "12"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Ballistus Dreadnought",
-          "id": "abecdee5-411e-473d-8239-9b4b273ab25a",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -37279,30 +35221,13 @@
           "showName": true,
           "sv": "2+",
           "t": "5",
-          "w": "3",
-          "id": "dd47e514-6826-420b-afa7-31889f68fc32"
+          "w": "3"
         }
       ],
       "transport": "",
       "wargear": [
         "Any number of models can each have their power fist and storm bolter replaced with one of the following: ◦ 1 storm bolter and 1 power weapon ◦ 1 storm bolter and 1 chainfist ◦ 1 thunder hammer and 1 storm shield ◦ 1 twin lightning claws",
         "Up to 3 Deathwatch Terminators can each have their storm bolter replaced with one of the following: ◦ 1 assault cannon ◦ 1 heavy flamer ◦ 1 plasma cannon ◦ 1 cyclone missile launcher and 1 storm bolter (this model’s storm bolter cannot be replaced)"
-      ],
-      "compo_structure": [
-        {
-          "name": "Deathwatch Terminator Sergeant",
-          "id": "dd47e514-6826-420b-afa7-31889f68fc32",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "4‑9 Deathwatch Terminators",
-          "id": "dd47e514-6826-420b-afa7-31889f68fc32",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -37438,8 +35363,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "18dc7fbb-fa38-451d-b1cf-3a544ee12590"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -37466,22 +35390,6 @@
         "Captain",
         "Chaplain Grimaldus",
         "Chaplain"
-      ],
-      "compo_structure": [
-        {
-          "name": "Infernus Sergeant",
-          "id": "18dc7fbb-fa38-451d-b1cf-3a544ee12590",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Infernus Marines",
-          "id": "18dc7fbb-fa38-451d-b1cf-3a544ee12590",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -37727,8 +35635,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "90cdc57c-adf5-4425-8039-5cf411c662ac"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -37761,22 +35668,6 @@
         "The Emperor’s Champion",
         "Captain",
         "Chaplain"
-      ],
-      "compo_structure": [
-        {
-          "name": "Sternguard Veteran Sergeant",
-          "id": "90cdc57c-adf5-4425-8039-5cf411c662ac",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Sternguard Veterans",
-          "id": "90cdc57c-adf5-4425-8039-5cf411c662ac",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -37943,23 +35834,13 @@
           "showName": false,
           "sv": "3+",
           "t": "10",
-          "w": "12",
-          "id": "4514a787-b8e0-47d8-a192-a4803520414c"
+          "w": "12"
         }
       ],
       "transport": "",
       "wargear": [
         "This model can be equipped with 1 Icarus rocket pod.",
         "This model can be equipped with 1 ironhail heavy stubber."
-      ],
-      "compo_structure": [
-        {
-          "name": "Gladiator Valiant",
-          "id": "4514a787-b8e0-47d8-a192-a4803520414c",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -38117,8 +35998,7 @@
           "showName": false,
           "sv": "2+",
           "t": "6",
-          "w": "12",
-          "id": "b690e61c-e3a5-4123-a358-f0e630c8c3cd"
+          "w": "12"
         }
       ],
       "transport": "",
@@ -38130,16 +36010,7 @@
           "THUNDERWOLF CAVALRY"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Logan Grimnar on Stormrider",
-          "id": "b690e61c-e3a5-4123-a358-f0e630c8c3cd",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -38317,8 +36188,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "35f242f4-4b97-4b43-8c0b-e028c9541187"
+          "w": "4"
         },
         {
           "active": true,
@@ -38330,8 +36200,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "1",
-          "id": "2f1ddad8-4943-4315-acf7-31b8996c9358"
+          "w": "1"
         }
       ],
       "transport": "",
@@ -38347,23 +36216,7 @@
           "PRIMARIS SWORD BRETHREN"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Chaplain Grimaldus",
-          "id": "35f242f4-4b97-4b43-8c0b-e028c9541187",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Cenobyte Servitors",
-          "id": "2f1ddad8-4943-4315-acf7-31b8996c9358",
-          "count": 3,
-          "min": 3,
-          "max": 3
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -38504,8 +36357,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "c394619b-e7d1-4749-8b6e-7c6c8797f7df"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -38519,16 +36371,7 @@
           "REIVER SQUAD"
         ],
         "extra": "You can attach this model to a unit it can lead even if one CAPTAIN or CHAPTER MASTER model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
-      },
-      "compo_structure": [
-        {
-          "name": "Lieutenant in Phobos Armour",
-          "id": "c394619b-e7d1-4749-8b6e-7c6c8797f7df",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -38748,23 +36591,13 @@
           "showName": false,
           "sv": "3+",
           "t": "10",
-          "w": "14",
-          "id": "bcb12ad3-4139-431b-a065-ea4867d1cc71"
+          "w": "14"
         }
       ],
       "transport": "This model has a transport capacity of 6 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.",
       "wargear": [
         "This model’s twin stormstrike missile launcher can be replaced with 1 twin lascannon.",
         "This model’s 2 skyhammer missile launchers can be replaced with one of the following: ◦ 2 twin multi-meltas ◦ 2 twin heavy bolters"
-      ],
-      "compo_structure": [
-        {
-          "name": "Stormfang Gunship",
-          "id": "bcb12ad3-4139-431b-a065-ea4867d1cc71",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -38961,8 +36794,7 @@
           "showName": false,
           "sv": "2+",
           "t": "12",
-          "w": "16",
-          "id": "4c260b63-7982-4ce8-b0b2-86377044cf98"
+          "w": "16"
         }
       ],
       "transport": "This model has a transport capacity of 16 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.",
@@ -38970,15 +36802,6 @@
         "This model can be equipped with 1 storm bolter.",
         "This model can be equipped with 1 multi-melta.",
         "This model can be equipped with 1 hunter-killer missile."
-      ],
-      "compo_structure": [
-        {
-          "name": "Land Raider Crusader",
-          "id": "4c260b63-7982-4ce8-b0b2-86377044cf98",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -39114,29 +36937,12 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "67f3a193-4098-4fb1-8b8f-33145defaccb"
+          "w": "2"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Hound of Morkai Pack Leader",
-          "id": "67f3a193-4098-4fb1-8b8f-33145defaccb",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Hound of Morkai",
-          "id": "67f3a193-4098-4fb1-8b8f-33145defaccb",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -39324,8 +37130,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "fdd714ee-9ccb-4957-b26d-4ab618af7e77"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -39340,22 +37145,6 @@
         "Lieutenant in Reiver Armour",
         "Captain in Phobos Armour",
         "Lieutenant in Phobos Armour"
-      ],
-      "compo_structure": [
-        {
-          "name": "Reiver Sergeant",
-          "id": "fdd714ee-9ccb-4957-b26d-4ab618af7e77",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Reivers",
-          "id": "fdd714ee-9ccb-4957-b26d-4ab618af7e77",
-          "count": 4,
-          "min": 4,
-          "max": 9
-        }
       ]
     },
     {
@@ -39800,8 +37589,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "e74c71b7-8881-4103-8d7f-9f5c14ddf962"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -39816,50 +37604,6 @@
       "leadBy": [
         "Watch Captain Artemis",
         "Watch Master"
-      ],
-      "compo_structure": [
-        {
-          "name": "Kill Team Sergeant&x20;",
-          "id": "e74c71b7-8881-4103-8d7f-9f5c14ddf962",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "2‑9 Kill Team Intercessors&x20;",
-          "id": "e74c71b7-8881-4103-8d7f-9f5c14ddf962",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "0‑4 Kill Team Intercessors with plasma incinerators&x20;",
-          "id": "e74c71b7-8881-4103-8d7f-9f5c14ddf962",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "0‑4 Kill Team Intercessors with heavy bolt pistols&x20;",
-          "id": "e74c71b7-8881-4103-8d7f-9f5c14ddf962",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "0‑4 Kill Team Intercessors with pyreblasters&x20;",
-          "id": "e74c71b7-8881-4103-8d7f-9f5c14ddf962",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "0‑2 Kill Team Intercessors with superfrag rocket launchers&x20;",
-          "id": "e74c71b7-8881-4103-8d7f-9f5c14ddf962",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -39980,8 +37724,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "8fb4886d-d26a-4ff8-9f2b-d6fb18293c11"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -39999,16 +37742,7 @@
           "TACTICAL SQUAD"
         ],
         "extra": ""
-      },
-      "compo_structure": [
-        {
-          "name": "Chaplain",
-          "id": "8fb4886d-d26a-4ff8-9f2b-d6fb18293c11",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -40195,22 +37929,12 @@
           "showName": false,
           "sv": "3+",
           "t": "8",
-          "w": "12",
-          "id": "a1434338-cc83-4068-b3c4-c755f3910f2a"
+          "w": "12"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s incendium cannon can be replaced with 1 twin ironhail autocannon."
-      ],
-      "compo_structure": [
-        {
-          "name": "Invictor Tactical Warsuit",
-          "id": "a1434338-cc83-4068-b3c4-c755f3910f2a",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -40332,8 +38056,7 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "5bd80341-ae60-49bd-a547-12f938a3642f"
+          "w": "4"
         }
       ],
       "transport": "",
@@ -40345,16 +38068,7 @@
           "BLADEGUARD VETERAN SQUAD"
         ],
         "extra": "You can attach this model to the above unit even if one CAPTAIN, CHAPTER MASTER or LIEUTENANT model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
-      },
-      "compo_structure": [
-        {
-          "name": "Bladeguard Ancient",
-          "id": "5bd80341-ae60-49bd-a547-12f938a3642f",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
-      ]
+      }
     },
     {
       "abilities": {
@@ -40656,8 +38370,7 @@
           "showName": true,
           "sv": "3+",
           "t": "4",
-          "w": "2",
-          "id": "16dcb062-6980-44fa-8c27-26a080982130"
+          "w": "2"
         }
       ],
       "transport": "",
@@ -40666,36 +38379,6 @@
         "Any number of models can each replace their bolt sniper rifle with 1 las fusil.",
         "One model can replace its bolt sniper rifle with 1 instigator bolt carbine.",
         "One model equipped with a Deathwatch marksman bolt carbine can be equipped with one of the following: ◦ 1 helix gauntlet ◦ 1 Infiltrator comms array"
-      ],
-      "compo_structure": [
-        {
-          "name": "3‐10 Kill Team Infiltrators",
-          "id": "16dcb062-6980-44fa-8c27-26a080982130",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "0‐3 Kill Team Infiltrators with bolt sniper rifles",
-          "id": "16dcb062-6980-44fa-8c27-26a080982130",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "0‐4 Kill Team Infiltrators with Deathwatch occulus bolt carbines",
-          "id": "16dcb062-6980-44fa-8c27-26a080982130",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "0‐4 Kill Team Infiltrators with combat knives",
-          "id": "16dcb062-6980-44fa-8c27-26a080982130",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -40831,22 +38514,12 @@
           "showName": false,
           "sv": "3+",
           "t": "8",
-          "w": "7",
-          "id": "da23c406-bb5e-4caa-95ac-73e51e182135"
+          "w": "7"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Land Speeder Tempest",
-          "id": "da23c406-bb5e-4caa-95ac-73e51e182135",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -41042,8 +38715,7 @@
           "showName": false,
           "sv": "3+",
           "t": "8",
-          "w": "9",
-          "id": "339c1ebf-5917-4ac8-91be-aabd80135b45"
+          "w": "9"
         }
       ],
       "transport": "",
@@ -41051,15 +38723,6 @@
         "This model can be equipped with up to 2 hunter-killer missiles.",
         "This model’s heavy bolter can be replaced with 1 multi-melta.",
         "This model’s javelin missile launcher can be replaced with 2 lascannons"
-      ],
-      "compo_structure": [
-        {
-          "name": "Javelin Attack Speeder",
-          "id": "339c1ebf-5917-4ac8-91be-aabd80135b45",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -41166,22 +38829,12 @@
           "showName": false,
           "sv": "3+",
           "t": "7",
-          "w": "8",
-          "id": "d65038ee-8705-4f76-a55c-d56ef0cb3480"
+          "w": "8"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s deathstorm cannon array can be replaced with 1 deathstorm missile array"
-      ],
-      "compo_structure": [
-        {
-          "name": "Deathstorm Drop Pod",
-          "id": "d65038ee-8705-4f76-a55c-d56ef0cb3480",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -41252,22 +38905,12 @@
           "showName": false,
           "sv": "3+",
           "t": "7",
-          "w": "8",
-          "id": "398aa847-f51f-45c3-b575-92c441489f6d"
+          "w": "8"
         }
       ],
       "transport": "This model has a transport capacity of 1 Dreadnought model.",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Dreadnought Drop Pod",
-          "id": "398aa847-f51f-45c3-b575-92c441489f6d",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -41527,22 +39170,12 @@
           "showName": false,
           "sv": "2+",
           "t": "9",
-          "w": "8",
-          "id": "88c64ed9-350f-4a24-8d8f-40ad8b7c46c0"
+          "w": "8"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s 2 twin heavy bolters can be replaced with one of the following: ◦ 2 assault cannons ◦ 2 Dreadnought inferno cannons ◦ 2 heavy plasma cannons ◦ 2 missile launchers ◦ 2 multi-meltas ◦ 2 twin autocannons ◦ 2 twin lascannons"
-      ],
-      "compo_structure": [
-        {
-          "name": "Mortis Dreadnought",
-          "id": "88c64ed9-350f-4a24-8d8f-40ad8b7c46c0",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -41815,23 +39448,13 @@
           "showName": false,
           "sv": "2+",
           "t": "9",
-          "w": "8",
-          "id": "d1d707c7-971b-42b0-b1c4-948245c3f92c"
+          "w": "8"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s assault cannon can be replaced with one of the following: ◦ 1 heavy plasma cannon* ◦ 1 multi-melta ◦ 1 twin autocannon ◦ 1 twin heavy bolter ◦ 1 twin heavy flamer ◦ 1 twin lascannon ◦ 1 Dreadnought inferno cannon",
         "This model’s storm bolter and Dreadnought combat weapon can be replaced with one of the following: ◦ 1 heavy flamer and 1 Dreadnought combat weapon ◦ 1 missile launcher* ◦ 1 twin autocannon * The profile for this weapon can be found on the Adeptus Astartes Legends Armoury card."
-      ],
-      "compo_structure": [
-        {
-          "name": "Venerable Dreadnought",
-          "id": "d1d707c7-971b-42b0-b1c4-948245c3f92c",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -42078,23 +39701,13 @@
           "showName": false,
           "sv": "2+",
           "t": "9",
-          "w": "8",
-          "id": "6c5a0ce7-07e7-48dd-a602-f9fcd8076d82"
+          "w": "8"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s assault cannon can be replaced with one of the following: ◦ 1 Dreadnought inferno cannon ◦ 1 heavy plasma cannon ◦ 1 multi-melta ◦ 1 storm bolter and 1 Dreadnought combat weapon ◦ 1 heavy flamer and 1 Dreadnought combat weapon ◦ 1 twin lascannon",
         "This model’s storm bolter and Dreadnought combat weapon can be replaced with one of the following: ◦ 1 heavy flamer and 1 Dreadnought combat weapon ◦ 1 assault cannon ◦ 1 Dreadnought inferno cannon ◦ 1 heavy plasma cannon ◦ 1 multi-melta ◦ 1 twin lascannon"
-      ],
-      "compo_structure": [
-        {
-          "name": "Chaplain Venerable Dreadnought",
-          "id": "6c5a0ce7-07e7-48dd-a602-f9fcd8076d82",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -42365,8 +39978,7 @@
           "showName": false,
           "sv": "2+",
           "t": "9",
-          "w": "10",
-          "id": "d0efd650-c6db-425b-869a-2a30fecc0dee"
+          "w": "10"
         }
       ],
       "transport": "",
@@ -42374,15 +39986,6 @@
         "Each of this model’s combi-bolters can be replaced with one of the following: ◦ 1 graviton blaster ◦ 1 heavy flamer* ◦ 1 plasma blaster*",
         "Each of this model’s heavy plasma cannons can be replaced with one of the following: ◦ 1 conversion beam cannon ◦ 1 kheres-pattern assault cannon ◦ 1 multi-melta* ◦ 1 twin autocannon* ◦ 1 twin heavy bolter* ◦ 1 twin lascannon* ◦ 1 twin volkite culverin ◦ 1 Dreadnought chainfist and 1 combi-bolter ◦ 1 Dreadnought combat weapon and 1 combi-bolter",
         "This model can be equipped with 1 cyclone missile launcher. * The profile for this weapon can be found on the Adeptus Astartes Legends Armoury card"
-      ],
-      "compo_structure": [
-        {
-          "name": "Relic Contemptor Dreadnought",
-          "id": "d0efd650-c6db-425b-869a-2a30fecc0dee",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -42486,22 +40089,12 @@
           "showName": false,
           "sv": "3+",
           "t": "5",
-          "w": "4",
-          "id": "25247dd0-7b03-4d78-ae82-0185590875fc"
+          "w": "4"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Tarantula Air Defence Battery",
-          "id": "25247dd0-7b03-4d78-ae82-0185590875fc",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -42648,22 +40241,12 @@
           "showName": false,
           "sv": "2+",
           "t": "13",
-          "w": "40",
-          "id": "b5027371-7521-4d1e-9e2a-20393e98ad19"
+          "w": "40"
         }
       ],
       "transport": "This model has a transport capacity of 55 Adeptus Astartes Infantry or Adeptus Astartes Mounted models. Each Jump Pack, Wulfen, Gravis, Possessed or Terminator model takes up the space of 2 models and each Mounted, Centurion or Obliterator model takes up the space of 3 models. This model can also transport up to 1 Rhino model (this model – and any models embarked within it – take up the space of 25 models).",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Sokar-pattern Stormbird",
-          "id": "b5027371-7521-4d1e-9e2a-20393e98ad19",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -42860,23 +40443,13 @@
           "showName": false,
           "sv": "2+",
           "t": "14",
-          "w": "30",
-          "id": "c185e391-2e59-45f8-a251-71535be7d22f"
+          "w": "30"
         }
       ],
       "transport": "This model has a transport capacity of 45 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis, Possessed or Terminator model takes up the space of 2 models and each Centurion or Obliterator model takes up the space of 3 models. This model can also transport up to 2 Dreadnought or Helbrute models (these models take up the space of a number of models equal to their Wounds characteristic e.g. A Dreadnought with a Wounds characteristic of 8 would take up the space of 8 models).",
       "wargear": [
         "This model’s 2 heavy flamers can be replaced with one of the following ◦ 2 heavy bolters ◦ 2 lascannons ◦ 2 volite culverins",
         "This model’s 2 lascannons can be replaced with on of the following: ◦ 2 heavy bolters ◦ 2 heavy flamers ◦ 2 volkite culverins"
-      ],
-      "compo_structure": [
-        {
-          "name": "Mastodon",
-          "id": "c185e391-2e59-45f8-a251-71535be7d22f",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -43042,22 +40615,12 @@
           "showName": false,
           "sv": "3+",
           "t": "10",
-          "w": "14",
-          "id": "cbdcdb67-f3c8-4474-a6a0-0bf63e7bdced"
+          "w": "14"
         }
       ],
       "transport": "This model has a transport capacity of 12 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Phobos, Gravis, Centurion, Terminator, Obliterator, Possessed or Tacticus models (excluding Tacticus Character models that began the battle attached to a non-Tacticus unit).",
       "wargear": [
         "This model’s 2 combi-bolters can be replaced with one of the following ◦ 2 heavy flamers ◦ 2 twin volkite chargers"
-      ],
-      "compo_structure": [
-        {
-          "name": "Terrax-pattern Termite",
-          "id": "cbdcdb67-f3c8-4474-a6a0-0bf63e7bdced",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -43212,22 +40775,12 @@
           "showName": false,
           "sv": "3+",
           "t": "9",
-          "w": "10",
-          "id": "497b712b-8549-47ac-b665-0abaa9127fa5"
+          "w": "10"
         }
       ],
       "transport": "This model has a transport capacity of 6 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Phobos, Gravis, Centurion, Terminator or Tacticus models (except for Tacticus Character models that begin the battle attached to a non-Tacticus unit).",
       "wargear": [
         "This model can be equipped with 1 hunter-killer missile."
-      ],
-      "compo_structure": [
-        {
-          "name": "Rhino Primaris",
-          "id": "497b712b-8549-47ac-b665-0abaa9127fa5",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -43435,8 +40988,7 @@
           "showName": false,
           "sv": "3+",
           "t": "9",
-          "w": "10",
-          "id": "3e672090-e15e-4b7d-9d92-3d6ce0c9770f"
+          "w": "10"
         }
       ],
       "transport": "This model has a transport capacity of 6 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Phobos, Gravis, Centurion, Terminator or Tacticus models (except for Tacticus Character models that begin the battle attached to a non-Tacticus unit).",
@@ -43444,15 +40996,6 @@
         "This model can be equipped with 1 hunter-killer missile.",
         "This model can be equipped with 1 storm bolter.",
         "This model’s twin heavy bolter can be replaced with one of the following: ◦ 1 multi-melta ◦ 1 twin assault cannon ◦ 1 twin lascannon"
-      ],
-      "compo_structure": [
-        {
-          "name": "Relic Razorback",
-          "id": "3e672090-e15e-4b7d-9d92-3d6ce0c9770f",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -43613,22 +41156,12 @@
           "showName": false,
           "sv": "2+",
           "t": "11",
-          "w": "11",
-          "id": "21343908-2ebc-41bc-a008-7567a9760067"
+          "w": "11"
         }
       ],
       "transport": "",
       "wargear": [
         "This model can be equipped with 1 hunter-killer missile."
-      ],
-      "compo_structure": [
-        {
-          "name": "Vindicator Laser Destroyer",
-          "id": "21343908-2ebc-41bc-a008-7567a9760067",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -43753,22 +41286,12 @@
           "showName": false,
           "sv": "3+",
           "t": "9",
-          "w": "12",
-          "id": "6189166a-c936-449d-8c05-d784a96fee51"
+          "w": "12"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Xiphon Interceptor",
-          "id": "6189166a-c936-449d-8c05-d784a96fee51",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -44012,8 +41535,7 @@
           "showName": false,
           "sv": "3+",
           "t": "10",
-          "w": "11",
-          "id": "75915a30-f166-4044-8761-596f9443cbbc"
+          "w": "11"
         }
       ],
       "transport": "",
@@ -44022,15 +41544,6 @@
         "This model can be equipped with 1 storm bolter.",
         "This model can be equipped with one of the following: ◦ 2 heavy bolters ◦ 2 heavy flamers* ◦ 2 lascannons",
         "This model’s plasma destroyer can be replaced with one of the following: ◦ 1 conversion beam cannon ◦ 1 infernus cannon ◦ 1 magna-melta cannon"
-      ],
-      "compo_structure": [
-        {
-          "name": "Deimos Predator",
-          "id": "75915a30-f166-4044-8761-596f9443cbbc",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -44181,23 +41694,13 @@
           "showName": false,
           "sv": "3+",
           "t": "10",
-          "w": "11",
-          "id": "9947003e-25b8-4cbe-9dbc-9892efd68d2c"
+          "w": "11"
         }
       ],
       "transport": "",
       "wargear": [
         "This model can be equipped with 1 hunter-killer missile.",
         "This model can be equipped with 1 storm bolter."
-      ],
-      "compo_structure": [
-        {
-          "name": "Whirlwind Scorpius",
-          "id": "9947003e-25b8-4cbe-9dbc-9892efd68d2c",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -44458,8 +41961,7 @@
           "showName": false,
           "sv": "2+",
           "t": "10",
-          "w": "12",
-          "id": "7e3fd75d-8797-4a7b-a0b9-2309135d7b8d"
+          "w": "12"
         }
       ],
       "transport": "",
@@ -44467,15 +41969,6 @@
         "Each of this model’s grav-flux bombards can be replaced with one of the following ◦ 1 cyclonic melta lance ◦ 1 storm cannon ◦ 1 meltagun and 1 Leviathan siege claw ◦ 1 meltagun and 1 Leviathan siege drill",
         "This model can be equipped with 3 hunter-killer missiles.",
         "This model’s 2 heavy flamers can be replaced with 2 twin volkite calivers."
-      ],
-      "compo_structure": [
-        {
-          "name": "Leviathan Dreadnought",
-          "id": "7e3fd75d-8797-4a7b-a0b9-2309135d7b8d",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -44721,8 +42214,7 @@
           "showName": false,
           "sv": "2+",
           "t": "9",
-          "w": "12",
-          "id": "ff8956f5-eda2-4f4d-9a87-ee9fa0e95803"
+          "w": "12"
         }
       ],
       "transport": "",
@@ -44730,15 +42222,6 @@
         "This model can be equipped with one of the following: ◦ 1 aiolos missile launcher ◦ 1 boreas air defence missiles",
         "This model’s anvilus autocannon battery can be replaced with one of the following ◦ 1 arachnus heavy lascannon battery ◦ 1 hellfire plasma carronade ◦ 1 volkite falconet battery",
         "This model’s twin heavy bolter can be replaced with 1 twin heavy flamer."
-      ],
-      "compo_structure": [
-        {
-          "name": "Deredeo Dreadnought",
-          "id": "ff8956f5-eda2-4f4d-9a87-ee9fa0e95803",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -44918,22 +42401,12 @@
           "showName": false,
           "sv": "2+",
           "t": "10",
-          "w": "12",
-          "id": "f1c95491-77ca-40e7-9aee-a087df120409"
+          "w": "12"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Carab Culln the Risen",
-          "id": "f1c95491-77ca-40e7-9aee-a087df120409",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -45117,8 +42590,7 @@
           "showName": false,
           "sv": "2+",
           "t": "11",
-          "w": "14",
-          "id": "ef31e4c3-bbea-43a7-a1e4-85ccaaecec39"
+          "w": "14"
         }
       ],
       "transport": "",
@@ -45126,15 +42598,6 @@
         "This model can be equipped with 1 hunter-killer missile.",
         "This model can be equipped with 1 storm bolter.",
         "This model can be equipped with one of the following: ◦ 2 heavy bolters ◦ 2 lascannons"
-      ],
-      "compo_structure": [
-        {
-          "name": "Sicaran Venator",
-          "id": "ef31e4c3-bbea-43a7-a1e4-85ccaaecec39",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -45318,8 +42781,7 @@
           "showName": false,
           "sv": "2+",
           "t": "11",
-          "w": "14",
-          "id": "1c9f27f3-d090-4f4a-bfc0-ddbdab212503"
+          "w": "14"
         }
       ],
       "transport": "",
@@ -45327,15 +42789,6 @@
         "This model can be equipped with 1 hunter-killer missile.",
         "This model can be equipped with 1 storm bolter.",
         "This model can be equipped with one of the following: ◦ 2 heavy bolters ◦ 2 lascannons"
-      ],
-      "compo_structure": [
-        {
-          "name": "Sicaran Battle Tank",
-          "id": "1c9f27f3-d090-4f4a-bfc0-ddbdab212503",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -45530,8 +42983,7 @@
           "showName": false,
           "sv": "2+",
           "t": "11",
-          "w": "14",
-          "id": "608ab2f7-13ce-43b2-b99a-098488014a46"
+          "w": "14"
         }
       ],
       "transport": "",
@@ -45539,15 +42991,6 @@
         "This model can be equipped with 1 hunter-killer missile.",
         "This model can be equipped with 1 storm bolter.",
         "This model can be equipped with one of the following: ◦ 2 heavy bolters ◦ 2 lascannons"
-      ],
-      "compo_structure": [
-        {
-          "name": "Sicaran Omega",
-          "id": "608ab2f7-13ce-43b2-b99a-098488014a46",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -45731,8 +43174,7 @@
           "showName": false,
           "sv": "2+",
           "t": "11",
-          "w": "14",
-          "id": "bfa5bd4b-5f0b-4177-9465-a06b65b3d476"
+          "w": "14"
         }
       ],
       "transport": "",
@@ -45740,15 +43182,6 @@
         "This model can be equipped with 1 hunter-killer missile.",
         "This model can be equipped with 1 storm bolter.",
         "This model can be equipped with one of the following: ◦ 2 heavy bolters ◦ 2 lascannons"
-      ],
-      "compo_structure": [
-        {
-          "name": "Sicaran Arcus",
-          "id": "bfa5bd4b-5f0b-4177-9465-a06b65b3d476",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -45932,8 +43365,7 @@
           "showName": false,
           "sv": "2+",
           "t": "11",
-          "w": "14",
-          "id": "afd28a10-fc61-402d-b42d-3747351cdee3"
+          "w": "14"
         }
       ],
       "transport": "",
@@ -45941,15 +43373,6 @@
         "This model can be equipped with 1 hunter-killer missile.",
         "This model can be equipped with 1 storm bolter.",
         "This model can be equipped with one of the following: ◦ 2 heavy bolters ◦ 2 lascannons"
-      ],
-      "compo_structure": [
-        {
-          "name": "Sicaran Punisher",
-          "id": "afd28a10-fc61-402d-b42d-3747351cdee3",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -46162,23 +43585,13 @@
           "showName": false,
           "sv": "3+",
           "t": "10",
-          "w": "18",
-          "id": "56612b08-b420-444d-84be-03c63cbdf6c9"
+          "w": "18"
         }
       ],
       "transport": "This model has a transport capacity of 22 Adeptus Astartes Infantry models and 1 Dreadnought model. Each Jump Pack, Wulfen, Gravis, Terminator or Possessed model takes up the space of 2 models and each Centurion or Obliterator model takes up the space of 3 models.",
       "wargear": [
         "This model’s 2 twin hellstrike missile launchers can be replaced with 2 twin lascannons",
         "This model’s twin heavy bolter can be replaced with one of the following: ◦ 1 twin multi-melta ◦ 1 typhoon missile launcher"
-      ],
-      "compo_structure": [
-        {
-          "name": "Storm Eagle Gunship",
-          "id": "56612b08-b420-444d-84be-03c63cbdf6c9",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -46360,23 +43773,13 @@
           "showName": false,
           "sv": "3+",
           "t": "10",
-          "w": "18",
-          "id": "d3261e1f-b904-4a03-ac5b-31e08c299904"
+          "w": "18"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s 2 twin autocannons can be replaced with 2 quad heavy bolters.",
         "This model’s 2 twin hellstrike missile launchers can be replaced with 2 twin lascannons"
-      ],
-      "compo_structure": [
-        {
-          "name": "Fire Raptor Gunship",
-          "id": "d3261e1f-b904-4a03-ac5b-31e08c299904",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -46507,22 +43910,12 @@
           "showName": false,
           "sv": "3+",
           "t": "10",
-          "w": "18",
-          "id": "32f25ed0-f5c0-438b-96fe-3026c932f857"
+          "w": "18"
         }
       ],
       "transport": "This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Caestus Assault Ram",
-          "id": "32f25ed0-f5c0-438b-96fe-3026c932f857",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -46689,23 +44082,13 @@
           "showName": false,
           "sv": "2+",
           "t": "12",
-          "w": "16",
-          "id": "61a5766a-9ddc-45ab-b159-d2ad20bfe91e"
+          "w": "16"
         }
       ],
       "transport": "This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis, Possessed or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.",
       "wargear": [
         "This model can be equipped with 1 hunter-killer missile.",
         "This model can be equipped with 1 storm bolter."
-      ],
-      "compo_structure": [
-        {
-          "name": "Land Raider Helios",
-          "id": "61a5766a-9ddc-45ab-b159-d2ad20bfe91e",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -46875,8 +44258,7 @@
           "showName": false,
           "sv": "2+",
           "t": "12",
-          "w": "16",
-          "id": "0c19b3bf-30ed-4e50-bfd5-545f17f38976"
+          "w": "16"
         }
       ],
       "transport": "This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis, Possessed or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.",
@@ -46884,15 +44266,6 @@
         "This model can be equipped with 1 hunter-killer missile.",
         "This model can be equipped with 1 multi-melta.",
         "This model can be equipped with 1 storm bolter."
-      ],
-      "compo_structure": [
-        {
-          "name": "Land Raider Prometheus",
-          "id": "0c19b3bf-30ed-4e50-bfd5-545f17f38976",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -47091,8 +44464,7 @@
           "showName": false,
           "sv": "2+",
           "t": "12",
-          "w": "16",
-          "id": "5710044c-7ce0-4f4d-9b27-b761058512a9"
+          "w": "16"
         }
       ],
       "transport": "This model has a transport capacity of 8 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.",
@@ -47100,15 +44472,6 @@
         "This model can be equipped with 1 hunter-killer missile.",
         "This model can be equipped with 1 multi-melta.",
         "This model can be equipped with 1 storm bolter."
-      ],
-      "compo_structure": [
-        {
-          "name": "Terminus Ultra",
-          "id": "5710044c-7ce0-4f4d-9b27-b761058512a9",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -47341,8 +44704,7 @@
           "showName": false,
           "sv": "2+",
           "t": "12",
-          "w": "16",
-          "id": "b2fa58e3-e1b8-45a3-a379-a765c0b62040"
+          "w": "16"
         }
       ],
       "transport": "This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis, Possessed or Terminator model takes up the space of 2 models and each Centurion or Obliterator model takes up the space of 3 models.",
@@ -47351,15 +44713,6 @@
         "This model can be equipped with 1 hunter-killer missile.",
         "This model can be equipped with 1 storm bolter.",
         "This model can be equipped with one of the following: ◦ 1 heavy bolter ◦ 1 multi-melta ◦ 1 twin heavy bolter ◦ 1 twin heavy flamer"
-      ],
-      "compo_structure": [
-        {
-          "name": "Land Raider Proteus",
-          "id": "b2fa58e3-e1b8-45a3-a379-a765c0b62040",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -47560,8 +44913,7 @@
           "showName": false,
           "sv": "2+",
           "t": "12",
-          "w": "16",
-          "id": "bf34d5e8-8e5d-400e-97a3-d55e4c0d5138"
+          "w": "16"
         }
       ],
       "transport": "This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis, Possessed or Terminator model takes up the space of 2 models and each Centurion or Obliterator model takes up the space of 3 models.",
@@ -47569,15 +44921,6 @@
         "This model can be equipped with 1 hunter-killer missile.",
         "This model can be equipped with 1 storm bolter.",
         "This model’s 2 twin volkite culverins can be replaced with 2 twin multi-melta"
-      ],
-      "compo_structure": [
-        {
-          "name": "Land Raider Achilles",
-          "id": "bf34d5e8-8e5d-400e-97a3-d55e4c0d5138",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -47788,8 +45131,7 @@
           "showName": false,
           "sv": "2+",
           "t": "12",
-          "w": "16",
-          "id": "d14cb08e-f750-4388-a8a1-8c18565a2c64"
+          "w": "16"
         }
       ],
       "transport": "This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.",
@@ -47798,15 +45140,6 @@
         "This model can be equipped with 1 hunter-killer missile.",
         "This model can be equipped with 1 multi-melta.",
         "This model can be equipped with 1 storm bolter."
-      ],
-      "compo_structure": [
-        {
-          "name": "Land Raider Excelsior",
-          "id": "d14cb08e-f750-4388-a8a1-8c18565a2c64",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -48002,8 +45335,7 @@
           "showName": false,
           "sv": "2+",
           "t": "12",
-          "w": "18",
-          "id": "c5fb8d1b-70c2-4d93-8ab3-83e8f7a45d54"
+          "w": "18"
         }
       ],
       "transport": "This model has a transport capacity of 28 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis, Possessed or Terminator model takes up the space of 2 models and each Centurion or Obliterator model takes up the space of 3 models.",
@@ -48011,15 +45343,6 @@
         "This model can be equipped with one of the following: ◦ 1 heavy bolter ◦ 1 heavy flamer ◦ 1 multi-melta ◦ 1 storm bolter",
         "This model’s 2 quad lascannons can be replaced with 2 laser destroyers.",
         "This model’s twin heavy bolter can be replaced with 1 twin heavy flamer"
-      ],
-      "compo_structure": [
-        {
-          "name": "Spartan",
-          "id": "c5fb8d1b-70c2-4d93-8ab3-83e8f7a45d54",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -48214,23 +45537,13 @@
           "showName": false,
           "sv": "2+",
           "t": "12",
-          "w": "18",
-          "id": "77072fbe-9d5c-45e1-af2f-67cbc75f8c9c"
+          "w": "18"
         }
       ],
       "transport": "",
       "wargear": [
         "This model can be equipped with one of the following: ◦ 1 heavy bolter ◦ 1 heavy flamer ◦ 1 multi-melta ◦ 1 storm bolter",
         "This model can be equipped with one of the following: ◦ 2 heavy bolters ◦ 2 lascannons"
-      ],
-      "compo_structure": [
-        {
-          "name": "Typhon",
-          "id": "77072fbe-9d5c-45e1-af2f-67cbc75f8c9c",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -48425,23 +45738,13 @@
           "showName": false,
           "sv": "2+",
           "t": "12",
-          "w": "18",
-          "id": "d033b956-b25c-4d8c-813b-0a52a5b71200"
+          "w": "18"
         }
       ],
       "transport": "",
       "wargear": [
         "This model can be equipped with one of the following: ◦ 1 heavy bolter ◦ 1 heavy flamer ◦ 1 multi-melta ◦ 1 storm bolter",
         "This model can be equipped with one of the following: ◦ 2 heavy bolters ◦ 2 lascannons"
-      ],
-      "compo_structure": [
-        {
-          "name": "Cerberus",
-          "id": "d033b956-b25c-4d8c-813b-0a52a5b71200",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -48710,8 +46013,7 @@
           "showName": false,
           "sv": "2+",
           "t": "12",
-          "w": "18",
-          "id": "ae4a95a6-e5f0-4529-807b-b1bf5e6dc873"
+          "w": "18"
         }
       ],
       "transport": "",
@@ -48721,15 +46023,6 @@
         "This model can be equipped with 1 hunter killer missile      s Legends Armoury card.",
         "This model can be equipped with one of the following: ◦ 1 combi-weapon* ◦ 1 havoc launcher ◦ 1 heavy bolter* ◦ 1 heavy flamer* ◦ 1 multi-melta*  ◦ 1 twin boltgun",
         "This model’s Kratos battle cannon can be replaced with one of the following: ◦ 1 melta blast-gun ◦ 1 volkite cardanelle"
-      ],
-      "compo_structure": [
-        {
-          "name": "Kratos",
-          "id": "ae4a95a6-e5f0-4529-807b-b1bf5e6dc873",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -48858,22 +46151,12 @@
           "showName": false,
           "sv": "2+",
           "t": "12",
-          "w": "30",
-          "id": "0bc29a4e-f922-4153-aa0b-396c758aa160"
+          "w": "30"
         }
       ],
       "transport": "This model has a transport capacity of 15 Adeptus Astartes Infantry or Adeptus Astartes Mounted models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models. Each Centurion model takes up the space of 3 models. Each Mounted model takes up the space of 4 models. This model can also transport up to 2 Adeptus Astartes Vehicle models (excluding Aircraft and Titanic models). Models embarked within Transport Vehicles that are themselves being transported by this model do not count towards the transport capacity of this model.",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Thunderhawk Transporter",
-          "id": "0bc29a4e-f922-4153-aa0b-396c758aa160",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -49155,8 +46438,7 @@
           "showName": false,
           "sv": "2+",
           "t": "13",
-          "w": "24",
-          "id": "f5082733-7f52-40ab-8173-0aec7d507979"
+          "w": "24"
         }
       ],
       "transport": "",
@@ -49164,15 +46446,6 @@
         "This model can be equipped with one of the following: ◦ 1 heavy bolter ◦ 1 heavy flamer ◦ 1 multi-melta ◦ 1 storm bolter",
         "This model’s 2 quad lascannons can be replaced with 2 laser destroyers.",
         "This model’s twin heavy bolter can be replaced with 1 twin heavy flamer"
-      ],
-      "compo_structure": [
-        {
-          "name": "Fellblade",
-          "id": "f5082733-7f52-40ab-8173-0aec7d507979",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -49426,8 +46699,7 @@
           "showName": false,
           "sv": "2+",
           "t": "13",
-          "w": "24",
-          "id": "a5493f0b-9fba-4d2f-ab36-d482c7c15744"
+          "w": "24"
         }
       ],
       "transport": "",
@@ -49435,15 +46707,6 @@
         "This model can be equipped with one of the following: ◦ 1 heavy bolter ◦ 1 heavy flamer ◦ 1 multi-melta ◦ 1 storm bolter",
         "This model’s 2 quad lascannons can be replaced with 2 laser destroyers.",
         "This model’s twin heavy bolter can be replaced with 1 twin heavy flamer"
-      ],
-      "compo_structure": [
-        {
-          "name": "Falchion",
-          "id": "a5493f0b-9fba-4d2f-ab36-d482c7c15744",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -49773,8 +47036,7 @@
           "showName": false,
           "sv": "3+",
           "t": "5",
-          "w": "5",
-          "id": "b63ce71b-8130-4715-8c87-c9d8f6655e47"
+          "w": "5"
         }
       ],
       "transport": "",
@@ -49782,15 +47044,6 @@
         "This model must be equipped with one of the following: ◦ 1 servo arm ◦ 1 conversion beamer ◦ 1 flamer, 1 plasma cutter and 2 servo-arms * The profile for this weapon can be found on the Adeptus Astartes Legends Armoury card.",
         "This model’s Omnissian power axe can be replaced with one of the following: ◦ 1 Astartes chainsword ◦ 1 power fist ◦ 1 thunder hammer",
         "This model’s bolt pistol can be replaced with one of the following: ◦ 1 boltgun ◦ 1 combi-weapon ◦ 1 grav-pistol ◦ 1 plasma pistol* ◦ 1 storm bolter"
-      ],
-      "compo_structure": [
-        {
-          "name": "Techmarine on Bike",
-          "id": "b63ce71b-8130-4715-8c87-c9d8f6655e47",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -49928,22 +47181,12 @@
           "showName": false,
           "sv": "3+",
           "t": "5",
-          "w": "5",
-          "id": "66b46275-71a0-443a-9eda-49c2113a17e5"
+          "w": "5"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Apothecary on Bike",
-          "id": "66b46275-71a0-443a-9eda-49c2113a17e5",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -50236,22 +47479,12 @@
           "showName": false,
           "sv": "3+",
           "t": "5",
-          "w": "5",
-          "id": "627dcf74-5726-4104-80d1-342aa83b6597"
+          "w": "5"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s bolt pistol can be replaced with one of the following: ◦ 1 boltgun ◦ 1 combi-weapon ◦ 1 grav-pistol ◦ 1 plasma pistol ◦ 1 storm bolter ◦ 1 power fist ◦ 1 power weapon ◦ 1 thunder hammer"
-      ],
-      "compo_structure": [
-        {
-          "name": "Ancient on Bike",
-          "id": "627dcf74-5726-4104-80d1-342aa83b6597",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -50530,22 +47763,12 @@
           "showName": false,
           "sv": "3+",
           "t": "5",
-          "w": "5",
-          "id": "7467bf54-e73a-40d8-9ec7-c15736569bea"
+          "w": "5"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s bolt pistol can be replaced with one of the following: ◦ 1 boltgun ◦ 1 combi-weapon ◦ 1 grav-pistol ◦ 1 plasma pistol ◦ 1 storm bolter"
-      ],
-      "compo_structure": [
-        {
-          "name": "Librarian on Bike",
-          "id": "7467bf54-e73a-40d8-9ec7-c15736569bea",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -50690,22 +47913,12 @@
           "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "4",
-          "id": "f5668710-b019-4481-9e2b-09b551991dc0"
+          "w": "4"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Imperial Space Marine",
-          "id": "f5668710-b019-4481-9e2b-09b551991dc0",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -50845,22 +48058,12 @@
           "showName": false,
           "sv": "3+",
           "t": "5",
-          "w": "5",
-          "id": "6f8a687e-3d75-498c-9583-a0c4a5b844f5"
+          "w": "5"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Company Champion on Bike",
-          "id": "6f8a687e-3d75-498c-9583-a0c4a5b844f5",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -51053,22 +48256,12 @@
           "showName": false,
           "sv": "2+",
           "t": "6",
-          "w": "6",
-          "id": "edeed121-066b-4301-bb75-f6dad8e07867"
+          "w": "6"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s quad heavy bolter can be replaced with one of the following ◦ 1 graviton cannon ◦ 1 laser destroyer ◦ 1 quad launcher"
-      ],
-      "compo_structure": [
-        {
-          "name": "Rapier Carrier",
-          "id": "edeed121-066b-4301-bb75-f6dad8e07867",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -51383,8 +48576,7 @@
           "showName": false,
           "sv": "3+",
           "t": "5",
-          "w": "3",
-          "id": "6da007fa-026d-49f3-a15d-91bb4aed3d1b"
+          "w": "3"
         }
       ],
       "transport": "",
@@ -51393,22 +48585,6 @@
         "Any number of Veteran Bikers’ bolt pistols can ◦ 1 thunder hammer each be replaced with one of the following: ◦ 1 storm shield ◦ 1 grav-pistol * The profile for this weapon can be found on the Adeptus ◦ 1 plasma pistol*                               Astartes Legends Armoury card. ◦ 1 power fist",
         "The Veteran Biker Sergeant’s Astartes                 ◦ 1 grav-gun chainsword can be replaced with one of                ◦ 1 grav-pistol the following:                                        ◦ 1 meltagun ◦ 1 power fist                                       ◦ 1 plasma gun* ◦ 1 power weapon                                     ◦ 1 plasma pistol* ◦ 1 thunder hammer                                   ◦ 1 power fist ◦ 1 power weapon",
         "The Veteran Biker Sergeant’s bolt pistol can be      ◦ 1 power weapon replaced with one of the following:                  ◦ 1 thunder hammer ◦ 1 boltgun                                         ◦ 1 storm shield ◦ 1 combi-weapon"
-      ],
-      "compo_structure": [
-        {
-          "name": "Veteran Biker Sergeant",
-          "id": "6da007fa-026d-49f3-a15d-91bb4aed3d1b",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Veteran Bikers",
-          "id": "6da007fa-026d-49f3-a15d-91bb4aed3d1b",
-          "count": 1,
-          "min": 1,
-          "max": 4
-        }
       ]
     },
     {
@@ -51530,22 +48706,12 @@
           "showName": false,
           "sv": "3+",
           "t": "6",
-          "w": "4",
-          "id": "ea6b69f8-e5cc-4f72-a462-b8a7fd15c329"
+          "w": "4"
         }
       ],
       "transport": "",
       "wargear": [
         "This model’s twin heavy bolter replaced with 1 twin lascannon."
-      ],
-      "compo_structure": [
-        {
-          "name": "Tarantula Sentry Battery",
-          "id": "ea6b69f8-e5cc-4f72-a462-b8a7fd15c329",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        }
       ]
     },
     {
@@ -51687,36 +48853,12 @@
           "showName": false,
           "sv": "2+",
           "t": "4",
-          "w": "2",
-          "id": "3a383557-4cc8-4936-bd02-e389d6cda6a3"
+          "w": "2"
         }
       ],
       "transport": "",
       "wargear": [
         "None"
-      ],
-      "compo_structure": [
-        {
-          "name": "Ancient",
-          "id": "3a383557-4cc8-4936-bd02-e389d6cda6a3",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Chapter Champion",
-          "id": "3a383557-4cc8-4936-bd02-e389d6cda6a3",
-          "count": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "name": "Honour Guard",
-          "id": "3a383557-4cc8-4936-bd02-e389d6cda6a3",
-          "count": 2,
-          "min": 2,
-          "max": 2
-        }
       ]
     },
     {
@@ -51759,8 +48901,7 @@
       "source": "40k-10e",
       "stats": [],
       "transport": "",
-      "wargear": [],
-      "compo_structure": []
+      "wargear": []
     }
   ],
   "detachments": [

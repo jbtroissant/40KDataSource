@@ -5,11 +5,37 @@ from typing import Dict, List, Any
 
 def clean_text(text: str) -> str:
     """Nettoie le texte en supprimant les caractères spéciaux tout en préservant les accents"""
-    # Supprimer les caractères de contrôle mais préserver les caractères accentués
-    # Utiliser une plage plus large qui inclut les caractères Unicode courants
-    text = re.sub(r'[\x00-\x1F\x7F-\x9F]', '', text)
+    # Supprimer tous les caractères de contrôle et caractères non imprimables
+    # Inclure une plage plus large pour capturer les caractères problématiques
+    text = re.sub(r'[\x00-\x1F\x7F-\x9F\uFFFD\uFFFE\uFFFF]', '', text)
+    
+    # Supprimer les caractères de remplacement Unicode et autres caractères problématiques
+    text = re.sub(r'[\uFFFD-\uFFFF]', '', text)
+    
+    # Supprimer les caractères de contrôle étendus
+    text = re.sub(r'[\u2000-\u200F\u2028-\u202F\u205F-\u206F]', '', text)
+    
+    # Nettoyer les espaces multiples et caractères d'espacement
     text = re.sub(r'\s+', ' ', text)
+    
+    # Supprimer les caractères de début/fin de ligne invisibles
+    text = re.sub(r'^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$', '', text)
+    
     return text.strip()
+
+def clean_name(text: str) -> str:
+    """Nettoie spécifiquement les noms d'unités et d'améliorations"""
+    # Appliquer le nettoyage de base
+    text = clean_text(text)
+    
+    # Supprimer les caractères non-ASCII problématiques supplémentaires
+    # Garder seulement les lettres, chiffres, espaces, tirets, parenthèses et points
+    text = re.sub(r'[^\w\s\-\(\)\.]', '', text)
+    
+    # Nettoyer les espaces en début et fin
+    text = text.strip()
+    
+    return text
 
 def extract_munitorum_data(pdf_path: str) -> Dict[str, Any]:
     """
@@ -99,7 +125,7 @@ def extract_munitorum_data(pdf_path: str) -> Dict[str, Any]:
                     continue
                 # Détection d'une nouvelle catégorie (ligne non vide, sans 'pts', non numérique)
                 if line and 'pts' not in line and not line.isdigit():
-                    category_name = line.strip()
+                    category_name = clean_name(line.strip())
                     current_enhancement_category = {
                         "category": category_name,
                         "enhancements": []
@@ -112,7 +138,7 @@ def extract_munitorum_data(pdf_path: str) -> Dict[str, Any]:
                     enhancement_pattern = r'^(.+?)(\d+)\s*pts'
                     enhancement_match = re.match(enhancement_pattern, line)
                     if enhancement_match:
-                        enhancement_name = enhancement_match.group(1).strip()
+                        enhancement_name = clean_name(enhancement_match.group(1).strip())
                         enhancement_cost = enhancement_match.group(2)
                         current_enhancement_category["enhancements"].append({
                             "name": enhancement_name,
@@ -134,7 +160,7 @@ def extract_munitorum_data(pdf_path: str) -> Dict[str, Any]:
                 
                 # C'est probablement le nom d'une unité
                 current_unit = {
-                    "name": line,
+                    "name": clean_name(line),
                     "costs": []
                 }
                 continue
@@ -165,7 +191,7 @@ def extract_munitorum_data(pdf_path: str) -> Dict[str, Any]:
                 option_pattern = r'^(.+?)\s*\+(\d+)\s*pts'
                 option_match = re.match(option_pattern, line)
                 if option_match:
-                    option_name = option_match.group(1).strip()
+                    option_name = clean_name(option_match.group(1).strip())
                     option_cost = option_match.group(2)
                     current_unit["costs"].append({
                         "cost_name": option_name,

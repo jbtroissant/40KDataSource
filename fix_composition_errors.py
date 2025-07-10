@@ -8,8 +8,15 @@ Supprime les entrées qui ne suivent pas le format de composition standard.
 import json
 import os
 import re
+import sys
 from pathlib import Path
 from typing import List, Dict
+
+# Configurer l'encodage pour Windows
+if sys.platform.startswith('win'):
+    import codecs
+    sys.stdout = codecs.getwriter('utf-8')(sys.stdout.detach())
+    sys.stderr = codecs.getwriter('utf-8')(sys.stderr.detach())
 
 # Icônes pour améliorer la lisibilité
 ICONS = {

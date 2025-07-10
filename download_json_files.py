@@ -161,5 +161,31 @@ def clean_space_marines_json():
     except Exception as e:
         print(f"❌ Erreur lors du nettoyage: {e}")
 
+def fix_composition_errors():
+    """
+    Corrige les erreurs dans les sections composition des datasheets.
+    """
+    print("\n🧹 Correction des erreurs de composition...")
+    
+    try:
+        # Importer et exécuter le script fix_composition_errors
+        import subprocess
+        import sys
+        
+        result = subprocess.run([sys.executable, "fix_composition_errors.py"], 
+                              capture_output=True, text=True, encoding='utf-8')
+        
+        if result.returncode == 0:
+            print("✅ Correction des erreurs de composition terminée")
+            if result.stdout:
+                print(result.stdout)
+        else:
+            print(f"❌ Erreur lors de la correction: {result.stderr}")
+            
+    except Exception as e:
+        print(f"❌ Erreur lors de l'exécution du script de correction: {e}")
+
 if __name__ == "__main__":
-    download_json_files() 
+    download_json_files()
+    # Corriger les erreurs de composition après le téléchargement
+    fix_composition_errors() 

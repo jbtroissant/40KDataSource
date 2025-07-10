@@ -1,7 +1,5 @@
 {
-  "allied_factions": [
-    "CD"
-  ],
+  "allied_factions": ["CD"],
   "colours": {
     "banner": "#102824",
     "header": "#49584c"
@@ -10,18 +8,14 @@
   "datasheets": [
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D3"
-        ],
+        "core": ["Deadly Demise D3"],
         "damaged": {
           "range": "1-5 WOUNDS REMAINING",
           "description": "While this model has 1‑5 wounds remaining, subtract 3 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Harbingers of Dread"
-        ],
+        "faction": ["Harbingers of Dread"],
         "invul": {
           "info": "Against ranged attacks only.",
           "showAtTop": true,
@@ -42,22 +36,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 War Dog Huntsman"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
+      "composition": ["1 War Dog Huntsman"],
+      "factions": ["Chaos Knights"],
       "faction_id": "QT",
       "fluff": "Like hounds on the scent, Huntsmen often pursue much larger enemies and seek to drag their prey down as a pack. Their daemonbreath spears melt through the thickest armour while chaintalons are employed to drive deeply into gushing innards, tearing through organs and crew alike.",
       "id": "208a6a2a-3186-5629-b390-e1f0d4f16fb4",
-      "keywords": [
-        "Vehicle",
-        "Walker",
-        "Chaos",
-        "War Dog",
-        "Huntsman"
-      ],
+      "keywords": ["Vehicle", "Walker", "Chaos", "War Dog", "Huntsman"],
       "leader": "",
       "loadout": "This model is equipped with: daemonbreath spear; diabolus heavy stubber; reaper chaintalon.",
       "meleeWeapons": [
@@ -92,9 +76,10 @@
       "name": "War Dog Huntsman",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "140"
+          "cost": "140",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -106,9 +91,7 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": [
-                "Melta 4"
-              ],
+              "keywords": ["Melta 4"],
               "name": "Daemonbreath spear",
               "range": "18\"",
               "skill": "3+",
@@ -124,9 +107,7 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
+              "keywords": ["Rapid Fire 3"],
               "name": "Diabolus heavy stubber",
               "range": "36\"",
               "skill": "3+",
@@ -142,9 +123,7 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": [
-                "Melta 2"
-              ],
+              "keywords": ["Melta 2"],
               "name": "Daemonbreath meltagun",
               "range": "12\"",
               "skill": "3+",
@@ -175,18 +154,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D3"
-        ],
+        "core": ["Deadly Demise D3"],
         "damaged": {
           "range": "1-5 WOUNDS REMAINING",
           "description": "While this model has 1‑5 wounds remaining, subtract 3 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Harbingers of Dread"
-        ],
+        "faction": ["Harbingers of Dread"],
         "invul": {
           "info": "Against ranged attacks only.",
           "showAtTop": true,
@@ -207,22 +182,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 War Dog Brigand"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
+      "composition": ["1 War Dog Brigand"],
+      "factions": ["Chaos Knights"],
       "faction_id": "QT",
       "fluff": "Between them, Brigands and their Fallen Noble pilots have become so enamoured of the skilful, ranged kill that they mostly disdain the chaos of close assaults. Some even swear dark pacts compelling them to slay potent foes with ballistic elegance, or else to purge war zones of all life employing only ranged firepower.",
       "id": "c7cbf1c7-f75f-5c73-9740-47797bb1eb17",
-      "keywords": [
-        "Vehicle",
-        "Walker",
-        "Chaos",
-        "War Dog",
-        "Brigand"
-      ],
+      "keywords": ["Vehicle", "Walker", "Chaos", "War Dog", "Brigand"],
       "leader": "",
       "loadout": "This model is equipped with: avenger chaincannon; daemonbreath spear; diabolus heavy stubber; armoured feet.",
       "meleeWeapons": [
@@ -246,9 +211,10 @@
       "name": "War Dog Brigand",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "140"
+          "cost": "140",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -276,9 +242,7 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": [
-                "Melta 4"
-              ],
+              "keywords": ["Melta 4"],
               "name": "Daemonbreath spear",
               "range": "18\"",
               "skill": "3+",
@@ -294,9 +258,7 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
+              "keywords": ["Rapid Fire 3"],
               "name": "Diabolus heavy stubber",
               "range": "36\"",
               "skill": "3+",
@@ -312,10 +274,7 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Indirect Fire",
-                "Blast"
-              ],
+              "keywords": ["Indirect Fire", "Blast"],
               "name": "Havoc multi-launcher",
               "range": "48\"",
               "skill": "3+",
@@ -346,18 +305,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D3"
-        ],
+        "core": ["Deadly Demise D3"],
         "damaged": {
           "range": "1-5 WOUNDS REMAINING",
           "description": "While this model has 1‑5 wounds remaining, subtract 3 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Harbingers of Dread"
-        ],
+        "faction": ["Harbingers of Dread"],
         "invul": {
           "info": "Against ranged attacks only.",
           "showAtTop": true,
@@ -378,22 +333,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 War Dog Executioner"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
+      "composition": ["1 War Dog Executioner"],
+      "factions": ["Chaos Knights"],
       "faction_id": "QT",
       "fluff": "Methodical and coldly merciless, the Fallen Nobles who pilot War Dog Executioners employ their steeds’ long‑barrelled, rapid‑firing cannons to maximise their kills. They eviscerate throngs of the enemy and hammer the foes’ war engines into submission, seeking to reap greater murderous tallies than their peers.",
       "id": "5108c12c-83c1-55aa-914b-599a6c51e060",
-      "keywords": [
-        "Vehicle",
-        "Walker",
-        "Chaos",
-        "War Dog",
-        "Executioner"
-      ],
+      "keywords": ["Vehicle", "Walker", "Chaos", "War Dog", "Executioner"],
       "leader": "",
       "loadout": "This model is equipped with: diabolus heavy stubber; 2 War Dog autocannons; armoured feet.",
       "meleeWeapons": [
@@ -417,9 +362,10 @@
       "name": "War Dog Executioner",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "130"
+          "cost": "130",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -431,9 +377,7 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
+              "keywords": ["Rapid Fire 3"],
               "name": "Diabolus heavy stubber",
               "range": "36\"",
               "skill": "3+",
@@ -465,9 +409,7 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": [
-                "Melta 2"
-              ],
+              "keywords": ["Melta 2"],
               "name": "Daemonbreath meltagun",
               "range": "12\"",
               "skill": "3+",
@@ -498,19 +440,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D3",
-          "Scouts 6\""
-        ],
+        "core": ["Deadly Demise D3", "Scouts 6\""],
         "damaged": {
           "range": "1-5 WOUNDS REMAINING",
           "description": "While this model has 1‑5 wounds remaining, subtract 3 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Harbingers of Dread"
-        ],
+        "faction": ["Harbingers of Dread"],
         "invul": {
           "info": "Against ranged attacks only.",
           "showAtTop": true,
@@ -531,22 +468,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 War Dog Stalker"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
+      "composition": ["1 War Dog Stalker"],
+      "factions": ["Chaos Knights"],
       "faction_id": "QT",
       "fluff": "Only the most strong‑willed pilots have the mental fortitude to harness a Stalker. Like pack alphas, they often lead other War Dogs in carefully planned attacks, harrying the foe’s flanks, butchering reinforcements and hunting down lone threats. Boasting a balance of long- and short‑ranged weaponry, these War Dogs are fearsome foes.",
       "id": "f8eccaeb-7d1b-5b88-9262-14480900acc1",
-      "keywords": [
-        "Vehicle",
-        "Walker",
-        "Chaos",
-        "War Dog",
-        "Stalker"
-      ],
+      "keywords": ["Vehicle", "Walker", "Chaos", "War Dog", "Stalker"],
       "leader": "",
       "loadout": "This model is equipped with: avenger chaincannon; diabolus heavy stubber; slaughterclaw.",
       "meleeWeapons": [
@@ -597,9 +524,10 @@
       "name": "War Dog Stalker",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "140"
+          "cost": "140",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -627,9 +555,7 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
+              "keywords": ["Rapid Fire 3"],
               "name": "Diabolus heavy stubber",
               "range": "36\"",
               "skill": "3+",
@@ -645,9 +571,7 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": [
-                "Melta 4"
-              ],
+              "keywords": ["Melta 4"],
               "name": "Daemonbreath spear",
               "range": "18\"",
               "skill": "3+",
@@ -663,10 +587,7 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Indirect Fire",
-                "Blast"
-              ],
+              "keywords": ["Indirect Fire", "Blast"],
               "name": "Havoc multi-launcher",
               "range": "48\"",
               "skill": "3+",
@@ -699,18 +620,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D3"
-        ],
+        "core": ["Deadly Demise D3"],
         "damaged": {
           "range": "1-5 WOUNDS REMAINING",
           "description": "While this model has 1‐5 wounds remaining, subtract 3 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Harbingers of Dread"
-        ],
+        "faction": ["Harbingers of Dread"],
         "invul": {
           "info": "Against ranged attacks only",
           "showAtTop": true,
@@ -731,23 +648,13 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 War Dog Moirax"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
+      "composition": ["1 War Dog Moirax"],
+      "factions": ["Chaos Knights"],
       "faction_id": "QT",
       "fluff": "Moirax-pattern Armigers excel in speeding ahead of their larger brethren, hunting down targets of opportunity and cutting down the vulnerable. They relish the slaughter of the weak, each slain only proving the War Dogs’ superiority as well as that of the monstrous deity or deities they have elected to follow in the Emperor’s stead.",
       "id": "0ef085b1-f322-524a-9b3b-c51c8368e67d",
       "imperialArmour": true,
-      "keywords": [
-        "Vehicle",
-        "Walker",
-        "Chaos",
-        "War Dog",
-        "Moirax"
-      ],
+      "keywords": ["Vehicle", "Walker", "Chaos", "War Dog", "Moirax"],
       "leader": "",
       "loadout": "This model is equipped with: graviton pulsar; volkite veuglaire; armoured feet.",
       "meleeWeapons": [
@@ -787,9 +694,10 @@
       "name": "War Dog Moirax",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "150"
+          "cost": "150",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -801,10 +709,7 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "2",
-              "keywords": [
-                "Blast",
-                "Anti-vehicle 2+"
-              ],
+              "keywords": ["Blast", "Anti-vehicle 2+"],
               "name": "Graviton pulsar",
               "range": "24\"",
               "skill": "3+",
@@ -820,9 +725,7 @@
               "ap": "0",
               "attacks": "4",
               "damage": "2",
-              "keywords": [
-                "Devastating Wounds"
-              ],
+              "keywords": ["Devastating Wounds"],
               "name": "Volkite veuglaire",
               "range": "36\"",
               "skill": "3+",
@@ -838,11 +741,7 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover",
-                "Anti-infantry 2+"
-              ],
+              "keywords": ["Torrent", "Ignores Cover", "Anti-infantry 2+"],
               "name": "Rad cleanser",
               "range": "12\"",
               "skill": "N/A",
@@ -858,9 +757,7 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": [
-                "Sustained Hits 2"
-              ],
+              "keywords": ["Sustained Hits 2"],
               "name": "Lightning lock",
               "range": "36\"",
               "skill": "3+",
@@ -876,10 +773,7 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "3",
-              "keywords": [
-                "Sustained Hits D3",
-                "Conversion"
-              ],
+              "keywords": ["Sustained Hits D3", "Conversion"],
               "name": "Conversion beam cannon",
               "range": "24\"",
               "skill": "3+",
@@ -919,18 +813,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D3"
-        ],
+        "core": ["Deadly Demise D3"],
         "damaged": {
           "range": "1-5 WOUNDS REMAINING",
           "description": "While this model has 1‑5 wounds remaining, subtract 3 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Harbingers of Dread"
-        ],
+        "faction": ["Harbingers of Dread"],
         "invul": {
           "info": "Against ranged attacks only.",
           "showAtTop": true,
@@ -951,22 +841,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 War Dog Karnivore"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
+      "composition": ["1 War Dog Karnivore"],
+      "factions": ["Chaos Knights"],
       "faction_id": "QT",
       "fluff": "Aggressive and bloodthirsty, Karnivores eschew the more potent ranged weapons of the War Dog chassis. Their pilots revel in causing bloody confusion and despair, seeking the visceral thrill that only close‑quarters slaughter provides. Such extreme inclinations lead many of their pilots to fall to the open worship of one of the Chaos Gods.",
       "id": "3aab31ea-3f13-507e-8e41-0a59f4966b7a",
-      "keywords": [
-        "Vehicle",
-        "Walker",
-        "Chaos",
-        "War Dog",
-        "Karnivore"
-      ],
+      "keywords": ["Vehicle", "Walker", "Chaos", "War Dog", "Karnivore"],
       "leader": "",
       "loadout": "This model is equipped with: diabolus heavy stubber; reaper chaintalon; slaughterclaw.",
       "meleeWeapons": [
@@ -978,9 +858,7 @@
               "ap": "-2",
               "attacks": "12",
               "damage": "1",
-              "keywords": [
-                "Sustained Hits 1"
-              ],
+              "keywords": ["Sustained Hits 1"],
               "name": "Reaper chaintalon",
               "range": "Melee",
               "skill": "3+",
@@ -996,9 +874,7 @@
               "ap": "-3",
               "attacks": "6",
               "damage": "D6+2",
-              "keywords": [
-                "Sustained Hits 1"
-              ],
+              "keywords": ["Sustained Hits 1"],
               "name": "Slaughterclaw",
               "range": "Melee",
               "skill": "3+",
@@ -1010,9 +886,10 @@
       "name": "War Dog Karnivore",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "140"
+          "cost": "140",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1024,9 +901,7 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
+              "keywords": ["Rapid Fire 3"],
               "name": "Diabolus heavy stubber",
               "range": "36\"",
               "skill": "3+",
@@ -1042,10 +917,7 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Indirect Fire",
-                "Blast"
-              ],
+              "keywords": ["Indirect Fire", "Blast"],
               "name": "Havoc multi-launcher",
               "range": "48\"",
               "skill": "3+",
@@ -1076,19 +948,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6"
-        ],
+        "core": ["Deadly Demise D6"],
         "damaged": {
           "range": "1-9 WOUNDS REMAINING",
           "description": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Harbingers of Dread",
-          "Super-heavy Walker"
-        ],
+        "faction": ["Harbingers of Dread", "Super-heavy Walker"],
         "invul": {
           "info": "Against ranged attacks only.",
           "showAtTop": true,
@@ -1115,12 +982,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Knight Despoiler"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
+      "composition": ["1 Knight Despoiler"],
+      "factions": ["Chaos Knights"],
       "faction_id": "QT",
       "fluff": "Knights Despoiler epitomise all it means to be a Chaos Knight. Their Fallen Nobles repudiate honour and seethe with hatred. Capable of bearing a variety of powerful weapons suited to their pilot’s temperament, they unleash their hatred at range or in thunderous melee.",
       "id": "d2c6cdcb-8507-5301-ac2a-c20aae1a28e2",
@@ -1211,9 +1074,10 @@
       "name": "Knight Despoiler",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "335"
+          "cost": "335",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1225,9 +1089,7 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": [
-                "Melta 2"
-              ],
+              "keywords": ["Melta 2"],
               "name": "Daemonbreath meltagun",
               "range": "12\"",
               "skill": "3+",
@@ -1243,9 +1105,7 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
+              "keywords": ["Rapid Fire 3"],
               "name": "Diabolus heavy stubber",
               "range": "36\"",
               "skill": "3+",
@@ -1261,10 +1121,7 @@
               "ap": "-4",
               "attacks": "2D3",
               "damage": "D6",
-              "keywords": [
-                "Melta 6",
-                "Blast"
-              ],
+              "keywords": ["Melta 6", "Blast"],
               "name": "Daemonbreath thermal cannon",
               "range": "24\"",
               "skill": "3+",
@@ -1296,10 +1153,7 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Ignores Cover"],
               "name": "Heavy darkflamer",
               "range": "12\"",
               "skill": "N/A",
@@ -1315,10 +1169,7 @@
               "ap": "-1",
               "attacks": "D6+3",
               "damage": "3",
-              "keywords": [
-                "Rapid Fire D6+3",
-                "Blast"
-              ],
+              "keywords": ["Rapid Fire D6+3", "Blast"],
               "name": "Despoiler battle cannon",
               "range": "72\"",
               "skill": "3+",
@@ -1334,10 +1185,7 @@
               "ap": "0",
               "attacks": "D6+1",
               "damage": "1",
-              "keywords": [
-                "Indirect Fire",
-                "Blast"
-              ],
+              "keywords": ["Indirect Fire", "Blast"],
               "name": "Havoc missile pod",
               "range": "48\"",
               "skill": "3+",
@@ -1369,10 +1217,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": [
-                "Twin-linked",
-                "Anti-fly 2+"
-              ],
+              "keywords": ["Twin-linked", "Anti-fly 2+"],
               "name": "Hellstorm autocannons",
               "range": "48\"",
               "skill": "3+",
@@ -1406,19 +1251,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6+2"
-        ],
+        "core": ["Deadly Demise D6+2"],
         "damaged": {
           "range": "1-10 WOUNDS REMAINING",
           "description": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Harbingers of Dread",
-          "Super-heavy Walker"
-        ],
+        "faction": ["Harbingers of Dread", "Super-heavy Walker"],
         "invul": {
           "info": "Against ranged attacks only",
           "showAtTop": true,
@@ -1445,12 +1285,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Chaos Cerastus Knight Acheron"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
+      "composition": ["1 Chaos Cerastus Knight Acheron"],
+      "factions": ["Chaos Knights"],
       "faction_id": "QT",
       "fluff": "Terror weapons even when fighting for the Imperium, Knights Acheron that have turned to Chaos take this trait to a new, horrifying level. As determined as they ever were to exterminate their foes, now they take on such tasks with unrestrained glee, relishing in the burning of swathes of the enemy or the carving of foes with their chainfists.",
       "id": "4982d1aa-990c-54c1-bbd3-f3b6fd7114b9",
@@ -1499,9 +1335,10 @@
       "name": "Chaos Cerastus Knight Acheron",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "355"
+          "cost": "355",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1513,10 +1350,7 @@
               "ap": "-1",
               "attacks": "2D6",
               "damage": "2",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Ignores Cover"],
               "name": "Acheron flame cannon",
               "range": "18\"",
               "skill": "N/A",
@@ -1532,10 +1366,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": [
-                "Twin-linked",
-                "Sustained Hits 1"
-              ],
+              "keywords": ["Twin-linked", "Sustained Hits 1"],
               "name": "Twin heavy bolter",
               "range": "36\"",
               "skill": "3+",
@@ -1560,25 +1391,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6"
-        ],
+        "core": ["Deadly Demise D6"],
         "damaged": {
           "range": "1‑9 WOUNDS REMAINING",
           "description": "While this model has 1‑9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Harbingers of Dread",
-          "Super-heavy Walker"
-        ],
+        "faction": ["Harbingers of Dread", "Super-heavy Walker"],
         "invul": {
           "info": "Against ranged attacks only.",
           "showAtTop": true,
@@ -1605,12 +1429,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Knight Ruinator"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
+      "composition": ["1 Knight Ruinator"],
+      "factions": ["Chaos Knights"],
       "faction_id": "QT",
       "fluff": "Knights Ruinator charge the enemy lines amidst searing torrents of cursed flame and salvoes of shocking terrorpulse missiles. Fixating on a single foe or enemy formation until it is utterly destroyed then moving on to the next, these ghastly war engines burn and drill a trail of utter devastation for their comrades to follow into the very heart of their foes’ position.",
       "id": "a77c6b14-b349-5794-877b-4b17dbf93908",
@@ -1646,10 +1466,7 @@
               "ap": "-3",
               "attacks": "4",
               "damage": "6",
-              "keywords": [
-                "Anti-vehicle 2+",
-                "Anti-monster 2+"
-              ],
+              "keywords": ["Anti-vehicle 2+", "Anti-monster 2+"],
               "name": "Fellbore – Strike",
               "range": "Melee",
               "skill": "3+",
@@ -1661,9 +1478,10 @@
       "name": "Knight Ruinator",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "350"
+          "cost": "350",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1675,10 +1493,7 @@
               "ap": "-1",
               "attacks": "2D6",
               "damage": "2",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Ignores Cover"],
               "name": "Darkflame lance",
               "range": "18\"",
               "skill": "N/A",
@@ -1694,9 +1509,7 @@
               "ap": "-2",
               "attacks": "2D6",
               "damage": "2",
-              "keywords": [
-                "Blast"
-              ],
+              "keywords": ["Blast"],
               "name": "Terrorpulse missiles",
               "range": "36\"",
               "skill": "3+",
@@ -1721,25 +1534,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6"
-        ],
+        "core": ["Deadly Demise D6"],
         "damaged": {
           "range": "1-9 WOUNDS REMAINING",
           "description": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Harbingers of Dread",
-          "Super-heavy Walker"
-        ],
+        "faction": ["Harbingers of Dread", "Super-heavy Walker"],
         "invul": {
           "info": "Against ranged attacks only.",
           "showAtTop": true,
@@ -1766,12 +1572,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Knight Desecrator"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
+      "composition": ["1 Knight Desecrator"],
+      "factions": ["Chaos Knights"],
       "faction_id": "QT",
       "fluff": "Knights Desecrator spare no living thing from their attacks. They possess potent mid-to close‑range armaments capable of duelling enemy war engines and monstrous beasts, or annihilating hordes of lesser foes. Their darkly regal pilots are cruel taskmasters, snarling commands to War Dog followers that lope to battle at their sides.",
       "id": "b3020c8a-0fda-5b0a-842c-528e42effcd7",
@@ -1846,9 +1648,10 @@
       "name": "Knight Desecrator",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "335"
+          "cost": "335",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1876,9 +1679,7 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
+              "keywords": ["Rapid Fire 3"],
               "name": "Diabolus heavy stubber",
               "range": "36\"",
               "skill": "2+",
@@ -1909,19 +1710,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise 2D6"
-        ],
+        "core": ["Deadly Demise 2D6"],
         "damaged": {
           "range": "1-10 WOUNDS REMAINING",
           "description": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Harbingers of Dread",
-          "Super-heavy Walker"
-        ],
+        "faction": ["Harbingers of Dread", "Super-heavy Walker"],
         "invul": {
           "info": "Against ranged attacks only",
           "showAtTop": true,
@@ -1942,12 +1738,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Chaos Acastus Knight Porphyrion"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
+      "composition": ["1 Chaos Acastus Knight Porphyrion"],
+      "factions": ["Chaos Knights"],
       "faction_id": "QT",
       "fluff": "The Chaos Knight Porphyrion can fight toe to toe even with the mighty god-engines of the Collegia Titanica, and is amongst the most formidable machines in the arsenals of those who have turned against the Emperor. Few foes can stand up to the immense power of its devastating weapons, which make short work of some of the toughest armour ever designed in the galaxy.",
       "id": "87fe6616-97c6-552e-a920-7ed1404de503",
@@ -1984,9 +1776,10 @@
       "name": "Chaos Acastus Knight Porphyrion",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "700"
+          "cost": "700",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1998,11 +1791,7 @@
               "ap": "0",
               "attacks": "D6+6",
               "damage": "1",
-              "keywords": [
-                "Indirect Fire",
-                "Heavy",
-                "Blast"
-              ],
+              "keywords": ["Indirect Fire", "Heavy", "Blast"],
               "name": "Acastus ironstorm missile pod",
               "range": "48\"",
               "skill": "3+",
@@ -2034,10 +1823,7 @@
               "ap": "-4",
               "attacks": "D6",
               "damage": "D6+6",
-              "keywords": [
-                "Twin-linked",
-                "Blast"
-              ],
+              "keywords": ["Twin-linked", "Blast"],
               "name": "Twin magna lascannon",
               "range": "72\"",
               "skill": "3+",
@@ -2069,10 +1855,7 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "D6",
-              "keywords": [
-                "Heavy",
-                "Anti-fly 2+"
-              ],
+              "keywords": ["Heavy", "Anti-fly 2+"],
               "name": "Helios defence missiles",
               "range": "48\"",
               "skill": "3+",
@@ -2104,19 +1887,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6+2"
-        ],
+        "core": ["Deadly Demise D6+2"],
         "damaged": {
           "range": "1-10 WOUNDS REMAINING",
           "description": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Harbingers of Dread",
-          "Super-heavy Walker"
-        ],
+        "faction": ["Harbingers of Dread", "Super-heavy Walker"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2143,12 +1921,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Chaos Cerastus Knight Atrapos"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
+      "composition": ["1 Chaos Cerastus Knight Atrapos"],
+      "factions": ["Chaos Knights"],
       "faction_id": "QT",
       "fluff": "Where the Knight Atrapos was created to destroy traitor war machines, fallen engines of this type now turn their devastating weapons to the destruction of the engines of its creators. They are totally consumed by the hunger that they carry with them, embracing the madness they were always so close to before turning against the Emperor.",
       "id": "60c910a2-d7a1-56ab-a0e8-30668b6fd184",
@@ -2174,9 +1948,7 @@
               "ap": "-1",
               "attacks": "12",
               "damage": "2",
-              "keywords": [
-                "Sustained Hits 1"
-              ],
+              "keywords": ["Sustained Hits 1"],
               "name": "Atrapos lascutter – Low intensity",
               "range": "Melee",
               "skill": "3+",
@@ -2187,9 +1959,7 @@
               "ap": "-3",
               "attacks": "6",
               "damage": "4",
-              "keywords": [
-                "Sustained Hits 1"
-              ],
+              "keywords": ["Sustained Hits 1"],
               "name": "Atrapos lascutter – High intensity",
               "range": "Melee",
               "skill": "3+",
@@ -2201,9 +1971,10 @@
       "name": "Chaos Cerastus Knight Atrapos",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "355"
+          "cost": "355",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2215,9 +1986,7 @@
               "ap": "-1",
               "attacks": "2D6",
               "damage": "2",
-              "keywords": [
-                "Sustained Hits 1"
-              ],
+              "keywords": ["Sustained Hits 1"],
               "name": "Atrapos lascutter – Low intensity",
               "range": "36\"",
               "skill": "3+",
@@ -2228,9 +1997,7 @@
               "ap": "-3",
               "attacks": "D6",
               "damage": "4",
-              "keywords": [
-                "Sustained Hits 1"
-              ],
+              "keywords": ["Sustained Hits 1"],
               "name": "Atrapos lascutter – High intensity",
               "range": "24\"",
               "skill": "3+",
@@ -2246,9 +2013,7 @@
               "ap": "-4",
               "attacks": "D3",
               "damage": "D6+1",
-              "keywords": [
-                "Blast"
-              ],
+              "keywords": ["Blast"],
               "name": "Graviton singularity cannon – Contained",
               "range": "24\"",
               "skill": "3+",
@@ -2259,11 +2024,7 @@
               "ap": "-4",
               "attacks": "D3",
               "damage": "D6+1",
-              "keywords": [
-                "Hazardous",
-                "Devastating Wounds",
-                "Blast"
-              ],
+              "keywords": ["Hazardous", "Devastating Wounds", "Blast"],
               "name": "Graviton singularity cannon – Singularity",
               "range": "24\"",
               "skill": "3+",
@@ -2288,25 +2049,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise 2D6"
-        ],
+        "core": ["Deadly Demise 2D6"],
         "damaged": {
           "range": "1-10 WOUNDS REMAINING",
           "description": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Harbingers of Dread",
-          "Super-heavy Walker"
-        ],
+        "faction": ["Harbingers of Dread", "Super-heavy Walker"],
         "invul": {
           "info": "Against ranged attacks only",
           "showAtTop": true,
@@ -2327,12 +2081,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Chaos Acastus Knight Asterius"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
+      "composition": ["1 Chaos Acastus Knight Asterius"],
+      "factions": ["Chaos Knights"],
       "faction_id": "QT",
       "fluff": "The appearance of a Chaos Knight Asterius on the battlefield is a portent of doom, a symbol of Chaos’ ascendancy and the inevitable fall of Mankind – such is its incredible destructive potential and its formidable resilience. The pilots of these fell machines revel in their awesome power, levelling fortification after fortification.",
       "id": "9aeb4b86-6943-5c7d-83f3-7905812009fb",
@@ -2369,9 +2119,10 @@
       "name": "Chaos Acastus Knight Asterius",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "765"
+          "cost": "765",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2404,9 +2155,7 @@
               "ap": "0",
               "attacks": "6",
               "damage": "2",
-              "keywords": [
-                "Devastating Wounds"
-              ],
+              "keywords": ["Devastating Wounds"],
               "name": "Asterius volkite culverin",
               "range": "24\"",
               "skill": "3+",
@@ -2422,11 +2171,7 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "6",
-              "keywords": [
-                "Sustained Hits D3",
-                "Twin-linked",
-                "Conversion"
-              ],
+              "keywords": ["Sustained Hits D3", "Twin-linked", "Conversion"],
               "name": "Twin conversion beam cannon",
               "range": "48\"",
               "skill": "3+",
@@ -2459,25 +2204,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6+2"
-        ],
+        "core": ["Deadly Demise D6+2"],
         "damaged": {
           "range": "1-10 WOUNDS REMAINING",
           "description": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Harbingers of Dread",
-          "Super-heavy Walker"
-        ],
+        "faction": ["Harbingers of Dread", "Super-heavy Walker"],
         "invul": {
           "info": "Against ranged attacks only",
           "showAtTop": true,
@@ -2504,12 +2242,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Chaos Cerastus Knight Castigator"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
+      "composition": ["1 Chaos Cerastus Knight Castigator"],
+      "factions": ["Chaos Knights"],
       "faction_id": "QT",
       "fluff": "Able to can cut down innumerable foes in battle with their Castigator-pattern bolt cannons, they dedicate each death their dark patrons. They swear oaths to their gods as they stride through the oceans of blood and viscera they have spilled, and ready their warblades to hack down what little remains of the enemy.",
       "id": "995fc602-35eb-5678-8bc7-330dde3d6043",
@@ -2558,9 +2292,10 @@
       "name": "Chaos Cerastus Knight Castigator",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "355"
+          "cost": "355",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2572,9 +2307,7 @@
               "ap": "-2",
               "attacks": "18",
               "damage": "2",
-              "keywords": [
-                "Twin-linked"
-              ],
+              "keywords": ["Twin-linked"],
               "name": "Castigator bolt cannon",
               "range": "36\"",
               "skill": "3+",
@@ -2599,25 +2332,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6+2"
-        ],
+        "core": ["Deadly Demise D6+2"],
         "damaged": {
           "range": "1-10 WOUNDS REMAINING",
           "description": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Harbingers of Dread",
-          "Super-heavy Walker"
-        ],
+        "faction": ["Harbingers of Dread", "Super-heavy Walker"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2644,12 +2370,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Chaos Cerastus Knight Lancer"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
+      "composition": ["1 Chaos Cerastus Knight Lancer"],
+      "factions": ["Chaos Knights"],
       "faction_id": "QT",
       "fluff": "Turning to the gods of Chaos has made Chaos Knights Lancer no less able duellists. They fight for their dark patrons with all the fervour they once served the Emperor, determined to prove their superior fighting skills with their shock lances before the gaze of their hideous deities.",
       "id": "7f6bfc29-fcfa-52f2-9325-89b3a40ca7fb",
@@ -2686,9 +2408,7 @@
               "ap": "-3",
               "attacks": "5",
               "damage": "8",
-              "keywords": [
-                "Lance"
-              ],
+              "keywords": ["Lance"],
               "name": "Cerastus shock lance – Strike",
               "range": "Melee",
               "skill": "2+",
@@ -2700,9 +2420,10 @@
       "name": "Chaos Cerastus Knight Lancer",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "355"
+          "cost": "355",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2714,10 +2435,7 @@
               "ap": "0",
               "attacks": "6",
               "damage": "2",
-              "keywords": [
-                "Sustained Hits 2",
-                "Assault"
-              ],
+              "keywords": ["Sustained Hits 2", "Assault"],
               "name": "Cerastus shock lance",
               "range": "12\"",
               "skill": "3+",
@@ -2742,25 +2460,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6"
-        ],
+        "core": ["Deadly Demise D6"],
         "damaged": {
           "range": "1-9 WOUNDS REMAINING",
           "description": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Harbingers of Dread",
-          "Super-heavy Walker"
-        ],
+        "faction": ["Harbingers of Dread", "Super-heavy Walker"],
         "invul": {
           "info": "Against ranged attacks only.",
           "showAtTop": true,
@@ -2787,12 +2498,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Knight Rampager"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
+      "composition": ["1 Knight Rampager"],
+      "factions": ["Chaos Knights"],
       "faction_id": "QT",
       "fluff": "Knights Rampager storm into battle with maddened, metallic howls. They are bereft of discipline or restraint, and plough into the thickest fighting of a war zone with insane ferocity. With swipes of their monstrous reaper chainswords and warpstrike claws, they fight more like frenzied daemons than machines.",
       "id": "e5aa2527-8533-569f-9950-635260e41ad5",
@@ -2817,9 +2524,7 @@
               "ap": "-3",
               "attacks": "18",
               "damage": "2",
-              "keywords": [
-                "Sustained Hits 1"
-              ],
+              "keywords": ["Sustained Hits 1"],
               "name": "Reaper chainsword – Sweep",
               "range": "Melee",
               "skill": "2+",
@@ -2830,9 +2535,7 @@
               "ap": "-4",
               "attacks": "6",
               "damage": "6",
-              "keywords": [
-                "Sustained Hits 1"
-              ],
+              "keywords": ["Sustained Hits 1"],
               "name": "Reaper chainsword – Strike",
               "range": "Melee",
               "skill": "2+",
@@ -2848,9 +2551,7 @@
               "ap": "-2",
               "attacks": "12",
               "damage": "3",
-              "keywords": [
-                "Sustained Hits 1"
-              ],
+              "keywords": ["Sustained Hits 1"],
               "name": "Warpstrike claw – Sweep",
               "range": "Melee",
               "skill": "2+",
@@ -2861,9 +2562,7 @@
               "ap": "-3",
               "attacks": "6",
               "damage": "8",
-              "keywords": [
-                "Sustained Hits 1"
-              ],
+              "keywords": ["Sustained Hits 1"],
               "name": "Warpstrike claw – Strike",
               "range": "Melee",
               "skill": "2+",
@@ -2875,9 +2574,10 @@
       "name": "Knight Rampager",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "335"
+          "cost": "335",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2889,9 +2589,7 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
+              "keywords": ["Rapid Fire 3"],
               "name": "Diabolus heavy stubber",
               "range": "36\"",
               "skill": "3+",
@@ -2916,25 +2614,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6"
-        ],
+        "core": ["Deadly Demise D6"],
         "damaged": {
           "range": "1-9 WOUNDS REMAINING",
           "description": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Harbingers of Dread",
-          "Super-heavy Walker"
-        ],
+        "faction": ["Harbingers of Dread", "Super-heavy Walker"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2961,12 +2652,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Chaos Questoris Knight Magaera"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
+      "composition": ["1 Chaos Questoris Knight Magaera"],
+      "factions": ["Chaos Knights"],
       "faction_id": "QT",
       "fluff": "The Knight Magaera is a marvel of lost technology, ranging from its repair autosimulacra to its almost impregnable ionic flare shield. These devices make the Magaera ideally suited to shock assaults and breaching actions, enabling it to surge through the most heavily defended positions unscathed and eradicate its foes with terrifying blasts from its lightning cannon.",
       "id": "1b82d27a-e20c-5519-bb31-ccd07632dfb2",
@@ -3042,9 +2729,10 @@
       "name": "Chaos Questoris Knight Magaera",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "345"
+          "cost": "345",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -3056,9 +2744,7 @@
               "ap": "0",
               "attacks": "12",
               "damage": "2",
-              "keywords": [
-                "Sustained Hits 2"
-              ],
+              "keywords": ["Sustained Hits 2"],
               "name": "Lightning cannon",
               "range": "48\"",
               "skill": "3+",
@@ -3074,9 +2760,7 @@
               "ap": "-3",
               "attacks": "2",
               "damage": "2",
-              "keywords": [
-                "Rapid Fire 2"
-              ],
+              "keywords": ["Rapid Fire 2"],
               "name": "Phased plasma-fusil",
               "range": "24\"",
               "skill": "3+",
@@ -3128,19 +2812,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6+2"
-        ],
+        "core": ["Deadly Demise D6+2"],
         "damaged": {
           "range": "1-10 WOUNDS REMAINING",
           "description": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Harbingers of Dread",
-          "Super-heavy Walker"
-        ],
+        "faction": ["Harbingers of Dread", "Super-heavy Walker"],
         "invul": {
           "info": "Against ranged attacks only.",
           "showAtTop": true,
@@ -3167,12 +2846,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Knight Tyrant"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
+      "composition": ["1 Knight Tyrant"],
+      "factions": ["Chaos Knights"],
       "faction_id": "QT",
       "fluff": "Knights Tyrant are walking bastions of corruption. Their mere presence is enough to foul reality with warp‑taint that drives back foes and scrambles teleportation signals, even as it provides infernal protection for smaller classes of Chaos Knight. Combined with their incredibly heavy arsenals of weaponry, they are terrifying war engines indeed.",
       "id": "0f79c94c-49d6-5184-8897-cffbdcd3ac8b",
@@ -3208,9 +2883,10 @@
       "name": "Knight Tyrant",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "395"
+          "cost": "395",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -3222,9 +2898,7 @@
               "ap": "-5",
               "attacks": "D3",
               "damage": "D6+8",
-              "keywords": [
-                "Blast"
-              ],
+              "keywords": ["Blast"],
               "name": "Brimstone volcano lance",
               "range": "60\"",
               "skill": "3+",
@@ -3240,9 +2914,7 @@
               "ap": "-3",
               "attacks": "D6+3",
               "damage": "2",
-              "keywords": [
-                "Blast"
-              ],
+              "keywords": ["Blast"],
               "name": "Ectoplasma decimator – Standard",
               "range": "36\"",
               "skill": "3+",
@@ -3253,10 +2925,7 @@
               "ap": "-4",
               "attacks": "D6+3",
               "damage": "3",
-              "keywords": [
-                "Hazardous",
-                "Blast"
-              ],
+              "keywords": ["Hazardous", "Blast"],
               "name": "Ectoplasma decimator – Supercharge",
               "range": "36\"",
               "skill": "3+",
@@ -3272,10 +2941,7 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Twin-linked",
-                "Blast"
-              ],
+              "keywords": ["Twin-linked", "Blast"],
               "name": "Twin Desecrator cannon",
               "range": "36\"",
               "skill": "3+",
@@ -3291,10 +2957,7 @@
               "ap": "-6",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": [
-                "Devastating Wounds",
-                "Anti-titanic 4+"
-              ],
+              "keywords": ["Devastating Wounds", "Anti-titanic 4+"],
               "name": "Gheiststrike missile launcher",
               "range": "72\"",
               "skill": "3+",
@@ -3310,10 +2973,7 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": [
-                "Twin-linked",
-                "Melta 2"
-              ],
+              "keywords": ["Twin-linked", "Melta 2"],
               "name": "Twin daemonbreath meltagun",
               "range": "12\"",
               "skill": "3+",
@@ -3329,10 +2989,7 @@
               "ap": "-1",
               "attacks": "3D6",
               "damage": "2",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Ignores Cover"],
               "name": "Darkflame cannon",
               "range": "18\"",
               "skill": "N/A",
@@ -3348,10 +3005,7 @@
               "ap": "-6",
               "attacks": "D3",
               "damage": "12",
-              "keywords": [
-                "Devastating Wounds",
-                "Blast"
-              ],
+              "keywords": ["Devastating Wounds", "Blast"],
               "name": "Warpshock harpoon",
               "range": "12\"",
               "skill": "3+",
@@ -3383,19 +3037,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6"
-        ],
+        "core": ["Deadly Demise D6"],
         "damaged": {
           "range": "1-9 WOUNDS REMAINING",
           "description": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Harbingers of Dread",
-          "Super-heavy Walker"
-        ],
+        "faction": ["Harbingers of Dread", "Super-heavy Walker"],
         "invul": {
           "info": "Against ranged attacks only.",
           "showAtTop": true,
@@ -3422,12 +3071,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Knight Abominant"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
+      "composition": ["1 Knight Abominant"],
+      "factions": ["Chaos Knights"],
       "faction_id": "QT",
       "fluff": "Seen as especially blessed by the Dark Gods, Knights Abominant are suffused with warp energy. They unleash this power in terrifying waves, corrupting and mutating those nearby, and incinerating distant foes with blasts from their volkite combustors. In combat, they thrash coiling, warp‑wrought appendages, crushing anything that remains untainted.",
       "id": "d95540c7-c761-55d4-8e56-4a80c738b11d",
@@ -3453,9 +3098,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": [
-                "Extra Attacks"
-              ],
+              "keywords": ["Extra Attacks"],
               "name": "Balemace",
               "range": "Melee",
               "skill": "3+",
@@ -3471,9 +3114,7 @@
               "ap": "-2",
               "attacks": "9",
               "damage": "3",
-              "keywords": [
-                "Sustained Hits 1"
-              ],
+              "keywords": ["Sustained Hits 1"],
               "name": "Electroscourge",
               "range": "Melee",
               "skill": "3+",
@@ -3485,9 +3126,10 @@
       "name": "Knight Abominant",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "325"
+          "cost": "325",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -3499,9 +3141,7 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
+              "keywords": ["Rapid Fire 3"],
               "name": "Diabolus heavy stubber",
               "range": "36\"",
               "skill": "3+",
@@ -3517,9 +3157,7 @@
               "ap": "0",
               "attacks": "12",
               "damage": "3",
-              "keywords": [
-                "Devastating Wounds"
-              ],
+              "keywords": ["Devastating Wounds"],
               "name": "Volkite combustor",
               "range": "30\"",
               "skill": "3+",
@@ -3544,25 +3182,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6"
-        ],
+        "core": ["Deadly Demise D6"],
         "damaged": {
           "range": "1-9 WOUNDS REMAINING",
           "description": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Harbingers of Dread",
-          "Super-heavy Walker"
-        ],
+        "faction": ["Harbingers of Dread", "Super-heavy Walker"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3589,12 +3220,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Chaos Questoris Knight Styrix"
-      ],
-      "factions": [
-        "Chaos Knights"
-      ],
+      "composition": ["1 Chaos Questoris Knight Styrix"],
+      "factions": ["Chaos Knights"],
       "faction_id": "QT",
       "fluff": "Armed with a devastating combination of graviton, volkite and rad-cleanser weapons, the Chaos Knight Styrix is devastating in battle against infantry and supporting vehicles. The pilots of these walkers are fully aware of the sophistication of their war machines and the power of their weaponry. With the malign power of the Dark Gods behind them, their self-assuredness is total.",
       "id": "66438df6-4536-5965-ab70-1c441c893f87",
@@ -3670,9 +3297,10 @@
       "name": "Chaos Questoris Knight Styrix",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "345"
+          "cost": "345",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -3684,10 +3312,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": [
-                "Blast",
-                "Anti-vehicle 2+"
-              ],
+              "keywords": ["Blast", "Anti-vehicle 2+"],
               "name": "Graviton crusher",
               "range": "18\"",
               "skill": "3+",
@@ -3703,9 +3328,7 @@
               "ap": "0",
               "attacks": "12",
               "damage": "3",
-              "keywords": [
-                "Devastating Wounds"
-              ],
+              "keywords": ["Devastating Wounds"],
               "name": "Volkite chierovile",
               "range": "30\"",
               "skill": "3+",
@@ -3768,9 +3391,7 @@
       "name": "Profane Altar",
       "id": "50662511-6648-55a7-92b7-84f55484b78e",
       "cost": "20",
-      "keywords": [
-        "Chaos Knights"
-      ],
+      "keywords": ["Chaos Knights"],
       "excludes": [],
       "description": "CHAOS KNIGHTS model only. Each time the bearer makes a Dark Sacrifice, the maximum number of models are destroyed in the selected DAMNED unit (i.e. 3 if the unit’s Leadership test is passed, or 6 if it is failed) but, until the end of the phase, the bearer’s weapons have both [LETHAL HITS] and [SUSTAINED HITS 1].",
       "faction_id": "QT",
@@ -3782,9 +3403,7 @@
       "name": "Pave The Way",
       "id": "936e0e56-315e-533b-968a-f5a56d8d4362",
       "cost": "15",
-      "keywords": [
-        "Chaos Knights"
-      ],
+      "keywords": ["Chaos Knights"],
       "excludes": [],
       "description": "CHAOS KNIGHTS model only. At the start of the Declare Battle Formations step, you can select up to three DAMNED units from your army. The selected units have the Scouts 6\" ability.",
       "faction_id": "QT",
@@ -3796,9 +3415,7 @@
       "name": "Tyrant’s Banner",
       "id": "f2f69e10-a9b5-5564-803f-c6d31b7e904e",
       "cost": "5",
-      "keywords": [
-        "Chaos Knights"
-      ],
+      "keywords": ["Chaos Knights"],
       "excludes": [],
       "description": "CHAOS KNIGHTS model only. Each time the bearer makes a Dark Sacrifice, select one visible friendly DAMNED unit to take a Leadership test instead of a friendly DAMNED unit within 6\".",
       "faction_id": "QT",
@@ -3810,9 +3427,7 @@
       "name": "Diabolical Resilience",
       "id": "40509376-f34b-5614-b1f0-3e858145ba52",
       "cost": "35",
-      "keywords": [
-        "Chaos Knights"
-      ],
+      "keywords": ["Chaos Knights"],
       "excludes": [],
       "description": "CHAOS KNIGHTS model only. The bearer has the Feel No Pain 6+ ability and you can ignore any or all modifiers to its Move characteristic and/or to any Advance or Charge rolls made for it.",
       "faction_id": "QT",
@@ -3824,9 +3439,7 @@
       "name": "Nightmare’s Master",
       "id": "7f3862f1-b330-5813-b8b2-45b42d5319b6",
       "cost": "20",
-      "keywords": [
-        "Chaos Knights"
-      ],
+      "keywords": ["Chaos Knights"],
       "excludes": [],
       "description": "CHAOS KNIGHTS model only. At the start of the Fight phase, each enemy unit within Engagement Range of the bearer must take a Battle-shock test.",
       "faction_id": "QT",
@@ -3838,9 +3451,7 @@
       "name": "Tyrant’s Shadow",
       "id": "963007d9-9889-5924-b561-d12d6eeb1b1e",
       "cost": "25",
-      "keywords": [
-        "Chaos Knights"
-      ],
+      "keywords": ["Chaos Knights"],
       "excludes": [],
       "description": "CHAOS KNIGHTS model only. At the end of your Command phase, select one objective marker the bearer is within range of and that you control. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase. In addition, until you lose control of that objective marker, it has the Deathly Terror ability as if it were a CHAOS KNIGHTS model from your army.",
       "faction_id": "QT",
@@ -3852,9 +3463,7 @@
       "name": "Malevolent Heraldry",
       "id": "ccb1bfc1-3f62-5514-a0dc-8551cc9adfad",
       "cost": "30",
-      "keywords": [
-        "Chaos Knights"
-      ],
+      "keywords": ["Chaos Knights"],
       "excludes": [],
       "description": "CHAOS KNIGHTS model only. Each time you roll dice to randomly select which Dread abilities are active for your army, if the bearer is on the battlefield, you can re-roll one or both results rolled.",
       "faction_id": "QT",
@@ -3866,9 +3475,7 @@
       "name": "Veil of Medrengard",
       "id": "c80a3a6f-e9fb-5f63-9278-15e73aa9713f",
       "cost": "35",
-      "keywords": [
-        "Chaos Knights"
-      ],
+      "keywords": ["Chaos Knights"],
       "excludes": [],
       "description": "CHAOS KNIGHTS model only. The bearer has a 4+ invulnerable save against ranged attacks, and a 5+ invulnerable save against melee attacks.",
       "faction_id": "QT",
@@ -3880,9 +3487,7 @@
       "name": "Knight Diabolus",
       "id": "2520e06b-206d-5fe9-8564-601d745689da",
       "cost": "25",
-      "keywords": [
-        "Chaos Knights"
-      ],
+      "keywords": ["Chaos Knights"],
       "excludes": [],
       "description": "CHAOS KNIGHTS model only. Improve the Weapon Skill characteristic of the bearer’s melee weapons by 1. While the bearer is using the Diabolic Power ability, its melee weapons have the [LANCE] ability",
       "faction_id": "QT",
@@ -3894,9 +3499,7 @@
       "name": "Blasphemous Engine",
       "id": "9e776064-6bd7-5d0b-ac59-be26ead29581",
       "cost": "35",
-      "keywords": [
-        "Chaos Knights"
-      ],
+      "keywords": ["Chaos Knights"],
       "excludes": [],
       "description": "CHAOS KNIGHTS model only. Add 2 to the bearer’s Wounds characteristic. Each time the bearer’s unit makes a Malefic Surge, you can re-roll the Leadership test taken to see if it suffers any mortal wounds.",
       "faction_id": "QT",
@@ -3908,9 +3511,7 @@
       "name": "Fleshmetal Fusion",
       "id": "e36d0fac-81a7-58ad-a74b-8be484ccf185",
       "cost": "35",
-      "keywords": [
-        "Chaos Knights"
-      ],
+      "keywords": ["Chaos Knights"],
       "excludes": [],
       "description": "CHAOS KNIGHTS model only. Add 1 to the bearer’s Toughness characteristic. While the bearer is using the Unnatural Fortitude ability, each time an attack with a Damage characteristic of 1 is allocated to the bearer, add 1 to any armour saving throw made against that attack.",
       "faction_id": "QT",
@@ -3922,9 +3523,7 @@
       "name": "Bestial Aspect",
       "id": "3bb588c8-b868-5f9d-973e-d14a57e723d2",
       "cost": "20",
-      "keywords": [
-        "Chaos Knights"
-      ],
+      "keywords": ["Chaos Knights"],
       "excludes": [],
       "description": "CHAOS KNIGHTS model only. The bearer’s ranged weapons have the [ASSAULT] ability. While the bearer is using the Unholy Hunger ability, it can ignore any or all modifiers to its Move characteristic and/or to Advance rolls made for its unit.",
       "faction_id": "QT",
@@ -3936,9 +3535,7 @@
       "name": "Throne Mechanicum of Skulls",
       "id": "7d3fd832-5481-55f6-bf55-acb64084853a",
       "cost": "25",
-      "keywords": [
-        "Chaos Knights"
-      ],
+      "keywords": ["Chaos Knights"],
       "excludes": [],
       "description": "CHAOS KNIGHTS model only. You can re-roll Charge rolls made for the bearer’s unit. In addition, once per battle, in your Charge phase, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer’s unit is eligible to declare a charge in a turn in which it Advanced.",
       "faction_id": "QT",
@@ -3950,9 +3547,7 @@
       "name": "Blade of Celerity",
       "id": "c8aee852-0b8a-59d6-a9c2-30c4a12e352c",
       "cost": "35",
-      "keywords": [
-        "Chaos Knights"
-      ],
+      "keywords": ["Chaos Knights"],
       "excludes": [],
       "description": "CHAOS KNIGHTS model only. The bearer’s ranged weapons have the [ASSAULT] ability. In addition, once per battle, in the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer’s unit have the Fights First ability.",
       "faction_id": "QT",
@@ -3964,9 +3559,7 @@
       "name": "Warp-borne Stalker",
       "id": "33eddcde-e4ac-5922-9b58-a5ee2480d794",
       "cost": "10",
-      "keywords": [
-        "Chaos Knights"
-      ],
+      "keywords": ["Chaos Knights"],
       "excludes": [],
       "description": "CHAOS KNIGHTS model only. The bearer has the Deep Strike ability. In addition, once per battle, at the end of your opponent’s turn, if the bearer is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.",
       "faction_id": "QT",
@@ -3978,9 +3571,7 @@
       "name": "Putrid Carapace",
       "id": "9895ff12-b92d-5158-bcbe-e9153cb6819d",
       "cost": "30",
-      "keywords": [
-        "Chaos Knights"
-      ],
+      "keywords": ["Chaos Knights"],
       "excludes": [],
       "description": "CHAOS KNIGHTS model only. The bearer has a Save characteristic of 2+. In addition, once per battle, at the start of either player’s Command phase, the bearer can use this Enhancement. If it does, the bearer regains up to D6 lost wounds.",
       "faction_id": "QT",
@@ -3992,9 +3583,7 @@
       "name": "Mirror of Fates",
       "id": "5aa79521-64a5-5c01-b842-913f0d9ebad9",
       "cost": "30",
-      "keywords": [
-        "Chaos Knights"
-      ],
+      "keywords": ["Chaos Knights"],
       "excludes": [],
       "description": "CHAOS KNIGHTS model only. Once per battle round, you can target the bearer’s unit with the Command Re-roll Stratagem for 0CP, and can do so even if another unit from your army has already been targeted by that Stratagem this phase. In addition, once per battle, just after your opponent uses a Stratagem, if the bearer is on the battlefield, it can use this Enhancement. If it does, until the end of the battle, the CP cost your opponent must pay to use that Stratagem again is increased by 1CP.",
       "faction_id": "QT",
@@ -4006,9 +3595,7 @@
       "name": "Blessing of the Dark Master",
       "id": "4f00b8ce-0497-5b39-a42b-52889404d50e",
       "cost": "20",
-      "keywords": [
-        "Chaos Knights"
-      ],
+      "keywords": ["Chaos Knights"],
       "excludes": [],
       "description": "CHAOS KNIGHTS model only. The bearer has the Stealth ability. In addition, once per battle, after you make a saving throw for the bearer, you can change the Damage characteristic of that attack to 0.",
       "faction_id": "QT",
@@ -4020,9 +3607,7 @@
       "name": "Preyslayer’s Mantle",
       "id": "3941ef26-7036-53a0-84cf-f549ed2061ca",
       "cost": "15",
-      "keywords": [
-        "War Dog"
-      ],
+      "keywords": ["War Dog"],
       "excludes": [],
       "description": "WAR DOG model only. The bearer has the Super-heavy Walker ability.",
       "faction_id": "QT",
@@ -4034,9 +3619,7 @@
       "name": "Final Howl (Aura)",
       "id": "d4c4cafe-1a75-53fc-805e-47b2153d0ada",
       "cost": "20",
-      "keywords": [
-        "War Dog"
-      ],
+      "keywords": ["War Dog"],
       "excludes": [],
       "description": "WAR DOG model only. While a friendly WAR DOG model is within 6\" of the bearer, each time that model makes an attack, re-roll a Wound roll of 1.",
       "faction_id": "QT",
@@ -4048,9 +3631,7 @@
       "name": "Loping Predator",
       "id": "3cf963b0-8a2f-54f0-877c-b24b9177388e",
       "cost": "10",
-      "keywords": [
-        "War Dog"
-      ],
+      "keywords": ["War Dog"],
       "excludes": [],
       "description": "WAR DOG model only. The bearer’s ranged weapons have the [ASSAULT] ability.",
       "faction_id": "QT",
@@ -4062,9 +3643,7 @@
       "name": "Panoply of the Cursed Knights",
       "id": "787fd0ab-066d-5592-aabc-87b447c84648",
       "cost": "15",
-      "keywords": [
-        "War Dog"
-      ],
+      "keywords": ["War Dog"],
       "excludes": [],
       "description": "WAR DOG model only. Each time an attack targets the bearer, worsen the Armour Penetration characteristic of that attack by 1.",
       "faction_id": "QT",
@@ -4172,9 +3751,7 @@
       "effect": "If one or more models were destroyed as a result of those attacks, your unit regains up to D3 lost wounds. If one or more models from Battle‑shocked units were destroyed as a result of those attacks, your unit regains up to D3+2 lost wounds instead.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "fight"
-      ],
+      "phase": ["fight"],
       "faction_id": "QT",
       "fluff": "Daemonic corruption, both physical and spiritual, has debased once noble machines. As the pilots of corrupted Knight suits slaughter mortal victims, their mechanical steed feeds upon stolen life forces and raw fear.",
       "detachment": "Iconoclast Fiefdom"
@@ -4189,9 +3766,7 @@
       "effect": "Your unit makes a Malefic Surge.",
       "restrictions": "You cannot select the same unit as the target of this Stratagem more than once per battle round.",
       "type": "Battle Tactic",
-      "phase": [
-        "any"
-      ],
+      "phase": ["any"],
       "faction_id": "QT",
       "fluff": "Some Fallen Nobles are conjoined, symbiotically or parasitically, with the hideous systems of their Chaos Knight. This allows them to channel more unholy energies, though not without risk.",
       "detachment": "Infernal Lance"
@@ -4206,9 +3781,7 @@
       "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "fight"
-      ],
+      "phase": ["fight"],
       "faction_id": "QT",
       "fluff": "Reinforced with warp-infused materials and warded through ritual blood sacrifice, these Chaos Knights can withstand unnatural levels of punishment.",
       "detachment": "Infernal Lance"
@@ -4223,9 +3796,7 @@
       "effect": "Select one enemy unit within Engagement Range of those WAR DOG units. Until the end of the phase, models in those WAR DOG units can only target that enemy unit, but each time a model in one of those WAR DOG units makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "fight"
-      ],
+      "phase": ["fight"],
       "faction_id": "QT",
       "fluff": "Eager to get into battle, these War Dogs hope to win glory and prove their worth to peers and masters alike.",
       "detachment": "Houndpack Lance"
@@ -4240,10 +3811,7 @@
       "effect": "Before resolving your unit’s Deadly Demise ability, it can either shoot or fight. When doing so, it must target only the enemy unit that just destroyed it, and can only do so if that enemy unit is an eligible target. After it has done so and after any Consolidation moves have been made, resolve your unit’s Deadly Demise ability as normal.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "fight",
-        "shooting"
-      ],
+      "phase": ["fight", "shooting"],
       "faction_id": "QT",
       "fluff": "Many War Dog pilots are bitter and twisted souls whose hearts are filled with animalistic rage, and they will vent that anger with their last dying gasp.",
       "detachment": "Houndpack Lance"
@@ -4258,9 +3826,7 @@
       "effect": "Until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by your model by 1. After your model has finished making its attacks this phase, if it destroyed one or more enemy units this phase, each enemy unit within 6\" of your model must take a Battle-shock test.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "fight"
-      ],
+      "phase": ["fight"],
       "faction_id": "QT",
       "fluff": "Chaos Knights leave only death and devastation in their wake, and reduce entire worlds to ruin.",
       "detachment": "Traitoris Lance"
@@ -4275,9 +3841,7 @@
       "effect": "Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength and with all of its wounds remaining.",
       "restrictions": "You can only use this Stratagem once per battle. This Stratagem cannot be used to return destroyed CHARACTER units to Attached units.",
       "type": "Battle Tactic",
-      "phase": [
-        "any"
-      ],
+      "phase": ["any"],
       "faction_id": "QT",
       "fluff": "In the wake of striding Knights are dragged tides of desperate zealots. No sooner has one horde of baying mortals fallen than another surges forth to take their place.",
       "detachment": "Iconoclast Fiefdom"
@@ -4292,10 +3856,7 @@
       "effect": "Each enemy unit within 6\" of your unit must take a Battle-shock test. Each friendly WAR DOG unit that is within 6\" of your unit and is Battle-shocked must take a Leadership test; if that test is passed, that unit is no longer Battle-shocked.",
       "restrictions": "You can only use this Stratagem once per turn.",
       "type": "Battle Tactic",
-      "phase": [
-        "fight",
-        "shooting"
-      ],
+      "phase": ["fight", "shooting"],
       "faction_id": "QT",
       "fluff": "This artificially generated vox-borne rallying cry booms out across multiple wavelengths. It bolsters the courage of fellow War Dog pilots and their steeds, even as it fills the foes’ communications with squealing scrapcode and monstrous howling",
       "detachment": "Houndpack Lance"
@@ -4310,9 +3871,7 @@
       "effect": "Select one of those objective markers. That objective marker remains under your control, with a Level of Control of 5 (unless it would otherwise be higher), until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
       "restrictions": "",
       "type": "Epic Deed",
-      "phase": [
-        "any"
-      ],
+      "phase": ["any"],
       "faction_id": "QT",
       "fluff": "The Fallen Noble dedicates their latest conquest to the Dark Gods in hope of reward.",
       "detachment": "Lords of Dread"
@@ -4327,9 +3886,7 @@
       "effect": "When rolling to determine whether mortal wounds are inflicted by your unit’s Deadly Demise ability, that model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of a 4+ instead of on a 6.",
       "restrictions": "",
       "type": "Epic Deed",
-      "phase": [
-        "any"
-      ],
+      "phase": ["any"],
       "faction_id": "QT",
       "fluff": "Determined that tales will be told of their spectacular end, the Fallen Noble overloads the internal generators of their Knight suit, hoping to take their enemy with them into oblivion.",
       "detachment": "Lords of Dread"
@@ -4344,10 +3901,7 @@
       "effect": "Select one enemy MONSTER or VEHICLE unit. Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1. Each time a model in your unit makes an attack that targets that enemy unit, if that enemy unit is TITANIC, you can re-roll the Hit roll and you can re-roll the Wound roll instead.",
       "restrictions": "",
       "type": "Epic Deed",
-      "phase": [
-        "fight",
-        "shooting"
-      ],
+      "phase": ["fight", "shooting"],
       "faction_id": "QT",
       "fluff": "The Chaos Knights engage in duels not for honour, but to assert their absolute dominance over the battlefield.",
       "detachment": "Lords of Dread"
@@ -4362,9 +3916,7 @@
       "effect": "Until the end of the phase, each time your unit Consolidates, models in it can move an additional 3\" as long as your unit can end that move within Engagement Range of one or more enemy units.",
       "restrictions": "",
       "type": "Epic Deed",
-      "phase": [
-        "fight"
-      ],
+      "phase": ["fight"],
       "faction_id": "QT",
       "fluff": "To these Fallen Nobles, each new foe chased down is another opportunity to claim gory trophies.",
       "detachment": "Lords of Dread"
@@ -4379,9 +3931,7 @@
       "effect": "Select one enemy unit (excluding MONSTERS and VEHICLES) that your unit moved over during that move and roll six D6: for each 4+, that enemy unit suffers 1 mortal wound. If one or more models are destroyed as a result of this Stratagem, that enemy unit must take a Battle-shock test.",
       "restrictions": "",
       "type": "Epic Deed",
-      "phase": [
-        "movement"
-      ],
+      "phase": ["movement"],
       "faction_id": "QT",
       "fluff": "Screaming enemy warriors are crushed to gory paste as the Chaos Knight tramples spitefully through their midst, stamping and raking these unworthy foes with its huge, taloned feet.",
       "detachment": "Lords of Dread"
@@ -4396,9 +3946,7 @@
       "effect": "Select one objective marker your unit is within range of that you control. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
       "restrictions": "",
       "type": "Epic Deed",
-      "phase": [
-        "command"
-      ],
+      "phase": ["command"],
       "faction_id": "QT",
       "fluff": "The foul energies and unnatural influence of the Chaos Knights spread from them like sorcerous radiation, tainting all they touch.",
       "detachment": "Infernal Lance"
@@ -4413,10 +3961,7 @@
       "effect": "Until the end of the phase, each time a model in one of your units makes a move, it can move through models and terrain features. When doing so, it can move within Engagement Range of such models but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed (the Super-heavy Walker ability does not apply while using this Stratagem).",
       "restrictions": "",
       "type": "Epic Deed",
-      "phase": [
-        "charge",
-        "movement"
-      ],
+      "phase": ["charge", "movement"],
       "faction_id": "QT",
       "fluff": "Employing piloting skill or brute force, Fallen Nobles can either manoeuvre or simply barge their steeds through foes and obstacles alike.",
       "detachment": "Traitoris Lance"
@@ -4431,10 +3976,7 @@
       "effect": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
       "restrictions": "",
       "type": "Epic Deed",
-      "phase": [
-        "fight",
-        "shooting"
-      ],
+      "phase": ["fight", "shooting"],
       "faction_id": "QT",
       "fluff": "Inscribed into the Knight suit’s servo-skeleton, these markings channel the pilot’s contempt for the foe and manifest it as a sorcerous aura of defence.",
       "detachment": "Lords of Dread"
@@ -4449,9 +3991,7 @@
       "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "movement"
-      ],
+      "phase": ["movement"],
       "faction_id": "QT",
       "fluff": "When consumed with battlelust, Fallen Nobles pilot their Knight suits with instinctive skill, rampaging through the enemies with horrific speed and savagery.",
       "detachment": "Iconoclast Fiefdom"
@@ -4466,9 +4006,7 @@
       "effect": "Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets of ranged weapons. Until the end of the phase, each time an enemy model loses a wound, while that model’s unit is within Engagement Range of your unit, roll one D6: on a 4+, one model from your unit is destroyed after the attacking unit has finished making its attacks.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "shooting"
-      ],
+      "phase": ["shooting"],
       "faction_id": "QT",
       "fluff": "The callous nobility of Iconoclast houses care naught for their devotees, obliterating enemies and mortal thralls alike in furious barrages of infernal firepower.",
       "detachment": "Iconoclast Fiefdom"
@@ -4483,9 +4021,7 @@
       "effect": "Select one DAMNED unit from your army that is not Battle‑shocked, not within Engagement Range of one or more enemy units and is within 6\" of your unit. That DAMNED unit can make a Normal move of up to 6\", but it must end this move closer to that enemy unit than when it started the move.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "movement"
-      ],
+      "phase": ["movement"],
       "faction_id": "QT",
       "fluff": "Driven to preserve their Fallen Noble overlords, masses of mutants, cultists, and corrupted soldiers rush to interpose themselves between their knightly idols and the cursed foe.",
       "detachment": "Iconoclast Fiefdom"
@@ -4500,9 +4036,7 @@
       "effect": "Until the end of the battle, the enemy unit that destroyed your unit is Marked. Each time a DAMNED model from your army makes an attack that targets a Marked unit, that attack has the [LETHAL HITS] ability.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "any"
-      ],
+      "phase": ["any"],
       "faction_id": "QT",
       "fluff": "As the object of their adulation is consumed by fire, mortal worshippers are roused to a desperate fury, seeking vengeance on behalf of their deceased master.",
       "detachment": "Iconoclast Fiefdom"
@@ -4517,9 +4051,7 @@
       "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "movement"
-      ],
+      "phase": ["movement"],
       "faction_id": "QT",
       "fluff": "This War Dog’s pilot knows when to feign flight or give ground, only to redouble their attack the moment their prey’s guard drops.",
       "detachment": "Houndpack Lance"
@@ -4534,9 +4066,7 @@
       "effect": "Your unit can make a Normal move of up to 6\".",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "movement"
-      ],
+      "phase": ["movement"],
       "faction_id": "QT",
       "fluff": "War Dogs fight with agility and guile, giving ground only to surge in on the attack from another angle.",
       "detachment": "Houndpack Lance"
@@ -4551,9 +4081,7 @@
       "effect": "Remove your unit from the battlefield and place it into Strategic Reserves.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "fight"
-      ],
+      "phase": ["fight"],
       "faction_id": "QT",
       "fluff": "The War Dogs of the dread household move to outflank and encircle their prey.",
       "detachment": "Houndpack Lance"
@@ -4568,9 +4096,7 @@
       "effect": "Until the end of the phase, your model has the Feel No Pain 6+ ability, and the Feel No Pain 5+ ability against attacks made by Battle-shocked models.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "fight"
-      ],
+      "phase": ["fight"],
       "faction_id": "QT",
       "fluff": "Fallen Nobles sneer at the pathetic efforts of their foes, doubly so in the case of those who fear them.",
       "detachment": "Traitoris Lance"
@@ -4585,9 +4111,7 @@
       "effect": "Until the start of your next Command phase, those WAR DOG units are treated as being within range of any Aura abilities your ABHORRENT unit has.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "command"
-      ],
+      "phase": ["command"],
       "faction_id": "QT",
       "fluff": "The neural connections between Fallen Nobles and doggedly loyal or fearful War.",
       "detachment": "Traitoris Lance"
@@ -4602,9 +4126,7 @@
       "effect": "Until the end of the phase, models in your unit have the Stealth ability, and each time an attack targets your unit, models in it have the Benefit of Cover against that attack.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "shooting"
-      ],
+      "phase": ["shooting"],
       "faction_id": "QT",
       "fluff": "Through dark rituals and dread pacts, the Chaos Knights draw upon the fear and despair of their foes and bind it into a curse upon the land itself, wreathing themselves in a shrouding pall.",
       "detachment": "Traitoris Lance"
@@ -4619,9 +4141,7 @@
       "effect": "After your unit has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test; if the test is failed, until the end of your opponent’s next turn, it is aflame. While a unit is aflame, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it.",
       "restrictions": "",
       "type": "Wargear",
-      "phase": [
-        "shooting"
-      ],
+      "phase": ["shooting"],
       "faction_id": "QT",
       "fluff": "These weapons bathe the target in blasts of daemonic balefire that burns flesh and soul alike.",
       "detachment": "Infernal Lance"
@@ -4636,9 +4156,7 @@
       "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability.",
       "restrictions": "",
       "type": "Wargear",
-      "phase": [
-        "shooting"
-      ],
+      "phase": ["shooting"],
       "faction_id": "QT",
       "fluff": "Supernatural sensors perceive the soul-spoor of their prey, or even stare forward through fate and time.",
       "detachment": "Infernal Lance"
@@ -4653,9 +4171,7 @@
       "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save.",
       "restrictions": "",
       "type": "Wargear",
-      "phase": [
-        "shooting"
-      ],
+      "phase": ["shooting"],
       "faction_id": "QT",
       "fluff": "Ectoplasmic blood surges hot through glowing conduits as the Fallen Noble feeds power to their Knight suit’s supernaturally enhanced ion shield emitters.",
       "detachment": "Infernal Lance"
@@ -4670,9 +4186,7 @@
       "effect": "Roll six D6. For each 4+, that enemy unit suffers 1 mortal wound and one model in your unit regains up to 1 lost wound.",
       "restrictions": "You can only use this Stratagem once per battle round.",
       "type": "Wargear",
-      "phase": [
-        "any"
-      ],
+      "phase": ["any"],
       "faction_id": "QT",
       "fluff": "Shrieking with hunger, Pterrorshades descend in a whirlwind to feast on the fearful souls of the foe. Their banquet transmutes into vital energy that flows into the Chaos Knight on which they roost.",
       "detachment": "Traitoris Lance"

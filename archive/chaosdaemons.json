@@ -1,7 +1,5 @@
 {
-  "allied_factions": [
-    "QT"
-  ],
+  "allied_factions": ["QT"],
   "colours": {
     "banner": "#202224",
     "header": "#393940"
@@ -10,19 +8,14 @@
   "datasheets": [
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D3",
-          "Deep Strike"
-        ],
+        "core": ["Deadly Demise D3", "Deep Strike"],
         "damaged": {
           "range": "1-5 WOUNDS REMAINING",
           "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -50,22 +43,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Soul Grinder"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Soul Grinder"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Daemons desperate to gain power above their station may strike an unwise bargain with the master of the Forge of Souls. Thus are they remade into the hulking war engines known as Soul Grinders, and given the might to crush and blast all in their path – for a steep and ultimately never-ending price…",
       "id": "03ca041c-bfbd-5b28-a804-2f69d5238dcd",
-      "keywords": [
-        "Vehicle",
-        "Walker",
-        "Chaos",
-        "Soul Grinder",
-        "Daemon"
-      ],
+      "keywords": ["Vehicle", "Walker", "Chaos", "Soul Grinder", "Daemon"],
       "leader": "",
       "loadout": "This model is equipped with: harvester cannon; iron claw; warpsword.",
       "meleeWeapons": [
@@ -93,9 +76,7 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "D6",
-              "keywords": [
-                "Extra Attacks"
-              ],
+              "keywords": ["Extra Attacks"],
               "name": "Warpsword",
               "range": "Melee",
               "skill": "3+",
@@ -111,9 +92,7 @@
               "ap": "-1",
               "attacks": "6",
               "damage": "2",
-              "keywords": [
-                "Extra Attacks"
-              ],
+              "keywords": ["Extra Attacks"],
               "name": "Warpclaw",
               "range": "Melee",
               "skill": "3+",
@@ -125,9 +104,10 @@
       "name": "Soul Grinder",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "180"
+          "cost": "180",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -155,10 +135,7 @@
               "ap": "-1",
               "attacks": "2D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Ignores Cover"],
               "name": "Torrent of burning blood",
               "range": "12\"",
               "skill": "N/A",
@@ -174,9 +151,7 @@
               "ap": "-2",
               "attacks": "D3",
               "damage": "D6+2",
-              "keywords": [
-                "Blast"
-              ],
+              "keywords": ["Blast"],
               "name": "Warp gaze",
               "range": "48\"",
               "skill": "3+",
@@ -192,11 +167,7 @@
               "ap": "-1",
               "attacks": "D6+1",
               "damage": "2",
-              "keywords": [
-                "Lethal Hits",
-                "Indirect Fire",
-                "Blast"
-              ],
+              "keywords": ["Lethal Hits", "Indirect Fire", "Blast"],
               "name": "Phlegm bombardment",
               "range": "36\"",
               "skill": "3+",
@@ -212,10 +183,7 @@
               "ap": "-2",
               "attacks": "6",
               "damage": "2",
-              "keywords": [
-                "Sustained Hits 1",
-                "Devastating Wounds"
-              ],
+              "keywords": ["Sustained Hits 1", "Devastating Wounds"],
               "name": "Scream of despair",
               "range": "24\"",
               "skill": "3+",
@@ -240,25 +208,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "This model’s warpsword can be replaced with 1 warpclaw."
-      ]
+      "wargear": ["This model’s warpsword can be replaced with 1 warpclaw."]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D3",
-          "Deep Strike"
-        ],
+        "core": ["Deadly Demise D3", "Deep Strike"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -292,12 +253,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Daemon Prince of Chaos with Wings"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Daemon Prince of Chaos with Wings"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "A Daemon Prince’s obsessive greed and desire to inflict ever more destruction, bloodshed and misery can manifest in the form of hideous wings that speed them from one slaughter to the next. A servant of the Dark Gods so blessed is a horrifying harbinger of death drawn from insane nightmare.",
       "id": "b03e3d31-ced0-5de7-84fa-af60e60ce248",
@@ -343,9 +300,10 @@
       "name": "Daemon Prince of Chaos with Wings",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "190"
+          "cost": "180",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -382,25 +340,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D3",
-          "Deep Strike"
-        ],
+        "core": ["Deadly Demise D3", "Deep Strike"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -434,12 +385,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Daemon Prince of Chaos"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Daemon Prince of Chaos"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Blessed with apotheosis from mortal to daemonic form, a Daemon Prince is a monstrous entity well used to commanding cruel legions in battle. Their supernatural gifts are many and varied, from sorcerous powers to diseased fortitude, warp-forged weaponry, unholy swiftness or burning inner furnaces of unquenchable rage.",
       "id": "b5e64307-09e2-5253-b48e-20e9898959a6",
@@ -484,9 +431,10 @@
       "name": "Daemon Prince of Chaos",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "190"
+          "cost": "190",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -523,26 +471,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6",
-          "Deep Strike",
-          "Feel No Pain 6+"
-        ],
+        "core": ["Deadly Demise D6", "Deep Strike", "Feel No Pain 6+"],
         "damaged": {
           "range": "1-7 WOUNDS REMAINING",
           "description": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -575,12 +515,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Rotigus – EPIC HERO"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Rotigus – EPIC HERO"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Rotigus Rainfather lumbers into battle vomiting jetting rivers of corrosive, plague-laden filth across all who stand in its path. In its bloated fist it clutches a gnarlrod, while an endless and infectious downpour accompanies the daemon, a fecund flood fit to drown, corrupt and mutate all it touches.",
       "id": "4dbec06c-b48b-54bd-8ad2-6992566644e8",
@@ -605,10 +541,7 @@
               "ap": "-1",
               "attacks": "14",
               "damage": "1",
-              "keywords": [
-                "Psychic",
-                "Lethal Hits"
-              ],
+              "keywords": ["Psychic", "Lethal Hits"],
               "name": "Gnarlrod – Sweep",
               "range": "Melee",
               "skill": "2+",
@@ -619,10 +552,7 @@
               "ap": "-3",
               "attacks": "7",
               "damage": "3",
-              "keywords": [
-                "Psychic",
-                "Lethal Hits"
-              ],
+              "keywords": ["Psychic", "Lethal Hits"],
               "name": "Gnarlrod – Strike",
               "range": "Melee",
               "skill": "2+",
@@ -634,9 +564,10 @@
       "name": "Rotigus",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "250"
+          "cost": "250",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -648,11 +579,7 @@
               "ap": "-2",
               "attacks": "2D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover",
-                "Devastating Wounds"
-              ],
+              "keywords": ["Torrent", "Ignores Cover", "Devastating Wounds"],
               "name": "Streams of brackish filth",
               "range": "12\"",
               "skill": "N/A",
@@ -677,26 +604,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Fights First",
-          "Lone Operative"
-        ],
+        "core": ["Deep Strike", "Fights First", "Lone Operative"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -723,12 +642,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 The Masque of Slaanesh – EPIC HERO"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 The Masque of Slaanesh – EPIC HERO"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Once high in the favour of the Dark Prince, this daemon was cursed by its petulant deity to dance eternally across reality and beyond for an imagined slight. Its endless acrobatic performance beguiles and bewilders, drawing those who witness it into joining the revels even at the expense of their own survival.",
       "id": "8426479c-ad84-5158-be61-c4fb06c8bc1e",
@@ -753,9 +668,7 @@
               "ap": "-1",
               "attacks": "6",
               "damage": "2",
-              "keywords": [
-                "Devastating Wounds"
-              ],
+              "keywords": ["Devastating Wounds"],
               "name": "Serrated claws",
               "range": "Melee",
               "skill": "2+",
@@ -767,9 +680,10 @@
       "name": "The Masque of Slaanesh",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "95"
+          "cost": "95",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -789,25 +703,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Fights First"
-        ],
+        "core": ["Deep Strike", "Fights First"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -841,13 +748,8 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Alluress",
-        "9 Daemonettes"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Alluress", "9 Daemonettes"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Known to mortals as the handmaidens of Slaanesh, these daemons are a mixture of the beautiful and the monstrous, made all the more disturbing by the visceral clash of both. They delight in the carnage of battle, weaving around enemies’ clumsy blows as they shrill and sigh their delight amidst swift-taloned slaughter.",
       "id": "06f8d9b6-0079-542c-b2aa-d0c8eca630b7",
@@ -870,9 +772,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "1",
-              "keywords": [
-                "Devastating Wounds"
-              ],
+              "keywords": ["Devastating Wounds"],
               "name": "Slashing claws",
               "range": "Melee",
               "skill": "3+",
@@ -884,9 +784,10 @@
       "name": "Daemonettes",
       "points": [
         {
-          "name": "model",
-          "model": "10",
-          "cost": "100"
+          "cost": "100",
+          "keyword": null,
+          "models": "10",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -919,19 +820,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Infiltrators"
-        ],
+        "core": ["Deep Strike", "Infiltrators"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -952,12 +848,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "3-6 Nurgling Swarms"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["3-6 Nurgling Swarms"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Nurglings are malicious plague mites that pour across the battlefield in giggling masses. These foul imps might seem almost amusing from a distance, yet the illusion is shattered as the Nurglings spill forth to engulf their screaming victims in a rancid avalanche of needle fangs, filthy talons and bloated flesh.",
       "id": "7b434980-9618-5566-b4e6-3c3f59bdcfd0",
@@ -980,9 +872,7 @@
               "ap": "0",
               "attacks": "4",
               "damage": "1",
-              "keywords": [
-                "Lethal Hits"
-              ],
+              "keywords": ["Lethal Hits"],
               "name": "Diseased claws and teeth",
               "range": "Melee",
               "skill": "5+",
@@ -994,14 +884,16 @@
       "name": "Nurglings",
       "points": [
         {
-          "name": "model",
-          "model": "3",
-          "cost": "40"
+          "cost": "70",
+          "keyword": null,
+          "models": "6",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "6",
-          "cost": "70"
+          "cost": "40",
+          "keyword": null,
+          "models": "3",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -1021,25 +913,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Leader"
-        ],
+        "core": ["Deep Strike", "Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1066,12 +951,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Bloodmaster"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Bloodmaster"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Risen victorious from the horrors of the Skullpit, Bloodmasters lead Khorne’s Bloodletter hosts in battle. The presence of these hulking daemonic slaughterers imbues their infernal followers with even greater fury and might, even as the Bloodmasters themselves carve a gory path through their luckless foes.",
       "id": "6317a045-4a71-59a1-9291-4808c2b82e4b",
@@ -1106,9 +987,10 @@
       "name": "Bloodmaster",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "65"
+          "cost": "65",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -1128,32 +1010,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "BLOODLETTERS"
-        ],
+        "units": ["BLOODLETTERS"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Leader",
-          "Fights First"
-        ],
+        "core": ["Deep Strike", "Leader", "Fights First"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1180,12 +1052,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Tranceweaver"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Tranceweaver"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "These favoured daemons of Slaanesh are raw manifestations of sensory excess and wilful cruelty. Heralds of the Dark Prince, they flow across the battlefield with inhuman grace, keening gleeful war cries as they exhort their fellows to greater acts of sadistic bliss-giving and lay enemies low with the razor caress of their talons.",
       "id": "6ad89be2-0453-522d-92a7-03a3eac93456",
@@ -1209,9 +1077,7 @@
               "ap": "-1",
               "attacks": "6",
               "damage": "1",
-              "keywords": [
-                "Devastating Wounds"
-              ],
+              "keywords": ["Devastating Wounds"],
               "name": "Ravaging claws",
               "range": "Melee",
               "skill": "2+",
@@ -1223,9 +1089,10 @@
       "name": "Tranceweaver",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "60"
+          "cost": "60",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -1245,30 +1112,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "DAEMONETTES"
-        ],
+        "units": ["DAEMONETTES"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike"
-        ],
+        "core": ["Deep Strike"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1289,12 +1148,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Burning Chariot"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Burning Chariot"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Burning Chariots of Tzeentch are often seen in the visions and nightmares of mortals as blazing omens of ill fortune. Upon the battlefield such warnings become self-fulfilling prophecies, the eldritch war engines serving as the agents of the very devastation and misery their coming is said to warn of.",
       "id": "ab00821d-d054-5125-964d-0837d7520ca9",
@@ -1349,9 +1204,10 @@
       "name": "Burning Chariot",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "115"
+          "cost": "115",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1363,11 +1219,7 @@
               "ap": "-1",
               "attacks": "2D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Psychic",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Psychic", "Ignores Cover"],
               "name": "Fire of Tzeentch – Pink fire",
               "range": "12\"",
               "skill": "N/A",
@@ -1378,10 +1230,7 @@
               "ap": "-3",
               "attacks": "3",
               "damage": "3",
-              "keywords": [
-                "Psychic",
-                "Ignores Cover"
-              ],
+              "keywords": ["Psychic", "Ignores Cover"],
               "name": "Fire of Tzeentch – Blue fire",
               "range": "18\"",
               "skill": "3+",
@@ -1406,24 +1255,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike"
-        ],
+        "core": ["Deep Strike"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1464,12 +1307,8 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "10 Pink Horrors"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["10 Pink Horrors"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Magic made manifest, these cavorting grotesques hurl balls of warpfire into the enemy ranks where they transmogrify and immolate their victims. Pink Horrors cackle, riddle and caper endlessly, their unsettling glee ending only in the moment when their mortal form is destroyed and forced to split messily into two Blue Horrors.",
       "id": "d2443789-3dc2-5cfb-9e36-37e771610a42",
@@ -1538,9 +1377,10 @@
       "name": "Pink Horrors",
       "points": [
         {
-          "name": "model",
-          "model": "10",
-          "cost": "140"
+          "cost": "140",
+          "keyword": null,
+          "models": "10",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1552,10 +1392,7 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "1",
-              "keywords": [
-                "Pistol",
-                "Psychic"
-              ],
+              "keywords": ["Pistol", "Psychic"],
               "name": "Coruscating Pink Flames",
               "range": "18\"",
               "skill": "3+",
@@ -1571,10 +1408,7 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "1",
-              "keywords": [
-                "Pistol",
-                "Psychic"
-              ],
+              "keywords": ["Pistol", "Psychic"],
               "name": "Coruscating blue flames",
               "range": "18\"",
               "skill": "4+",
@@ -1590,10 +1424,7 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "1",
-              "keywords": [
-                "Pistol",
-                "Psychic"
-              ],
+              "keywords": ["Pistol", "Psychic"],
               "name": "Coruscating yellow flames",
               "range": "18\"",
               "skill": "5+",
@@ -1634,27 +1465,18 @@
         "1 Pink Horror that is not equipped with an instrument of Chaos can be equipped with 1 daemonic icon.",
         "1 Pink Horror that is not equipped with a daemonic icon can be equipped with 1 instrument of Chaos."
       ],
-      "leadBy": [
-        "Changecaster",
-        "Fluxmaster"
-      ]
+      "leadBy": ["Changecaster", "Fluxmaster"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Leader",
-          "Fights First"
-        ],
+        "core": ["Deep Strike", "Leader", "Fights First"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1681,12 +1503,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Infernal Enrapturess"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Infernal Enrapturess"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "The symphonies of torment and cacophonies of bliss unleashed by these daemons can tear their foes apart body and soul. Yet perhaps their greatest ability is to draw the disembodied energies of fellow Slaaneshi daemons to the battlefield, constantly bolstering their comrades’ ranks with fresh and soul-hungry entities.",
       "id": "73ce7eb3-eba7-5b49-b445-2997882ce3b0",
@@ -1709,9 +1527,7 @@
               "ap": "-1",
               "attacks": "5",
               "damage": "1",
-              "keywords": [
-                "Devastating Wounds"
-              ],
+              "keywords": ["Devastating Wounds"],
               "name": "Ravaging claws",
               "range": "Melee",
               "skill": "2+",
@@ -1723,9 +1539,10 @@
       "name": "Infernal Enrapturess",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "60"
+          "cost": "60",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1737,9 +1554,7 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": [
-                "Assault"
-              ],
+              "keywords": ["Assault"],
               "name": "Heartstring lyre – Euphonic blast",
               "range": "24\"",
               "skill": "3+",
@@ -1750,9 +1565,7 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": [
-                "Assault"
-              ],
+              "keywords": ["Assault"],
               "name": "Heartstring lyre – Cacophonous melody",
               "range": "18\"",
               "skill": "3+",
@@ -1777,30 +1590,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "DAEMONETTES"
-        ],
+        "units": ["DAEMONETTES"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike"
-        ],
+        "core": ["Deep Strike"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1834,13 +1639,8 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Plagueridden",
-        "9 Plaguebearers"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Plagueridden", "9 Plaguebearers"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Born from the souls of those who die of Nurgle’s Rot, Plaguebearers are the foot soldiers of Nurgle. They wield plagueswords that drip with infectious slime, and are surrounded by the endless drone of counting as they pursue their hopeless and eternal task of tallying each new outbreak of the Plague God’s many diseases.",
       "id": "1759402b-33ad-5750-804d-6262c560900f",
@@ -1863,9 +1663,7 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "1",
-              "keywords": [
-                "Lethal Hits"
-              ],
+              "keywords": ["Lethal Hits"],
               "name": "Plaguesword",
               "range": "Melee",
               "skill": "3+",
@@ -1877,9 +1675,10 @@
       "name": "Plaguebearers",
       "points": [
         {
-          "name": "model",
-          "model": "10",
-          "cost": "110"
+          "cost": "110",
+          "keyword": null,
+          "models": "10",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -1912,19 +1711,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6",
-          "Deep Strike"
-        ],
+        "core": ["Deadly Demise D6", "Deep Strike"],
         "damaged": {
           "range": "1-6 WOUNDS REMAINING",
           "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1964,12 +1758,8 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Keeper of Secrets"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Keeper of Secrets"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Darkly intelligent, horribly beguiling and deadly in battle, the Keepers of Secrets are the greatest champions of Slaaneshi daemon legions. Wielding unclean yet beautiful weapons and unleashing the sorcerous powers of obsession and torment, these daemons cut an elegantly hideous swathe across the battlefield.",
       "id": "c2f38971-857b-5b87-87b0-74c1a58deca0",
@@ -1993,10 +1783,7 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "3",
-              "keywords": [
-                "Extra Attacks",
-                "Devastating Wounds"
-              ],
+              "keywords": ["Extra Attacks", "Devastating Wounds"],
               "name": "Snapping claws",
               "range": "Melee",
               "skill": "2+",
@@ -2028,9 +1815,7 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": [
-                "Extra Attacks"
-              ],
+              "keywords": ["Extra Attacks"],
               "name": "Ritual knife",
               "range": "Melee",
               "skill": "2+",
@@ -2042,9 +1827,10 @@
       "name": "Keeper of Secrets",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "290"
+          "cost": "290",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2056,10 +1842,7 @@
               "ap": "-2",
               "attacks": "6",
               "damage": "1",
-              "keywords": [
-                "Psychic",
-                "Devastating Wounds"
-              ],
+              "keywords": ["Psychic", "Devastating Wounds"],
               "name": "Phantasmagoria – Witchfire",
               "range": "18\"",
               "skill": "2+",
@@ -2070,11 +1853,7 @@
               "ap": "-2",
               "attacks": "9",
               "damage": "1",
-              "keywords": [
-                "Psychic",
-                "Hazardous",
-                "Devastating Wounds"
-              ],
+              "keywords": ["Psychic", "Hazardous", "Devastating Wounds"],
               "name": "Phantasmagoria – Focused witchfire",
               "range": "18\"",
               "skill": "2+",
@@ -2090,9 +1869,7 @@
               "ap": "-1",
               "attacks": "6",
               "damage": "2",
-              "keywords": [
-                "Assault"
-              ],
+              "keywords": ["Assault"],
               "name": "Living whip",
               "range": "12\"",
               "skill": "2+",
@@ -2123,19 +1900,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6",
-          "Deep Strike"
-        ],
+        "core": ["Deadly Demise D6", "Deep Strike"],
         "damaged": {
           "range": "1-7 WOUNDS REMAINING",
           "description": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2168,12 +1940,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Shalaxi Helbane – EPIC HERO"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Shalaxi Helbane – EPIC HERO"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Cloven hooves pounding against broken earth, Shalaxi Helbane bears down upon its doomed quarry with the Soulpiercer gleaming in its grip. No prey can evade the Monarch of the Hunt, for the daemon’s obsession with its victim is so singular and so powerful that no mortal means of flight could ever escape it.",
       "id": "aece117c-f387-5601-9bd7-9282c5d59b9c",
@@ -2198,10 +1966,7 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "3",
-              "keywords": [
-                "Extra Attacks",
-                "Devastating Wounds"
-              ],
+              "keywords": ["Extra Attacks", "Devastating Wounds"],
               "name": "Snapping claws",
               "range": "Melee",
               "skill": "2+",
@@ -2217,9 +1982,7 @@
               "ap": "-3",
               "attacks": "6",
               "damage": "D6+2",
-              "keywords": [
-                "Precision"
-              ],
+              "keywords": ["Precision"],
               "name": "Soulpiercer",
               "range": "Melee",
               "skill": "2+",
@@ -2231,9 +1994,10 @@
       "name": "Shalaxi Helbane",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "380"
+          "cost": "380",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2245,9 +2009,7 @@
               "ap": "-1",
               "attacks": "6",
               "damage": "2",
-              "keywords": [
-                "Assault"
-              ],
+              "keywords": ["Assault"],
               "name": "Lash of Slaanesh",
               "range": "12\"",
               "skill": "2+",
@@ -2263,10 +2025,7 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "D3",
-              "keywords": [
-                "Psychic",
-                "Devastating Wounds"
-              ],
+              "keywords": ["Psychic", "Devastating Wounds"],
               "name": "Pavane of Slaanesh – Witchfire",
               "range": "18\"",
               "skill": "2+",
@@ -2307,25 +2066,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Scouts 9\""
-        ],
+        "core": ["Deep Strike", "Scouts 9\""],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2359,23 +2111,12 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Heartseeker",
-        "4-9 Seekers"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Heartseeker", "4-9 Seekers"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Sat astride swift Steeds of Slaanesh, Seekers pursue their mortal prey with obsessive delight. Even the fastest of mortal vehicles cannot outpace these vicious entities, while those who stand and fight soon find their ranks smashed asunder by charging shock cavalry drawn from the darkest depths of nightmare.",
       "id": "1fa4c551-ad0e-5873-9f40-b851fe412f39",
-      "keywords": [
-        "Mounted",
-        "Chaos",
-        "Daemon",
-        "Slaanesh",
-        "Seekers"
-      ],
+      "keywords": ["Mounted", "Chaos", "Daemon", "Slaanesh", "Seekers"],
       "leader": "",
       "loadout": "Every model is equipped with: lashing tongue; slashing claws.",
       "meleeWeapons": [
@@ -2387,10 +2128,7 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": [
-                "Lethal Hits",
-                "Extra Attacks"
-              ],
+              "keywords": ["Lethal Hits", "Extra Attacks"],
               "name": "Lashing tongue",
               "range": "Melee",
               "skill": "4+",
@@ -2406,9 +2144,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "1",
-              "keywords": [
-                "Devastating Wounds"
-              ],
+              "keywords": ["Devastating Wounds"],
               "name": "Slashing claws",
               "range": "Melee",
               "skill": "3+",
@@ -2420,14 +2156,16 @@
       "name": "Seekers",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "80"
+          "cost": "160",
+          "keyword": null,
+          "models": "10",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "10",
-          "cost": "160"
+          "cost": "80",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -2454,19 +2192,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Leader"
-        ],
+        "core": ["Deep Strike", "Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2493,12 +2226,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Syll’Esske – EPIC HERO"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Syll’Esske – EPIC HERO"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "This strange alliance of the daemon herald Syll and the hulking Daemon Prince Esske has borne bloody fruit across countless battlefields. Not only do the pairing wreak red ruin amidst the foe themselves, but also their presence entices the daemons of Slaanesh to ever more excessive acts of cruelty and violence.",
       "id": "32c1575b-797d-5e7f-bb1f-3148975512de",
@@ -2523,9 +2252,7 @@
               "ap": "-1",
               "attacks": "6",
               "damage": "1",
-              "keywords": [
-                "Extra Attacks"
-              ],
+              "keywords": ["Extra Attacks"],
               "name": "Scourging whip – Melee",
               "range": "Melee",
               "skill": "2+",
@@ -2553,9 +2280,10 @@
       "name": "Syll’Esske",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "120"
+          "cost": "120",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2605,9 +2333,7 @@
               "ap": "-1",
               "attacks": "6",
               "damage": "1",
-              "keywords": [
-                "Assault"
-              ],
+              "keywords": ["Assault"],
               "name": "Scourging whip – Ranged",
               "range": "9\"",
               "skill": "3+",
@@ -2632,30 +2358,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "DAEMONETTES"
-        ],
+        "units": ["DAEMONETTES"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike"
-        ],
+        "core": ["Deep Strike"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2676,23 +2394,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "3-6 Screamers"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["3-6 Screamers"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "These predatory daemons strike like sudden and inescapable change. They emit unearthly shrieks as they swoop down upon their prey on scintillating tides of sorcery, slicing victims to ribbons with razor-keen fins and latching on with fanged jaws from which corrosive empyric energies flow.",
       "id": "81d73edc-6787-5524-88ec-16a2ee9b8b24",
-      "keywords": [
-        "Beast",
-        "Fly",
-        "Chaos",
-        "Daemon",
-        "Tzeentch",
-        "Screamers"
-      ],
+      "keywords": ["Beast", "Fly", "Chaos", "Daemon", "Tzeentch", "Screamers"],
       "leader": "",
       "loadout": "Every model is equipped with: lamprey bite.",
       "meleeWeapons": [
@@ -2704,10 +2411,7 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": [
-                "Anti-vehicle 4+",
-                "Anti-monster 4+"
-              ],
+              "keywords": ["Anti-vehicle 4+", "Anti-monster 4+"],
               "name": "Lamprey bite",
               "range": "Melee",
               "skill": "3+",
@@ -2719,14 +2423,16 @@
       "name": "Screamers",
       "points": [
         {
-          "name": "model",
-          "model": "3",
-          "cost": "80"
+          "cost": "160",
+          "keyword": null,
+          "models": "6",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "6",
-          "cost": "160"
+          "cost": "80",
+          "keyword": null,
+          "models": "3",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -2746,27 +2452,19 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
-      "leadBy": [
-        "Fateskimmer"
-      ]
+      "wargear": ["None"],
+      "leadBy": ["Fateskimmer"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike"
-        ],
+        "core": ["Deep Strike"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2800,13 +2498,8 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Bloodreaper",
-        "9 Bloodletters"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Bloodreaper", "9 Bloodletters"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Bloodletters are hate and violence made manifest. Attacking in berserk packs or in martial, marching ranks, they hack apart their victims with monstrous hellblades. These weapons glow red-hot with the fury of their wielders, and even the slightest wound they inflict can see the victim bled dry in seconds.",
       "id": "25ab9e93-fc0c-52b2-b6a7-5ca993d15f1b",
@@ -2841,9 +2534,10 @@
       "name": "Bloodletters",
       "points": [
         {
-          "name": "model",
-          "model": "10",
-          "cost": "110"
+          "cost": "110",
+          "keyword": null,
+          "models": "10",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -2867,26 +2561,18 @@
         "1 Bloodletter that is not equipped with an instrument of Chaos can be equipped with 1 daemonic icon.",
         "1 Bloodletter that is not equipped with a daemonic icon can be equipped with 1 instrument of Chaos."
       ],
-      "leadBy": [
-        "Bloodmaster",
-        "Skulltaker"
-      ]
+      "leadBy": ["Bloodmaster", "Skulltaker"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6",
-          "Deep Strike"
-        ],
+        "core": ["Deadly Demise D6", "Deep Strike"],
         "damaged": {
           "range": "1-6 WOUNDS REMAINING",
           "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2919,12 +2605,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Lord of Change"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Lord of Change"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Greater Daemons of Tzeentch are infinitely cunning sorcerers and manipulators. Their malevolent gaze lays bare the souls of their victims and blasts the sanity of even the staunchest mortal, while their ensorcelled weapons and unholy magicks violently reshape reality itself into ever mutating forms.",
       "id": "4f705464-4947-5f92-95f9-4158a43c7059",
@@ -2949,9 +2631,7 @@
               "ap": "-1",
               "attacks": "5",
               "damage": "3",
-              "keywords": [
-                "Psychic"
-              ],
+              "keywords": ["Psychic"],
               "name": "Staff of Tzeentch",
               "range": "Melee",
               "skill": "3+",
@@ -2967,9 +2647,7 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "3",
-              "keywords": [
-                "Extra Attacks"
-              ],
+              "keywords": ["Extra Attacks"],
               "name": "Baleful sword",
               "range": "Melee",
               "skill": "3+",
@@ -2981,9 +2659,10 @@
       "name": "Lord of Change",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "260"
+          "cost": "260",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2995,9 +2674,7 @@
               "ap": "-1",
               "attacks": "9",
               "damage": "1",
-              "keywords": [
-                "Psychic"
-              ],
+              "keywords": ["Psychic"],
               "name": "Bolt of Change – Witchfire",
               "range": "18\"",
               "skill": "2+",
@@ -3008,10 +2685,7 @@
               "ap": "-2",
               "attacks": "9",
               "damage": "D3",
-              "keywords": [
-                "Psychic",
-                "Hazardous"
-              ],
+              "keywords": ["Psychic", "Hazardous"],
               "name": "Bolt of Change – Focused witchfire",
               "range": "18\"",
               "skill": "2+",
@@ -3027,9 +2701,7 @@
               "ap": "-1",
               "attacks": "6",
               "damage": "D3",
-              "keywords": [
-                "Psychic"
-              ],
+              "keywords": ["Psychic"],
               "name": "Rod of sorcery",
               "range": "12\"",
               "skill": "2+",
@@ -3060,19 +2732,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Leader"
-        ],
+        "core": ["Deep Strike", "Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3099,12 +2766,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Changecaster"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Changecaster"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Whirling amidst capering masses of daemonic Horrors, these Heralds are potent sorcerers whose presence causes the fires of their fellow daemons to spread with infernal vigour. Changecasters unleash storms of mutating sorcery against their enemies, jabbering and cackling as they wreak gruesome havoc.",
       "id": "21ff17b2-3fa7-5e1d-b34c-a05356232b29",
@@ -3128,9 +2791,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "1",
-              "keywords": [
-                "Psychic"
-              ],
+              "keywords": ["Psychic"],
               "name": "Herald combat weapon",
               "range": "Melee",
               "skill": "4+",
@@ -3142,9 +2803,10 @@
       "name": "Changecaster",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "60"
+          "cost": "60",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -3156,9 +2818,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "D3",
-              "keywords": [
-                "Psychic"
-              ],
+              "keywords": ["Psychic"],
               "name": "Arcane Fireball – Witchfire",
               "range": "18\"",
               "skill": "3+",
@@ -3169,11 +2829,7 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "D3",
-              "keywords": [
-                "Psychic",
-                "Hazardous",
-                "Devastating Wounds"
-              ],
+              "keywords": ["Psychic", "Hazardous", "Devastating Wounds"],
               "name": "Arcane Fireball – Focused witchfire",
               "range": "18\"",
               "skill": "3+",
@@ -3198,31 +2854,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "BLUE HORRORS",
-          "PINK HORRORS"
-        ],
+        "units": ["BLUE HORRORS", "PINK HORRORS"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Infiltrators"
-        ],
+        "core": ["Infiltrators"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3255,12 +2902,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Feculent Gnarlmaw"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Feculent Gnarlmaw"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Where the most grievous foulness reigns, there sprout the Feculent Gnarlmaws. Daemonic warp-flora, these cankers in the flesh of reality exude an aura of supernatural disease. Clouds of plague flies boil around them, shrouding the daemons of Nurgle from the sights of the enemy.",
       "id": "8b1e01e1-3fc5-514d-bdb6-96e69847b2e2",
@@ -3277,9 +2920,10 @@
       "name": "Feculent Gnarlmaw",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "100"
+          "cost": "100",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -3299,26 +2943,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6",
-          "Deep Strike",
-          "Feel No Pain 6+"
-        ],
+        "core": ["Deadly Demise D6", "Deep Strike", "Feel No Pain 6+"],
         "damaged": {
           "range": "1-7 WOUNDS REMAINING",
           "description": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3351,12 +2987,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Great Unclean One"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Great Unclean One"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "These Greater Daemons possess the same boundless energy and drive to corrupt as a swift spreading virus. Their booming voices roll across the battlefield, their cruel jollity and the perverse pride they take in their underlings’ achievements horribly at odds with the misery and disease they spread.",
       "id": "6b7fccf5-1fe5-51e5-a673-3196ce719cb2",
@@ -3380,9 +3012,7 @@
               "ap": "-1",
               "attacks": "12",
               "damage": "1",
-              "keywords": [
-                "Lethal Hits"
-              ],
+              "keywords": ["Lethal Hits"],
               "name": "Bilesword – Sweep",
               "range": "Melee",
               "skill": "2+",
@@ -3393,9 +3023,7 @@
               "ap": "-2",
               "attacks": "6",
               "damage": "D6+1",
-              "keywords": [
-                "Lethal Hits"
-              ],
+              "keywords": ["Lethal Hits"],
               "name": "Bilesword – Strike",
               "range": "Melee",
               "skill": "2+",
@@ -3411,10 +3039,7 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": [
-                "Lethal Hits",
-                "Extra Attacks"
-              ],
+              "keywords": ["Lethal Hits", "Extra Attacks"],
               "name": "Bileblade",
               "range": "Melee",
               "skill": "2+",
@@ -3430,10 +3055,7 @@
               "ap": "-1",
               "attacks": "6",
               "damage": "2",
-              "keywords": [
-                "Lethal Hits",
-                "Reverberating Summons"
-              ],
+              "keywords": ["Lethal Hits", "Reverberating Summons"],
               "name": "Doomsday bell",
               "range": "Melee",
               "skill": "2+",
@@ -3453,9 +3075,10 @@
       "name": "Great Unclean One",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "250"
+          "cost": "250",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -3483,10 +3106,7 @@
               "ap": "-2",
               "attacks": "D6+3",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Ignores Cover"],
               "name": "Putrid vomit",
               "range": "12\"",
               "skill": "N/A",
@@ -3518,19 +3138,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Leader"
-        ],
+        "core": ["Deep Strike", "Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3557,12 +3172,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Tormentbringer"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Tormentbringer"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Riding to battle above the clatter-slash blades of their Exalted Seeker Chariot, these wilfully vicious entities delight in ploughing screaming souls into the churned dirt of the battlefield. They strive to travel faster, strike harder, and leave even their lightning-fast fellow charioteers envious in their wakes.",
       "id": "4017ab4f-6a49-5ca4-b674-c73d2a5b67c3",
@@ -3586,10 +3197,7 @@
               "ap": "-1",
               "attacks": "6",
               "damage": "2",
-              "keywords": [
-                "Extra Attacks",
-                "Anti-infantry 3+"
-              ],
+              "keywords": ["Extra Attacks", "Anti-infantry 3+"],
               "name": "Lashes of torment – Melee",
               "range": "Melee",
               "skill": "2+",
@@ -3605,10 +3213,7 @@
               "ap": "0",
               "attacks": "4",
               "damage": "1",
-              "keywords": [
-                "Lethal Hits",
-                "Extra Attacks"
-              ],
+              "keywords": ["Lethal Hits", "Extra Attacks"],
               "name": "Seeker tongues",
               "range": "Melee",
               "skill": "4+",
@@ -3624,9 +3229,7 @@
               "ap": "-1",
               "attacks": "8",
               "damage": "1",
-              "keywords": [
-                "Devastating Wounds"
-              ],
+              "keywords": ["Devastating Wounds"],
               "name": "Slashing claws",
               "range": "Melee",
               "skill": "3+",
@@ -3638,9 +3241,10 @@
       "name": "Tormentbringer",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "140"
+          "cost": "140",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -3652,11 +3256,7 @@
               "ap": "-1",
               "attacks": "6",
               "damage": "2",
-              "keywords": [
-                "Pistol",
-                "Assault",
-                "Anti-infantry 3+"
-              ],
+              "keywords": ["Pistol", "Assault", "Anti-infantry 3+"],
               "name": "Lashes of torment – Ranged",
               "range": "12\"",
               "skill": "2+",
@@ -3681,30 +3281,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "HELLFLAYERS"
-        ],
+        "units": ["HELLFLAYERS"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike"
-        ],
+        "core": ["Deep Strike"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3738,23 +3330,12 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Bloodhunter",
-        "2-5 Bloodcrushers"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Bloodhunter", "2-5 Bloodcrushers"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Unholy fusions of daemon and machine, Juggernauts of Khorne are unstoppable beasts whose blood is fire and whose every step is thunder. When ridden into battle by Bloodletters, they act as shock cavalry, bearing down on their victims like battering rams. The destruction when their charge hits home is hideous to behold.",
       "id": "d42abf8d-e119-5791-90a7-70a1183240c7",
-      "keywords": [
-        "Mounted",
-        "Chaos",
-        "Daemon",
-        "Khorne",
-        "Bloodcrushers"
-      ],
+      "keywords": ["Mounted", "Chaos", "Daemon", "Khorne", "Bloodcrushers"],
       "leader": "",
       "loadout": "Every model is equipped with: hellblade; Juggernaut’s bladed horn.",
       "meleeWeapons": [
@@ -3782,10 +3363,7 @@
               "ap": "-1",
               "attacks": "4",
               "damage": "1",
-              "keywords": [
-                "Lance",
-                "Extra Attacks"
-              ],
+              "keywords": ["Lance", "Extra Attacks"],
               "name": "Juggernaut’s bladed horn",
               "range": "Melee",
               "skill": "4+",
@@ -3797,14 +3375,16 @@
       "name": "Bloodcrushers",
       "points": [
         {
-          "name": "model",
-          "model": "3",
-          "cost": "110"
+          "cost": "220",
+          "keyword": null,
+          "models": "6",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "6",
-          "cost": "220"
+          "cost": "110",
+          "keyword": null,
+          "models": "3",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -3828,24 +3408,18 @@
         "1 Bloodcrusher that is not equipped with an instrument of Chaos can be equipped with 1 daemonic icon.",
         "1 Bloodcrusher that is not equipped with a daemonic icon can be equipped with 1 instrument of Chaos."
       ],
-      "leadBy": [
-        "Skullmaster"
-      ]
+      "leadBy": ["Skullmaster"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike"
-        ],
+        "core": ["Deep Strike"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3866,23 +3440,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Blissbringer",
-        "2-5 Fiends"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Blissbringer", "2-5 Fiends"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Few daemonic entities approach the sheer disturbing horror of the Fiends of Slaanesh. Malicious hunting beasts that croon their delight across the battlefield, these ghastly abominations are wreathed in a soporific musk that leaves their prey witless and helpless before their flashing talons and stabbing tails.",
       "id": "7c0b0ea9-e185-552d-83ff-7b249aac809e",
-      "keywords": [
-        "Beast",
-        "Chaos",
-        "Daemon",
-        "Slaanesh",
-        "Fiends"
-      ],
+      "keywords": ["Beast", "Chaos", "Daemon", "Slaanesh", "Fiends"],
       "leader": "",
       "loadout": "Every model is equipped with: barbed tail and dissecting claws.",
       "meleeWeapons": [
@@ -3894,9 +3457,7 @@
               "ap": "-2",
               "attacks": "5",
               "damage": "2",
-              "keywords": [
-                "Devastating Wounds"
-              ],
+              "keywords": ["Devastating Wounds"],
               "name": "Barbed tail and dissecting claws",
               "range": "Melee",
               "skill": "3+",
@@ -3908,14 +3469,16 @@
       "name": "Fiends",
       "points": [
         {
-          "name": "model",
-          "model": "3",
-          "cost": "110"
+          "cost": "220",
+          "keyword": null,
+          "models": "6",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "6",
-          "cost": "220"
+          "cost": "110",
+          "keyword": null,
+          "models": "3",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -3935,25 +3498,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6",
-          "Deep Strike"
-        ],
+        "core": ["Deadly Demise D6", "Deep Strike"],
         "damaged": {
           "range": "1-7 WOUNDS REMAINING",
           "description": "While this model has 1-7 wounds remaining, add 2 to the Attacks characteristic of this model’s Slaughter and Carnage.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3986,12 +3542,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Skarbrand – EPIC HERO"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Skarbrand – EPIC HERO"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Never pausing, never relenting, Skarbrand storms across realspace hacking apart every luckless foe that stands in its path. Worse, all who find themselves in the daemon’s presence are seized by its feral murderlust, a madness that sees elegant strategies collapse into orgies of primal savagery.",
       "id": "a1bce1fd-f1af-58a5-a64b-39e8813b3959",
@@ -4038,9 +3590,10 @@
       "name": "Skarbrand",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "305"
+          "cost": "305",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -4052,10 +3605,7 @@
               "ap": "-1",
               "attacks": "2D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Ignores Cover"],
               "name": "Bellow of endless fury",
               "range": "12\"",
               "skill": "N/A",
@@ -4080,26 +3630,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6",
-          "Deep Strike",
-          "Stealth"
-        ],
+        "core": ["Deadly Demise D6", "Deep Strike", "Stealth"],
         "damaged": {
           "range": "1-7 WOUNDS REMAINING",
           "description": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -4158,12 +3700,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Be’lakor – EPIC HERO"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Be’lakor – EPIC HERO"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Few warp entities are as mighty or as insidious as Be’lakor. Wreathed in shadow and dancing witchlight, the Dark Master spreads terror and torment to all who behold him. Every blow of his Blade of Shadows leaves the hollow husks of slain enemies sprawled in its wake – just more victims lost to the encroaching darkness.",
       "id": "288c226b-e687-5486-ac5e-c682e653d53e",
@@ -4188,9 +3726,7 @@
               "ap": "-3",
               "attacks": "14",
               "damage": "1",
-              "keywords": [
-                "Sustained Hits 1"
-              ],
+              "keywords": ["Sustained Hits 1"],
               "name": "The Blade of Shadows – Sweep",
               "range": "Melee",
               "skill": "2+",
@@ -4201,9 +3737,7 @@
               "ap": "-4",
               "attacks": "7",
               "damage": "D6+1",
-              "keywords": [
-                "Devastating Wounds"
-              ],
+              "keywords": ["Devastating Wounds"],
               "name": "The Blade of Shadows – Strike",
               "range": "Melee",
               "skill": "2+",
@@ -4215,9 +3749,10 @@
       "name": "Be’lakor",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "375"
+          "cost": "375",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -4229,11 +3764,7 @@
               "ap": "-2",
               "attacks": "9",
               "damage": "1",
-              "keywords": [
-                "Psychic",
-                "Ignores Cover",
-                "Devastating Wounds"
-              ],
+              "keywords": ["Psychic", "Ignores Cover", "Devastating Wounds"],
               "name": "Betraying Shades – Witchfire",
               "range": "18\"",
               "skill": "2+",
@@ -4274,25 +3805,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Leader"
-        ],
+        "core": ["Deep Strike", "Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -4319,12 +3843,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Horticulous Slimux – EPIC HERO"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Horticulous Slimux – EPIC HERO"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Horticulous Slimux is the Grand Cultivator, roaming realspace to sow the seeds of corruption in all unspoilt lands. Sat atop the heaving bulk of the snail-like daemon Mulch, Slimux goads packs of thrashing plague beasts into battle even as it lops mortal heads with thwicker-snick flashes of its wickedly sharp lopping shears.",
       "id": "95470695-033c-5ed4-b2b6-5c67636198e1",
@@ -4348,10 +3868,7 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "3",
-              "keywords": [
-                "Extra Attacks",
-                "Devastating Wounds"
-              ],
+              "keywords": ["Extra Attacks", "Devastating Wounds"],
               "name": "Acidic maw",
               "range": "Melee",
               "skill": "4+",
@@ -4367,9 +3884,7 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "3",
-              "keywords": [
-                "Lethal Hits"
-              ],
+              "keywords": ["Lethal Hits"],
               "name": "Lopping shears",
               "range": "Melee",
               "skill": "3+",
@@ -4381,9 +3896,10 @@
       "name": "Horticulous Slimux",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "120"
+          "cost": "120",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -4403,32 +3919,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "BEASTS OF NURGLE"
-        ],
+        "units": ["BEASTS OF NURGLE"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Leader",
-          "Fights First"
-        ],
+        "core": ["Deep Strike", "Leader", "Fights First"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -4455,12 +3961,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Contorted Epitome"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Contorted Epitome"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "These ghastly daemonic manifestations writhe into battle on nests of metallic tendrils, their leering attendants riding their twisted steeds to war. Each reflects the darkest desires of those who look upon its surface, even as it swallows up the most potent energies thrown against it.",
       "id": "d7bf34ae-8c48-5d7c-8004-ddc81179e195",
@@ -4483,9 +3985,7 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "2",
-              "keywords": [
-                "Extra Attacks"
-              ],
+              "keywords": ["Extra Attacks"],
               "name": "Coiled tentacles",
               "range": "Melee",
               "skill": "4+",
@@ -4501,9 +4001,7 @@
               "ap": "-1",
               "attacks": "8",
               "damage": "1",
-              "keywords": [
-                "Devastating Wounds"
-              ],
+              "keywords": ["Devastating Wounds"],
               "name": "Ravaging claws",
               "range": "Melee",
               "skill": "2+",
@@ -4515,9 +4013,10 @@
       "name": "Contorted Epitome",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "100"
+          "cost": "100",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -4537,23 +4036,15 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "DAEMONETTES"
-        ],
+        "units": ["DAEMONETTES"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Feel No Pain 5+",
-          "Leader"
-        ],
+        "core": ["Deep Strike", "Feel No Pain 5+", "Leader"],
         "damaged": {
           "description": "",
           "range": "",
@@ -4587,12 +4078,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Poxbringer"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Poxbringer"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Poxbringers are the largest and foulest of Plaguebearers, their corporeal forms brimming with unclean vitality even as they exude an air of feculent despair. A miasmal haze of disease hangs about them, clotting upon the plagueswords of their fellow daemons and rendering their touch all the more infectious.",
       "id": "d7e24459-f599-51c7-b88a-a066b357cf69",
@@ -4616,9 +4103,7 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "2",
-              "keywords": [
-                "Lethal Hits"
-              ],
+              "keywords": ["Lethal Hits"],
               "name": "Foul balesword",
               "range": "Melee",
               "skill": "3+",
@@ -4630,9 +4115,10 @@
       "name": "Poxbringer",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "55"
+          "cost": "55",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -4652,31 +4138,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "PLAGUEBEARERS"
-        ],
+        "units": ["PLAGUEBEARERS"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Leader"
-        ],
+        "core": ["Deep Strike", "Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -4703,12 +4180,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Fateskimmer"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Fateskimmer"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "These daemons ride upon Burning Chariots, arcane constructs fashioned from the energies of dread omens and foretellings. They hurtle along anarchic and illogical trajectories that defy all physical laws, often surrounded by shoals of predatory daemonic entities empowered and emboldened by the Herald’s presence.",
       "id": "2993a6d6-e151-5d09-96b5-2f1f8b90c5d8",
@@ -4733,9 +4206,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "1",
-              "keywords": [
-                "Psychic"
-              ],
+              "keywords": ["Psychic"],
               "name": "Herald combat weapon",
               "range": "Melee",
               "skill": "4+",
@@ -4767,9 +4238,10 @@
       "name": "Fateskimmer",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "95"
+          "cost": "95",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -4781,9 +4253,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "D3",
-              "keywords": [
-                "Psychic"
-              ],
+              "keywords": ["Psychic"],
               "name": "Arcane Fireball – Witchfire",
               "range": "18\"",
               "skill": "3+",
@@ -4794,11 +4264,7 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "D3",
-              "keywords": [
-                "Psychic",
-                "Hazardous",
-                "Devastating Wounds"
-              ],
+              "keywords": ["Psychic", "Hazardous", "Devastating Wounds"],
               "name": "Arcane Fireball – Focused witchfire",
               "range": "18\"",
               "skill": "3+",
@@ -4823,30 +4289,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "SCREAMERS"
-        ],
+        "units": ["SCREAMERS"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike"
-        ],
+        "core": ["Deep Strike"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -4867,22 +4325,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1-2 Hellflayers"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1-2 Hellflayers"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Mortal myth has it that the Hellflayers of Slaanesh began as devices for mowing the gruesome pleasure-gardens of the Dark Prince’s realm, but that their efficacy in war was soon proven when their wild Daemonette crews unleashed the whirl-bladed murder engines upon the battlefields of realspace.",
       "id": "d919babd-8f5e-54cc-9249-35da577e890f",
-      "keywords": [
-        "Mounted",
-        "Chaos",
-        "Daemon",
-        "Slaanesh",
-        "Hellflayers"
-      ],
+      "keywords": ["Mounted", "Chaos", "Daemon", "Slaanesh", "Hellflayers"],
       "leader": "",
       "loadout": "Every model is equipped with: lashes of torment; Seeker tongues; slashing claws.",
       "meleeWeapons": [
@@ -4894,10 +4342,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": [
-                "Extra Attacks",
-                "Anti-infantry 3+"
-              ],
+              "keywords": ["Extra Attacks", "Anti-infantry 3+"],
               "name": "Lashes of torment – Melee",
               "range": "Melee",
               "skill": "3+",
@@ -4913,10 +4358,7 @@
               "ap": "0",
               "attacks": "4",
               "damage": "1",
-              "keywords": [
-                "Lethal Hits",
-                "Extra Attacks"
-              ],
+              "keywords": ["Lethal Hits", "Extra Attacks"],
               "name": "Seeker tongues",
               "range": "Melee",
               "skill": "4+",
@@ -4932,9 +4374,7 @@
               "ap": "-1",
               "attacks": "8",
               "damage": "1",
-              "keywords": [
-                "Devastating Wounds"
-              ],
+              "keywords": ["Devastating Wounds"],
               "name": "Slashing claws",
               "range": "Melee",
               "skill": "3+",
@@ -4946,14 +4386,16 @@
       "name": "Hellflayers",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "80"
+          "cost": "160",
+          "keyword": null,
+          "models": "2",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "2",
-          "cost": "160"
+          "cost": "80",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -4965,11 +4407,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": [
-                "Pistol",
-                "Assault",
-                "Anti-infantry 3+"
-              ],
+              "keywords": ["Pistol", "Assault", "Anti-infantry 3+"],
               "name": "Lashes of torment – Ranged",
               "range": "12\"",
               "skill": "3+",
@@ -4994,27 +4432,19 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
-      "leadBy": [
-        "Tormentbringer"
-      ]
+      "wargear": ["None"],
+      "leadBy": ["Tormentbringer"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike"
-        ],
+        "core": ["Deep Strike"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -5048,13 +4478,8 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Plaguebringer",
-        "2-5 Plague Drones"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Plaguebringer", "2-5 Plague Drones"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Plague Drones ride monstrous Rot Flies to war. These vile steeds scrabble and bite at their prey, impaling them on dripping probosces or biting off the heads of their victims. The finest stolen craniums are recovered and fashioned into filth-swollen projectiles – death’s heads – for the daemonic riders to hurl at their foes.",
       "id": "b214a7a1-f34e-5855-8c03-15953cef43bc",
@@ -5077,10 +4502,7 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "2",
-              "keywords": [
-                "Lethal Hits",
-                "Extra Attacks"
-              ],
+              "keywords": ["Lethal Hits", "Extra Attacks"],
               "name": "Foul mouthparts",
               "range": "Melee",
               "skill": "4+",
@@ -5096,9 +4518,7 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "1",
-              "keywords": [
-                "Lethal Hits"
-              ],
+              "keywords": ["Lethal Hits"],
               "name": "Plaguesword",
               "range": "Melee",
               "skill": "3+",
@@ -5110,14 +4530,16 @@
       "name": "Plague Drones",
       "points": [
         {
-          "name": "model",
-          "model": "3",
-          "cost": "110"
+          "cost": "220",
+          "keyword": null,
+          "models": "6",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "6",
-          "cost": "220"
+          "cost": "110",
+          "keyword": null,
+          "models": "3",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -5129,10 +4551,7 @@
               "ap": "0",
               "attacks": "D3",
               "damage": "1",
-              "keywords": [
-                "Lethal Hits",
-                "Blast"
-              ],
+              "keywords": ["Lethal Hits", "Blast"],
               "name": "Death’s heads",
               "range": "12\"",
               "skill": "4+",
@@ -5164,19 +4583,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6",
-          "Deep Strike"
-        ],
+        "core": ["Deadly Demise D6", "Deep Strike"],
         "damaged": {
           "range": "1-6 WOUNDS REMAINING",
           "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -5209,12 +4623,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Bloodthirster"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Bloodthirster"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Bloodthirsters are supreme warriors, ferocious embodiments of the Blood God’s rage and murderlust. Commanders and champions of the Khornate daemon legions, Bloodthirsters are possessed of supreme martial skill. They wield baroque weapons of appalling power, and slaughter all in their paths.",
       "id": "7d466720-589e-54d0-abb0-1bd094a28515",
@@ -5288,9 +4698,10 @@
       "name": "Bloodthirster",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "305"
+          "cost": "305",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -5302,10 +4713,7 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Ignores Cover"],
               "name": "Hellfire breath",
               "range": "12\"",
               "skill": "N/A",
@@ -5321,9 +4729,7 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": [
-                "Devastating Wounds"
-              ],
+              "keywords": ["Devastating Wounds"],
               "name": "Bloodflail",
               "range": "12\"",
               "skill": "2+",
@@ -5370,19 +4776,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Leader"
-        ],
+        "core": ["Deep Strike", "Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -5416,12 +4817,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Exalted Flamer"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Exalted Flamer"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Champions of their kind, Exalted Flamers lead packs of lesser entities to battle. Some swoop upon the backs of Burning Chariots, unleashing focused jets of devastating blue fire, or indiscriminate rains of searing pink fire that clings and spreads like panic given animus until nothing remains in its wake but glowing ashes.",
       "id": "06ac659a-793f-5875-9b7f-7bd9d029e1e4",
@@ -5457,9 +4854,10 @@
       "name": "Exalted Flamer",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "65"
+          "cost": "65",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -5471,11 +4869,7 @@
               "ap": "-1",
               "attacks": "2D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Psychic",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Psychic", "Ignores Cover"],
               "name": "Fire of Tzeentch – Pink fire",
               "range": "12\"",
               "skill": "N/A",
@@ -5486,10 +4880,7 @@
               "ap": "-3",
               "attacks": "3",
               "damage": "3",
-              "keywords": [
-                "Psychic",
-                "Ignores Cover"
-              ],
+              "keywords": ["Psychic", "Ignores Cover"],
               "name": "Fire of Tzeentch – Blue fire",
               "range": "18\"",
               "skill": "3+",
@@ -5514,31 +4905,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "FLAMERS"
-        ],
+        "units": ["FLAMERS"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Leader"
-        ],
+        "core": ["Deep Strike", "Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -5565,12 +4947,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Skullmaster"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Skullmaster"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Skullmasters ride daemon steeds known as Juggernauts. Mounted upon these beasts of living brass and molten fury, Skullmasters lead the Khornate cavalry charge into the heart of the enemy lines, hacking, beheading, impaling and crushing. Few are the foes that can stand against this devastating stampede.",
       "id": "e71974e0-7fff-55c6-8207-8e9d5ededfb1",
@@ -5609,10 +4987,7 @@
               "ap": "-1",
               "attacks": "4",
               "damage": "1",
-              "keywords": [
-                "Lance",
-                "Extra Attacks"
-              ],
+              "keywords": ["Lance", "Extra Attacks"],
               "name": "Juggernaut’s bladed horn",
               "range": "Melee",
               "skill": "4+",
@@ -5624,9 +4999,10 @@
       "name": "Skullmaster",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "100"
+          "cost": "100",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -5646,31 +5022,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "BLOODCRUSHERS"
-        ],
+        "units": ["BLOODCRUSHERS"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Leader"
-        ],
+        "core": ["Deep Strike", "Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -5697,12 +5064,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Epidemius – EPIC HERO"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Epidemius – EPIC HERO"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Borne upon his throne by a scrabbling mound of Nurglings, Epidemius endlessly catalogues the infinite plagues and maladies released upon realspace by the followers of Nurgle. The higher Epidemius’ tally rises upon any given battlefield, the more favourably the Plague God smiles upon his servants in the vicinity.",
       "id": "a4959c03-e36e-5386-9b07-29994f666115",
@@ -5726,9 +5089,7 @@
               "ap": "-2",
               "attacks": "D6+3",
               "damage": "2",
-              "keywords": [
-                "Lethal Hits"
-              ],
+              "keywords": ["Lethal Hits"],
               "name": "Balesword and Nurgling attendants",
               "range": "Melee",
               "skill": "3+",
@@ -5740,9 +5101,10 @@
       "name": "Epidemius",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "80"
+          "cost": "80",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -5762,31 +5124,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "PLAGUEBEARERS"
-        ],
+        "units": ["PLAGUEBEARERS"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Leader"
-        ],
+        "core": ["Deep Strike", "Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -5820,12 +5173,8 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Karanak – EPIC HERO"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Karanak – EPIC HERO"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Karanak hunts those who give insult to Khorne. Scenting its prey across time and space, it is an inescapable predator. Karanak’s incorporeal howls summon the Blood Hunt of Khorne to join it in the chase, a cavalcade of ferocious daemons set on mayhem and slaughter.",
       "id": "1d9dbbb2-e18b-532b-90c9-a14cd65892b0",
@@ -5849,10 +5198,7 @@
               "ap": "-2",
               "attacks": "6",
               "damage": "2",
-              "keywords": [
-                "Precision",
-                "Anti-character 3+"
-              ],
+              "keywords": ["Precision", "Anti-character 3+"],
               "name": "Soul-rending fangs",
               "range": "Melee",
               "skill": "2+",
@@ -5864,9 +5210,10 @@
       "name": "Karanak",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "75"
+          "cost": "75",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -5878,10 +5225,7 @@
               "ap": "-1",
               "attacks": "D6+3",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Ignores Cover"],
               "name": "Scalding roar",
               "range": "12\"",
               "skill": "N/A",
@@ -5906,31 +5250,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "FLESH HOUNDS"
-        ],
+        "units": ["FLESH HOUNDS"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Leader"
-        ],
+        "core": ["Deep Strike", "Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -5957,12 +5292,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Spoilpox Scrivener"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Spoilpox Scrivener"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Spiteful and pedantic, these daemons are tasked with auditing the endless disease-tally of the Plaguebearers. The presence of the Scriveners is cruelly motivational to their fellows. Moreover, they can easily bite enemy warriors in half, or drown them in the foul mucus that issues from their distended maws.",
       "id": "dda65565-bf12-5680-81ab-1b9631937882",
@@ -5985,9 +5316,7 @@
               "ap": "-1",
               "attacks": "6",
               "damage": "1",
-              "keywords": [
-                "Lethal Hits"
-              ],
+              "keywords": ["Lethal Hits"],
               "name": "Plaguesword and distended maw",
               "range": "Melee",
               "skill": "3+",
@@ -5999,9 +5328,10 @@
       "name": "Spoilpox Scrivener",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "60"
+          "cost": "60",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -6013,10 +5343,7 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Pistol"
-              ],
+              "keywords": ["Torrent", "Pistol"],
               "name": "Disgusting sneezes",
               "range": "6\"",
               "skill": "N/A",
@@ -6041,31 +5368,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "PLAGUEBEARERS"
-        ],
+        "units": ["PLAGUEBEARERS"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Leader"
-        ],
+        "core": ["Deep Strike", "Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -6092,12 +5410,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Skulltaker – EPIC HERO"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Skulltaker – EPIC HERO"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Skulltaker is Khorne’s executioner. Wielding the terrifying Slayer Sword, Skulltaker’s every blow lops another head from an enemy’s shoulders. Fighting at the head of the Cohort of Blood – a dread assemblage of the mightiest Bloodletters – Skulltaker reaps an ever greater tally of worthy skulls for Khorne.",
       "id": "b4d5c7ca-e189-5eb3-a9b4-f7d875684a64",
@@ -6121,10 +5435,7 @@
               "ap": "-2",
               "attacks": "6",
               "damage": "3",
-              "keywords": [
-                "Precision",
-                "Devastating Wounds"
-              ],
+              "keywords": ["Precision", "Devastating Wounds"],
               "name": "The Slayer Sword",
               "range": "Melee",
               "skill": "2+",
@@ -6136,9 +5447,10 @@
       "name": "Skulltaker",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "85"
+          "cost": "85",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -6158,30 +5470,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "BLOODLETTERS"
-        ],
+        "units": ["BLOODLETTERS"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike"
-        ],
+        "core": ["Deep Strike"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -6208,12 +5512,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Rendmaster on Blood Throne"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Rendmaster on Blood Throne"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "The greatest of Khorne’s heralds are Rendmasters, who ride to battle atop monstrous Daemon Engines known as Blood Thrones. Infernal lore suggests these engines are fashioned from slivers of the Blood God’s own throne, and that wherever they plough into the foe, Khorne’s legions fight beneath his glowering gaze.",
       "id": "68eadbdd-08e9-58de-8fc7-984d9f0a5fff",
@@ -6236,9 +5536,7 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "2",
-              "keywords": [
-                "Extra Attacks"
-              ],
+              "keywords": ["Extra Attacks"],
               "name": "Attendants’ hellblades",
               "range": "Melee",
               "skill": "3+",
@@ -6266,9 +5564,10 @@
       "name": "Rendmaster on Blood Throne",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "165"
+          "cost": "165",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -6288,24 +5587,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Infiltrators"
-        ],
+        "core": ["Infiltrators"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -6338,31 +5631,22 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Skull Altar"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Skull Altar"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Rumbling up from the tortured ground amidst geysers of gore and skulls, these grotesque altars mar the land wherever the daemons of Khorne advance. They are sites of sacrifice, the blood shed atop them causing waves of wrathful unreality to roll out across the battlefield, spreading hate and destruction.",
       "id": "6477c669-2d71-50d3-a739-b8e8f932ecb8",
-      "keywords": [
-        "Fortification",
-        "Chaos",
-        "Daemon",
-        "Khorne",
-        "Skull Altar"
-      ],
+      "keywords": ["Fortification", "Chaos", "Daemon", "Khorne", "Skull Altar"],
       "leader": "",
       "loadout": "This model is equipped with: nothing.",
       "meleeWeapons": [],
       "name": "Skull Altar",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "105"
+          "cost": "105",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -6382,25 +5666,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Leader"
-        ],
+        "core": ["Deep Strike", "Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -6427,12 +5704,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Sloppity Bilepiper"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Sloppity Bilepiper"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Infected with the Chortling Murrain, these desperately grinning daemons caper and quip as they play discordant dirges on their foul gutpipes. Their antics either amuse or irritate their fellow daemons so much that they hasten into the press of battle, while mortals infected with the murrain may literally laugh themselves to death.",
       "id": "b37ad4ff-c5b5-5030-85a9-6c37637459b5",
@@ -6455,9 +5728,7 @@
               "ap": "0",
               "attacks": "4",
               "damage": "1",
-              "keywords": [
-                "Lethal Hits"
-              ],
+              "keywords": ["Lethal Hits"],
               "name": "Marotter",
               "range": "Melee",
               "skill": "3+",
@@ -6469,9 +5740,10 @@
       "name": "Sloppity Bilepiper",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "55"
+          "cost": "55",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -6491,31 +5763,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "PLAGUEBEARERS"
-        ],
+        "units": ["PLAGUEBEARERS"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6",
-          "Deep Strike"
-        ],
+        "core": ["Deadly Demise D6", "Deep Strike"],
         "damaged": {
           "range": "1-7 WOUNDS REMAINING",
           "description": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -6548,12 +5811,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Kairos Fateweaver – EPIC HERO"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Kairos Fateweaver – EPIC HERO"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Wielding the warp-forged Staff of Tomorrow, and with the ability to predict all that may come to pass while knowing all that has already transpired, Kairos Fateweaver is amongst the galaxy’s most canny strategists. What the daemon lacks in physical and martial prowess, it more than makes up for in pure Tzeentchian cunning.",
       "id": "b6121698-cc24-5d82-9131-60726b8b49e7",
@@ -6579,9 +5838,7 @@
               "ap": "-2",
               "attacks": "5",
               "damage": "2D3",
-              "keywords": [
-                "Psychic"
-              ],
+              "keywords": ["Psychic"],
               "name": "Staff of Tomorrow",
               "range": "Melee",
               "skill": "3+",
@@ -6593,9 +5850,10 @@
       "name": "Kairos Fateweaver",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "270"
+          "cost": "270",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -6607,11 +5865,7 @@
               "ap": "-2",
               "attacks": "D6+3",
               "damage": "D3",
-              "keywords": [
-                "Psychic",
-                "Indirect Fire",
-                "Blast"
-              ],
+              "keywords": ["Psychic", "Indirect Fire", "Blast"],
               "name": "Infernal Gateway – Witchfire",
               "range": "24\"",
               "skill": "2+",
@@ -6622,12 +5876,7 @@
               "ap": "-3",
               "attacks": "D3+6",
               "damage": "D3",
-              "keywords": [
-                "Psychic",
-                "Hazardous",
-                "Indirect Fire",
-                "Blast"
-              ],
+              "keywords": ["Psychic", "Hazardous", "Indirect Fire", "Blast"],
               "name": "Infernal Gateway – Focused witchfire",
               "range": "24\"",
               "skill": "2+",
@@ -6652,25 +5901,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Infiltrators"
-        ],
+        "core": ["Deep Strike", "Infiltrators"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -6703,12 +5945,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "10 Blue Horrors"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["10 Blue Horrors"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Blue Horrors are sullen, malevolent entities, as likely to throttle victims with their rubbery fingers out of sheer spite as to melt them like tallow with conjured gouts of mutating warpflame. Should one of these wretched beings be slain, it bursts into a roiling cloud of fume from which a pair of crackling Brimstone Horrors emerge.",
       "id": "cb91d01b-ae8d-5076-9392-5829f1e47eb9",
@@ -6760,9 +5998,10 @@
       "name": "Blue Horrors",
       "points": [
         {
-          "name": "model",
-          "model": "10",
-          "cost": "125"
+          "cost": "125",
+          "keyword": null,
+          "models": "10",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -6774,10 +6013,7 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "1",
-              "keywords": [
-                "Pistol",
-                "Psychic"
-              ],
+              "keywords": ["Pistol", "Psychic"],
               "name": "Coruscating blue flames",
               "range": "18\"",
               "skill": "4+",
@@ -6793,10 +6029,7 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "1",
-              "keywords": [
-                "Pistol",
-                "Psychic"
-              ],
+              "keywords": ["Pistol", "Psychic"],
               "name": "Coruscating yellow flames",
               "range": "18\"",
               "skill": "5+",
@@ -6821,29 +6054,19 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
-      "leadBy": [
-        "Changecaster",
-        "Fluxmaster"
-      ]
+      "wargear": ["None"],
+      "leadBy": ["Changecaster", "Fluxmaster"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Lone Operative"
-        ],
+        "core": ["Deep Strike", "Lone Operative"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -6870,12 +6093,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 The Blue Scribes – EPIC HERO"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 The Blue Scribes – EPIC HERO"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "These quarrelsome daemons flit through time and space upon their skimming Disc, seeking scattered shards of the sorcerous wisdom of Tzeentch. P’tarix leeches away the secrets and power of enemy sorcerers, even as Xirat’p unleashes storms of sorcerous destruction drawn from their arcane stash of lore.",
       "id": "2883a92d-8f1a-5847-8cb5-e7bc961fc5e3",
@@ -6900,9 +6119,7 @@
               "ap": "0",
               "attacks": "4",
               "damage": "1",
-              "keywords": [
-                "Anti-psyker 2+"
-              ],
+              "keywords": ["Anti-psyker 2+"],
               "name": "Sharp quills",
               "range": "Melee",
               "skill": "5+",
@@ -6914,9 +6131,10 @@
       "name": "The Blue Scribes",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "75"
+          "cost": "75",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -6936,26 +6154,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Lone Operative",
-          "Stealth"
-        ],
+        "core": ["Deep Strike", "Lone Operative", "Stealth"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -6982,12 +6192,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 The Changeling – EPIC HERO"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 The Changeling – EPIC HERO"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Known also as the Trickster of Tzeentch, the Changeling can alter its form at will to mimic mortal beings from the smallest insect to the most titanic monster. The daemon’s favourite game is to impersonate pivotal mortal leaders or heroes, and then to wreak untold mischief by abusing their power and position.",
       "id": "6dedfdda-e85d-59b3-ade9-d5044c7e56e8",
@@ -7012,9 +6218,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "D3",
-              "keywords": [
-                "Psychic"
-              ],
+              "keywords": ["Psychic"],
               "name": "The Trickster’s Staff",
               "range": "Melee",
               "skill": "4+",
@@ -7026,9 +6230,10 @@
       "name": "The Changeling",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "90"
+          "cost": "90",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -7040,11 +6245,7 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Psychic",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Psychic", "Ignores Cover"],
               "name": "Infernal Flames – Witchfire",
               "range": "12\"",
               "skill": "N/A",
@@ -7055,12 +6256,7 @@
               "ap": "-1",
               "attacks": "D6+3",
               "damage": "D3",
-              "keywords": [
-                "Torrent",
-                "Psychic",
-                "Hazardous",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Psychic", "Hazardous", "Ignores Cover"],
               "name": "Infernal Flames – Focused witchfire",
               "range": "12\"",
               "skill": "N/A",
@@ -7085,25 +6281,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Leader"
-        ],
+        "core": ["Deep Strike", "Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -7130,12 +6319,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Fluxmaster"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Fluxmaster"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Fluxmasters are Heralds of Tzeentch gifted with daemonic Discs as steeds. They streak through the air like scintillating comets, trailing a wake of altered reality behind them in which fate turns in the favour of Tzeentch’s servants and all their endeavours are rendered especially successful and potent.",
       "id": "6dbed53c-517a-5ddd-9f17-4078d05e6982",
@@ -7160,9 +6345,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "1",
-              "keywords": [
-                "Psychic"
-              ],
+              "keywords": ["Psychic"],
               "name": "Herald combat weapon",
               "range": "Melee",
               "skill": "4+",
@@ -7174,9 +6357,10 @@
       "name": "Fluxmaster",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "60"
+          "cost": "60",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -7188,9 +6372,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "D3",
-              "keywords": [
-                "Psychic"
-              ],
+              "keywords": ["Psychic"],
               "name": "Arcane Fireball – Witchfire",
               "range": "18\"",
               "skill": "3+",
@@ -7201,11 +6383,7 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "D3",
-              "keywords": [
-                "Psychic",
-                "Hazardous",
-                "Devastating Wounds"
-              ],
+              "keywords": ["Psychic", "Hazardous", "Devastating Wounds"],
               "name": "Arcane Fireball – Focused witchfire",
               "range": "18\"",
               "skill": "3+",
@@ -7230,31 +6408,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "PINK HORRORS",
-          "BLUE HORRORS"
-        ],
+        "units": ["PINK HORRORS", "BLUE HORRORS"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike"
-        ],
+        "core": ["Deep Strike"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -7275,24 +6444,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Pyrocaster",
-        "2-5 Flamers"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Pyrocaster", "2-5 Flamers"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "These bizarre daemons bound through the air in convulsive leaps. The warpflame that drools from their many maws seethes with the raw power of change. When spat forth in roaring sheets, it sends its victims into agonies of mutation, their forms altering again and again before collapsing into distorted ruin.",
       "id": "5444e4f7-36eb-5783-bffb-689f33c5942a",
-      "keywords": [
-        "Infantry",
-        "Fly",
-        "Chaos",
-        "Daemon",
-        "Tzeentch",
-        "Flamers"
-      ],
+      "keywords": ["Infantry", "Fly", "Chaos", "Daemon", "Tzeentch", "Flamers"],
       "leader": "",
       "loadout": "Every model is equipped with: Flickering Flames; Flamer mouths.",
       "meleeWeapons": [
@@ -7316,14 +6473,16 @@
       "name": "Flamers",
       "points": [
         {
-          "name": "model",
-          "model": "3",
-          "cost": "65"
+          "cost": "130",
+          "keyword": null,
+          "models": "6",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "6",
-          "cost": "130"
+          "cost": "65",
+          "keyword": null,
+          "models": "3",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -7335,11 +6494,7 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Psychic",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Psychic", "Ignores Cover"],
               "name": "Flickering flames",
               "range": "12\"",
               "skill": "N/A",
@@ -7364,29 +6519,19 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
-      "leadBy": [
-        "Exalted Flamer"
-      ]
+      "wargear": ["None"],
+      "leadBy": ["Exalted Flamer"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise 1",
-          "Deep Strike",
-          "Scouts 6\""
-        ],
+        "core": ["Deadly Demise 1", "Deep Strike", "Scouts 6\""],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -7407,22 +6552,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1-2 Beasts of Nurgle"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1-2 Beasts of Nurgle"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Filled with dim-witted ebullience at odds with their plague-ridden and nightmarish forms, Beasts of Nurgle flollop into battle like eager hounds. They are drawn instinctively to mortal playthings, whose desperate cries and frantic flight they mistake for participation, at least until their luckless new friends have twitched their last.",
       "id": "17205651-e92e-5c95-a973-61e212a05d8d",
-      "keywords": [
-        "Beast",
-        "Chaos",
-        "Daemon",
-        "Nurgle",
-        "Beasts of Nurgle"
-      ],
+      "keywords": ["Beast", "Chaos", "Daemon", "Nurgle", "Beasts of Nurgle"],
       "leader": "",
       "loadout": "Every model is equipped with: putrid appendages.",
       "meleeWeapons": [
@@ -7434,9 +6569,7 @@
               "ap": "-1",
               "attacks": "6",
               "damage": "2",
-              "keywords": [
-                "Devastating Wounds"
-              ],
+              "keywords": ["Devastating Wounds"],
               "name": "Putrid appendages",
               "range": "Melee",
               "skill": "4+",
@@ -7448,14 +6581,16 @@
       "name": "Beasts of Nurgle",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "65"
+          "cost": "130",
+          "keyword": null,
+          "models": "2",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "2",
-          "cost": "130"
+          "cost": "65",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -7475,27 +6610,19 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
-      "leadBy": [
-        "Horticulous Slimux"
-      ]
+      "wargear": ["None"],
+      "leadBy": ["Horticulous Slimux"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike"
-        ],
+        "core": ["Deep Strike"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -7529,23 +6656,12 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Gore Hound",
-        "4-9 Flesh Hounds"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Gore Hound", "4-9 Flesh Hounds"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "These hunting hounds of Khorne track the terror spoor of their prey across interstellar gulfs. The brass collars about their necks ward away even the most potent sorceries of their desperate prey, before the slavering Flesh Hounds launch themselves onto their victims swinging vicious talons and sinking foot-long fangs deep.",
       "id": "60704431-7e62-56a6-beba-9c10ad2a1171",
-      "keywords": [
-        "Beast",
-        "Chaos",
-        "Daemon",
-        "Khorne",
-        "Flesh Hounds"
-      ],
+      "keywords": ["Beast", "Chaos", "Daemon", "Khorne", "Flesh Hounds"],
       "leader": "",
       "loadout": "The Gore Hound is equipped with: burning roar; gore-drenched fangs; collar of Khorne.\nEvery Flesh Hound is equipped with: gore-drenched fangs; collar of Khorne.",
       "meleeWeapons": [
@@ -7569,14 +6685,16 @@
       "name": "Flesh Hounds",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "75"
+          "cost": "150",
+          "keyword": null,
+          "models": "10",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "10",
-          "cost": "150"
+          "cost": "75",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -7588,10 +6706,7 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Ignores Cover"],
               "name": "Burning roar",
               "range": "12\"",
               "skill": "N/A",
@@ -7616,27 +6731,19 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
-      "leadBy": [
-        "Karanak"
-      ]
+      "wargear": ["None"],
+      "leadBy": ["Karanak"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike"
-        ],
+        "core": ["Deep Strike"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -7657,22 +6764,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Skull Cannon"
-      ],
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "composition": ["1 Skull Cannon"],
+      "factions": ["Legiones Daemonica"],
       "faction_id": "CD",
       "fluff": "Grotesque brazen war engines that rumble into battle with obscene eagerness, Skull Cannons are fed the corpses of the fallen to fuel their charnel fury. When they fire, these infernal weapons spit blazing skulls that arc through the air like meteors before exploding with thunderous violence upon impact.",
       "id": "d288fe4f-64b9-52a9-8c3e-28844f83d17c",
-      "keywords": [
-        "Mounted",
-        "Chaos",
-        "Daemon",
-        "Khorne",
-        "Skull Cannon"
-      ],
+      "keywords": ["Mounted", "Chaos", "Daemon", "Khorne", "Skull Cannon"],
       "leader": "",
       "loadout": "This model is equipped with: skull cannon; attendants’ hellblades; biting maw.",
       "meleeWeapons": [
@@ -7684,9 +6781,7 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "2",
-              "keywords": [
-                "Extra Attacks"
-              ],
+              "keywords": ["Extra Attacks"],
               "name": "Attendants’ hellblades",
               "range": "Melee",
               "skill": "3+",
@@ -7714,9 +6809,10 @@
       "name": "Skull Cannon",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "95"
+          "cost": "95",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -7728,9 +6824,7 @@
               "ap": "-1",
               "attacks": "D6+2",
               "damage": "2",
-              "keywords": [
-                "Blast"
-              ],
+              "keywords": ["Blast"],
               "name": "Skull cannon",
               "range": "48\"",
               "skill": "3+",
@@ -7755,26 +6849,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6",
-          "Deep Strike",
-          "Feel No Pain 6+"
-        ],
+        "core": ["Deadly Demise D6", "Deep Strike", "Feel No Pain 6+"],
         "damaged": {
           "description": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "range": "1-7 WOUNDS REMAINING",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -7800,13 +6886,9 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Scabeiathrax the Bloated – Epic Hero"
-      ],
+      "composition": ["1 Scabeiathrax the Bloated – Epic Hero"],
       "faction_id": "CD",
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "factions": ["Legiones Daemonica"],
       "fluff": "",
       "id": "1aeab84f-6e01-52ec-b790-16bd45eb6035",
       "keywords": [
@@ -7831,9 +6913,7 @@
               "ap": "-1",
               "attacks": "14",
               "damage": "1",
-              "keywords": [
-                "lethal hits"
-              ],
+              "keywords": ["lethal hits"],
               "name": "Blade of decay – Sweep",
               "range": "Melee",
               "skill": "2+",
@@ -7844,9 +6924,7 @@
               "ap": "-2",
               "attacks": "7",
               "damage": "D6",
-              "keywords": [
-                "lethal hits"
-              ],
+              "keywords": ["lethal hits"],
               "name": "Blade of decay – Strike",
               "range": "Melee",
               "skill": "2+",
@@ -7866,10 +6944,7 @@
               "ap": "-2",
               "attacks": "D6+3",
               "damage": "1",
-              "keywords": [
-                "ignores cover",
-                "torrent"
-              ],
+              "keywords": ["ignores cover", "torrent"],
               "name": "Putrid vomit",
               "range": "6\"",
               "skill": "N/A",
@@ -7894,25 +6969,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6",
-          "Deep Strike"
-        ],
+        "core": ["Deadly Demise D6", "Deep Strike"],
         "damaged": {
           "description": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "range": "1-7 WOUNDS REMAINING",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -7938,13 +7006,9 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Zarakynel – Epic Hero"
-      ],
+      "composition": ["1 Zarakynel – Epic Hero"],
       "faction_id": "CD",
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "factions": ["Legiones Daemonica"],
       "fluff": "",
       "id": "6505bcaf-9d75-5a89-bb57-5ea6270a7ac1",
       "keywords": [
@@ -7969,10 +7033,7 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "3",
-              "keywords": [
-                "devastating wounds",
-                "extra attacks"
-              ],
+              "keywords": ["devastating wounds", "extra attacks"],
               "name": "Snapping claws",
               "range": "Melee",
               "skill": "2+",
@@ -8008,10 +7069,7 @@
               "ap": "-2",
               "attacks": "6",
               "damage": "1",
-              "keywords": [
-                "devastating wounds",
-                "psychic"
-              ],
+              "keywords": ["devastating wounds", "psychic"],
               "name": "Phantasmagoria – witchfire",
               "range": "18\"",
               "skill": "2+",
@@ -8022,11 +7080,7 @@
               "ap": "-2",
               "attacks": "9",
               "damage": "1",
-              "keywords": [
-                "devastating wounds",
-                "hazardous",
-                "psychic"
-              ],
+              "keywords": ["devastating wounds", "hazardous", "psychic"],
               "name": "Phantasmagoria – focused witchfire",
               "range": "18\"",
               "skill": "2+",
@@ -8051,25 +7105,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6",
-          "Deep Strike"
-        ],
+        "core": ["Deadly Demise D6", "Deep Strike"],
         "damaged": {
           "description": "While this model has 1-8 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "range": "1-8 WOUNDS REMAINING",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -8095,13 +7142,9 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Aetaos'rau'keres – Epic Hero"
-      ],
+      "composition": ["1 Aetaos'rau'keres – Epic Hero"],
       "faction_id": "CD",
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "factions": ["Legiones Daemonica"],
       "fluff": "",
       "id": "81f57600-0efe-533d-90c3-b15d60a1ce7e",
       "keywords": [
@@ -8129,9 +7172,7 @@
               "ap": "-1",
               "attacks": "12",
               "damage": "1",
-              "keywords": [
-                "psychic"
-              ],
+              "keywords": ["psychic"],
               "name": "Warpfire talons",
               "range": "Melee",
               "skill": "3+",
@@ -8147,9 +7188,7 @@
               "ap": "-2",
               "attacks": "6",
               "damage": "3",
-              "keywords": [
-                "psychic"
-              ],
+              "keywords": ["psychic"],
               "name": "Staff of cataclysm",
               "range": "Melee",
               "skill": "3+",
@@ -8169,9 +7208,7 @@
               "ap": "-1",
               "attacks": "9",
               "damage": "1",
-              "keywords": [
-                "psychic"
-              ],
+              "keywords": ["psychic"],
               "name": "Bolt of Tzeentch – witchfire",
               "range": "24\"",
               "skill": "2+",
@@ -8182,10 +7219,7 @@
               "ap": "-2",
               "attacks": "9",
               "damage": "D3",
-              "keywords": [
-                "hazardous",
-                "psychic"
-              ],
+              "keywords": ["hazardous", "psychic"],
               "name": "Bolt of Tzeentch – focused witchfire",
               "range": "24\"",
               "skill": "2+",
@@ -8210,25 +7244,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6+2",
-          "Deep Strike"
-        ],
+        "core": ["Deadly Demise D6+2", "Deep Strike"],
         "damaged": {
           "description": "While this model has 1-8 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "range": "1-8 WOUNDS REMAINING",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -8254,13 +7281,9 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 An'ggrath the Unbound – Epic Hero"
-      ],
+      "composition": ["1 An'ggrath the Unbound – Epic Hero"],
       "faction_id": "CD",
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "factions": ["Legiones Daemonica"],
       "fluff": "",
       "id": "44a1ebfb-4aaf-5eb2-9f4d-7fee09b5cfde",
       "keywords": [
@@ -8342,25 +7365,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Feel No Pain 5+"
-        ],
+        "core": ["Deep Strike", "Feel No Pain 5+"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -8418,20 +7434,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Giant Chaos Spawn"
-      ],
+      "composition": ["1 Giant Chaos Spawn"],
       "faction_id": "CD",
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "factions": ["Legiones Daemonica"],
       "fluff": "",
       "id": "3e85453c-d5a0-5d23-aab8-f95791cb3ef2",
-      "keywords": [
-        "Chaos",
-        "Giant Chaos Spawn",
-        "Monster"
-      ],
+      "keywords": ["Chaos", "Giant Chaos Spawn", "Monster"],
       "leader": "",
       "legends": true,
       "loadout": "This model is equipped with: churning fangs and claws.",
@@ -8472,26 +7480,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Leader",
-          "Scouts 9\""
-        ],
+        "core": ["Deep Strike", "Leader", "Scouts 9\""],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -8517,13 +7517,9 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Herald of Slaanesh on Steed of Slaanesh"
-      ],
+      "composition": ["1 Herald of Slaanesh on Steed of Slaanesh"],
       "faction_id": "CD",
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "factions": ["Legiones Daemonica"],
       "fluff": "",
       "id": "8df95bea-97c2-5f91-a670-1be51d2b0292",
       "keywords": [
@@ -8538,9 +7534,7 @@
       "leader": "This model can be attached to the following unit: ■ Seekers",
       "leads": {
         "extra": "",
-        "units": [
-          "Seekers"
-        ]
+        "units": ["Seekers"]
       },
       "legends": true,
       "loadout": "This model is equipped with: lashing tongue; ravaging claws.",
@@ -8553,9 +7547,7 @@
               "ap": "-1",
               "attacks": "6",
               "damage": "1",
-              "keywords": [
-                "devastating wounds"
-              ],
+              "keywords": ["devastating wounds"],
               "name": "Ravaging claws",
               "range": "Melee",
               "skill": "2+",
@@ -8571,10 +7563,7 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": [
-                "extra attacks",
-                "lethal hits"
-              ],
+              "keywords": ["extra attacks", "lethal hits"],
               "name": "Lashing tongue",
               "range": "Melee",
               "skill": "4+",
@@ -8602,24 +7591,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike"
-        ],
+        "core": ["Deep Strike"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -8646,22 +7629,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "5-10 Furies"
-      ],
+      "composition": ["5-10 Furies"],
       "faction_id": "CD",
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "factions": ["Legiones Daemonica"],
       "fluff": "",
       "id": "44e4f5b1-eb19-5194-ad83-f194badb7b71",
-      "keywords": [
-        "Chaos",
-        "Daemon",
-        "Fly",
-        "Furies",
-        "Infantry"
-      ],
+      "keywords": ["Chaos", "Daemon", "Fly", "Furies", "Infantry"],
       "leader": "",
       "legends": true,
       "loadout": "Every model is equipped with: daemonic claws.",
@@ -8702,24 +7675,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike"
-        ],
+        "core": ["Deep Strike"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -8759,22 +7726,12 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "3 Pox Riders"
-      ],
+      "composition": ["3 Pox Riders"],
       "faction_id": "CD",
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "factions": ["Legiones Daemonica"],
       "fluff": "",
       "id": "f711aef7-3de7-5caa-8b09-6cd42e6fc0ef",
-      "keywords": [
-        "Chaos",
-        "Daemon",
-        "Mounted",
-        "Nurgle",
-        "Pox Riders"
-      ],
+      "keywords": ["Chaos", "Daemon", "Mounted", "Nurgle", "Pox Riders"],
       "leader": "",
       "legends": true,
       "loadout": "Every model is equipped with: grasping tongue; Pox Rider plaguesword; yawning maw.",
@@ -8787,10 +7744,7 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "1",
-              "keywords": [
-                "extra attacks",
-                "lethal hits"
-              ],
+              "keywords": ["extra attacks", "lethal hits"],
               "name": "Pox Rider plaguesword",
               "range": "Melee",
               "skill": "3+",
@@ -8806,9 +7760,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": [
-                "lethal hits"
-              ],
+              "keywords": ["lethal hits"],
               "name": "Yawning maw",
               "range": "Melee",
               "skill": "3+",
@@ -8828,9 +7780,7 @@
               "ap": "0",
               "attacks": "D3",
               "damage": "1",
-              "keywords": [
-                "lethal hits"
-              ],
+              "keywords": ["lethal hits"],
               "name": "Grasping tongue",
               "range": "9\"",
               "skill": "4+",
@@ -8862,18 +7812,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike"
-        ],
+        "core": ["Deep Strike"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -8900,22 +7846,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "3 Plague Toads"
-      ],
+      "composition": ["3 Plague Toads"],
       "faction_id": "CD",
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "factions": ["Legiones Daemonica"],
       "fluff": "",
       "id": "befc728d-a7a4-5208-8d03-f695350748d5",
-      "keywords": [
-        "Beast",
-        "Chaos",
-        "Daemon",
-        "Nurgle",
-        "Plague Toads"
-      ],
+      "keywords": ["Beast", "Chaos", "Daemon", "Nurgle", "Plague Toads"],
       "leader": "",
       "legends": true,
       "loadout": "Every model is equipped with: grasping tongue; yawning maw.",
@@ -8928,9 +7864,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": [
-                "lethal hits"
-              ],
+              "keywords": ["lethal hits"],
               "name": "Yawning maw",
               "range": "Melee",
               "skill": "3+",
@@ -8950,9 +7884,7 @@
               "ap": "0",
               "attacks": "D3",
               "damage": "1",
-              "keywords": [
-                "lethal hits"
-              ],
+              "keywords": ["lethal hits"],
               "name": "Grasping tongue",
               "range": "9\"",
               "skill": "4+",
@@ -8977,24 +7909,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike"
-        ],
+        "core": ["Deep Strike"],
         "damaged": {
           "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "range": "1-4 WOUNDS REMAINING",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "The Shadow of Chaos"
-        ],
+        "faction": ["The Shadow of Chaos"],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -9052,20 +7978,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Spined Chaos Beast"
-      ],
+      "composition": ["1 Spined Chaos Beast"],
       "faction_id": "CD",
-      "factions": [
-        "Legiones Daemonica"
-      ],
+      "factions": ["Legiones Daemonica"],
       "fluff": "",
       "id": "644fced3-ecd8-57b0-98aa-30ec836d3da8",
-      "keywords": [
-        "Chaos",
-        "Monster",
-        "Spined Chaos Beast"
-      ],
+      "keywords": ["Chaos", "Monster", "Spined Chaos Beast"],
       "leader": "",
       "legends": true,
       "loadout": "This model is equipped with: jagged claws and tusked maw.",
@@ -9106,9 +8024,7 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     }
   ],
   "detachments": [
@@ -9124,9 +8040,7 @@
       "name": "A’rgath, The King of Blades",
       "id": "8750a7f6-165a-5095-bb9f-be5437634183",
       "cost": "20",
-      "keywords": [
-        "Khorne"
-      ],
+      "keywords": ["Khorne"],
       "excludes": [],
       "description": "KHORNE LEGIONES DAEMONICA model only. Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. While the bearer is within your army’s Shadow of Chaos, add 2 to the Attacks and Strength characteristics of the bearer’s melee weapons instead.",
       "faction_id": "CD",
@@ -9138,9 +8052,7 @@
       "name": "The Everstave",
       "id": "bf82f617-8628-5b38-92c0-fc5e92671107",
       "cost": "25",
-      "keywords": [
-        "Tzeentch"
-      ],
+      "keywords": ["Tzeentch"],
       "excludes": [],
       "description": "TZEENTCH LEGIONES DAEMONICA model only. Add 1 to the Strength characteristic of the bearer’s ranged weapons and increase the Range characteristic of such weapons by 3\". While the bearer is within your army’s Shadow of Chaos, add 2 to the Strength characteristic of the bearer’s ranged weapons and increase the Range characteristic of such weapons by 6\" instead.",
       "faction_id": "CD",
@@ -9152,9 +8064,7 @@
       "name": "The Endless Gift",
       "id": "4375f026-81bd-5dd3-a422-d7f8f6e4fca3",
       "cost": "45",
-      "keywords": [
-        "Nurgle"
-      ],
+      "keywords": ["Nurgle"],
       "excludes": [],
       "description": "NURGLE LEGIONES DAEMONICA model only. The bearer has the Feel No Pain 5+ ability. While the bearer is within your army’s Shadow of Chaos, the bearer has the Feel No Pain 4+ ability instead.",
       "faction_id": "CD",
@@ -9166,9 +8076,7 @@
       "name": "Soulstealer",
       "id": "6243d6a6-51ff-51d6-b74c-139ff7906fa7",
       "cost": "15",
-      "keywords": [
-        "Slaanesh"
-      ],
+      "keywords": ["Slaanesh"],
       "excludes": [],
       "description": "SLAANESH LEGIONES DAEMONICA model only. Each time the bearer destroys an enemy model with a melee attack, roll one D6, adding 1 to the result if the bearer is within your army’s Shadow of Chaos. On a 4+, the bearer regains 1 lost wound.",
       "faction_id": "CD",
@@ -9180,9 +8088,7 @@
       "name": "Slaughterthirst (Aura)",
       "id": "0d42e7a5-7de9-505a-baa2-fe6dcdc3e8cc",
       "cost": "25",
-      "keywords": [
-        "Khorne"
-      ],
+      "keywords": ["Khorne"],
       "excludes": [],
       "description": "LEGIONES DAEMONICA KHORNE model only. While a friendly LEGIONES DAEMONICA KHORNE unit (excluding MONSTERS) is within 6\" of the bearer, weapons equipped by models in that unit have the [LANCE] ability.",
       "faction_id": "CD",
@@ -9194,10 +8100,7 @@
       "name": "Fury’s Cage",
       "id": "b79029ee-75da-57d4-bce0-76d3b68fa009",
       "cost": "20",
-      "keywords": [
-        "Monster",
-        "Khorne"
-      ],
+      "keywords": ["Monster", "Khorne"],
       "excludes": [],
       "description": "LEGIONES DAEMONICA KHORNE MONSTER model only. Each time the bearer is selected to fight, it can use this Enhancement. If it does, the bearer suffers D3+1 mortal wounds, and until the end of the phase, each time it makes an attack, you can re‑roll the Hit roll and you can re‑roll the Wound roll.",
       "faction_id": "CD",
@@ -9209,9 +8112,7 @@
       "name": "Brazenmaw",
       "id": "1babd75c-3d82-50df-843a-5669294026ba",
       "cost": "15",
-      "keywords": [
-        "Khorne"
-      ],
+      "keywords": ["Khorne"],
       "excludes": [],
       "description": "LEGIONES DAEMONICA KHORNE model only. Add 2 to Charge rolls made for the bearer’s unit.",
       "faction_id": "CD",
@@ -9223,10 +8124,7 @@
       "name": "Gateway Unto Damnation",
       "id": "8687ee16-9eff-5113-868c-21bf612fedb7",
       "cost": "10",
-      "keywords": [
-        "Monster",
-        "Khorne"
-      ],
+      "keywords": ["Monster", "Khorne"],
       "excludes": [],
       "description": "LEGIONES DAEMONICA KHORNE MONSTER model only. The bearer’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 2+ instead of on a 6. In addition, if the bearer has destroyed one or more enemy units this battle, the bearer has the Deadly Demise D3+3 ability, instead of any other Deadly Demise ability on its datasheet.",
       "faction_id": "CD",
@@ -9238,9 +8136,7 @@
       "name": "Inescapable Eye",
       "id": "59b88a1f-3db6-5909-b042-14b4b69797ce",
       "cost": "10",
-      "keywords": [
-        "Tzeentch"
-      ],
+      "keywords": ["Tzeentch"],
       "excludes": [],
       "description": "LEGIONES DAEMONICA TZEENTCH model only. In your Command phase, if the bearer is on the battlefield, if your opponent has one or more Flux tokens, you gain one additional Flux token.&x20;",
       "faction_id": "CD",
@@ -9252,10 +8148,7 @@
       "name": "Infernal Puppeteer",
       "id": "50f04fb1-b372-5b2b-851f-f5cd1102436b",
       "cost": "10",
-      "keywords": [
-        "Tzeentch",
-        "Monster"
-      ],
+      "keywords": ["Tzeentch", "Monster"],
       "excludes": [],
       "description": "LEGIONES DAEMONICA TZEENTCH MONSTER model only. Each time the bearer is selected to shoot, you can select one other friendly LEGIONES DAEMONICA TZEENTCH unit within 9\" of the bearer. If you do, when selecting targets for ranged weapons equipped by the bearer, you can measure range and determine visibility from one model of your choice in the selected unit instead.",
       "faction_id": "CD",
@@ -9267,10 +8160,7 @@
       "name": "Neverblade",
       "id": "4cc1fb53-6573-501f-a1a1-0f8baa2dbe87",
       "cost": "20",
-      "keywords": [
-        "Tzeentch",
-        "Monster"
-      ],
+      "keywords": ["Tzeentch", "Monster"],
       "excludes": [],
       "description": "LEGIONES DAEMONICA TZEENTCH MONSTER model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 2, improve the Attacks and Armour Penetration characteristics of melee weapons equipped by the bearer by 1, and each time the bearer makes a melee attack, add 1 to the Hit roll.",
       "faction_id": "CD",
@@ -9282,9 +8172,7 @@
       "name": "Improbable Shield (Aura)",
       "id": "c996748b-751d-5e77-9959-f75ab5d1c676",
       "cost": "30",
-      "keywords": [
-        "Tzeentch"
-      ],
+      "keywords": ["Tzeentch"],
       "excludes": [],
       "description": "LEGIONES DAEMONICA TZEENTCH model only. While a friendly LEGIONES DAEMONICA TZEENTCH unit is within 6\" of the bearer, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds.",
       "faction_id": "CD",
@@ -9296,9 +8184,7 @@
       "name": "Cankerblight (Aura)",
       "id": "6c2b4f55-8f83-5461-a5a4-7b98907ee2e0",
       "cost": "15",
-      "keywords": [
-        "Nurgle"
-      ],
+      "keywords": ["Nurgle"],
       "excludes": [],
       "description": "LEGIONES DAEMONICA NURGLE model only. Each time an enemy unit (excluding MONSTERS and VEHICLES) that is within 6\" of the bearer fails a Battle‑shock test, the bearer can use this Enhancement. If it does, one model in that unit is destroyed (chosen by its controlling player). Each time the bearer uses this Enhancement, no mortal wounds are inflicted by your army’s Daemonic Terror rule.",
       "faction_id": "CD",
@@ -9310,9 +8196,7 @@
       "name": "Maggot Maws",
       "id": "3b217ef5-3ca1-50e5-ad5a-fed20ebacfe2",
       "cost": "15",
-      "keywords": [
-        "Nurgle"
-      ],
+      "keywords": ["Nurgle"],
       "excludes": [],
       "description": "LEGIONES DAEMONICA NURGLE model only. In your Shooting phase, select one enemy unit within 6\" of the bearer; that enemy unit must take a Battle‑shock test. Then roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds. Each time the bearer uses this Enhancement, no mortal wounds are inflicted by your army’s Daemonic Terror rule.",
       "faction_id": "CD",
@@ -9324,10 +8208,7 @@
       "name": "Droning Shroud (Aura)",
       "id": "e81757e4-0e57-5e9f-93ed-1832ce9da168",
       "cost": "35",
-      "keywords": [
-        "Monster",
-        "Nurgle"
-      ],
+      "keywords": ["Monster", "Nurgle"],
       "excludes": [],
       "description": "LEGIONES DAEMONICA NURGLE MONSTER model only. While a friendly LEGIONES DAEMONICA NURGLE unit is within 6\" of the bearer, that unit can only be targeted by a ranged attack if the attacking model is within 18\".",
       "faction_id": "CD",
@@ -9339,10 +8220,7 @@
       "name": "Font of Spores (Aura)",
       "id": "cb094152-86b4-5099-b7c5-61061352d6fe",
       "cost": "20",
-      "keywords": [
-        "Monster",
-        "Nurgle"
-      ],
+      "keywords": ["Monster", "Nurgle"],
       "excludes": [],
       "description": "LEGIONES DAEMONICA NURGLE MONSTER model only. While a friendly LEGIONES DAEMONICA NURGLE unit is within 6\" of the bearer, improve the Armour Penetration characteristic of weapons equipped by models in that unit by 1.",
       "faction_id": "CD",
@@ -9354,9 +8232,7 @@
       "name": "False Majesty (Aura)",
       "id": "07b82ffc-d495-5f2e-bc7b-84d8ca6405a5",
       "cost": "30",
-      "keywords": [
-        "Slaanesh"
-      ],
+      "keywords": ["Slaanesh"],
       "excludes": [],
       "description": "LEGIONES DAEMONICA SLAANESH model only. While a friendly LEGIONES DAEMONICA SLAANESH unit (excluding MONSTERS) is within 6\" of the bearer, each time a model in that unit makes a melee attack, add 1 to the Wound roll.",
       "faction_id": "CD",
@@ -9368,9 +8244,7 @@
       "name": "Dreaming Crown (Aura)",
       "id": "14f055be-595c-5f46-a75a-e437afa2ca0b",
       "cost": "30",
-      "keywords": [
-        "Slaanesh"
-      ],
+      "keywords": ["Slaanesh"],
       "excludes": [],
       "description": "LEGIONES DAEMONICA SLAANESH model only. While a friendly LEGIONES DAEMONICA SLAANESH unit (excluding MONSTERS) is within 6\" of the bearer, each time a model in that unit makes a melee attack, add 1 to the Hit roll.",
       "faction_id": "CD",
@@ -9382,10 +8256,7 @@
       "name": "Avatar of Perfection",
       "id": "464cd93f-db53-5185-a391-519deae359b8",
       "cost": "15",
-      "keywords": [
-        "Monster",
-        "Slaanesh"
-      ],
+      "keywords": ["Monster", "Slaanesh"],
       "excludes": [],
       "description": "LEGIONES DAEMONICA SLAANESH MONSTER model only. At the start of each phase, if there are no other friendly units within 6\" of the bearer, you can: re‑roll Advance rolls made for the bearer; re‑roll Charge rolls made for the bearer; ignore any or all modifiers to its Move characteristic and to any Advance and/or Charge rolls made for the bearer.",
       "faction_id": "CD",
@@ -9397,10 +8268,7 @@
       "name": "Soul Glutton",
       "id": "41fb10e1-6546-589c-aede-f7f950059264",
       "cost": "10",
-      "keywords": [
-        "Monster",
-        "Slaanesh"
-      ],
+      "keywords": ["Monster", "Slaanesh"],
       "excludes": [],
       "description": "LEGIONES DAEMONICA SLAANESH MONSTER model only. At the end of the Fight phase, if one or more enemy models were destroyed this phase as a result of one or more of the bearer’s attacks, it can use this Enhancement. If it does, it regains up to D3 lost wounds.",
       "faction_id": "CD",
@@ -9412,9 +8280,7 @@
       "name": "Leaping Shadows",
       "id": "0fe07932-ffa8-5bca-934c-152e4e208165",
       "cost": "25",
-      "keywords": [
-        "Shadow Legion"
-      ],
+      "keywords": ["Shadow Legion"],
       "excludes": [],
       "description": "SHADOW LEGION model only. Models in the bearer’s unit have the Scouts 9” ability.",
       "faction_id": "CD",
@@ -9426,9 +8292,7 @@
       "name": "Mantle of Gloom (Aura)",
       "id": "5dfd48df-52e4-5aac-ac55-28fb19924135",
       "cost": "20",
-      "keywords": [
-        "Shadow Legion"
-      ],
+      "keywords": ["Shadow Legion"],
       "excludes": [],
       "description": "SHADOW LEGION model only. While an enemy unit is within Engagement Range of the bearer’s unit, subtract 1 from the Objective Control characteristic of models in that enemy unit.",
       "faction_id": "CD",
@@ -9440,9 +8304,7 @@
       "name": "Fade to Darkness",
       "id": "39ea4cd6-99fd-5ec1-9e26-27ac3c23609a",
       "cost": "30",
-      "keywords": [
-        "Shadow Legion"
-      ],
+      "keywords": ["Shadow Legion"],
       "excludes": [],
       "description": "SHADOW LEGION model only. At the end of the Fight phase, if the bearer’s unit destroyed one or more enemy units this phase and is not within Engagement Range of one or more enemy units, you can remove the bearer’s unit from the battlefield and place it into Strategic Reserves.",
       "faction_id": "CD",
@@ -9454,9 +8316,7 @@
       "name": "Malice Made Manifest",
       "id": "c88f9b91-f124-5d12-9a82-093f78e09944",
       "cost": "25",
-      "keywords": [
-        "Shadow Legion"
-      ],
+      "keywords": ["Shadow Legion"],
       "excludes": [],
       "description": "SHADOW LEGION model only. At the start of the Fight phase, select one enemy unit within Engagement Range of the bearer’s unit and roll one D6: on a 2‐5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds.",
       "faction_id": "CD",
@@ -9655,9 +8515,7 @@
       "effect": "Until the end of the phase, models in your unit have a Save characteristic of 3+.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "shooting"
-      ],
+      "phase": ["shooting"],
       "faction_id": "CD",
       "fluff": "The scorn of these daemons for the blasts and blades of the weakling foe manifests as flowing brass armour that enfolds their corporeal forms and denies all but the most dolorous blows.&x20;",
       "detachment": "Blood Legion"
@@ -9672,10 +8530,7 @@
       "effect": "Until the end of the phase, improve the Armour Penetration characteristic of weapons equipped by models in that unit by 1. In addition, until the end of the phase, each time such a weapon targets a unit that is Battle-shocked, you can re-roll the Wound roll.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "fight",
-        "shooting"
-      ],
+      "phase": ["fight", "shooting"],
       "faction_id": "CD",
       "fluff": "The swelling fear of their mortal prey serves as an intoxicating elixir to the daemonic followers, each draught invigorating their forms with deadly power.",
       "detachment": "Daemonic Incursion"
@@ -9690,9 +8545,7 @@
       "effect": "Remove the targeted units from the battlefield and place them into Strategic Reserves. They will arrive back on the battlefield in the Reinforcements step of your next Movement phase using the Deep Strike ability.",
       "restrictions": "You cannot target units that are within Engagement Range of one or more enemy units with this Stratagem.",
       "type": "Battle Tactic",
-      "phase": [
-        "fight"
-      ],
+      "phase": ["fight"],
       "faction_id": "CD",
       "fluff": "When the energies of the warp bleed into realspace, the Legiones Daemonica can rip open portals in seeming thin-air, returning to their hellscapes only to rematerialise amidst their foes a heartbeat later.",
       "detachment": "Daemonic Incursion"
@@ -9707,9 +8560,7 @@
       "effect": "Until the end of the phase, each time an invulnerable saving throw is made for a model in your unit, re-roll a saving throw of 1.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "shooting"
-      ],
+      "phase": ["shooting"],
       "faction_id": "CD",
       "fluff": "Daemons are madness given form. Their very bodies are fashioned from the stuff of the warp, and are difficult to destroy through conventional means.",
       "detachment": "Daemonic Incursion"
@@ -9724,9 +8575,7 @@
       "effect": "Until the end of the phase, each time a model in that unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "fight"
-      ],
+      "phase": ["fight"],
       "faction_id": "CD",
       "fluff": "Repugnant filth wells from the weapons, gaping maws and open wounds of these daemons, slopping across the foe and causing swift and virulent rot wherever it finds the slightest way in.",
       "detachment": "Plague Legion"
@@ -9741,10 +8590,7 @@
       "effect": "Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Hit roll. After your unit has finished making its attacks, select one enemy unit hit by one or more of those attacks; that enemy unit must take a Battle‑shock test.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "fight",
-        "shooting"
-      ],
+      "phase": ["fight", "shooting"],
       "faction_id": "CD",
       "fluff": "A plague of waking nightmares races through the enemy ranks, leaving foes reeling in the grip of nauseating visions that curdle into soul-destroying reality.",
       "detachment": "Plague Legion"
@@ -9759,9 +8605,7 @@
       "effect": "Until the end of the phase, each time your unit makes a Normal move, add 5\" to the Move characteristic of models in your unit.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "movement"
-      ],
+      "phase": ["movement"],
       "faction_id": "CD",
       "fluff": "With the battlefield swathed in an occluding miasma of unreality, Nurgle’s daemons may loom out of the haze, solidify from amidst thrumming fly clouds or even rise out of the filth without warning.",
       "detachment": "Plague Legion"
@@ -9776,9 +8620,7 @@
       "effect": "One model in your unit regains up to 3 lost wounds. In addition, If your unit has the TZEENTCH keyword, return up to one destroyed model (excluding CHARACTER models) to your unit with its full wounds remaining.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "command"
-      ],
+      "phase": ["command"],
       "faction_id": "CD",
       "fluff": "Even death does not free one from Be’lakor’s grasp. Those who disappoint him may be dragged back through the veil, granted one last chance to impress their master or face the full extent of his wrath.",
       "detachment": "Shadow Legion"
@@ -9793,9 +8635,7 @@
       "effect": "Until the end of the phase, weapons equipped by models in your selected units have the [IGNORES COVER] ability.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "shooting"
-      ],
+      "phase": ["shooting"],
       "faction_id": "CD",
       "fluff": "Be’lakor’s aura falls across the field of battle, bearing servants both mortal and daemonic to war. Attuned to the gloom, these new arrivals combine their fire to unleash death upon the cowering foe.",
       "detachment": "Shadow Legion"
@@ -9810,10 +8650,7 @@
       "effect": "Until the end of the phase, add 2 to the Strength characteristic of weapons equipped by models in your unit, or spend one Flux token and add 3 to the Strength characteristic of those weapons and improve the Armour Penetration characteristic of those weapons by 1 instead.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "fight",
-        "shooting"
-      ],
+      "phase": ["fight", "shooting"],
       "faction_id": "CD",
       "fluff": "Warpflame is as changeable as the monsters who wield it, capable of easily burning through ceramite plates or reinforced hulls when desired.",
       "detachment": "Scintillating Legion"
@@ -9828,9 +8665,7 @@
       "effect": "Select one enemy unit within Engagement Range of your unit, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit, or roll six D6 instead if your unit is a MONSTER unit: for each 4+, that enemy unit suffers 1 mortal wound.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "charge"
-      ],
+      "phase": ["charge"],
       "faction_id": "CD",
       "fluff": "The cavorting approach of Slaaneshi daemons is hypnotic and enthralling. It is a whirling carousel of eye‑searing colours and flashing blades that tempt mortals to reach out with trembling eagerness until they can just reach.",
       "detachment": "Legion of Excess"
@@ -9845,10 +8680,7 @@
       "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "fight",
-        "shooting"
-      ],
+      "phase": ["fight", "shooting"],
       "faction_id": "CD",
       "fluff": "Sensation gushes relentlessly into the overstimulated minds of the enemy until their souls strain fit to burst. Barely able to think or function, they recoil in their desperate need to stem the unstoppable tide.",
       "detachment": "Legion of Excess"
@@ -9863,9 +8695,7 @@
       "effect": "Until the end of the phase, subtract 2 from Charge rolls made for that enemy unit. In addition, if your unit has the NURGLE keyword, that enemy unit must take a Battle-shock test.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "charge"
-      ],
+      "phase": ["charge"],
       "faction_id": "CD",
       "fluff": "A chill penumbra settles over the oncoming foe. Those that manage to cut their way through the blanket of twilight find themselves seized with terror as the darkness parts and the horrific nature of their enemy is revealed.",
       "detachment": "Shadow Legion"
@@ -9880,9 +8710,7 @@
       "effect": "Until the end of the phase, each time a model in one of those units makes an attack, add 1 to the Wound roll.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "fight"
-      ],
+      "phase": ["fight"],
       "faction_id": "CD",
       "fluff": "These daemons perceive with absolute clarity whereabouts on their victims’ bodies they must strike to inflict the greatest possible excess of suffering.",
       "detachment": "Legion of Excess"
@@ -9897,9 +8725,7 @@
       "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "charge"
-      ],
+      "phase": ["charge"],
       "faction_id": "CD",
       "fluff": "The iron reek of mortal blood pulsing through living veins fires the unnatural senses of Khorne’s daemons, drawing them on all the swifter to tear, slay, and hack skulls from necks for mighty Khorne.",
       "detachment": "Blood Legion"
@@ -9914,9 +8740,7 @@
       "effect": "Until the end of the phase, each time a model in your unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "fight"
-      ],
+      "phase": ["fight"],
       "faction_id": "CD",
       "fluff": "Even the banishing blow is often not enough to prevent the daemons of Khorne from lashing out to take bloody vengeance as they discorporate.",
       "detachment": "Blood Legion"
@@ -9931,10 +8755,7 @@
       "effect": "Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "charge",
-        "movement"
-      ],
+      "phase": ["charge", "movement"],
       "faction_id": "CD",
       "fluff": "The manifest will to run down and slaughter their prey allows the daemons of Khorne to surge through physical barriers as though they did not exist, falling upon their victims like bloody phantasms.",
       "detachment": "Blood Legion"
@@ -9949,9 +8770,7 @@
       "effect": "Select one enemy unit that is not within Engagement Range of one or more units from your army and is within 8\" of and visible to your unit. Roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "shooting"
-      ],
+      "phase": ["shooting"],
       "faction_id": "CD",
       "fluff": "Torn from the wet and ragged necks of worthy mortal champions, these skulls blaze with balefire as the daemons of Khorne heft and hurl them. They explode amongst the foe to shed more blood for the Blood God.",
       "detachment": "Blood Legion"
@@ -9966,9 +8785,7 @@
       "effect": "That objective marker is said to be Corrupted and remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn. In addition, while an objective marker is Corrupted and under your control, the area of the battlefield within 6\" of that objective marker is considered to be within your army’s Shadow of Chaos.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "command"
-      ],
+      "phase": ["command"],
       "faction_id": "CD",
       "fluff": "Daemons instinctively feel the need to despoil and corrupt every corner of realspace, the better to sustain their otherworldly forms.",
       "detachment": "Daemonic Incursion"
@@ -9983,9 +8800,7 @@
       "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "charge"
-      ],
+      "phase": ["charge"],
       "faction_id": "CD",
       "fluff": "The winds of the warp blow strong, invigorating daemonkind and lending them supernatural speed and ferocity.",
       "detachment": "Daemonic Incursion"
@@ -10000,9 +8815,7 @@
       "effect": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "movement"
-      ],
+      "phase": ["movement"],
       "faction_id": "CD",
       "fluff": "Ever lurking in the warp, daemons will wait until the barriers between realms thin before tearing their way into realspace.",
       "detachment": "Daemonic Incursion"
@@ -10017,10 +8830,7 @@
       "effect": "Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "charge",
-        "movement"
-      ],
+      "phase": ["charge", "movement"],
       "faction_id": "CD",
       "fluff": "Rather than lumber across the battlefield, these daemons rot away to nothing before hatching anew from canker blooms wherever they wish to be.",
       "detachment": "Plague Legion"
@@ -10035,9 +8845,7 @@
       "effect": "Until the end of the phase, after an enemy unit takes a Battle‑shock test as a result of the Melancholic Miasma Detachment rule, select one other enemy unit within 9\" of your unit; that enemy unit must take a Battle‑shock test.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "command"
-      ],
+      "phase": ["command"],
       "faction_id": "CD",
       "fluff": "Even as one band of foes gives in to despair, their sorrows spread like a virus to the minds and souls of others, the enemy’s woes multiplying by the moment.",
       "detachment": "Plague Legion"
@@ -10052,9 +8860,7 @@
       "effect": "Roll one D6 for each enemy unit that is within Engagement Range of the last model in your unit, adding 2 to the result if your unit has the SLAANESH keyword: on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6+, that enemy unit suffers 3 mortal wounds.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "any"
-      ],
+      "phase": ["any"],
       "faction_id": "CD",
       "fluff": "Malevolent to the last, Be’lakor’s thralls expend their final reserves of mortal strength and empyric might in an act of vengeance, unleashing torrents of killing energy in all directions.",
       "detachment": "Shadow Legion"
@@ -10069,9 +8875,7 @@
       "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] ability. If your unit has the KHORNE keyword, until the end of the phase, improve the Armour Penetration characteristic of those weapons by 1 as well.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "fight"
-      ],
+      "phase": ["fight"],
       "faction_id": "CD",
       "fluff": "Khorne may not care whence the blood flows, but Be’lakor is more discerning. He directs his slaughter-crazed followers to strike the most pressing targets with all their infernal fury.",
       "detachment": "Shadow Legion"
@@ -10086,9 +8890,7 @@
       "effect": "Remove those selected units from the battlefield and place them into Strategic Reserves.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "fight"
-      ],
+      "phase": ["fight"],
       "faction_id": "CD",
       "fluff": "Bound by coils of umbral energy, mortal and daemonic followers are swept up in Be’lakor’s cloak of shadows as pawns returned to their master’s hand.",
       "detachment": "Shadow Legion"
@@ -10103,9 +8905,7 @@
       "effect": "Select No Man’s Land or your opponent’s deployment zone, or spend one Flux token and select both. Until the end of the phase, the selected areas of the battlefield are within your army’s Shadow of Chaos.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "any"
-      ],
+      "phase": ["any"],
       "faction_id": "CD",
       "fluff": "At the call of this malevolent entity, invisible stellar bodies slide into alignment, plunging the battlefield into momentary twilight, dancing with strange and sorcerous will–o’-the-wisps.",
       "detachment": "Scintillating Legion"
@@ -10120,9 +8920,7 @@
       "effect": "Roll one D6, then you can spend one Flux token to re‑roll the result: until the end of the phase, each time an attack targets your unit, on an unmodified Hit roll (after any re‑roll) of that result, the attack sequence ends, even if the original Hit roll would have been a Critical Hit.\n\nExample: If you roll a 2 and choose to spend one Flux token to re-roll the result, and the re-roll is a 6, then until the end of the phase, each time an attack targets your unit, on an unmodified Hit roll of 6 the attack sequence ends, that attack fails to hit and no Critical Hit effects (e.g. Lethal Hits) are resolved.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "fight"
-      ],
+      "phase": ["fight"],
       "faction_id": "CD",
       "fluff": "The very stuff of reality flickers like a candle flame in a gale, frustrating even the most skilful sworders as they strike at rippling illusions.",
       "detachment": "Scintillating Legion"
@@ -10137,10 +8935,7 @@
       "effect": "Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "charge",
-        "movement"
-      ],
+      "phase": ["charge", "movement"],
       "faction_id": "CD",
       "fluff": "Barred doors, reinforced windows, or walls are no barriers to the children of the Warp. They cannot be outrun; they cannot be hidden from; they cannot be stopped.",
       "detachment": "Scintillating Legion"
@@ -10155,9 +8950,7 @@
       "effect": "Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets for, and resolving attacks with, ranged weapons. Until the end of the phase, each time an enemy model is destroyed while its unit is within Engagement Range of your unit, roll one D6: on a 5+, your unit suffers 1 mortal wound after the attacking unit has finished making its attacks.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "shooting"
-      ],
+      "phase": ["shooting"],
       "faction_id": "CD",
       "fluff": "These daemons care little for who they engulf in their infernal fires, only that destruction and chaos are wrought.",
       "detachment": "Scintillating Legion"
@@ -10172,9 +8965,7 @@
       "effect": "Remove your units from the battlefield and place them into Strategic Reserves.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "fight"
-      ],
+      "phase": ["fight"],
       "faction_id": "CD",
       "fluff": "Between one heartbeat and the next, the daemons of Tzeentch vanish as though they were never there. Yet this jarring respite will last only long enough for their victims to question their sanity before the onslaught begins anew.",
       "detachment": "Scintillating Legion"
@@ -10189,9 +8980,7 @@
       "effect": "Select one other friendly LEGIONES DAEMONICA SLAANESH unit that is within 9\" of and visible to your unit. Until the end of the phase, while the selected unit is on the battlefield, each time a model in your unit would lose a wound, inflict 1 mortal wound on the selected unit instead.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "any"
-      ],
+      "phase": ["any"],
       "faction_id": "CD",
       "fluff": "To exist, however fleetingly, in realspace is an opportunity to indulge in every physical sensation. So enraptured do the daemons of Slaanesh become that they even steal one another’s agonies to enjoy.",
       "detachment": "Legion of Excess"
@@ -10206,9 +8995,7 @@
       "effect": "Each unit on the battlefield that is within your army’s Shadow of Chaos must take a Battle‑shock test, subtracting 1 from that test if they are Below Half‑strength.\n\nDesigner’s Note: This Stratagem forces all friendly and enemy units alike within your army’s Shadow of Chaos to take a Battle‑shock test. This can allow a Chaos Daemons player to heal units from their army through the Daemonic Terror army rule, at the risk of causing some of their own units to become Battle‑shocked.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "command"
-      ],
+      "phase": ["command"],
       "faction_id": "CD",
       "fluff": "This entity causes the battlefield to flicker wildly between the debauched Slaaneshi Warp interstice and the most brutally mundane reality, faster than even supernatural senses can perceive. The result is a psychically devastating barrage of excess and deprivation.",
       "detachment": "Legion of Excess"
@@ -10223,10 +9010,7 @@
       "effect": "Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "charge",
-        "movement"
-      ],
+      "phase": ["charge", "movement"],
       "faction_id": "CD",
       "fluff": "Against their wills, enemy combatants find themselves wishing for the daemons of Slaanesh to draw closer. It is child’s play for the daemons of Slaanesh to harness such strong emotions and transform them into manifest reality.",
       "detachment": "Legion of Excess"
@@ -10241,9 +9025,7 @@
       "effect": "Your unit now declares a charge that targets only that enemy unit, and you resolve that charge. Note that even if that charge is successful, your unit does not receive any Charge bonus this turn.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "movement"
-      ],
+      "phase": ["movement"],
       "faction_id": "CD",
       "fluff": "Khorne’s daemons know only hatred and contempt for those who flee from combat and will distort reality itself to keep such cowards trapped in the endless battle they sought to escape.",
       "detachment": "Blood Legion"
@@ -10258,9 +9040,7 @@
       "effect": "Return up to 1 destroyed model to your unit, or up to D3 destroyed models instead if your unit is a BATTLELINE unit, with their full wounds remaining. If it is a MONSTER unit, one model in your unit regains up to D3+1 lost wounds instead.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "command"
-      ],
+      "phase": ["command"],
       "faction_id": "CD",
       "fluff": "As the power of the Plague God saturates the battlefield, fresh daemonic life blooms from the septic corpse mulch that bubbles underfoot.",
       "detachment": "Plague Legion"

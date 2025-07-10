@@ -1,7 +1,5 @@
 {
-  "allied_factions": [
-    "QI"
-  ],
+  "allied_factions": ["QI"],
   "colours": {
     "banner": "#1a3445",
     "header": "#244b6a"
@@ -10,18 +8,14 @@
   "datasheets": [
     {
       "abilities": {
-        "core": [
-          "Scouts 6\""
-        ],
+        "core": ["Scouts 6\""],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -75,9 +69,7 @@
         "2 Missionaries",
         "4 Sanctifiers"
       ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": null,
       "id": "fb25fb97-0644-5c52-ac27-40ba1170b23e",
@@ -99,9 +91,7 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "3",
-              "keywords": [
-                "Devastating Wounds"
-              ],
+              "keywords": ["Devastating Wounds"],
               "name": "Burning hands",
               "range": "Melee",
               "skill": "2+",
@@ -133,9 +123,7 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "1",
-              "keywords": [
-                "Precision"
-              ],
+              "keywords": ["Precision"],
               "name": "Death Cult blades",
               "range": "Melee",
               "skill": "2+",
@@ -163,15 +151,10 @@
       "name": "Sanctifiers",
       "points": [
         {
-          "name": "model",
-          "model": "9",
-          "cost": "100"
-        },
-        {
-          "name": "model",
-          "model": 9,
           "cost": "100",
-          "source": "ALLIED"
+          "keyword": null,
+          "models": "9",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -183,11 +166,7 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "2",
-              "keywords": [
-                "Torrent",
-                "One Shot",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "One Shot", "Ignores Cover"],
               "name": "Holy fire",
               "range": "12\"",
               "skill": "N/A",
@@ -211,9 +190,7 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "Rapid Fire 1"
-              ],
+              "keywords": ["Rapid Fire 1"],
               "name": "Plasma gun – Standard",
               "range": "24\"",
               "skill": "4+",
@@ -224,10 +201,7 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": [
-                "Rapid Fire 1",
-                "Hazardous"
-              ],
+              "keywords": ["Rapid Fire 1", "Hazardous"],
               "name": "Plasma gun – Supercharge",
               "range": "24\"",
               "skill": "4+",
@@ -243,10 +217,7 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Ignores Cover"],
               "name": "Ministorum flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -262,11 +233,7 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Pistol",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Pistol", "Ignores Cover"],
               "name": "Ministorum hand flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -282,9 +249,7 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": [
-                "Melta 2"
-              ],
+              "keywords": ["Melta 2"],
               "name": "Meltagun",
               "range": "12\"",
               "skill": "4+",
@@ -366,19 +331,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Feel No Pain 6+",
-          "Leader"
-        ],
+        "core": ["Feel No Pain 6+", "Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -405,12 +365,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Watch Captain Artemis"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Watch Captain Artemis"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "Born survivor of a feral world and formerly of the macabre Mortifactors Chapter, Artemis leads a Watch Company out of Talasa Prime. Renowned for his honed combat instincts, he fights from the fore wielding his thrumming power blade and the artificer combi‐weapon known as Hellfire Extremis, whose gouts of flame and hyper‐acidic bolt rounds are the bane of lightly armoured foes.",
       "id": "8939a3d9-e5c9-5552-96e6-689e5885c77b",
@@ -447,15 +403,16 @@
       "name": "Watch Captain Artemis",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "65"
+          "cost": "65",
+          "keyword": "Imperium",
+          "models": "1",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 1,
           "cost": "65",
-          "source": "ALLIED"
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -497,31 +454,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "DEATHWATCH KILL TEAM"
-        ],
+        "units": ["DEATHWATCH KILL TEAM"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D3",
-          "Firing Deck 2"
-        ],
+        "core": ["Deadly Demise D3", "Firing Deck 2"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -542,12 +490,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Inquisitorial Chimera"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Inquisitorial Chimera"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "The Chimera is a blend of armoured personnel carrier and light tank, easy to produce en masse and extremely versatile. Those deployed by Imperial agents boast a wealth of varied armament options, transporting their passengers swiftly into battle then providing heavy covering fire while they complete their missions.",
       "id": "334b3147-582e-5326-bea3-61b055bf97c4",
@@ -582,15 +526,16 @@
       "name": "Inquisitorial Chimera",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "55"
+          "cost": "70",
+          "keyword": "Imperium",
+          "models": "1",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 1,
-          "cost": "55",
-          "source": "ALLIED"
+          "cost": "70",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -618,9 +563,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": [
-                "Sustained Hits 1"
-              ],
+              "keywords": ["Sustained Hits 1"],
               "name": "Heavy bolter",
               "range": "36\"",
               "skill": "4+",
@@ -636,9 +579,7 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": [
-                "Rapid Fire 6"
-              ],
+              "keywords": ["Rapid Fire 6"],
               "name": "Lasgun array",
               "range": "24\"",
               "skill": "4+",
@@ -654,10 +595,7 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Ignores Cover"],
               "name": "Heavy flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -673,9 +611,7 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
+              "keywords": ["Rapid Fire 3"],
               "name": "Heavy stubber",
               "range": "36\"",
               "skill": "4+",
@@ -691,9 +627,7 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": [
-                "Rapid Fire 2"
-              ],
+              "keywords": ["Rapid Fire 2"],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "4+",
@@ -709,9 +643,7 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6",
-              "keywords": [
-                "One Shot"
-              ],
+              "keywords": ["One Shot"],
               "name": "Hunter-killer missile",
               "range": "48\"",
               "skill": "4+",
@@ -765,9 +697,7 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -801,12 +731,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Callidus Assassin – EPIC HERO"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Callidus Assassin – EPIC HERO"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "Anarchy flourishes in the wake of a Callidus Assassin’s deployment. They use the shape‐shifting drug polymorphine to insinuate themselves close to their target, sabotaging systems and seeding misinformation before closing on their victim with blasts of their mind‐destroying neural shredders and vicious sweeps of their shimmering phase swords.",
       "id": "91aed3a7-1ae0-56b8-9c64-3265b497a0df",
@@ -829,10 +755,7 @@
               "ap": "-4",
               "attacks": "5",
               "damage": "2",
-              "keywords": [
-                "Precision",
-                "Lethal Hits"
-              ],
+              "keywords": ["Precision", "Lethal Hits"],
               "name": "Phase sword and poison blades",
               "range": "Melee",
               "skill": "2+",
@@ -844,15 +767,22 @@
       "name": "Callidus Assassin",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "100"
+          "cost": "140",
+          "keyword": null,
+          "models": "1",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 1,
           "cost": "100",
-          "source": "ALLIED"
+          "keyword": "Imperium",
+          "models": "1",
+          "active": true
+        },
+        {
+          "cost": "100",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -864,11 +794,7 @@
               "ap": "-2",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Precision",
-                "Anti-infantry 2+"
-              ],
+              "keywords": ["Torrent", "Precision", "Anti-infantry 2+"],
               "name": "Neural shredder",
               "range": "12\"",
               "skill": "N/A",
@@ -893,24 +819,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Leader"
-        ],
+        "core": ["Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -943,12 +863,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Inquisitor Greyfax – EPIC HERO"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Inquisitor Greyfax – EPIC HERO"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "Inquisitor Greyfax is feared even by many in her own order, the Ordo Hereticus. Devoid of mercy or remorse, she is an iron‐willed warrior. She is also a powerful psyker, with telepathic abilities that enable her to detect lies in those she questions. She also wields an archaic but powerful condemnor‐pattern boltgun, which can shoot blessed stakes into heretics’ poisoned hearts.",
       "id": "23ba73f2-1cfd-5bf9-9409-0adf6fbe3e45",
@@ -986,15 +902,16 @@
       "name": "Inquisitor Greyfax",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "55"
+          "cost": "65",
+          "keyword": "Imperium",
+          "models": "1",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 1,
-          "cost": "55",
-          "source": "ALLIED"
+          "cost": "65",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1057,9 +974,7 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
         "units": [
           "EXACTION SQUAD",
@@ -1075,18 +990,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D3"
-        ],
+        "core": ["Deadly Demise D3"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1107,12 +1018,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Sisters of Battle Immolator"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Sisters of Battle Immolator"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "The Immolator is an armoured transport commonly employed by the Adepta Sororitas. As befits their zealous style of war, its armaments tend towards aggressive short‐ranged firepower best employed amidst dense terrain or on the attack. Countless heretics and xenos have been reduced to ash by the fiery blasts of these tools of purgation.",
       "id": "3b686e61-f828-512d-8758-cffac1c94993",
@@ -1148,15 +1055,16 @@
       "name": "Sisters of Battle Immolator",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "100"
+          "cost": "115",
+          "keyword": "Imperium",
+          "models": "1",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 1,
-          "cost": "115",
-          "source": "ALLIED"
+          "cost": "100",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1168,9 +1076,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": [
-                "Sustained Hits 1"
-              ],
+              "keywords": ["Sustained Hits 1"],
               "name": "Heavy bolter",
               "range": "36\"",
               "skill": "3+",
@@ -1186,10 +1092,7 @@
               "ap": "-1",
               "attacks": "2D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Ignores Cover"],
               "name": "Immolation flamers",
               "range": "18\"",
               "skill": "N/A",
@@ -1205,10 +1108,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": [
-                "Twin-linked",
-                "Sustained Hits 2"
-              ],
+              "keywords": ["Twin-linked", "Sustained Hits 2"],
               "name": "Twin heavy bolter",
               "range": "36\"",
               "skill": "3+",
@@ -1224,10 +1124,7 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": [
-                "Twin-linked",
-                "Melta 2"
-              ],
+              "keywords": ["Twin-linked", "Melta 2"],
               "name": "Twin multi-melta",
               "range": "18\"",
               "skill": "3+",
@@ -1243,9 +1140,7 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6",
-              "keywords": [
-                "One Shot"
-              ],
+              "keywords": ["One Shot"],
               "name": "Hunter-killer missile",
               "range": "48\"",
               "skill": "2+",
@@ -1292,9 +1187,7 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1329,13 +1222,8 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "5‐10 Inquisitorial Agents",
-        "1‐2 Gun Servitors*"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["5‐10 Inquisitorial Agents", "1‐2 Gun Servitors*"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "To aid them in their esoteric and complex missions, many Inquisitors maintain retinues of select individuals of rare talent, skill and power. Motley collections of fighters, fanatics, savants and psykers, they work ceaselessly in the shadows to protect the Imperium.",
       "id": "5b03eda0-04b5-5baf-aa00-bc73c08b44be",
@@ -1373,9 +1261,7 @@
               "ap": "-2",
               "attacks": "2",
               "damage": "2",
-              "keywords": [
-                "Devastating Wounds"
-              ],
+              "keywords": ["Devastating Wounds"],
               "name": "Eviscerator",
               "range": "Melee",
               "skill": "3+",
@@ -1391,10 +1277,7 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "D3",
-              "keywords": [
-                "Psychic",
-                "Anti-infantry 4+"
-              ],
+              "keywords": ["Psychic", "Anti-infantry 4+"],
               "name": "Mystic stave",
               "range": "Melee",
               "skill": "3+",
@@ -1406,15 +1289,40 @@
       "name": "Inquisitorial Agents",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "55"
+          "cost": "120",
+          "keyword": "Imperium",
+          "models": "12",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 1,
-          "cost": "55",
-          "source": "ALLIED"
+          "cost": "120",
+          "keyword": "Imperium",
+          "models": "11",
+          "active": true
+        },
+        {
+          "cost": "60",
+          "keyword": "Imperium",
+          "models": "6",
+          "active": true
+        },
+        {
+          "cost": "100",
+          "keyword": null,
+          "models": "12",
+          "active": true
+        },
+        {
+          "cost": "100",
+          "keyword": null,
+          "models": "11",
+          "active": true
+        },
+        {
+          "cost": "50",
+          "keyword": null,
+          "models": "6",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1426,9 +1334,7 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
+              "keywords": ["Pistol"],
               "name": "Agent firearm",
               "range": "12\"",
               "skill": "3+",
@@ -1444,9 +1350,7 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
+              "keywords": ["Pistol"],
               "name": "Plasma pistol – Standard",
               "range": "12\"",
               "skill": "3+",
@@ -1457,10 +1361,7 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "2",
-              "keywords": [
-                "Pistol",
-                "Hazardous"
-              ],
+              "keywords": ["Pistol", "Hazardous"],
               "name": "Plasma pistol – Supercharge",
               "range": "12\"",
               "skill": "3+",
@@ -1476,10 +1377,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": [
-                "Sustained Hits 1",
-                "Heavy"
-              ],
+              "keywords": ["Sustained Hits 1", "Heavy"],
               "name": "Heavy bolter",
               "range": "36\"",
               "skill": "4+",
@@ -1495,10 +1393,7 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": [
-                "Melta 2",
-                "Heavy"
-              ],
+              "keywords": ["Melta 2", "Heavy"],
               "name": "Multi-melta",
               "range": "18\"",
               "skill": "4+",
@@ -1514,10 +1409,7 @@
               "ap": "-1",
               "attacks": "D3",
               "damage": "1",
-              "keywords": [
-                "Blast",
-                "Heavy"
-              ],
+              "keywords": ["Blast", "Heavy"],
               "name": "Plasma cannon – Standard",
               "range": "36\"",
               "skill": "4+",
@@ -1528,11 +1420,7 @@
               "ap": "-2",
               "attacks": "D3",
               "damage": "2",
-              "keywords": [
-                "Heavy",
-                "Hazardous",
-                "Blast"
-              ],
+              "keywords": ["Heavy", "Hazardous", "Blast"],
               "name": "Plasma cannon – Supercharge",
               "range": "36\"",
               "skill": "4+",
@@ -1575,18 +1463,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Leader"
-        ],
+        "core": ["Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1626,12 +1510,8 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Inquisitor"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Inquisitor"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "It is the Inquisitors’ task to investigate xenos plots, corruption, mutation, heresy, cults, rogue psykers and anything else they deemworthy of scrutiny. Such is their power, nothing is beyond their authority and no one is beyond their justice. If they deem it necessary, they can order the destruction of entire worlds.",
       "id": "97b523fd-b753-5103-b5e9-04aa7ee7f477",
@@ -1669,9 +1549,7 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "D3",
-              "keywords": [
-                "Psychic"
-              ],
+              "keywords": ["Psychic"],
               "name": "Force weapon",
               "range": "Melee",
               "skill": "3+",
@@ -1683,15 +1561,16 @@
       "name": "Inquisitor",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "55"
+          "cost": "55",
+          "keyword": "Imperium",
+          "models": "1",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 1,
           "cost": "55",
-          "source": "ALLIED"
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1703,9 +1582,7 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
+              "keywords": ["Pistol"],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -1741,11 +1618,7 @@
               "ap": "-2",
               "attacks": "2D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Psychic",
-                "Devastating Wounds"
-              ],
+              "keywords": ["Torrent", "Psychic", "Devastating Wounds"],
               "name": "Psychic Shock Wave",
               "range": "18\"",
               "skill": "N/A",
@@ -1792,18 +1665,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike"
-        ],
+        "core": ["Deep Strike"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1844,13 +1713,8 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Terminator Justicar",
-        "4 Grey Knight Terminators"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Terminator Justicar", "4 Grey Knight Terminators"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "The Grey Knights are the foremost daemon‐hunting elites in the Imperium. Amongst their ranks, few warriors are more fearsome or skilled than their Terminators. So it is that, when powerful Imperial agents call for aid against infernal threats, these battle‐brothers often answer.",
       "id": "abe8b751-a7f9-5b6b-97fc-bf3123012747",
@@ -1875,9 +1739,7 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "2",
-              "keywords": [
-                "Psychic"
-              ],
+              "keywords": ["Psychic"],
               "name": "Nemesis force weapon",
               "range": "Melee",
               "skill": "3+",
@@ -1889,15 +1751,16 @@
       "name": "Grey Knights Terminator Squad",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "190"
+          "cost": "210",
+          "keyword": "Imperium",
+          "models": "5",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 5,
-          "cost": "210",
-          "source": "ALLIED"
+          "cost": "190",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1909,9 +1772,7 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": [
-                "Rapid Fire 2"
-              ],
+              "keywords": ["Rapid Fire 2"],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "3+",
@@ -1927,10 +1788,7 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Ignores Cover"],
               "name": "Incinerator",
               "range": "12\"",
               "skill": "N/A",
@@ -1946,10 +1804,7 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": [
-                "Sustained Hits 1",
-                "Psychic"
-              ],
+              "keywords": ["Sustained Hits 1", "Psychic"],
               "name": "Psilencer",
               "range": "24\"",
               "skill": "3+",
@@ -1965,9 +1820,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": [
-                "Psychic"
-              ],
+              "keywords": ["Psychic"],
               "name": "Psycannon",
               "range": "24\"",
               "skill": "3+",
@@ -1998,10 +1851,7 @@
         "1 Grey Knights Terminator equipped with a storm bolter can be equipped with 1 Ancient’s banner.*",
         "1 Grey Knights Terminator’s storm bolter can be replaced with one of the following: ◦ 1 incinerator ◦ 1 psilencer ◦ 1 psycannon"
       ],
-      "leadBy": [
-        "Inquisitor",
-        "Inquisitor Coteaz"
-      ]
+      "leadBy": ["Inquisitor", "Inquisitor Coteaz"]
     },
     {
       "abilities": {
@@ -2012,9 +1862,7 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2042,14 +1890,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Voidmaster",
-        "4 Voidsmen",
-        "1 Canid"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Voidmaster", "4 Voidsmen", "1 Canid"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "Voidsmen‐at‐Arms provide security on the ships of Rogue Traders and the Navis Imperialis alike. Well drilled and well equipped, they are highly adept at fighting in vessel corridors and other close‐quarters environments. They bring these skills to the battlefield amidst hails of rotor cannon fire and swift, decisive salvoes.",
       "id": "46481c4e-dcef-57ff-900b-3ce647fa0e43",
@@ -2100,15 +1942,16 @@
       "name": "Voidsmen-at-Arms",
       "points": [
         {
-          "name": "model",
-          "model": "6",
-          "cost": "50"
+          "cost": "70",
+          "keyword": "Imperium",
+          "models": "6",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 6,
-          "cost": "70",
-          "source": "ALLIED"
+          "cost": "50",
+          "keyword": null,
+          "models": "6",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2120,9 +1963,7 @@
               "ap": "0",
               "attacks": "2",
               "damage": "2",
-              "keywords": [
-                "Assault"
-              ],
+              "keywords": ["Assault"],
               "name": "Artificer shotgun",
               "range": "12\"",
               "skill": "4+",
@@ -2138,9 +1979,7 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
+              "keywords": ["Pistol"],
               "name": "Laspistol",
               "range": "12\"",
               "skill": "4+",
@@ -2156,10 +1995,7 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": [
-                "Sustained Hits 1",
-                "Heavy"
-              ],
+              "keywords": ["Sustained Hits 1", "Heavy"],
               "name": "Voidsman rotor cannon",
               "range": "24\"",
               "skill": "5+",
@@ -2175,9 +2011,7 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "Rapid Fire 1"
-              ],
+              "keywords": ["Rapid Fire 1"],
               "name": "Lasgun",
               "range": "24\"",
               "skill": "4+",
@@ -2202,12 +2036,8 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
-      "leadBy": [
-        "Rogue Trader Entourage"
-      ]
+      "wargear": ["None"],
+      "leadBy": ["Rogue Trader Entourage"]
     },
     {
       "abilities": {
@@ -2218,9 +2048,7 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2254,13 +2082,8 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Watch Sergeant",
-        "4‐9 Deathwatch Veterans"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Watch Sergeant", "4‐9 Deathwatch Veterans"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "Deathwatch Veterans’ skills have been honed in their former Chapters for decades, sometimes centuries. Each battle‐brother brings their own talents and specialisms to the Long Vigil. Moreover, with access to a wide range of alien‐killing weaponry, they are able to act as elite shock troops against almost any foe.",
       "id": "9d15b725-1f0e-5180-80c9-ce02eea5106f",
@@ -2301,9 +2124,7 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "3",
-              "keywords": [
-                "Devastating Wounds"
-              ],
+              "keywords": ["Devastating Wounds"],
               "name": "Deathwatch thunder hammer",
               "range": "Melee",
               "skill": "4+",
@@ -2335,9 +2156,7 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "1",
-              "keywords": [
-                "Twin-linked"
-              ],
+              "keywords": ["Twin-linked"],
               "name": "Black Shield blades",
               "range": "Melee",
               "skill": "3+",
@@ -2353,9 +2172,7 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "1",
-              "keywords": [
-                "Devastating Wounds"
-              ],
+              "keywords": ["Devastating Wounds"],
               "name": "Xenophase blade",
               "range": "Melee",
               "skill": "3+",
@@ -2367,26 +2184,28 @@
       "name": "Deathwatch Kill Team",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "100"
-        },
-        {
-          "name": "model",
-          "model": "10",
-          "cost": "200"
-        },
-        {
-          "name": "model",
-          "model": 5,
-          "cost": "100",
-          "source": "ALLIED"
-        },
-        {
-          "name": "model",
-          "model": 10,
           "cost": "200",
-          "source": "ALLIED"
+          "keyword": "Imperium",
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "100",
+          "keyword": "Imperium",
+          "models": "5",
+          "active": true
+        },
+        {
+          "cost": "200",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "100",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2434,10 +2253,7 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "2",
-              "keywords": [
-                "Precision",
-                "Heavy"
-              ],
+              "keywords": ["Precision", "Heavy"],
               "name": "Stalker-pattern boltgun",
               "range": "24\"",
               "skill": "3+",
@@ -2453,9 +2269,7 @@
               "ap": "0",
               "attacks": "2",
               "damage": "2",
-              "keywords": [
-                "Assault"
-              ],
+              "keywords": ["Assault"],
               "name": "Deathwatch shotgun",
               "range": "18\"",
               "skill": "3+",
@@ -2471,11 +2285,7 @@
               "ap": "-1",
               "attacks": "D3",
               "damage": "2",
-              "keywords": [
-                "Rapid Fire D3",
-                "Heavy",
-                "Blast"
-              ],
+              "keywords": ["Rapid Fire D3", "Heavy", "Blast"],
               "name": "Frag cannon",
               "range": "18\"",
               "skill": "4+",
@@ -2491,10 +2301,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": [
-                "Sustained Hits 1",
-                "Heavy"
-              ],
+              "keywords": ["Sustained Hits 1", "Heavy"],
               "name": "Infernus heavy bolter – Heavy bolter",
               "range": "36\"",
               "skill": "4+",
@@ -2505,10 +2312,7 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Ignores Cover"],
               "name": "Infernus heavy bolter – Heavy flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -2565,20 +2369,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D3",
-          "Lone Operative",
-          "Scouts 9\""
-        ],
+        "core": ["Deadly Demise D3", "Lone Operative", "Scouts 9\""],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2612,12 +2410,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Eversor Assassin – EPIC HERO"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Eversor Assassin – EPIC HERO"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "Berserk killers fuelled by unstable chemical stimms, Eversor Assassins are hurricanes of bladed and clawed destruction. They are unleashed as weapons of terror and annihilation, set loose to murder not only their intended target but anyone around them as well. Even in death they still serve, their body chemistry going critical with the explosive fury of a detonating plasma warhead.",
       "id": "82566d83-6c6d-51fa-8bd5-b64877fffebb",
@@ -2641,11 +2435,7 @@
               "ap": "-2",
               "attacks": "6",
               "damage": "2",
-              "keywords": [
-                "Sustained Hits 3",
-                "Precision",
-                "Anti-infantry 3+"
-              ],
+              "keywords": ["Sustained Hits 3", "Precision", "Anti-infantry 3+"],
               "name": "Power sword and neuro gauntlet",
               "range": "Melee",
               "skill": "2+",
@@ -2657,15 +2447,22 @@
       "name": "Eversor Assassin",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "110"
+          "cost": "145",
+          "keyword": null,
+          "models": "1",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 1,
           "cost": "120",
-          "source": "ALLIED"
+          "keyword": "Imperium",
+          "models": "1",
+          "active": true
+        },
+        {
+          "cost": "110",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2707,25 +2504,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D3",
-          "Firing Deck 2"
-        ],
+        "core": ["Deadly Demise D3", "Firing Deck 2"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2746,12 +2536,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Imperial Rhino"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Imperial Rhino"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "Amongst the most iconic and ubiquitous of the Imperium’s armoured infantry transports, the Rhino is as redoubtable as it is resilient. Boasting a capacious troop compartment, self‐repairing capabilities and weapon mounts for storm bolters and hunter‐killer missiles, it has earned its reputation as the workhorse of Imperial armies.",
       "id": "3dcd3e74-1586-5bfa-8cde-7ce3cd0f266d",
@@ -2786,15 +2572,16 @@
       "name": "Imperial Rhino",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "75"
+          "cost": "75",
+          "keyword": "Imperium",
+          "models": "1",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 1,
           "cost": "75",
-          "source": "ALLIED"
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2806,9 +2593,7 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": [
-                "Rapid Fire 2"
-              ],
+              "keywords": ["Rapid Fire 2"],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "3+",
@@ -2824,9 +2609,7 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6",
-              "keywords": [
-                "One Shot"
-              ],
+              "keywords": ["One Shot"],
               "name": "Hunter-killer missile",
               "range": "48\"",
               "skill": "2+",
@@ -2859,26 +2642,18 @@
         }
       ],
       "transport": "This model has a transport capacity of 12 AGENTS OF THE IMPERIUM INFANTRY models. It cannot transport TERMINATOR or OFFICIO ASSASSINORUM models.",
-      "wargear": [
-        "This model can be equipped with 1 hunter‐killer missile."
-      ]
+      "wargear": ["This model can be equipped with 1 hunter‐killer missile."]
     },
     {
       "abilities": {
-        "core": [
-          "Infiltrators",
-          "Lone Operative",
-          "Stealth"
-        ],
+        "core": ["Infiltrators", "Lone Operative", "Stealth"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2912,12 +2687,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Vindicare Assassin – EPIC HERO"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Vindicare Assassin – EPIC HERO"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "The muffled crack of a Vindicare Assassin’s exitus rifle is all that most ever detect of its presence – that, and the spray of their victim’s brain matter. They are lethal marksmen who find the perfect firing position from which to pinpoint their quarry, while against more numerous foes they swiftly rack up high body counts with shot after expert shot.",
       "id": "6b4fbdf3-01ad-59ee-be4a-56c5b779b07c",
@@ -2953,15 +2724,22 @@
       "name": "Vindicare Assassin",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "110"
+          "cost": "155",
+          "keyword": null,
+          "models": "1",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 1,
           "cost": "125",
-          "source": "ALLIED"
+          "keyword": "Imperium",
+          "models": "1",
+          "active": true
+        },
+        {
+          "cost": "110",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -3024,9 +2802,7 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
@@ -3037,9 +2813,7 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3084,9 +2858,7 @@
         "9 Exaction Vigilants",
         "1 Cyber-mastiff"
       ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "The most experienced and level‐headed Arbitrators form Exaction Squads to hunt down and seize dangerous transgressors alive. They do not hesitate to crush any who stand in their way, ruthlessly bludgeoning them or cutting them down in blazes of heavy firepower, never halting until their target is in custody.",
       "id": "5a9b9c02-d23d-5319-bd02-f29cdab04a6f",
@@ -3153,15 +2925,16 @@
       "name": "Exaction Squad",
       "points": [
         {
-          "name": "model",
-          "model": "11",
-          "cost": "90"
+          "cost": "90",
+          "keyword": "Imperium",
+          "models": "11",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 11,
           "cost": "90",
-          "source": "ALLIED"
+          "keyword": null,
+          "models": "11",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -3173,9 +2946,7 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": [
-                "Assault"
-              ],
+              "keywords": ["Assault"],
               "name": "Arbites combat shotgun",
               "range": "18\"",
               "skill": "4+",
@@ -3191,9 +2962,7 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
+              "keywords": ["Pistol"],
               "name": "Arbites shotpistol",
               "range": "12\"",
               "skill": "4+",
@@ -3209,10 +2978,7 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "Precision",
-                "Ignores Cover"
-              ],
+              "keywords": ["Precision", "Ignores Cover"],
               "name": "Executioner shotgun",
               "range": "24\"",
               "skill": "4+",
@@ -3239,9 +3005,7 @@
               "ap": "0",
               "attacks": "D3",
               "damage": "1",
-              "keywords": [
-                "Blast"
-              ],
+              "keywords": ["Blast"],
               "name": "Arbites grenade launcher – Frag",
               "range": "24\"",
               "skill": "4+",
@@ -3257,9 +3021,7 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
+              "keywords": ["Rapid Fire 3"],
               "name": "Heavy stubber",
               "range": "36\"",
               "skill": "4+",
@@ -3275,11 +3037,7 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Devastating Wounds",
-                "Assault"
-              ],
+              "keywords": ["Torrent", "Devastating Wounds", "Assault"],
               "name": "Webber",
               "range": "12\"",
               "skill": "N/A",
@@ -3329,9 +3087,7 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3371,13 +3127,8 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Navis Sergeant-at-Arms",
-        "9 Navis Armsmen"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Navis Sergeant-at-Arms", "9 Navis Armsmen"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "Experienced in boarding actions, these elite Armsmen are blunt instruments of their warship’s commander. They wear enclosed void armour and wield weapons optimised for close confines, while some carry more specialised gear for cracking enemy bulkheads. Some squads are also accompanied by explosive, swift‐skimming gheistskulls or CAT units that can scan the battlefield ahead.",
       "id": "77016539-3dc1-5d1b-a9a4-8c4830429c71",
@@ -3434,9 +3185,7 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "2",
-              "keywords": [
-                "Anti-vehicle 3+"
-              ],
+              "keywords": ["Anti-vehicle 3+"],
               "name": "Chainfist",
               "range": "Melee",
               "skill": "5+",
@@ -3464,15 +3213,16 @@
       "name": "Imperial Navy Breachers",
       "points": [
         {
-          "name": "model",
-          "model": "10",
-          "cost": "90"
+          "cost": "90",
+          "keyword": "Imperium",
+          "models": "10",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 10,
           "cost": "90",
-          "source": "ALLIED"
+          "keyword": null,
+          "models": "10",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -3484,9 +3234,7 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": [
-                "Assault"
-              ],
+              "keywords": ["Assault"],
               "name": "Navis shotgun",
               "range": "12\"",
               "skill": "4+",
@@ -3502,9 +3250,7 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
+              "keywords": ["Pistol"],
               "name": "Autopistol",
               "range": "12\"",
               "skill": "4+",
@@ -3520,12 +3266,7 @@
               "ap": "-2",
               "attacks": "D6",
               "damage": "2",
-              "keywords": [
-                "One Shot",
-                "Hazardous",
-                "Blast",
-                "Assault"
-              ],
+              "keywords": ["One Shot", "Hazardous", "Blast", "Assault"],
               "name": "Demolition charge",
               "range": "6\"",
               "skill": "5+",
@@ -3549,9 +3290,7 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
+              "keywords": ["Pistol"],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "4+",
@@ -3583,9 +3322,7 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": [
-                "Melta 2"
-              ],
+              "keywords": ["Melta 2"],
               "name": "Meltagun",
               "range": "12\"",
               "skill": "4+",
@@ -3601,9 +3338,7 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "Rapid Fire 1"
-              ],
+              "keywords": ["Rapid Fire 1"],
               "name": "Plasma gun – Standard",
               "range": "24\"",
               "skill": "4+",
@@ -3614,10 +3349,7 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "2",
-              "keywords": [
-                "Rapid Fire 1",
-                "Hazardous"
-              ],
+              "keywords": ["Rapid Fire 1", "Hazardous"],
               "name": "Plasma gun – Supercharge",
               "range": "24\"",
               "skill": "4+",
@@ -3633,9 +3365,7 @@
               "ap": "0",
               "attacks": "4",
               "damage": "1",
-              "keywords": [
-                "Assault"
-              ],
+              "keywords": ["Assault"],
               "name": "Navis heavy shotgun",
               "range": "12\"",
               "skill": "4+",
@@ -3679,20 +3409,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Lone Operative",
-          "Stealth"
-        ],
+        "core": ["Deep Strike", "Lone Operative", "Stealth"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3732,12 +3456,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Culexus Assassin – EPIC HERO"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Culexus Assassin – EPIC HERO"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "A Culexus Assassin projects an aura of unsettling fear all around them, the effect heightened by their ability to occlude themselves in enemies’ minds until they wish to be seen. Their primary targets are psykers, who are wracked with agony from these soulless assassins’ mere presence, and against the arcane blasts of a Culexus’ animus speculum, no witch long survives.",
       "id": "c7e7c652-94cb-5c31-aaf9-487b39d8c5e2",
@@ -3761,11 +3481,7 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "2",
-              "keywords": [
-                "Precision",
-                "Devastating Wounds",
-                "Anti-psyker 2+"
-              ],
+              "keywords": ["Precision", "Devastating Wounds", "Anti-psyker 2+"],
               "name": "Life-draining touch",
               "range": "Melee",
               "skill": "2+",
@@ -3777,15 +3493,22 @@
       "name": "Culexus Assassin",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "85"
+          "cost": "125",
+          "keyword": null,
+          "models": "1",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 1,
           "cost": "85",
-          "source": "ALLIED"
+          "keyword": "Imperium",
+          "models": "1",
+          "active": true
+        },
+        {
+          "cost": "85",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -3835,9 +3558,7 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
@@ -3848,9 +3569,7 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3878,14 +3597,8 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Proctor-Vigilant",
-        "9 Vigilants",
-        "1 Cyber-mastiff"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Proctor-Vigilant", "9 Vigilants", "1 Cyber-mastiff"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "Vigilants brutally sweep the guilty from existence with the signature combat shotgun of the Adeptus Arbites. These grim Arbitrators are ever alert to malfeasance and unwavering in its punishment, unleashing devastating firepower while their nuncio‐aquilas berate the foe with accusations of guilt and threats of grim consequence.",
       "id": "353ff980-8867-549a-bec2-bb1841817d7d",
@@ -3937,15 +3650,16 @@
       "name": "Vigilant Squad",
       "points": [
         {
-          "name": "model",
-          "model": "11",
-          "cost": "85"
+          "cost": "85",
+          "keyword": "Imperium",
+          "models": "11",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 11,
           "cost": "85",
-          "source": "ALLIED"
+          "keyword": null,
+          "models": "11",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -3957,9 +3671,7 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": [
-                "Assault"
-              ],
+              "keywords": ["Assault"],
               "name": "Arbites combat shotgun",
               "range": "18\"",
               "skill": "4+",
@@ -3975,9 +3687,7 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
+              "keywords": ["Pistol"],
               "name": "Arbites shotpistol",
               "range": "12\"",
               "skill": "4+",
@@ -3993,10 +3703,7 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "Precision",
-                "Ignores Cover"
-              ],
+              "keywords": ["Precision", "Ignores Cover"],
               "name": "Executioner shotgun",
               "range": "24\"",
               "skill": "4+",
@@ -4023,9 +3730,7 @@
               "ap": "0",
               "attacks": "D3",
               "damage": "1",
-              "keywords": [
-                "Blast"
-              ],
+              "keywords": ["Blast"],
               "name": "Arbites grenade launcher – Frag",
               "range": "24\"",
               "skill": "4+",
@@ -4041,9 +3746,7 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
+              "keywords": ["Rapid Fire 3"],
               "name": "Heavy stubber",
               "range": "36\"",
               "skill": "4+",
@@ -4059,11 +3762,7 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Devastating Wounds",
-                "Assault"
-              ],
+              "keywords": ["Torrent", "Devastating Wounds", "Assault"],
               "name": "Webber",
               "range": "12\"",
               "skill": "N/A",
@@ -4109,9 +3808,7 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "Excluding the Cyber-mastiff.",
           "showAtTop": true,
@@ -4139,14 +3836,8 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Proctor-Subductor",
-        "9 Subductors",
-        "1 Cyber-mastiff"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Proctor-Subductor", "9 Subductors", "1 Cyber-mastiff"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "Subductors possess one of the most recognisable – and feared – silhouettes to the Imperium’s criminal classes. Bearing subjugation‐pattern assault shields and crackling shock mauls, they are brutal front‐line brawlers capable of crushing the most stubborn dissent.",
       "id": "bd0c66bf-5fa0-5c52-8ce4-88858b2d8c5f",
@@ -4197,15 +3888,16 @@
       "name": "Subductor Squad",
       "points": [
         {
-          "name": "model",
-          "model": "11",
-          "cost": "85"
+          "cost": "100",
+          "keyword": "Imperium",
+          "models": "11",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 11,
-          "cost": "100",
-          "source": "ALLIED"
+          "cost": "85",
+          "keyword": null,
+          "models": "11",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -4217,9 +3909,7 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
+              "keywords": ["Pistol"],
               "name": "Arbites shotpistol",
               "range": "12\"",
               "skill": "4+",
@@ -4257,18 +3947,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Leader"
-        ],
+        "core": ["Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -4295,12 +3981,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Navigator"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Navigator"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "Haughty nobles whose value to the Imperium is huge, Navigators take to the battlefield only rarely, typically to complete some vital mission for their voidship’s master. At such times, their ability to perceive the shifting tides of the warp makes them powerful assets, as does the soul‐blasting gaze of their mutant third eye.",
       "id": "fcc3011e-4e27-5c52-a296-aa117a4f437c",
@@ -4323,9 +4005,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "D3",
-              "keywords": [
-                "Psychic"
-              ],
+              "keywords": ["Psychic"],
               "name": "Force‐orb cane",
               "range": "Melee",
               "skill": "4+",
@@ -4337,15 +4017,16 @@
       "name": "Navigator",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "60"
+          "cost": "75",
+          "keyword": "Imperium",
+          "models": "1",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 1,
-          "cost": "75",
-          "source": "ALLIED"
+          "cost": "60",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -4357,9 +4038,7 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
+              "keywords": ["Pistol"],
               "name": "Laspistol",
               "range": "12\"",
               "skill": "4+",
@@ -4384,31 +4063,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "IMPERIAL NAVY BREACHERS",
-          "VOIDSMEN‐AT‐ARMS"
-        ],
+        "units": ["IMPERIAL NAVY BREACHERS", "VOIDSMEN‐AT‐ARMS"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Leader"
-        ],
+        "core": ["Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -4441,12 +4111,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Lord Inquisitor Kyria Draxus – EPIC HERO"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Lord Inquisitor Kyria Draxus – EPIC HERO"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "An audacious and committed Ordo Xenos Inquisitor, Kyria Draxus is a specialist in hunting Necrons. Radical in her outlook, she accepts the necessity of working with some aliens to protect the Imperium. She has learned about the Necrons from the Aeldari and honed her psychic abilities through xenos, as well as Human, tuition.",
       "id": "3b88d74a-0438-5fd2-8d0f-302a1bc91f04",
@@ -4484,15 +4150,16 @@
       "name": "Inquisitor Draxus",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "55"
+          "cost": "95",
+          "keyword": "Imperium",
+          "models": "1",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 1,
-          "cost": "55",
-          "source": "ALLIED"
+          "cost": "75",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -4504,11 +4171,7 @@
               "ap": "0",
               "attacks": "4",
               "damage": "2",
-              "keywords": [
-                "Assault",
-                "Devastating Wounds",
-                "Anti-infantry 4+"
-              ],
+              "keywords": ["Assault", "Devastating Wounds", "Anti-infantry 4+"],
               "name": "Dirgesinger",
               "range": "18\"",
               "skill": "3+",
@@ -4524,10 +4187,7 @@
               "ap": "0",
               "attacks": "6",
               "damage": "2",
-              "keywords": [
-                "Sustained Hits 2",
-                "Psychic"
-              ],
+              "keywords": ["Sustained Hits 2", "Psychic"],
               "name": "Psychic Tempest",
               "range": "18\"",
               "skill": "3+",
@@ -4552,9 +4212,7 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
         "units": [
           "DEATHWATCH KILL TEAM",
@@ -4570,18 +4228,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Leader"
-        ],
+        "core": ["Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -4608,12 +4262,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Watch Master"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Watch Master"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "The galaxy’s foremost xenos hunters, each Watch Master commands one of the Deathwatch Chapter’s vigilant watch fortresses. These leaders possess centuries of strategic and esoteric knowledge of the horrors assailing Mankind. In battle, they wield potent vigil spears, employing their masterful skills to the fullest.",
       "id": "10af0717-f94a-5ae6-90f3-427da01cbe73",
@@ -4637,9 +4287,7 @@
               "ap": "-2",
               "attacks": "6",
               "damage": "D3",
-              "keywords": [
-                "Lance"
-              ],
+              "keywords": ["Lance"],
               "name": "Vigil spear – Melee",
               "range": "Melee",
               "skill": "2+",
@@ -4651,15 +4299,16 @@
       "name": "Watch Master",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "105"
+          "cost": "105",
+          "keyword": "Imperium",
+          "models": "1",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 1,
           "cost": "105",
-          "source": "ALLIED"
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -4696,30 +4345,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "DEATHWATCH KILL TEAM"
-        ],
+        "units": ["DEATHWATCH KILL TEAM"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Leader"
-        ],
+        "core": ["Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -4759,12 +4400,8 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Inquisitor Coteaz – EPIC HERO"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Inquisitor Coteaz – EPIC HERO"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "A puritan of the Ordo Malleus, Inquisitor Coteaz spends every waking moment studying reports made by his countless agents, or facing down daemons, heretics and aliens in open battle. He refuses to harness the power of the warp for his own ends, wiedling it instead to combat the daemonic and prosecute those who lack purity.",
       "id": "0a6dcec2-75d1-555e-9372-d49a60189f2e",
@@ -4789,9 +4426,7 @@
               "ap": "-3",
               "attacks": "3",
               "damage": "3",
-              "keywords": [
-                "Psychic"
-              ],
+              "keywords": ["Psychic"],
               "name": "Nemesis daemon hammer",
               "range": "Melee",
               "skill": "3+",
@@ -4803,15 +4438,16 @@
       "name": "Inquisitor Coteaz",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "55"
+          "cost": "95",
+          "keyword": "Imperium",
+          "models": "1",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 1,
-          "cost": "55",
-          "source": "ALLIED"
+          "cost": "75",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -4823,9 +4459,7 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
+              "keywords": ["Pistol"],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -4871,9 +4505,7 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
         "units": [
           "EXACTION SQUAD",
@@ -4896,9 +4528,7 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -4932,13 +4562,8 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Sister Superior",
-        "9 Battle Sisters"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Sister Superior", "9 Battle Sisters"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "The Adepta Sororitas – or Battle Sisters – are the militant arm of the Imperial faith. Clad in sanctified power armour and wielding an array of potent mid‐to‐close‐ranged firearms, these fanatical warriors excel in clearing out nests of heresy and gunning down enemies of the Golden Throne wherever they are found. They are valued allies to any Imperial agent.",
       "id": "5b673664-dbe9-522e-926a-0c2c7e4f8c67",
@@ -5005,15 +4630,16 @@
       "name": "Sisters of Battle Squad",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "100"
+          "cost": "115",
+          "keyword": "Imperium",
+          "models": "10",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 1,
-          "cost": "115",
-          "source": "ALLIED"
+          "cost": "100",
+          "keyword": null,
+          "models": "10",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -5025,9 +4651,7 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
+              "keywords": ["Pistol"],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -5043,9 +4667,7 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "Rapid Fire 1"
-              ],
+              "keywords": ["Rapid Fire 1"],
               "name": "Boltgun",
               "range": "24\"",
               "skill": "3+",
@@ -5102,10 +4724,7 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D3",
-              "keywords": [
-                "Pistol",
-                "Melta 2"
-              ],
+              "keywords": ["Pistol", "Melta 2"],
               "name": "Inferno pistol",
               "range": "6\"",
               "skill": "3+",
@@ -5121,11 +4740,7 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Pistol",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Pistol", "Ignores Cover"],
               "name": "Ministorum hand flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -5141,9 +4756,7 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
+              "keywords": ["Pistol"],
               "name": "Plasma pistol – Standard",
               "range": "12\"",
               "skill": "3+",
@@ -5154,10 +4767,7 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": [
-                "Pistol",
-                "Hazardous"
-              ],
+              "keywords": ["Pistol", "Hazardous"],
               "name": "Plasma pistol – Supercharge",
               "range": "12\"",
               "skill": "3+",
@@ -5173,9 +4783,7 @@
               "ap": "0",
               "attacks": "2",
               "damage": "2",
-              "keywords": [
-                "Rapid Fire 2"
-              ],
+              "keywords": ["Rapid Fire 2"],
               "name": "Artificer-crafted storm bolter",
               "range": "24\"",
               "skill": "3+",
@@ -5191,9 +4799,7 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": [
-                "Melta 2"
-              ],
+              "keywords": ["Melta 2"],
               "name": "Meltagun",
               "range": "12\"",
               "skill": "3+",
@@ -5209,10 +4815,7 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Ignores Cover"],
               "name": "Ministorum flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -5228,10 +4831,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": [
-                "Sustained Hits 1",
-                "Heavy"
-              ],
+              "keywords": ["Sustained Hits 1", "Heavy"],
               "name": "Heavy bolter",
               "range": "36\"",
               "skill": "4+",
@@ -5247,10 +4847,7 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Ignores Cover"],
               "name": "Ministorum heavy flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -5266,10 +4863,7 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": [
-                "Melta 2",
-                "Heavy"
-              ],
+              "keywords": ["Melta 2", "Heavy"],
               "name": "Multi-melta",
               "range": "18\"",
               "skill": "4+",
@@ -5301,28 +4895,18 @@
         "The Sister Superior can be equipped with one of the following: ◦ 1 chainsword ◦ 1 power weapon",
         "The Sister Superior’s boltgun can be replaced with one of the following: ◦ 1 bolt pistol ◦ 1 combi-weapon ◦ 1 condemnor boltgun ◦ 1 inferno pistol ◦ 1 Ministorum hand flamer ◦ 1 plasma pistol"
       ],
-      "leadBy": [
-        "Inquisitor Greyfax",
-        "Inquisitor",
-        "Ministorum Priest"
-      ]
+      "leadBy": ["Inquisitor Greyfax", "Inquisitor", "Ministorum Priest"]
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6",
-          "Hover",
-          "Stealth"
-        ],
+        "core": ["Deadly Demise D6", "Hover", "Stealth"],
         "damaged": {
           "range": "1-5 WOUNDS REMAINING",
           "description": "While this model has 1‐5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -5356,12 +4940,8 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Corvus Blackstar"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Corvus Blackstar"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "Corvus Blackstars are sleek and shrouded aircraft used to insert Deathwatch kill teams into heavily infested landing zones or even xenos strongholds. With a barrage of missiles, Blackstars secure aerial supremacy and sweep the target site clear before firing their hover jets and delivering their terrifying payload of elite warriors.",
       "id": "a6d0dca5-9c60-57c5-9977-cb5ce5b0ea78",
@@ -5399,15 +4979,16 @@
       "name": "Corvus Blackstar",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "180"
+          "cost": "180",
+          "keyword": "Imperium",
+          "models": "1",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 1,
           "cost": "180",
-          "source": "ALLIED"
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -5419,10 +5000,7 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": [
-                "Twin-linked",
-                "Devastating Wounds"
-              ],
+              "keywords": ["Twin-linked", "Devastating Wounds"],
               "name": "Twin assault cannon",
               "range": "24\"",
               "skill": "3+",
@@ -5438,9 +5016,7 @@
               "ap": "0",
               "attacks": "D6+1",
               "damage": "1",
-              "keywords": [
-                "Blast"
-              ],
+              "keywords": ["Blast"],
               "name": "Blackstar rocket launcher",
               "range": "30\"",
               "skill": "3+",
@@ -5456,9 +5032,7 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": [
-                "Twin-linked"
-              ],
+              "keywords": ["Twin-linked"],
               "name": "Twin lascannon",
               "range": "48\"",
               "skill": "3+",
@@ -5490,10 +5064,7 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": [
-                "Twin-linked",
-                "Rapid Fire 6"
-              ],
+              "keywords": ["Twin-linked", "Rapid Fire 6"],
               "name": "Hurricane bolter",
               "range": "24\"",
               "skill": "3+",
@@ -5527,9 +5098,7 @@
     },
     {
       "abilities": {
-        "core": [
-          "Leader"
-        ],
+        "core": ["Leader"],
         "damaged": {
           "description": "",
           "range": "",
@@ -5563,12 +5132,8 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Ministorum Priest"
-      ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "composition": ["1 Ministorum Priest"],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "In Mankind’s endless war for survival, faith and zealotry are weapons as potent as any blade or firearm. Ministorum Priests embody this truth, striding into battle bellowing martial canticles to inspire allies and terrify foes. Some crush enemies’ skulls and shatter their bones with blows from crackling power maces, while others immolate their victims with vindictor flame weapons.",
       "id": "94fc8f61-aafe-53c9-9cad-e37a8a6dd614",
@@ -5618,15 +5183,16 @@
       "name": "Ministorum Priest",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "40"
+          "cost": "40",
+          "keyword": "Imperium",
+          "models": "1",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 1,
           "cost": "40",
-          "source": "ALLIED"
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -5638,10 +5204,7 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
+              "keywords": ["Torrent", "Ignores Cover"],
               "name": "Zealot’s vindictor – Ranged",
               "range": "12\"",
               "skill": "N/A",
@@ -5657,9 +5220,7 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
+              "keywords": ["Pistol"],
               "name": "Holy pistol",
               "range": "12\"",
               "skill": "4+",
@@ -5701,18 +5262,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Leader"
-        ],
+        "core": ["Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -5752,9 +5309,7 @@
         "1 Lectro‐Maester",
         "1 Rejuvenat Adept"
       ],
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "factions": ["Agents of the Imperium"],
       "faction_id": "AoI",
       "fluff": "Rogue Traders are daring explorers, ruthless conquerors and cunning merchants, traversing and exploiting the uncharted regions of the galaxy in the name of the Imperium. Some command armadas of voidships, while others have only a small retinue of followers. In either case, they are typically canny commanders and able warriors who wield varied heirloom weapons and are backed up by hand‐picked specialists with an array of unusual abilities ranging from talented Lectro‐Maesters to sinister Death Cult Assassins.",
       "id": "3782157e-f35b-531b-b70f-b0bbf33c1915",
@@ -5793,9 +5348,7 @@
               "ap": "-2",
               "attacks": "5",
               "damage": "1",
-              "keywords": [
-                "Precision"
-              ],
+              "keywords": ["Precision"],
               "name": "Death Cult power blade",
               "range": "Melee",
               "skill": "2+",
@@ -5823,15 +5376,16 @@
       "name": "Rogue Trader Entourage",
       "points": [
         {
-          "name": "model",
-          "model": "4",
-          "cost": "75"
+          "cost": "105",
+          "keyword": "Imperium",
+          "models": "4",
+          "active": true
         },
         {
-          "name": "model",
-          "model": 4,
-          "cost": "105",
-          "source": "ALLIED"
+          "cost": "75",
+          "keyword": null,
+          "models": "4",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -5843,10 +5397,7 @@
               "ap": "-2",
               "attacks": "2",
               "damage": "2",
-              "keywords": [
-                "Devastating Wounds",
-                "Pistol"
-              ],
+              "keywords": ["Devastating Wounds", "Pistol"],
               "name": "Household pistol",
               "range": "12\"",
               "skill": "3+",
@@ -5862,11 +5413,7 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "D3",
-              "keywords": [
-                "Precision",
-                "Pistol",
-                "Anti-infantry 2+"
-              ],
+              "keywords": ["Precision", "Pistol", "Anti-infantry 2+"],
               "name": "Dartmask",
               "range": "12\"",
               "skill": "4+",
@@ -5882,10 +5429,7 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "1",
-              "keywords": [
-                "Sustained Hits 2",
-                "Pistol"
-              ],
+              "keywords": ["Sustained Hits 2", "Pistol"],
               "name": "Voltaic pistol",
               "range": "12\"",
               "skill": "3+",
@@ -5901,9 +5445,7 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
+              "keywords": ["Pistol"],
               "name": "Laspistol",
               "range": "12\"",
               "skill": "4+",
@@ -5940,32 +5482,22 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ],
+      "wargear": ["None"],
       "leads": {
-        "units": [
-          "IMPERIAL NAVY BREACHERS",
-          "VOIDSMEN-AT-ARMS"
-        ],
+        "units": ["IMPERIAL NAVY BREACHERS", "VOIDSMEN-AT-ARMS"],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike",
-          "Leader"
-        ],
+        "core": ["Deep Strike", "Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -6004,13 +5536,9 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Inquisitor in Terminator Armour"
-      ],
+      "composition": ["1 Inquisitor in Terminator Armour"],
       "faction_id": "AoI",
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "factions": ["Agents of the Imperium"],
       "fluff": "",
       "id": "f38f60d4-5b9a-5118-a677-0faa04e6c43a",
       "keywords": [
@@ -6024,10 +5552,7 @@
       "leader": "This model can be attached to the following units: ■ Imperium Battleline Infantry ■ Inquisitorial Henchmen",
       "leads": {
         "extra": "",
-        "units": [
-          "Imperium Battleline Infantry",
-          "Inquisitorial Henchmen"
-        ]
+        "units": ["Imperium Battleline Infantry", "Inquisitorial Henchmen"]
       },
       "legends": true,
       "loadout": "This model is equipped with: storm bolter; Inquisitorial melee weapon; blessed wardings.",
@@ -6040,9 +5565,7 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "D3",
-              "keywords": [
-                "psychic"
-              ],
+              "keywords": ["psychic"],
               "name": "Force weapon",
               "range": "Melee",
               "skill": "3+",
@@ -6084,19 +5607,7 @@
         }
       ],
       "name": "Inquisitor In Terminator Armour",
-      "points": [
-        {
-          "name": "model",
-          "model": "1",
-          "cost": "55"
-        },
-        {
-          "name": "model",
-          "model": 1,
-          "cost": "55",
-          "source": "ALLIED"
-        }
-      ],
+      "points": [],
       "rangedWeapons": [
         {
           "active": true,
@@ -6106,11 +5617,7 @@
               "ap": "-1",
               "attacks": "2D6",
               "damage": "1",
-              "keywords": [
-                "devastating wounds",
-                "psychic",
-                "torrent"
-              ],
+              "keywords": ["devastating wounds", "psychic", "torrent"],
               "name": "Psychic shock wave",
               "range": "18\"",
               "skill": "N/A",
@@ -6126,9 +5633,7 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": [
-                "psychic"
-              ],
+              "keywords": ["psychic"],
               "name": "Psycannon",
               "range": "24\"",
               "skill": "3+",
@@ -6164,9 +5669,7 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": [
-                "rapid fire 2"
-              ],
+              "keywords": ["rapid fire 2"],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "3+",
@@ -6200,18 +5703,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deep Strike"
-        ],
+        "core": ["Deep Strike"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -6231,14 +5730,9 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Legionnaire Sergeant",
-        "4-9 Legionnaires"
-      ],
+      "composition": ["1 Legionnaire Sergeant", "4-9 Legionnaires"],
       "faction_id": "AoI",
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "factions": ["Agents of the Imperium"],
       "fluff": "",
       "id": "9501192f-0698-561b-8544-7be0faaa1421",
       "keywords": [
@@ -6312,10 +5806,7 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "ignores cover",
-                "torrent"
-              ],
+              "keywords": ["ignores cover", "torrent"],
               "name": "Heavy flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -6331,9 +5822,7 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "pistol"
-              ],
+              "keywords": ["pistol"],
               "name": "Plasma pistol – standard",
               "range": "12\"",
               "skill": "3+",
@@ -6344,10 +5833,7 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": [
-                "hazardous",
-                "pistol"
-              ],
+              "keywords": ["hazardous", "pistol"],
               "name": "Plasma pistol – supercharge",
               "range": "12\"",
               "skill": "3+",
@@ -6363,9 +5849,7 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "rapid fire 1"
-              ],
+              "keywords": ["rapid fire 1"],
               "name": "Plasma gun – standard",
               "range": "24\"",
               "skill": "3+",
@@ -6376,10 +5860,7 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": [
-                "hazardous",
-                "rapid fire 1"
-              ],
+              "keywords": ["hazardous", "rapid fire 1"],
               "name": "Plasma gun – supercharge",
               "range": "24\"",
               "skill": "3+",
@@ -6395,9 +5876,7 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": [
-                "melta 2"
-              ],
+              "keywords": ["melta 2"],
               "name": "Meltagun",
               "range": "12\"",
               "skill": "3+",
@@ -6413,10 +5892,7 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": [
-                "heavy",
-                "melta 2"
-              ],
+              "keywords": ["heavy", "melta 2"],
               "name": "Multi-melta",
               "range": "18\"",
               "skill": "4+",
@@ -6432,10 +5908,7 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "ignores cover",
-                "pistol"
-              ],
+              "keywords": ["ignores cover", "pistol"],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -6451,9 +5924,7 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": [
-                "ignores cover"
-              ],
+              "keywords": ["ignores cover"],
               "name": "Boltgun",
               "range": "24\"",
               "skill": "3+",
@@ -6469,10 +5940,7 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": [
-                "ignores cover",
-                "torrent"
-              ],
+              "keywords": ["ignores cover", "torrent"],
               "name": "Flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -6505,19 +5973,14 @@
     },
     {
       "abilities": {
-        "core": [
-          "Infiltrators",
-          "Leader"
-        ],
+        "core": ["Infiltrators", "Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -6549,13 +6012,9 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Janus Draik – Epic Hero"
-      ],
+      "composition": ["1 Janus Draik – Epic Hero"],
       "faction_id": "AoI",
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "factions": ["Agents of the Imperium"],
       "fluff": "",
       "id": "6e31d823-4245-5f4a-954f-3b3e7776bd12",
       "keywords": [
@@ -6570,10 +6029,7 @@
       "leader": "This model can be attached to the following units: ■ Imperial Navy Breachers ■ Voidsmen-at-Arms",
       "leads": {
         "extra": "",
-        "units": [
-          "Imperial Navy Breachers",
-          "Voidsmen-at-Arms"
-        ]
+        "units": ["Imperial Navy Breachers", "Voidsmen-at-Arms"]
       },
       "legends": true,
       "loadout": "This model is equipped with: heirloom pistol; monomolecular rapier.",
@@ -6586,9 +6042,7 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "1",
-              "keywords": [
-                "sustained hits 1"
-              ],
+              "keywords": ["sustained hits 1"],
               "name": "Monomolecular rapier",
               "range": "Melee",
               "skill": "3+",
@@ -6608,10 +6062,7 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "2",
-              "keywords": [
-                "anti-infantry 4+",
-                "pistol"
-              ],
+              "keywords": ["anti-infantry 4+", "pistol"],
               "name": "Heirloom pistol",
               "range": "12\"",
               "skill": "3+",
@@ -6636,25 +6087,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Infiltrators",
-          "Leader"
-        ],
+        "core": ["Infiltrators", "Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -6686,13 +6130,9 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Neyam Shai Murad – Epic Hero"
-      ],
+      "composition": ["1 Neyam Shai Murad – Epic Hero"],
       "faction_id": "AoI",
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "factions": ["Agents of the Imperium"],
       "fluff": "",
       "id": "9c5560f5-b9de-5ccd-a1be-2d02487526bc",
       "keywords": [
@@ -6707,10 +6147,7 @@
       "leader": "This model can be attached to the following units: ■ Imperial Navy Breachers ■ Voidsmen-at-Arms",
       "leads": {
         "extra": "",
-        "units": [
-          "Imperial Navy Breachers",
-          "Voidsmen-at-Arms"
-        ]
+        "units": ["Imperial Navy Breachers", "Voidsmen-at-Arms"]
       },
       "legends": true,
       "loadout": "This model is equipped with: 2 negotiator pistols; close combat weapon.",
@@ -6743,9 +6180,7 @@
               "ap": "-2",
               "attacks": "2",
               "damage": "1",
-              "keywords": [
-                "precision"
-              ],
+              "keywords": ["precision"],
               "name": "Negotiator pistol",
               "range": "12\"",
               "skill": "3+",
@@ -6770,24 +6205,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Leader"
-        ],
+        "core": ["Leader"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -6813,13 +6242,9 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 Espern Locarno – Epic Hero"
-      ],
+      "composition": ["1 Espern Locarno – Epic Hero"],
       "faction_id": "AoI",
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "factions": ["Agents of the Imperium"],
       "fluff": "",
       "id": "27f7984d-9903-50c0-b895-45c68e689a79",
       "keywords": [
@@ -6834,10 +6259,7 @@
       "leader": "This model can be attached to the following units: ■ Imperial Navy Breachers ■ Voidsmen-at-Arms",
       "leads": {
         "extra": "",
-        "units": [
-          "Imperial Navy Breachers",
-          "Voidsmen-at-Arms"
-        ]
+        "units": ["Imperial Navy Breachers", "Voidsmen-at-Arms"]
       },
       "legends": true,
       "loadout": "This model is equipped with: laspistol; force-orb cane.",
@@ -6850,9 +6272,7 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "D3",
-              "keywords": [
-                "psychic"
-              ],
+              "keywords": ["psychic"],
               "name": "Force-orb cane",
               "range": "Melee",
               "skill": "4+",
@@ -6872,9 +6292,7 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": [
-                "pistol"
-              ],
+              "keywords": ["pistol"],
               "name": "Laspistol",
               "range": "12\"",
               "skill": "4+",
@@ -6899,24 +6317,18 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     },
     {
       "abilities": {
-        "core": [
-          "Lone Operative"
-        ],
+        "core": ["Lone Operative"],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": [
-          "Assigned Agents"
-        ],
+        "faction": ["Assigned Agents"],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -6942,22 +6354,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": [
-        "1 UR-025 – Epic Hero"
-      ],
+      "composition": ["1 UR-025 – Epic Hero"],
       "faction_id": "AoI",
-      "factions": [
-        "Agents of the Imperium"
-      ],
+      "factions": ["Agents of the Imperium"],
       "fluff": "",
       "id": "43dbf208-64fc-5796-85e5-4c83fe982f6f",
-      "keywords": [
-        "Character",
-        "Epic Hero",
-        "Imperium",
-        "Infantry",
-        "UR-025"
-      ],
+      "keywords": ["Character", "Epic Hero", "Imperium", "Infantry", "UR-025"],
       "leader": "",
       "legends": true,
       "loadout": "This model is equipped with: Mk 1 assault weapon; power claw.",
@@ -7015,9 +6417,7 @@
         }
       ],
       "transport": "",
-      "wargear": [
-        "None"
-      ]
+      "wargear": ["None"]
     }
   ],
   "detachments": [
@@ -7032,9 +6432,7 @@
       "name": "Universal Anathema",
       "id": "afa07ceb-8a9b-56e2-a9e5-b8bf7c5c0775",
       "cost": "10",
-      "keywords": [
-        "Agents of the Imperium"
-      ],
+      "keywords": ["Agents of the Imperium"],
       "excludes": [],
       "description": "AGENTS OF THE IMPERIUM model only. Melee weapons equipped by the bearer have the [ANTI‐INFANTRY 2+] and [ANTI‐MONSTER 4+] abilities.",
       "faction_id": "AoI",
@@ -7046,9 +6444,7 @@
       "name": "Blackweave Shroud",
       "id": "5136adfb-d212-58db-9c91-75e6ecf97b4f",
       "cost": "15",
-      "keywords": [
-        "Agents of the Imperium"
-      ],
+      "keywords": ["Agents of the Imperium"],
       "excludes": [],
       "description": "AGENTS OF THE IMPERIUM model only. The bearer has the Feel No Pain 4+ ability.",
       "faction_id": "AoI",
@@ -7060,9 +6456,7 @@
       "name": "Beacon Angelis",
       "id": "2c66d7b1-c513-567b-91e3-cf1be40a31c5",
       "cost": "30",
-      "keywords": [
-        "Watch Master"
-      ],
+      "keywords": ["Watch Master"],
       "excludes": [],
       "description": "WATCH MASTER model only. Models in the bearer’s unit have the Deep Strike ability. In addition, you can target the bearer’s unit with the Rapid Ingress Stratagem for 0CP.",
       "faction_id": "AoI",
@@ -7074,9 +6468,7 @@
       "name": "Amulet of Auto-chastisement",
       "id": "bc6b8892-a3e6-55d5-b84b-67f8da693436",
       "cost": "25",
-      "keywords": [
-        "Watch Master"
-      ],
+      "keywords": ["Watch Master"],
       "excludes": [],
       "description": "WATCH MASTER model only. At the start of your opponent’s Shooting phase, select one enemy VEHICLE unit (excluding TITANIC units) within 12\" of and visible to the bearer. That unit must take a Leadership test. If that test is passed, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll; if that test is failed, that unit is not eligible to shoot this phase.",
       "faction_id": "AoI",
@@ -7088,10 +6480,7 @@
       "name": "Liber Heresius",
       "id": "bef157b4-3c09-5304-848b-18fd4ca3a1b6",
       "cost": "10",
-      "keywords": [
-        "Inquisitor",
-        "Ministorum Priest"
-      ],
+      "keywords": ["Inquisitor", "Ministorum Priest"],
       "excludes": [],
       "description": "INQUISITOR or MINISTORUM PRIEST model only. After both players have deployed their armies, select up to three AGENTS OF THE IMPERIUM units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
       "faction_id": "AoI",
@@ -7103,9 +6492,7 @@
       "name": "No Escape (Aura)",
       "id": "c4c67874-4cd7-59c5-8000-8bd56f362b92",
       "cost": "25",
-      "keywords": [
-        "Inquisitor"
-      ],
+      "keywords": ["Inquisitor"],
       "excludes": [],
       "description": "INQUISITOR model only. While an enemy unit is within 6\" of the bearer, each time it is selected to Fall Back it must first take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead.",
       "faction_id": "AoI",
@@ -7117,10 +6504,7 @@
       "name": "Witch Hunter",
       "id": "ea5f97ec-d3c2-5323-ab70-97d6840b4049",
       "cost": "15",
-      "keywords": [
-        "Inquisitor",
-        "Ministorum Priest"
-      ],
+      "keywords": ["Inquisitor", "Ministorum Priest"],
       "excludes": [],
       "description": "INQUISITOR or MINISTORUM PRIEST model only. While the bearer is leading a unit, each time a model in that unit makes an attack that targets a PSYKER unit, you can re‐roll the Hit roll.",
       "faction_id": "AoI",
@@ -7132,10 +6516,7 @@
       "name": "Ignis Judicium",
       "id": "a7c37343-b942-571a-b4b7-47ce8be3c6c1",
       "cost": "10",
-      "keywords": [
-        "Inquisitor",
-        "Ministorum Priest"
-      ],
+      "keywords": ["Inquisitor", "Ministorum Priest"],
       "excludes": [],
       "description": "INQUISITOR or MINISTORUM PRIEST model only. The bearer’s ranged weapons have the [DEVASTATING WOUNDS], [MELTA 1] and [PRECISION] abilities.",
       "faction_id": "AoI",
@@ -7147,9 +6528,7 @@
       "name": "Formidable Resolve",
       "id": "0f4b5f4a-6d2f-519a-93ac-7f2c60115730",
       "cost": "5",
-      "keywords": [
-        "Inquisitor"
-      ],
+      "keywords": ["Inquisitor"],
       "excludes": [],
       "description": "INQUISITOR model only. Improve the bearer’s Leadership and Wounds characteristics by 1. Once per battle, at the start of any phase, you can select one friendly Battle‐shocked unit within 12\" of the bearer. That unit is no longer Battle‐shocked.",
       "faction_id": "AoI",
@@ -7161,9 +6540,7 @@
       "name": "Daemon Slayer",
       "id": "2b652cb3-8d1b-5f30-98a9-e51c222681e9",
       "cost": "10",
-      "keywords": [
-        "Inquisitor"
-      ],
+      "keywords": ["Inquisitor"],
       "excludes": [],
       "description": "INQUISITOR model only. Add 1 to the Attacks characteristic of the bearer’s melee weapons, and those weapons have the [ANTI‐DAEMON 3+] ability.",
       "faction_id": "AoI",
@@ -7175,9 +6552,7 @@
       "name": "Grimoire of True Names (Aura)",
       "id": "11417767-da2f-5ce7-b56b-fc5644179e9d",
       "cost": "10",
-      "keywords": [
-        "Inquisitor"
-      ],
+      "keywords": ["Inquisitor"],
       "excludes": [],
       "description": "INQUISITOR model only. While an enemy unit is within 9\" of the bearer, worsen the Leadership characteristic of models in that unit by 1. In addition, while an enemy DAEMON unit is within 9\" of the bearer, each time a model in that DAEMON unit makes an attack, subtract 1 from the Hit roll and subtract 1 from the Wound roll.",
       "faction_id": "AoI",
@@ -7189,9 +6564,7 @@
       "name": "Gift of the Prescient",
       "id": "e6f4379a-1116-5e2d-9804-581f77694606",
       "cost": "20",
-      "keywords": [
-        "Inquisitor"
-      ],
+      "keywords": ["Inquisitor"],
       "excludes": [],
       "description": "INQUISITOR model only. Once per battle, if the bearer is on the battlefield, you can use the Rapid Ingress Stratagem for 0CP. When doing so, you must target a GREY KNIGHTS TERMINATOR SQUAD unit from your army, and when using that Stratagem, that unit can be set up anywhere on the battlefield that is more than 3\" away from all enemy units.",
       "faction_id": "AoI",
@@ -7203,9 +6576,7 @@
       "name": "Digital Weapons",
       "id": "41d09187-a96b-51b9-8767-d6d9299b17f8",
       "cost": "10",
-      "keywords": [
-        "Agents of the Imperium"
-      ],
+      "keywords": ["Agents of the Imperium"],
       "excludes": [],
       "description": "AGENTS OF THE IMPERIUM model only. Each time the bearer is selected to fight, roll three D6: for each 4+, one enemy unit within Engagement Range of the bearer suffers 1 mortal wound. Mortal wounds inflicted by this Enhancement are allocated as if they had the [PRECISION] ability.",
       "faction_id": "AoI",
@@ -7217,9 +6588,7 @@
       "name": "Clandestine Operation",
       "id": "42f3220d-b2ca-5cd0-b50f-65e2262bd9ab",
       "cost": "15",
-      "keywords": [
-        "Agents of the Imperium"
-      ],
+      "keywords": ["Agents of the Imperium"],
       "excludes": [],
       "description": "AGENTS OF THE IMPERIUM model only. At the start of the Declare Battle Formations step, you can select up to three AGENTS OF THE IMPERIUM INFANTRY units from your army (excluding GREY KNIGHTS TERMINATOR SQUAD units) – those units gain the Infiltrators ability.",
       "faction_id": "AoI",
@@ -7231,9 +6600,7 @@
       "name": "Fleetmaster",
       "id": "3ce80120-311f-51a8-8f60-3cd52ec3ef90",
       "cost": "20",
-      "keywords": [
-        "Voidfarers"
-      ],
+      "keywords": ["Voidfarers"],
       "excludes": [],
       "description": "VOIDFARERS model only. Once per battle round, you can target the bearer’s unit with the Violent Acquisition, Masters of the Void or Close‐quarters Barrage Stratagems for 0CP.",
       "faction_id": "AoI",
@@ -7245,9 +6612,7 @@
       "name": "Combat Landers",
       "id": "688e00a1-014c-5cc6-83e3-3ed58413877e",
       "cost": "10",
-      "keywords": [
-        "Voidfarers"
-      ],
+      "keywords": ["Voidfarers"],
       "excludes": [],
       "description": "VOIDFARERS model only. At the start of the Declare Battle Formations step, you can select up to three VOIDFARERS units from your army – those units gain the Deep Strike ability.",
       "faction_id": "AoI",
@@ -7423,9 +6788,7 @@
       "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets a unit within 12\", improve the Strength and Armour Penetration characteristics of that attack by 1.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "shooting"
-      ],
+      "phase": ["shooting"],
       "faction_id": "AoI",
       "fluff": "Soldiers trained in shipboard warfare and chamber‐by‐chamber clearance know how best to focus their firepower during close‐range firefights.",
       "detachment": "Imperialis Fleet"
@@ -7440,10 +6803,7 @@
       "effect": "Until the end of the phase, weapons equipped by models in your unit have the [LETHAL HITS] ability.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "fight",
-        "shooting"
-      ],
+      "phase": ["fight", "shooting"],
       "faction_id": "AoI",
       "fluff": "Agents of the Ordo Hereticus are unmerciful in meting out what they see as the Emperor’s justice.",
       "detachment": "Ordo Hereticus, Purgation Force"
@@ -7458,10 +6818,7 @@
       "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a CHARACTER unit, re‑roll a Wound roll of 1. If that attack is made by an OFFICIO ASSASSINORUM model and it targets the enemy WARLORD, you can re‑roll the Wound roll instead.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "fight",
-        "shooting"
-      ],
+      "phase": ["fight", "shooting"],
       "faction_id": "AoI",
       "fluff": "A primary target has been revealed. All efforts must be made to ensure the kill.",
       "detachment": "Veiled Blade Elimination Force"
@@ -7476,10 +6833,7 @@
       "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "fight",
-        "shooting"
-      ],
+      "phase": ["fight", "shooting"],
       "faction_id": "AoI",
       "fluff": "The belligerence and transhuman physiologies of the Deathwatch make them unyielding foes.",
       "detachment": "Ordo Xenos, Alien Hunters"
@@ -7494,10 +6848,7 @@
       "effect": "Until the end of the phase, add 1 to the Toughness characteristic of models in your unit. In addition, if it is an EVERSOR ASSASSIN unit, until the end of the phase, it has the Feel No Pain 4+ ability.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": [
-        "fight",
-        "shooting"
-      ],
+      "phase": ["fight", "shooting"],
       "faction_id": "AoI",
       "fluff": "Unenhanced mortal bodies are routinely – and unknowingly – dosed with experimental stimulant cocktails that serve to reinforce their resilience, at least in the short term.",
       "detachment": "Veiled Blade Elimination Force"
@@ -7512,9 +6863,7 @@
       "effect": "Until the end of the phase, each AGENTS OF THE IMPERIUM unit from your army that is arriving from Strategic Reserves this turn can be set up within your opponent’s deployment zone (all other restrictions still apply).",
       "restrictions": "",
       "type": "Epic Deed",
-      "phase": [
-        "movement"
-      ],
+      "phase": ["movement"],
       "faction_id": "AoI",
       "fluff": "With command of the orbital engagement zone comes the ability to strike at the enemy from unexpected angles.",
       "detachment": "Imperialis Fleet"
@@ -7529,10 +6878,7 @@
       "effect": "Until the end of the phase, each time an attack with the [PRECISION] ability is allocated to a CHARACTER model in your unit, if there are one or more Bodyguard models in your unit, roll one D6: on a 2+, that attack is allocated to a Bodyguard model of your choice in your unit instead.",
       "restrictions": "",
       "type": "Epic Deed",
-      "phase": [
-        "fight",
-        "shooting"
-      ],
+      "phase": ["fight", "shooting"],
       "faction_id": "AoI",
       "fluff": "Loyal Imperial warriors will martyr themselves gladly to protect high‐ranking Imperial agents.",
       "detachment": "Imperialis Fleet"
@@ -7547,9 +6893,7 @@
       "effect": "Select one enemy CHARACTER unit on the battlefield. Until the start of your next Command phase, each time a model in your unit targets that CHARACTER unit, its weapons have the [PRECISION] ability.",
       "restrictions": "",
       "type": "Epic Deed",
-      "phase": [
-        "command"
-      ],
+      "phase": ["command"],
       "faction_id": "AoI",
       "fluff": "There can be no mercy for heretic leaders.",
       "detachment": "Ordo Hereticus, Purgation Force"
@@ -7564,9 +6908,7 @@
       "effect": "Until the end of the phase, your unit is eligible to shoot in a turn in which it Advanced or Fell Back.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "movement"
-      ],
+      "phase": ["movement"],
       "faction_id": "AoI",
       "fluff": "Believing they fight for the safety of the Golden Throne motivates warriors to exceptional deeds.",
       "detachment": "Imperialis Fleet"
@@ -7581,9 +6923,7 @@
       "effect": "Until the end of the phase, models in your unit can target enemy units that are within Engagement Range of one or more friendly units with ranged weapons (excluding Blast weapons), provided the target is within 12\".",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "shooting"
-      ],
+      "phase": ["shooting"],
       "faction_id": "AoI",
       "fluff": "These ruthless warriors will risk firing into their own ranks if it ensures the deaths of heretics.",
       "detachment": "Ordo Hereticus, Purgation Force"
@@ -7598,9 +6938,7 @@
       "effect": "After the attacking unit has shot, your unit can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target).",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "shooting"
-      ],
+      "phase": ["shooting"],
       "faction_id": "AoI",
       "fluff": "Vengeance is swift and unforgiving for those who attack the servants of the Emperor.",
       "detachment": "Ordo Hereticus, Purgation Force"
@@ -7615,10 +6953,7 @@
       "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "fight",
-        "shooting"
-      ],
+      "phase": ["fight", "shooting"],
       "faction_id": "AoI",
       "fluff": "These warriors defend the sanctity of the Emperor’s realm with unwavering determination, no matter the odds stacked against them.",
       "detachment": "Ordo Hereticus, Purgation Force"
@@ -7633,9 +6968,7 @@
       "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability. In addition, if it is a CULEXUS ASSASSIN unit, until the end of the phase, change the Damage characteristic of ranged weapons equipped by models in your unit to 3.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "shooting"
-      ],
+      "phase": ["shooting"],
       "faction_id": "AoI",
       "fluff": "Aiming concentrated volleys of fire toward an exceptionally resilient foe, these agents erode the will of their target, increasing their vulnerability to the concentrated psychic onslaughts of the Culexus Assassin’s animus speculum.",
       "detachment": "Veiled Blade Elimination Force"
@@ -7650,9 +6983,7 @@
       "effect": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\", or, if your unit has the Lone Operative ability, if the attacking model is within 6\".",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "shooting"
-      ],
+      "phase": ["shooting"],
       "faction_id": "AoI",
       "fluff": "Aided by orbiting assets, when the assault begins, voidships flood communication networks with jamming frequencies, fire screening bombardments and otherwise mask the agents’ approach.",
       "detachment": "Veiled Blade Elimination Force"
@@ -7667,9 +6998,7 @@
       "effect": "Until the end of the phase, subtract 1 from Charge rolls made for that enemy unit, or, if your unit is a VINDICARE ASSASSIN, subtract 2 from Charge rolls made for that enemy unit instead.&x20;",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "charge"
-      ],
+      "phase": ["charge"],
       "faction_id": "AoI",
       "fluff": "These grenades release thick black smoke and broad‑spectrum electromagnetic chaff that disrupt vision and foul augury equipment upon detonating.",
       "detachment": "Veiled Blade Elimination Force"
@@ -7684,9 +7013,7 @@
       "effect": "Your unit can declare a charge. When doing so, you must select one or more of those enemy units as the targets of that charge, and your unit does not receive a Charge bonus this turn. In addition, if it is a CALLIDUS ASSASSIN unit and it makes a Charge move as a result of this Stratagem, until the end of the turn, each time a model in your unit makes a melee attack, add 1 to the Wound roll",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "charge"
-      ],
+      "phase": ["charge"],
       "faction_id": "AoI",
       "fluff": "The eyes of the Officio Assassinorum are everywhere. As the foe turns to flee, the noose tightens, agents already forewarned of enemy movements and moving swiftly to cut off all avenues of retreat.",
       "detachment": "Veiled Blade Elimination Force"
@@ -7701,9 +7028,7 @@
       "effect": "Select the Furor Tactics, Malleus Tactics or Purgatus Tactics. Until the start of your next Command phase, that Deathwatch Mission Tactic is active for your unit instead of any other Deathwatch Mission Tactic that is active for your army, even if you have already selected that Deathwatch Mission Tactic this battle.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "command"
-      ],
+      "phase": ["command"],
       "faction_id": "AoI",
       "fluff": "Only a truly versatile approach to warfare allows the Deathwatch to focus their tactical genius and best the myriad xenos foes they face.",
       "detachment": "Ordo Xenos, Alien Hunters"
@@ -7718,9 +7043,7 @@
       "effect": "Remove your unit from the battlefield. In the Reinforcements step of your next Movement phase, set your unit up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models.",
       "restrictions": "You cannot select a unit that is within Engagement Range of one or more enemy units.",
       "type": "Strategic Ploy",
-      "phase": [
-        "fight"
-      ],
+      "phase": ["fight"],
       "faction_id": "AoI",
       "fluff": "The Ordo Xenos and Deathwatch alike have access to swift gunships and landers that allow for hasty repositioning in the midst of battle.",
       "detachment": "Ordo Xenos, Alien Hunters"
@@ -7735,9 +7058,7 @@
       "effect": "That objective marker is said to be Warded and remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn. While an objective marker is Warded and under your control, enemy DAEMON units cannot be set up on the battlefield within 6\" of it.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "command"
-      ],
+      "phase": ["command"],
       "faction_id": "AoI",
       "fluff": "Whether sanctifying the battlefield against heresy or binding sinister guardian entities to keep watch, this ritual extends its practitioner’s strategic influence.",
       "detachment": "Ordo Malleus, Daemon Hunters"
@@ -7752,10 +7073,7 @@
       "effect": "Select one enemy DAEMON unit within 12\" and visible to your unit. That unit must take a Battle‐shock test. If that test is failed, then until the end of the phase, each time a friendly AGENTS OF THE IMPERIUM unit makes an attack that targets that DAEMON unit, that attack has the [DEVASTATING WOUNDS] ability.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "fight",
-        "shooting"
-      ],
+      "phase": ["fight", "shooting"],
       "faction_id": "AoI",
       "fluff": "With the correct words of abjuration and banishment, daemons can be driven out of realspace and back into the warp.",
       "detachment": "Ordo Malleus, Daemon Hunters"
@@ -7770,9 +7088,7 @@
       "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "movement"
-      ],
+      "phase": ["movement"],
       "faction_id": "AoI",
       "fluff": "The battle‐brothers of the Grey Knights never flee from their daemonic foes, instead merely withdrawing momentarily before striking anew.",
       "detachment": "Ordo Malleus, Daemon Hunters"
@@ -7787,10 +7103,7 @@
       "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit within range of an objective marker, that attack has the [SUSTAINED HITS 1], [LANCE] and [IGNORES COVER] abilities.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": [
-        "fight",
-        "shooting"
-      ],
+      "phase": ["fight", "shooting"],
       "faction_id": "AoI",
       "fluff": "If a high‐ranking Imperial agent locates something they wish to acquire, nothing will stop them from unleashing all the forces at their command to seize it.",
       "detachment": "Imperialis Fleet"
@@ -7805,9 +7118,7 @@
       "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save and, after the attacking unit has resolved its attacks, unless your unit is within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\" (when doing so, models in this unit move as if they have the FLY keyword).",
       "restrictions": "",
       "type": "Wargear",
-      "phase": [
-        "shooting"
-      ],
+      "phase": ["shooting"],
       "faction_id": "AoI",
       "fluff": "These rare protective fields perform microteleport displacements to remove their bearers from harm.",
       "detachment": "Imperialis Fleet"
@@ -7822,9 +7133,7 @@
       "effect": "Select one enemy unit (excluding MONSTERS or VEHICLES) within 8\" of and visible to your unit. That enemy unit must take a Battle‐shock test and, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
       "restrictions": "",
       "type": "Wargear",
-      "phase": [
-        "any"
-      ],
+      "phase": ["any"],
       "faction_id": "AoI",
       "fluff": "Emitting blasts of light, sound and blinding smoke, these devices disorient the foe.",
       "detachment": "Ordo Hereticus, Purgation Force"
@@ -7839,9 +7148,7 @@
       "effect": "Until the end of the phase, ranged weapons (excluding Devastating Wounds weapons) equipped by models in your unit have the [ANTI‐INFANTRY 2+] and [ANTI‐MONSTER 5+] abilities.",
       "restrictions": "You cannot select any units that have already been targeted with either the Kraken Rounds or Dragonfire Rounds Stratagems this phase.",
       "type": "Wargear",
-      "phase": [
-        "shooting"
-      ],
+      "phase": ["shooting"],
       "faction_id": "AoI",
       "fluff": "Hellfire rounds contain reservoirs of virulent bio‐acids that eat away the flesh of their victims in seconds and leave nothing but bubbling gruel.",
       "detachment": "Ordo Xenos, Alien Hunters"
@@ -7856,9 +7163,7 @@
       "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [ASSAULT] and [IGNORES COVER] abilities.",
       "restrictions": "You cannot select any units that have already been targeted with either the Kraken Rounds or Hellfire Rounds Stratagems this phase.",
       "type": "Wargear",
-      "phase": [
-        "shooting"
-      ],
+      "phase": ["shooting"],
       "faction_id": "AoI",
       "fluff": "Dragonfire rounds are designed to explode just before contact, saturating foes in cover with searing gas and flames.",
       "detachment": "Ordo Xenos, Alien Hunters"
@@ -7873,9 +7178,7 @@
       "effect": "Until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in your unit by 1 and improve the Range characteristic of those weapons by 6\".",
       "restrictions": "You cannot select any units that have already been targeted with either the Dragonfire Rounds or Hellfire Rounds Stratagems this phase.",
       "type": "Wargear",
-      "phase": [
-        "shooting"
-      ],
+      "phase": ["shooting"],
       "faction_id": "AoI",
       "fluff": "Kraken rounds utilise adamantine cores and improved propellants to penetrate the thickest hide.",
       "detachment": "Ordo Xenos, Alien Hunters"
@@ -7890,10 +7193,7 @@
       "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
       "restrictions": "",
       "type": "Wargear",
-      "phase": [
-        "fight",
-        "shooting"
-      ],
+      "phase": ["fight", "shooting"],
       "faction_id": "AoI",
       "fluff": "Grey Knights battle plate incorporates litanies of purity, strands of sanctified silver and other sacred wards, whose defences can be further empowered by ritual mantras.",
       "detachment": "Ordo Malleus, Daemon Hunters"
@@ -7908,10 +7208,7 @@
       "effect": "Until the end of the phase, all Psychic weapons equipped by models in the attacking unit have the [HAZARDOUS] ability.",
       "restrictions": "",
       "type": "Wargear",
-      "phase": [
-        "fight",
-        "shooting"
-      ],
+      "phase": ["fight", "shooting"],
       "faction_id": "AoI",
       "fluff": "Ancient warding sigils inscribed in shimmering silver, these strange runic designs ward away the hostile energies of the warp.",
       "detachment": "Ordo Malleus, Daemon Hunters"
@@ -7926,9 +7223,7 @@
       "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] and [PSYCHIC] abilities.",
       "restrictions": "",
       "type": "Wargear",
-      "phase": [
-        "shooting"
-      ],
+      "phase": ["shooting"],
       "faction_id": "AoI",
       "fluff": "Specially consecrated and silver‐tipped, these bolt shells channel the firer’s innate psychic fury and detonate spectacularly on impact.",
       "detachment": "Ordo Malleus, Daemon Hunters"

@@ -41,6 +41,12 @@ def parse_composition_entry(entry: str) -> Tuple[str, int, int, int]:
     # Nettoyer l'entrée
     entry = entry.strip()
     
+    # Remplacer les caractères spéciaux
+    entry = entry.replace('&x20;', ' ')  # Espace encodé en HTML
+    entry = entry.replace('‑', '-')      # Tiret cadratin vers tiret normal
+    entry = entry.replace('–', '-')      # Tiret en vers tiret normal
+    entry = entry.replace('—', '-')      # Tiret em vers tiret normal
+    
     # Pattern pour extraire le nombre et le nom
     # Supporte: "1 Nom", "2-5 Nom", "0-1 Nom", "1 Nom – SUFFIX"
     pattern = r'^(\d+)(?:-(\d+))?\s+(.+?)(?:\s*–\s*[^–]+)?$'

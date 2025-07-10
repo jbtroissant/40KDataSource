@@ -976,7 +976,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "85"
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -3652,10 +3652,9 @@
       "name": "datasheets.Rubric_Marines.leadBy.3",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -3947,10 +3946,9 @@
       "name": "Exalted Sorcerer",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -4097,10 +4095,9 @@
       "name": "datasheets.Scarab_Occult_Terminators.leadBy.0",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -4766,10 +4763,9 @@
       "name": "datasheets.Daemon_Prince_of_Tzeentch.name",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [

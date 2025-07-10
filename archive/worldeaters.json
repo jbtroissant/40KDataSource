@@ -1981,10 +1981,9 @@
       "name": "Daemon Prince of Khorne",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -2104,12 +2103,12 @@
         {
           "name": "model",
           "model": "3",
-          "cost": "160"
+          "cost": "150"
         },
         {
           "name": "model",
           "model": "6",
-          "cost": "320"
+          "cost": "300"
         }
       ],
       "rangedWeapons": [],
@@ -2338,16 +2337,14 @@
       "name": "Exalted Eightbound",
       "points": [
         {
-          "cost": "320",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "160"
         },
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "320"
         }
       ],
       "rangedWeapons": [],

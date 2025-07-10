@@ -1413,7 +1413,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "85"
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -3966,13 +3966,13 @@
       "points": [
         {
           "name": "model",
-          "model": "5",
-          "cost": "65"
+          "model": "10",
+          "cost": "80"
         },
         {
           "name": "model",
-          "model": "10",
-          "cost": "130"
+          "model": "20",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -4865,16 +4865,14 @@
       "name": "Stormboyz",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "65"
         },
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -5629,7 +5627,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "130"
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -5906,10 +5904,9 @@
       "name": "Big Mek in Mega Armour",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -6093,10 +6090,9 @@
       "name": "Rukkatrukk Squigbuggy",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -6265,16 +6261,14 @@
       "name": "Beast Snagga Boyz",
       "points": [
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "20",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "95"
         },
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "20",
+          "cost": "190"
         }
       ],
       "rangedWeapons": [
@@ -7348,10 +7342,9 @@
       "name": "Big Mek with Shokk Attack Gun",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -8097,10 +8090,9 @@
       "name": "Beastboss on Squigosaur",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -8271,28 +8263,24 @@
       "name": "Meganobz",
       "points": [
         {
-          "cost": "210",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "70"
         },
         {
-          "cost": "175",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "105"
         },
         {
-          "cost": "105",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "175"
         },
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "210"
         }
       ],
       "rangedWeapons": [
@@ -9140,10 +9128,9 @@
       "name": "Warboss",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [

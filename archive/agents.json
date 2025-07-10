@@ -1696,12 +1696,12 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "75"
+          "cost": "55"
         },
         {
           "name": "model",
           "model": 1,
-          "cost": "95",
+          "cost": "55",
           "source": "ALLIED"
         }
       ],
@@ -4495,16 +4495,15 @@
       "name": "Inquisitor Draxus",
       "points": [
         {
-          "cost": "95",
-          "keyword": "Imperium",
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         },
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": 1,
+          "cost": "95",
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -4815,16 +4814,15 @@
       "name": "Inquisitor Coteaz",
       "points": [
         {
-          "cost": "95",
-          "keyword": "Imperium",
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         },
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": 1,
+          "cost": "95",
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [

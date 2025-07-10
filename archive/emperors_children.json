@@ -1211,7 +1211,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "200"
+          "cost": "195"
         }
       ],
       "rangedWeapons": [
@@ -1970,10 +1970,9 @@
       "name": "Daemon Prince of Slaanesh with Wings",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [

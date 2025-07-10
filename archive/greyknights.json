@@ -1553,7 +1553,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "220"
+          "cost": "240"
         }
       ],
       "rangedWeapons": [
@@ -3756,10 +3756,9 @@
       "name": "Grey Knights Land Raider Crusader",
       "points": [
         {
-          "cost": "220",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -4815,10 +4814,9 @@
       "name": "Grand Master Voldus",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -4952,10 +4950,9 @@
       "name": "Brother-Captain Stern",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -5550,10 +5547,9 @@
       "name": "Nemesis Dreadknight",
       "points": [
         {
-          "cost": "210",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "210"
         }
       ],
       "rangedWeapons": [

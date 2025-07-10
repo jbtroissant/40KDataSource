@@ -295,7 +295,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "75"
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -2039,10 +2039,9 @@
       "name": "Marshal",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -2502,10 +2501,9 @@
       "name": "Black Templars Repulsor",
       "points": [
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "190"
         }
       ],
       "rangedWeapons": [

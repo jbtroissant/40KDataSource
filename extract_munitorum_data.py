@@ -239,6 +239,14 @@ def extract_munitorum_data(pdf_path: str) -> Dict[str, Any]:
     for faction in data["factions"]:
         faction["enhancements"] = [e for e in faction["enhancements"] if e.get("enhancements") and len(e["enhancements"]) > 0]
 
+    # === RENOMMAGE DES FACTIONS ===
+    for faction in data["factions"]:
+        # On gère les deux types d'apostrophes
+        if "T'AU EMPIRE" in faction["name"] or "T’AU EMPIRE" in faction["name"]:
+            faction["name"] = "TAU"
+        elif "EMPEROR'S CHILDREN" in faction["name"] or "EMPEROR’S CHILDREN" in faction["name"]:
+            faction["name"] = "EMPERORS_CHILDREN"
+
     return data
 
 def save_data(data: Dict[str, Any], output_path: str):

@@ -1164,7 +1164,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "200"
+          "cost": "195"
         }
       ],
       "rangedWeapons": [
@@ -1896,10 +1896,9 @@
       "name": "datasheets.Daemon_Prince_of_Slaanesh_with_Wings.name",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [

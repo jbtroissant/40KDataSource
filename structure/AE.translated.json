@@ -1831,7 +1831,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "80"
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -4352,7 +4352,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "420"
+          "cost": "435"
         }
       ],
       "rangedWeapons": [
@@ -6440,13 +6440,8 @@
       "points": [
         {
           "name": "model",
-          "model": "2",
-          "cost": "55"
-        },
-        {
-          "name": "model",
-          "model": "4",
-          "cost": "130"
+          "model": "1",
+          "cost": "45"
         }
       ],
       "rangedWeapons": [
@@ -6622,10 +6617,9 @@
       "name": "Wraithknight with Ghostglaive",
       "points": [
         {
-          "cost": "420",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "420"
         }
       ],
       "rangedWeapons": [
@@ -6814,16 +6808,14 @@
       "name": "Warlock Conclave",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "4",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "55"
         },
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "4",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -7008,10 +7000,9 @@
       "name": "Farseer",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -7362,10 +7353,9 @@
       "name": "Autarch Wayleaper",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [

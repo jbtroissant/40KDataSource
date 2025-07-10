@@ -4245,10 +4245,9 @@
       "name": "AX-1-0 Tiger Shark",
       "points": [
         {
-          "cost": "315",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "315"
         }
       ],
       "rangedWeapons": [

@@ -1015,7 +1015,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "85"
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -3782,10 +3782,9 @@
       "name": "Exalted Sorcerer on Disc of Tzeentch",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -4089,10 +4088,9 @@
       "name": "Exalted Sorcerer",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -4245,10 +4243,9 @@
       "name": "Sorcerer in Terminator Armour",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -4939,10 +4936,9 @@
       "name": "Daemon Prince of Tzeentch",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [

@@ -749,12 +749,12 @@
         {
           "name": "model",
           "model": "5",
-          "cost": "120"
+          "cost": "85"
         },
         {
           "name": "model",
           "model": "10",
-          "cost": "230"
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -1814,16 +1814,14 @@
       "name": "Death Company Marines with Bolt Rifles",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "85"
         },
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -2655,16 +2653,14 @@
       "name": "Death Company Marines with Jump Packs",
       "points": [
         {
-          "cost": "230",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "120"
         },
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "230"
         }
       ],
       "rangedWeapons": [
@@ -2906,10 +2902,9 @@
       "name": "Death Company Captain",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [

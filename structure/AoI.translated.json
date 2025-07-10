@@ -1648,12 +1648,12 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "75"
+          "cost": "55"
         },
         {
           "name": "model",
           "model": 1,
-          "cost": "95",
+          "cost": "55",
           "source": "ALLIED"
         }
       ],
@@ -4363,16 +4363,15 @@
       "name": "datasheets.Inquisitorial_Agents.leadBy.2",
       "points": [
         {
-          "cost": "95",
-          "keyword": "Imperium",
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         },
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": 1,
+          "cost": "95",
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -4671,16 +4670,15 @@
       "name": "datasheets.Inquisitorial_Agents.leadBy.3",
       "points": [
         {
-          "cost": "95",
-          "keyword": "Imperium",
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         },
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": 1,
+          "cost": "95",
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [

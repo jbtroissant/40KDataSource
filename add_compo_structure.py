@@ -8,9 +8,22 @@ en analysant la composition et en générant des UUIDs pour les stats.
 import json
 import os
 import re
+import sys
 import uuid
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
+
+# Icônes pour améliorer la lisibilité
+ICONS = {
+    "success": "✅",
+    "warning": "⚠️",
+    "error": "❌",
+    "info": "ℹ️",
+    "processing": "🔄",
+    "file": "📁",
+    "check": "✓",
+    "skip": "⏭️"
+}
 
 def generate_uuid() -> str:
     """Génère un UUID v4."""
@@ -28,13 +41,19 @@ def parse_composition_entry(entry: str) -> Tuple[str, int, int, int]:
     # Nettoyer l'entrée
     entry = entry.strip()
     
+    # Remplacer les caractères spéciaux
+    entry = entry.replace('&x20;', ' ')  # Espace encodé en HTML
+    entry = entry.replace('‑', '-')      # Tiret cadratin vers tiret normal
+    entry = entry.replace('–', '-')      # Tiret en vers tiret normal
+    entry = entry.replace('—', '-')      # Tiret em vers tiret normal
+    
     # Pattern pour extraire le nombre et le nom
     # Supporte: "1 Nom", "2-5 Nom", "0-1 Nom", "1 Nom – SUFFIX"
     pattern = r'^(\d+)(?:-(\d+))?\s+(.+?)(?:\s*–\s*[^–]+)?$'
     match = re.match(pattern, entry)
     
     if not match:
-        print(f"Warning: Impossible de parser l'entrée de composition: {entry}")
+        print(f"{ICONS['warning']} Impossible de parser l'entrée de composition: {entry}")
         return (entry, 1, 1, 1)
     
     min_count = int(match.group(1))
@@ -91,10 +110,27 @@ def create_compo_structure(composition: List[str], stats: List[Dict]) -> List[Di
     """
     compo_structure = []
     
+    # Si il n'y a qu'une seule stat, utiliser son ID pour toutes les entrées
+    single_stat_id = None
+    if len(stats) == 1:
+        single_stat_id = ensure_stat_has_id(stats[0])
+        print(f"{ICONS['info']} Une seule stat trouvée, utilisation de l'ID unique: {single_stat_id}")
+    
     for entry in composition:
         name, count, min_count, max_count = parse_composition_entry(entry)
         
-        # Trouver la stat correspondante
+        # Si il n'y a qu'une seule stat, utiliser son ID
+        if single_stat_id:
+            compo_structure.append({
+                "name": name,
+                "id": single_stat_id,
+                "count": count,
+                "min": min_count,
+                "max": max_count
+            })
+            continue
+        
+        # Sinon, chercher la stat correspondante
         matching_stat_name = find_matching_stat_name(name, stats)
         
         if matching_stat_name:
@@ -116,7 +152,7 @@ def create_compo_structure(composition: List[str], stats: List[Dict]) -> List[Di
                     "max": max_count
                 })
             else:
-                print(f"Warning: Stat trouvée mais pas dans la liste: {matching_stat_name}")
+                print(f"{ICONS['warning']} Stat trouvée mais pas dans la liste: {matching_stat_name}")
                 # Créer une entrée avec un ID généré
                 compo_structure.append({
                     "name": name,
@@ -126,7 +162,7 @@ def create_compo_structure(composition: List[str], stats: List[Dict]) -> List[Di
                     "max": max_count
                 })
         else:
-            print(f"Warning: Aucune stat correspondante trouvée pour: {name}")
+            print(f"{ICONS['warning']} Aucune stat correspondante trouvée pour: {name}")
             # Créer une entrée avec un ID généré
             compo_structure.append({
                 "name": name,
@@ -140,17 +176,18 @@ def create_compo_structure(composition: List[str], stats: List[Dict]) -> List[Di
 
 def process_faction_file(file_path: Path) -> None:
     """Traite un fichier de faction."""
-    print(f"Traitement de {file_path.name}...")
+    print(f"{ICONS['processing']} Traitement de {file_path.name}...")
     
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
         if 'datasheets' not in data:
-            print(f"Warning: Pas de datasheets dans {file_path.name}")
+            print(f"{ICONS['warning']} Pas de datasheets dans {file_path.name}")
             return
         
         modified = False
+        processed_datasheets = 0
         
         for datasheet in data['datasheets']:
             if 'composition' in datasheet and 'stats' in datasheet:
@@ -162,44 +199,79 @@ def process_faction_file(file_path: Path) -> None:
                     )
                     datasheet['compo_structure'] = compo_structure
                     modified = True
+                    processed_datasheets += 1
         
         if modified:
             # Sauvegarder avec backup
             backup_path = file_path.with_suffix('.json.backup')
             if not backup_path.exists():
                 os.rename(file_path, backup_path)
+                print(f"{ICONS['info']} Backup créé: {backup_path.name}")
             
             with open(file_path, 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
             
-            print(f"✓ {file_path.name} traité et sauvegardé")
+            print(f"{ICONS['success']} {file_path.name} traité et sauvegardé ({processed_datasheets} datasheets modifiées)")
         else:
-            print(f"- {file_path.name} déjà traité ou pas de modifications")
+            print(f"{ICONS['skip']} {file_path.name} déjà traité ou pas de modifications")
     
     except Exception as e:
-        print(f"Erreur lors du traitement de {file_path.name}: {e}")
+        print(f"{ICONS['error']} Erreur lors du traitement de {file_path.name}: {e}")
+
+def print_usage():
+    """Affiche l'utilisation du script."""
+    print(f"{ICONS['info']} Utilisation:")
+    print("  python add_compo_structure.py                    # Traite tous les fichiers du dossier archive")
+    print("  python add_compo_structure.py <fichier.json>     # Traite un seul fichier spécifique")
+    print("  python add_compo_structure.py --help             # Affiche cette aide")
 
 def main():
     """Fonction principale."""
+    # Vérifier les arguments
+    if len(sys.argv) > 1:
+        if sys.argv[1] in ['--help', '-h', 'help']:
+            print_usage()
+            return
+        
+        # Traiter un fichier spécifique
+        file_path = Path(sys.argv[1])
+        
+        if not file_path.exists():
+            print(f"{ICONS['error']} Le fichier {file_path} n'existe pas")
+            return
+        
+        if not file_path.suffix.lower() == '.json':
+            print(f"{ICONS['error']} Le fichier doit être un fichier JSON")
+            return
+        
+        print(f"{ICONS['file']} Traitement du fichier: {file_path}")
+        process_faction_file(file_path)
+        print(f"{ICONS['success']} Traitement terminé !")
+        return
+    
+    # Traiter tous les fichiers du dossier archive
     archive_dir = Path("archive")
     
     if not archive_dir.exists():
-        print("Erreur: Le dossier 'archive' n'existe pas")
+        print(f"{ICONS['error']} Le dossier 'archive' n'existe pas")
         return
     
     # Traiter tous les fichiers JSON dans le dossier archive
     json_files = list(archive_dir.glob("*.json"))
     
     if not json_files:
-        print("Aucun fichier JSON trouvé dans le dossier archive")
+        print(f"{ICONS['warning']} Aucun fichier JSON trouvé dans le dossier archive")
         return
     
-    print(f"Traitement de {len(json_files)} fichiers...")
+    print(f"{ICONS['info']} Traitement de {len(json_files)} fichiers...")
+    print(f"{ICONS['info']} Icônes: {ICONS['success']} Succès | {ICONS['warning']} Avertissement | {ICONS['error']} Erreur | {ICONS['skip']} Ignoré")
+    print("-" * 80)
     
-    for file_path in json_files:
+    for i, file_path in enumerate(json_files, 1):
+        print(f"\n{ICONS['info']} [{i}/{len(json_files)}] ", end="")
         process_faction_file(file_path)
     
-    print("Traitement terminé !")
+    print(f"\n{ICONS['success']} Traitement terminé !")
 
 if __name__ == "__main__":
     main() 

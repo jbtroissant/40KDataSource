@@ -10,6 +10,18 @@ import os
 import re
 from pathlib import Path
 
+# Icônes pour améliorer la lisibilité
+ICONS = {
+    "success": "✅",
+    "warning": "⚠️",
+    "error": "❌",
+    "info": "ℹ️",
+    "processing": "🔄",
+    "file": "📁",
+    "check": "✓",
+    "skip": "⏭️"
+}
+
 def normalize_faction_name(name):
     """Normalise le nom de faction pour la correspondance avec les fichiers d'archive"""
     # Mapping des noms de factions vers les noms de fichiers d'archive
@@ -56,7 +68,7 @@ def normalize_faction_name(name):
     
     # Normalisation pour gérer toutes les apostrophes Unicode
     normalized_name = name.upper()
-    for apostrophe in ["’", "‘", "‛", "′", "ʻ", "ʼ", "ʽ", "ʾ", "ʿ", "ˈ", "ˊ", "ˋ", "˴", "`", "´", "ʹ", "ʺ", "'", "＇"]:
+    for apostrophe in ["'", "'", "‛", "′", "ʻ", "ʼ", "ʽ", "ʾ", "ʿ", "ˈ", "ˊ", "ˋ", "˴", "`", "´", "ʹ", "ʺ", "'", "＇"]:
         normalized_name = normalized_name.replace(apostrophe, "'")
     
     # Essayer d'abord avec le mapping exact
@@ -74,8 +86,11 @@ def normalize_unit_name(name):
     return normalized.strip()
 
 def find_matching_unit(unit_name, datasheets):
-    """Trouve l'unité correspondante dans les datasheets"""
+    """Trouve l'unité correspondante dans les datasheets avec une correspondance plus précise"""
     normalized_search = normalize_unit_name(unit_name)
+    
+    # Liste pour stocker toutes les correspondances trouvées
+    matches = []
     
     for datasheet in datasheets:
         datasheet_name = datasheet.get('name', '')
@@ -83,29 +98,53 @@ def find_matching_unit(unit_name, datasheets):
         
         # Correspondance exacte
         if normalized_search == normalized_datasheet:
-            return datasheet
-        
-        # Correspondance partielle (pour gérer les variations de noms)
-        if normalized_search in normalized_datasheet or normalized_datasheet in normalized_search:
-            return datasheet
+            matches.append((datasheet, 100))  # Score parfait
+        # Correspondance partielle
+        elif normalized_search in normalized_datasheet or normalized_datasheet in normalized_search:
+            # Calculer un score de similarité
+            score = 0
+            if normalized_search in normalized_datasheet:
+                score += 50
+            if normalized_datasheet in normalized_search:
+                score += 50
+            # Bonus pour les mots communs
+            search_words = set(normalized_search.split())
+            datasheet_words = set(normalized_datasheet.split())
+            common_words = search_words.intersection(datasheet_words)
+            score += len(common_words) * 10
+            matches.append((datasheet, score))
     
-    return None
+    if not matches:
+        return None
+    
+    # Trier par score et retourner le meilleur match
+    matches.sort(key=lambda x: x[1], reverse=True)
+    best_match = matches[0]
+    
+    # Si il y a plusieurs matches avec le même score, afficher un warning
+    if len(matches) > 1 and matches[0][1] == matches[1][1]:
+        print(f"{ICONS['warning']} Plusieurs correspondances trouvées pour '{unit_name}':")
+        for match, score in matches[:3]:  # Afficher les 3 premiers
+            print(f"    - {match.get('name', 'Unknown')} (score: {score})")
+    
+    return best_match[0]
 
 def update_points_in_archive():
     """Met à jour les points dans les fichiers d'archive"""
     
     # Charger les données du munitorum
-    print("Chargement du fichier munitorum_data_final.json...")
+    print(f"{ICONS['info']} Chargement du fichier munitorum_data_final.json...")
     with open('munitorum_data_final.json', 'r', encoding='utf-8') as f:
         munitorum_data = json.load(f)
     
     archive_dir = Path('archive')
     if not archive_dir.exists():
-        print("Erreur: Le dossier 'archive' n'existe pas!")
+        print(f"{ICONS['error']} Le dossier 'archive' n'existe pas!")
         return
     
     total_updates = 0
     total_factions = 0
+    total_not_found = 0
     
     # Parcourir chaque faction dans les données du munitorum
     for faction_data in munitorum_data.get('factions', []):
@@ -120,21 +159,22 @@ def update_points_in_archive():
         archive_path = archive_dir / archive_filename
         
         if not archive_path.exists():
-            print(f"⚠️  Fichier d'archive non trouvé pour {faction_name}: {archive_filename}")
+            print(f"{ICONS['warning']} Fichier d'archive non trouvé pour {faction_name}: {archive_filename}")
             continue
         
-        print(f"\n📁 Traitement de {faction_name} ({archive_filename})...")
+        print(f"\n{ICONS['file']} Traitement de {faction_name} ({archive_filename})...")
         
         # Charger le fichier d'archive
         try:
             with open(archive_path, 'r', encoding='utf-8') as f:
                 archive_data = json.load(f)
         except Exception as e:
-            print(f"❌ Erreur lors du chargement de {archive_filename}: {e}")
+            print(f"{ICONS['error']} Erreur lors du chargement de {archive_filename}: {e}")
             continue
         
         datasheets = archive_data.get('datasheets', [])
         faction_updates = 0
+        faction_not_found = 0
         
         # Parcourir chaque unité de la faction
         for unit_data in units_data:
@@ -150,29 +190,38 @@ def update_points_in_archive():
             if matching_datasheet:
                 # Mettre à jour les points
                 old_points = matching_datasheet.get('points', [])
+                old_cost = old_points[0].get('cost', 'N/A') if old_points else 'N/A'
+                new_cost = new_costs[0].get('cost', 'N/A') if new_costs else 'N/A'
+                
                 matching_datasheet['points'] = new_costs
                 
-                print(f"  ✅ {unit_name}: {len(old_points)} → {len(new_costs)} coûts")
+                print(f"  {ICONS['success']} {unit_name}: {old_cost} → {new_cost}")
                 faction_updates += 1
             else:
-                print(f"  ❌ {unit_name}: unité non trouvée dans les datasheets")
+                print(f"  {ICONS['error']} {unit_name}: unité non trouvée dans les datasheets")
+                faction_not_found += 1
         
         # Sauvegarder le fichier d'archive mis à jour
         if faction_updates > 0:
             try:
                 with open(archive_path, 'w', encoding='utf-8') as f:
                     json.dump(archive_data, f, indent=2, ensure_ascii=False)
-                print(f"💾 {faction_name}: {faction_updates} unités mises à jour")
+                print(f"{ICONS['success']} {faction_name}: {faction_updates} unités mises à jour")
                 total_updates += faction_updates
                 total_factions += 1
             except Exception as e:
-                print(f"❌ Erreur lors de la sauvegarde de {archive_filename}: {e}")
+                print(f"{ICONS['error']} Erreur lors de la sauvegarde de {archive_filename}: {e}")
         else:
-            print(f"ℹ️  {faction_name}: aucune mise à jour nécessaire")
+            print(f"{ICONS['skip']} {faction_name}: aucune mise à jour nécessaire")
+        
+        if faction_not_found > 0:
+            total_not_found += faction_not_found
     
-    print(f"\n🎉 Mise à jour terminée!")
-    print(f"📊 Total: {total_updates} unités mises à jour dans {total_factions} factions")
+    print(f"\n{ICONS['success']} Mise à jour terminée!")
+    print(f"{ICONS['info']} Total: {total_updates} unités mises à jour dans {total_factions} factions")
+    if total_not_found > 0:
+        print(f"{ICONS['warning']} {total_not_found} unités non trouvées")
 
 if __name__ == "__main__":
-    print("🔄 Début de la mise à jour des points depuis munitorum_data_final.json")
+    print(f"{ICONS['processing']} Début de la mise à jour des points depuis munitorum_data_final.json")
     update_points_in_archive() 

@@ -77,7 +77,14 @@ def normalize_faction_name(name):
     
     # Si pas trouvé, essayer avec la normalisation par défaut
     fallback_name = normalized_name.lower().replace(" ", "").replace("'", "")
-    return faction_mapping.get(normalized_name, fallback_name)
+    
+    # Mapping de fallback pour les cas spéciaux
+    fallback_mapping = {
+        "tauempire": "tau",
+        "emperorschildren": "emperors_children"
+    }
+    
+    return fallback_mapping.get(fallback_name, fallback_name)
 
 def normalize_unit_name(name):
     """Normalise le nom d'unité pour la correspondance"""

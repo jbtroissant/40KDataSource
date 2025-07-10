@@ -91,16 +91,14 @@
       "name": "Scout Sentinels",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "55"
         },
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -412,10 +410,9 @@
       "name": "Cadian Castellan",
       "points": [
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "55"
         }
       ],
       "rangedWeapons": [
@@ -655,10 +652,9 @@
       "name": "Gaunt’s Ghosts",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -889,10 +885,9 @@
       "name": "Nork Deddog",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -1024,16 +1019,14 @@
       "name": "Cadian Shock Troops",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "20",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "65"
         },
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "20",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -1355,10 +1348,9 @@
       "name": "datasheets.Militarum_Tempestus_Command_Squad.name",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -1711,10 +1703,9 @@
       "name": "Lord Solar Leontus",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -1875,10 +1866,9 @@
       "name": "Tempestus Aquilons",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -2169,10 +2159,9 @@
       "name": "Krieg Heavy Weapons Squad",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "4",
-          "active": true
+          "name": "model",
+          "model": "4",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -2360,16 +2349,14 @@
       "name": "Ratlings",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "60"
         },
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -2497,10 +2484,9 @@
       "name": "Leman Russ Battle Tank",
       "points": [
         {
-          "cost": "185",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "185"
         }
       ],
       "rangedWeapons": [
@@ -2775,10 +2761,9 @@
       "name": "Stormsword",
       "points": [
         {
-          "cost": "495",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "495"
         }
       ],
       "rangedWeapons": [
@@ -2943,10 +2928,9 @@
       "name": "Taurox Prime",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -3160,10 +3144,9 @@
       "name": "Field Ordnance Battery",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -3340,10 +3323,9 @@
       "name": "Cyclops Demolition Vehicle",
       "points": [
         {
-          "cost": "25",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "25"
         }
       ],
       "rangedWeapons": [],
@@ -3448,10 +3430,9 @@
       "name": "Rogal Dorn Commander",
       "points": [
         {
-          "cost": "265",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "265"
         }
       ],
       "rangedWeapons": [
@@ -3702,10 +3683,9 @@
       "name": "Leman Russ Exterminator",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -4023,16 +4003,14 @@
       "name": "Bullgryn Squad",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "100"
         },
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -4148,10 +4126,9 @@
       "name": "Primaris Psyker",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -4310,10 +4287,9 @@
       "name": "Cadian Heavy Weapons Squad",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -4534,10 +4510,9 @@
       "name": "Catachan Heavy Weapons Squad",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -4751,10 +4726,9 @@
       "name": "Hellhammer",
       "points": [
         {
-          "cost": "450",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "450"
         }
       ],
       "rangedWeapons": [
@@ -4973,10 +4947,9 @@
       "name": "Aegis Defence Line",
       "points": [
         {
-          "cost": "145",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "145"
         }
       ],
       "rangedWeapons": [],
@@ -5082,16 +5055,14 @@
       "name": "Armoured Sentinels",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         },
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -5370,10 +5341,9 @@
       "name": "Commissar",
       "points": [
         {
-          "cost": "30",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "30"
         }
       ],
       "rangedWeapons": [
@@ -5526,10 +5496,9 @@
       "name": "Deathstrike",
       "points": [
         {
-          "cost": "145",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "145"
         }
       ],
       "rangedWeapons": [
@@ -5745,16 +5714,14 @@
       "name": "Death Riders",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "60"
         },
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -5876,10 +5843,9 @@
       "name": "Artillery Team",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -6068,10 +6034,9 @@
       "name": "Leman Russ Executioner",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -6417,16 +6382,14 @@
       "name": "Tempestus Scions",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "70"
         },
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -6728,10 +6691,9 @@
       "name": "Stormlord",
       "points": [
         {
-          "cost": "460",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "460"
         }
       ],
       "rangedWeapons": [
@@ -6982,10 +6944,9 @@
       "name": "datasheets.Nork_Deddog.abilities.other.0.name",
       "points": [
         {
-          "cost": "40",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "40"
         }
       ],
       "rangedWeapons": [
@@ -7157,10 +7118,9 @@
       "name": "Kasrkin",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -7564,10 +7524,9 @@
       "name": "datasheets.Cadian_Shock_Troops.leadBy.4",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -7943,10 +7902,9 @@
       "name": "datasheets.Catachan_Command_Squad.name",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -8300,10 +8258,9 @@
       "name": "Doomhammer",
       "points": [
         {
-          "cost": "445",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "445"
         }
       ],
       "rangedWeapons": [
@@ -8467,10 +8424,9 @@
       "name": "Rogal Dorn Battle Tank",
       "points": [
         {
-          "cost": "240",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "240"
         }
       ],
       "rangedWeapons": [
@@ -8743,10 +8699,9 @@
       "name": "Ministorum Priest",
       "points": [
         {
-          "cost": "35",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "35"
         }
       ],
       "rangedWeapons": [
@@ -8931,16 +8886,14 @@
       "name": "Death Korps of Krieg",
       "points": [
         {
-          "cost": "145",
-          "keyword": null,
-          "models": "20",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "65"
         },
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "20",
+          "cost": "145"
         }
       ],
       "rangedWeapons": [
@@ -9263,10 +9216,9 @@
       "name": "Banesword",
       "points": [
         {
-          "cost": "480",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "480"
         }
       ],
       "rangedWeapons": [
@@ -9431,10 +9383,9 @@
       "name": "Wyvern",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -9673,16 +9624,14 @@
       "name": "Attilan Rough Riders",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "60"
         },
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -9811,10 +9760,9 @@
       "name": "Hellhound",
       "points": [
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "125"
         }
       ],
       "rangedWeapons": [
@@ -10043,10 +9991,9 @@
       "name": "Leman Russ Punisher",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -10421,10 +10368,9 @@
       "name": "datasheets.Death_Korps_of_Krieg.leadBy.4",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -10758,10 +10704,9 @@
       "name": "Sly Marbo",
       "points": [
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "55"
         }
       ],
       "rangedWeapons": [
@@ -10870,10 +10815,9 @@
       "name": "Leman Russ Demolisher",
       "points": [
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "190"
         }
       ],
       "rangedWeapons": [
@@ -11278,16 +11222,14 @@
       "name": "Ogryn Squad",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "60"
         },
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -11432,10 +11374,9 @@
       "name": "Lord Marshal Dreir",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -11578,10 +11519,9 @@
       "name": "Tech-Priest Enginseer",
       "points": [
         {
-          "cost": "45",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "45"
         }
       ],
       "rangedWeapons": [
@@ -11702,10 +11642,9 @@
       "name": "Banehammer",
       "points": [
         {
-          "cost": "450",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "450"
         }
       ],
       "rangedWeapons": [
@@ -11879,16 +11818,14 @@
       "name": "Catachan Jungle Fighters",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "20",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "65"
         },
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "20",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -12058,10 +11995,9 @@
       "name": "Leman Russ Commander",
       "points": [
         {
-          "cost": "235",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "235"
         }
       ],
       "rangedWeapons": [
@@ -12461,10 +12397,9 @@
       "name": "Valkyrie",
       "points": [
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "190"
         }
       ],
       "rangedWeapons": [
@@ -12657,10 +12592,9 @@
       "name": "Ursula Creed",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -12775,10 +12709,9 @@
       "name": "Shadowsword",
       "points": [
         {
-          "cost": "440",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "440"
         }
       ],
       "rangedWeapons": [
@@ -12943,10 +12876,9 @@
       "name": "Manticore",
       "points": [
         {
-          "cost": "165",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "165"
         }
       ],
       "rangedWeapons": [
@@ -13122,10 +13054,9 @@
       "name": "Chimera",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -13351,10 +13282,9 @@
       "name": "Avenger Strike Fighter",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -13495,10 +13425,9 @@
       "name": "Leman Russ Vanquisher",
       "points": [
         {
-          "cost": "145",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "145"
         }
       ],
       "rangedWeapons": [
@@ -13774,10 +13703,9 @@
       "name": "Basilisk",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -13949,10 +13877,9 @@
       "name": "Baneblade",
       "points": [
         {
-          "cost": "480",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "480"
         }
       ],
       "rangedWeapons": [
@@ -14224,16 +14151,14 @@
       "name": "Krieg Combat Engineers",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "70"
         },
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -14471,10 +14396,9 @@
       "name": "Hydra",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -14646,10 +14570,9 @@
       "name": "Leman Russ Eradicator",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [

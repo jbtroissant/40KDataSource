@@ -126,10 +126,9 @@
       "name": "Helbrute",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -402,10 +401,9 @@
       "name": "Mutalith Vortex Beast",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -541,10 +539,9 @@
       "name": "datasheets.Chaos_Land_Raider.name",
       "points": [
         {
-          "cost": "240",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "240"
         }
       ],
       "rangedWeapons": [
@@ -739,10 +736,9 @@
       "name": "Tzaangor Shaman",
       "points": [
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "55"
         }
       ],
       "rangedWeapons": [
@@ -859,10 +855,9 @@
       "name": "Chaos Spawn",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [],
@@ -979,10 +974,9 @@
       "name": "Sorcerer",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -1115,10 +1109,9 @@
       "name": "datasheets.Chaos_Vindicator.name",
       "points": [
         {
-          "cost": "185",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "185"
         }
       ],
       "rangedWeapons": [
@@ -1284,10 +1277,9 @@
       "name": "datasheets.Chaos_Rhino.name",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -1447,10 +1439,9 @@
       "name": "Ahriman",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -1612,16 +1603,14 @@
       "name": "Rubric Marines",
       "points": [
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "100"
         },
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "190"
         }
       ],
       "rangedWeapons": [
@@ -1857,10 +1846,9 @@
       "name": "Infernal Master",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -2027,16 +2015,14 @@
       "name": "Tzaangor Enlightened",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "50"
         },
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -2150,16 +2136,14 @@
       "name": "Tzaangor Enlightened with Fatecaster Greatbows",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "50"
         },
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -2292,16 +2276,14 @@
       "name": "datasheets.Scarab_Occult_Terminators.name",
       "points": [
         {
-          "cost": "375",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "180"
         },
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "375"
         }
       ],
       "rangedWeapons": [
@@ -2562,10 +2544,9 @@
       "name": "Magnus the Red",
       "points": [
         {
-          "cost": "420",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "420"
         }
       ],
       "rangedWeapons": [
@@ -2694,10 +2675,9 @@
       "name": "datasheets.Chaos_Predator_Destructor.name",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -2923,10 +2903,9 @@
       "name": "Defiler",
       "points": [
         {
-          "cost": "165",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "165"
         }
       ],
       "rangedWeapons": [
@@ -3179,10 +3158,9 @@
       "name": "datasheets.Daemon_Prince_of_Tzeentch_with_Wings.name",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -3338,16 +3316,14 @@
       "name": "Tzaangors",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "20",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "70"
         },
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "20",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -3477,16 +3453,14 @@
       "name": "Sekhetar Robots",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "4",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "90"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "4",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -3835,10 +3809,9 @@
       "name": "Maulerfiend",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -4282,10 +4255,9 @@
       "name": "datasheets.Chaos_Predator_Annihilator.name",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -4501,10 +4473,9 @@
       "name": "Forgefiend",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -4635,10 +4606,9 @@
       "name": "Heldrake",
       "points": [
         {
-          "cost": "215",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "215"
         }
       ],
       "rangedWeapons": [

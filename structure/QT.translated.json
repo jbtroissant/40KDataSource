@@ -85,10 +85,9 @@
       "name": "datasheets.War_Dog_Huntsman.name",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -234,10 +233,9 @@
       "name": "datasheets.War_Dog_Brigand.name",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -400,10 +398,9 @@
       "name": "datasheets.War_Dog_Executioner.name",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -575,10 +572,9 @@
       "name": "datasheets.War_Dog_Stalker.name",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -760,10 +756,9 @@
       "name": "datasheets.War_Dog_Moirax.name",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -978,10 +973,9 @@
       "name": "datasheets.War_Dog_Karnivore.name",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -1174,10 +1168,9 @@
       "name": "Knight Despoiler",
       "points": [
         {
-          "cost": "335",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "335"
         }
       ],
       "rangedWeapons": [
@@ -1457,10 +1450,9 @@
       "name": "datasheets.Chaos_Cerastus_Knight_Acheron.name",
       "points": [
         {
-          "cost": "355",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "355"
         }
       ],
       "rangedWeapons": [
@@ -1614,10 +1606,9 @@
       "name": "Knight Ruinator",
       "points": [
         {
-          "cost": "350",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "350"
         }
       ],
       "rangedWeapons": [
@@ -1794,10 +1785,9 @@
       "name": "Knight Desecrator",
       "points": [
         {
-          "cost": "335",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "335"
         }
       ],
       "rangedWeapons": [
@@ -1927,10 +1917,9 @@
       "name": "datasheets.Chaos_Acastus_Knight_Porphyrion.name",
       "points": [
         {
-          "cost": "700",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "700"
         }
       ],
       "rangedWeapons": [
@@ -2139,10 +2128,9 @@
       "name": "datasheets.Chaos_Cerastus_Knight_Atrapos.name",
       "points": [
         {
-          "cost": "355",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "355"
         }
       ],
       "rangedWeapons": [
@@ -2302,10 +2290,9 @@
       "name": "datasheets.Chaos_Acastus_Knight_Asterius.name",
       "points": [
         {
-          "cost": "765",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "765"
         }
       ],
       "rangedWeapons": [
@@ -2486,10 +2473,9 @@
       "name": "datasheets.Chaos_Cerastus_Knight_Castigator.name",
       "points": [
         {
-          "cost": "355",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "355"
         }
       ],
       "rangedWeapons": [
@@ -2623,10 +2609,9 @@
       "name": "datasheets.Chaos_Cerastus_Knight_Lancer.name",
       "points": [
         {
-          "cost": "355",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "355"
         }
       ],
       "rangedWeapons": [
@@ -2793,10 +2778,9 @@
       "name": "Knight Rampager",
       "points": [
         {
-          "cost": "335",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "335"
         }
       ],
       "rangedWeapons": [
@@ -2955,10 +2939,9 @@
       "name": "datasheets.Chaos_Questoris_Knight_Magaera.name",
       "points": [
         {
-          "cost": "345",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "345"
         }
       ],
       "rangedWeapons": [
@@ -3116,10 +3099,9 @@
       "name": "Knight Tyrant",
       "points": [
         {
-          "cost": "395",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "395"
         }
       ],
       "rangedWeapons": [
@@ -3388,10 +3370,9 @@
       "name": "Knight Abominant",
       "points": [
         {
-          "cost": "325",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "325"
         }
       ],
       "rangedWeapons": [
@@ -3568,10 +3549,9 @@
       "name": "datasheets.Chaos_Questoris_Knight_Styrix.name",
       "points": [
         {
-          "cost": "345",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "345"
         }
       ],
       "rangedWeapons": [

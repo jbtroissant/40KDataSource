@@ -77,10 +77,9 @@
       "name": "datasheets.Acastus_Knight_Asterius.name",
       "points": [
         {
-          "cost": "765",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "765"
         }
       ],
       "rangedWeapons": [
@@ -287,10 +286,9 @@
       "name": "Knight Gallant",
       "points": [
         {
-          "cost": "345",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "345"
         }
       ],
       "rangedWeapons": [
@@ -521,10 +519,9 @@
       "name": "Knight Errant",
       "points": [
         {
-          "cost": "345",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "345"
         }
       ],
       "rangedWeapons": [
@@ -775,10 +772,9 @@
       "name": "Knight Paladin",
       "points": [
         {
-          "cost": "345",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "345"
         }
       ],
       "rangedWeapons": [
@@ -1003,10 +999,9 @@
       "name": "datasheets.Cerastus_Knight_Acheron.name",
       "points": [
         {
-          "cost": "365",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "365"
         }
       ],
       "rangedWeapons": [
@@ -1140,10 +1135,9 @@
       "name": "datasheets.Acastus_Knight_Porphyrion.name",
       "points": [
         {
-          "cost": "700",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "700"
         }
       ],
       "rangedWeapons": [
@@ -1348,10 +1342,9 @@
       "name": "datasheets.Cerastus_Knight_Castigator.name",
       "points": [
         {
-          "cost": "365",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "365"
         }
       ],
       "rangedWeapons": [
@@ -1509,10 +1502,9 @@
       "name": "Knight Warden",
       "points": [
         {
-          "cost": "365",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "365"
         }
       ],
       "rangedWeapons": [
@@ -1764,10 +1756,9 @@
       "name": "Canis Rex",
       "points": [
         {
-          "cost": "380",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "380"
         }
       ],
       "rangedWeapons": [
@@ -1934,10 +1925,9 @@
       "name": "datasheets.Cerastus_Knight_Lancer.name",
       "points": [
         {
-          "cost": "365",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "365"
         }
       ],
       "rangedWeapons": [
@@ -2066,10 +2056,9 @@
       "name": "datasheets.Armiger_Moirax.name",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -2274,10 +2263,9 @@
       "name": "Knight Castellan",
       "points": [
         {
-          "cost": "395",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "395"
         }
       ],
       "rangedWeapons": [
@@ -2477,10 +2465,9 @@
       "name": "datasheets.Armiger_Helverin.name",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -2737,10 +2724,9 @@
       "name": "Knight Valiant",
       "points": [
         {
-          "cost": "395",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "395"
         }
       ],
       "rangedWeapons": [
@@ -2976,10 +2962,9 @@
       "name": "Knight Preceptor",
       "points": [
         {
-          "cost": "335",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "335"
         }
       ],
       "rangedWeapons": [
@@ -3220,10 +3205,9 @@
       "name": "Knight Crusader",
       "points": [
         {
-          "cost": "365",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "365"
         }
       ],
       "rangedWeapons": [
@@ -3529,10 +3513,9 @@
       "name": "datasheets.Questoris_Knight_Magaera.name",
       "points": [
         {
-          "cost": "355",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "355"
         }
       ],
       "rangedWeapons": [
@@ -3730,10 +3713,9 @@
       "name": "datasheets.Questoris_Knight_Styrix.name",
       "points": [
         {
-          "cost": "355",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "355"
         }
       ],
       "rangedWeapons": [
@@ -3895,10 +3877,9 @@
       "name": "datasheets.Armiger_Warglaive.name",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -4070,10 +4051,9 @@
       "name": "datasheets.Cerastus_Knight_Atrapos.name",
       "points": [
         {
-          "cost": "365",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "365"
         }
       ],
       "rangedWeapons": [

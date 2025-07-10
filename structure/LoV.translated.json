@@ -109,10 +109,9 @@
       "name": "Hearthkyn Warriors",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -423,10 +422,9 @@
       "name": "Ûthar the Destined",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -600,10 +598,9 @@
       "name": "datasheets.Hearthkyn_Warriors.leadBy.1",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -817,16 +814,14 @@
       "name": "Einhyr Hearthguard",
       "points": [
         {
-          "cost": "320",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "150"
         },
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "320"
         }
       ],
       "rangedWeapons": [
@@ -982,10 +977,9 @@
       "name": "Hekaton Land Fortress",
       "points": [
         {
-          "cost": "225",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "225"
         }
       ],
       "rangedWeapons": [
@@ -1220,16 +1214,14 @@
       "name": "Brôkhyr Thunderkyn",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -1422,10 +1414,9 @@
       "name": "Einhyr Champion",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -1539,10 +1530,9 @@
       "name": "Sagitaur",
       "points": [
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "115"
         }
       ],
       "rangedWeapons": [
@@ -1756,10 +1746,9 @@
       "name": "Grimnyr",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -1966,16 +1955,14 @@
       "name": "Cthonian Beserks",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "100"
         },
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -2120,10 +2107,9 @@
       "name": "Kâhl",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -2273,10 +2259,9 @@
       "name": "Hernkyn Yaegirs",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -2461,16 +2446,14 @@
       "name": "Hernkyn Pioneers",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "90"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [

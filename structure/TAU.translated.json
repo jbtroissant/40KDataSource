@@ -88,16 +88,14 @@
       "name": "Krootox Rampagers",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "85"
         },
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -217,10 +215,9 @@
       "name": "Manta",
       "points": [
         {
-          "cost": "2100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "2100"
         }
       ],
       "rangedWeapons": [
@@ -465,10 +462,9 @@
       "name": "datasheets.Crisis_Fireknife_Battlesuits.name",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -597,22 +593,19 @@
       "name": "Piranhas",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         },
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "120"
         },
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -821,16 +814,14 @@
       "name": "datasheets.Stealth_Battlesuits.name",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -956,10 +947,9 @@
       "name": "Sun Shark Bomber",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -1181,10 +1171,9 @@
       "name": "datasheets.Kroot_Farstalkers.name",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "12",
-          "active": true
+          "name": "model",
+          "model": "12",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -1394,10 +1383,9 @@
       "name": "Ta’unar Supremacy Armour",
       "points": [
         {
-          "cost": "790",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "790"
         }
       ],
       "rangedWeapons": [
@@ -1683,10 +1671,9 @@
       "name": "Pathfinder Team",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -1929,10 +1916,9 @@
       "name": "Strike Team",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -2144,10 +2130,9 @@
       "name": "datasheets.Crisis_Starscythe_Battlesuits.name",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -2287,10 +2272,9 @@
       "name": "Tiger Shark",
       "points": [
         {
-          "cost": "325",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "325"
         }
       ],
       "rangedWeapons": [
@@ -2588,10 +2572,9 @@
       "name": "Breacher Team",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -2753,10 +2736,9 @@
       "name": "Stormsurge",
       "points": [
         {
-          "cost": "400",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "400"
         }
       ],
       "rangedWeapons": [
@@ -3004,10 +2986,9 @@
       "name": "Tidewall Gunrig",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -3120,16 +3101,14 @@
       "name": "datasheets.Kroot_Hounds.name",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "40"
         },
         {
-          "cost": "40",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [],
@@ -3248,10 +3227,9 @@
       "name": "Ethereal",
       "points": [
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "50"
         }
       ],
       "rangedWeapons": [],
@@ -3369,10 +3347,9 @@
       "name": "datasheets.Riptide_Battlesuit.name",
       "points": [
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "190"
         }
       ],
       "rangedWeapons": [
@@ -3594,10 +3571,9 @@
       "name": "Commander Farsight",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -3728,22 +3704,19 @@
       "name": "Krootox Riders",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "40"
         },
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "60"
         },
         {
-          "cost": "40",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -3900,10 +3873,9 @@
       "name": "Commander Shadowsun",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -4074,10 +4046,9 @@
       "name": "datasheets.Ghostkeel_Battlesuit.name",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -4481,10 +4452,9 @@
       "name": "Sky Ray Gunship",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -4650,16 +4620,14 @@
       "name": "Vespid Stingwings",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "65"
         },
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -4881,10 +4849,9 @@
       "name": "Commander in Coldstar Battlesuit",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -5141,10 +5108,9 @@
       "name": "datasheets.Kroot_Farstalkers.leadBy.0",
       "points": [
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "55"
         }
       ],
       "rangedWeapons": [
@@ -5253,16 +5219,13 @@
       "name": "Tidewall Shieldline",
       "points": [
         {
-          "cost": "105",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         },
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "cost_name": "Tidewall Defence Platform��������������������������",
+          "cost": "+20"
         }
       ],
       "rangedWeapons": [],
@@ -5412,22 +5375,19 @@
       "name": "datasheets.Broadside_Battlesuits.name",
       "points": [
         {
-          "cost": "300",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         },
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "180"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "300"
         }
       ],
       "rangedWeapons": [
@@ -5677,10 +5637,9 @@
       "name": "Commander in Enforcer Battlesuit",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -5938,10 +5897,9 @@
       "name": "Cadre Fireblade",
       "points": [
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "50"
         }
       ],
       "rangedWeapons": [
@@ -6056,10 +6014,9 @@
       "name": "Razorshark Strike Fighter",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -6240,10 +6197,9 @@
       "name": "Devilfish",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -6422,10 +6378,9 @@
       "name": "Darkstrider",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -6544,10 +6499,9 @@
       "name": "Hammerhead Gunship",
       "points": [
         {
-          "cost": "145",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "145"
         }
       ],
       "rangedWeapons": [
@@ -6764,10 +6718,9 @@
       "name": "Tidewall Droneport",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -6916,10 +6869,9 @@
       "name": "datasheets.Crisis_Sunforge_Battlesuits.name",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -7035,10 +6987,9 @@
       "name": "Firesight Team",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -7172,16 +7123,14 @@
       "name": "datasheets.Kroot_Carnivores.name",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "20",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "65"
         },
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "20",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -7373,10 +7322,9 @@
       "name": "datasheets.Kroot_Farstalkers.leadBy.1",
       "points": [
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "50"
         }
       ],
       "rangedWeapons": [
@@ -7553,10 +7501,9 @@
       "name": "datasheets.Kroot_Lone_spear.name",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -7694,10 +7641,9 @@
       "name": "datasheets.Kroot_Farstalkers.leadBy.2",
       "points": [
         {
-          "cost": "45",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "45"
         }
       ],
       "rangedWeapons": [

@@ -89,10 +89,9 @@
       "name": "Mawloc",
       "points": [
         {
-          "cost": "145",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "145"
         }
       ],
       "rangedWeapons": [],
@@ -181,16 +180,14 @@
       "name": "datasheets.Tyranid_Warriors_with_Ranged_Bio_weapons.name",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "65"
         },
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -422,10 +419,9 @@
       "name": "Winged Hive Tyrant",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -557,10 +553,9 @@
       "name": "Harridan",
       "points": [
         {
-          "cost": "610",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "610"
         }
       ],
       "rangedWeapons": [
@@ -694,10 +689,9 @@
       "name": "Norn Emissary",
       "points": [
         {
-          "cost": "260",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "260"
         }
       ],
       "rangedWeapons": [
@@ -846,10 +840,9 @@
       "name": "Winged Tyranid Prime",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [],
@@ -948,16 +941,14 @@
       "name": "Von Ryan’s Leapers",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "70"
         },
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [],
@@ -1074,10 +1065,9 @@
       "name": "Hierophant",
       "points": [
         {
-          "cost": "810",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "810"
         }
       ],
       "rangedWeapons": [
@@ -1345,10 +1335,9 @@
       "name": "The Swarmlord",
       "points": [
         {
-          "cost": "220",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -1463,10 +1452,9 @@
       "name": "Exocrine",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -1577,16 +1565,14 @@
       "name": "Venomthropes",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "70"
         },
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [],
@@ -1677,16 +1663,14 @@
       "name": "datasheets.Tyranid_Warriors_with_Melee_Bio_weapons.name",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "75"
         },
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [],
@@ -1767,16 +1751,14 @@
       "name": "Spore Mines",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "55"
         },
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [],
@@ -1869,10 +1851,9 @@
       "name": "Tyrannocyte",
       "points": [
         {
-          "cost": "105",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "105"
         }
       ],
       "rangedWeapons": [
@@ -1980,22 +1961,19 @@
       "name": "Ripper Swarms",
       "points": [
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "25"
         },
         {
-          "cost": "40",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "40"
         },
         {
-          "cost": "25",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "50"
         }
       ],
       "rangedWeapons": [
@@ -2102,22 +2080,19 @@
       "name": "Biovores",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "50"
         },
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "100"
         },
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -2248,10 +2223,9 @@
       "name": "Deathleaper",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [],
@@ -2367,10 +2341,9 @@
       "name": "Norn Assimilator",
       "points": [
         {
-          "cost": "275",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "275"
         }
       ],
       "rangedWeapons": [
@@ -2491,10 +2464,9 @@
       "name": "Sporocyst",
       "points": [
         {
-          "cost": "145",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "145"
         }
       ],
       "rangedWeapons": [
@@ -2599,10 +2571,9 @@
       "name": "Tyrannofex",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -2782,10 +2753,9 @@
       "name": "Neurolictor",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [],
@@ -2885,10 +2855,9 @@
       "name": "Psychophage",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -3005,16 +2974,14 @@
       "name": "Zoanthropes",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "100"
         },
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -3141,10 +3108,9 @@
       "name": "Trygon",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -3266,10 +3232,9 @@
       "name": "Broodlord",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [],
@@ -3368,10 +3333,9 @@
       "name": "Harpy",
       "points": [
         {
-          "cost": "215",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "215"
         }
       ],
       "rangedWeapons": [
@@ -3546,10 +3510,9 @@
       "name": "Parasite of Mortrex",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [],
@@ -3669,16 +3632,14 @@
       "name": "Tyrant Guard",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [],
@@ -3771,10 +3732,9 @@
       "name": "Screamer-Killer",
       "points": [
         {
-          "cost": "135",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "135"
         }
       ],
       "rangedWeapons": [
@@ -3872,16 +3832,14 @@
       "name": "Mucolid Spores",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "30"
         },
         {
-          "cost": "30",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [],
@@ -3969,16 +3927,14 @@
       "name": "Hormagaunts",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "20",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "65"
         },
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "20",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [],
@@ -4067,16 +4023,14 @@
       "name": "Genestealers",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "75"
         },
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [],
@@ -4176,10 +4130,9 @@
       "name": "Toxicrene",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -4287,22 +4240,19 @@
       "name": "Pyrovores",
       "points": [
         {
-          "cost": "105",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "40"
         },
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "70"
         },
         {
-          "cost": "40",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "105"
         }
       ],
       "rangedWeapons": [
@@ -4428,10 +4378,9 @@
       "name": "Neurotyrant",
       "points": [
         {
-          "cost": "105",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "105"
         }
       ],
       "rangedWeapons": [
@@ -4549,16 +4498,14 @@
       "name": "Termagants",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "20",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "60"
         },
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "20",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -4760,16 +4707,14 @@
       "name": "Hive Guard",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "90"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -4893,16 +4838,14 @@
       "name": "Barbgaunts",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "55"
         },
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -5010,22 +4953,14 @@
       "name": "Neurogaunts",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "22",
-          "active": true
+          "name": "model",
+          "model": "11",
+          "cost": "45"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "21",
-          "active": true
-        },
-        {
-          "cost": "45",
-          "keyword": null,
-          "models": "11",
-          "active": true
+          "name": "model",
+          "model": "22",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [],
@@ -5139,10 +5074,9 @@
       "name": "Hive Crone",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -5321,10 +5255,9 @@
       "name": "Tervigon",
       "points": [
         {
-          "cost": "175",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "175"
         }
       ],
       "rangedWeapons": [
@@ -5449,10 +5382,9 @@
       "name": "Old One Eye",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [],
@@ -5560,10 +5492,9 @@
       "name": "Maleceptor",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -5722,16 +5653,14 @@
       "name": "Carnifexes",
       "points": [
         {
-          "cost": "230",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "115"
         },
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "230"
         }
       ],
       "rangedWeapons": [
@@ -6102,16 +6031,14 @@
       "name": "Gargoyles",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "20",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "85"
         },
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "20",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -6240,10 +6167,9 @@
       "name": "Haruspex",
       "points": [
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "125"
         }
       ],
       "rangedWeapons": [

@@ -84,10 +84,9 @@
       "name": "Lord of Poxes",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -243,10 +242,9 @@
       "name": "Defiler",
       "points": [
         {
-          "cost": "165",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "165"
         }
       ],
       "rangedWeapons": [
@@ -494,10 +492,9 @@
       "name": "datasheets.Chaos_Spawn.name",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [],
@@ -593,10 +590,9 @@
       "name": "Tallyman",
       "points": [
         {
-          "cost": "40",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "40"
         }
       ],
       "rangedWeapons": [
@@ -727,16 +723,14 @@
       "name": "Poxwalkers",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "20",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "60"
         },
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "20",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [],
@@ -854,10 +848,9 @@
       "name": "Lord of Contagion",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [],
@@ -955,10 +948,9 @@
       "name": "datasheets.Chaos_Predator_Annihilator.name",
       "points": [
         {
-          "cost": "135",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "135"
         }
       ],
       "rangedWeapons": [
@@ -1161,10 +1153,9 @@
       "name": "datasheets.Chaos_Predator_Destructor.name",
       "points": [
         {
-          "cost": "145",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "145"
         }
       ],
       "rangedWeapons": [
@@ -1371,10 +1362,9 @@
       "name": "datasheets.Foetid_Bloat_Drone_with_Heavy_Blight_Launcher.name",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -1485,10 +1475,9 @@
       "name": "Plagueburst Crawler",
       "points": [
         {
-          "cost": "195",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "195"
         }
       ],
       "rangedWeapons": [
@@ -1686,10 +1675,9 @@
       "name": "Biologus Putrifier",
       "points": [
         {
-          "cost": "45",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "45"
         }
       ],
       "rangedWeapons": [
@@ -1889,22 +1877,19 @@
       "name": "Plague Marines",
       "points": [
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "95"
         },
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "7",
-          "active": true
+          "name": "model",
+          "model": "7",
+          "cost": "130"
         },
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "190"
         }
       ],
       "rangedWeapons": [
@@ -2198,10 +2183,9 @@
       "name": "Plague Surgeon",
       "points": [
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "50"
         }
       ],
       "rangedWeapons": [
@@ -2345,10 +2329,9 @@
       "name": "datasheets.Daemon_Prince_of_Nurgle.name",
       "points": [
         {
-          "cost": "195",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "195"
         }
       ],
       "rangedWeapons": [
@@ -2487,16 +2470,14 @@
       "name": "Deathshroud Terminators",
       "points": [
         {
-          "cost": "300",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "140"
         },
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "300"
         }
       ],
       "rangedWeapons": [
@@ -2625,10 +2606,9 @@
       "name": "Lord of Virulence",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -2893,10 +2873,9 @@
       "name": "Noxious Blightbringer",
       "points": [
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "50"
         }
       ],
       "rangedWeapons": [
@@ -3157,10 +3136,9 @@
       "name": "Miasmic Malignifier",
       "points": [
         {
-          "cost": "105",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "105"
         }
       ],
       "rangedWeapons": [
@@ -3324,10 +3302,9 @@
       "name": "Helbrute",
       "points": [
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "115"
         }
       ],
       "rangedWeapons": [
@@ -3587,16 +3564,14 @@
       "name": "datasheets.Myphitic_Blight_Haulers.name",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -3817,10 +3792,9 @@
       "name": "Mortarion",
       "points": [
         {
-          "cost": "380",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "380"
         }
       ],
       "rangedWeapons": [
@@ -3962,10 +3936,9 @@
       "name": "Malignant Plaguecaster",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -4119,10 +4092,9 @@
       "name": "datasheets.Chaos_Rhino.name",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -4272,10 +4244,9 @@
       "name": "datasheets.Chaos_Land_Raider.name",
       "points": [
         {
-          "cost": "240",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "240"
         }
       ],
       "rangedWeapons": [
@@ -4467,10 +4438,9 @@
       "name": "Foul Blightspawn",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -4596,10 +4566,9 @@
       "name": "Icon Bearer",
       "points": [
         {
-          "cost": "45",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "45"
         }
       ],
       "rangedWeapons": [
@@ -4739,10 +4708,9 @@
       "name": "Typhus",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [],
@@ -4878,22 +4846,19 @@
       "name": "Blightlord Terminators",
       "points": [
         {
-          "cost": "370",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "115"
         },
         {
-          "cost": "185",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "185"
         },
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "370"
         }
       ],
       "rangedWeapons": [

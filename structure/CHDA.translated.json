@@ -74,10 +74,9 @@
       "name": "datasheets.Ravenwing_Darkshroud.name",
       "points": [
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "115"
         }
       ],
       "rangedWeapons": [
@@ -213,16 +212,14 @@
       "name": "Ravenwing Black Knights",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "90"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -417,10 +414,9 @@
       "name": "Ezekiel",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -634,16 +630,14 @@
       "name": "Deathwing Terminator Squad",
       "points": [
         {
-          "cost": "360",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "180"
         },
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "360"
         }
       ],
       "rangedWeapons": [
@@ -886,16 +880,14 @@
       "name": "Inner Circle Companions",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "90"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -1034,10 +1026,9 @@
       "name": "Azrael",
       "points": [
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "115"
         }
       ],
       "rangedWeapons": [
@@ -1160,10 +1151,9 @@
       "name": "Land Speeder Vengeance",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -1327,10 +1317,9 @@
       "name": "Nephilim Jetfighter",
       "points": [
         {
-          "cost": "195",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "195"
         }
       ],
       "rangedWeapons": [
@@ -1514,10 +1503,9 @@
       "name": "Asmodai",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -1715,10 +1703,9 @@
       "name": "Deathwing Knights",
       "points": [
         {
-          "cost": "250",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "250"
         }
       ],
       "rangedWeapons": [],
@@ -1826,10 +1813,9 @@
       "name": "Belial",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -2008,10 +1994,9 @@
       "name": "Lion El’Jonson",
       "points": [
         {
-          "cost": "315",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "315"
         }
       ],
       "rangedWeapons": [
@@ -2165,10 +2150,9 @@
       "name": "Ravenwing Command Squad",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -2358,10 +2342,9 @@
       "name": "Lazarus",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -2483,10 +2466,9 @@
       "name": "datasheets.Ravenwing_Dark_Talon.name",
       "points": [
         {
-          "cost": "210",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "210"
         }
       ],
       "rangedWeapons": [
@@ -2626,10 +2608,9 @@
       "name": "Sammael",
       "points": [
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "115"
         }
       ],
       "rangedWeapons": [

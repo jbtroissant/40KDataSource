@@ -115,10 +115,9 @@
       "name": "Death Company Dreadnought",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -293,10 +292,9 @@
       "name": "Sanguinary Priest",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -468,10 +466,9 @@
       "name": "datasheets.Death_Company_Captain_with_Jump_Pack.name",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -722,16 +719,14 @@
       "name": "Death Company Marines",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "120"
         },
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "230"
         }
       ],
       "rangedWeapons": [
@@ -930,10 +925,9 @@
       "name": "Astorath",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [],
@@ -1069,10 +1063,9 @@
       "name": "datasheets.Blood_Angels_Captain.name",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -1227,10 +1220,9 @@
       "name": "Chief Librarian Mephiston",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -1405,10 +1397,9 @@
       "name": "Lemartes",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -1538,10 +1529,9 @@
       "name": "Commander Dante",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -2015,10 +2005,9 @@
       "name": "The Sanguinor",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [],
@@ -2149,16 +2138,14 @@
       "name": "Sanguinary Guard",
       "points": [
         {
-          "cost": "240",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "110"
         },
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "240"
         }
       ],
       "rangedWeapons": [
@@ -2291,10 +2278,9 @@
       "name": "Baal Predator",
       "points": [
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "125"
         }
       ],
       "rangedWeapons": [

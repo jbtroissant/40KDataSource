@@ -98,10 +98,9 @@
       "name": "datasheets.Heretic_Astartes_Daemon_Prince.name",
       "points": [
         {
-          "cost": "165",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "165"
         }
       ],
       "rangedWeapons": [
@@ -235,10 +234,9 @@
       "name": "datasheets.Heretic_Astartes_Daemon_Prince_with_Wings.name",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -363,10 +361,9 @@
       "name": "Sorcerer in Terminator Armour",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -653,16 +650,14 @@
       "name": "Nemesis Claw",
       "points": [
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "110"
         },
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "190"
         }
       ],
       "rangedWeapons": [
@@ -1157,10 +1152,9 @@
       "name": "Dark Commune",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -1330,10 +1324,9 @@
       "name": "Master of Possession",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -1488,10 +1481,9 @@
       "name": "Obliterators",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -1670,10 +1662,9 @@
       "name": "datasheets.Lord_Discordant_on_Helstalker.name",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -1889,16 +1880,14 @@
       "name": "Chaos Terminator Squad",
       "points": [
         {
-          "cost": "360",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "180"
         },
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "360"
         }
       ],
       "rangedWeapons": [
@@ -2082,10 +2071,9 @@
       "name": "Cultist Firebrand",
       "points": [
         {
-          "cost": "45",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "45"
         }
       ],
       "rangedWeapons": [
@@ -2202,10 +2190,9 @@
       "name": "datasheets.Chaos_Land_Raider.name",
       "points": [
         {
-          "cost": "240",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "240"
         }
       ],
       "rangedWeapons": [
@@ -2399,16 +2386,14 @@
       "name": "Possessed",
       "points": [
         {
-          "cost": "240",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "120"
         },
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "240"
         }
       ],
       "rangedWeapons": [],
@@ -2526,10 +2511,9 @@
       "name": "Traitor Enforcer",
       "points": [
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "55"
         }
       ],
       "rangedWeapons": [
@@ -2687,10 +2671,9 @@
       "name": "Dark Apostle",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -2820,10 +2803,9 @@
       "name": "Chaos Spawn",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [],
@@ -2912,10 +2894,9 @@
       "name": "datasheets.Chaos_Predator_Annihilator.name",
       "points": [
         {
-          "cost": "135",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "135"
         }
       ],
       "rangedWeapons": [
@@ -3116,10 +3097,9 @@
       "name": "Venomcrawler",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -3272,10 +3252,9 @@
       "name": "Havocs",
       "points": [
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "125"
         }
       ],
       "rangedWeapons": [
@@ -3576,10 +3555,9 @@
       "name": "Noctilith Crown",
       "points": [
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "125"
         }
       ],
       "rangedWeapons": [
@@ -3711,10 +3689,9 @@
       "name": "Defiler",
       "points": [
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "190"
         }
       ],
       "rangedWeapons": [
@@ -3957,10 +3934,9 @@
       "name": "datasheets.Chaos_Predator_Destructor.name",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -4206,16 +4182,14 @@
       "name": "Chosen",
       "points": [
         {
-          "cost": "250",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "125"
         },
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "250"
         }
       ],
       "rangedWeapons": [
@@ -4438,10 +4412,9 @@
       "name": "Traitor Guardsmen Squad",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -4713,10 +4686,9 @@
       "name": "Heldrake",
       "points": [
         {
-          "cost": "205",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "205"
         }
       ],
       "rangedWeapons": [
@@ -4898,16 +4870,14 @@
       "name": "Raptors",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "90"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -5122,10 +5092,9 @@
       "name": "datasheets.Chaos_Vindicator.name",
       "points": [
         {
-          "cost": "185",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "185"
         }
       ],
       "rangedWeapons": [
@@ -5307,10 +5276,9 @@
       "name": "Forgefiend",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -5451,10 +5419,9 @@
       "name": "Warpsmith",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -5684,10 +5651,9 @@
       "name": "Chaos Lord in Terminator Armour",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -5834,10 +5800,9 @@
       "name": "Master of Executions",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -5970,16 +5935,14 @@
       "name": "Accursed Cultists",
       "points": [
         {
-          "cost": "195",
-          "keyword": null,
-          "models": "16",
-          "active": true
+          "name": "model",
+          "model": "8",
+          "cost": "90"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "8",
-          "active": true
+          "name": "model",
+          "model": "16",
+          "cost": "195"
         }
       ],
       "rangedWeapons": [],
@@ -6140,10 +6103,9 @@
       "name": "Helbrute",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -6437,10 +6399,9 @@
       "name": "datasheets.Raptors.leadBy.0",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -6590,16 +6551,14 @@
       "name": "Cultist Mob",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "20",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "50"
         },
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "20",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -6982,16 +6941,14 @@
       "name": "Chaos Bikers",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "70"
         },
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -7292,10 +7249,9 @@
       "name": "Fellgor Beastmen",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -7493,10 +7449,9 @@
       "name": "Maulerfiend",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -7608,10 +7563,9 @@
       "name": "datasheets.Chaos_Rhino.name",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -7819,16 +7773,14 @@
       "name": "Legionaries",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "90"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -8195,16 +8147,14 @@
       "name": "Warp Talons",
       "points": [
         {
-          "cost": "270",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "125"
         },
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "270"
         }
       ],
       "rangedWeapons": [],
@@ -8320,10 +8270,9 @@
       "name": "Vashtorr the Arkifane",
       "points": [
         {
-          "cost": "175",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "175"
         }
       ],
       "rangedWeapons": [
@@ -8466,10 +8415,9 @@
       "name": "Haarken Worldclaimer",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -8647,10 +8595,9 @@
       "name": "datasheets.Chaos_Terminator_Squad.leadBy.2",
       "points": [
         {
-          "cost": "280",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "280"
         }
       ],
       "rangedWeapons": [
@@ -8816,10 +8763,9 @@
       "name": "Fabius Bile",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -8977,10 +8923,9 @@
       "name": "Cypher",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -9125,10 +9070,9 @@
       "name": "datasheets.Khorne_Lord_of_Skulls.name",
       "points": [
         {
-          "cost": "450",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "450"
         }
       ],
       "rangedWeapons": [
@@ -9338,10 +9282,9 @@
       "name": "Huron Blackheart",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [

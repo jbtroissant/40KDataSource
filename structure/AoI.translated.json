@@ -155,10 +155,15 @@
       "name": "Sanctifiers",
       "points": [
         {
+          "name": "model",
+          "model": "9",
+          "cost": "100"
+        },
+        {
+          "name": "model",
+          "model": 9,
           "cost": "100",
-          "keyword": null,
-          "models": "9",
-          "active": true
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -432,16 +437,15 @@
       "name": "Watch Captain Artemis",
       "points": [
         {
-          "cost": "65",
-          "keyword": "Imperium",
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         },
         {
+          "name": "model",
+          "model": 1,
           "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -562,16 +566,15 @@
       "name": "Inquisitorial Chimera",
       "points": [
         {
-          "cost": "70",
-          "keyword": "Imperium",
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         },
         {
+          "name": "model",
+          "model": 1,
           "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -818,22 +821,15 @@
       "name": "Callidus Assassin",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "100"
         },
         {
+          "name": "model",
+          "model": 1,
           "cost": "100",
-          "keyword": "Imperium",
-          "models": "1",
-          "active": true
-        },
-        {
-          "cost": "100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -961,16 +957,15 @@
       "name": "datasheets.Inquisitor_Greyfax.name",
       "points": [
         {
-          "cost": "65",
-          "keyword": "Imperium",
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         },
         {
+          "name": "model",
+          "model": 1,
           "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -1118,16 +1113,15 @@
       "name": "Sisters of Battle Immolator",
       "points": [
         {
-          "cost": "115",
-          "keyword": "Imperium",
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "100"
         },
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": 1,
+          "cost": "115",
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -1371,40 +1365,26 @@
       "name": "Inquisitorial Agents",
       "points": [
         {
-          "cost": "120",
-          "keyword": "Imperium",
-          "models": "12",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "50"
         },
         {
-          "cost": "120",
-          "keyword": "Imperium",
-          "models": "11",
-          "active": true
+          "name": "model",
+          "model": "12",
+          "cost": "100"
         },
         {
+          "name": "model",
+          "model": 6,
           "cost": "60",
-          "keyword": "Imperium",
-          "models": "6",
-          "active": true
+          "source": "ALLIED"
         },
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "12",
-          "active": true
-        },
-        {
-          "cost": "100",
-          "keyword": null,
-          "models": "11",
-          "active": true
-        },
-        {
-          "cost": "50",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": 12,
+          "cost": "120",
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -1666,16 +1646,15 @@
       "name": "Inquisitor",
       "points": [
         {
-          "cost": "55",
-          "keyword": "Imperium",
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         },
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": 1,
+          "cost": "95",
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -1867,16 +1846,15 @@
       "name": "Grey Knights Terminator Squad",
       "points": [
         {
-          "cost": "210",
-          "keyword": "Imperium",
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "190"
         },
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": 5,
+          "cost": "210",
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -2073,16 +2051,15 @@
       "name": "datasheets.Voidsmen_at_Arms.name",
       "points": [
         {
-          "cost": "70",
-          "keyword": "Imperium",
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "50"
         },
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": 6,
+          "cost": "70",
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -2334,28 +2311,26 @@
       "name": "datasheets.Deathwatch_Kill_Team.name",
       "points": [
         {
-          "cost": "200",
-          "keyword": "Imperium",
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "100"
         },
         {
+          "name": "model",
+          "model": "10",
+          "cost": "200"
+        },
+        {
+          "name": "model",
+          "model": 5,
           "cost": "100",
-          "keyword": "Imperium",
-          "models": "5",
-          "active": true
+          "source": "ALLIED"
         },
         {
+          "name": "model",
+          "model": 10,
           "cost": "200",
-          "keyword": null,
-          "models": "10",
-          "active": true
-        },
-        {
-          "cost": "100",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -2619,22 +2594,15 @@
       "name": "Eversor Assassin",
       "points": [
         {
-          "cost": "145",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "110"
         },
         {
+          "name": "model",
+          "model": 1,
           "cost": "120",
-          "keyword": "Imperium",
-          "models": "1",
-          "active": true
-        },
-        {
-          "cost": "110",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -2749,16 +2717,15 @@
       "name": "Imperial Rhino",
       "points": [
         {
-          "cost": "75",
-          "keyword": "Imperium",
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         },
         {
+          "name": "model",
+          "model": 1,
           "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -2910,22 +2877,15 @@
       "name": "Vindicare Assassin",
       "points": [
         {
-          "cost": "155",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "110"
         },
         {
+          "name": "model",
+          "model": 1,
           "cost": "125",
-          "keyword": "Imperium",
-          "models": "1",
-          "active": true
-        },
-        {
-          "cost": "110",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -3111,16 +3071,15 @@
       "name": "Exaction Squad",
       "points": [
         {
-          "cost": "90",
-          "keyword": "Imperium",
-          "models": "11",
-          "active": true
+          "name": "model",
+          "model": "11",
+          "cost": "90"
         },
         {
+          "name": "model",
+          "model": 11,
           "cost": "90",
-          "keyword": null,
-          "models": "11",
-          "active": true
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -3416,16 +3375,15 @@
       "name": "Imperial Navy Breachers",
       "points": [
         {
-          "cost": "90",
-          "keyword": "Imperium",
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "90"
         },
         {
+          "name": "model",
+          "model": 10,
           "cost": "90",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -3723,22 +3681,15 @@
       "name": "Culexus Assassin",
       "points": [
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         },
         {
+          "name": "model",
+          "model": 1,
           "cost": "85",
-          "keyword": "Imperium",
-          "models": "1",
-          "active": true
-        },
-        {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -3884,16 +3835,15 @@
       "name": "Vigilant Squad",
       "points": [
         {
-          "cost": "85",
-          "keyword": "Imperium",
-          "models": "11",
-          "active": true
+          "name": "model",
+          "model": "11",
+          "cost": "85"
         },
         {
+          "name": "model",
+          "model": 11,
           "cost": "85",
-          "keyword": null,
-          "models": "11",
-          "active": true
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -4138,16 +4088,15 @@
       "name": "Subductor Squad",
       "points": [
         {
-          "cost": "100",
-          "keyword": "Imperium",
-          "models": "11",
-          "active": true
+          "name": "model",
+          "model": "11",
+          "cost": "85"
         },
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "11",
-          "active": true
+          "name": "model",
+          "model": 11,
+          "cost": "100",
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -4273,16 +4222,15 @@
       "name": "Navigator",
       "points": [
         {
-          "cost": "75",
-          "keyword": "Imperium",
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         },
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": 1,
+          "cost": "75",
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -4577,16 +4525,15 @@
       "name": "Watch Master",
       "points": [
         {
-          "cost": "105",
-          "keyword": "Imperium",
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "105"
         },
         {
+          "name": "model",
+          "model": 1,
           "cost": "105",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -4921,16 +4868,15 @@
       "name": "Sisters of Battle Squad",
       "points": [
         {
-          "cost": "115",
-          "keyword": "Imperium",
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "100"
         },
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": 1,
+          "cost": "115",
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -5310,16 +5256,15 @@
       "name": "Corvus Blackstar",
       "points": [
         {
-          "cost": "180",
-          "keyword": "Imperium",
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "180"
         },
         {
+          "name": "model",
+          "model": 1,
           "cost": "180",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -5523,16 +5468,15 @@
       "name": "Ministorum Priest",
       "points": [
         {
-          "cost": "40",
-          "keyword": "Imperium",
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "40"
         },
         {
+          "name": "model",
+          "model": 1,
           "cost": "40",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [
@@ -5723,16 +5667,15 @@
       "name": "Rogue Trader Entourage",
       "points": [
         {
-          "cost": "105",
-          "keyword": "Imperium",
-          "models": "4",
-          "active": true
+          "name": "model",
+          "model": "4",
+          "cost": "75"
         },
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "4",
-          "active": true
+          "name": "model",
+          "model": 4,
+          "cost": "105",
+          "source": "ALLIED"
         }
       ],
       "rangedWeapons": [

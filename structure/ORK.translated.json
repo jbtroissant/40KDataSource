@@ -78,10 +78,9 @@
       "name": "Weirdboy",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -195,10 +194,14 @@
       "name": "Megatrakk Scrapjet",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
+        },
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "45"
         }
       ],
       "rangedWeapons": [
@@ -389,16 +392,14 @@
       "name": "Warbikers",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "70"
         },
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -545,16 +546,14 @@
       "name": "Deffkoptas",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -700,10 +699,9 @@
       "name": "datasheets.Kustom_Boosta_blasta.name",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -883,10 +881,9 @@
       "name": "Painboy",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [],
@@ -985,16 +982,14 @@
       "name": "Killa Kans",
       "points": [
         {
-          "cost": "250",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "125"
         },
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "250"
         }
       ],
       "rangedWeapons": [
@@ -1358,10 +1353,9 @@
       "name": "Big Mek",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -1548,16 +1542,14 @@
       "name": "Squighog Boyz",
       "points": [
         {
-          "cost": "300",
-          "keyword": null,
-          "models": "8",
-          "active": true
+          "name": "model",
+          "model": "4",
+          "cost": "150"
         },
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "4",
-          "active": true
+          "name": "model",
+          "model": "8",
+          "cost": "300"
         }
       ],
       "rangedWeapons": [
@@ -1726,10 +1718,9 @@
       "name": "Warboss in Mega Armour",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -1853,10 +1844,9 @@
       "name": "Wazbom Blastajet",
       "points": [
         {
-          "cost": "175",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "175"
         }
       ],
       "rangedWeapons": [
@@ -2085,10 +2075,9 @@
       "name": "Battlewagon",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -2297,10 +2286,9 @@
       "name": "Boss Snikrot",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -2434,10 +2422,9 @@
       "name": "Morkanaut",
       "points": [
         {
-          "cost": "280",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "280"
         }
       ],
       "rangedWeapons": [
@@ -2646,10 +2633,9 @@
       "name": "datasheets.Ghazghkull_Thraka.name",
       "points": [
         {
-          "cost": "235",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "235"
         }
       ],
       "rangedWeapons": [
@@ -2848,10 +2834,9 @@
       "name": "Breaka Boyz",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -2980,10 +2965,9 @@
       "name": "Stompa",
       "points": [
         {
-          "cost": "800",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "800"
         }
       ],
       "rangedWeapons": [
@@ -3180,10 +3164,9 @@
       "name": "Big’ed Bossbunka",
       "points": [
         {
-          "cost": "135",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "135"
         }
       ],
       "rangedWeapons": [
@@ -3376,10 +3359,9 @@
       "name": "Tankbustas",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -3601,10 +3583,9 @@
       "name": "Kommandos",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -3843,16 +3824,14 @@
       "name": "Boyz",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "20",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "65"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -4076,10 +4055,9 @@
       "name": "Trukk",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -4205,10 +4183,9 @@
       "name": "Painboss",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [],
@@ -4322,10 +4299,9 @@
       "name": "Gorkanaut",
       "points": [
         {
-          "cost": "265",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "265"
         }
       ],
       "rangedWeapons": [
@@ -4487,22 +4463,19 @@
       "name": "Mek Gunz",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "50"
         },
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "100"
         },
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -4853,16 +4826,14 @@
       "name": "Flash Gitz",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -4972,10 +4943,9 @@
       "name": "Blitza-bommer",
       "points": [
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "115"
         }
       ],
       "rangedWeapons": [
@@ -5129,10 +5099,9 @@
       "name": "Deff Dread",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -5306,10 +5275,9 @@
       "name": "Wurrboy",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -5453,10 +5421,9 @@
       "name": "Beastboss",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -5572,10 +5539,9 @@
       "name": "Dakkajet",
       "points": [
         {
-          "cost": "135",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "135"
         }
       ],
       "rangedWeapons": [
@@ -6228,10 +6194,9 @@
       "name": "Deffkilla Wartrike",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -6520,10 +6485,9 @@
       "name": "Shokkjump Dragsta",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -6683,10 +6647,9 @@
       "name": "Mozrog Skragbad",
       "points": [
         {
-          "cost": "165",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "165"
         }
       ],
       "rangedWeapons": [
@@ -6808,10 +6771,9 @@
       "name": "Zodgrod Wortsnagga",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -6947,16 +6909,14 @@
       "name": "Gretchin",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "22",
-          "active": true
+          "name": "model",
+          "model": "11",
+          "cost": "40"
         },
         {
-          "cost": "40",
-          "keyword": null,
-          "models": "11",
-          "active": true
+          "name": "model",
+          "model": "22",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -7273,10 +7233,9 @@
       "name": "Kill Rig",
       "points": [
         {
-          "cost": "155",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "155"
         }
       ],
       "rangedWeapons": [
@@ -7659,16 +7618,14 @@
       "name": "Nobz",
       "points": [
         {
-          "cost": "210",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "105"
         },
         {
-          "cost": "105",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "210"
         }
       ],
       "rangedWeapons": [
@@ -8157,10 +8114,9 @@
       "name": "Boomdakka Snazzwagon",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -8329,10 +8285,9 @@
       "name": "Gargantuan Squiggoth",
       "points": [
         {
-          "cost": "440",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "440"
         }
       ],
       "rangedWeapons": [
@@ -8470,10 +8425,9 @@
       "name": "Burna-bommer",
       "points": [
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "125"
         }
       ],
       "rangedWeapons": [
@@ -8663,10 +8617,9 @@
       "name": "Hunta Rig",
       "points": [
         {
-          "cost": "135",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "135"
         }
       ],
       "rangedWeapons": [

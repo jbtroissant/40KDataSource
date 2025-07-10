@@ -70,10 +70,9 @@
       "name": "Ghost Ark",
       "points": [
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "115"
         }
       ],
       "rangedWeapons": [
@@ -202,10 +201,9 @@
       "name": "Seraptek Heavy Construct",
       "points": [
         {
-          "cost": "540",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "540"
         }
       ],
       "rangedWeapons": [
@@ -365,16 +363,14 @@
       "name": "datasheets.Triarch_Praetorians.name",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "100"
         },
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -496,16 +492,14 @@
       "name": "Necron Warriors",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "20",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "90"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "20",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -651,10 +645,9 @@
       "name": "Technomancer",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -776,10 +769,9 @@
       "name": "Night Scythe",
       "points": [
         {
-          "cost": "145",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "145"
         }
       ],
       "rangedWeapons": [
@@ -937,10 +929,9 @@
       "name": "Overlord",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -1087,10 +1078,9 @@
       "name": "Royal Warden",
       "points": [
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "50"
         }
       ],
       "rangedWeapons": [
@@ -1206,10 +1196,9 @@
       "name": "datasheets.Canoptek_Doomstalker.name",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -1336,16 +1325,14 @@
       "name": "Immortals",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "70"
         },
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -1493,10 +1480,9 @@
       "name": "Cryptothralls",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -1612,10 +1598,9 @@
       "name": "Orikan the Diviner",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [],
@@ -1713,10 +1698,9 @@
       "name": "Tesseract Vault",
       "points": [
         {
-          "cost": "425",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "425"
         }
       ],
       "rangedWeapons": [
@@ -1843,16 +1827,14 @@
       "name": "Tomb Blades",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "75"
         },
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -2008,10 +1990,9 @@
       "name": "Psychomancer",
       "points": [
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "55"
         }
       ],
       "rangedWeapons": [
@@ -2122,22 +2103,19 @@
       "name": "Lokhust Heavy Destroyers",
       "points": [
         {
-          "cost": "165",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "55"
         },
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "110"
         },
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "165"
         }
       ],
       "rangedWeapons": [
@@ -2273,16 +2251,14 @@
       "name": "Skorpekh Destroyers",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "90"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [],
@@ -2373,22 +2349,19 @@
       "name": "Convergence of Dominion",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         },
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "120"
         },
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -2516,10 +2489,9 @@
       "name": "Skorpekh Lord",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -2632,16 +2604,14 @@
       "name": "Deathmarks",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "60"
         },
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -2751,10 +2721,9 @@
       "name": "datasheets.Triarch_Stalker.name",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -2923,10 +2892,9 @@
       "name": "Imotekh the Stormlord",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -3062,10 +3030,9 @@
       "name": "Obelisk",
       "points": [
         {
-          "cost": "300",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "300"
         }
       ],
       "rangedWeapons": [
@@ -3174,10 +3141,9 @@
       "name": "datasheets.Canoptek_Reanimator.name",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -3314,10 +3280,9 @@
       "name": "Catacomb Command Barge",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -3460,28 +3425,24 @@
       "name": "Lokhust Destroyers",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "40"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "60"
         },
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "90"
         },
         {
-          "cost": "40",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -3613,16 +3574,14 @@
       "name": "Lychguard",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "85"
         },
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [],
@@ -3719,10 +3678,9 @@
       "name": "Monolith",
       "points": [
         {
-          "cost": "400",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "400"
         }
       ],
       "rangedWeapons": [
@@ -3991,16 +3949,14 @@
       "name": "datasheets.Canoptek_Scarab_Swarms.name",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "40"
         },
         {
-          "cost": "40",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [],
@@ -4103,16 +4059,14 @@
       "name": "datasheets.Canoptek_Wraiths.name",
       "points": [
         {
-          "cost": "220",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "110"
         },
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -4251,10 +4205,9 @@
       "name": "Trazyn the Infinite",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [],
@@ -4390,10 +4343,9 @@
       "name": "Lokhust Lord",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -4510,16 +4462,14 @@
       "name": "Flayed Ones",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "60"
         },
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [],
@@ -4607,10 +4557,9 @@
       "name": "Annihilation Barge",
       "points": [
         {
-          "cost": "105",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "105"
         }
       ],
       "rangedWeapons": [
@@ -4787,10 +4736,9 @@
       "name": "Illuminor Szeras",
       "points": [
         {
-          "cost": "165",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "165"
         }
       ],
       "rangedWeapons": [
@@ -4925,10 +4873,9 @@
       "name": "C’tan Shard of the Nightbringer",
       "points": [
         {
-          "cost": "305",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "305"
         }
       ],
       "rangedWeapons": [
@@ -5041,16 +4988,14 @@
       "name": "Ophydian Destroyers",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [],
@@ -5145,10 +5090,9 @@
       "name": "Plasmancer",
       "points": [
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "55"
         }
       ],
       "rangedWeapons": [
@@ -5260,10 +5204,9 @@
       "name": "Doomsday Ark",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -5399,10 +5342,9 @@
       "name": "Hexmark Destroyer",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -5557,10 +5499,9 @@
       "name": "C’tan Shard of the Void Dragon",
       "points": [
         {
-          "cost": "300",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "300"
         }
       ],
       "rangedWeapons": [
@@ -5704,10 +5645,9 @@
       "name": "C’tan Shard of the Deceiver",
       "points": [
         {
-          "cost": "265",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "265"
         }
       ],
       "rangedWeapons": [
@@ -5818,10 +5758,9 @@
       "name": "Doom Scythe",
       "points": [
         {
-          "cost": "230",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "230"
         }
       ],
       "rangedWeapons": [
@@ -6012,10 +5951,9 @@
       "name": "The Silent King",
       "points": [
         {
-          "cost": "420",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "420"
         }
       ],
       "rangedWeapons": [
@@ -6177,10 +6115,9 @@
       "name": "Chronomancer",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -6319,10 +6256,9 @@
       "name": "Transcendent C’tan",
       "points": [
         {
-          "cost": "295",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "295"
         }
       ],
       "rangedWeapons": [
@@ -6445,16 +6381,14 @@
       "name": "datasheets.Canoptek_Spyders.name",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         },
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [

@@ -75,9 +75,10 @@
       "name": "datasheets.Chaos_Land_Raider.name",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "240"
+          "cost": "240",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -313,9 +314,10 @@
       "name": "datasheets.Chaos_Terminators.name",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "170"
+          "cost": "170",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -497,9 +499,10 @@
       "name": "Sorcerer",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "60"
+          "cost": "60",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -733,9 +736,10 @@
       "name": "Lord Exultant",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "80"
+          "cost": "80",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -927,9 +931,10 @@
       "name": "Lord Kakophonist",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "60"
+          "cost": "60",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1046,9 +1051,10 @@
       "name": "Chaos Spawn",
       "points": [
         {
-          "name": "model",
-          "model": "2",
-          "cost": "80"
+          "cost": "80",
+          "keyword": null,
+          "models": "2",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -1162,9 +1168,10 @@
       "name": "datasheets.Daemon_Prince_of_Slaanesh.name",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "200"
+          "cost": "195",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1286,9 +1293,10 @@
       "name": "Noise Marines",
       "points": [
         {
-          "name": "model",
-          "model": "6",
-          "cost": "145"
+          "cost": "145",
+          "keyword": null,
+          "models": "6",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1493,14 +1501,16 @@
       "name": "Tormentors",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "85"
+          "cost": "170",
+          "keyword": null,
+          "models": "10",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "10",
-          "cost": "170"
+          "cost": "85",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1726,9 +1736,10 @@
       "name": "datasheets.Chaos_Rhino.name",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "80"
+          "cost": "80",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2083,9 +2094,10 @@
       "name": "Fulgrim",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "365"
+          "cost": "365",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2224,9 +2236,10 @@
       "name": "Lucius the Eternal",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "150"
+          "cost": "150",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -2329,9 +2342,10 @@
       "name": "Heldrake",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "195"
+          "cost": "195",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2505,14 +2519,16 @@
       "name": "Infractors",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "85"
+          "cost": "160",
+          "keyword": null,
+          "models": "10",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "10",
-          "cost": "160"
+          "cost": "85",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2678,9 +2694,10 @@
       "name": "Maulerfiend",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "130"
+          "cost": "130",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2788,14 +2805,16 @@
       "name": "Flawless Blades",
       "points": [
         {
-          "name": "model",
-          "model": "3",
-          "cost": "110"
+          "cost": "220",
+          "keyword": null,
+          "models": "6",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "6",
-          "cost": "220"
+          "cost": "110",
+          "keyword": null,
+          "models": "3",
+          "active": true
         }
       ],
       "rangedWeapons": [

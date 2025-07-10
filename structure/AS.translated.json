@@ -5920,10 +5920,9 @@
       "name": "Canoness",
       "points": [
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "50"
         }
       ],
       "rangedWeapons": [

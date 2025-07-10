@@ -3644,10 +3644,9 @@
       "name": "Wulfen Dreadnought",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "145"
         }
       ],
       "rangedWeapons": [
@@ -4092,9 +4091,16 @@
       "name": "Wolf Guard",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "65"
+          "cost": "170",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        },
+        {
+          "cost": "85",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -5410,10 +5416,9 @@
       "name": "Wolf Guard Battle Leader in Terminator Armour",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [

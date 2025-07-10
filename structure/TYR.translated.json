@@ -1204,10 +1204,14 @@
       "name": "Raveners",
       "points": [
         {
-          "cost": "125",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "75"
+        },
+        {
+          "name": "model",
+          "model": "6",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -5891,10 +5895,9 @@
       "name": "Hive Tyrant",
       "points": [
         {
-          "cost": "195",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "195"
         }
       ],
       "rangedWeapons": [
@@ -6288,10 +6291,9 @@
       "name": "Lictor",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [],

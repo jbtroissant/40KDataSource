@@ -342,12 +342,12 @@
         {
           "name": "model",
           "model": "5",
-          "cost": "80"
+          "cost": "75"
         },
         {
           "name": "model",
           "model": "10",
-          "cost": "160"
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -1458,7 +1458,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "75"
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -1926,7 +1926,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "210"
+          "cost": "135"
         }
       ],
       "rangedWeapons": [
@@ -4057,10 +4057,9 @@
       "name": "datasheets.Captain_with_Jump_Pack.name",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -4377,7 +4376,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "220"
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -4880,10 +4879,9 @@
       "name": "datasheets.Librarian_in_Terminator_Armour.name",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -5504,10 +5502,9 @@
       "name": "Chief Librarian Tigurius",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -5661,16 +5658,14 @@
       "name": "Centurion Devastator Squad",
       "points": [
         {
-          "cost": "330",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "165"
         },
         {
-          "cost": "165",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "330"
         }
       ],
       "rangedWeapons": [
@@ -5854,10 +5849,9 @@
       "name": "Repulsor Executioner",
       "points": [
         {
-          "cost": "220",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -7011,10 +7005,9 @@
       "name": "Brutalis Dreadnought",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -7193,10 +7186,9 @@
       "name": "datasheets.Librarian_in_Phobos_Armour.name",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -7354,10 +7346,9 @@
       "name": "Apothecary",
       "points": [
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "50"
         }
       ],
       "rangedWeapons": [
@@ -7499,7 +7490,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "285"
+          "cost": "240"
         }
       ],
       "rangedWeapons": [
@@ -7737,7 +7728,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "70"
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -10065,10 +10056,9 @@
       "name": "Redemptor Dreadnought",
       "points": [
         {
-          "cost": "210",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "210"
         }
       ],
       "rangedWeapons": [
@@ -10330,7 +10320,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "45"
+          "cost": "50"
         }
       ],
       "rangedWeapons": [
@@ -10770,10 +10760,9 @@
       "name": "Lieutenant with Combi-weapon",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -11258,10 +11247,9 @@
       "name": "datasheets.Lieutenant_Titus.name",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -12833,10 +12821,9 @@
       "name": "datasheets.Ancient_in_Terminator_Armour.name",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -13568,10 +13555,9 @@
       "name": "Lieutenant in Reiver Armour",
       "points": [
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "55"
         }
       ],
       "rangedWeapons": [
@@ -14019,10 +14005,9 @@
       "name": "datasheets.Scout_Squad.leadBy.0",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -14519,16 +14504,14 @@
       "name": "Intercessor Squad",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -15003,10 +14986,9 @@
       "name": "Land Raider Redeemer",
       "points": [
         {
-          "cost": "285",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "285"
         }
       ],
       "rangedWeapons": [
@@ -15239,16 +15221,14 @@
       "name": "Terminator Squad",
       "points": [
         {
-          "cost": "340",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "170"
         },
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "340"
         }
       ],
       "rangedWeapons": [
@@ -15638,10 +15618,9 @@
       "name": "Gladiator Reaper",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -16467,10 +16446,9 @@
       "name": "Ballistus Dreadnought",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -17050,10 +17028,9 @@
       "name": "Gladiator Valiant",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -17229,10 +17206,9 @@
       "name": "datasheets.Incursor_Squad.leadBy.2",
       "points": [
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "55"
         }
       ],
       "rangedWeapons": [
@@ -17366,10 +17342,9 @@
       "name": "Land Raider Crusader",
       "points": [
         {
-          "cost": "220",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -17764,10 +17739,9 @@
       "name": "Chaplain",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -18083,10 +18057,9 @@
       "name": "Bladeguard Ancient",
       "points": [
         {
-          "cost": "45",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "45"
         }
       ],
       "rangedWeapons": [

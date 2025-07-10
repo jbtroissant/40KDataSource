@@ -43,6 +43,7 @@ def normalize_faction_name(name):
         "DEATHWATCH": "Deathwatch",
         "DRUKHARI": "drukhari",
         "EMPEROR'S CHILDREN": "emperors_children",
+        "EMPERORS CHILDREN": "emperors_children",  # Variante sans apostrophe
         "GREY KNIGHTS": "greyknights",
         "GENESTEALER CULTS": "gsc",
         "IMPERIAL KNIGHTS": "imperialknights",
@@ -52,6 +53,7 @@ def normalize_faction_name(name):
         "SPACE MARINES": "space_marines",
         "SPACE WOLVES": "spacewolves",
         "TAU EMPIRE": "tau",
+        "T'AU EMPIRE": "tau",  # Variante avec apostrophe typographique
         "THOUSAND SONS": "thousandsons",
         "TYRANIDS": "tyranids",
         "UNALIGNED": "unaligned",
@@ -60,10 +62,7 @@ def normalize_faction_name(name):
         # Ajout des noms avec "CODEX SUPPLEMENT:" et "IMPERIAL AGENTS"
         "CODEX SUPPLEMENT: BLOOD ANGELS": "bloodangels",
         "CODEX SUPPLEMENT: DARK ANGELS": "darkangels",
-        "IMPERIAL AGENTS": "agents",
-        # Ajout des variantes avec apostrophes typographiques
-        "EMPEROR'S CHILDREN": "emperors_children",
-        "T'AU EMPIRE": "tau"
+        "IMPERIAL AGENTS": "agents"
     }
     
     # Normalisation pour gérer toutes les apostrophes Unicode
@@ -74,6 +73,10 @@ def normalize_faction_name(name):
     # Essayer d'abord avec le mapping exact
     if normalized_name in faction_mapping:
         return faction_mapping[normalized_name]
+    
+    # Cas spécial pour T'AU EMPIRE qui peut avoir différentes variantes d'apostrophe
+    if "TAU EMPIRE" in normalized_name or "T'AU EMPIRE" in normalized_name:
+        return "tau"
     
     # Si pas trouvé, essayer avec la normalisation par défaut
     fallback_name = normalized_name.lower().replace(" ", "").replace("'", "")

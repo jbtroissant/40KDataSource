@@ -4,9 +4,10 @@ import fitz
 from typing import Dict, List, Any
 
 def clean_text(text: str) -> str:
-    """Nettoie le texte en supprimant les caractères spéciaux"""
-    # Supprimer les caractères de contrôle et les espaces multiples
-    text = re.sub(r'[^\x20-\x7E]', '', text)
+    """Nettoie le texte en supprimant les caractères spéciaux tout en préservant les accents"""
+    # Supprimer les caractères de contrôle mais préserver les caractères accentués
+    # Utiliser une plage plus large qui inclut les caractères Unicode courants
+    text = re.sub(r'[\x00-\x1F\x7F-\x9F]', '', text)
     text = re.sub(r'\s+', ' ', text)
     return text.strip()
 

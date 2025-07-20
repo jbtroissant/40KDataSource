@@ -52,6 +52,7 @@
   "Scouts 7\"": "Scouts 7\"",
   "Stealth": "Stealth",
   "datasheets.Striking_Scorpions.abilities.other.0.name": "Mandiblasters",
+  "scorpion_pince" : "Scorpion’s claw",
   "datasheets.Striking_Scorpions.abilities.other.0.description": "Each time a model in this unit makes a melee attack, if it made a Charge move this turn, an unmodified Hit roll of 5+ scores a Critical Hit.",
   "datasheets.Striking_Scorpions.abilities.wargear.0.name": "Aspect Shrine Token",
   "datasheets.Striking_Scorpions.abilities.wargear.0.description": "Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit to an unmodified 6.",

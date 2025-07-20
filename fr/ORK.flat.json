@@ -1,4 +1,4 @@
-"datasheets.Big_Mek_with_Shokk_Attack_Gun.leads.units.1": "PILLARDS",
+{
   "datasheets.Kill_Rig.abilities.other.0.name": "Esprit de Gork (Psychique)",
   "datasheets.Kill_Rig.abilities.other.0.description": "Au début de la phase de Combat, vous pouvez choisir 1 unité Orks amie à 12\" de cette figurine et jeter 1 D6 : sur 1, cette figurine subit D3 blessures mortelles ; sur 2-5, jusqu'à la fin de la phase, ajoutez 1 à la caractéristique de Force des armes de mêlée dont les figurines de cette unité sont équipées ; sur 6, jusqu'à la fin de la phase, ajoutez 1 à la caractéristique de Force des armes de mêlée dont les figurines de cette unité sont équipées, et ces armes ont l'aptitude [TOUCHES FATALES].",
   "datasheets.Kill_Rig.composition.0": "1 Kariol' Kitu",
@@ -157,8 +157,8 @@
   "anti-vehicle 3+": "anti-véhicule 3+",
   "lifta_droppa": "Souleveur",
   "datasheets.Lifta_Wagon.wargear.0": "Cette figurine peut être équipée de 1 pince katrap'.",
-  "datasheets.Lifta_Wagon.wargear.2": "Cette figurine peut être équipée de 1 des choix suivants : ◦ 1 gros fling' ◦ 2 gros fling' ◦ 1 gros fling' et 1 lance-rokettes ◦ 1 lance-rokettes ◦ 2 lance-rokettes"
-}  "beastchoppa": "Kikoup' de Dresseur",
+  "datasheets.Lifta_Wagon.wargear.2": "Cette figurine peut être équipée de 1 des choix suivants : ◦ 1 gros fling' ◦ 2 gros fling' ◦ 1 gros fling' et 1 lance-rokettes ◦ 1 lance-rokettes ◦ 2 lance-rokettes",
+  "beastchoppa": "Kikoup' de Dresseur",
   "datasheets.Dakkajet.abilities.other.0.name": "Grêle de Dakka",
   "datasheets.Dakkajet.abilities.other.0.description": "À chaque attaque de tir de cette figurine, chaque jet de Touche réussi cause une Touche Critique.",
   "datasheets.Dakkajet.composition.0": "1 Dakkajet",
@@ -281,7 +281,7 @@
   "datasheets.Big_Mek_with_Shokk_Attack_Gun.loadout": "Cette figurine est équipée de : arme de corps à corps, kanon shokk.",
   "shokk_attack_gun": "Kanon shokk",
   "datasheets.Big_Mek_with_Shokk_Attack_Gun.wargear.0": "Cette figurine peut être équipée de 1 grot assistant.",
-  "datasheets.Big_Mek_with_Shokk_Attack_Gun.leads.units.1": "PILLARDS"{
+  "datasheets.Big_Mek_with_Shokk_Attack_Gun.leads.units.1": "PILLARDS",
   "Deadly Demise D3": "Destruction Néfaste D3",
   "Leader": "Meneur",
   "waaagh": "Waaagh!",
@@ -774,5 +774,5 @@
   "datasheets.Beastboss.composition.0": "1 Boss Dresseur",
   "datasheets.Beastboss.fluff": "Il faut un Ork féroce et caractériel pour diriger une cavalcade d'Alpagueurs, et les Boss Dresseurs ne sont pas avares de ces qualités. Grâce à des améliorations cyborks, des squig'cibleurs câblés et une panoplie d'armes de corps à corps brutales, ces monstres rugissants peuvent triompher des proies les plus imposantes en combat singulier.",
   "Beastboss": "Boss Dresseur",
-  "datasheets.Beastboss.loadout": "Cette figurine est équipée de : fling' ; kikoup' de Dresseur ; pince d'Alpagueur.",
-  "beastchoppa": "Kikoup' de Dresseur"
+  "datasheets.Beastboss.loadout": "Cette figurine est équipée de : fling' ; kikoup' de Dresseur ; pince d'Alpagueur."
+}

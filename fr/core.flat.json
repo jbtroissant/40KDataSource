@@ -101,6 +101,8 @@
   "Infiltrators_text": "Au déploiement, si toutes les figurines d’une unité ont cette aptitude, lorsque vous la placez, ce peut être n’importe où sur le champ de bataille à plus de 9\" à l’horizontale de la zone de déploiement adverse et des figurines ennemies",
   "stratagems.Command_Re_roll.name": "Command Re-roll",
   "stratagems.Command_Re_roll.detachment": "Base",
+  "beasts": "Bêtes",
+  "swarm": "Nuées",
   "stratagems.Command_Re_roll.fluff": "A great commander can bend even the vagaries of fate and fortune to their will, the better to ensure victory",
   "stratagems.Command_Re_roll.when": "Any phase, just after you make an Advance roll, a Charge roll, a Desperate Escape test or a Hazardous test for a unit from your army, or a Hit roll, a Wound roll, a Damage roll or a saving throw for a model in that unit, or a roll to determine the number of attacks made with a weapon equipped by a model in that unit. If you are using fast dice rolling (pg 24), this Stratagem can still be used after rolling multiple rolls or saving throws at once.",
   "stratagems.Command_Re_roll.target": "That unit or model from your army.",

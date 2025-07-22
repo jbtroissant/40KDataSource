@@ -7,7 +7,7 @@
     "banner": "#092135",
     "header": "#4b6262"
   },
-  "compatibleDataVersion": 640,
+  "compatibleDataVersion": 651,
   "datasheets": [
     {
       "abilities": {
@@ -610,7 +610,6 @@
         "High Marshal Helbrecht",
         "Uriel Ventris",
         "Azrael",
-        "Ragnar Blackmane",
         "Castellan",
         "Chief Librarian Tigurius",
         "Blood Angels Captain",
@@ -2702,7 +2701,6 @@
         "Marneus Calgar",
         "Uriel Ventris",
         "Azrael",
-        "Ragnar Blackmane",
         "Chief Librarian Tigurius",
         "Asmodai",
         "Lieutenant",
@@ -4063,6 +4061,107 @@
         ],
         "extra": ""
       }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise 1",
+          "Deep Strike"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "Oath of Moment"
+        ],
+        "invul": {
+          "info": "",
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": false,
+          "value": ""
+        },
+        "other": [
+          {
+            "name": "Drop Pod Assault",
+            "description": "This model must start the battle in Reserves and can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model must immediately disembark after it has been set up on the battlefield, and they must be set up more than 9\" away from all enemy models.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Combat Disembarkation",
+            "description": "Each time a unit disembarks from this model after it has been set up on the battlefield, that unit is still eligible to declare a charge this turn.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Deployment Complete",
+            "description": "Once this unit is set up on the battlefield and all units within it have disembarked, until the end of the battle, units cannot embark within this TRANSPORT.",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [
+          {
+            "description": "The highlighted portions of this model are the only parts that are considered to make up its hull. Models can be set up or end a move on any part of this model that is not highlighted in red. If any models are on non-highlighted sections of this model when it is destroyed, place those models as close to their original position as possible, on the battlefield, after removing this model.",
+            "name": "Designer’s Note",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "1 Drop Pod"
+      ],
+      "factions": [
+        "Adeptus Astartes"
+      ],
+      "faction_id": "SM",
+      "fluff": null,
+      "id": "799e25f4-a120-560f-bcec-719ea05533ac",
+      "keywords": [
+        "Vehicle",
+        "Transport",
+        "Dedicated Transport",
+        "Imperium",
+        "Drop Pod"
+      ],
+      "leader": "",
+      "meleeWeapons": [],
+      "name": "Drop Pod",
+      "points": [
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "70"
+        }
+      ],
+      "rangedWeapons": [],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "-",
+          "name": "Drop Pod",
+          "oc": "0",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "7",
+          "w": "8"
+        }
+      ],
+      "transport": "This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY models. It cannot transport CENTURION, GRAVIS, JUMP PACK, WULFEN or TERMINATOR models.",
+      "wargear": [
+        "None"
+      ]
     },
     {
       "abilities": {
@@ -10220,125 +10319,6 @@
     {
       "abilities": {
         "core": [
-          "Deadly Demise 1",
-          "Deep Strike"
-        ],
-        "damaged": {
-          "description": "",
-          "range": "",
-          "showDamagedAbility": false,
-          "showDescription": true
-        },
-        "faction": [
-          "Oath of Moment"
-        ],
-        "invul": {
-          "info": "",
-          "showAtTop": true,
-          "showInfo": false,
-          "showInvulnerableSave": false,
-          "value": ""
-        },
-        "other": [
-          {
-            "name": "Drop Pod Assault",
-            "description": "This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model must immediately disembark after it has been set up on the battlefield, and they must be set up more than 9\" away from all enemy models. After this model has been set up on the battlefield, no units can embark within it.",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "1 Drop Pod"
-      ],
-      "factions": [
-        "Adeptus Astartes"
-      ],
-      "faction_id": "SM",
-      "fluff": "Launched from ships in low orbit, Drop Pods full of Space Marines slam into the battlefield, their hatches blowing open upon the violent impact. Within seconds, the squad bursts out with weapons firing. Such deadly strikes send the foe into disarray as their lines are torn apart in the furious assault.",
-      "id": "799e25f4-a120-560f-bcec-719ea05533ac",
-      "keywords": [
-        "Vehicle",
-        "Transport",
-        "Imperium",
-        "Drop Pod"
-      ],
-      "leader": "",
-      "loadout": "This model is equipped with: storm bolter.",
-      "meleeWeapons": [],
-      "name": "Drop Pod",
-      "points": [
-        {
-          "name": "model",
-          "model": "1",
-          "cost": "70"
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "2",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 2"
-              ],
-              "name": "Storm bolter",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "D6+1",
-              "damage": "1",
-              "keywords": [
-                "Blast"
-              ],
-              "name": "Deathwind launcher",
-              "range": "12\"",
-              "skill": "3+",
-              "strength": "5"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "-",
-          "name": "Drop Pod",
-          "oc": "2",
-          "showDamagedMarker": false,
-          "showName": false,
-          "sv": "3+",
-          "t": "7",
-          "w": "8"
-        }
-      ],
-      "transport": "This model has a transport capacity of 10 ADEPTUS ASTARTES INFANTRY models. It cannot transport JUMP PACK, WULFEN, GRAVIS, CENTURION or TERMINATOR models.",
-      "wargear": [
-        "This model’s storm bolter can be replaced with 1 deathwind launcher."
-      ]
-    },
-    {
-      "abilities": {
-        "core": [
           "Deadly Demise D3"
         ],
         "damaged": {
@@ -14236,15 +14216,11 @@
         "Any number of models can each have their thunder hammer and storm shield replaced with 1 twin lightning claws."
       ],
       "leadBy": [
-        "Arjac Rockfist",
         "Captain in Terminator Armour",
         "Librarian in Terminator Armour",
         "Belial",
         "Chaplain in Terminator Armour",
-        "Njal Stormcaller",
         "Darnath Lysander",
-        "Wolf Guard Battle Leader in Terminator Armour",
-        "Logan Grimnar",
         "Ancient in Terminator Armour"
       ]
     },
@@ -15185,7 +15161,6 @@
         "High Marshal Helbrecht",
         "Uriel Ventris",
         "Azrael",
-        "Ragnar Blackmane",
         "Castellan",
         "Chief Librarian Tigurius",
         "Blood Angels Captain",
@@ -15877,15 +15852,11 @@
         "For every 5 models in this unit, 1 Terminator’s storm bolter can be replaced with one of the following: ◦ 1 assault cannon ◦ 1 heavy flamer ◦ 1 cyclone missile launcher and 1 storm bolter.   This model’s storm bolter cannot be replaced."
       ],
       "leadBy": [
-        "Arjac Rockfist",
         "Captain in Terminator Armour",
         "Librarian in Terminator Armour",
         "Belial",
         "Chaplain in Terminator Armour",
-        "Njal Stormcaller",
         "Darnath Lysander",
-        "Wolf Guard Battle Leader in Terminator Armour",
-        "Logan Grimnar",
         "Ancient in Terminator Armour"
       ]
     },
@@ -19340,285 +19311,6 @@
       "transport": "",
       "wargear": [
         "This model’s 2 twin heavy bolters can be replaced with one of the following: ◦ 2 assault cannons ◦ 2 Dreadnought inferno cannons ◦ 2 heavy plasma cannons ◦ 2 missile launchers ◦ 2 multi-meltas ◦ 2 twin autocannons ◦ 2 twin lascannons"
-      ]
-    },
-    {
-      "abilities": {
-        "core": [
-          "Deadly Demise 1"
-        ],
-        "damaged": {
-          "description": "",
-          "range": "",
-          "showDamagedAbility": false,
-          "showDescription": true
-        },
-        "faction": [
-          "Oath of Moment"
-        ],
-        "invul": {
-          "info": "",
-          "showInfo": false,
-          "showInvulnerableSave": false,
-          "value": ""
-        },
-        "other": [
-          {
-            "description": "While a friendly Adeptus Astartes Infantry unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1.",
-            "name": "Wisdom of the Ancients (Aura)",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "1 Venerable Dreadnought"
-      ],
-      "faction_id": "SM",
-      "factions": [
-        "Adeptus Astartes"
-      ],
-      "fluff": "",
-      "id": "928a43b7-7178-5826-92ff-0a03ee4bf111",
-      "keywords": [
-        "Dreadnought",
-        "Imperium",
-        "Smoke",
-        "Vehicle",
-        "Venerable",
-        "Walker"
-      ],
-      "leader": "",
-      "legends": true,
-      "loadout": "This model is equipped with: assault cannon; storm bolter; armoured feet; Dreadnought combat weapon.",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "5",
-              "damage": "3",
-              "keywords": [],
-              "name": "Dreadnought combat weapon",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "12"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "5",
-              "damage": "1",
-              "keywords": [],
-              "name": "Armoured feet",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "6"
-            }
-          ]
-        }
-      ],
-      "name": "Venerable Dreadnought",
-      "points": [],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "2",
-              "damage": "3",
-              "keywords": [
-                "twin-linked"
-              ],
-              "name": "Twin autocannon",
-              "range": "48\"",
-              "skill": "3+",
-              "strength": "9"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "2D6",
-              "damage": "1",
-              "keywords": [
-                "ignores cover",
-                "torrent"
-              ],
-              "name": "Dreadnought inferno cannon",
-              "range": "12\"",
-              "skill": "N/A",
-              "strength": "6"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "3",
-              "damage": "2",
-              "keywords": [
-                "sustained hits 1",
-                "twin-linked"
-              ],
-              "name": "Twin heavy bolter",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "D6",
-              "damage": "1",
-              "keywords": [
-                "ignores cover",
-                "torrent",
-                "twin-linked"
-              ],
-              "name": "Twin heavy flamer",
-              "range": "12\"",
-              "skill": "N/A",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "D6",
-              "damage": "1",
-              "keywords": [
-                "ignores cover",
-                "torrent"
-              ],
-              "name": "Heavy flamer",
-              "range": "12\"",
-              "skill": "N/A",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "1",
-              "damage": "D6+1",
-              "keywords": [
-                "twin-linked"
-              ],
-              "name": "Twin lascannon",
-              "range": "48\"",
-              "skill": "3+",
-              "strength": "12"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-4",
-              "attacks": "2",
-              "damage": "D6",
-              "keywords": [
-                "melta 2"
-              ],
-              "name": "Multi-melta",
-              "range": "18\"",
-              "skill": "3+",
-              "strength": "9"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "2",
-              "damage": "1",
-              "keywords": [
-                "rapid fire 2"
-              ],
-              "name": "Storm bolter",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "6",
-              "damage": "1",
-              "keywords": [
-                "devastating wounds"
-              ],
-              "name": "Assault cannon",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "6"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "6\"",
-          "name": "Venerable Dreadnought",
-          "oc": "3",
-          "showDamagedMarker": false,
-          "showName": false,
-          "sv": "2+",
-          "t": "9",
-          "w": "8"
-        }
-      ],
-      "transport": "",
-      "wargear": [
-        "This model’s assault cannon can be replaced with one of the following: ◦ 1 heavy plasma cannon* ◦ 1 multi-melta ◦ 1 twin autocannon ◦ 1 twin heavy bolter ◦ 1 twin heavy flamer ◦ 1 twin lascannon ◦ 1 Dreadnought inferno cannon",
-        "This model’s storm bolter and Dreadnought combat weapon can be replaced with one of the following: ◦ 1 heavy flamer and 1 Dreadnought combat weapon ◦ 1 missile launcher* ◦ 1 twin autocannon * The profile for this weapon can be found on the Adeptus Astartes Legends Armoury card."
       ]
     },
     {
@@ -30558,5 +30250,5 @@
       "detachment": "Stormlance Task Force"
     }
   ],
-  "updated": "2025-06-27T11:33:37.304Z"
+  "updated": "2025-07-22T13:01:17.429Z"
 }

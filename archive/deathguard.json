@@ -7,7 +7,7 @@
     "banner": "#2c290c",
     "header": "#4d560e"
   },
-  "compatibleDataVersion": 640,
+  "compatibleDataVersion": 651,
   "datasheets": [
     {
       "abilities": {
@@ -5485,7 +5485,7 @@
               "name": "Bilesword – Sweep",
               "range": "Melee",
               "skill": "2+",
-              "strength": "6"
+              "strength": "7"
             },
             {
               "active": true,
@@ -7335,5 +7335,5 @@
       "detachment": "Champions of Contagion"
     }
   ],
-  "updated": "2025-06-27T11:33:36.798Z"
+  "updated": "2025-07-22T13:01:16.886Z"
 }

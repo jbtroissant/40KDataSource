@@ -7,7 +7,7 @@
     "banner": "#320b0d",
     "header": "#222a2f"
   },
-  "compatibleDataVersion": 640,
+  "compatibleDataVersion": 651,
   "datasheets": [
     {
       "abilities": {
@@ -15935,8 +15935,10 @@
       "keywords": [
         "Heretic Astartes"
       ],
-      "excludes": [],
-      "description": "HERETIC ASTARTES model only. The bearer gains the PSYKER keyword.",
+      "excludes": [
+        "Khorne"
+      ],
+      "description": "HERETIC ASTARTES model only (excluding KHORNE models). The bearer gains the PSYKER keyword",
       "faction_id": "CSM",
       "source": "40k-10e",
       "cardType": "enhancement",
@@ -17181,5 +17183,5 @@
       "detachment": "Deceptors"
     }
   ],
-  "updated": "2025-06-27T11:33:37.962Z"
+  "updated": "2025-07-22T13:01:18.165Z"
 }

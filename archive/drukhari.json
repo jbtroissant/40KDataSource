@@ -3,7 +3,7 @@
     "banner": "#102929",
     "header": "#0f454e"
   },
-  "compatibleDataVersion": 640,
+  "compatibleDataVersion": 651,
   "datasheets": [
     {
       "abilities": {
@@ -5050,5 +5050,5 @@
       "detachment": "Skysplinter Assault"
     }
   ],
-  "updated": "2025-06-27T11:33:39.295Z"
+  "updated": "2025-07-22T13:01:19.492Z"
 }

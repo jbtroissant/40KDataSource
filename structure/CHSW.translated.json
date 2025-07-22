@@ -3182,12 +3182,12 @@
         {
           "name": "model",
           "model": "5",
-          "cost": "100"
+          "cost": "85"
         },
         {
           "name": "model",
           "model": "10",
-          "cost": "200"
+          "cost": "170"
         }
       ],
       "rangedWeapons": [

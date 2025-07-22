@@ -7,7 +7,7 @@
     "banner": "#6a0e19",
     "header": "#6d5035"
   },
-  "compatibleDataVersion": 640,
+  "compatibleDataVersion": 651,
   "datasheets": [
     {
       "abilities": {
@@ -6022,5 +6022,5 @@
       "detachment": "Shield Host"
     }
   ],
-  "updated": "2025-06-27T11:33:38.717Z"
+  "updated": "2025-07-22T13:01:18.928Z"
 }

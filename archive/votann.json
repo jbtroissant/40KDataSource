@@ -3,7 +3,7 @@
     "banner": "#572d0a",
     "header": "#3c4b3f"
   },
-  "compatibleDataVersion": 640,
+  "compatibleDataVersion": 651,
   "datasheets": [
     {
       "abilities": {
@@ -3046,5 +3046,5 @@
       "detachment": "Oathband"
     }
   ],
-  "updated": "2025-06-27T11:33:38.947Z"
+  "updated": "2025-07-22T13:01:19.165Z"
 }

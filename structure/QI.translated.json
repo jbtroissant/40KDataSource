@@ -6,6 +6,7 @@
     "banner": "#122d42",
     "header": "#023e58"
   },
+  "compatibleDataVersion": 651,
   "datasheets": [
     {
       "abilities": {
@@ -19,8 +20,8 @@
           "showDescription": true
         },
         "faction": [
-          "code_chivalric",
-          "super_heavy_walker"
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
         ],
         "other": [
           {
@@ -66,7 +67,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "titanic_feet",
+              "name": "datasheets.Acastus_Knight_Asterius.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "10"
@@ -77,9 +78,10 @@
       "name": "datasheets.Acastus_Knight_Asterius.name",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "765"
+          "cost": "765",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -97,7 +99,7 @@
                 "Blast",
                 "Anti-infantry 2+"
               ],
-              "name": "karacnos_mortar_battery",
+              "name": "datasheets.Acastus_Knight_Asterius.rangedWeapons.0.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "6"
@@ -115,7 +117,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "asterius_volkite_culverin",
+              "name": "datasheets.Acastus_Knight_Asterius.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "6"
@@ -135,7 +137,7 @@
                 "Twin-linked",
                 "Conversion"
               ],
-              "name": "twin_conversion_beam_cannon",
+              "name": "datasheets.Acastus_Knight_Asterius.rangedWeapons.2.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "16"
@@ -184,8 +186,8 @@
           "showDescription": true
         },
         "faction": [
-          "code_chivalric",
-          "super_heavy_walker"
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
         ],
         "other": [
           {
@@ -237,7 +239,7 @@
               "attacks": "12",
               "damage": "3",
               "keywords": [],
-              "name": "thunderstrike_gauntlet_sweep",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "10"
@@ -248,7 +250,7 @@
               "attacks": "6",
               "damage": "8",
               "keywords": [],
-              "name": "thunderstrike_gauntlet_strike",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.0.profiles.1.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "20"
@@ -264,7 +266,7 @@
               "attacks": "18",
               "damage": "2",
               "keywords": [],
-              "name": "reaper_chainsword_sweep",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "9"
@@ -275,7 +277,7 @@
               "attacks": "6",
               "damage": "6",
               "keywords": [],
-              "name": "reaper_chainsword_strike",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.1.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "14"
@@ -286,9 +288,10 @@
       "name": "Knight Gallant",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "345"
+          "cost": "345",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -303,7 +306,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "meltagun",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -321,7 +324,7 @@
               "keywords": [
                 "Rapid Fire 3"
               ],
-              "name": "questoris_heavy_stubber",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "4"
@@ -340,7 +343,7 @@
                 "Twin-linked",
                 "Anti-fly 2+"
               ],
-              "name": "icarus_autocannons",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.2.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "7"
@@ -359,7 +362,7 @@
                 "Indirect Fire",
                 "Blast"
               ],
-              "name": "ironstorm_missile_pod",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.3.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -375,7 +378,7 @@
               "attacks": "3",
               "damage": "D6",
               "keywords": [],
-              "name": "stormspear_rocket_pod",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.4.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "8"
@@ -394,8 +397,8 @@
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "12",
-          "w": "22",
+          "t": "11",
+          "w": "26",
           "invul": "5+"
         }
       ],
@@ -417,8 +420,8 @@
           "showDescription": true
         },
         "faction": [
-          "code_chivalric",
-          "super_heavy_walker"
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
         ],
         "other": [
           {
@@ -470,7 +473,7 @@
               "attacks": "12",
               "damage": "2",
               "keywords": [],
-              "name": "reaper_chainsword_sweep",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "9"
@@ -481,7 +484,7 @@
               "attacks": "4",
               "damage": "6",
               "keywords": [],
-              "name": "reaper_chainsword_strike",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.1.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "14"
@@ -497,7 +500,7 @@
               "attacks": "8",
               "damage": "3",
               "keywords": [],
-              "name": "thunderstrike_gauntlet_sweep",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "10"
@@ -508,7 +511,7 @@
               "attacks": "4",
               "damage": "8",
               "keywords": [],
-              "name": "thunderstrike_gauntlet_strike",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.0.profiles.1.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "20"
@@ -519,9 +522,10 @@
       "name": "Knight Errant",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "345"
+          "cost": "345",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -536,7 +540,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "meltagun",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -555,7 +559,7 @@
                 "Melta 6",
                 "Blast"
               ],
-              "name": "thermal_cannon",
+              "name": "datasheets.Knight_Errant.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "12"
@@ -573,7 +577,7 @@
               "keywords": [
                 "Rapid Fire 3"
               ],
-              "name": "questoris_heavy_stubber",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "4"
@@ -592,7 +596,7 @@
                 "Twin-linked",
                 "Anti-fly 2+"
               ],
-              "name": "icarus_autocannons",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.2.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "7"
@@ -611,7 +615,7 @@
                 "Indirect Fire",
                 "Blast"
               ],
-              "name": "ironstorm_missile_pod",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.3.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -627,7 +631,7 @@
               "attacks": "3",
               "damage": "D6",
               "keywords": [],
-              "name": "stormspear_rocket_pod",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.4.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "8"
@@ -646,8 +650,8 @@
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "12",
-          "w": "22",
+          "t": "11",
+          "w": "26",
           "invul": "5+"
         }
       ],
@@ -670,8 +674,8 @@
           "showDescription": true
         },
         "faction": [
-          "code_chivalric",
-          "super_heavy_walker"
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
         ],
         "other": [
           {
@@ -723,7 +727,7 @@
               "attacks": "12",
               "damage": "2",
               "keywords": [],
-              "name": "reaper_chainsword_sweep",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "9"
@@ -734,7 +738,7 @@
               "attacks": "4",
               "damage": "6",
               "keywords": [],
-              "name": "reaper_chainsword_strike",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.1.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "14"
@@ -750,7 +754,7 @@
               "attacks": "8",
               "damage": "3",
               "keywords": [],
-              "name": "thunderstrike_gauntlet_sweep",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "10"
@@ -761,7 +765,7 @@
               "attacks": "4",
               "damage": "8",
               "keywords": [],
-              "name": "thunderstrike_gauntlet_strike",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.0.profiles.1.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "20"
@@ -772,9 +776,10 @@
       "name": "Knight Paladin",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "345"
+          "cost": "345",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -789,7 +794,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "meltagun",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -807,7 +812,7 @@
               "keywords": [
                 "Rapid Fire 3"
               ],
-              "name": "questoris_heavy_stubber",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "4"
@@ -826,7 +831,7 @@
                 "Rapid Fire D6+3",
                 "Blast"
               ],
-              "name": "rapid_fire_battle_cannon",
+              "name": "datasheets.Knight_Paladin.rangedWeapons.2.profiles.0.name",
               "range": "72\"",
               "skill": "3+",
               "strength": "10"
@@ -845,7 +850,7 @@
                 "Twin-linked",
                 "Anti-fly 2+"
               ],
-              "name": "icarus_autocannons",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.2.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "7"
@@ -864,7 +869,7 @@
                 "Indirect Fire",
                 "Blast"
               ],
-              "name": "ironstorm_missile_pod",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.3.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -880,7 +885,7 @@
               "attacks": "3",
               "damage": "D6",
               "keywords": [],
-              "name": "stormspear_rocket_pod",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.4.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "8"
@@ -899,8 +904,8 @@
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "12",
-          "w": "22",
+          "t": "11",
+          "w": "26",
           "invul": "5+"
         }
       ],
@@ -917,14 +922,14 @@
           "Deadly Demise D6+2"
         ],
         "damaged": {
-          "range": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.range",
-          "description": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.description",
+          "range": "datasheets.Acastus_Knight_Asterius.abilities.damaged.range",
+          "description": "datasheets.Acastus_Knight_Asterius.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
         "faction": [
-          "code_chivalric",
-          "super_heavy_walker"
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
         ],
         "other": [
           {
@@ -977,7 +982,7 @@
               "attacks": "12",
               "damage": "2",
               "keywords": [],
-              "name": "reaper_chainfist_sweep",
+              "name": "datasheets.Cerastus_Knight_Acheron.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "9"
@@ -988,7 +993,7 @@
               "attacks": "4",
               "damage": "6",
               "keywords": [],
-              "name": "reaper_chainfist_strike",
+              "name": "datasheets.Cerastus_Knight_Acheron.meleeWeapons.0.profiles.1.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "14"
@@ -999,9 +1004,10 @@
       "name": "datasheets.Cerastus_Knight_Acheron.name",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "365"
+          "cost": "365",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1017,7 +1023,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "acheron_flame_cannon",
+              "name": "datasheets.Cerastus_Knight_Acheron.rangedWeapons.0.profiles.0.name",
               "range": "18\"",
               "skill": "N/A",
               "strength": "8"
@@ -1036,7 +1042,7 @@
                 "Twin-linked",
                 "Sustained Hits 1"
               ],
-              "name": "twin_heavy_bolter",
+              "name": "datasheets.Cerastus_Knight_Acheron.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "5"
@@ -1055,8 +1061,8 @@
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "12",
-          "w": "25",
+          "t": "11",
+          "w": "28",
           "invul": "5+"
         }
       ],
@@ -1077,8 +1083,8 @@
           "showDescription": true
         },
         "faction": [
-          "code_chivalric",
-          "super_heavy_walker"
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
         ],
         "other": [
           {
@@ -1124,7 +1130,7 @@
               "attacks": "6",
               "damage": "2",
               "keywords": [],
-              "name": "titanic_feet",
+              "name": "datasheets.Acastus_Knight_Asterius.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "10"
@@ -1135,9 +1141,10 @@
       "name": "datasheets.Acastus_Knight_Porphyrion.name",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "700"
+          "cost": "700",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1154,7 +1161,7 @@
                 "Heavy",
                 "Blast"
               ],
-              "name": "acastus_ironstorm_missile_pod",
+              "name": "datasheets.Acastus_Knight_Porphyrion.rangedWeapons.0.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -1170,7 +1177,7 @@
               "attacks": "2",
               "damage": "3",
               "keywords": [],
-              "name": "acastus_autocannon",
+              "name": "datasheets.Acastus_Knight_Porphyrion.rangedWeapons.1.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "9"
@@ -1189,7 +1196,7 @@
                 "Twin-linked",
                 "Blast"
               ],
-              "name": "twin_magna_lascannon",
+              "name": "datasheets.Acastus_Knight_Porphyrion.rangedWeapons.2.profiles.0.name",
               "range": "72\"",
               "skill": "3+",
               "strength": "18"
@@ -1205,7 +1212,7 @@
               "attacks": "1",
               "damage": "D6+1",
               "keywords": [],
-              "name": "lascannon",
+              "name": "datasheets.Acastus_Knight_Porphyrion.rangedWeapons.3.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "12"
@@ -1224,7 +1231,7 @@
                 "Heavy",
                 "Anti-fly 2+"
               ],
-              "name": "helios_defence_missiles",
+              "name": "datasheets.Acastus_Knight_Porphyrion.rangedWeapons.4.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "10"
@@ -1260,14 +1267,14 @@
           "Deadly Demise D6+2"
         ],
         "damaged": {
-          "range": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.range",
-          "description": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.description",
+          "range": "datasheets.Acastus_Knight_Asterius.abilities.damaged.range",
+          "description": "datasheets.Acastus_Knight_Asterius.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
         "faction": [
-          "code_chivalric",
-          "super_heavy_walker"
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
         ],
         "other": [
           {
@@ -1320,7 +1327,7 @@
               "attacks": "12",
               "damage": "2",
               "keywords": [],
-              "name": "tempest_warblade_sweep",
+              "name": "datasheets.Cerastus_Knight_Castigator.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "9"
@@ -1331,7 +1338,7 @@
               "attacks": "4",
               "damage": "6",
               "keywords": [],
-              "name": "tempest_warblade_strike",
+              "name": "datasheets.Cerastus_Knight_Castigator.meleeWeapons.0.profiles.1.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "14"
@@ -1342,9 +1349,10 @@
       "name": "datasheets.Cerastus_Knight_Castigator.name",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "365"
+          "cost": "365",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1359,7 +1367,7 @@
               "keywords": [
                 "Twin-linked"
               ],
-              "name": "castigator_bolt_cannon",
+              "name": "datasheets.Cerastus_Knight_Castigator.rangedWeapons.0.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "6"
@@ -1378,8 +1386,8 @@
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "12",
-          "w": "25",
+          "t": "11",
+          "w": "28",
           "invul": "5+"
         }
       ],
@@ -1400,8 +1408,8 @@
           "showDescription": true
         },
         "faction": [
-          "code_chivalric",
-          "super_heavy_walker"
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
         ],
         "other": [
           {
@@ -1453,7 +1461,7 @@
               "attacks": "12",
               "damage": "2",
               "keywords": [],
-              "name": "reaper_chainsword_sweep",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "9"
@@ -1464,7 +1472,7 @@
               "attacks": "4",
               "damage": "6",
               "keywords": [],
-              "name": "reaper_chainsword_strike",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.1.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "14"
@@ -1480,7 +1488,7 @@
               "attacks": "8",
               "damage": "3",
               "keywords": [],
-              "name": "thunderstrike_gauntlet_sweep",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "10"
@@ -1491,7 +1499,7 @@
               "attacks": "4",
               "damage": "8",
               "keywords": [],
-              "name": "thunderstrike_gauntlet_strike",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.0.profiles.1.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "20"
@@ -1502,9 +1510,10 @@
       "name": "Knight Warden",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "365"
+          "cost": "365",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1517,7 +1526,7 @@
               "attacks": "18",
               "damage": "2",
               "keywords": [],
-              "name": "avenger_gatling_cannon",
+              "name": "datasheets.Knight_Warden.rangedWeapons.0.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "6"
@@ -1536,7 +1545,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "heavy_flamer",
+              "name": "datasheets.Knight_Warden.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -1554,7 +1563,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "meltagun",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -1572,7 +1581,7 @@
               "keywords": [
                 "Rapid Fire 3"
               ],
-              "name": "questoris_heavy_stubber",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "4"
@@ -1591,7 +1600,7 @@
                 "Twin-linked",
                 "Anti-fly 2+"
               ],
-              "name": "icarus_autocannons",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.2.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "7"
@@ -1610,7 +1619,7 @@
                 "Indirect Fire",
                 "Blast"
               ],
-              "name": "ironstorm_missile_pod",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.3.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -1626,7 +1635,7 @@
               "attacks": "3",
               "damage": "D6",
               "keywords": [],
-              "name": "stormspear_rocket_pod",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.4.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "8"
@@ -1645,8 +1654,8 @@
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "12",
-          "w": "22",
+          "t": "11",
+          "w": "26",
           "invul": "5+"
         }
       ],
@@ -1669,8 +1678,8 @@
           "showDescription": true
         },
         "faction": [
-          "code_chivalric",
-          "super_heavy_walker"
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
         ],
         "other": [
           {
@@ -1732,7 +1741,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "freedom_s_hand_sweep",
+              "name": "datasheets.Canis_Rex.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "10"
@@ -1745,7 +1754,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "freedom_s_hand_strike",
+              "name": "datasheets.Canis_Rex.meleeWeapons.0.profiles.1.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "20"
@@ -1756,9 +1765,10 @@
       "name": "Canis Rex",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "380"
+          "cost": "380",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1774,7 +1784,7 @@
                 "Sustained Hits 1",
                 "Blast"
               ],
-              "name": "chainbreaker_las_impulsor_low_intensity",
+              "name": "datasheets.Canis_Rex.rangedWeapons.0.profiles.0.name",
               "range": "36\"",
               "skill": "2+",
               "strength": "7"
@@ -1788,7 +1798,7 @@
                 "Sustained Hits 1",
                 "Blast"
               ],
-              "name": "chainbreaker_las_impulsor_high_intensity",
+              "name": "datasheets.Canis_Rex.rangedWeapons.0.profiles.1.name",
               "range": "24\"",
               "skill": "2+",
               "strength": "14"
@@ -1806,7 +1816,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "chainbreaker_multi_laser",
+              "name": "datasheets.Canis_Rex.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "2+",
               "strength": "6"
@@ -1825,8 +1835,8 @@
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "12",
-          "w": "22",
+          "t": "11",
+          "w": "26",
           "invul": "5+"
         }
       ],
@@ -1841,14 +1851,14 @@
           "Deadly Demise D6+2"
         ],
         "damaged": {
-          "range": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.range",
-          "description": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.description",
+          "range": "datasheets.Acastus_Knight_Asterius.abilities.damaged.range",
+          "description": "datasheets.Acastus_Knight_Asterius.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
         "faction": [
-          "code_chivalric",
-          "super_heavy_walker"
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
         ],
         "other": [
           {
@@ -1901,7 +1911,7 @@
               "attacks": "10",
               "damage": "3",
               "keywords": [],
-              "name": "cerastus_shock_lance_sweep",
+              "name": "datasheets.Cerastus_Knight_Lancer.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "10"
@@ -1914,7 +1924,7 @@
               "keywords": [
                 "Lance"
               ],
-              "name": "cerastus_shock_lance_strike",
+              "name": "datasheets.Cerastus_Knight_Lancer.meleeWeapons.0.profiles.1.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "20"
@@ -1925,9 +1935,10 @@
       "name": "datasheets.Cerastus_Knight_Lancer.name",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "365"
+          "cost": "365",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1943,7 +1954,7 @@
                 "Sustained Hits 2",
                 "Assault"
               ],
-              "name": "cerastus_shock_lance",
+              "name": "datasheets.Cerastus_Knight_Lancer.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "6"
@@ -1962,8 +1973,8 @@
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "12",
-          "w": "25",
+          "t": "11",
+          "w": "28",
           "invul": "4+"
         }
       ],
@@ -1984,7 +1995,7 @@
           "showDescription": true
         },
         "faction": [
-          "code_chivalric"
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0"
         ],
         "other": [
           {
@@ -2029,7 +2040,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "armoured_feet",
+              "name": "datasheets.Armiger_Moirax.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -2045,7 +2056,7 @@
               "attacks": "4",
               "damage": "D6+2",
               "keywords": [],
-              "name": "siege_claw",
+              "name": "datasheets.Armiger_Moirax.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "12"
@@ -2056,9 +2067,10 @@
       "name": "datasheets.Armiger_Moirax.name",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "150"
+          "cost": "150",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2074,7 +2086,7 @@
                 "Blast",
                 "Anti-vehicle 2+"
               ],
-              "name": "graviton_pulsar",
+              "name": "datasheets.Armiger_Moirax.rangedWeapons.0.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "7"
@@ -2092,7 +2104,7 @@
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "volkite_veuglaire",
+              "name": "datasheets.Armiger_Moirax.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "8"
@@ -2112,7 +2124,7 @@
                 "Ignores Cover",
                 "Anti-infantry 2+"
               ],
-              "name": "rad_cleanser",
+              "name": "datasheets.Armiger_Moirax.rangedWeapons.2.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "2"
@@ -2130,7 +2142,7 @@
               "keywords": [
                 "Sustained Hits 2"
               ],
-              "name": "lightning_lock",
+              "name": "datasheets.Armiger_Moirax.rangedWeapons.3.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "8"
@@ -2149,7 +2161,7 @@
                 "Sustained Hits D3",
                 "Conversion"
               ],
-              "name": "conversion_beam_cannon",
+              "name": "datasheets.Armiger_Moirax.rangedWeapons.4.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "10"
@@ -2172,12 +2184,12 @@
           "ld": "7+",
           "m": "12\"",
           "name": "datasheets.Armiger_Moirax.name",
-          "oc": "8",
+          "oc": "6",
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "10",
-          "w": "12",
+          "t": "9",
+          "w": "14",
           "invul": "5+"
         }
       ],
@@ -2193,14 +2205,14 @@
           "Deadly Demise D6+2"
         ],
         "damaged": {
-          "range": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.range",
-          "description": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.description",
+          "range": "datasheets.Acastus_Knight_Asterius.abilities.damaged.range",
+          "description": "datasheets.Acastus_Knight_Asterius.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
         "faction": [
-          "code_chivalric",
-          "super_heavy_walker"
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
         ],
         "other": [
           {
@@ -2252,7 +2264,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "titanic_feet",
+              "name": "datasheets.Acastus_Knight_Asterius.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -2263,9 +2275,10 @@
       "name": "Knight Castellan",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "395"
+          "cost": "395",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2280,7 +2293,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "plasma_decimator_standard",
+              "name": "datasheets.Knight_Castellan.rangedWeapons.0.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "8"
@@ -2294,7 +2307,7 @@
                 "Hazardous",
                 "Blast"
               ],
-              "name": "plasma_decimator_supercharge",
+              "name": "datasheets.Knight_Castellan.rangedWeapons.0.profiles.1.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "9"
@@ -2313,7 +2326,7 @@
                 "Twin-linked",
                 "Blast"
               ],
-              "name": "twin_siegebreaker_cannon",
+              "name": "datasheets.Knight_Castellan.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "6"
@@ -2331,7 +2344,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "volcano_lance",
+              "name": "datasheets.Knight_Castellan.rangedWeapons.2.profiles.0.name",
               "range": "72\"",
               "skill": "3+",
               "strength": "18"
@@ -2350,7 +2363,7 @@
                 "Devastating Wounds",
                 "Anti-titanic 4+"
               ],
-              "name": "shieldbreaker_missile_launcher",
+              "name": "datasheets.Knight_Castellan.rangedWeapons.3.profiles.0.name",
               "range": "72\"",
               "skill": "3+",
               "strength": "12"
@@ -2369,7 +2382,7 @@
                 "Twin-linked",
                 "Melta 2"
               ],
-              "name": "twin_meltagun",
+              "name": "datasheets.Knight_Castellan.rangedWeapons.4.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -2387,9 +2400,9 @@
           "oc": "10",
           "showDamagedMarker": true,
           "showName": false,
-          "sv": "2+",
-          "t": "13",
-          "w": "24",
+          "sv": "3+",
+          "t": "12",
+          "w": "28",
           "invul": "5+"
         }
       ],
@@ -2410,7 +2423,7 @@
           "showDescription": true
         },
         "faction": [
-          "code_chivalric"
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0"
         ],
         "other": [
           {
@@ -2454,7 +2467,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "armoured_feet",
+              "name": "datasheets.Armiger_Moirax.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "6"
@@ -2465,9 +2478,10 @@
       "name": "datasheets.Armiger_Helverin.name",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "130"
+          "cost": "130",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2482,7 +2496,7 @@
               "keywords": [
                 "Rapid Fire 3"
               ],
-              "name": "questoris_heavy_stubber",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "4"
@@ -2498,7 +2512,7 @@
               "attacks": "4",
               "damage": "3",
               "keywords": [],
-              "name": "armiger_autocannon",
+              "name": "datasheets.Armiger_Helverin.rangedWeapons.1.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "9"
@@ -2516,7 +2530,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "meltagun",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -2531,12 +2545,12 @@
           "ld": "7+",
           "m": "12\"",
           "name": "datasheets.Armiger_Helverin.name",
-          "oc": "8",
+          "oc": "6",
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "10",
-          "w": "12",
+          "t": "9",
+          "w": "14",
           "invul": "5+"
         }
       ],
@@ -2598,7 +2612,7 @@
               "attacks": "2",
               "damage": "1",
               "keywords": [],
-              "name": "close_combat_weapon",
+              "name": "datasheets.Sir_Hekhtur.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "2+",
               "strength": "3"
@@ -2620,7 +2634,7 @@
               "keywords": [
                 "Pistol"
               ],
-              "name": "hekhtur_s_pistol",
+              "name": "datasheets.Sir_Hekhtur.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "2+",
               "strength": "5"
@@ -2654,14 +2668,14 @@
           "Deadly Demise D6+2"
         ],
         "damaged": {
-          "range": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.range",
-          "description": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.description",
+          "range": "datasheets.Acastus_Knight_Asterius.abilities.damaged.range",
+          "description": "datasheets.Acastus_Knight_Asterius.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
         "faction": [
-          "code_chivalric",
-          "super_heavy_walker"
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
         ],
         "other": [
           {
@@ -2713,7 +2727,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "titanic_feet",
+              "name": "datasheets.Acastus_Knight_Asterius.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "4+",
               "strength": "8"
@@ -2724,9 +2738,10 @@
       "name": "Knight Valiant",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "395"
+          "cost": "395",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2742,7 +2757,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "conflagration_cannon",
+              "name": "datasheets.Knight_Valiant.rangedWeapons.0.profiles.0.name",
               "range": "18\"",
               "skill": "N/A",
               "strength": "8"
@@ -2762,7 +2777,7 @@
                 "Anti-vehicle 4+",
                 "Anti-monster 4+"
               ],
-              "name": "thundercoil_harpoon",
+              "name": "datasheets.Knight_Valiant.rangedWeapons.1.profiles.0.name",
               "range": "18\"",
               "skill": "2+",
               "strength": "24"
@@ -2781,7 +2796,7 @@
                 "Twin-linked",
                 "Blast"
               ],
-              "name": "twin_siegebreaker_cannon",
+              "name": "datasheets.Knight_Castellan.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "6"
@@ -2800,7 +2815,7 @@
                 "Devastating Wounds",
                 "Anti-titanic 4+"
               ],
-              "name": "shieldbreaker_missile_launcher",
+              "name": "datasheets.Knight_Castellan.rangedWeapons.3.profiles.0.name",
               "range": "72\"",
               "skill": "3+",
               "strength": "12"
@@ -2819,7 +2834,7 @@
                 "Twin-linked",
                 "Melta 2"
               ],
-              "name": "twin_meltagun",
+              "name": "datasheets.Knight_Castellan.rangedWeapons.4.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -2837,9 +2852,9 @@
           "oc": "10",
           "showDamagedMarker": true,
           "showName": false,
-          "sv": "2+",
-          "t": "13",
-          "w": "24",
+          "sv": "3+",
+          "t": "12",
+          "w": "28",
           "invul": "5+"
         }
       ],
@@ -2860,8 +2875,8 @@
           "showDescription": true
         },
         "faction": [
-          "code_chivalric",
-          "super_heavy_walker"
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
         ],
         "other": [
           {
@@ -2913,7 +2928,7 @@
               "attacks": "12",
               "damage": "2",
               "keywords": [],
-              "name": "reaper_chainsword_sweep",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "9"
@@ -2924,7 +2939,7 @@
               "attacks": "4",
               "damage": "6",
               "keywords": [],
-              "name": "reaper_chainsword_strike",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.1.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "14"
@@ -2940,7 +2955,7 @@
               "attacks": "8",
               "damage": "3",
               "keywords": [],
-              "name": "thunderstrike_gauntlet_sweep",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "10"
@@ -2951,7 +2966,7 @@
               "attacks": "4",
               "damage": "8",
               "keywords": [],
-              "name": "thunderstrike_gauntlet_strike",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.0.profiles.1.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "20"
@@ -2962,9 +2977,10 @@
       "name": "Knight Preceptor",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "335"
+          "cost": "335",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2979,7 +2995,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "las_impulsor_low_intensity",
+              "name": "datasheets.Knight_Preceptor.rangedWeapons.0.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "7"
@@ -2992,7 +3008,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "las_impulsor_high_intensity",
+              "name": "datasheets.Knight_Preceptor.rangedWeapons.0.profiles.1.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "14"
@@ -3008,7 +3024,7 @@
               "attacks": "4",
               "damage": "1",
               "keywords": [],
-              "name": "preceptor_multi_laser",
+              "name": "datasheets.Knight_Preceptor.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "6"
@@ -3026,7 +3042,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "meltagun",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -3044,7 +3060,7 @@
               "keywords": [
                 "Rapid Fire 3"
               ],
-              "name": "questoris_heavy_stubber",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "4"
@@ -3063,7 +3079,7 @@
                 "Twin-linked",
                 "Anti-fly 2+"
               ],
-              "name": "icarus_autocannons",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.2.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "7"
@@ -3082,7 +3098,7 @@
                 "Indirect Fire",
                 "Blast"
               ],
-              "name": "ironstorm_missile_pod",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.3.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -3098,7 +3114,7 @@
               "attacks": "3",
               "damage": "D6",
               "keywords": [],
-              "name": "stormspear_rocket_pod",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.4.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "8"
@@ -3117,8 +3133,8 @@
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "12",
-          "w": "22",
+          "t": "11",
+          "w": "26",
           "invul": "5+"
         }
       ],
@@ -3141,8 +3157,8 @@
           "showDescription": true
         },
         "faction": [
-          "code_chivalric",
-          "super_heavy_walker"
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
         ],
         "other": [
           {
@@ -3194,7 +3210,7 @@
               "attacks": "4",
               "damage": "2",
               "keywords": [],
-              "name": "titanic_feet",
+              "name": "datasheets.Acastus_Knight_Asterius.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -3205,9 +3221,10 @@
       "name": "Knight Crusader",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "365"
+          "cost": "365",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -3220,7 +3237,7 @@
               "attacks": "18",
               "damage": "2",
               "keywords": [],
-              "name": "avenger_gatling_cannon",
+              "name": "datasheets.Knight_Warden.rangedWeapons.0.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "6"
@@ -3239,7 +3256,7 @@
                 "Torrent",
                 "Ignores Cover"
               ],
-              "name": "heavy_flamer",
+              "name": "datasheets.Knight_Warden.rangedWeapons.1.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "5"
@@ -3257,7 +3274,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "meltagun",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -3276,7 +3293,7 @@
                 "Melta 6",
                 "Blast"
               ],
-              "name": "thermal_cannon",
+              "name": "datasheets.Knight_Errant.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "12"
@@ -3294,7 +3311,7 @@
               "keywords": [
                 "Rapid Fire 3"
               ],
-              "name": "questoris_heavy_stubber",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "4"
@@ -3313,7 +3330,7 @@
                 "Rapid Fire D6+3",
                 "Blast"
               ],
-              "name": "rapid_fire_battle_cannon",
+              "name": "datasheets.Knight_Paladin.rangedWeapons.2.profiles.0.name",
               "range": "72\"",
               "skill": "3+",
               "strength": "10"
@@ -3332,7 +3349,7 @@
                 "Twin-linked",
                 "Anti-fly 2+"
               ],
-              "name": "icarus_autocannons",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.2.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "7"
@@ -3351,7 +3368,7 @@
                 "Indirect Fire",
                 "Blast"
               ],
-              "name": "ironstorm_missile_pod",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.3.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "5"
@@ -3367,7 +3384,7 @@
               "attacks": "3",
               "damage": "D6",
               "keywords": [],
-              "name": "stormspear_rocket_pod",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.4.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "8"
@@ -3386,8 +3403,8 @@
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "12",
-          "w": "22",
+          "t": "11",
+          "w": "26",
           "invul": "5+"
         }
       ],
@@ -3410,8 +3427,8 @@
           "showDescription": true
         },
         "faction": [
-          "code_chivalric",
-          "super_heavy_walker"
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
         ],
         "other": [
           {
@@ -3464,7 +3481,7 @@
               "attacks": "12",
               "damage": "2",
               "keywords": [],
-              "name": "reaper_chainsword_sweep",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "9"
@@ -3475,7 +3492,7 @@
               "attacks": "4",
               "damage": "6",
               "keywords": [],
-              "name": "reaper_chainsword_strike",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.1.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "14"
@@ -3491,7 +3508,7 @@
               "attacks": "8",
               "damage": "3",
               "keywords": [],
-              "name": "hekaton_siege_claw_sweep",
+              "name": "datasheets.Questoris_Knight_Magaera.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "10"
@@ -3502,7 +3519,7 @@
               "attacks": "4",
               "damage": "8",
               "keywords": [],
-              "name": "hekaton_siege_claw_strike",
+              "name": "datasheets.Questoris_Knight_Magaera.meleeWeapons.1.profiles.1.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "20"
@@ -3513,9 +3530,10 @@
       "name": "datasheets.Questoris_Knight_Magaera.name",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "355"
+          "cost": "355",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -3530,7 +3548,7 @@
               "keywords": [
                 "Sustained Hits 2"
               ],
-              "name": "lightning_cannon",
+              "name": "datasheets.Questoris_Knight_Magaera.rangedWeapons.0.profiles.0.name",
               "range": "48\"",
               "skill": "3+",
               "strength": "9"
@@ -3548,7 +3566,7 @@
               "keywords": [
                 "Rapid Fire 2"
               ],
-              "name": "phased_plasma_fusil",
+              "name": "datasheets.Questoris_Knight_Magaera.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "8"
@@ -3569,7 +3587,7 @@
                 "Ignores Cover",
                 "Anti-infantry 2+"
               ],
-              "name": "twin_rad_cleanser",
+              "name": "datasheets.Questoris_Knight_Magaera.rangedWeapons.2.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "2"
@@ -3588,8 +3606,8 @@
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "12",
-          "w": "22",
+          "t": "11",
+          "w": "26",
           "invul": "5+"
         }
       ],
@@ -3610,13 +3628,13 @@
           "showDescription": true
         },
         "faction": [
-          "code_chivalric",
-          "super_heavy_walker"
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
         ],
         "other": [
           {
             "name": "datasheets.Questoris_Knight_Styrix.abilities.other.0.name",
-            "description": "datasheets.Questoris_Knight_Magaera.abilities.other.0.description",
+            "description": "datasheets.Questoris_Knight_Styrix.abilities.other.0.description",
             "showAbility": true,
             "showDescription": true
           },
@@ -3664,7 +3682,7 @@
               "attacks": "12",
               "damage": "2",
               "keywords": [],
-              "name": "reaper_chainsword_sweep",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "9"
@@ -3675,7 +3693,7 @@
               "attacks": "4",
               "damage": "6",
               "keywords": [],
-              "name": "reaper_chainsword_strike",
+              "name": "datasheets.Knight_Gallant.meleeWeapons.1.profiles.1.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "14"
@@ -3691,7 +3709,7 @@
               "attacks": "8",
               "damage": "3",
               "keywords": [],
-              "name": "hekaton_siege_claw_sweep",
+              "name": "datasheets.Questoris_Knight_Magaera.meleeWeapons.1.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "10"
@@ -3702,7 +3720,7 @@
               "attacks": "4",
               "damage": "8",
               "keywords": [],
-              "name": "hekaton_siege_claw_strike",
+              "name": "datasheets.Questoris_Knight_Magaera.meleeWeapons.1.profiles.1.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "20"
@@ -3713,9 +3731,10 @@
       "name": "datasheets.Questoris_Knight_Styrix.name",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "355"
+          "cost": "355",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -3731,7 +3750,7 @@
                 "Blast",
                 "Anti-vehicle 2+"
               ],
-              "name": "graviton_crusher",
+              "name": "datasheets.Questoris_Knight_Styrix.rangedWeapons.0.profiles.0.name",
               "range": "18\"",
               "skill": "3+",
               "strength": "6"
@@ -3744,12 +3763,12 @@
             {
               "active": true,
               "ap": "0",
-              "attacks": "9",
+              "attacks": "12",
               "damage": "3",
               "keywords": [
                 "Devastating Wounds"
               ],
-              "name": "volkite_chierovile",
+              "name": "datasheets.Questoris_Knight_Styrix.rangedWeapons.1.profiles.0.name",
               "range": "30\"",
               "skill": "3+",
               "strength": "12"
@@ -3770,7 +3789,7 @@
                 "Ignores Cover",
                 "Anti-infantry 2+"
               ],
-              "name": "twin_rad_cleanser",
+              "name": "datasheets.Questoris_Knight_Magaera.rangedWeapons.2.profiles.0.name",
               "range": "12\"",
               "skill": "N/A",
               "strength": "2"
@@ -3789,8 +3808,8 @@
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "12",
-          "w": "22",
+          "t": "11",
+          "w": "26",
           "invul": "5+"
         }
       ],
@@ -3811,7 +3830,7 @@
           "showDescription": true
         },
         "faction": [
-          "code_chivalric"
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0"
         ],
         "other": [
           {
@@ -3855,7 +3874,7 @@
               "attacks": "8",
               "damage": "1",
               "keywords": [],
-              "name": "reaper_chain_cleaver_sweep",
+              "name": "datasheets.Armiger_Warglaive.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "8"
@@ -3866,7 +3885,7 @@
               "attacks": "4",
               "damage": "3",
               "keywords": [],
-              "name": "reaper_chain_cleaver_strike",
+              "name": "datasheets.Armiger_Warglaive.meleeWeapons.0.profiles.1.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "10"
@@ -3877,9 +3896,10 @@
       "name": "datasheets.Armiger_Warglaive.name",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "140"
+          "cost": "140",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -3894,7 +3914,7 @@
               "keywords": [
                 "Rapid Fire 3"
               ],
-              "name": "questoris_heavy_stubber",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.1.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "4"
@@ -3912,8 +3932,8 @@
               "keywords": [
                 "Melta 4"
               ],
-              "name": "thermal_spear",
-              "range": "24\"",
+              "name": "datasheets.Armiger_Warglaive.rangedWeapons.1.profiles.0.name",
+              "range": "18\"",
               "skill": "3+",
               "strength": "12"
             }
@@ -3930,7 +3950,7 @@
               "keywords": [
                 "Melta 2"
               ],
-              "name": "meltagun",
+              "name": "datasheets.Knight_Gallant.rangedWeapons.0.profiles.0.name",
               "range": "12\"",
               "skill": "3+",
               "strength": "9"
@@ -3945,12 +3965,12 @@
           "ld": "7+",
           "m": "12\"",
           "name": "datasheets.Armiger_Warglaive.name",
-          "oc": "8",
+          "oc": "6",
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "10",
-          "w": "12",
+          "t": "9",
+          "w": "14",
           "invul": "5+"
         }
       ],
@@ -3965,14 +3985,14 @@
           "Deadly Demise D6+2"
         ],
         "damaged": {
-          "range": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.range",
-          "description": "datasheets.Cerastus_Knight_Acheron.abilities.damaged.description",
+          "range": "datasheets.Acastus_Knight_Asterius.abilities.damaged.range",
+          "description": "datasheets.Acastus_Knight_Asterius.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
         "faction": [
-          "code_chivalric",
-          "super_heavy_walker"
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
+          "datasheets.Acastus_Knight_Asterius.abilities.faction.1"
         ],
         "other": [
           {
@@ -4027,7 +4047,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "atrapos_lascutter_low_intensity",
+              "name": "datasheets.Cerastus_Knight_Atrapos.meleeWeapons.0.profiles.0.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "7"
@@ -4040,7 +4060,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "atrapos_lascutter_high_intensity",
+              "name": "datasheets.Cerastus_Knight_Atrapos.meleeWeapons.0.profiles.1.name",
               "range": "Melee",
               "skill": "3+",
               "strength": "14"
@@ -4051,9 +4071,10 @@
       "name": "datasheets.Cerastus_Knight_Atrapos.name",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "365"
+          "cost": "365",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -4068,7 +4089,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "atrapos_lascutter_low_intensity",
+              "name": "datasheets.Cerastus_Knight_Atrapos.meleeWeapons.0.profiles.0.name",
               "range": "36\"",
               "skill": "3+",
               "strength": "7"
@@ -4081,7 +4102,7 @@
               "keywords": [
                 "Sustained Hits 1"
               ],
-              "name": "atrapos_lascutter_high_intensity",
+              "name": "datasheets.Cerastus_Knight_Atrapos.meleeWeapons.0.profiles.1.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "14"
@@ -4099,7 +4120,7 @@
               "keywords": [
                 "Blast"
               ],
-              "name": "graviton_singularity_cannon_contained",
+              "name": "datasheets.Cerastus_Knight_Atrapos.rangedWeapons.1.profiles.0.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "16"
@@ -4114,7 +4135,7 @@
                 "Devastating Wounds",
                 "Blast"
               ],
-              "name": "graviton_singularity_cannon_singularity",
+              "name": "datasheets.Cerastus_Knight_Atrapos.rangedWeapons.1.profiles.1.name",
               "range": "24\"",
               "skill": "3+",
               "strength": "16"
@@ -4133,8 +4154,8 @@
           "showDamagedMarker": true,
           "showName": false,
           "sv": "3+",
-          "t": "12",
-          "w": "25",
+          "t": "11",
+          "w": "28",
           "invul": "5+"
         }
       ],
@@ -4512,7 +4533,7 @@
         ]
       },
       {
-        "name": "code_chivalric",
+        "name": "datasheets.Acastus_Knight_Asterius.abilities.faction.0",
         "rule": [
           {
             "order": 1,
@@ -4552,7 +4573,7 @@
         ]
       },
       {
-        "name": "super_heavy_walker",
+        "name": "datasheets.Acastus_Knight_Asterius.abilities.faction.1",
         "rule": [
           {
             "order": 1,
@@ -4563,5 +4584,5 @@
       }
     ]
   },
-  "updated": "2025-05-29T08:37:07.836Z"
+  "updated": "2025-07-22T13:01:18.630Z"
 }

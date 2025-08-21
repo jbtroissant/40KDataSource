@@ -7,7 +7,7 @@
     "banner": "#092135",
     "header": "#4b6262"
   },
-  "compatibleDataVersion": 651,
+  "compatibleDataVersion": 662,
   "datasheets": [
     {
       "abilities": {
@@ -159,9 +159,10 @@
       "name": "Captain in Gravis Armour",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "80"
+          "cost": "80",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -312,9 +313,10 @@
       "name": "Adrax Agatone",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "85"
+          "cost": "85",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -494,14 +496,16 @@
       "name": "Assault Intercessor Squad",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "75"
+          "cost": "150",
+          "keyword": null,
+          "models": "10",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "10",
-          "cost": "150"
+          "cost": "75",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -597,6 +601,7 @@
         "The Assault Intercessor Sergeant’s heavy bolt pistol can be replaced with one of the following: ◦ 1 hand flamer ◦ 1 plasma pistol"
       ],
       "leadBy": [
+        "High Marshal Helbrecht",
         "Adrax Agatone",
         "Techmarine",
         "Ezekiel",
@@ -606,22 +611,21 @@
         "Kor’sarro Khan",
         "Sanguinary Priest",
         "Judiciar",
+        "Marshal",
         "Marneus Calgar",
-        "High Marshal Helbrecht",
         "Uriel Ventris",
         "Azrael",
-        "Castellan",
         "Chief Librarian Tigurius",
+        "Chaplain Grimaldus",
         "Blood Angels Captain",
+        "Castellan",
         "Asmodai",
         "Apothecary",
         "Lieutenant",
         "Ancient",
-        "Marshal",
+        "Emperor’s Champion",
         "Lazarus",
-        "The Emperor’s Champion",
         "Captain",
-        "Chaplain Grimaldus",
         "Chaplain"
       ]
     },
@@ -700,14 +704,16 @@
       "name": "Inceptor Squad",
       "points": [
         {
-          "name": "model",
-          "model": "3",
-          "cost": "120"
+          "cost": "240",
+          "keyword": null,
+          "models": "6",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "6",
-          "cost": "240"
+          "cost": "120",
+          "keyword": null,
+          "models": "3",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -862,9 +868,10 @@
       "name": "Storm Speeder Hailstrike",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "115"
+          "cost": "115",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1048,9 +1055,10 @@
       "name": "Techmarine",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "55"
+          "cost": "55",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1215,9 +1223,10 @@
       "name": "Kayvaan Shrike",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "100"
+          "cost": "100",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1340,14 +1349,16 @@
       "name": "Eradicator Squad",
       "points": [
         {
-          "name": "model",
-          "model": "3",
-          "cost": "100"
+          "cost": "200",
+          "keyword": null,
+          "models": "6",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "6",
-          "cost": "200"
+          "cost": "100",
+          "keyword": null,
+          "models": "3",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1518,9 +1529,10 @@
       "name": "Captain Sicarius",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "85"
+          "cost": "85",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1656,9 +1668,10 @@
       "name": "Librarian",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "65"
+          "cost": "65",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1835,9 +1848,10 @@
       "name": "Vulkan He’stan",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "100"
+          "cost": "100",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -1998,9 +2012,10 @@
       "name": "Kor’sarro Khan",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "70"
+          "cost": "70",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2143,9 +2158,10 @@
       "name": "Dreadnought",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "135"
+          "cost": "135",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2395,9 +2411,10 @@
       "name": "Predator Destructor",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "140"
+          "cost": "140",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2592,14 +2609,16 @@
       "name": "Bladeguard Veteran Squad",
       "points": [
         {
-          "name": "model",
-          "model": "3",
-          "cost": "80"
+          "cost": "160",
+          "keyword": null,
+          "models": "6",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "6",
-          "cost": "160"
+          "cost": "80",
+          "keyword": null,
+          "models": "3",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2781,14 +2800,16 @@
       "name": "Firestrike Servo-turrets",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "75"
+          "cost": "150",
+          "keyword": null,
+          "models": "2",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "2",
-          "cost": "150"
+          "cost": "75",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -2847,237 +2868,6 @@
       "transport": "",
       "wargear": [
         "Any number of models can each have their twin Firestrike las-talon replaced with 1 twin Firestrike autocannon."
-      ]
-    },
-    {
-      "abilities": {
-        "core": [
-          "Deadly Demise D3",
-          "Firing Deck 6"
-        ],
-        "damaged": {
-          "description": "",
-          "range": "",
-          "showDamagedAbility": false,
-          "showDescription": true
-        },
-        "faction": [
-          "Oath of Moment"
-        ],
-        "invul": {
-          "info": "",
-          "showAtTop": true,
-          "showInfo": false,
-          "showInvulnerableSave": false,
-          "value": ""
-        },
-        "other": [
-          {
-            "name": "Assault Vehicle",
-            "description": "Units can disembark from this TRANSPORT after it has Advanced. Units that do so count as having made a Normal move, and cannot declare a charge that turn.",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [],
-        "wargear": [
-          {
-            "name": "Orbital Comms Array (Aura)",
-            "description": "While a friendly ADEPTUS ASTARTES unit is within 6\" of the bearer, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP.",
-            "showAbility": true,
-            "showDescription": true
-          },
-          {
-            "name": "Shield Dome",
-            "description": "The bearer has a 5+ invulnerable save.",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ]
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "1 Impulsor"
-      ],
-      "factions": [
-        "Adeptus Astartes"
-      ],
-      "faction_id": "SM",
-      "fluff": "Equipped with vectored thrusters that make it faster than any other gravitic tank in the Space Marines’ armouries, the Impulsor is a highly adaptable transport used by all Primaris Space Marines for rapid insertion and flanking manoeuvres. It is particularly favoured by Vanguard forces.",
-      "id": "5fe8f17a-a8fb-5a0a-9b91-d61114df7d56",
-      "keywords": [
-        "Vehicle",
-        "Transport",
-        "Dedicated Transport",
-        "Imperium",
-        "Impulsor"
-      ],
-      "leader": "",
-      "loadout": "This model is equipped with: 2 storm bolters; armoured hull.",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [],
-              "name": "Armoured hull",
-              "range": "Melee",
-              "skill": "4+",
-              "strength": "6"
-            }
-          ]
-        }
-      ],
-      "name": "Impulsor",
-      "points": [
-        {
-          "name": "model",
-          "model": "1",
-          "cost": "80"
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "2",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 2"
-              ],
-              "name": "Storm bolter",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
-              "name": "Ironhail heavy stubber",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "D6",
-              "damage": "1",
-              "keywords": [
-                "Blast"
-              ],
-              "name": "Fragstorm grenade launcher",
-              "range": "18\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "D3",
-              "damage": "2",
-              "keywords": [
-                "Anti-fly 2+"
-              ],
-              "name": "Bellicatus missile array – Icarus",
-              "range": "48\"",
-              "skill": "3+",
-              "strength": "8"
-            },
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "1",
-              "damage": "D6",
-              "keywords": [],
-              "name": "Bellicatus missile array – Krak",
-              "range": "48\"",
-              "skill": "3+",
-              "strength": "8"
-            },
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "D6",
-              "damage": "1",
-              "keywords": [
-                "Blast"
-              ],
-              "name": "Bellicatus missile array – Frag",
-              "range": "48\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "8",
-              "damage": "1",
-              "keywords": [
-                "Sustained Hits 1",
-                "Anti-fly 4+"
-              ],
-              "name": "Ironhail skytalon array",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "12\"",
-          "name": "Impulsor",
-          "oc": "2",
-          "showDamagedMarker": false,
-          "showName": false,
-          "sv": "3+",
-          "t": "9",
-          "w": "11"
-        }
-      ],
-      "transport": "This model has a transport capacity of 7 TACTICUS or PHOBOS INFANTRY models. It cannot transport JUMP PACK models.",
-      "wargear": [
-        "This model can be equipped with one of the following: ◦ 1 bellicatus missile array ◦ 1 ironhail skytalon array ◦ 1 orbital comms array ◦ 1 shield dome",
-        "This model’s 2 storm bolters can be replaced with 2 fragstorm grenade launchers.",
-        "This model can be equipped with 1 ironhail heavy stubber."
       ]
     },
     {
@@ -3153,9 +2943,10 @@
       "name": "Storm Speeder Hammerstrike",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "125"
+          "cost": "125",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -3312,9 +3103,10 @@
       "name": "Judiciar",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "70"
+          "cost": "70",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -3367,197 +3159,6 @@
         ],
         "extra": ""
       }
-    },
-    {
-      "abilities": {
-        "core": [
-          "Deadly Demise D3"
-        ],
-        "damaged": {
-          "range": "1-4 WOUNDS REMAINING",
-          "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-          "showDamagedAbility": true,
-          "showDescription": true
-        },
-        "faction": [
-          "Oath of Moment"
-        ],
-        "invul": {
-          "info": "",
-          "showAtTop": true,
-          "showInfo": false,
-          "showInvulnerableSave": false,
-          "value": ""
-        },
-        "other": [
-          {
-            "name": "Aquilon Optics",
-            "description": "Each time this model is selected to shoot, you can re-roll one Hit roll, you can re-roll one Wound roll and you can re-roll one Damage roll when resolving its attacks.",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "1 Gladiator Lancer"
-      ],
-      "factions": [
-        "Adeptus Astartes"
-      ],
-      "faction_id": "SM",
-      "fluff": "With pinpoint accuracy, the Gladiator Lancer picks off the heaviest enemy armour, laser destroyer punching smouldering holes in their hulls. Such is the range of its heavy cannon that it can eliminate threats to the Space Marines before they encounter them, storming past burning wrecks to claim their objectives.",
-      "id": "b22e3ef7-6afa-5dda-8637-067fc98a4e31",
-      "keywords": [
-        "Vehicle",
-        "Smoke",
-        "Imperium",
-        "Gladiator Lancer"
-      ],
-      "leader": "",
-      "loadout": "This model is equipped with: Lancer laser destroyer; 2 storm bolters; armoured hull.",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [],
-              "name": "Armoured hull",
-              "range": "Melee",
-              "skill": "4+",
-              "strength": "6"
-            }
-          ]
-        }
-      ],
-      "name": "Gladiator Lancer",
-      "points": [
-        {
-          "name": "model",
-          "model": "1",
-          "cost": "160"
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-4",
-              "attacks": "2",
-              "damage": "D6+3",
-              "keywords": [
-                "Heavy"
-              ],
-              "name": "Lancer laser destroyer",
-              "range": "72\"",
-              "skill": "3+",
-              "strength": "14"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "2",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 2"
-              ],
-              "name": "Storm bolter",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "D6",
-              "damage": "1",
-              "keywords": [
-                "Blast"
-              ],
-              "name": "Fragstorm grenade launcher",
-              "range": "18\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
-              "name": "Ironhail heavy stubber",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "D3",
-              "damage": "2",
-              "keywords": [
-                "Anti-fly 2+"
-              ],
-              "name": "Icarus rocket pod",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "8"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "10\"",
-          "name": "Gladiator Lancer",
-          "oc": "3",
-          "showDamagedMarker": true,
-          "showName": false,
-          "sv": "3+",
-          "t": "10",
-          "w": "12"
-        }
-      ],
-      "transport": "",
-      "wargear": [
-        "This model can be equipped with 1 Icarus rocket pod.",
-        "This model can be equipped with 1 ironhail heavy stubber.",
-        "This model’s 2 storm bolters can be replaced with 2 fragstorm grenade launchers."
-      ]
     },
     {
       "abilities": {
@@ -3665,9 +3266,10 @@
       "name": "Marneus Calgar",
       "points": [
         {
-          "name": "model",
-          "model": "3",
-          "cost": "200"
+          "cost": "200",
+          "keyword": null,
+          "models": "3",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -3834,9 +3436,10 @@
       "name": "Captain in Terminator Armour",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "95"
+          "cost": "95",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -3990,9 +3593,10 @@
       "name": "Uriel Ventris",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "95"
+          "cost": "95",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -4137,9 +3741,10 @@
       "name": "Drop Pod",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "70"
+          "cost": "70",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -4303,9 +3908,10 @@
       "name": "Captain with Jump Pack",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "75"
+          "cost": "75",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -4482,9 +4088,10 @@
       "name": "Storm Speeder Thunderstrike",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "150"
+          "cost": "150",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -4583,221 +4190,6 @@
         },
         "other": [
           {
-            "name": "Emergency Combat Embarkation",
-            "description": "Once per turn, in your opponent’s Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move, you can select one ADEPTUS ASTARTES unit from your army that was selected as a target of that charge. Provided that unit is not within Engagement Range of any enemy units and every model in that unit is within 3\" of this TRANSPORT, it can embark within this TRANSPORT. The charging unit can then select new targets for its charge.",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "1 Repulsor"
-      ],
-      "factions": [
-        "Adeptus Astartes"
-      ],
-      "faction_id": "SM",
-      "fluff": "Clad in advanced armour plating and armed for any battlefield situation, the Repulsor not only transports its passengers safely, it also provides superb fire support. Dangerous terrain is little impediment to it, its ventral plates channelling gravitic energies that crush obstacles beneath the vehicle’s mass.",
-      "id": "5ae6c5e7-c11c-54a7-8232-22219c6e66df",
-      "keywords": [
-        "Vehicle",
-        "Smoke",
-        "Transport",
-        "Imperium",
-        "Repulsor"
-      ],
-      "leader": "",
-      "loadout": "This model is equipped with: heavy onslaught gatling cannon; hunter-slayer missile; Repulsor defensive array; twin heavy bolter; armoured hull.",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "6",
-              "damage": "1",
-              "keywords": [],
-              "name": "Armoured hull",
-              "range": "Melee",
-              "skill": "4+",
-              "strength": "8"
-            }
-          ]
-        }
-      ],
-      "name": "Repulsor",
-      "points": [
-        {
-          "name": "model",
-          "model": "1",
-          "cost": "180"
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "12",
-              "damage": "1",
-              "keywords": [
-                "Devastating Wounds"
-              ],
-              "name": "Heavy onslaught gatling cannon",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "6"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "1",
-              "damage": "D6",
-              "keywords": [
-                "One Shot",
-                "Indirect Fire"
-              ],
-              "name": "Hunter-slayer missile",
-              "range": "48\"",
-              "skill": "2+",
-              "strength": "14"
-            }
-          ],
-          "abilities": [
-            {
-              "name": "One Shot",
-              "description": "The bearer can only shoot with this weapon once per battle.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "18",
-              "damage": "1",
-              "keywords": [],
-              "name": "Repulsor defensive array",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "3",
-              "damage": "2",
-              "keywords": [
-                "Twin-linked",
-                "Sustained Hits 1"
-              ],
-              "name": "Twin heavy bolter",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "1",
-              "damage": "D6+1",
-              "keywords": [
-                "Twin-linked"
-              ],
-              "name": "Twin lascannon",
-              "range": "48\"",
-              "skill": "3+",
-              "strength": "12"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "2",
-              "damage": "D6+1",
-              "keywords": [],
-              "name": "Las-talon",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "10"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "10\"",
-          "name": "Repulsor",
-          "oc": "5",
-          "showDamagedMarker": true,
-          "showName": false,
-          "sv": "3+",
-          "t": "12",
-          "w": "16"
-        }
-      ],
-      "transport": "This model has a transport capacity of 14 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.",
-      "wargear": [
-        "This model’s heavy onslaught gatling cannon can be replaced with 1 las-talon.",
-        "This model’s twin heavy bolter can be replaced with 1 twin lascannon."
-      ]
-    },
-    {
-      "abilities": {
-        "core": [
-          "Deadly Demise D6"
-        ],
-        "damaged": {
-          "range": "1-5 WOUNDS REMAINING",
-          "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-          "showDamagedAbility": true,
-          "showDescription": true
-        },
-        "faction": [
-          "Oath of Moment"
-        ],
-        "invul": {
-          "info": "",
-          "showAtTop": true,
-          "showInfo": false,
-          "showInvulnerableSave": false,
-          "value": ""
-        },
-        "other": [
-          {
             "name": "Fortification",
             "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army:\n\n■ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n■ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
             "showAbility": true,
@@ -4842,9 +4234,10 @@
       "name": "Hammerfall Bunker",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "175"
+          "cost": "175",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -5013,9 +4406,10 @@
       "name": "Suppressor Squad",
       "points": [
         {
-          "name": "model",
-          "model": "3",
-          "cost": "75"
+          "cost": "75",
+          "keyword": null,
+          "models": "3",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -5159,9 +4553,10 @@
       "name": "Librarian in Terminator Armour",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "75"
+          "cost": "75",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -5407,14 +4802,16 @@
       "name": "Devastator Squad",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "120"
+          "cost": "200",
+          "keyword": null,
+          "models": "10",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "10",
-          "cost": "200"
+          "cost": "120",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -5795,9 +5192,10 @@
       "name": "Chief Librarian Tigurius",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "75"
+          "cost": "75",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -5957,14 +5355,16 @@
       "name": "Centurion Devastator Squad",
       "points": [
         {
-          "name": "model",
-          "model": "3",
-          "cost": "165"
+          "cost": "330",
+          "keyword": null,
+          "models": "6",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "6",
-          "cost": "330"
+          "cost": "165",
+          "keyword": null,
+          "models": "3",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -6084,267 +5484,6 @@
     },
     {
       "abilities": {
-        "core": [
-          "Deadly Demise D6"
-        ],
-        "damaged": {
-          "range": "1-5 WOUNDS REMAINING",
-          "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-          "showDamagedAbility": true,
-          "showDescription": true
-        },
-        "faction": [
-          "Oath of Moment"
-        ],
-        "invul": {
-          "info": "",
-          "showAtTop": true,
-          "showInfo": false,
-          "showInvulnerableSave": false,
-          "value": ""
-        },
-        "other": [
-          {
-            "name": "Executioner",
-            "description": "Each time this model makes an attack that targets a unit Below Half-strength, add 1 to the Hit roll.",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "1 Repulsor Executioner"
-      ],
-      "factions": [
-        "Adeptus Astartes"
-      ],
-      "faction_id": "SM",
-      "fluff": "Based on the Repulsor chassis, the Repulsor Executioner sacrifices some transport capacity to accommodate powerful turret weaponry. Even the largest battle tanks can be crippled by the beam of a heavy laser destroyer, while the incinerating blasts of a macro plasma incinerator can obliterate infantry formations.",
-      "id": "40ee135b-a29f-5683-a9be-d618abe9dbd5",
-      "keywords": [
-        "Vehicle",
-        "Smoke",
-        "Transport",
-        "Imperium",
-        "Repulsor Executioner"
-      ],
-      "leader": "",
-      "loadout": "This model is equipped with: heavy onslaught gatling cannon; macro plasma incinerator; Repulsor Executioner defensive array; twin heavy bolter; twin Icarus ironhail heavy stubber; armoured hull.",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "6",
-              "damage": "1",
-              "keywords": [],
-              "name": "Armoured hull",
-              "range": "Melee",
-              "skill": "4+",
-              "strength": "8"
-            }
-          ]
-        }
-      ],
-      "name": "Repulsor Executioner",
-      "points": [
-        {
-          "name": "model",
-          "model": "1",
-          "cost": "220"
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "12",
-              "damage": "1",
-              "keywords": [
-                "Devastating Wounds"
-              ],
-              "name": "Heavy onslaught gatling cannon",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "6"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "D6+1",
-              "damage": "2",
-              "keywords": [
-                "Blast"
-              ],
-              "name": "Macro plasma incinerator – Standard",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "8"
-            },
-            {
-              "active": true,
-              "ap": "-4",
-              "attacks": "D6+1",
-              "damage": "3",
-              "keywords": [
-                "Hazardous",
-                "Blast"
-              ],
-              "name": "Macro plasma incinerator – Supercharge",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "9"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "10",
-              "damage": "1",
-              "keywords": [],
-              "name": "Repulsor Executioner defensive array",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "3",
-              "damage": "2",
-              "keywords": [
-                "Twin-linked",
-                "Sustained Hits 1"
-              ],
-              "name": "Twin heavy bolter",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [
-                "Twin-linked",
-                "Rapid Fire 3",
-                "Anti-fly 4+"
-              ],
-              "name": "Twin Icarus ironhail heavy stubber",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-4",
-              "attacks": "2",
-              "damage": "D6+4",
-              "keywords": [
-                "Heavy"
-              ],
-              "name": "Heavy laser destroyer",
-              "range": "72\"",
-              "skill": "3+",
-              "strength": "16"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
-              "name": "Ironhail heavy stubber",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "D3",
-              "damage": "2",
-              "keywords": [
-                "Anti-fly 2+"
-              ],
-              "name": "Icarus rocket pod",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "8"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "10\"",
-          "name": "Repulsor Executioner",
-          "oc": "5",
-          "showDamagedMarker": true,
-          "showName": false,
-          "sv": "3+",
-          "t": "12",
-          "w": "16"
-        }
-      ],
-      "transport": "This model has a transport capacity of 7 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.",
-      "wargear": [
-        "This model can be equipped with 1 Icarus rocket pod.",
-        "This model can be equipped with 1 ironhail heavy stubber.",
-        "This model’s macro plasma incinerator can be replaced with 1 heavy laser destroyer."
-      ]
-    },
-    {
-      "abilities": {
         "core": [],
         "damaged": {
           "description": "",
@@ -6415,14 +5554,16 @@
       "name": "Hellblaster Squad",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "110"
+          "cost": "220",
+          "keyword": null,
+          "models": "10",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "10",
-          "cost": "220"
+          "cost": "110",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -6616,14 +5757,16 @@
       "name": "Heavy Intercessor Squad",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "100"
+          "cost": "200",
+          "keyword": null,
+          "models": "10",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "10",
-          "cost": "200"
+          "cost": "100",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -6819,14 +5962,16 @@
       "name": "Scout Squad",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "70"
+          "cost": "140",
+          "keyword": null,
+          "models": "10",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "10",
-          "cost": "140"
+          "cost": "70",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -7060,9 +6205,10 @@
       "name": "Tor Garadon",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "90"
+          "cost": "90",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -7193,9 +6339,10 @@
       "name": "Apothecary Biologis",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "70"
+          "cost": "70",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -7352,9 +6499,10 @@
       "name": "Brutalis Dreadnought",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "160"
+          "cost": "160",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -7540,9 +6688,10 @@
       "name": "Librarian in Phobos Armour",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "70"
+          "cost": "70",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -7707,9 +6856,10 @@
       "name": "Apothecary",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "50"
+          "cost": "50",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -7856,9 +7006,10 @@
       "name": "Land Raider",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "240"
+          "cost": "240",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -8101,9 +7252,10 @@
       "name": "Lieutenant",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "65"
+          "cost": "65",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -8321,9 +7473,10 @@
       "name": "Stormtalon Gunship",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "165"
+          "cost": "165",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -8526,9 +7679,10 @@
       "name": "Razorback",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "95"
+          "cost": "95",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -8717,9 +7871,10 @@
       "name": "Eliminator Squad",
       "points": [
         {
-          "name": "model",
-          "model": "3",
-          "cost": "85"
+          "cost": "85",
+          "keyword": null,
+          "models": "3",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -8910,18 +8065,28 @@
       "name": "Outrider Squad",
       "points": [
         {
-          "name": "model",
-          "model": "3",
-          "cost": "80"
+          "cost": "220",
+          "keyword": null,
+          "models": "7",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "6",
-          "cost": "160"
+          "cost": "160",
+          "keyword": null,
+          "models": "6",
+          "active": true
         },
         {
-          "cost_name": "Invader ATV",
-          "cost": "+60"
+          "cost": "140",
+          "keyword": null,
+          "models": "4",
+          "active": true
+        },
+        {
+          "cost": "80",
+          "keyword": null,
+          "models": "3",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -9125,9 +8290,10 @@
       "name": "Desolation Squad",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "200"
+          "cost": "200",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -9340,14 +8506,16 @@
       "name": "Centurion Assault Squad",
       "points": [
         {
-          "name": "model",
-          "model": "3",
-          "cost": "150"
+          "cost": "300",
+          "keyword": null,
+          "models": "6",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "6",
-          "cost": "300"
+          "cost": "150",
+          "keyword": null,
+          "models": "3",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -9503,9 +8671,10 @@
       "name": "Vindicator",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "185"
+          "cost": "185",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -9749,9 +8918,10 @@
       "name": "Tactical Squad",
       "points": [
         {
-          "name": "model",
-          "model": "10",
-          "cost": "140"
+          "cost": "140",
+          "keyword": null,
+          "models": "10",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -10225,9 +9395,10 @@
       "name": "Whirlwind",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "190"
+          "cost": "190",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -10389,9 +9560,10 @@
       "name": "Redemptor Dreadnought",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "210"
+          "cost": "210",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -10658,9 +9830,10 @@
       "name": "Ancient",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "50"
+          "cost": "50",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -10831,9 +10004,10 @@
       "name": "Pedro Kantor",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "90"
+          "cost": "90",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -10973,9 +10147,10 @@
       "name": "Chaplain in Terminator Armour",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "75"
+          "cost": "75",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -11119,9 +10294,10 @@
       "name": "Lieutenant with Combi-weapon",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "70"
+          "cost": "70",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -11250,14 +10426,16 @@
       "name": "Incursor Squad",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "80"
+          "cost": "160",
+          "keyword": null,
+          "models": "10",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "10",
-          "cost": "160"
+          "cost": "80",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -11432,14 +10610,16 @@
       "name": "Assault Intercessors with Jump Packs",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "90"
+          "cost": "160",
+          "keyword": null,
+          "models": "10",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "10",
-          "cost": "160"
+          "cost": "90",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -11634,9 +10814,10 @@
       "name": "Lieutenant Titus",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "70"
+          "cost": "70",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -11769,9 +10950,10 @@
       "name": "Darnath Lysander",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "100"
+          "cost": "100",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -11891,14 +11073,16 @@
       "name": "Vanguard Veteran Squad with Jump Packs",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "95"
+          "cost": "190",
+          "keyword": null,
+          "models": "10",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "10",
-          "cost": "190"
+          "cost": "95",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -12141,9 +11325,10 @@
       "name": "Company Heroes",
       "points": [
         {
-          "name": "model",
-          "model": "4",
-          "cost": "105"
+          "cost": "105",
+          "keyword": null,
+          "models": "4",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -12391,9 +11576,10 @@
       "name": "Roboute Guilliman",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "320"
+          "cost": "320",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -12509,14 +11695,16 @@
       "name": "Aggressor Squad",
       "points": [
         {
-          "name": "model",
-          "model": "3",
-          "cost": "100"
+          "cost": "220",
+          "keyword": null,
+          "models": "6",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "6",
-          "cost": "220"
+          "cost": "100",
+          "keyword": null,
+          "models": "3",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -12678,9 +11866,10 @@
       "name": "Stormhawk Interceptor",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "155"
+          "cost": "155",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -12944,9 +12133,10 @@
       "name": "Captain",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "80"
+          "cost": "80",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -13261,9 +12451,10 @@
       "name": "Ancient in Terminator Armour",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "75"
+          "cost": "75",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -13386,9 +12577,10 @@
       "name": "Predator Annihilator",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "135"
+          "cost": "135",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -13590,9 +12782,10 @@
       "name": "Chaplain on Bike",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "75"
+          "cost": "75",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -13734,9 +12927,10 @@
       "name": "Stormraven Gunship",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "280"
+          "cost": "280",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -14021,9 +13215,10 @@
       "name": "Lieutenant in Reiver Armour",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "55"
+          "cost": "55",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -14185,14 +13380,16 @@
       "name": "Terminator Assault Squad",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "180"
+          "cost": "360",
+          "keyword": null,
+          "models": "10",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "10",
-          "cost": "360"
+          "cost": "180",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [],
@@ -14334,9 +13531,10 @@
       "name": "Iron Father Feirros",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "95"
+          "cost": "95",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -14487,9 +13685,10 @@
       "name": "Captain in Phobos Armour",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "70"
+          "cost": "70",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -14657,9 +13856,10 @@
       "name": "Chaplain with Jump Pack",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "75"
+          "cost": "75",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -14998,14 +14198,16 @@
       "name": "Intercessor Squad",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "80"
+          "cost": "160",
+          "keyword": null,
+          "models": "10",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "10",
-          "cost": "160"
+          "cost": "80",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -15150,6 +14352,7 @@
         "The Intercessor Sergeant’s bolt rifle can be replaced with one of the following: ◦ 1 Astartes chainsword ◦ 1 hand flamer ◦ 1 plasma pistol ◦ 1 power weapon"
       ],
       "leadBy": [
+        "High Marshal Helbrecht",
         "Adrax Agatone",
         "Techmarine",
         "Ezekiel",
@@ -15157,22 +14360,21 @@
         "Kor’sarro Khan",
         "Sanguinary Priest",
         "Judiciar",
+        "Marshal",
         "Marneus Calgar",
-        "High Marshal Helbrecht",
         "Uriel Ventris",
         "Azrael",
-        "Castellan",
         "Chief Librarian Tigurius",
+        "Chaplain Grimaldus",
         "Blood Angels Captain",
+        "Castellan",
         "Asmodai",
         "Apothecary",
         "Lieutenant",
         "Ancient",
-        "Marshal",
+        "Emperor’s Champion",
         "Lazarus",
-        "The Emperor’s Champion",
         "Captain",
-        "Chaplain Grimaldus",
         "Chaplain"
       ]
     },
@@ -15249,9 +14451,10 @@
       "name": "Astraeus",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "525"
+          "cost": "525",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -15492,9 +14695,10 @@
       "name": "Land Raider Redeemer",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "285"
+          "cost": "285",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -15624,245 +14828,6 @@
     {
       "abilities": {
         "core": [
-          "Deep Strike"
-        ],
-        "damaged": {
-          "description": "",
-          "range": "",
-          "showDamagedAbility": false,
-          "showDescription": true
-        },
-        "faction": [
-          "Oath of Moment"
-        ],
-        "invul": {
-          "info": "",
-          "showAtTop": true,
-          "showInfo": false,
-          "showInvulnerableSave": true,
-          "value": "4+"
-        },
-        "other": [
-          {
-            "name": "Teleport Homer",
-            "description": "At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3\" horizontally of that token and not within 9\" horizontally of any enemy models. That token is then removed.",
-            "showAbility": true,
-            "showDescription": true
-          },
-          {
-            "name": "Fury of the First",
-            "description": "Each time a model in this unit makes an attack that targets your Oath of Moment target, add 1 to the Hit roll.",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "1 Terminator Sergeant",
-        "4-9 Terminators"
-      ],
-      "factions": [
-        "Adeptus Astartes"
-      ],
-      "faction_id": "SM",
-      "fluff": "Terminator armour is a marvel of technology that enables its wearer to survive almost anything, from the stresses of teleportation to earth-shaking artillery bombardments. So equipped, Terminator Squads can appear in the midst of the foe or stride unstoppably across the field towards them, firing their weapons all the while.",
-      "id": "8ca68d6d-5841-5437-aa03-5d0d660a010f",
-      "keywords": [
-        "Infantry",
-        "Imperium",
-        "Terminator",
-        "Terminator Squad"
-      ],
-      "leader": "",
-      "loadout": "Every model is equipped with: storm bolter; power fist.",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "3",
-              "damage": "2",
-              "keywords": [],
-              "name": "Power fist",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "8"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "3",
-              "damage": "2",
-              "keywords": [
-                "Anti-vehicle 3+"
-              ],
-              "name": "Chainfist",
-              "range": "Melee",
-              "skill": "4+",
-              "strength": "8"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "4",
-              "damage": "1",
-              "keywords": [],
-              "name": "Power weapon",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "5"
-            }
-          ]
-        }
-      ],
-      "name": "Terminator Squad",
-      "points": [
-        {
-          "name": "model",
-          "model": "5",
-          "cost": "170"
-        },
-        {
-          "name": "model",
-          "model": "10",
-          "cost": "340"
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "2",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 2"
-              ],
-              "name": "Storm bolter",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "6",
-              "damage": "1",
-              "keywords": [
-                "Devastating Wounds"
-              ],
-              "name": "Assault Cannon",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "6"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "D6",
-              "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
-              "name": "Heavy flamer",
-              "range": "12\"",
-              "skill": "N/A",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "2",
-              "damage": "D6",
-              "keywords": [],
-              "name": "Cyclone missile launcher – Krak",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "9"
-            },
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "2D6",
-              "damage": "1",
-              "keywords": [
-                "Blast"
-              ],
-              "name": "Cyclone missile launcher – Frag",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "5\"",
-          "name": "Terminator",
-          "oc": "1",
-          "showDamagedMarker": false,
-          "showName": true,
-          "sv": "2+",
-          "t": "5",
-          "w": "3"
-        }
-      ],
-      "transport": "",
-      "wargear": [
-        "The Terminator Sergeant’s power fist can be replaced with 1 power weapon.",
-        "Any number of models can each have their power fist replaced with 1 chainfist.",
-        "For every 5 models in this unit, 1 Terminator’s storm bolter can be replaced with one of the following: ◦ 1 assault cannon ◦ 1 heavy flamer ◦ 1 cyclone missile launcher and 1 storm bolter.   This model’s storm bolter cannot be replaced."
-      ],
-      "leadBy": [
-        "Captain in Terminator Armour",
-        "Librarian in Terminator Armour",
-        "Belial",
-        "Chaplain in Terminator Armour",
-        "Darnath Lysander",
-        "Ancient in Terminator Armour"
-      ]
-    },
-    {
-      "abilities": {
-        "core": [
           "Deadly Demise D6+2",
           "Hover"
         ],
@@ -15951,9 +14916,10 @@
       "name": "Thunderhawk Gunship",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "840"
+          "cost": "840",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -16071,179 +15037,6 @@
     {
       "abilities": {
         "core": [
-          "Deadly Demise D3"
-        ],
-        "damaged": {
-          "range": "1-4 WOUNDS REMAINING",
-          "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-          "showDamagedAbility": true,
-          "showDescription": true
-        },
-        "faction": [
-          "Oath of Moment"
-        ],
-        "invul": {
-          "info": "",
-          "showAtTop": true,
-          "showInfo": false,
-          "showInvulnerableSave": false,
-          "value": ""
-        },
-        "other": [
-          {
-            "name": "Reaping Tally",
-            "description": "This model’s twin heavy onslaught gatling cannon has the [SUSTAINED HITS 2] ability when targeting INFANTRY units.",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "1 Gladiator Reaper"
-      ],
-      "factions": [
-        "Adeptus Astartes"
-      ],
-      "faction_id": "SM",
-      "fluff": "When the cannons of the Gladiator Reaper spin to full pitch, the droning makes the teeth of all nearby itch with the intensity of the vibrations. Within seconds, thousands of spent casings pour over the battle tank’s armoured hide as enemies are erased from existence by the storm of fire.",
-      "id": "0fae5944-73f5-5791-b835-ba2938f5d76f",
-      "keywords": [
-        "Vehicle",
-        "Smoke",
-        "Imperium",
-        "Gladiator Reaper"
-      ],
-      "leader": "",
-      "loadout": "This model is equipped with: 2 tempest bolters; twin heavy onslaught gatling cannon; armoured hull.",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [],
-              "name": "Armoured hull",
-              "range": "Melee",
-              "skill": "4+",
-              "strength": "6"
-            }
-          ]
-        }
-      ],
-      "name": "Gladiator Reaper",
-      "points": [
-        {
-          "name": "model",
-          "model": "1",
-          "cost": "160"
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "12",
-              "damage": "1",
-              "keywords": [
-                "Twin-linked",
-                "Devastating Wounds"
-              ],
-              "name": "Twin heavy onslaught gatling cannon",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "6"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "4",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 4"
-              ],
-              "name": "Tempest bolter",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
-              "name": "Ironhail heavy stubber",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "D3",
-              "damage": "2",
-              "keywords": [
-                "Anti-fly 2+"
-              ],
-              "name": "Icarus rocket pod",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "8"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "10\"",
-          "name": "Gladiator Reaper",
-          "oc": "3",
-          "showDamagedMarker": true,
-          "showName": false,
-          "sv": "3+",
-          "t": "10",
-          "w": "12"
-        }
-      ],
-      "transport": "",
-      "wargear": [
-        "This model can be equipped with 1 Icarus rocket pod.",
-        "This model can be equipped with 1 ironhail heavy stubber."
-      ]
-    },
-    {
-      "abilities": {
-        "core": [
           "Deadly Demise D3",
           "Firing Deck 2"
         ],
@@ -16316,9 +15109,10 @@
       "name": "Rhino",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "75"
+          "cost": "75",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -16457,9 +15251,10 @@
       "name": "Invader ATV",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "60"
+          "cost": "60",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -16644,14 +15439,16 @@
       "name": "Infiltrator Squad",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "100"
+          "cost": "200",
+          "keyword": null,
+          "models": "10",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "10",
-          "cost": "200"
+          "cost": "100",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -16792,9 +15589,10 @@
       "name": "Ballistus Dreadnought",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "140"
+          "cost": "140",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -16955,14 +15753,16 @@
       "name": "Infernus Squad",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "90"
+          "cost": "180",
+          "keyword": null,
+          "models": "10",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "10",
-          "cost": "180"
+          "cost": "90",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -17030,469 +15830,19 @@
         "Vulkan He’stan",
         "Sanguinary Priest",
         "Judiciar",
+        "Marshal",
         "Marneus Calgar",
         "Azrael",
-        "Castellan",
-        "Blood Angels Captain",
-        "Asmodai",
-        "Apothecary",
-        "Lieutenant",
-        "Ancient",
-        "Marshal",
-        "Lazarus",
-        "Captain",
         "Chaplain Grimaldus",
-        "Chaplain"
-      ]
-    },
-    {
-      "abilities": {
-        "core": [],
-        "damaged": {
-          "description": "",
-          "range": "",
-          "showDamagedAbility": false,
-          "showDescription": true
-        },
-        "faction": [
-          "Oath of Moment"
-        ],
-        "invul": {
-          "info": "",
-          "showAtTop": true,
-          "showInfo": false,
-          "showInvulnerableSave": false,
-          "value": ""
-        },
-        "other": [
-          {
-            "name": "Sternguard Focus",
-            "description": "Each time a model in this unit makes an attack that targets your Oath of Moment target, you can re-roll the Wound roll.",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "1 Sternguard Veteran Sergeant",
-        "4-9 Sternguard Veterans"
-      ],
-      "factions": [
-        "Adeptus Astartes"
-      ],
-      "faction_id": "SM",
-      "fluff": "Sternguard Veterans are possessed of an unshakeable calm, and are renowned amongst their brothers for their exemplary marksmanship in the fiercest battles. Proficient in all of the Chapter’s ranged weaponry, they can always be found where their pinpoint volleys will best shatter the foe.",
-      "id": "3bf460b5-81a0-51c5-9bbb-4556fae29a26",
-      "keywords": [
-        "Infantry",
-        "Grenades",
-        "Imperium",
-        "Tacticus",
-        "Sternguard Veteran Squad"
-      ],
-      "leader": "",
-      "loadout": "Every model is equipped with: Sternguard bolt pistol; Sternguard bolt rifle; close combat weapon.",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "4",
-              "damage": "1",
-              "keywords": [],
-              "name": "Close combat weapon",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "6",
-              "damage": "1",
-              "keywords": [],
-              "name": "Astartes chainsword",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "5",
-              "damage": "1",
-              "keywords": [],
-              "name": "Power weapon",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "4",
-              "damage": "2",
-              "keywords": [],
-              "name": "Power fist",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "8"
-            }
-          ]
-        }
-      ],
-      "name": "Sternguard Veteran Squad",
-      "points": [
-        {
-          "name": "model",
-          "model": "5",
-          "cost": "100"
-        },
-        {
-          "name": "model",
-          "model": "10",
-          "cost": "200"
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "1",
-              "damage": "1",
-              "keywords": [
-                "Pistol",
-                "Devastating Wounds"
-              ],
-              "name": "Sternguard bolt pistol",
-              "range": "12\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "2",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 1",
-                "Heavy",
-                "Devastating Wounds",
-                "Assault"
-              ],
-              "name": "Sternguard bolt rifle",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "1",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 1",
-                "Devastating Wounds",
-                "Anti-infantry 4+"
-              ],
-              "name": "Combi-weapon",
-              "range": "24\"",
-              "skill": "4+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "3",
-              "damage": "2",
-              "keywords": [
-                "Sustained Hits 1",
-                "Heavy",
-                "Devastating Wounds"
-              ],
-              "name": "Sternguard heavy bolter",
-              "range": "36\"",
-              "skill": "4+",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "D6+1",
-              "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
-              "name": "Pyrecannon",
-              "range": "12\"",
-              "skill": "N/A",
-              "strength": "6"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "6\"",
-          "name": "Sternguard Veteran",
-          "oc": "1",
-          "showDamagedMarker": false,
-          "showName": true,
-          "sv": "3+",
-          "t": "4",
-          "w": "2"
-        }
-      ],
-      "transport": "",
-      "wargear": [
-        "For every 5 models in this unit, 1 Sternguard Veteran’s Sternguard bolt rifle can be replaced with one of the following: ◦ 1 pyrecannon ◦ 1 Sternguard heavy bolter",
-        "Any number of models can each have their Sternguard bolt rifle replaced with 1 combi-weapon.",
-        "The Sternguard Veteran Sergeant’s Sternguard bolt rifle can be replaced with one of the following:  ◦ 1 Astartes chainsword  ◦ 1 combi-weapon ◦ 1 power weapon ◦ 1 power fist ◦ 1 Astartes chainsword and 1 Sternguard bolt rifle ◦ 1 power weapon and 1 Sternguard bolt rifle ◦ 1 power fist and 1 Sternguard bolt rifle   This model’s Sternguard bolt rifle cannot be replaced."
-      ],
-      "leadBy": [
-        "Adrax Agatone",
-        "Ezekiel",
-        "Captain Sicarius",
-        "Librarian",
-        "Kor’sarro Khan",
-        "Sanguinary Priest",
-        "Judiciar",
-        "Marneus Calgar",
-        "Uriel Ventris",
-        "Azrael",
-        "Castellan",
-        "Chief Librarian Tigurius",
         "Blood Angels Captain",
+        "Castellan",
         "Asmodai",
         "Apothecary",
         "Lieutenant",
         "Ancient",
-        "Pedro Kantor",
-        "Marshal",
         "Lazarus",
-        "The Emperor’s Champion",
         "Captain",
         "Chaplain"
-      ]
-    },
-    {
-      "abilities": {
-        "core": [
-          "Deadly Demise D3"
-        ],
-        "damaged": {
-          "range": "1-4 WOUNDS REMAINING",
-          "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-          "showDamagedAbility": true,
-          "showDescription": true
-        },
-        "faction": [
-          "Oath of Moment"
-        ],
-        "invul": {
-          "info": "",
-          "showAtTop": true,
-          "showInfo": false,
-          "showInvulnerableSave": false,
-          "value": ""
-        },
-        "other": [
-          {
-            "name": "Priority Target Acquisition",
-            "description": "Each time this model makes an attack with its twin las-talon that targets the closest eligible MONSTER or VEHICLE unit, add 1 to the Hit roll.",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "1 Gladiator Valiant"
-      ],
-      "factions": [
-        "Adeptus Astartes"
-      ],
-      "faction_id": "SM",
-      "fluff": "The Valiant lays down blistering volleys of fire as it escorts transports or supports infantry in ferocious fighting, crossing rushing watercourses, sucking marshlands and bubbling lava lakes with equal ease. Its twin las-talons spit death at the foe, making short work of enemy armour and cracking open fortified positions.",
-      "id": "6bbb474f-faae-5610-8e6c-941d01509be8",
-      "keywords": [
-        "Vehicle",
-        "Smoke",
-        "Imperium",
-        "Gladiator Valiant"
-      ],
-      "leader": "",
-      "loadout": "This model is equipped with: 2 multi-meltas; twin las-talon; armoured hull.",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [],
-              "name": "Armoured hull",
-              "range": "Melee",
-              "skill": "4+",
-              "strength": "6"
-            }
-          ]
-        }
-      ],
-      "name": "Gladiator Valiant",
-      "points": [
-        {
-          "name": "model",
-          "model": "1",
-          "cost": "160"
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "2",
-              "damage": "D6+1",
-              "keywords": [
-                "Twin-linked"
-              ],
-              "name": "Twin las-talon",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "10"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-4",
-              "attacks": "2",
-              "damage": "D6",
-              "keywords": [
-                "Melta 2"
-              ],
-              "name": "Multi-melta",
-              "range": "18\"",
-              "skill": "3+",
-              "strength": "9"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
-              "name": "Ironhail heavy stubber",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "D3",
-              "damage": "2",
-              "keywords": [
-                "Anti-fly 2+"
-              ],
-              "name": "Icarus rocket pod",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "8"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "10\"",
-          "name": "Gladiator Valiant",
-          "oc": "3",
-          "showDamagedMarker": true,
-          "showName": false,
-          "sv": "3+",
-          "t": "10",
-          "w": "12"
-        }
-      ],
-      "transport": "",
-      "wargear": [
-        "This model can be equipped with 1 Icarus rocket pod.",
-        "This model can be equipped with 1 ironhail heavy stubber."
       ]
     },
     {
@@ -17580,9 +15930,10 @@
       "name": "Lieutenant in Phobos Armour",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "55"
+          "cost": "55",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -17648,209 +15999,6 @@
         ],
         "extra": "You can attach this model to a unit it can lead even if one CAPTAIN or CHAPTER MASTER model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
       }
-    },
-    {
-      "abilities": {
-        "core": [
-          "Deadly Demise D6"
-        ],
-        "damaged": {
-          "range": "1-5 WOUNDS REMAINING",
-          "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-          "showDamagedAbility": true,
-          "showDescription": true
-        },
-        "faction": [
-          "Oath of Moment"
-        ],
-        "invul": {
-          "info": "",
-          "showAtTop": true,
-          "showInfo": false,
-          "showInvulnerableSave": false,
-          "value": ""
-        },
-        "other": [
-          {
-            "name": "Assault Ramp",
-            "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "1 Land Raider Crusader"
-      ],
-      "factions": [
-        "Adeptus Astartes"
-      ],
-      "faction_id": "SM",
-      "fluff": "The Land Raider Crusader is a superlative assault tank. Its bulk enables it to crush enemy defences, and its prodigious firepower cuts their defenders to ribbons. With an enhanced transport capacity, once it has stormed enemy defences, Space Marines pour from its hatches to slaughter those foes who remain.",
-      "id": "99c456e2-eaf2-5c78-88b7-22e7d20f2605",
-      "keywords": [
-        "Vehicle",
-        "Smoke",
-        "Grenades",
-        "Transport",
-        "Imperium",
-        "Land Raider Crusader"
-      ],
-      "leader": "",
-      "loadout": "This model is equipped with: 2 hurricane bolters; twin assault cannon; armoured tracks.",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "6",
-              "damage": "1",
-              "keywords": [],
-              "name": "Armoured tracks",
-              "range": "Melee",
-              "skill": "4+",
-              "strength": "8"
-            }
-          ]
-        }
-      ],
-      "name": "Land Raider Crusader",
-      "points": [
-        {
-          "name": "model",
-          "model": "1",
-          "cost": "220"
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "6",
-              "damage": "1",
-              "keywords": [
-                "Twin-linked",
-                "Devastating Wounds"
-              ],
-              "name": "Twin assault cannon",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "6"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "6",
-              "damage": "1",
-              "keywords": [
-                "Twin-linked",
-                "Rapid Fire 6"
-              ],
-              "name": "Hurricane bolter",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "1",
-              "damage": "D6",
-              "keywords": [
-                "One Shot"
-              ],
-              "name": "Hunter-killer missile",
-              "range": "48\"",
-              "skill": "2+",
-              "strength": "14"
-            }
-          ],
-          "abilities": [
-            {
-              "name": "One Shot",
-              "description": "The bearer can only shoot with this weapon once per battle.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-4",
-              "attacks": "2",
-              "damage": "D6",
-              "keywords": [
-                "Melta 2"
-              ],
-              "name": "Multi-melta",
-              "range": "18\"",
-              "skill": "3+",
-              "strength": "9"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "2",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 2"
-              ],
-              "name": "Storm bolter",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "12\"",
-          "name": "Land Raider Crusader",
-          "oc": "5",
-          "showDamagedMarker": true,
-          "showName": false,
-          "sv": "2+",
-          "t": "12",
-          "w": "16"
-        }
-      ],
-      "transport": "This model has a transport capacity of 16 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.",
-      "wargear": [
-        "This model can be equipped with 1 storm bolter.",
-        "This model can be equipped with 1 multi-melta.",
-        "This model can be equipped with 1 hunter-killer missile."
-      ]
     },
     {
       "abilities": {
@@ -17976,14 +16124,16 @@
       "name": "Reiver Squad",
       "points": [
         {
-          "name": "model",
-          "model": "5",
-          "cost": "80"
+          "cost": "160",
+          "keyword": null,
+          "models": "10",
+          "active": true
         },
         {
-          "name": "model",
-          "model": "10",
-          "cost": "160"
+          "cost": "80",
+          "keyword": null,
+          "models": "5",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -18134,9 +16284,10 @@
       "name": "Chaplain",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "60"
+          "cost": "60",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -18265,9 +16416,10 @@
       "name": "Invictor Tactical Warsuit",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "125"
+          "cost": "125",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -18465,9 +16617,10 @@
       "name": "Bladeguard Ancient",
       "points": [
         {
-          "name": "model",
-          "model": "1",
-          "cost": "45"
+          "cost": "45",
+          "keyword": null,
+          "models": "1",
+          "active": true
         }
       ],
       "rangedWeapons": [
@@ -30250,5 +28403,5 @@
       "detachment": "Stormlance Task Force"
     }
   ],
-  "updated": "2025-07-22T13:01:17.429Z"
+  "updated": "2025-08-19T17:58:02.242Z"
 }

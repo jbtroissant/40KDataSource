@@ -629,8 +629,10 @@ def process_file(input_file):
     with open(FLAT_FILE_EN, 'w', encoding='utf-8') as f:
         json.dump(translations, f, ensure_ascii=False, indent=2)
 
-    # Fichier JSON modifié (clé à la place du texte) à la racine
-    OUTPUT_FILE = f'{data_id}.translated.json'
+    # Fichier JSON modifié (clé à la place du texte) dans le dossier "updated translations in progress"
+    OUTPUT_DIR = 'updated translations in progress'
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    OUTPUT_FILE = os.path.join(OUTPUT_DIR, f'{data_id}.translated.json')
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(replaced, f, ensure_ascii=False, indent=2)
 

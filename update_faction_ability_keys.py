@@ -38,7 +38,7 @@ def update_file(filepath, flat_en_dict):
 def process_faction(faction):
     base = faction.upper()
     files = [
-        f"{base}.translated.json",
+        f"updated translations in progress/{base}.translated.json",
         f"en/{base}.flat.json",
         f"fr/{base}.flat.json"
     ]
@@ -61,8 +61,8 @@ def main():
         process_faction(sys.argv[1])
     else:
         # Toutes les factions présentes
-        for translated in glob("*.translated.json"):
-            faction = translated.split('.')[0]
+        for translated in glob("updated translations in progress/*.translated.json"):
+            faction = os.path.basename(translated).split('.')[0]
             process_faction(faction)
 
 if __name__ == '__main__':

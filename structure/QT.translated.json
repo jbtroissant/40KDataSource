@@ -975,7 +975,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "140"
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -1170,7 +1170,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "335"
+          "cost": "375"
         }
       ],
       "rangedWeapons": [
@@ -1452,7 +1452,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "355"
+          "cost": "385"
         }
       ],
       "rangedWeapons": [
@@ -1608,7 +1608,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "350"
+          "cost": "375"
         }
       ],
       "rangedWeapons": [
@@ -1787,7 +1787,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "335"
+          "cost": "365"
         }
       ],
       "rangedWeapons": [
@@ -2130,7 +2130,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "355"
+          "cost": "395"
         }
       ],
       "rangedWeapons": [
@@ -2475,7 +2475,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "355"
+          "cost": "385"
         }
       ],
       "rangedWeapons": [
@@ -2611,7 +2611,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "355"
+          "cost": "385"
         }
       ],
       "rangedWeapons": [
@@ -2780,7 +2780,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "335"
+          "cost": "365"
         }
       ],
       "rangedWeapons": [
@@ -2941,7 +2941,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "345"
+          "cost": "375"
         }
       ],
       "rangedWeapons": [
@@ -3101,7 +3101,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "395"
+          "cost": "410"
         }
       ],
       "rangedWeapons": [
@@ -3372,7 +3372,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "325"
+          "cost": "355"
         }
       ],
       "rangedWeapons": [
@@ -3551,7 +3551,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "345"
+          "cost": "375"
         }
       ],
       "rangedWeapons": [

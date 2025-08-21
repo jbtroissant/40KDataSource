@@ -1,5 +1,8 @@
 {
-  "allied_factions": ["AoI", "QI"],
+  "allied_factions": [
+    "AoI",
+    "QI"
+  ],
   "colours": {
     "banner": "#202a2f",
     "header": "#142637"
@@ -8,14 +11,18 @@
   "datasheets": [
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Templar Vows"],
+        "faction": [
+          "Templar Vows"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -42,8 +49,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 High Marshal Helbrecht – EPIC HERO"],
-      "factions": ["Black Templars"],
+      "composition": [
+        "1 High Marshal Helbrecht – EPIC HERO"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
       "faction_id": "CHBT",
       "fluff": "Helbrecht is the living embodiment of his Chapter’s warrior spirit. Wielding the Sword of the High Marshals, he storms into the fray, bellowing oaths of vengeance as he leads the unstoppable charge. His battle-brothers follow him without question, for they believe where High Marshal Helbrecht treads, so too walks the Emperor himself.",
       "id": "42779506-fcd1-5145-a0ed-5df12d5b4096",
@@ -91,10 +102,9 @@
       "name": "High Marshal Helbrecht",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -106,7 +116,10 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Devastating Wounds", "Anti-infantry 4+"],
+              "keywords": [
+                "Devastating Wounds",
+                "Anti-infantry 4+"
+              ],
               "name": "Ferocity",
               "range": "24\"",
               "skill": "2+",
@@ -131,7 +144,9 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
         "units": [
           "ASSAULT INTERCESSOR SQUAD",
@@ -144,14 +159,18 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D3"],
+        "core": [
+          "Deadly Demise D3"
+        ],
         "damaged": {
           "range": "1-4 WOUNDS REMAINING",
           "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["Templar Vows"],
+        "faction": [
+          "Templar Vows"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -172,12 +191,21 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Gladiator Lancer"],
-      "factions": ["Black Templars"],
+      "composition": [
+        "1 Gladiator Lancer"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
       "faction_id": "CHBT",
       "fluff": "With pinpoint accuracy, Gladiator Lancer crews use this battle tank’s laser destroyer to spear through the heaviest enemy armour and punch smouldering holes in the flesh of xenos monstrosities. Such is the range of its heavy cannon that it can eliminate threats to the Black Templars before their battle-brothers encounter them, storming past their wrecks to seek the next affront to the Emperor.",
       "id": "b22e3ef7-6afa-5dda-8637-067fc98a4e31",
-      "keywords": ["Vehicle", "Smoke", "Imperium", "Gladiator Lancer"],
+      "keywords": [
+        "Vehicle",
+        "Smoke",
+        "Imperium",
+        "Gladiator Lancer"
+      ],
       "leader": "",
       "loadout": "This model is equipped with: Lancer laser destroyer; 2 storm bolters; armoured hull.",
       "meleeWeapons": [
@@ -201,10 +229,9 @@
       "name": "Gladiator Lancer",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -216,7 +243,9 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6+3",
-              "keywords": ["Heavy"],
+              "keywords": [
+                "Heavy"
+              ],
               "name": "Lancer laser destroyer",
               "range": "72\"",
               "skill": "3+",
@@ -232,7 +261,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "3+",
@@ -248,7 +279,9 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Fragstorm grenade launcher",
               "range": "18\"",
               "skill": "3+",
@@ -264,7 +297,9 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Rapid Fire 3"],
+              "keywords": [
+                "Rapid Fire 3"
+              ],
               "name": "Ironhail heavy stubber",
               "range": "36\"",
               "skill": "3+",
@@ -280,7 +315,9 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": ["Melta 2"],
+              "keywords": [
+                "Melta 2"
+              ],
               "name": "Multi-melta",
               "range": "18\"",
               "skill": "3+",
@@ -296,7 +333,9 @@
               "ap": "-1",
               "attacks": "D3",
               "damage": "2",
-              "keywords": ["Anti-fly 2+"],
+              "keywords": [
+                "Anti-fly 2+"
+              ],
               "name": "Icarus rocket pod",
               "range": "24\"",
               "skill": "3+",
@@ -329,14 +368,18 @@
     },
     {
       "abilities": {
-        "core": ["Deep Strike"],
+        "core": [
+          "Deep Strike"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Templar Vows"],
+        "faction": [
+          "Templar Vows"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -363,12 +406,22 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Terminator Squad Leader", "4-9 Terminators"],
-      "factions": ["Black Templars"],
+      "composition": [
+        "1 Terminator Squad Leader",
+        "4-9 Terminators"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
       "faction_id": "CHBT",
       "fluff": "Each suit of Terminator armour is a precious relic that enables a Black Templar veteran to survive anything from teleportation to the blows of hulking xenos. Shards of the Emperor’s armour set into the suit are even said to ward away malefic witchery. So equipped, heavily armed Terminator Squads can appear amid the foe or stride openly towards them, firing their weapons all the while.",
       "id": "8ca68d6d-5841-5437-aa03-5d0d660a010f",
-      "keywords": ["Infantry", "Imperium", "Terminator", "Terminator Squad"],
+      "keywords": [
+        "Infantry",
+        "Imperium",
+        "Terminator",
+        "Terminator Squad"
+      ],
       "leader": "",
       "loadout": "Every model is equipped with: storm bolter; power fist.",
       "meleeWeapons": [
@@ -396,7 +449,9 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Anti-vehicle 3+"],
+              "keywords": [
+                "Anti-vehicle 3+"
+              ],
               "name": "Chainfist",
               "range": "Melee",
               "skill": "4+",
@@ -424,16 +479,14 @@
       "name": "Terminator Squad",
       "points": [
         {
-          "cost": "330",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "175"
         },
         {
-          "cost": "175",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "330"
         }
       ],
       "rangedWeapons": [
@@ -445,7 +498,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "3+",
@@ -461,7 +516,9 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Assault Cannon",
               "range": "24\"",
               "skill": "3+",
@@ -477,7 +534,10 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Heavy flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -504,7 +564,9 @@
               "ap": "0",
               "attacks": "2D6",
               "damage": "1",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Cyclone missile launcher – Frag",
               "range": "36\"",
               "skill": "3+",
@@ -537,14 +599,18 @@
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Templar Vows"],
+        "faction": [
+          "Templar Vows"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -571,8 +637,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Marshal"],
-      "factions": ["Black Templars"],
+      "composition": [
+        "1 Marshal"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
       "faction_id": "CHBT",
       "fluff": "Each Black Templars crusade is led by a Marshal. Similar in rank to the Captains of other Chapters, Marshals are fearsome combatants and paragons of strategic acumen. Ensuring a crusade’s purity and success is a sacred duty, and Marshals fight with sanctified relic weapons while acting as beacons of pious fervour for their warriors.",
       "id": "9892bec6-67ae-5ad3-b020-86a6f127fce7",
@@ -596,7 +666,9 @@
               "ap": "-2",
               "attacks": "7",
               "damage": "2",
-              "keywords": ["Lethal Hits"],
+              "keywords": [
+                "Lethal Hits"
+              ],
               "name": "Master-crafted power weapon",
               "range": "Melee",
               "skill": "2+",
@@ -608,10 +680,9 @@
       "name": "Marshal",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -623,7 +694,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Plasma pistol – Standard",
               "range": "12\"",
               "skill": "2+",
@@ -634,7 +707,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Pistol", "Hazardous"],
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
               "name": "Plasma pistol – Supercharge",
               "range": "12\"",
               "skill": "2+",
@@ -703,7 +779,9 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Templar Vows"],
+        "faction": [
+          "Templar Vows"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -731,8 +809,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["4-10 Sword Brothers"],
-      "factions": ["Black Templars"],
+      "composition": [
+        "4-10 Sword Brothers"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
       "faction_id": "CHBT",
       "fluff": "Every Sword Brother has earned their place amongst the Marshal’s household through acts of unswerving faith and spectacular violence. On the battlefield they are a reaping whirlwind, unstoppable, uncompromising and armed with a lethal assortment of weapons that they turn upon the enemy in the Emperor’s name.",
       "id": "5cdf034f-5f2e-5951-a345-a6fe52657512",
@@ -754,7 +836,9 @@
               "ap": "-1",
               "attacks": "6",
               "damage": "1",
-              "keywords": ["Sustained Hits 1"],
+              "keywords": [
+                "Sustained Hits 1"
+              ],
               "name": "Astartes chainsword",
               "range": "Melee",
               "skill": "2+",
@@ -770,7 +854,9 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Lethal Hits"],
+              "keywords": [
+                "Lethal Hits"
+              ],
               "name": "Master-crafted power weapon",
               "range": "Melee",
               "skill": "2+",
@@ -786,7 +872,9 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Thunder hammer",
               "range": "Melee",
               "skill": "3+",
@@ -802,7 +890,9 @@
               "ap": "-2",
               "attacks": "5",
               "damage": "1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin lightning claws",
               "range": "Melee",
               "skill": "2+",
@@ -814,28 +904,24 @@
       "name": "Sword Brethren Squad",
       "points": [
         {
-          "cost": "260",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "4",
+          "cost": "105"
         },
         {
-          "cost": "235",
-          "keyword": null,
-          "models": "9",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "130"
         },
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "9",
+          "cost": "235"
         },
         {
-          "cost": "105",
-          "keyword": null,
-          "models": "4",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "260"
         }
       ],
       "rangedWeapons": [
@@ -847,7 +933,9 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Heavy bolt pistol",
               "range": "18\"",
               "skill": "3+",
@@ -863,7 +951,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Plasma pistol – Standard",
               "range": "12\"",
               "skill": "3+",
@@ -874,7 +964,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Pistol", "Hazardous"],
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
               "name": "Plasma pistol – Supercharge",
               "range": "12\"",
               "skill": "3+",
@@ -890,7 +983,11 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Pistol", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Pistol",
+                "Ignores Cover"
+              ],
               "name": "Pyre pistol",
               "range": "12\"",
               "skill": "N/A",
@@ -941,7 +1038,9 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Templar Vows"],
+        "faction": [
+          "Templar Vows"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -974,7 +1073,9 @@
         "5-11 Primaris Initiates",
         "4-8 Primaris Neophytes"
       ],
-      "factions": ["Black Templars"],
+      "factions": [
+        "Black Templars"
+      ],
       "faction_id": "CHBT",
       "fluff": "Crusader Squads storm into battle with bolt rifles blazing and chainswords howling. Initiates aim jets of fire from their pyreblasters or swing crackling power fists into their foes, while hard-eyed Neophytes fight furiously to prove their martial worth under the stern gaze of their mentors.",
       "id": "e7576cd7-d91f-5864-bc14-9b38345b9417",
@@ -997,7 +1098,9 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Lethal Hits"],
+              "keywords": [
+                "Lethal Hits"
+              ],
               "name": "Master-crafted power weapon",
               "range": "Melee",
               "skill": "2+",
@@ -1029,7 +1132,9 @@
               "ap": "-1",
               "attacks": "4",
               "damage": "1",
-              "keywords": ["Sustained Hits 1"],
+              "keywords": [
+                "Sustained Hits 1"
+              ],
               "name": "Astartes chainsword",
               "range": "Melee",
               "skill": "3+",
@@ -1078,7 +1183,9 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Heavy bolt pistol",
               "range": "18\"",
               "skill": "3+",
@@ -1094,7 +1201,11 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Pistol", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Pistol",
+                "Ignores Cover"
+              ],
               "name": "Pyre pistol",
               "range": "12\"",
               "skill": "N/A",
@@ -1110,7 +1221,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -1126,7 +1239,10 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Heavy", "Assault"],
+              "keywords": [
+                "Heavy",
+                "Assault"
+              ],
               "name": "Bolt rifle",
               "range": "24\"",
               "skill": "3+",
@@ -1142,7 +1258,10 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Pyreblaster",
               "range": "12\"",
               "skill": "N/A",
@@ -1158,7 +1277,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Assault"],
+              "keywords": [
+                "Assault"
+              ],
               "name": "Neophyte firearm",
               "range": "18\"",
               "skill": "3+",
@@ -1213,14 +1334,18 @@
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Templar Vows"],
+        "faction": [
+          "Templar Vows"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1247,8 +1372,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Execrator"],
-      "factions": ["Black Templars"],
+      "composition": [
+        "1 Execrator"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
       "faction_id": "CHBT",
       "fluff": "Execrators are living exemplars of their battle-brothers’ oaths, ferocious warrior priests who lead the Black Templars in lethal rampages. They teach that war is the most worthy chapel for warriors, every bludgeoning blow of their crozius arcanum punctuated with zealous invective and roared sermons.",
       "id": "86a2b728-d20e-55ce-baf0-ce61b0d6449c",
@@ -1288,7 +1417,10 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Lethal Hits", "Extra Attacks"],
+              "keywords": [
+                "Lethal Hits",
+                "Extra Attacks"
+              ],
               "name": "master-crafted power weapon",
               "range": "Melee",
               "skill": "2+",
@@ -1300,10 +1432,9 @@
       "name": "Execrator",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -1315,7 +1446,9 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Absolvor bolt pistol",
               "range": "18\"",
               "skill": "3+",
@@ -1331,7 +1464,11 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Pistol", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Pistol",
+                "Ignores Cover"
+              ],
               "name": "Pyre pistol",
               "range": "12\"",
               "skill": "N/A",
@@ -1361,7 +1498,10 @@
         "This model’s absolver bolt pistol can be replaced with 1 pyre pistol."
       ],
       "leads": {
-        "units": ["CRUSADER SQUAD", "SWORD BRETHREN SQUAD"],
+        "units": [
+          "CRUSADER SQUAD",
+          "SWORD BRETHREN SQUAD"
+        ],
         "extra": ""
       }
     },
@@ -1374,7 +1514,9 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Templar Vows"],
+        "faction": [
+          "Templar Vows"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1399,7 +1541,9 @@
         "1 Sternguard Veteran Sergeant",
         "4-9 Sternguard Veterans"
       ],
-      "factions": ["Black Templars"],
+      "factions": [
+        "Black Templars"
+      ],
       "faction_id": "CHBT",
       "fluff": "A crusade’s Sternguard Veterans possess an unshakeable calm and are renowned for their unflinching marksmanship under extreme threat. Granted the use of a wide range of specialist ammunition and ranged relic weaponry, they unleash the God-Emperor’s judgement in pinpoint volleys that unerringly exploit the blasphemous enemies’ weaknesses.",
       "id": "3bf460b5-81a0-51c5-9bbb-4556fae29a26",
@@ -1481,16 +1625,14 @@
       "name": "Sternguard Veteran Squad",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "85"
         },
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -1502,7 +1644,10 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol", "Devastating Wounds"],
+              "keywords": [
+                "Pistol",
+                "Devastating Wounds"
+              ],
               "name": "Sternguard bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -1559,7 +1704,11 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Sustained Hits 1", "Heavy", "Devastating Wounds"],
+              "keywords": [
+                "Sustained Hits 1",
+                "Heavy",
+                "Devastating Wounds"
+              ],
               "name": "Sternguard heavy bolter",
               "range": "36\"",
               "skill": "4+",
@@ -1575,7 +1724,10 @@
               "ap": "-1",
               "attacks": "D6+1",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Pyrecannon",
               "range": "12\"",
               "skill": "N/A",
@@ -1605,18 +1757,26 @@
         "Any number of models can each have their Sternguard bolt rifle replaced with 1 combi-weapon.",
         "The Sternguard Veteran Sergeant’s Sternguard bolt rifle can be replaced with one of the following: ◦ 1 Astartes chainsword  ◦ 1 combi-weapon ◦ 1 power weapon ◦ 1 power fist ◦ 1 Astartes chainsword and 1 Sternguard bolt rifle ◦ 1 power weapon and 1 Sternguard bolt rifle ◦ 1 power fist and 1 Sternguard bolt rifle   This model’s Sternguard bolt rifle cannot be replaced."
       ],
-      "leadBy": ["Marshal", "Castellan", "Emperor’s Champion"]
+      "leadBy": [
+        "Marshal",
+        "Castellan",
+        "Emperor’s Champion"
+      ]
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D6"],
+        "core": [
+          "Deadly Demise D6"
+        ],
         "damaged": {
           "range": "1-5 WOUNDS REMAINING",
           "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["Templar Vows"],
+        "faction": [
+          "Templar Vows"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1643,8 +1803,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Land Raider Crusader"],
-      "factions": ["Black Templars"],
+      "composition": [
+        "1 Land Raider Crusader"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
       "faction_id": "CHBT",
       "fluff": "Developed from sacred archeotech and deployed by the Black Templars during the Jerulas Crusade, the Land Raider Crusader is a superlative assault tank. Its bulk can crush enemy defences, and its prodigious firepower cuts their guardians apart. Once it has stormed a position, Black Templars pour from its hatches to slaughter any who remain.",
       "id": "99c456e2-eaf2-5c78-88b7-22e7d20f2605",
@@ -1679,10 +1843,9 @@
       "name": "Land Raider Crusader",
       "points": [
         {
-          "cost": "220",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -1694,7 +1857,10 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": ["Twin-linked", "Devastating Wounds"],
+              "keywords": [
+                "Twin-linked",
+                "Devastating Wounds"
+              ],
               "name": "Twin assault cannon",
               "range": "24\"",
               "skill": "3+",
@@ -1710,7 +1876,10 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": ["Twin-linked", "Rapid Fire 6"],
+              "keywords": [
+                "Twin-linked",
+                "Rapid Fire 6"
+              ],
               "name": "Hurricane bolter",
               "range": "24\"",
               "skill": "3+",
@@ -1726,7 +1895,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["One Shot"],
+              "keywords": [
+                "One Shot"
+              ],
               "name": "Hunter-killer missile",
               "range": "48\"",
               "skill": "2+",
@@ -1750,7 +1921,9 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": ["Melta 2"],
+              "keywords": [
+                "Melta 2"
+              ],
               "name": "Multi-melta",
               "range": "18\"",
               "skill": "3+",
@@ -1766,7 +1939,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "3+",
@@ -1799,14 +1974,19 @@
     },
     {
       "abilities": {
-        "core": ["Feel No Pain 5+", "Leader"],
+        "core": [
+          "Feel No Pain 5+",
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Templar Vows"],
+        "faction": [
+          "Templar Vows"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1862,7 +2042,9 @@
         "1 Chaplain Grimaldus – EPIC HERO",
         "3 Cenobyte Servitors*"
       ],
-      "factions": ["Black Templars"],
+      "factions": [
+        "Black Templars"
+      ],
       "faction_id": "CHBT",
       "fluff": "High Chaplain Grimaldus is a beacon of Imperial faith. His fortitude is such that many of his brothers believe him invincible. His will is singular, his zeal coldly furious, and his martial skill attested by the trail of broken foes laid at his heels. His Cenobyte Servitors lurch to war at his side, bearing with them holy relics of the faith.",
       "id": "68bd0bd6-bbf1-5464-a004-0074c02e764a",
@@ -1914,10 +2096,9 @@
       "name": "Chaplain Grimaldus",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "4",
-          "active": true
+          "name": "model",
+          "model": "4",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -1929,7 +2110,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Plasma pistol – Standard",
               "range": "12\"",
               "skill": "2+",
@@ -1940,7 +2123,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Pistol", "Hazardous"],
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
               "name": "Plasma pistol – Supercharge",
               "range": "12\"",
               "skill": "2+",
@@ -1977,7 +2163,9 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
         "units": [
           "ASSAULT INTERCESSOR SQUAD",
@@ -1991,14 +2179,18 @@
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Templar Vows"],
+        "faction": [
+          "Templar Vows"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2025,8 +2217,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Castellan"],
-      "factions": ["Black Templars"],
+      "composition": [
+        "1 Castellan"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
       "faction_id": "CHBT",
       "fluff": "A Castellan leads each of a crusade’s Fighting Companies and acts as a conduit for their Marshal’s will. Charged with the physical and spiritual purity of active Chapter Keeps, they have honed a patient wisdom that they draw upon in battle, alongside their tactical precision and close-quarters ferocity.",
       "id": "c754e3a4-fcdb-51bd-a458-8296733b3ea6",
@@ -2050,7 +2246,9 @@
               "ap": "-2",
               "attacks": "6",
               "damage": "2",
-              "keywords": ["Lethal Hits"],
+              "keywords": [
+                "Lethal Hits"
+              ],
               "name": "Master-crafted power weapon",
               "range": "Melee",
               "skill": "2+",
@@ -2066,7 +2264,9 @@
               "ap": "-1",
               "attacks": "7",
               "damage": "1",
-              "keywords": ["Sustained Hits 1"],
+              "keywords": [
+                "Sustained Hits 1"
+              ],
               "name": "Astartes chainsword",
               "range": "Melee",
               "skill": "2+",
@@ -2078,10 +2278,9 @@
       "name": "Castellan",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -2113,7 +2312,9 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Heavy Bolt Pistol",
               "range": "18\"",
               "skill": "2+",
@@ -2156,14 +2357,19 @@
     },
     {
       "abilities": {
-        "core": ["Leader", "Lone Operative"],
+        "core": [
+          "Leader",
+          "Lone Operative"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Templar Vows"],
+        "faction": [
+          "Templar Vows"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2197,8 +2403,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Emperor’s Champion"],
-      "factions": ["Black Templars"],
+      "composition": [
+        "1 Emperor’s Champion"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
       "faction_id": "CHBT",
       "fluff": "A humble warrior touched by greatness, the Emperor’s Champion strides to battle wreathed in divine light. The furious blows of the enemy ring from his nigh-impenetrable Armour of Faith. In return, the Emperor’s Champion seeks out the leaders of the foe and, with sweeping blows from his Black Sword, strikes them down.",
       "id": "de359200-b270-58a2-8c53-8aaad1553ed8",
@@ -2232,7 +2442,10 @@
               "ap": "-3",
               "attacks": "6",
               "damage": "3",
-              "keywords": ["Precision", "Anti-character 5+"],
+              "keywords": [
+                "Precision",
+                "Anti-character 5+"
+              ],
               "name": "Black Sword – Strike",
               "range": "Melee",
               "skill": "2+",
@@ -2244,10 +2457,9 @@
       "name": "Emperor’s Champion",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -2259,7 +2471,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt Pistol",
               "range": "12\"",
               "skill": "2+",
@@ -2284,7 +2498,9 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
         "units": [
           "ASSAULT INTERCESSOR SQUAD",
@@ -2298,14 +2514,19 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D3", "Firing Deck 6"],
+        "core": [
+          "Deadly Demise D3",
+          "Firing Deck 6"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Templar Vows"],
+        "faction": [
+          "Templar Vows"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2339,8 +2560,12 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Impulsor"],
-      "factions": ["Black Templars"],
+      "composition": [
+        "1 Impulsor"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
       "faction_id": "CHBT",
       "fluff": "Equipped with vectored thrusters that grant it high speed, the Impulsor is a highly adaptable transport ideal for rapid insertion and flanking manoeuvres. The zealous vanguard forces of the Black Templars particularly favour it. The tank’s array of offensive and defensive systems enables it to support fiery purges, aggressive reconnaissance and oathsworn spearheads.",
       "id": "5fe8f17a-a8fb-5a0a-9b91-d61114df7d56",
@@ -2374,10 +2599,9 @@
       "name": "Impulsor",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -2389,7 +2613,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "3+",
@@ -2405,7 +2631,9 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Rapid Fire 3"],
+              "keywords": [
+                "Rapid Fire 3"
+              ],
               "name": "Ironhail heavy stubber",
               "range": "36\"",
               "skill": "3+",
@@ -2421,7 +2649,9 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": ["Melta 2"],
+              "keywords": [
+                "Melta 2"
+              ],
               "name": "Multi-melta",
               "range": "18\"",
               "skill": "3+",
@@ -2437,7 +2667,9 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Fragstorm grenade launcher",
               "range": "18\"",
               "skill": "3+",
@@ -2453,7 +2685,9 @@
               "ap": "-1",
               "attacks": "D3",
               "damage": "2",
-              "keywords": ["Anti-fly 2+"],
+              "keywords": [
+                "Anti-fly 2+"
+              ],
               "name": "Bellicatus missile array – Icarus",
               "range": "48\"",
               "skill": "3+",
@@ -2475,7 +2709,9 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Bellicatus missile array – Frag",
               "range": "48\"",
               "skill": "3+",
@@ -2491,7 +2727,10 @@
               "ap": "0",
               "attacks": "8",
               "damage": "1",
-              "keywords": ["Sustained Hits 1", "Anti-fly 4+"],
+              "keywords": [
+                "Sustained Hits 1",
+                "Anti-fly 4+"
+              ],
               "name": "Ironhail skytalon array",
               "range": "36\"",
               "skill": "3+",
@@ -2524,14 +2763,18 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D6"],
+        "core": [
+          "Deadly Demise D6"
+        ],
         "damaged": {
           "range": "1-5 WOUNDS REMAINING",
           "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["Templar Vows"],
+        "faction": [
+          "Templar Vows"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2552,8 +2795,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Repulsor Executioner"],
-      "factions": ["Black Templars"],
+      "composition": [
+        "1 Repulsor Executioner"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
       "faction_id": "CHBT",
       "fluff": "The Repulsor Executioner sacrifices some transport capacity to carry far more powerful weaponry. Armed with a blessed heavy laser destroyer, it can cripple enemy tanks, while the macro plasma incinerator can incinerate infantry formations. The Executioner’s crew are skilled in close-range support, combating threats to the rest of their fighting company with pinpoint interception strikes.",
       "id": "40ee135b-a29f-5683-a9be-d618abe9dbd5",
@@ -2587,10 +2834,9 @@
       "name": "Repulsor Executioner",
       "points": [
         {
-          "cost": "220",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -2602,7 +2848,9 @@
               "ap": "0",
               "attacks": "12",
               "damage": "1",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Heavy onslaught gatling cannon",
               "range": "24\"",
               "skill": "3+",
@@ -2618,7 +2866,9 @@
               "ap": "-3",
               "attacks": "D6+1",
               "damage": "2",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Macro plasma incinerator – Standard",
               "range": "36\"",
               "skill": "3+",
@@ -2629,7 +2879,10 @@
               "ap": "-4",
               "attacks": "D6+1",
               "damage": "3",
-              "keywords": ["Hazardous", "Blast"],
+              "keywords": [
+                "Hazardous",
+                "Blast"
+              ],
               "name": "Macro plasma incinerator – Supercharge",
               "range": "36\"",
               "skill": "3+",
@@ -2661,7 +2914,10 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Twin-linked", "Sustained Hits 1"],
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits 1"
+              ],
               "name": "Twin heavy bolter",
               "range": "36\"",
               "skill": "3+",
@@ -2677,7 +2933,11 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Twin-linked", "Rapid Fire 3", "Anti-fly 4+"],
+              "keywords": [
+                "Twin-linked",
+                "Rapid Fire 3",
+                "Anti-fly 4+"
+              ],
               "name": "Twin Icarus ironhail heavy stubber",
               "range": "36\"",
               "skill": "3+",
@@ -2693,7 +2953,9 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6+4",
-              "keywords": ["Heavy"],
+              "keywords": [
+                "Heavy"
+              ],
               "name": "Heavy laser destroyer",
               "range": "72\"",
               "skill": "3+",
@@ -2709,7 +2971,9 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Rapid Fire 3"],
+              "keywords": [
+                "Rapid Fire 3"
+              ],
               "name": "Ironhail heavy stubber",
               "range": "36\"",
               "skill": "3+",
@@ -2725,7 +2989,9 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": ["Melta 2"],
+              "keywords": [
+                "Melta 2"
+              ],
               "name": "Multi-melta",
               "range": "18\"",
               "skill": "3+",
@@ -2741,7 +3007,9 @@
               "ap": "-1",
               "attacks": "D3",
               "damage": "2",
-              "keywords": ["Anti-fly 2+"],
+              "keywords": [
+                "Anti-fly 2+"
+              ],
               "name": "Icarus rocket pod",
               "range": "24\"",
               "skill": "3+",
@@ -2774,14 +3042,18 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D3"],
+        "core": [
+          "Deadly Demise D3"
+        ],
         "damaged": {
           "range": "1-4 WOUNDS REMAINING",
           "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["Templar Vows"],
+        "faction": [
+          "Templar Vows"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2802,12 +3074,21 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Gladiator Valiant"],
-      "factions": ["Black Templars"],
+      "composition": [
+        "1 Gladiator Valiant"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
       "faction_id": "CHBT",
       "fluff": "The Valiant lays down blistering volleys of holy fire as it escorts transports or supports infantry in ferocious fighting, executing singular threats and vaporising squads of heavily armoured heretics with equal ease. Its twin las-talons spit vindicated death at the foe, making short work of enemy armour, while its hissing multi-meltas turn fortified positions into bubbling slag.",
       "id": "6bbb474f-faae-5610-8e6c-941d01509be8",
-      "keywords": ["Vehicle", "Smoke", "Imperium", "Gladiator Valiant"],
+      "keywords": [
+        "Vehicle",
+        "Smoke",
+        "Imperium",
+        "Gladiator Valiant"
+      ],
       "leader": "",
       "loadout": "This model is equipped with: 2 multi-meltas; twin las-talon; armoured hull.",
       "meleeWeapons": [
@@ -2831,10 +3112,9 @@
       "name": "Gladiator Valiant",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -2846,7 +3126,9 @@
               "ap": "-3",
               "attacks": "2",
               "damage": "D6+1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin las-talon",
               "range": "36\"",
               "skill": "3+",
@@ -2862,7 +3144,9 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": ["Melta 2"],
+              "keywords": [
+                "Melta 2"
+              ],
               "name": "Multi-melta",
               "range": "18\"",
               "skill": "3+",
@@ -2878,7 +3162,9 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Rapid Fire 3"],
+              "keywords": [
+                "Rapid Fire 3"
+              ],
               "name": "Ironhail heavy stubber",
               "range": "36\"",
               "skill": "3+",
@@ -2894,7 +3180,9 @@
               "ap": "-1",
               "attacks": "D3",
               "damage": "2",
-              "keywords": ["Anti-fly 2+"],
+              "keywords": [
+                "Anti-fly 2+"
+              ],
               "name": "Icarus rocket pod",
               "range": "24\"",
               "skill": "3+",
@@ -2926,14 +3214,18 @@
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Templar Vows"],
+        "faction": [
+          "Templar Vows"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2964,7 +3256,9 @@
         "1 Crusade Ancient",
         "This model is equipped with: bolt pistol; master-crafted power weapon."
       ],
-      "factions": ["Black Templars"],
+      "factions": [
+        "Black Templars"
+      ],
       "faction_id": "CHBT",
       "fluff": "Carrying their crusade’s icons and sacred standards, these veteran wardens are honoured warriors of exceptional resolve and determination. They raise high the tapestries depicting the crusade’s victories and the God-Emperor’s glory, exhorting their fellow Black Templars to greater heights of weaponised hate.",
       "id": "fa08a5d9-66a1-5a17-b171-59927398f279",
@@ -2987,7 +3281,9 @@
               "ap": "-2",
               "attacks": "5",
               "damage": "2",
-              "keywords": ["Lethal Hits"],
+              "keywords": [
+                "Lethal Hits"
+              ],
               "name": "Master-crafted power weapon",
               "range": "Melee",
               "skill": "2+",
@@ -2999,10 +3295,9 @@
       "name": "Crusade Ancient",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -3014,7 +3309,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -3039,22 +3336,31 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
-        "units": ["CRUSADER SQUAD", "SWORD BRETHREN SQUAD"],
+        "units": [
+          "CRUSADER SQUAD",
+          "SWORD BRETHREN SQUAD"
+        ],
         "extra": "You can attach this model to one of the above units even if one CAPTAIN, CHAPTER MASTER, EXECRATOR or LIEUTENANT model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
       }
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D6"],
+        "core": [
+          "Deadly Demise D6"
+        ],
         "damaged": {
           "range": "1-5 WOUNDS REMAINING",
           "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["Templar Vows"],
+        "faction": [
+          "Templar Vows"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3075,12 +3381,22 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Repulsor"],
-      "factions": ["Black Templars"],
+      "composition": [
+        "1 Repulsor"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
       "faction_id": "CHBT",
       "fluff": "Clad in advanced armour plating etched with the vows of its crew and armed for any battlefield situation, the Repulsor transports its vow-sworn occupants safely and provides deadly fire support. The tank’s ventral plates channel gravitic energies that crush obstacles and anchor its position, providing a stable disembarkation for those inside, even amidst heavy fire.",
       "id": "5ae6c5e7-c11c-54a7-8232-22219c6e66df",
-      "keywords": ["Vehicle", "Smoke", "Transport", "Imperium", "Repulsor"],
+      "keywords": [
+        "Vehicle",
+        "Smoke",
+        "Transport",
+        "Imperium",
+        "Repulsor"
+      ],
       "leader": "",
       "loadout": "This model is equipped with: heavy onslaught gatling cannon; hunter-slayer missile; Repulsor defensive array; twin heavy bolter; armoured hull.",
       "meleeWeapons": [
@@ -3104,10 +3420,9 @@
       "name": "Repulsor",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -3119,7 +3434,9 @@
               "ap": "0",
               "attacks": "12",
               "damage": "1",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Heavy onslaught gatling cannon",
               "range": "24\"",
               "skill": "3+",
@@ -3135,7 +3452,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["One Shot", "Indirect Fire"],
+              "keywords": [
+                "One Shot",
+                "Indirect Fire"
+              ],
               "name": "Hunter-slayer missile",
               "range": "48\"",
               "skill": "2+",
@@ -3175,7 +3495,10 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Twin-linked", "Sustained Hits 1"],
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits 1"
+              ],
               "name": "Twin heavy bolter",
               "range": "36\"",
               "skill": "3+",
@@ -3191,7 +3514,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin lascannon",
               "range": "48\"",
               "skill": "3+",
@@ -3223,7 +3548,9 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": ["Melta 2"],
+              "keywords": [
+                "Melta 2"
+              ],
               "name": "Multi-melta",
               "range": "18\"",
               "skill": "3+",
@@ -3256,14 +3583,18 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D3"],
+        "core": [
+          "Deadly Demise D3"
+        ],
         "damaged": {
           "range": "1-4 WOUNDS REMAINING",
           "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["Templar Vows"],
+        "faction": [
+          "Templar Vows"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3284,12 +3615,21 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Gladiator Reaper"],
-      "factions": ["Black Templars"],
+      "composition": [
+        "1 Gladiator Reaper"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
       "faction_id": "CHBT",
       "fluff": "When the cannons of the Gladiator Reaper spin to full pitch, the whining drone is likened to the sharpening of the Emperor’s just blade and a sensation which only truly discomforts the blasphemous. Within seconds, thousands of spent casings pour over the battle tank’s armoured hide as enemies are erased from existence by the storm of fire.",
       "id": "0fae5944-73f5-5791-b835-ba2938f5d76f",
-      "keywords": ["Vehicle", "Smoke", "Imperium", "Gladiator Reaper"],
+      "keywords": [
+        "Vehicle",
+        "Smoke",
+        "Imperium",
+        "Gladiator Reaper"
+      ],
       "leader": "",
       "loadout": "This model is equipped with: 2 tempest bolters; twin heavy onslaught gatling cannon; armoured hull.",
       "meleeWeapons": [
@@ -3313,10 +3653,9 @@
       "name": "Gladiator Reaper",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -3328,7 +3667,10 @@
               "ap": "0",
               "attacks": "12",
               "damage": "1",
-              "keywords": ["Twin-linked", "Devastating Wounds"],
+              "keywords": [
+                "Twin-linked",
+                "Devastating Wounds"
+              ],
               "name": "Twin heavy onslaught gatling cannon",
               "range": "24\"",
               "skill": "3+",
@@ -3344,7 +3686,9 @@
               "ap": "-1",
               "attacks": "4",
               "damage": "1",
-              "keywords": ["Rapid Fire 4"],
+              "keywords": [
+                "Rapid Fire 4"
+              ],
               "name": "Tempest bolter",
               "range": "24\"",
               "skill": "3+",
@@ -3360,7 +3704,9 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Rapid Fire 3"],
+              "keywords": [
+                "Rapid Fire 3"
+              ],
               "name": "Ironhail heavy stubber",
               "range": "36\"",
               "skill": "3+",
@@ -3376,7 +3722,9 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": ["Melta 2"],
+              "keywords": [
+                "Melta 2"
+              ],
               "name": "Multi-melta",
               "range": "18\"",
               "skill": "3+",
@@ -3392,7 +3740,9 @@
               "ap": "-1",
               "attacks": "D3",
               "damage": "2",
-              "keywords": ["Anti-fly 2+"],
+              "keywords": [
+                "Anti-fly 2+"
+              ],
               "name": "Icarus rocket pod",
               "range": "24\"",
               "skill": "3+",
@@ -3434,7 +3784,10 @@
       "name": "Incendiary Animus",
       "id": "3637b902-b95a-5aec-bc77-0080847fba1c",
       "cost": "25",
-      "keywords": ["Judiciar", "Chaplain"],
+      "keywords": [
+        "Judiciar",
+        "Chaplain"
+      ],
       "excludes": [],
       "description": "CHAPLAIN or JUDICIAR model only. Improve the Armour Penetration characteristic of melee weapons equipped by models in the bearer’s unit by 1.",
       "faction_id": "CHBT",
@@ -3446,7 +3799,9 @@
       "name": "Oathbound Examplar",
       "id": "5c20a236-3f1c-5190-b044-688ba7fafd8e",
       "cost": "15",
-      "keywords": ["Infantry"],
+      "keywords": [
+        "Infantry"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES INFANTRY model only. Add 1 to Advance rolls made for the bearer’s unit. If the mission pack you are playing features Actions, the bearer’s unit is eligible to start to perform an Action in a turn in which it Advanced.",
       "faction_id": "CHBT",
@@ -3458,7 +3813,10 @@
       "name": "Merciless Denunciation",
       "id": "f794f03b-abad-52c0-80fe-9b64db1cdb34",
       "cost": "25",
-      "keywords": ["Judiciar", "Chaplain"],
+      "keywords": [
+        "Judiciar",
+        "Chaplain"
+      ],
       "excludes": [],
       "description": "CHAPLAIN or JUDICIAR model only. Each time a model in the bearer’s unit makes a melee attack, you can re-roll the Hit roll.",
       "faction_id": "CHBT",
@@ -3470,7 +3828,9 @@
       "name": "Zealous Vanguard",
       "id": "116217ea-110c-5219-bbd6-f00d2ebd171c",
       "cost": "20",
-      "keywords": ["Black Templars"],
+      "keywords": [
+        "Black Templars"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. Models in the bearer’s unit have the Scouts 6\" ability.",
       "faction_id": "CHBT",
@@ -3482,7 +3842,9 @@
       "name": "Pyrebrand",
       "id": "23d7fa73-1b1e-52da-9797-703be608041d",
       "cost": "25",
-      "keywords": ["Black Templars"],
+      "keywords": [
+        "Black Templars"
+      ],
       "excludes": [],
       "description": "BLACK TEMPLARS model only. Models in the bearer’s unit have the Stealth ability.",
       "faction_id": "CHBT",
@@ -3494,7 +3856,9 @@
       "name": "Sacred Rage",
       "id": "4cc6401e-0098-5825-8420-42bc16e8f990",
       "cost": "30",
-      "keywords": ["Black Templars"],
+      "keywords": [
+        "Black Templars"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer’s unit have the Fights First ability.",
       "faction_id": "CHBT",
@@ -3506,7 +3870,9 @@
       "name": "Taramond’s Censer",
       "id": "8926e802-ce4c-5628-8da2-4648f7b94360",
       "cost": "15",
-      "keywords": ["Black Templars"],
+      "keywords": [
+        "Black Templars"
+      ],
       "excludes": [],
       "description": "BLACK TEMPLARS model only. At the start of the Fight phase, each enemy unit within Engagement Range of the bearer’s unit must take a Battle‑shock test. When doing so, subtract 1 from the result.",
       "faction_id": "CHBT",
@@ -3518,7 +3884,9 @@
       "name": "Benediction of Fury",
       "id": "01413b10-4b2b-5c5a-aced-17c61a04483f",
       "cost": "10",
-      "keywords": ["Chaplain"],
+      "keywords": [
+        "Chaplain"
+      ],
       "excludes": [],
       "description": "CHAPLAIN model only. The bearer’s melee weapons have the [DEVASTATING WOUNDS] ability.",
       "faction_id": "CHBT",
@@ -3530,7 +3898,9 @@
       "name": "Imperialis of the Eternal Crusade",
       "id": "6b8d8116-954d-59b3-8f2d-f92a42128d58",
       "cost": "15",
-      "keywords": ["Ancient"],
+      "keywords": [
+        "Ancient"
+      ],
       "excludes": [],
       "description": "ANCIENT model only. Each time an enemy unit selects the bearer’s unit as a target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other negative modifiers to that Charge roll).",
       "faction_id": "CHBT",
@@ -3542,7 +3912,9 @@
       "name": "Consecrating Aura",
       "id": "66f69032-a37b-5526-808c-6d0fb50d99a0",
       "cost": "25",
-      "keywords": ["Black Templars"],
+      "keywords": [
+        "Black Templars"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. Models in the bearer’s unit have a 5+ invulnerable save.",
       "faction_id": "CHBT",
@@ -3554,7 +3926,9 @@
       "name": "Orb of the Emperor’s Aegis",
       "id": "fc646585-16f1-5b82-a3d6-6e3849386f22",
       "cost": "10",
-      "keywords": ["Black Templars"],
+      "keywords": [
+        "Black Templars"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. Models in the bearer’s unit have the Deep Strike ability.",
       "faction_id": "CHBT",
@@ -3566,7 +3940,9 @@
       "name": "Warden of Honour",
       "id": "cc12d535-e5c1-55db-b612-3808af1cdc68",
       "cost": "20",
-      "keywords": ["Crusade Ancient"],
+      "keywords": [
+        "Crusade Ancient"
+      ],
       "excludes": [],
       "description": "CRUSADE ANCIENT model only. While the bearer is leading a unit, each time you roll one D6 for the bearer’s Vengeful Exhortation ability, add 1 to the result.",
       "faction_id": "CHBT",
@@ -3578,7 +3954,9 @@
       "name": "Paragon of Fury",
       "id": "ddd401eb-0ccf-500d-b348-71c812ae3932",
       "cost": "25",
-      "keywords": ["Black Templars"],
+      "keywords": [
+        "Black Templars"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. Add 2 to the Strength characteristic of melee weapons equipped by the bearer. Each time a melee attack made by the bearer is allocated to an enemy model, if the bearer disembarked from a TRANSPORT this turn, add 1 to the Damage characteristic of that attack.",
       "faction_id": "CHBT",
@@ -3590,7 +3968,9 @@
       "name": "Battle-Psalm Precentor",
       "id": "a32f4c80-27d5-5671-bf20-904f8e64dad8",
       "cost": "10",
-      "keywords": ["Black Templars"],
+      "keywords": [
+        "Black Templars"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. Each time the bearer’s unit declares a charge, if an enemy unit takes a Battle-shock test as a result of the Shock and Awe Detachment rule, subtract 1 from that Battle-shock test.",
       "faction_id": "CHBT",
@@ -3602,7 +3982,9 @@
       "name": "Augury Servo-Host",
       "id": "ec59ba09-3384-5729-a826-45b98a47e19d",
       "cost": "15",
-      "keywords": ["Black Templars"],
+      "keywords": [
+        "Black Templars"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. At the start of your Shooting phase, select one enemy unit within 12\" of and visible to the bearer. Until the end of the phase, models in that unit cannot have the Benefit of Cover.",
       "faction_id": "CHBT",
@@ -3614,7 +3996,9 @@
       "name": "Herald of Sacred Slaughter",
       "id": "74a28ae7-4194-5e1b-80a7-db455d9a9795",
       "cost": "15",
-      "keywords": ["Black Templars"],
+      "keywords": [
+        "Black Templars"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. In the Declare Battle Formations step, if the bearer starts the battle embarked within a DEDICATED TRANSPORT, that DEDICATED TRANSPORT has the Scouts 9\" ability.",
       "faction_id": "CHBT",
@@ -3697,7 +4081,9 @@
       "effect": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\".",
       "restrictions": "A unit cannot be targeted with this and the Hearts Hardened to Duty Stratagem in the same phase unless it has the CHAPLAIN or JUDICIAR keywords.",
       "type": "Battle Tactic",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "CHBT",
       "fluff": "With a zealous cry, the Block Templars press forward, using their ceramite-armoured bulk to smash into the foe and overwhelm the enemy’s lines.",
       "detachment": "Champions of Vehemence"
@@ -3712,7 +4098,9 @@
       "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [PRECISION] ability.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "CHBT",
       "fluff": "Filled with the spirit of Sigismund, his heirs seek out the foe’s dark and unclean champions so that they may be crushed in the sight of their thralls.",
       "detachment": "Champions of Vehemence"
@@ -3727,7 +4115,9 @@
       "effect": "Until the end of the phase, each time a model in your unit makes a melee attack that targets an enemy unit, re-roll a Hit roll of 1. If that target is a MONSTER or VEHICLE unit, re-roll a Wound roll of 1 as well.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "CHBT",
       "fluff": "The warrior priests of a crusade drive Sigismund’s heirs into the heart of battle, daring the greatest abominations to face their spiritual strength.",
       "detachment": "Champions of Vehemence"
@@ -3742,7 +4132,9 @@
       "effect": "Until the end of the phase, each time a model in your unit makes an attack, if that model’s unit is within range of one or more objective markers or the target unit is within range of one or more objective markers, improve the Armour Penetration characteristic of that attack by 1.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "CHBT",
       "fluff": "Where the emperor’s domain is imperilled by the unholy, the Black Tempars vow to cleanse it.",
       "detachment": "Vindication Task Force"
@@ -3757,7 +4149,10 @@
       "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability and each time a model in your unit makes an attack, you can ignore any or all modifiers to the following: that attack’s Ballistic Skill or Weapon Skill characteristic; the Hit roll.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "CHBT",
       "fluff": "Perhaps guided by visions from the emperor, Black Templars can pick out heresy wherever it lurks.",
       "detachment": "Vindication Task Force"
@@ -3772,7 +4167,9 @@
       "effect": "Until the end of the phase, each time a model in your unit makes an attack, if it disembarked from a TRANSPORT this turn, re-roll a Wound roll of 1. lf that TRANSPORT has the LAND RAIDER keyword, you can re-roll the Wound roll instead.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "CHBT",
       "fluff": "Prepared within their troop compartment by a broadcast litany of their foe’s ungodly sins, the crusaders emerge with their hearts full of hatred.",
       "detachment": "Godhammer Assault Force"
@@ -3787,7 +4184,9 @@
       "effect": "Until the end of the phase, each time a model in your unit makes an attack, re‑roll a Hit roll of 1 and you can ignore any or all modifiers to the following: that attack’s Weapon Skill characteristic; the Hit roll; the Wound roll.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "CHBT",
       "fluff": "All the enemy’s skill, cunning and trickery come to naught in the face of the Black Templars’ direct and unrelenting brutality.",
       "detachment": "Wrathful Procession"
@@ -3802,7 +4201,9 @@
       "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["any"],
+      "phase": [
+        "any"
+      ],
       "faction_id": "CHBT",
       "fluff": "So powerfully gripped by holy fervour are these warriors that they fight on through even the most grievous wounds to body and mind.",
       "detachment": "Wrathful Procession"
@@ -3817,7 +4218,10 @@
       "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "CHBT",
       "fluff": "The belligerence and transhuman physiologies of the Adeptus Astartes make them unyielding foes.",
       "detachment": "Wrathful Procession"
@@ -3832,7 +4236,9 @@
       "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [PRECISION] ability.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "CHBT",
       "fluff": "There is nowhere that the architects of heresy can hide from the righteous judgement of the Black Templars.",
       "detachment": "Wrathful Procession"
@@ -3847,7 +4253,9 @@
       "effect": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "CHBT",
       "fluff": "Their hulls blessed by the chants of Techmarines and their prayer-servitors, a crusade’s war engines can be entreated to withstand the most malign attacks.",
       "detachment": "Godhammer Assault Force"
@@ -3862,7 +4270,9 @@
       "effect": "At the end of the phase, set your model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining.",
       "restrictions": "You cannot target the same model with this Stratagem more than once per battle.",
       "type": "Epic Deed",
-      "phase": ["any"],
+      "phase": [
+        "any"
+      ],
       "faction_id": "CHBT",
       "fluff": "Where honour is upheld, the emperor’s divinity may manifest to grant his pious warrior new strength.",
       "detachment": "Vindication Task Force"
@@ -3877,7 +4287,9 @@
       "effect": "Until the end of the phase, each time a model in your unit makes a Consolidation move, it does not need to end that move closer to the closest enemy model (or the closest enemy unit if the Suffer Not the Unclean to Live Vow is active for it).",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "CHBT",
       "fluff": "To suffer not blind aggression is to evade the snares of foul deceit and honourably reject self-aggrandisement.",
       "detachment": "Champions of Vehemence"
@@ -3892,7 +4304,9 @@
       "effect": "Your unit can make a Retribution move. To do so, roll one D6: models in your unit move a number of inches up to the result, but your unit must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["movement"],
+      "phase": [
+        "movement"
+      ],
       "faction_id": "CHBT",
       "fluff": "Where enemies dare threaten the warriors of the God-Emperor or seek to escape their deserved death, there must be swift retribution.",
       "detachment": "Champions of Vehemence"
@@ -3907,7 +4321,9 @@
       "effect": "That enemy unit must take a Battle-shock test, subtracting 1 from the result.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["charge"],
+      "phase": [
+        "charge"
+      ],
       "faction_id": "CHBT",
       "fluff": "To face the Emperor’s transhuman crusaders as they chant their litanies of detestation can chill the soul.",
       "detachment": "Champions of Vehemence"
@@ -3922,7 +4338,10 @@
       "effect": "Until the end of the battle, each time an ADEPTUS ASTARTES model from your army makes an attack that targets that enemy unit, add 1 to the Hit roll.",
       "restrictions": "You cannot target that ANCIENT model with the Refusal to Yield Stratagem this phase.",
       "type": "Strategic Ploy",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "CHBT",
       "fluff": "The sacred standards of a crusade embody its warriors’ honour, and no one would see them lost.",
       "detachment": "Vindication Task Force"
@@ -3937,7 +4356,9 @@
       "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "CHBT",
       "fluff": "The Ancient leads a deafening recital of his banner’s honours, the projected chant’s zeal shaking the foe.",
       "detachment": "Vindication Task Force"
@@ -3952,7 +4373,9 @@
       "effect": "If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". It cannot embark within a TRANSPORT at the end of this move if it disembarked from a TRANSPORT this turn.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "CHBT",
       "fluff": "There is no room for hesitation or exultation for the Black Templars. With one knot of blasphemy expunged, the crusaders surge in search of the next.",
       "detachment": "Godhammer Assault Force"
@@ -3967,7 +4390,9 @@
       "effect": "One ADEPTUS ASTARTES unit embarked within your LAND RAIDER can disembark. When doing so, models in that unit can be set up anywhere on the battlefield wholly within 6\" of your LAND RAIDER and can be set up within Engagement Range of one or more enemy units.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["movement"],
+      "phase": [
+        "movement"
+      ],
       "faction_id": "CHBT",
       "fluff": "Little can threaten to overwhelm the venerable Land Raider. Its multiple, hydraulically augmented assault ramps slam into closing aggressors, enabling its deadly cargo to deploy quickly.",
       "detachment": "Godhammer Assault Force"
@@ -3982,7 +4407,9 @@
       "effect": "Until the end of the phase, each time your model makes a Normal or Advance move, it can move horizontally through terrain features.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["movement"],
+      "phase": [
+        "movement"
+      ],
       "faction_id": "CHBT",
       "fluff": "Like the mailed fist of the Master of Mankind, the crusade’s armoured battle tanks, transports and combat walkers smash their way through choked war zones to reach those deserving execution.",
       "detachment": "Godhammer Assault Force"
@@ -3997,7 +4424,9 @@
       "effect": "Until the end of the phase, each time your unit makes a Charge move, models in your unit can move through models (when doing so, its models can move within Engagement Range of enemy models, but they can only end that move within Engagement Range of enemy models if those enemy models belong to a unit that your unit declared a charge against this turn).",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["charge"],
+      "phase": [
+        "charge"
+      ],
       "faction_id": "CHBT",
       "fluff": "Surging from assault ramps, the Black Templars let none bar them from the most unholy threats, using their armoured might to bludgeon a path into battle.",
       "detachment": "Godhammer Assault Force"
@@ -4012,7 +4441,9 @@
       "effect": "Until the end of the phase, when determining which models in your unit are eligible to fight, any models in it that are within 3\" of one or more enemy models are eligible to fight. When resolving those attacks, such models can target one of those enemy units that is within 3\" of them and within Engagement Range of their unit.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "CHBT",
       "fluff": "The sheer momentum and ferocity of so many charging, armoured killers are almost impossible to stop, carrying them forward through rank after rank of the heretical foe.",
       "detachment": "Wrathful Procession"
@@ -4027,7 +4458,9 @@
       "effect": "Select the Chorus of Relentless Hate, Rite of Perfervid Wrath or Chant of Deathless Devotion Litany. Until the end of the battle round, that Litany is active for your unit instead of any other Litany that is active for your army.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["command"],
+      "phase": [
+        "command"
+      ],
       "faction_id": "CHBT",
       "fluff": "In the crucial moment, these battle‑brothers switch to the most apposite devotional litany just as they might select the correct weapon from the Chapter’s armouries.",
       "detachment": "Wrathful Procession"
@@ -4042,7 +4475,9 @@
       "effect": "Your unit now declares a charge that only targets one or more of those enemy units, and you resolve that charge.",
       "restrictions": "Note that even if this charge is successful, your unit does not receive any Charge bonus this turn",
       "type": "Strategic Ploy",
-      "phase": ["charge"],
+      "phase": [
+        "charge"
+      ],
       "faction_id": "CHBT",
       "fluff": "When the emperor blesses his crusaders with the opportunity to seize the initiative, none refuse.",
       "detachment": "Vindication Task Force"

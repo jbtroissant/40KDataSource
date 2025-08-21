@@ -7,7 +7,9 @@
   "datasheets": [
     {
       "abilities": {
-        "core": ["Scouts 7\""],
+        "core": [
+          "Scouts 7\""
+        ],
         "damaged": {
           "description": "",
           "range": "",
@@ -35,12 +37,21 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["3-6 Krootox Rampagers"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "3-6 Krootox Rampagers"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Juvenile Krootox exhibit greater aggression and agility than their elders. Bands of Kroot make use of these facets by riding the Krootox into battle in Rampager packs. They act as ambushers, terror troops and skirmish cavalry, striking fast at their foes from unexpected quarters and seeking to break their battle lines to leave them vulnerable to the rest of the Hunting Pack.",
       "id": "2a7f103b-4e45-5925-9943-3f6df77b3555",
-      "keywords": ["Mounted", "Grenades", "Kroot", "Krootox Rampagers"],
+      "keywords": [
+        "Mounted",
+        "Grenades",
+        "Kroot",
+        "Krootox Rampagers"
+      ],
       "leader": "",
       "loadout": "Every model is equipped with: Kroot pistol and hunting javelins; hunting blades; Rampager fists.",
       "meleeWeapons": [
@@ -52,7 +63,9 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Lance"],
+              "keywords": [
+                "Lance"
+              ],
               "name": "Hunting blades",
               "range": "Melee",
               "skill": "3+",
@@ -68,7 +81,10 @@
               "ap": "-1",
               "attacks": "4",
               "damage": "2",
-              "keywords": ["Sustained Hits 1", "Extra Attacks"],
+              "keywords": [
+                "Sustained Hits 1",
+                "Extra Attacks"
+              ],
               "name": "Rampager fists",
               "range": "Melee",
               "skill": "3+",
@@ -80,16 +96,14 @@
       "name": "Krootox Rampagers",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "85"
         },
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -101,7 +115,10 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Pistol", "Assault"],
+              "keywords": [
+                "Pistol",
+                "Assault"
+              ],
               "name": "Kroot pistol and hunting javelins",
               "range": "12\"",
               "skill": "4+",
@@ -126,18 +143,25 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"]
+      "wargear": [
+        "None"
+      ]
     },
     {
       "abilities": {
-        "core": ["Deadly Demise 3D6", "Hover"],
+        "core": [
+          "Deadly Demise 3D6",
+          "Hover"
+        ],
         "damaged": {
           "range": "1-20 WOUNDS REMAINING",
           "description": "While this model has 1-20 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -164,8 +188,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Manta"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Manta"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "The Manta is an advanced, super-heavy dropship used to deliver large contingents of troops into combat. Powerful energy fields shield the craft during descent, while no less than sixteen drone-controlled burst cannons fend off hostile attention and wing-mounted primary guns engage priority targets that might jeopardise the Manta’s landing site.",
       "id": "6616c54f-955a-5ec1-a9a2-651b1bc1f76d",
@@ -202,10 +230,9 @@
       "name": "Manta",
       "points": [
         {
-          "cost": "2100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "2100"
         }
       ],
       "rangedWeapons": [
@@ -217,7 +244,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": ["One Shot"],
+              "keywords": [
+                "One Shot"
+              ],
               "name": "Seeker missile",
               "range": "48\"",
               "skill": "4+",
@@ -241,7 +270,9 @@
               "ap": "-5",
               "attacks": "1",
               "damage": "12",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Heavy rail cannon",
               "range": "120\"",
               "skill": "4+",
@@ -289,7 +320,9 @@
               "ap": "-1",
               "attacks": "D6+3",
               "damage": "2",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Ion cannon – Standard",
               "range": "60\"",
               "skill": "4+",
@@ -300,7 +333,10 @@
               "ap": "-2",
               "attacks": "D6+3",
               "damage": "3",
-              "keywords": ["Hazardous", "Blast"],
+              "keywords": [
+                "Hazardous",
+                "Blast"
+              ],
               "name": "Ion cannon – Overcharge",
               "range": "60\"",
               "skill": "4+",
@@ -325,18 +361,24 @@
         }
       ],
       "transport": "This model has a transport capacity of all of the following:\n\n■ 200 T’AU EMPIRE INFANTRY or TACTICAL DRONE models\n■ 4 DEVILFISH, SKY RAY GUNSHIP or HAMMERHEAD models\n■ 8 BATTLESUIT models with a Wounds characteristic of 9 or less",
-      "wargear": ["None"]
+      "wargear": [
+        "None"
+      ]
     },
     {
       "abilities": {
-        "core": ["Deep Strike"],
+        "core": [
+          "Deep Strike"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -404,7 +446,9 @@
         "1 Crisis Fireknife Shas’vre",
         "2 Crisis Fireknife Shas’ui"
       ],
-      "factions": ["T’au Empire"],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "The Fireknife configuration equips Crisis Battlesuit pilots with a suite of mid-ranged, hard-hitting firepower. Whether dropping from Manta Missile Destroyers to spearhead a Mont’ka strike or staging a mobile fighting retreat as part of a Kauyon strategy, Crisis Fireknife Battlesuits can be relied upon to eliminate key enemy targets and respond swiftly to changing battlefield conditions.",
       "id": "be310bc7-0839-5e09-ae9c-a23f4e0a330c",
@@ -439,10 +483,9 @@
       "name": "Crisis Fireknife Battlesuits",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -508,14 +551,19 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise 1", "Scouts 9\""],
+        "core": [
+          "Deadly Demise 1",
+          "Scouts 9\""
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -536,12 +584,20 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1-3 Piranhas"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1-3 Piranhas"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Streaking ahead of the main T’au forces, squadrons of these light combat skimmers rake targets of opportunity with salvoes of heavy firepower. They can further detach entire squadrons of drones to sow mayhem behind enemy lines before they redock, increasing the havoc the Piranhas can cause or covering their swift retreat.",
       "id": "ae4982ca-f892-5469-9a27-d7d2021aae17",
-      "keywords": ["Vehicle", "Fly", "Piranhas"],
+      "keywords": [
+        "Vehicle",
+        "Fly",
+        "Piranhas"
+      ],
       "leader": "",
       "loadout": "Every model is equipped with: Piranha burst cannon; 2 twin pulse carbines; armoured hull.",
       "meleeWeapons": [
@@ -565,22 +621,19 @@
       "name": "Piranhas",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         },
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "120"
         },
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -608,7 +661,10 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Twin-linked", "Assault"],
+              "keywords": [
+                "Twin-linked",
+                "Assault"
+              ],
               "name": "Twin pulse carbine",
               "range": "20\"",
               "skill": "4+",
@@ -624,7 +680,9 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["Melta 4"],
+              "keywords": [
+                "Melta 4"
+              ],
               "name": "Piranha fusion blaster",
               "range": "12\"",
               "skill": "4+",
@@ -640,7 +698,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": ["One Shot"],
+              "keywords": [
+                "One Shot"
+              ],
               "name": "Seeker missile",
               "range": "48\"",
               "skill": "4+",
@@ -680,14 +740,19 @@
     },
     {
       "abilities": {
-        "core": ["Infiltrators", "Stealth"],
+        "core": [
+          "Infiltrators",
+          "Stealth"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -745,12 +810,22 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Stealth Shas’vre", "2-5 Stealth Shas’ui"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Stealth Shas’vre",
+        "2-5 Stealth Shas’ui"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "A comparatively lightweight and specialist mark of battlesuit, the XV25 conceals its pilot behind fields of sensor-baffling stealth technology. Benefiting from jet-assisted speed and impressive firepower, these teams make excellent forward operatives who can deploy homing beacons to guide entire insertion forces into battle from low orbit.",
       "id": "e9255c83-49c4-59dd-a67d-8283e79a582d",
-      "keywords": ["Infantry", "Fly", "Battlesuit", "Stealth"],
+      "keywords": [
+        "Infantry",
+        "Fly",
+        "Battlesuit",
+        "Stealth"
+      ],
       "leader": "",
       "loadout": "The Stealth Shas’vre is equipped with: burst cannon, battlesuit fists, homing beacon.\nEvery Stealth Shas’ui model is equipped with: burst cannon; battlesuit fists.",
       "meleeWeapons": [
@@ -774,16 +849,14 @@
       "name": "Stealth Battlesuits",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "80"
         },
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -811,7 +884,9 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["Melta 2"],
+              "keywords": [
+                "Melta 2"
+              ],
               "name": "Fusion blaster",
               "range": "12\"",
               "skill": "4+",
@@ -844,14 +919,18 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D3"],
+        "core": [
+          "Deadly Demise D3"
+        ],
         "damaged": {
           "range": "1-4 WOUNDS REMAINING",
           "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -872,12 +951,21 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Sun Shark Bomber"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Sun Shark Bomber"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Able to micro-manufacture its own energy-munitions in the heat of battle, the Sun Shark drops thrumming pulse bombs onto the foe and obliterates them in ferocious blasts of unleashed power. Boasting sufficient support weaponry to fight off enemy attempts at aerial interdiction, formations of these aircraft form mobile airborne fortresses in the heat of battle.",
       "id": "c4eea76b-80a8-588e-92d3-36ae0275b22c",
-      "keywords": ["Vehicle", "Aircraft", "Fly", "Sun Shark Bomber"],
+      "keywords": [
+        "Vehicle",
+        "Aircraft",
+        "Fly",
+        "Sun Shark Bomber"
+      ],
       "leader": "",
       "loadout": "This model is equipped with: missile pod; 2 seeker missiles; 2 twin ion rifles; armoured hull.",
       "meleeWeapons": [
@@ -901,10 +989,9 @@
       "name": "Sun Shark Bomber",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -932,7 +1019,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": ["One Shot"],
+              "keywords": [
+                "One Shot"
+              ],
               "name": "Seeker missile",
               "range": "48\"",
               "skill": "4+",
@@ -956,7 +1045,9 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin ion rifle – Standard",
               "range": "30\"",
               "skill": "4+",
@@ -967,7 +1058,10 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Twin-linked", "Hazardous"],
+              "keywords": [
+                "Twin-linked",
+                "Hazardous"
+              ],
               "name": "Twin ion rifle – Overcharge",
               "range": "30\"",
               "skill": "4+",
@@ -983,7 +1077,9 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin missile pod",
               "range": "30\"",
               "skill": "4+",
@@ -1014,7 +1110,10 @@
     },
     {
       "abilities": {
-        "core": ["Infiltrators", "Stealth"],
+        "core": [
+          "Infiltrators",
+          "Stealth"
+        ],
         "damaged": {
           "description": "",
           "range": "",
@@ -1054,11 +1153,18 @@
         "9 Kroot Farstalkers",
         "2 Kroot Hounds"
       ],
-      "factions": ["T’au Empire"],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Farstalker Kinbands are opportunistic mercenaries often operating for years far from the Kroot home world. They are experienced raiders, scouts and infiltrators, setting masterful ambushes from which to unleash the deadly weapons they have amassed over long careers as ruthless bounty hunters.",
       "id": "26f6d9d6-8272-59f8-b141-c4f8fb760593",
-      "keywords": ["Infantry", "Grenades", "Kroot", "Farstalkers"],
+      "keywords": [
+        "Infantry",
+        "Grenades",
+        "Kroot",
+        "Farstalkers"
+      ],
       "leader": "",
       "loadout": "The Kroot Kill-broker is equipped with: Farstalker firearm; Kroot pistol; ritual blade.\nEvery Kroot Farstalker is equipped with: Farstalker firearm; Kroot pistol; close combat weapon.\nEvery Kroot Hound is equipped with: ripping fangs.",
       "meleeWeapons": [
@@ -1114,10 +1220,9 @@
       "name": "Kroot Farstalkers",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "12",
-          "active": true
+          "name": "model",
+          "model": "12",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -1129,7 +1234,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Rapid Fire 1"],
+              "keywords": [
+                "Rapid Fire 1"
+              ],
               "name": "Farstalker firearm",
               "range": "24\"",
               "skill": "4+",
@@ -1145,7 +1252,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Kroot pistol",
               "range": "12\"",
               "skill": "4+",
@@ -1161,7 +1270,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Rapid Fire 1"],
+              "keywords": [
+                "Rapid Fire 1"
+              ],
               "name": "T’au-tech rifle",
               "range": "30\"",
               "skill": "4+",
@@ -1177,7 +1288,10 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Dvorgite skinner",
               "range": "12\"",
               "skill": "N/A",
@@ -1193,7 +1307,11 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Heavy", "Devastating Wounds", "Anti-vehicle 4+"],
+              "keywords": [
+                "Heavy",
+                "Devastating Wounds",
+                "Anti-vehicle 4+"
+              ],
               "name": "Londaxi tribalest",
               "range": "18\"",
               "skill": "5+",
@@ -1235,18 +1353,26 @@
         "1 Kroot Farstalker’s Farstalker firearm can be replaced with one of the following: ◦ 1 Dvorgite skinner ◦ 1 Londaxi tribalest",
         "The Kroot Kill-broker’s Farstalker firearm can be replaced with 1 T’au-tech rifle."
       ],
-      "leadBy": ["Kroot Trail Shaper", "Kroot War Shaper", "Kroot Flesh Shaper"]
+      "leadBy": [
+        "Kroot Trail Shaper",
+        "Kroot War Shaper",
+        "Kroot Flesh Shaper"
+      ]
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D6+3"],
+        "core": [
+          "Deadly Demise D6+3"
+        ],
         "damaged": {
           "range": "1-10 WOUNDS REMAINING",
           "description": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1273,8 +1399,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Ta’unar Supremacy Armour"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Ta’unar Supremacy Armour"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Ta’unar Supremacy Armour is the largest class of T’au battlesuit yet encountered. Principally designed for static defence, the KX139 platform lacks manoeuvrability, but supports a broad suite of immensely powerful weapons that can hold their own against targets ranging from Imperial Knights to towering alien monstrosities.",
       "id": "797246a0-73b5-5bfc-8b92-3bb283a2138a",
@@ -1309,10 +1439,9 @@
       "name": "Ta’unar Supremacy Armour",
       "points": [
         {
-          "cost": "790",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "790"
         }
       ],
       "rangedWeapons": [
@@ -1324,7 +1453,9 @@
               "ap": "-4",
               "attacks": "5",
               "damage": "D6",
-              "keywords": ["Melta 3"],
+              "keywords": [
+                "Melta 3"
+              ],
               "name": "Fusion eradicator",
               "range": "24\"",
               "skill": "4+",
@@ -1340,7 +1471,9 @@
               "ap": "-2",
               "attacks": "D6+3",
               "damage": "2",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Tri-axis ion cannon – Standard",
               "range": "36\"",
               "skill": "4+",
@@ -1351,7 +1484,10 @@
               "ap": "-3",
               "attacks": "D6+3",
               "damage": "3",
-              "keywords": ["Hazardous", "Blast"],
+              "keywords": [
+                "Hazardous",
+                "Blast"
+              ],
               "name": "Tri-axis ion cannon – Supercharge",
               "range": "36\"",
               "skill": "4+",
@@ -1367,7 +1503,9 @@
               "ap": "-1",
               "attacks": "8",
               "damage": "3",
-              "keywords": ["Anti-infantry 2+"],
+              "keywords": [
+                "Anti-infantry 2+"
+              ],
               "name": "Pulse ordnance driver",
               "range": "60\"",
               "skill": "4+",
@@ -1399,7 +1537,9 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Indirect Fire"],
+              "keywords": [
+                "Indirect Fire"
+              ],
               "name": "Smart missile system",
               "range": "30\"",
               "skill": "4+",
@@ -1431,7 +1571,10 @@
               "ap": "-5",
               "attacks": "2",
               "damage": "16",
-              "keywords": ["Heavy", "Devastating Wounds"],
+              "keywords": [
+                "Heavy",
+                "Devastating Wounds"
+              ],
               "name": "Heavy rail cannon array",
               "range": "120\"",
               "skill": "4+",
@@ -1447,7 +1590,9 @@
               "ap": "-1",
               "attacks": "2D6+6",
               "damage": "1",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Fragmentation cluster shell launcher",
               "range": "24\"",
               "skill": "4+",
@@ -1480,14 +1625,18 @@
     },
     {
       "abilities": {
-        "core": ["Scouts 7\""],
+        "core": [
+          "Scouts 7\""
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1545,12 +1694,22 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Pathfinder Shas’ui", "9 Pathfinders"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Pathfinder Shas’ui",
+        "9 Pathfinders"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Pathfinder Teams wreak havoc behind enemy lines. Their firepower is formidable, especially when sniping with potent rail rifles, and their drones can optimise the team’s pulse fire or drive the enemy back with gravitic waves. Yet their deadliest ability is painting priority targets with massed markerlights for heavier T’au units to annihilate.",
       "id": "2eda711d-e384-5f6a-b1ef-ee8936bae847",
-      "keywords": ["Infantry", "Grenades", "Markerlight", "Pathfinder Team"],
+      "keywords": [
+        "Infantry",
+        "Grenades",
+        "Markerlight",
+        "Pathfinder Team"
+      ],
       "leader": "",
       "loadout": "Every model is equipped with: pulse carbine; pulse pistol; close combat weapon.",
       "meleeWeapons": [
@@ -1574,10 +1733,9 @@
       "name": "Pathfinder Team",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -1605,7 +1763,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Pulse pistol",
               "range": "12\"",
               "skill": "4+",
@@ -1632,7 +1792,10 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Devastating Wounds", "Anti-vehicle 4+"],
+              "keywords": [
+                "Devastating Wounds",
+                "Anti-vehicle 4+"
+              ],
               "name": "Semi-automatic grenade launcher – EMP",
               "range": "18\"",
               "skill": "4+",
@@ -1648,7 +1811,9 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Heavy"],
+              "keywords": [
+                "Heavy"
+              ],
               "name": "Ion rifle – Standard",
               "range": "30\"",
               "skill": "5+",
@@ -1659,7 +1824,10 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Heavy", "Hazardous"],
+              "keywords": [
+                "Heavy",
+                "Hazardous"
+              ],
               "name": "Ion rifle – Overcharge",
               "range": "30\"",
               "skill": "5+",
@@ -1675,7 +1843,10 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "3",
-              "keywords": ["Heavy", "Devastating Wounds"],
+              "keywords": [
+                "Heavy",
+                "Devastating Wounds"
+              ],
               "name": "Rail rifle",
               "range": "30\"",
               "skill": "5+",
@@ -1706,7 +1877,9 @@
         "The Pathfinder Shas’ui can be equipped with up to two of the following, and can take duplicates: ◦ 1 gun drone ◦ 1 marker drone ◦ 1 shield drone",
         "The Pathfinder Shas’ui can be equipped with one of the following: ◦ 1 grav-inhibitor drone ◦ 1 pulse accelerator drone ◦ 1 recon drone"
       ],
-      "leadBy": ["Darkstrider"]
+      "leadBy": [
+        "Darkstrider"
+      ]
     },
     {
       "abilities": {
@@ -1717,7 +1890,9 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1769,8 +1944,13 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Fire Warrior Shas’ui", "9 Fire Warriors"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Fire Warrior Shas’ui",
+        "9 Fire Warriors"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Fire Warrior Strike Teams are the mainstay of many Hunter Cadres, unleashing storms of potent anti-personnel firepower that few foes can long endure. Tough, dependable, numerous and with access to a variety of specialised weaponry and drone support, these Fire Warriors will hold the line no matter what odds they face.",
       "id": "0e5e4513-6837-503c-baf8-29aadc418df5",
@@ -1805,10 +1985,9 @@
       "name": "Strike Team",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -1820,7 +1999,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Pulse pistol",
               "range": "12\"",
               "skill": "4+",
@@ -1836,7 +2017,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Rapid Fire 1"],
+              "keywords": [
+                "Rapid Fire 1"
+              ],
               "name": "Pulse rifle",
               "range": "30\"",
               "skill": "4+",
@@ -1868,7 +2051,10 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Twin-linked", "Indirect Fire"],
+              "keywords": [
+                "Twin-linked",
+                "Indirect Fire"
+              ],
               "name": "Support turret",
               "range": "30\"",
               "skill": "5+",
@@ -1897,18 +2083,25 @@
         "Any number of Fire Warrior models can each have their pulse rifle replaced with 1 pulse carbine.",
         "The Fire Warrior Shas’ui can be equipped with up to two of the following, and can take duplicates: ◦ 1 guardian drone (it cannot take duplicates of this piece of wargear) ◦ 1 gun drone ◦ 1 marker drone ◦ 1 shield drone"
       ],
-      "leadBy": ["Ethereal", "Cadre Fireblade"]
+      "leadBy": [
+        "Ethereal",
+        "Cadre Fireblade"
+      ]
     },
     {
       "abilities": {
-        "core": ["Deep Strike"],
+        "core": [
+          "Deep Strike"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1976,7 +2169,9 @@
         "1 Crisis Starscythe Shas’vre",
         "2 Crisis Starscythe Shas’ui"
       ],
-      "factions": ["T’au Empire"],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "When the foe puts their faith in sheer weight of numbers or seeks to bog the T’au cadres down with infantry waves, Crisis Starscythe Battlesuits provide a swift and devastating response. Leaping in close, their courageous pilots unleash the fury of blitzing burst cannons and roaring T’au flamers, reaping a macabre tally amongst their swarming foes before jetting back out of harm’s way.",
       "id": "176f77e2-76d1-5fd3-928d-48e8f61cdf49",
@@ -2011,10 +2206,9 @@
       "name": "Crisis Starscythe Battlesuits",
       "points": [
         {
-          "cost": "110",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -2042,7 +2236,10 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "T’au flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -2080,14 +2277,18 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D6+2"],
+        "core": [
+          "Deadly Demise D6+2"
+        ],
         "damaged": {
           "range": "1-6 WOUNDS REMAINING",
           "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2115,13 +2316,22 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Tiger Shark"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Tiger Shark"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Tiger Sharks are large fighter-bombers employed to knock out key enemy assets with a range of sophisticated weaponry. Whether deploying a shower of remote weapons platforms or strafing ground targets with its ion cannons and wing-mounted missile pods, the aircraft’s silhouette has been the last sight of countless victims.",
       "id": "55b3aceb-df4e-5d5f-9865-cc95d73f3cf2",
       "imperialArmour": true,
-      "keywords": ["Vehicle", "Aircraft", "Fly", "Tiger Shark"],
+      "keywords": [
+        "Vehicle",
+        "Aircraft",
+        "Fly",
+        "Tiger Shark"
+      ],
       "leader": "",
       "loadout": "This model is equipped with: 2 burst cannons; 2 ion cannons; 2 missile pods; armoured hull; transport bay.",
       "meleeWeapons": [
@@ -2145,10 +2355,9 @@
       "name": "Tiger Shark",
       "points": [
         {
-          "cost": "325",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "325"
         }
       ],
       "rangedWeapons": [
@@ -2176,7 +2385,9 @@
               "ap": "-1",
               "attacks": "D6+3",
               "damage": "2",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Ion cannon – Standard",
               "range": "60\"",
               "skill": "4+",
@@ -2187,7 +2398,10 @@
               "ap": "-2",
               "attacks": "D6+3",
               "damage": "3",
-              "keywords": ["Hazardous", "Blast"],
+              "keywords": [
+                "Hazardous",
+                "Blast"
+              ],
               "name": "Ion cannon – Overcharge",
               "range": "60\"",
               "skill": "4+",
@@ -2230,7 +2444,9 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Hazardous"],
+              "keywords": [
+                "Hazardous"
+              ],
               "name": "Cyclic ion blaster – Overcharge",
               "range": "18\"",
               "skill": "4+",
@@ -2262,7 +2478,9 @@
               "ap": "-5",
               "attacks": "1",
               "damage": "D6+6",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Swiftstrike railgun",
               "range": "72\"",
               "skill": "4+",
@@ -2278,7 +2496,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": ["One Shot"],
+              "keywords": [
+                "One Shot"
+              ],
               "name": "Seeker missile",
               "range": "48\"",
               "skill": "4+",
@@ -2302,7 +2522,10 @@
               "ap": "-1",
               "attacks": "D6+1",
               "damage": "1",
-              "keywords": ["Blast", "Anti-fly 3+"],
+              "keywords": [
+                "Blast",
+                "Anti-fly 3+"
+              ],
               "name": "Skyspear missile rack",
               "range": "72\"",
               "skill": "4+",
@@ -2343,7 +2566,9 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2399,7 +2624,9 @@
         "1 Breacher Fire Warrior Shas’ui",
         "9 Breacher Fire Warriors"
       ],
-      "factions": ["T’au Empire"],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Where enemies must be driven from fortified positions or voidships boarded, there go the Fire Warriors of the Breacher Teams. Their pulse blasters are short ranged but lethal, and when coupled with the team’s tough armour, tactical discipline and specialist support drones, Breacher Teams become nigh-unstoppable at close quarters.",
       "id": "57eb3cb0-89ab-5eb8-a5cf-39b7bcf60fd1",
@@ -2434,10 +2661,9 @@
       "name": "Breacher Team",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -2449,7 +2675,9 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Assault"],
+              "keywords": [
+                "Assault"
+              ],
               "name": "Pulse blaster",
               "range": "10\"",
               "skill": "3+",
@@ -2465,7 +2693,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Pulse pistol",
               "range": "12\"",
               "skill": "4+",
@@ -2481,7 +2711,10 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Twin-linked", "Indirect Fire"],
+              "keywords": [
+                "Twin-linked",
+                "Indirect Fire"
+              ],
               "name": "Support turret",
               "range": "30\"",
               "skill": "5+",
@@ -2509,18 +2742,25 @@
       "wargear": [
         "The Breacher Fire Warrior Shas’ui can be equipped with up to two of the following, and can take duplicates: ◦ 1 guardian drone (it cannot take duplicates of this piece of wargear) ◦ 1 gun drone ◦ 1 marker drone ◦ 1 shield drone"
       ],
-      "leadBy": ["Ethereal", "Cadre Fireblade"]
+      "leadBy": [
+        "Ethereal",
+        "Cadre Fireblade"
+      ]
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D6+2"],
+        "core": [
+          "Deadly Demise D6+2"
+        ],
         "damaged": {
           "range": "1-5 WOUNDS REMAINING",
           "description": "While this model has 1-5 wounds remaining, subtract 3 from this models Objective Control characteristic, and each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2553,12 +2793,22 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Stormsurge"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Stormsurge"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "These vast ballistic suits are ponderous by T’au standards, borne into battle beneath Manta Gunships. Yet even a single such walking gun-tower is equal to the mightiest fortress, anchoring the T’au lines while their crews unleash apocalyptic firestorms with the potential to eradicate entire armies of foes.",
       "id": "70f5e742-6b82-5c2e-8b58-28edfd35ca6f",
-      "keywords": ["Vehicle", "Walker", "Titanic", "Towering", "Stormsurge"],
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Stormsurge"
+      ],
       "leader": "",
       "loadout": "This model is equipped with: cluster rocket system; destroyer missiles; pulse driver cannon; 2 twin smart missile system; twin T’au flamer; thunderous footfalls.",
       "meleeWeapons": [
@@ -2582,10 +2832,9 @@
       "name": "Stormsurge",
       "points": [
         {
-          "cost": "400",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "400"
         }
       ],
       "rangedWeapons": [
@@ -2597,7 +2846,10 @@
               "ap": "0",
               "attacks": "4D6",
               "damage": "1",
-              "keywords": ["Heavy", "Blast"],
+              "keywords": [
+                "Heavy",
+                "Blast"
+              ],
               "name": "Cluster rocket system",
               "range": "48\"",
               "skill": "4+",
@@ -2613,7 +2865,9 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6+2",
-              "keywords": ["Heavy"],
+              "keywords": [
+                "Heavy"
+              ],
               "name": "Destroyer missiles",
               "range": "72\"",
               "skill": "4+",
@@ -2629,7 +2883,10 @@
               "ap": "-3",
               "attacks": "D6+3",
               "damage": "3",
-              "keywords": ["Heavy", "Blast"],
+              "keywords": [
+                "Heavy",
+                "Blast"
+              ],
               "name": "Pulse driver cannon",
               "range": "72\"",
               "skill": "4+",
@@ -2645,7 +2902,11 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Twin-linked", "Torrent", "Ignores Cover"],
+              "keywords": [
+                "Twin-linked",
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Twin T’au flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -2661,7 +2922,11 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Twin-linked", "Indirect Fire", "Heavy"],
+              "keywords": [
+                "Twin-linked",
+                "Indirect Fire",
+                "Heavy"
+              ],
               "name": "Twin smart missile system",
               "range": "30\"",
               "skill": "4+",
@@ -2677,7 +2942,9 @@
               "ap": "-2",
               "attacks": "6",
               "damage": "4",
-              "keywords": ["Heavy"],
+              "keywords": [
+                "Heavy"
+              ],
               "name": "Pulse blast cannon – Dispersed",
               "range": "48\"",
               "skill": "4+",
@@ -2688,7 +2955,9 @@
               "ap": "-6",
               "attacks": "2",
               "damage": "12",
-              "keywords": ["Heavy"],
+              "keywords": [
+                "Heavy"
+              ],
               "name": "Pulse blast cannon – Focused",
               "range": "24\"",
               "skill": "4+",
@@ -2704,7 +2973,12 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Twin-linked", "Indirect Fire", "Heavy", "Blast"],
+              "keywords": [
+                "Twin-linked",
+                "Indirect Fire",
+                "Heavy",
+                "Blast"
+              ],
               "name": "Twin airbursting fragmentation projector",
               "range": "24\"",
               "skill": "4+",
@@ -2720,7 +2994,10 @@
               "ap": "0",
               "attacks": "4",
               "damage": "1",
-              "keywords": ["Twin-linked", "Heavy"],
+              "keywords": [
+                "Twin-linked",
+                "Heavy"
+              ],
               "name": "Twin burst cannon",
               "range": "18\"",
               "skill": "4+",
@@ -2752,7 +3029,10 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D3", "Firing Deck 11"],
+        "core": [
+          "Deadly Demise D3",
+          "Firing Deck 11"
+        ],
         "damaged": {
           "description": "",
           "range": "",
@@ -2786,8 +3066,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Tidewall Gunrig"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Tidewall Gunrig"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "These mobile anti-grav gun turrets mount railguns whose hypersonic rounds can stop even super-heavy war engines dead in their tracks. They form deadly fire points around which Tidewall Shieldlines and droneports are arrayed into full defence networks – floating fortresses that can reposition at need to funnel and slaughter the foe.",
       "id": "bb44119a-1855-5e48-9057-f60ef5b1d2b2",
@@ -2804,10 +3088,9 @@
       "name": "Tidewall Gunrig",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -2819,7 +3102,10 @@
               "ap": "-5",
               "attacks": "1",
               "damage": "D6+6",
-              "keywords": ["Twin-linked", "Devastating Wounds"],
+              "keywords": [
+                "Twin-linked",
+                "Devastating Wounds"
+              ],
               "name": "Supremacy railgun",
               "range": "72\"",
               "skill": "5+",
@@ -2844,11 +3130,16 @@
         }
       ],
       "transport": "This model has a transport capacity of 11 T’AU EMPIRE INFANTRY models. It cannot transport BATTLESUIT, KROOT or VESPID STINGWINGS models.",
-      "wargear": ["None"]
+      "wargear": [
+        "None"
+      ]
     },
     {
       "abilities": {
-        "core": ["Scouts 7\"", "Stealth"],
+        "core": [
+          "Scouts 7\"",
+          "Stealth"
+        ],
         "damaged": {
           "description": "",
           "range": "",
@@ -2882,12 +3173,20 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["5-10 Kroot Hounds"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "5-10 Kroot Hounds"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Set loose in hunting packs by squads of Kroot Carnivores, these predatory beasts lope swiftly across the battlefield in search of prey. Driven into a carnivorous frenzy by the scent of blood, the Kroot Hounds pounce upon their victims with frightening swiftness, ripping and tearing with beak-like maws and vicious talons.",
       "id": "9d360357-8430-5411-b508-36c165cb8867",
-      "keywords": ["Beasts", "Kroot", "Hounds"],
+      "keywords": [
+        "Beasts",
+        "Kroot",
+        "Hounds"
+      ],
       "leader": "",
       "loadout": "Every model is equipped with: ripping fangs.",
       "meleeWeapons": [
@@ -2911,16 +3210,14 @@
       "name": "Kroot Hounds",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "40"
         },
         {
-          "cost": "40",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [],
@@ -2940,18 +3237,24 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"]
+      "wargear": [
+        "None"
+      ]
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3003,12 +3306,20 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Ethereal"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Ethereal"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "The Ethereals are serene and wise, spiritual leaders of the T’au who embody the wisdom and unity of the Greater Good. In times of war they take to the field in person, fighting with ritual weapons, skimming above the battle aboard hover drones and invoking the fundamental might of the T’au castes.",
       "id": "dddc74b8-f810-53b6-a7c4-d2086616d811",
-      "keywords": ["Infantry", "Character", "Ethereal"],
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Ethereal"
+      ],
       "leader": "This model can be attached to the following units: ■ BREACHER TEAM ■ STRIKE TEAM",
       "loadout": "This model is equipped with: honour stave.",
       "meleeWeapons": [
@@ -3032,10 +3343,9 @@
       "name": "Ethereal",
       "points": [
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "50"
         }
       ],
       "rangedWeapons": [],
@@ -3060,20 +3370,27 @@
         "This model can be equipped with 1 hover drone."
       ],
       "leads": {
-        "units": ["BREACHER TEAM", "STRIKE TEAM"],
+        "units": [
+          "BREACHER TEAM",
+          "STRIKE TEAM"
+        ],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D6"],
+        "core": [
+          "Deadly Demise D6"
+        ],
         "damaged": {
           "range": "1-4 WOUNDS REMAINING",
           "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3113,12 +3430,22 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Riptide Battlesuit"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Riptide Battlesuit"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "The Riptide combines the armoured resilience and overwhelming firepower of a heavy battle tank with the agility of a swift and skilful warrior. Powered by a thrumming nova reactor, the battlesuit can overcharge its systems at need, while its massed firepower can eradicate entire formations of enemy warriors or armoured vehicles.",
       "id": "2daf2e63-9bf4-5d66-bde0-5a85c0f1fe4f",
-      "keywords": ["Vehicle", "Walker", "Fly", "Battlesuit", "Riptide"],
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Fly",
+        "Battlesuit",
+        "Riptide"
+      ],
       "leader": "",
       "loadout": "This model is equipped with: heavy burst cannon; twin plasma rifle; Riptide fists.",
       "meleeWeapons": [
@@ -3142,10 +3469,9 @@
       "name": "Riptide Battlesuit",
       "points": [
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "190"
         }
       ],
       "rangedWeapons": [
@@ -3173,7 +3499,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "3",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin plasma rifle",
               "range": "18\"",
               "skill": "4+",
@@ -3200,7 +3528,9 @@
               "ap": "-3",
               "attacks": "6",
               "damage": "4",
-              "keywords": ["Hazardous"],
+              "keywords": [
+                "Hazardous"
+              ],
               "name": "Ion accelerator – Overcharge",
               "range": "72\"",
               "skill": "4+",
@@ -3216,7 +3546,10 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["Twin-linked", "Melta 2"],
+              "keywords": [
+                "Twin-linked",
+                "Melta 2"
+              ],
               "name": "Twin fusion blaster",
               "range": "12\"",
               "skill": "4+",
@@ -3232,7 +3565,10 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Twin-linked", "Indirect Fire"],
+              "keywords": [
+                "Twin-linked",
+                "Indirect Fire"
+              ],
               "name": "Twin smart missile system",
               "range": "30\"",
               "skill": "4+",
@@ -3265,14 +3601,19 @@
     },
     {
       "abilities": {
-        "core": ["Deep Strike", "Leader"],
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3306,8 +3647,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Commander Farsight – EPIC HERO"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Commander Farsight – EPIC HERO"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Aggressive and rebellious, Commander Farsight is the master of Mont’ka, the Killing Blow. Piloting his crimson battlesuit, O’Shovah carves a bloody path into the enemy, leading his separatist Fire caste forces and wielding the enigmatic Dawn Blade with such strength and skill that no foe can stand against him.",
       "id": "5ed6cc39-b7b5-57b6-a635-7aaaf08610be",
@@ -3354,10 +3699,9 @@
       "name": "Commander Farsight",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -3394,7 +3738,9 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
         "units": [
           "CRISIS SUNFORGE BATTLESUITS",
@@ -3406,7 +3752,9 @@
     },
     {
       "abilities": {
-        "core": ["Scouts 7\""],
+        "core": [
+          "Scouts 7\""
+        ],
         "damaged": {
           "description": "",
           "range": "",
@@ -3434,12 +3782,21 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1-3 Krootox Riders"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1-3 Krootox Riders"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Krootox make excellent living gun platforms, lumbering into battle with cannons strapped to their backs, their Kroot gunners swaying atop their steeds in primitive harnesses. Though not in themselves aggressive, Krootox view the Kroot Carnivores they fight alongside as packmates, and will employ their great strength to defend their kin.",
       "id": "efc04c25-5e10-5308-ae2d-528c9706d08b",
-      "keywords": ["Mounted", "Grenades", "Kroot", "Krootox Riders"],
+      "keywords": [
+        "Mounted",
+        "Grenades",
+        "Kroot",
+        "Krootox Riders"
+      ],
       "leader": "",
       "loadout": "Every model is equipped with: repeater cannon; close combat weapon; Krootox fists.",
       "meleeWeapons": [
@@ -3451,7 +3808,9 @@
               "ap": "-1",
               "attacks": "4",
               "damage": "2",
-              "keywords": ["Extra Attacks"],
+              "keywords": [
+                "Extra Attacks"
+              ],
               "name": "Krootox fists",
               "range": "Melee",
               "skill": "3+",
@@ -3479,22 +3838,19 @@
       "name": "Krootox Riders",
       "points": [
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "40"
         },
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "60"
         },
         {
-          "cost": "40",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -3506,7 +3862,9 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Repeater cannon",
               "range": "36\"",
               "skill": "4+",
@@ -3522,7 +3880,10 @@
               "ap": "0",
               "attacks": "D6+1",
               "damage": "1",
-              "keywords": ["Heavy", "Blast"],
+              "keywords": [
+                "Heavy",
+                "Blast"
+              ],
               "name": "Tanglecannon",
               "range": "36\"",
               "skill": "4+",
@@ -3553,14 +3914,20 @@
     },
     {
       "abilities": {
-        "core": ["Infiltrators", "Lone Operative", "Stealth"],
+        "core": [
+          "Infiltrators",
+          "Lone Operative",
+          "Stealth"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3607,8 +3974,12 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Commander Shadowsun – EPIC HERO"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Commander Shadowsun – EPIC HERO"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Accompanied by advanced shield and command drones, Commander Shadowsun surges dynamically into battle. She is the master of Kauyon, laying cunning ambushes for her enemies then striking with merciless fury. O’Shaserra spearheads these attacks from the front and every shot from her fusion blasters heralds another fallen foe.",
       "id": "ada4d0e5-17fc-5789-bb6c-ae0457815a4a",
@@ -3643,10 +4014,9 @@
       "name": "Commander Shadowsun",
       "points": [
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -3690,7 +4060,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Pulse pistol",
               "range": "12\"",
               "skill": "3+",
@@ -3706,7 +4078,9 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["Melta 2"],
+              "keywords": [
+                "Melta 2"
+              ],
               "name": "High-energy fusion blaster",
               "range": "18\"",
               "skill": "2+",
@@ -3731,7 +4105,9 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"]
+      "wargear": [
+        "None"
+      ]
     },
     {
       "abilities": {
@@ -3747,7 +4123,9 @@
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3775,8 +4153,12 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Ghostkeel Battlesuit"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Ghostkeel Battlesuit"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Nothing so huge should be able to slip unnoticed across the battlefield, yet between its stealth field and its electronic warfare suite the Ghostkeel Battlesuit does just that. Once in position its pilot unleashes ferocious volleys of firepower, ambushing, overwhelming and scattering the terrified foe in a matter of moments.",
       "id": "bcccf73e-41ec-5d85-9dfb-bbc9e61ff93b",
@@ -3811,10 +4193,9 @@
       "name": "Ghostkeel Battlesuit",
       "points": [
         {
-          "cost": "160",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -3826,7 +4207,9 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": ["Melta 2"],
+              "keywords": [
+                "Melta 2"
+              ],
               "name": "Fusion collider",
               "range": "18\"",
               "skill": "4+",
@@ -3842,7 +4225,11 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Twin-linked", "Torrent", "Ignores Cover"],
+              "keywords": [
+                "Twin-linked",
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Twin T’au flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -3869,7 +4256,9 @@
               "ap": "-2",
               "attacks": "6",
               "damage": "3",
-              "keywords": ["Hazardous"],
+              "keywords": [
+                "Hazardous"
+              ],
               "name": "Cyclic ion raker – Overcharge",
               "range": "36\"",
               "skill": "4+",
@@ -3885,7 +4274,10 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["Twin-linked", "Melta 2"],
+              "keywords": [
+                "Twin-linked",
+                "Melta 2"
+              ],
               "name": "Twin fusion blaster",
               "range": "12\"",
               "skill": "4+",
@@ -3901,7 +4293,9 @@
               "ap": "0",
               "attacks": "4",
               "damage": "1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin burst cannon",
               "range": "18\"",
               "skill": "4+",
@@ -3934,14 +4328,18 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D6+2"],
+        "core": [
+          "Deadly Demise D6+2"
+        ],
         "damaged": {
           "range": "1-6 WOUNDS REMAINING",
           "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -3962,13 +4360,22 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Tiger Shark"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Tiger Shark"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Developed as a direct response to the largest Titans, the Tiger Shark AX-1-0 replaces the drone racks and ion cannons of the fighter-bomber variant with a twin heavy rail cannon and a seeker missile array. These weapons turn it into a formidable ground-attack craft that is the bane of super-heavy war machines.",
       "id": "3e8b954b-408d-5f89-a5ef-ef4e2dd39371",
       "imperialArmour": true,
-      "keywords": ["Vehicle", "Aircraft", "Fly", "AX-1-0 Tiger Shark"],
+      "keywords": [
+        "Vehicle",
+        "Aircraft",
+        "Fly",
+        "AX-1-0 Tiger Shark"
+      ],
       "leader": "",
       "loadout": "This model is equipped with: 2 burst cannons; 2 missile pods; twin heavy rail cannon; armoured hull.",
       "meleeWeapons": [
@@ -3992,10 +4399,9 @@
       "name": "AX-1-0 Tiger Shark",
       "points": [
         {
-          "cost": "315",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "315"
         }
       ],
       "rangedWeapons": [
@@ -4007,7 +4413,10 @@
               "ap": "-5",
               "attacks": "1",
               "damage": "12",
-              "keywords": ["Twin-linked", "Devastating Wounds"],
+              "keywords": [
+                "Twin-linked",
+                "Devastating Wounds"
+              ],
               "name": "Twin heavy rail cannon",
               "range": "120\"",
               "skill": "4+",
@@ -4055,7 +4464,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": ["One Shot"],
+              "keywords": [
+                "One Shot"
+              ],
               "name": "Seeker missile",
               "range": "48\"",
               "skill": "4+",
@@ -4090,7 +4501,9 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Hazardous"],
+              "keywords": [
+                "Hazardous"
+              ],
               "name": "Cyclic ion blaster – Overcharge",
               "range": "18\"",
               "skill": "4+",
@@ -4122,14 +4535,18 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D3"],
+        "core": [
+          "Deadly Demise D3"
+        ],
         "damaged": {
           "range": "1-5 WOUNDS REMAINING",
           "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -4156,12 +4573,21 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Sky Ray Gunship"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Sky Ray Gunship"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "This unusual hover tank relies upon other T’au units to use markerlights to highlight targets for its seeker missiles. Once this is done, the Sky Ray’s salvoes are nigh inescapable. An especially effective anti-aircraft asset, it employs advanced velocity trackers to predict enemy flight paths and destroy them with hurtling warheads.",
       "id": "a5e78785-c5b7-5016-a3e2-85d9d4384c4f",
-      "keywords": ["Vehicle", "Fly", "Markerlight", "Sky Ray Gunship"],
+      "keywords": [
+        "Vehicle",
+        "Fly",
+        "Markerlight",
+        "Sky Ray Gunship"
+      ],
       "leader": "",
       "loadout": "This model is equipped with: 1 seeker missile rack; 2 twin pulse carbines; armoured hull.",
       "meleeWeapons": [
@@ -4185,10 +4611,9 @@
       "name": "Sky Ray Gunship",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -4200,7 +4625,9 @@
               "ap": "-3",
               "attacks": "3",
               "damage": "D6+1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Seeker missile rack",
               "range": "48\"",
               "skill": "4+",
@@ -4216,7 +4643,10 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Twin-linked", "Assault"],
+              "keywords": [
+                "Twin-linked",
+                "Assault"
+              ],
               "name": "Twin pulse carbine",
               "range": "20\"",
               "skill": "4+",
@@ -4248,7 +4678,9 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Indirect Fire"],
+              "keywords": [
+                "Indirect Fire"
+              ],
               "name": "Smart missile system",
               "range": "30\"",
               "skill": "4+",
@@ -4279,7 +4711,9 @@
     },
     {
       "abilities": {
-        "core": ["Deep Strike"],
+        "core": [
+          "Deep Strike"
+        ],
         "damaged": {
           "description": "",
           "range": "",
@@ -4314,12 +4748,21 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Vespid Strain Leader", "4-9 Vespid Stingwings"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Vespid Strain Leader",
+        "4-9 Vespid Stingwings"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "These alien auxiliaries thrum into battle on membranous wings, their airborne agility leaving the enemy nowhere to hide. Resilient enough to shrug off all but the heaviest incoming fire, they unleash punishing radioactive salvoes from their neutron blasters that soon reduce their targets to little more than glowing craters.",
       "id": "bdafaf97-9d51-5af8-bf69-1c0727112173",
-      "keywords": ["Infantry", "Fly", "Vespid Stingwings"],
+      "keywords": [
+        "Infantry",
+        "Fly",
+        "Vespid Stingwings"
+      ],
       "leader": "",
       "loadout": "Each model is equipped with: neutron blaster; Stingwing claws.",
       "meleeWeapons": [
@@ -4343,16 +4786,14 @@
       "name": "Vespid Stingwings",
       "points": [
         {
-          "cost": "130",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "65"
         },
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -4364,7 +4805,9 @@
               "ap": "-2",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Assault"],
+              "keywords": [
+                "Assault"
+              ],
               "name": "Neutron blaster",
               "range": "18\"",
               "skill": "4+",
@@ -4380,7 +4823,10 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "T’au flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -4396,7 +4842,10 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "2",
-              "keywords": ["Blast", "Anti-infantry 3+"],
+              "keywords": [
+                "Blast",
+                "Anti-infantry 3+"
+              ],
               "name": "Neutron grenade launcher",
               "range": "18\"",
               "skill": "4+",
@@ -4412,7 +4861,9 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "3",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Neutron rail rifle",
               "range": "30\"",
               "skill": "4+",
@@ -4443,14 +4894,19 @@
     },
     {
       "abilities": {
-        "core": ["Deep Strike", "Leader"],
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -4526,8 +4982,12 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Commander in Coldstar Battlesuit"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Commander in Coldstar Battlesuit"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Capable of soaring at high speed over the battlefield, or even operating in the cold void of space, the XV86 Battlesuit is an exceptionally advanced weapon of war. It is favoured by those Commanders who seek to be everywhere at once, striking and fading wherever they are needed most.",
       "id": "599e050f-97b6-55fa-9b83-a6a575a34f25",
@@ -4562,10 +5022,9 @@
       "name": "Commander in Coldstar Battlesuit",
       "points": [
         {
-          "cost": "95",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -4593,7 +5052,10 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Indirect Fire", "Blast"],
+              "keywords": [
+                "Indirect Fire",
+                "Blast"
+              ],
               "name": "Airbursting fragmentation projector",
               "range": "24\"",
               "skill": "3+",
@@ -4636,7 +5098,9 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Hazardous"],
+              "keywords": [
+                "Hazardous"
+              ],
               "name": "Cyclic ion blaster – Overcharge",
               "range": "18\"",
               "skill": "3+",
@@ -4652,7 +5116,9 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["Melta 2"],
+              "keywords": [
+                "Melta 2"
+              ],
               "name": "Fusion blaster",
               "range": "12\"",
               "skill": "3+",
@@ -4700,7 +5166,10 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "T’au flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -4741,7 +5210,12 @@
     },
     {
       "abilities": {
-        "core": ["Infiltrators", "Leader", "Scouts 7\"", "Stealth"],
+        "core": [
+          "Infiltrators",
+          "Leader",
+          "Scouts 7\"",
+          "Stealth"
+        ],
         "damaged": {
           "description": "",
           "range": "",
@@ -4775,12 +5249,22 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Kroot Trail Shaper"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Kroot Trail Shaper"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Trail Shapers are more than simply masters of fieldcraft. As their title implies, they work with instinctive skill to shape the very battlefield upon which the Kroot will meet their prey, the guiding routes along which the hunt will progress and the nature of the engagements in which their kindreds fight. A single Trail Shaper can alter the entire character of a war in the favour of the T’au Empire.",
       "id": "57b54a95-a5d5-5739-8f8b-ea47992b3815",
-      "keywords": ["Infantry", "Character", "Kroot", "Shaper", "Trail Shaper"],
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Kroot",
+        "Shaper",
+        "Trail Shaper"
+      ],
       "leader": "This model can be attached to the following units: ■ KROOT CARNIVORES ■ KROOT FARSTALKERS",
       "loadout": "This model is equipped with: Kroot rifle; Shaper’s blade.",
       "meleeWeapons": [
@@ -4804,10 +5288,9 @@
       "name": "Kroot Trail Shaper",
       "points": [
         {
-          "cost": "55",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "55"
         }
       ],
       "rangedWeapons": [
@@ -4819,7 +5302,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Rapid Fire 1"],
+              "keywords": [
+                "Rapid Fire 1"
+              ],
               "name": "Kroot rifle",
               "range": "24\"",
               "skill": "4+",
@@ -4844,15 +5329,23 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
-        "units": ["KROOT CARNIVORES", "KROOT FARSTALKERS"],
+        "units": [
+          "KROOT CARNIVORES",
+          "KROOT FARSTALKERS"
+        ],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D3", "Firing Deck 20"],
+        "core": [
+          "Deadly Demise D3",
+          "Firing Deck 20"
+        ],
         "damaged": {
           "description": "",
           "range": "",
@@ -4892,8 +5385,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Tidewall Shieldline"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Tidewall Shieldline"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "In keeping with the Code of Fire, the Tidewall Shieldline provides a mobile fortification that can redeploy during battle. Its refractive field absorbs enemy fire, while its design allows entrenched Fire Warriors to ride the shieldline to a new position when it moves.",
       "id": "461404f4-27f2-5e5d-a577-cc90fc70fbc8",
@@ -4909,16 +5406,13 @@
       "name": "Tidewall Shieldline",
       "points": [
         {
-          "cost": "105",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         },
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "cost_name": "Tidewall Defence Platform",
+          "cost": "+20"
         }
       ],
       "rangedWeapons": [],
@@ -4951,7 +5445,9 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -5033,12 +5529,22 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Broadside Shas’vre", "0-2 Broadside Shas’ui"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Broadside Shas’vre",
+        "0-2 Broadside Shas’ui"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Broadside Battlesuit teams annihilate everything that falls beneath their sights. Each battlesuit is an indomitable slab of high-tech armour, while their iconic heavy rail rifles and other long-range weaponry can make short work of even the toughest enemy targets.",
       "id": "76bc5902-8376-5020-8d89-ccacd932f771",
-      "keywords": ["Vehicle", "Walker", "Battlesuit", "Broadside"],
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Battlesuit",
+        "Broadside"
+      ],
       "leader": "",
       "loadout": "Every model is equipped with: heavy rail rifle; crushing bulk.",
       "meleeWeapons": [
@@ -5062,22 +5568,19 @@
       "name": "Broadside Battlesuits",
       "points": [
         {
-          "cost": "300",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "90"
         },
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "2",
-          "active": true
+          "name": "model",
+          "model": "2",
+          "cost": "180"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "300"
         }
       ],
       "rangedWeapons": [
@@ -5089,7 +5592,10 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6+1",
-              "keywords": ["Devastating Wounds", "Heavy"],
+              "keywords": [
+                "Devastating Wounds",
+                "Heavy"
+              ],
               "name": "Heavy rail rifle",
               "range": "60\"",
               "skill": "4+",
@@ -5105,7 +5611,9 @@
               "ap": "-1",
               "attacks": "6",
               "damage": "2",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "High-yield missile pods",
               "range": "30\"",
               "skill": "4+",
@@ -5121,7 +5629,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": ["One Shot"],
+              "keywords": [
+                "One Shot"
+              ],
               "name": "Seeker missile",
               "range": "48\"",
               "skill": "4+",
@@ -5145,7 +5655,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "3",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin plasma rifle",
               "range": "18\"",
               "skill": "4+",
@@ -5161,7 +5673,10 @@
               "ap": "0",
               "attacks": "4",
               "damage": "1",
-              "keywords": ["Twin-linked", "Indirect Fire"],
+              "keywords": [
+                "Twin-linked",
+                "Indirect Fire"
+              ],
               "name": "Twin smart missile system",
               "range": "30\"",
               "skill": "4+",
@@ -5194,14 +5709,19 @@
     },
     {
       "abilities": {
-        "core": ["Deep Strike", "Leader"],
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -5277,8 +5797,12 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Commander in Enforcer Battlesuit"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Commander in Enforcer Battlesuit"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Those Commanders who exhibit the most aggressive temperaments often choose to take to the field piloting an XV85 Enforcer Battlesuit. Especially large and formidable, these battlesuits boast heavier armour and an impressive array of weaponry and wargear. They are particularly suited to the close and deadly confines of urban warfare.",
       "id": "efd60099-c354-57d5-8033-85a74ccf7ca0",
@@ -5313,10 +5837,9 @@
       "name": "Commander in Enforcer Battlesuit",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -5344,7 +5867,10 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Indirect Fire", "Blast"],
+              "keywords": [
+                "Indirect Fire",
+                "Blast"
+              ],
               "name": "Airbursting fragmentation projector",
               "range": "24\"",
               "skill": "3+",
@@ -5371,7 +5897,9 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Hazardous"],
+              "keywords": [
+                "Hazardous"
+              ],
               "name": "Cyclic ion blaster – Overcharge",
               "range": "18\"",
               "skill": "3+",
@@ -5387,7 +5915,9 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["Melta 2"],
+              "keywords": [
+                "Melta 2"
+              ],
               "name": "Fusion blaster",
               "range": "12\"",
               "skill": "3+",
@@ -5435,7 +5965,10 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "T’au flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -5476,14 +6009,18 @@
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -5529,12 +6066,21 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Cadre Fireblade"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Cadre Fireblade"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Specialists in infantry-based battlefield tactics, Cadre Fireblades eschew the honour of a battlesuit in order to fight selflessly amongst the Fire caste’s rank and file. Their veteran wisdom is of great benefit to the warriors alongside whom they fight, optimising the ferocity and accuracy of their firepower.",
       "id": "ed024631-1f7d-5c41-b0c1-76d9bff0685c",
-      "keywords": ["Infantry", "Character", "Grenades", "Cadre Fireblade"],
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Cadre Fireblade"
+      ],
       "leader": "This model can be attached to the following units: ■ BREACHER TEAM ■ STRIKE TEAM",
       "loadout": "This model is equipped with: Fireblade pulse rifle; close combat weapon.",
       "meleeWeapons": [
@@ -5558,10 +6104,9 @@
       "name": "Cadre Fireblade",
       "points": [
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "50"
         }
       ],
       "rangedWeapons": [
@@ -5573,7 +6118,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Rapid Fire 1"],
+              "keywords": [
+                "Rapid Fire 1"
+              ],
               "name": "Fireblade pulse rifle",
               "range": "30\"",
               "skill": "3+",
@@ -5602,20 +6149,27 @@
         "This model can be equipped with up to two of the following, and can take duplicates: ◦ 1 gun drone ◦ 1 marker drone ◦ 1 shield drone"
       ],
       "leads": {
-        "units": ["BREACHER TEAM", "STRIKE TEAM"],
+        "units": [
+          "BREACHER TEAM",
+          "STRIKE TEAM"
+        ],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D3"],
+        "core": [
+          "Deadly Demise D3"
+        ],
         "damaged": {
           "range": "1-4 WOUNDS REMAINING",
           "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -5636,12 +6190,21 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Razorshark Strike Fighter"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Razorshark Strike Fighter"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "The Razorshark is an air superiority fighter with enough resilience and potent firepower to double as an alarmingly effective ground-attack craft at need. Deployed in large numbers to win control of the skies ahead of major T’au offensives, Razorsharks fill the air with hails of searing ion blasts and streaking seeker missiles.",
       "id": "cd839a13-1816-5eba-864d-7b5cce939422",
-      "keywords": ["Vehicle", "Aircraft", "Fly", "Razorshark Strike Fighter"],
+      "keywords": [
+        "Vehicle",
+        "Aircraft",
+        "Fly",
+        "Razorshark Strike Fighter"
+      ],
       "leader": "",
       "loadout": "This model is equipped with: accelerator burst cannon; quad ion turret; 2 seeker missiles; armoured hull.",
       "meleeWeapons": [
@@ -5665,10 +6228,9 @@
       "name": "Razorshark Strike Fighter",
       "points": [
         {
-          "cost": "170",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -5696,7 +6258,9 @@
               "ap": "-1",
               "attacks": "8",
               "damage": "1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Quad ion turret – Standard",
               "range": "30\"",
               "skill": "4+",
@@ -5707,7 +6271,10 @@
               "ap": "-2",
               "attacks": "8",
               "damage": "2",
-              "keywords": ["Twin-linked", "Hazardous"],
+              "keywords": [
+                "Twin-linked",
+                "Hazardous"
+              ],
               "name": "Quad ion turret – Overcharge",
               "range": "30\"",
               "skill": "4+",
@@ -5723,7 +6290,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": ["One Shot"],
+              "keywords": [
+                "One Shot"
+              ],
               "name": "Seeker missile",
               "range": "48\"",
               "skill": "4+",
@@ -5778,14 +6347,18 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D3"],
+        "core": [
+          "Deadly Demise D3"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -5806,8 +6379,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Devilfish"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Devilfish"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "The ubiquitous armoured transport of the Fire caste, the Devilfish is an iconic symbol of T’au military expansion. Tough and surprisingly agile, it bears Fire Warriors safely into battle with impressive speed. Once there, its burst cannons and detachable drones or missile systems provide its passengers with additional fire support.",
       "id": "703c9ce7-b3d1-533c-8bb6-3183b1e44a52",
@@ -5841,10 +6418,9 @@
       "name": "Devilfish",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -5872,7 +6448,10 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Twin-linked", "Assault"],
+              "keywords": [
+                "Twin-linked",
+                "Assault"
+              ],
               "name": "Twin pulse carbine",
               "range": "20\"",
               "skill": "4+",
@@ -5888,7 +6467,9 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Indirect Fire"],
+              "keywords": [
+                "Indirect Fire"
+              ],
               "name": "Smart missile system",
               "range": "30\"",
               "skill": "4+",
@@ -5904,7 +6485,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": ["One Shot"],
+              "keywords": [
+                "One Shot"
+              ],
               "name": "Seeker missile",
               "range": "48\"",
               "skill": "4+",
@@ -5944,14 +6527,20 @@
     },
     {
       "abilities": {
-        "core": ["Infiltrators", "Leader", "Scouts 7\""],
+        "core": [
+          "Infiltrators",
+          "Leader",
+          "Scouts 7\""
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -5978,8 +6567,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Darkstrider – EPIC HERO"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Darkstrider – EPIC HERO"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "As much a maverick as he is a master of covert operations, Sub-commander El’Myamoto is a formidable leader of stealth and sabotage missions. His structural analyser allows him to pinpoint the weak spots of even the most indomitable enemies. Meanwhile, his expertise in guerrilla warfare renders his forces all the more deadly.",
       "id": "650a3124-c2d4-526d-9ac6-11529ea119b5",
@@ -6013,10 +6606,9 @@
       "name": "Darkstrider",
       "points": [
         {
-          "cost": "60",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -6028,7 +6620,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Assault"],
+              "keywords": [
+                "Assault"
+              ],
               "name": "Shade",
               "range": "18\"",
               "skill": "2+",
@@ -6053,22 +6647,30 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
-        "units": ["PATHFINDER TEAM"],
+        "units": [
+          "PATHFINDER TEAM"
+        ],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D3"],
+        "core": [
+          "Deadly Demise D3"
+        ],
         "damaged": {
           "range": "1-5 WOUNDS REMAINING",
           "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -6095,12 +6697,20 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Hammerhead Gunship"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Hammerhead Gunship"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "The Hammerhead Gunship epitomises the T’au way of war. Not only is this hover tank resilient and possessed of truly ferocious firepower, but it is also swift and manoeuvrable enough to outpace lumbering enemy war engines while keeping up with the Hunter Cadres’ rapid advances, feints and redeployments.",
       "id": "b680d88d-c028-50bc-a53e-8d56fef86e16",
-      "keywords": ["Vehicle", "Fly", "Hammerhead Gunship"],
+      "keywords": [
+        "Vehicle",
+        "Fly",
+        "Hammerhead Gunship"
+      ],
       "leader": "",
       "loadout": "This model is equipped with: 1 railgun; 2 twin pulse carbines; armoured hull.",
       "meleeWeapons": [
@@ -6124,10 +6734,9 @@
       "name": "Hammerhead Gunship",
       "points": [
         {
-          "cost": "145",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "145"
         }
       ],
       "rangedWeapons": [
@@ -6139,7 +6748,10 @@
               "ap": "-5",
               "attacks": "1",
               "damage": "D6+6",
-              "keywords": ["Devastating Wounds", "Heavy"],
+              "keywords": [
+                "Devastating Wounds",
+                "Heavy"
+              ],
               "name": "Railgun",
               "range": "72\"",
               "skill": "4+",
@@ -6155,7 +6767,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin pulse carbine",
               "range": "20\"",
               "skill": "4+",
@@ -6171,7 +6785,9 @@
               "ap": "-1",
               "attacks": "D6+3",
               "damage": "2",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Ion cannon – Standard",
               "range": "60\"",
               "skill": "4+",
@@ -6182,7 +6798,10 @@
               "ap": "-2",
               "attacks": "D6+3",
               "damage": "3",
-              "keywords": ["Hazardous", "Blast"],
+              "keywords": [
+                "Hazardous",
+                "Blast"
+              ],
               "name": "Ion cannon – Overcharge",
               "range": "60\"",
               "skill": "4+",
@@ -6214,7 +6833,9 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Indirect Fire"],
+              "keywords": [
+                "Indirect Fire"
+              ],
               "name": "Smart missile system",
               "range": "30\"",
               "skill": "4+",
@@ -6230,7 +6851,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": ["One Shot"],
+              "keywords": [
+                "One Shot"
+              ],
               "name": "Seeker missile",
               "range": "48\"",
               "skill": "4+",
@@ -6271,7 +6894,10 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D3", "Firing Deck 11"],
+        "core": [
+          "Deadly Demise D3",
+          "Firing Deck 11"
+        ],
         "damaged": {
           "description": "",
           "range": "",
@@ -6311,8 +6937,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Tidewall Droneport"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Tidewall Droneport"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Like a harbour amidst a raging storm, Tidewall Droneports house swarms of tactical drones and shield them from the enemy’s fire. At a command from the droneport operators, these drones are unleashed to join the battle. Meanwhile, the droneports themselves are able to hover and relocate upon the shifting tides of war.",
       "id": "f687b9d9-4a5e-51b5-9250-2ae0d358e816",
@@ -6329,10 +6959,9 @@
       "name": "Tidewall Droneport",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -6344,7 +6973,10 @@
               "ap": "0",
               "attacks": "8",
               "damage": "1",
-              "keywords": ["Twin-linked", "Assault"],
+              "keywords": [
+                "Twin-linked",
+                "Assault"
+              ],
               "name": "Drone defenders",
               "range": "20\"",
               "skill": "5+",
@@ -6369,18 +7001,24 @@
         }
       ],
       "transport": "This model has a transport capacity of 11 T’AU EMPIRE INFANTRY models. It cannot transport BATTLESUIT, KROOT or VESPID STINGWINGS models.",
-      "wargear": ["None"]
+      "wargear": [
+        "None"
+      ]
     },
     {
       "abilities": {
-        "core": ["Deep Strike"],
+        "core": [
+          "Deep Strike"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -6442,7 +7080,9 @@
         "1 Crisis Sunforge Shas’vre",
         "2 Crisis Sunforge Shas’ui"
       ],
-      "factions": ["T’au Empire"],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "The XV8 Crisis Battlesuit is the most iconic and versatile fighting platform available to the Fire caste. When equipped with paired fusion blasters and shield generator it is said to be in the Sunforge configuration and becomes a devastating asset for hunting armoured vehicles or monstrous war beasts, slaying them with blasts of superthermic energy.",
       "id": "19535cb7-253e-5d98-becc-66cd7eeda157",
@@ -6477,10 +7117,9 @@
       "name": "Crisis Sunforge Battlesuits",
       "points": [
         {
-          "cost": "150",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -6492,7 +7131,9 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["Melta 2"],
+              "keywords": [
+                "Melta 2"
+              ],
               "name": "Fusion blaster",
               "range": "12\"",
               "skill": "4+",
@@ -6528,14 +7169,20 @@
     },
     {
       "abilities": {
-        "core": ["Infiltrators", "Lone Operative", "Stealth"],
+        "core": [
+          "Infiltrators",
+          "Lone Operative",
+          "Stealth"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -6556,12 +7203,21 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Firesight Marksman"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Firesight Marksman"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Hidden behind shimmering stealth fields, the Firesight Marksmen play their targeting instruments over the foe and transmit data to the MV71 sniper drones in their thrall. In this way they augment the fire-prioritisation routines of the drones’ artificial intelligences, rendering them smarter, more cunning and even more deadly to distant foes.",
       "id": "7764dea0-8567-5a1b-9cb1-4c940cb496e0",
-      "keywords": ["Infantry", "Character", "Markerlight", "Firesight Team"],
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Markerlight",
+        "Firesight Team"
+      ],
       "leader": "",
       "loadout": "This model is equipped with: longshot pulse rifles; pulse pistol; close combat weapons.",
       "meleeWeapons": [
@@ -6585,10 +7241,9 @@
       "name": "Firesight Team",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -6600,7 +7255,10 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Precision", "Heavy"],
+              "keywords": [
+                "Precision",
+                "Heavy"
+              ],
               "name": "Longshot pulse rifles",
               "range": "36\"",
               "skill": "4+",
@@ -6616,7 +7274,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Pulse pistol",
               "range": "12\"",
               "skill": "3+",
@@ -6641,11 +7301,16 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"]
+      "wargear": [
+        "None"
+      ]
     },
     {
       "abilities": {
-        "core": ["Scouts 7\"", "Stealth"],
+        "core": [
+          "Scouts 7\"",
+          "Stealth"
+        ],
         "damaged": {
           "description": "",
           "range": "",
@@ -6680,12 +7345,22 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Long-quill", "9-19 Kroot Carnivores"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Long-quill",
+        "9-19 Kroot Carnivores"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Swift and vicious, Kroot Carnivore squads employ fieldcraft and predatory instinct to close rapidly with their foes. What they lack in resilience, they more than make up for in close-ranged savagery, hammering enemies with volleys from their Kroot rifles before charging in to rip and tear their victims to gory ribbons.",
       "id": "9a005efa-4ad4-5aac-9fe5-fe77a7b0d69c",
-      "keywords": ["Infantry", "Grenades", "Kroot", "Carnivores"],
+      "keywords": [
+        "Infantry",
+        "Grenades",
+        "Kroot",
+        "Carnivores"
+      ],
       "leader": "",
       "loadout": "The Long-quill is equipped with: Kroot pistol; Kroot rifle; close combat weapon.\nEvery Kroot Carnivore is equipped with: Kroot rifle; close combat weapon.",
       "meleeWeapons": [
@@ -6709,16 +7384,14 @@
       "name": "Kroot Carnivores",
       "points": [
         {
-          "cost": "140",
-          "keyword": null,
-          "models": "20",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "65"
         },
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "20",
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -6730,7 +7403,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Rapid Fire 1"],
+              "keywords": [
+                "Rapid Fire 1"
+              ],
               "name": "Kroot rifle",
               "range": "24\"",
               "skill": "4+",
@@ -6746,7 +7421,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Kroot pistol",
               "range": "12\"",
               "skill": "4+",
@@ -6778,7 +7455,9 @@
               "ap": "0",
               "attacks": "D3",
               "damage": "1",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Tanglebomb launcher",
               "range": "24\"",
               "skill": "4+",
@@ -6807,11 +7486,20 @@
         "For every 10 models in this unit, one Kroot Carnivore’s Kroot rifle can be replaced with 1 Tanglebomb launcher.",
         "The Long-quill’s Kroot rifle can be replaced with 1 Kroot carbine."
       ],
-      "leadBy": ["Kroot Trail Shaper", "Kroot War Shaper", "Kroot Flesh Shaper"]
+      "leadBy": [
+        "Kroot Trail Shaper",
+        "Kroot War Shaper",
+        "Kroot Flesh Shaper"
+      ]
     },
     {
       "abilities": {
-        "core": ["Infiltrators", "Leader", "Scouts 7\"", "Stealth"],
+        "core": [
+          "Infiltrators",
+          "Leader",
+          "Scouts 7\"",
+          "Stealth"
+        ],
         "damaged": {
           "description": "",
           "range": "",
@@ -6845,12 +7533,22 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Kroot War Shaper"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Kroot War Shaper"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "To the War Shapers falls responsibility for both composition and disposition of all Kroot forces in the field. Beyond this, they are typically exemplary warriors in their own right, striding into battle armed with symbolically traditional weapons that are no less deadly for their antiquated natures. Under a War Shaper’s merciless gaze, enemies quail and allies find new strength.",
       "id": "e90fbb27-1fd0-58ef-94a3-e4aa25a8ed94",
-      "keywords": ["Infantry", "Character", "Kroot", "Shaper", "War Shaper"],
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Kroot",
+        "Shaper",
+        "War Shaper"
+      ],
       "leader": "This model can be attached to the following units: ■ KROOT CARNIVORES ■ KROOT FARSTALKERS",
       "loadout": "This model is equipped with: dart-bow and tri-blade; Kroot pistol; Shaper’s blade.",
       "meleeWeapons": [
@@ -6878,7 +7576,9 @@
               "ap": "-1",
               "attacks": "4",
               "damage": "2",
-              "keywords": ["Lethal Hits"],
+              "keywords": [
+                "Lethal Hits"
+              ],
               "name": "Bladestave and prey-hook",
               "range": "Melee",
               "skill": "2+",
@@ -6890,10 +7590,9 @@
       "name": "Kroot War Shaper",
       "points": [
         {
-          "cost": "50",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "50"
         }
       ],
       "rangedWeapons": [
@@ -6905,7 +7604,11 @@
               "ap": "0",
               "attacks": "D3+1",
               "damage": "2",
-              "keywords": ["Heavy", "Assault", "Anti-infantry 3+"],
+              "keywords": [
+                "Heavy",
+                "Assault",
+                "Anti-infantry 3+"
+              ],
               "name": "Dart-bow and tri-blade",
               "range": "24\"",
               "skill": "4+",
@@ -6921,7 +7624,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Kroot pistol",
               "range": "12\"",
               "skill": "4+",
@@ -6950,13 +7655,20 @@
         "This model’s dart-bow and tri-bade can be replaced with 1 bladestave and prey-hook."
       ],
       "leads": {
-        "units": ["KROOT CARNIVORES", "KROOT FARSTALKERS"],
+        "units": [
+          "KROOT CARNIVORES",
+          "KROOT FARSTALKERS"
+        ],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": ["Lone Operative", "Scouts 7\"", "Stealth"],
+        "core": [
+          "Lone Operative",
+          "Scouts 7\"",
+          "Stealth"
+        ],
         "damaged": {
           "description": "",
           "range": "",
@@ -6990,12 +7702,21 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Kroot Lone-spear"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Kroot Lone-spear"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "Whether loners or grizzled mercenaries unable to fit within Kroot society, Lone-spears prefer the company of beasts and the surrounds of the wild. Mounted upon chameleonic Kalamandras, they make for talented long-range scouts. Moreover, armed with suitably potent firearms the Lone-spears excel in picking off valuable enemy targets and even eliminating armoured fighting vehicles.",
       "id": "6321fe1c-d8e2-5931-826a-045f338dfc72",
-      "keywords": ["Mounted", "Character", "Kroot", "Lone-spear"],
+      "keywords": [
+        "Mounted",
+        "Character",
+        "Kroot",
+        "Lone-spear"
+      ],
       "leader": "",
       "loadout": "This model is equipped with: Kroot long gun; close combat weapon; Kalamandra’s bite.",
       "meleeWeapons": [
@@ -7023,7 +7744,9 @@
               "ap": "-1",
               "attacks": "4",
               "damage": "1",
-              "keywords": ["Extra Attacks"],
+              "keywords": [
+                "Extra Attacks"
+              ],
               "name": "Kalamandra’s bite",
               "range": "Melee",
               "skill": "4+",
@@ -7039,7 +7762,9 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Lance"],
+              "keywords": [
+                "Lance"
+              ],
               "name": "Hunting javelin",
               "range": "Melee",
               "skill": "3+",
@@ -7051,10 +7776,9 @@
       "name": "Kroot Lone-spear",
       "points": [
         {
-          "cost": "80",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -7066,7 +7790,10 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "3",
-              "keywords": ["Precision", "Heavy"],
+              "keywords": [
+                "Precision",
+                "Heavy"
+              ],
               "name": "Kroot long gun",
               "range": "36\"",
               "skill": "3+",
@@ -7082,7 +7809,10 @@
               "ap": "-2",
               "attacks": "D6",
               "damage": "2",
-              "keywords": ["Blast", "Assault"],
+              "keywords": [
+                "Blast",
+                "Assault"
+              ],
               "name": "Blast javelin",
               "range": "18\"",
               "skill": "4+",
@@ -7113,7 +7843,12 @@
     },
     {
       "abilities": {
-        "core": ["Infiltrators", "Leader", "Scouts 7\"", "Stealth"],
+        "core": [
+          "Infiltrators",
+          "Leader",
+          "Scouts 7\"",
+          "Stealth"
+        ],
         "damaged": {
           "description": "",
           "range": "",
@@ -7147,12 +7882,22 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Kroot Flesh Shaper"],
-      "factions": ["T’au Empire"],
+      "composition": [
+        "1 Kroot Flesh Shaper"
+      ],
+      "factions": [
+        "T’au Empire"
+      ],
       "faction_id": "TAU",
       "fluff": "All Shapers bear some responsibility for the gradual guidance of their fellows’ genetic makeup through ingestion of selected prey. The Flesh Shapers take this art to a more immediate and visceral extreme through the use of gruesome flesh-fetishes and ritualised butchery whose psychosomatic impact upon the Kroot is remarkable.",
       "id": "1a6e98ec-9412-5da8-8a08-841f13aa6d52",
-      "keywords": ["Infantry", "Character", "Kroot", "Shaper", "Flesh Shaper"],
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Kroot",
+        "Shaper",
+        "Flesh Shaper"
+      ],
       "leader": "This model can be attached to the following units: ■ KROOT CARNIVORES ■ KROOT FARSTALKERS",
       "loadout": "This model is equipped with: Kroot scattergun; twin ritualistic blades.",
       "meleeWeapons": [
@@ -7164,7 +7909,9 @@
               "ap": "-1",
               "attacks": "4",
               "damage": "1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin ritualistic blades",
               "range": "Melee",
               "skill": "2+",
@@ -7176,10 +7923,9 @@
       "name": "Kroot Flesh Shaper",
       "points": [
         {
-          "cost": "45",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "45"
         }
       ],
       "rangedWeapons": [
@@ -7191,7 +7937,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Assault"],
+              "keywords": [
+                "Assault"
+              ],
               "name": "Kroot scattergun",
               "range": "12\"",
               "skill": "4+",
@@ -7216,22 +7964,32 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
-        "units": ["KROOT CARNIVORES", "KROOT FARSTALKERS"],
+        "units": [
+          "KROOT CARNIVORES",
+          "KROOT FARSTALKERS"
+        ],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": ["Deadly Demise 1", "Scouts 9\""],
+        "core": [
+          "Deadly Demise 1",
+          "Scouts 9\""
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -7251,12 +8009,20 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 TX42 Piranha"],
+      "composition": [
+        "1 TX42 Piranha"
+      ],
       "faction_id": "TAU",
-      "factions": ["T'au Empire"],
+      "factions": [
+        "T'au Empire"
+      ],
       "fluff": "",
       "id": "fcf1141f-c3a7-5bdf-8efc-65631d9775b2",
-      "keywords": ["Fly", "TX42 Piranha", "Vehicle"],
+      "keywords": [
+        "Fly",
+        "TX42 Piranha",
+        "Vehicle"
+      ],
       "leader": "",
       "legends": true,
       "loadout": "This model is equipped with: 2 plasma rifles; armoured hull.",
@@ -7321,7 +8087,9 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "3",
-              "keywords": ["devastating wounds"],
+              "keywords": [
+                "devastating wounds"
+              ],
               "name": "Rail rifle",
               "range": "30\"",
               "skill": "4+",
@@ -7337,7 +8105,9 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["melta 2"],
+              "keywords": [
+                "melta 2"
+              ],
               "name": "Fusion blaster",
               "range": "12\"",
               "skill": "4+",
@@ -7368,14 +8138,19 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D6+2", "Hover"],
+        "core": [
+          "Deadly Demise D6+2",
+          "Hover"
+        ],
         "damaged": {
           "description": "While this model has 1-9 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "range": "1-9 WOUNDS REMAINING",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -7395,9 +8170,13 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Orca Dropship"],
+      "composition": [
+        "1 Orca Dropship"
+      ],
       "faction_id": "TAU",
-      "factions": ["T’au Empire"],
+      "factions": [
+        "T’au Empire"
+      ],
       "fluff": "",
       "id": "6246a701-4b61-5ce8-ba1c-b215ffd50aa8",
       "keywords": [
@@ -7481,18 +8260,25 @@
         }
       ],
       "transport": "This model has a transport capacity of 48 T’au Empire Infantry models. This model can also transport up to 6 Battlesuit models (these models take up the space of a number of models equal to their Wounds characteristic, e.g. a Battlesuit with a Wounds characteristic of 8 would take up the space of 8 models). This model cannot transport Kroot or Vespid Stingwings models.",
-      "wargear": ["None"]
+      "wargear": [
+        "None"
+      ]
     },
     {
       "abilities": {
-        "core": ["Deep Strike", "Leader"],
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -7525,9 +8311,13 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Shas'o R'alai – Epic Hero"],
+      "composition": [
+        "1 Shas'o R'alai – Epic Hero"
+      ],
       "faction_id": "TAU",
-      "factions": ["T'au Empire"],
+      "factions": [
+        "T'au Empire"
+      ],
       "fluff": "",
       "id": "4ffe9dd5-1096-5ba0-91dc-7f8d6fc59bf9",
       "keywords": [
@@ -7543,7 +8333,9 @@
       "leader": "This model can be attached to the following unit: ■ XV9 Hazard Battlesuits",
       "leads": {
         "extra": "",
-        "units": ["XV9 Hazard Battlesuits"]
+        "units": [
+          "XV9 Hazard Battlesuits"
+        ]
       },
       "legends": true,
       "loadout": "This model is equipped with: experimental pulse submunitions rifle; battlesuit fists; blacklight marker drones.",
@@ -7576,7 +8368,9 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["blast"],
+              "keywords": [
+                "blast"
+              ],
               "name": "Experimental pulse submunitions rifle – ionic",
               "range": "24\"",
               "skill": "3+",
@@ -7587,7 +8381,10 @@
               "ap": "0",
               "attacks": "1",
               "damage": "3",
-              "keywords": ["anti-vehicle 3+", "devastating wounds"],
+              "keywords": [
+                "anti-vehicle 3+",
+                "devastating wounds"
+              ],
               "name": "Experimental pulse submunitions rifle – EMP",
               "range": "24\"",
               "skill": "3+",
@@ -7612,18 +8409,24 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"]
+      "wargear": [
+        "None"
+      ]
     },
     {
       "abilities": {
-        "core": ["Deep Strike"],
+        "core": [
+          "Deep Strike"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["For the Greater Good"],
+        "faction": [
+          "For the Greater Good"
+        ],
         "invul": {
           "info": "",
           "showInfo": false,
@@ -7662,13 +8465,25 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1-2 XV9 Hazard Battlesuits"],
+      "composition": [
+        "1-2 XV9 Hazard Battlesuits"
+      ],
       "faction_id": "TAU",
-      "factions": ["T'au Empire"],
+      "factions": [
+        "T'au Empire"
+      ],
       "fluff": "",
       "id": "ccb40484-215f-5b17-becc-34bff0340e53",
-      "keywords": ["Battlesuit", "Fly", "Vehicle", "Walker", "XV9 Hazard"],
-      "leadBy": ["Shas'o R'alai"],
+      "keywords": [
+        "Battlesuit",
+        "Fly",
+        "Vehicle",
+        "Walker",
+        "XV9 Hazard"
+      ],
+      "leadBy": [
+        "Shas'o R'alai"
+      ],
       "leader": "",
       "legends": true,
       "loadout": "Every model is equipped with: fusion cascade; twin hazard burst cannon; battlesuit fists.",
@@ -7717,7 +8532,9 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["melta 4"],
+              "keywords": [
+                "melta 4"
+              ],
               "name": "Fusion cascade",
               "range": "12\"",
               "skill": "4+",
@@ -7733,7 +8550,9 @@
               "ap": "0",
               "attacks": "4",
               "damage": "1",
-              "keywords": ["twin-linked"],
+              "keywords": [
+                "twin-linked"
+              ],
               "name": "Twin hazard burst cannon",
               "range": "24\"",
               "skill": "4+",
@@ -7767,7 +8586,10 @@
     },
     {
       "abilities": {
-        "core": ["Scouts 7\"", "Stealth"],
+        "core": [
+          "Scouts 7\"",
+          "Stealth"
+        ],
         "damaged": {
           "description": "",
           "range": "",
@@ -7794,12 +8616,20 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["3 Knarloc Riders"],
+      "composition": [
+        "3 Knarloc Riders"
+      ],
       "faction_id": "TAU",
-      "factions": ["T'au Empire"],
+      "factions": [
+        "T'au Empire"
+      ],
       "fluff": "",
       "id": "f4608d96-c857-51fd-be13-11ab6d07bf0e",
-      "keywords": ["Knarloc Riders", "Kroot", "Mounted"],
+      "keywords": [
+        "Knarloc Riders",
+        "Kroot",
+        "Mounted"
+      ],
       "leader": "",
       "legends": true,
       "loadout": "Every model is equipped with: Kroot rifle; Knarloc beak and talons.",
@@ -7812,7 +8642,9 @@
               "ap": "-1",
               "attacks": "4",
               "damage": "1",
-              "keywords": ["extra attacks"],
+              "keywords": [
+                "extra attacks"
+              ],
               "name": "Knarloc beak and talons",
               "range": "Melee",
               "skill": "3+",
@@ -7848,7 +8680,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["rapid fire 1"],
+              "keywords": [
+                "rapid fire 1"
+              ],
               "name": "Kroot rifle",
               "range": "24\"",
               "skill": "4+",
@@ -7873,11 +8707,15 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"]
+      "wargear": [
+        "None"
+      ]
     },
     {
       "abilities": {
-        "core": ["Scouts 7\""],
+        "core": [
+          "Scouts 7\""
+        ],
         "damaged": {
           "description": "",
           "range": "",
@@ -7911,12 +8749,20 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Great Knarloc"],
+      "composition": [
+        "1 Great Knarloc"
+      ],
       "faction_id": "TAU",
-      "factions": ["T'au Empire"],
+      "factions": [
+        "T'au Empire"
+      ],
       "fluff": "",
       "id": "edc1f39f-5c9a-56fa-ac19-79293f6d8443",
-      "keywords": ["Great Knarloc", "Kroot", "Monster"],
+      "keywords": [
+        "Great Knarloc",
+        "Kroot",
+        "Monster"
+      ],
       "leader": "",
       "legends": true,
       "loadout": "This model is equipped with: Great Knarloc beak and talons.",
@@ -7929,7 +8775,9 @@
               "ap": "-1",
               "attacks": "4",
               "damage": "3",
-              "keywords": ["extra attacks"],
+              "keywords": [
+                "extra attacks"
+              ],
               "name": "Great Knarloc beak and talons",
               "range": "Melee",
               "skill": "3+",
@@ -7973,7 +8821,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "3",
-              "keywords": ["hooked"],
+              "keywords": [
+                "hooked"
+              ],
               "name": "Kroot bolt thrower",
               "range": "12\"",
               "skill": "4+",
@@ -7989,7 +8839,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["rapid fire 1"],
+              "keywords": [
+                "rapid fire 1"
+              ],
               "name": "Kroot rifle",
               "range": "24\"",
               "skill": "4+",
@@ -8005,7 +8857,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["twin-linked"],
+              "keywords": [
+                "twin-linked"
+              ],
               "name": "Twin Kroot gun",
               "range": "36\"",
               "skill": "4+",
@@ -8075,12 +8929,20 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Drone Sentry Turret"],
+      "composition": [
+        "1 Drone Sentry Turret"
+      ],
       "faction_id": "TAU",
-      "factions": ["T'au Empire"],
+      "factions": [
+        "T'au Empire"
+      ],
       "fluff": "",
       "id": "a7202c4d-11b6-5049-b853-6a5b1ac5190c",
-      "keywords": ["Drone Sentry Turret", "Fortification", "Vehicle"],
+      "keywords": [
+        "Drone Sentry Turret",
+        "Fortification",
+        "Vehicle"
+      ],
       "leader": "",
       "legends": true,
       "loadout": "This model is equipped with: twin plasma rifle.",
@@ -8096,7 +8958,9 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["twin-linked"],
+              "keywords": [
+                "twin-linked"
+              ],
               "name": "Twin missile pod",
               "range": "30\"",
               "skill": "5+",
@@ -8112,7 +8976,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "3",
-              "keywords": ["twin-linked"],
+              "keywords": [
+                "twin-linked"
+              ],
               "name": "Twin plasma rifle",
               "range": "24\"",
               "skill": "5+",
@@ -8128,7 +8994,10 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["melta 2", "twin-linked"],
+              "keywords": [
+                "melta 2",
+                "twin-linked"
+              ],
               "name": "Twin fusion blaster",
               "range": "12\"",
               "skill": "5+",
@@ -8144,7 +9013,9 @@
               "ap": "0",
               "attacks": "4",
               "damage": "1",
-              "keywords": ["twin-linked"],
+              "keywords": [
+                "twin-linked"
+              ],
               "name": "Twin burst cannon",
               "range": "18\"",
               "skill": "5+",
@@ -8214,12 +9085,19 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Remote Sensor Tower"],
+      "composition": [
+        "1 Remote Sensor Tower"
+      ],
       "faction_id": "TAU",
-      "factions": ["T'au Empire"],
+      "factions": [
+        "T'au Empire"
+      ],
       "fluff": "",
       "id": "2f2b70e8-9698-513a-a31e-3534776d2930",
-      "keywords": ["Fortification", "Remote Sensor Tower"],
+      "keywords": [
+        "Fortification",
+        "Remote Sensor Tower"
+      ],
       "leader": "",
       "legends": true,
       "loadout": "This model is equipped with: nothing.",
@@ -8243,7 +9121,9 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"]
+      "wargear": [
+        "None"
+      ]
     },
     {
       "abilities": {
@@ -8281,12 +9161,20 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["2 Heavy Gun Drones"],
+      "composition": [
+        "2 Heavy Gun Drones"
+      ],
       "faction_id": "TAU",
-      "factions": ["T'au Empire"],
+      "factions": [
+        "T'au Empire"
+      ],
       "fluff": "",
       "id": "baee640e-ac9a-5878-bb9a-2cde38492b05",
-      "keywords": ["Fly", "Heavy Gun Drones", "Vehicle"],
+      "keywords": [
+        "Fly",
+        "Heavy Gun Drones",
+        "Vehicle"
+      ],
       "leader": "",
       "legends": true,
       "loadout": "Every model is equipped with: burst cannon; markerlight; close combat weapon.",
@@ -8319,7 +9207,9 @@
               "ap": "0",
               "attacks": "4",
               "damage": "1",
-              "keywords": ["twin-linked"],
+              "keywords": [
+                "twin-linked"
+              ],
               "name": "Twin burst cannon",
               "range": "18\"",
               "skill": "5+",
@@ -8378,8 +9268,12 @@
       "name": "Exemplar of the Kauyon",
       "id": "20d5d26e-cda1-50e2-8218-32b8365fb387",
       "cost": "20",
-      "keywords": ["T’au Empire"],
-      "excludes": ["Shaper"],
+      "keywords": [
+        "T’au Empire"
+      ],
+      "excludes": [
+        "Shaper"
+      ],
       "description": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, the Patient Hunter Detachment rule applies to that unit from the second battle round onwards instead of from the third.",
       "faction_id": "TAU",
       "source": "40k-10e",
@@ -8390,7 +9284,9 @@
       "name": "Precision of the Patient Hunter",
       "id": "29c3bf37-3290-528c-93fd-76a1124c9590",
       "cost": "15",
-      "keywords": ["T’au Empire"],
+      "keywords": [
+        "T’au Empire"
+      ],
       "excludes": [],
       "description": "T’AU EMPIRE model only. Each time the bearer makes a ranged attack, add 1 to the Hit roll. From the third battle round onwards, add 1 to the Wound roll as well.",
       "faction_id": "TAU",
@@ -8402,7 +9298,9 @@
       "name": "Solid-image Projection Unit",
       "id": "3987f242-fb5e-5555-8891-c9b78bf944f2",
       "cost": "30",
-      "keywords": ["T’au Empire"],
+      "keywords": [
+        "T’au Empire"
+      ],
       "excludes": [],
       "description": "T’AU EMPIRE model only. After both players have deployed their armies, select up to three T’AU EMPIRE units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
       "faction_id": "TAU",
@@ -8414,8 +9312,12 @@
       "name": "Through Unity, Devastation",
       "id": "43bb671a-4438-5387-8cf0-448261f72904",
       "cost": "40",
-      "keywords": ["T’au Empire"],
-      "excludes": ["Shaper"],
+      "keywords": [
+        "T’au Empire"
+      ],
+      "excludes": [
+        "Shaper"
+      ],
       "description": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the [LETHAL HITS] ability while targeting their Spotted unit.",
       "faction_id": "TAU",
       "source": "40k-10e",
@@ -8426,8 +9328,12 @@
       "name": "Exemplar of the Mont’ka",
       "id": "58ec8c96-448f-547c-864b-fc87f5152874",
       "cost": "10",
-      "keywords": ["T’au Empire"],
-      "excludes": ["Shaper"],
+      "keywords": [
+        "T’au Empire"
+      ],
+      "excludes": [
+        "Shaper"
+      ],
       "description": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, the Killing Blow Detachment rule applies to that unit during the fourth battle round as well.",
       "faction_id": "TAU",
       "source": "40k-10e",
@@ -8438,7 +9344,9 @@
       "name": "Strike Swiftly",
       "id": "a616aabe-3222-581b-b576-8958225eefa2",
       "cost": "25",
-      "keywords": ["T’au Empire"],
+      "keywords": [
+        "T’au Empire"
+      ],
       "excludes": [],
       "description": "T’AU EMPIRE model only. At the start of the battle, before any moves are made using the Scouts ability, you can select up to two friendly T’AU EMPIRE units within 6\" of the bearer that do not have the Scouts ability. Until the end of the battle, all models in the selected units have the Scouts 6\" ability.",
       "faction_id": "TAU",
@@ -8450,7 +9358,9 @@
       "name": "Strategic Conqueror",
       "id": "e2b65797-2731-5fc3-8c73-73c911954bab",
       "cost": "15",
-      "keywords": ["T’au Empire"],
+      "keywords": [
+        "T’au Empire"
+      ],
       "excludes": [],
       "description": "T’AU EMPIRE model only. At the start of the first battle round, before the first turn begins, select one objective marker on the battlefield. While a friendly T’AU EMPIRE model is within range of that objective marker and the bearer is on the battlefield, add 1 to that friendly model’s Objective Control characteristic.",
       "faction_id": "TAU",
@@ -8462,8 +9372,12 @@
       "name": "Coordinated Exploitation",
       "id": "f3b67a49-b662-5196-a942-e64dd2a371b7",
       "cost": "40",
-      "keywords": ["T’au Empire"],
-      "excludes": ["Shaper"],
+      "keywords": [
+        "T’au Empire"
+      ],
+      "excludes": [
+        "Shaper"
+      ],
       "description": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the [SUSTAINED HITS 1] ability while targeting their Spotted unit.",
       "faction_id": "TAU",
       "source": "40k-10e",
@@ -8474,7 +9388,9 @@
       "name": "Puretide Engram Neurochip",
       "id": "4687682c-84ca-50e4-bcc8-8c5ccedd85f2",
       "cost": "25",
-      "keywords": ["Battlesuit"],
+      "keywords": [
+        "Battlesuit"
+      ],
       "excludes": [],
       "description": "T’AU EMPIRE BATTLESUIT model only. Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 4+, you gain 1CP.",
       "faction_id": "TAU",
@@ -8486,7 +9402,9 @@
       "name": "Starflare Ignition System",
       "id": "28e7bc02-636f-510a-ba46-d2cb491d1a66",
       "cost": "20",
-      "keywords": ["Battlesuit"],
+      "keywords": [
+        "Battlesuit"
+      ],
       "excludes": [],
       "description": "T’au EMPIRE BATTLESUIT model only. At the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of one or more enemy units, you can remove that unit from the battlefield and place it into Strategic Reserves.",
       "faction_id": "TAU",
@@ -8498,7 +9416,9 @@
       "name": "Internal Grenade Racks",
       "id": "3003886c-e0cc-5155-affe-f1ba0d44a93c",
       "cost": "20",
-      "keywords": ["Battlesuit"],
+      "keywords": [
+        "Battlesuit"
+      ],
       "excludes": [],
       "description": "T’AU EMPIRE BATTLESUIT model only. The bearer has the GRENADES keyword, and each time the bearer ends a Normal move, you can select one enemy unit that it moved over during that move. If you do, roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
       "faction_id": "TAU",
@@ -8510,7 +9430,9 @@
       "name": "Prototype Weapon System",
       "id": "cee3489a-6c94-574d-b3dc-3157e603d498",
       "cost": "15",
-      "keywords": ["Battlesuit"],
+      "keywords": [
+        "Battlesuit"
+      ],
       "excludes": [],
       "description": "T’AU EMPIRE BATTLESUIT model only. Each time the bearer is selected to shoot, select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until those attacks are resolved, ranged weapons equipped by the bearer have the selected ability.",
       "faction_id": "TAU",
@@ -8522,7 +9444,9 @@
       "name": "Kroothawk Flock",
       "id": "eb4257b9-3b55-56dc-8963-9126c3ade82a",
       "cost": "10",
-      "keywords": ["Kroot"],
+      "keywords": [
+        "Kroot"
+      ],
       "excludes": [],
       "description": "KROOT model only. Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability, and enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" horizontally of the bearer.",
       "faction_id": "TAU",
@@ -8534,7 +9458,9 @@
       "name": "Nomadic Hunter",
       "id": "d7cf45c9-3c45-5ce0-92c9-4a199702626c",
       "cost": "20",
-      "keywords": ["Trail Shaper"],
+      "keywords": [
+        "Trail Shaper"
+      ],
       "excludes": [],
       "description": "KROOT TRAIL SHAPER model only. While the bearer is leading a unit, add 3\" to the Move characteristic of models in that unit and ranged weapons equipped by models in that unit have the [ASSAULT] ability.",
       "faction_id": "TAU",
@@ -8546,7 +9472,9 @@
       "name": "Root-carved Weapons",
       "id": "cadf43ca-31d0-500b-bfd8-8a1c3dd41d29",
       "cost": "10",
-      "keywords": ["War Shaper"],
+      "keywords": [
+        "War Shaper"
+      ],
       "excludes": [],
       "description": "KROOT WAR SHAPER model only. All weapons equipped by the bearer have the [PRECISION] and [DEVASTATING WOUNDS] abilities.",
       "faction_id": "TAU",
@@ -8558,7 +9486,9 @@
       "name": "Borthrod Gland",
       "id": "c6278e1c-8420-5713-b3ae-5c27f388a499",
       "cost": "15",
-      "keywords": ["Flesh Shaper"],
+      "keywords": [
+        "Flesh Shaper"
+      ],
       "excludes": [],
       "description": "KROOT FLESH SHAPER only. While the bearer is leading a unit, each time a model in that unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
       "faction_id": "TAU",
@@ -8570,7 +9500,10 @@
       "name": "Student of Kauyon",
       "id": "07cd6b57-ebec-5449-b949-4a31a3370aa4",
       "cost": "15",
-      "keywords": ["Shaper", "Kroot"],
+      "keywords": [
+        "Shaper",
+        "Kroot"
+      ],
       "excludes": [],
       "description": "KROOT SHAPER model only. In the Declare Battle Formations step, you can select up to three KROOT CARNIVORES or KROOT FARSTALKERS units from your army. Models in those units have the Deep Strike ability.",
       "faction_id": "TAU",
@@ -8582,8 +9515,12 @@
       "name": "Admired Leader",
       "id": "c721bd3b-323e-5952-a989-77aa16cee3f8",
       "cost": "20",
-      "keywords": ["T’au Empire"],
-      "excludes": ["Kroot"],
+      "keywords": [
+        "T’au Empire"
+      ],
+      "excludes": [
+        "Kroot"
+      ],
       "description": "T’AU EMPIRE model (excluding KROOT models) only. In your Command phase, you can select one KROOT or VESPID STINGWINGS unit within 12\" of the bearer. If you do, until the start of your next Command phase, improve the Leadership characteristic of models in that unit by 1, and while such a unit is not Battle‑shocked, add 1 to the Objective Control characteristic of models in that unit.",
       "faction_id": "TAU",
       "source": "40k-10e",
@@ -8594,7 +9531,9 @@
       "name": "Fanatical Convert",
       "id": "6bf3b5cd-01f4-567b-a442-daf96de47304",
       "cost": "10",
-      "keywords": ["Kroot"],
+      "keywords": [
+        "Kroot"
+      ],
       "excludes": [],
       "description": "KROOT model only. The bearer’s unit has the For the Greater Good ability (see Codex: T’au Empire).",
       "faction_id": "TAU",
@@ -8606,7 +9545,9 @@
       "name": "Transponder Lock Module",
       "id": "d0a3a389-3b11-5948-8140-a1d856c6b485",
       "cost": "25",
-      "keywords": ["Walker"],
+      "keywords": [
+        "Walker"
+      ],
       "excludes": [],
       "description": "T’AU EMPIRE WALKER model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. During your first Movement phase, when you set up the bearer’s unit, it must be set up within 12\" of one or more friendly KROOT or VESPID STINGWINGS units and not within 9\" horizontally of one or more enemy units.",
       "faction_id": "TAU",
@@ -8618,7 +9559,9 @@
       "name": "Supernova Launcher",
       "id": "bd1851c2-6bf2-5ccb-9d72-cb06a3aa5dfd",
       "cost": "15",
-      "keywords": ["T’au Empire"],
+      "keywords": [
+        "T’au Empire"
+      ],
       "excludes": [],
       "description": "T’AU EMPIRE model only. Select one airbursting fragmentation projector equipped by the bearer. Improve the Strength characteristic of that weapon by 3, and improve the Armour Penetration and Damage characteristics of that weapon by 1.",
       "faction_id": "TAU",
@@ -8630,7 +9573,9 @@
       "name": "Thermoneutronic Projector",
       "id": "9fc7149c-28aa-5c44-ae5f-0fe94248e773",
       "cost": "20",
-      "keywords": ["T’au Empire"],
+      "keywords": [
+        "T’au Empire"
+      ],
       "excludes": [],
       "description": "T’AU EMPIRE model only. Select one T’au flamer equipped by the bearer. Improve the Strength characteristic of that weapon by 2, and improve the Armour Penetration and Damage characteristics of that weapon by 1.",
       "faction_id": "TAU",
@@ -8642,7 +9587,9 @@
       "name": "Plasma Accelerator Rifle",
       "id": "2e285f1f-409b-54b4-a420-d24ee2f48f41",
       "cost": "10",
-      "keywords": ["T’au Empire"],
+      "keywords": [
+        "T’au Empire"
+      ],
       "excludes": [],
       "description": "T’AU EMPIRE model only. Select one plasma rifle equipped by the bearer. Improve the Strength characteristic of that weapon by 2, and improve the Attacks, Armour Penetration and Damage characteristics of that weapon by 1.",
       "faction_id": "TAU",
@@ -8654,7 +9601,9 @@
       "name": "Fusion Blades",
       "id": "33ebf5a0-f2f1-5d3d-ae17-c9453f54e0b2",
       "cost": "25",
-      "keywords": ["T’au Empire"],
+      "keywords": [
+        "T’au Empire"
+      ],
       "excludes": [],
       "description": "T’AU EMPIRE model only. Select one fusion blaster equipped by the bearer. Improve the Attacks characteristic of that weapon by 1, improve the Strength characteristic of that weapon by 3, and that weapon has the [MELTA 4] ability",
       "faction_id": "TAU",
@@ -8832,7 +9781,9 @@
       "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit that contains 6 or more models, that attack has the [SUSTAINED HITS 1] ability. If that attack targets an enemy unit that contains 11 or more models, it has the [SUSTAINED HITS 2] ability instead.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "Commander Arro’kon’s teachings are considered pre-eminent in the art of engaging and eliminating numerically overwhelming enemy formations.",
       "detachment": "Retaliation Cadre"
@@ -8847,7 +9798,9 @@
       "effect": "Until the end of the phase, each time a model in either of your units makes an attack, it can only target that enemy unit (and only if it is an eligible target for that attack), and when resolving that attack, improve the Armour Penetration characteristic by 1.",
       "restrictions": "You cannot use this Stratagem during the fourth or fifth battle rounds.",
       "type": "Battle Tactic",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "Mont’ka doctrine heavily emphasises the massed concentration of fire upon a single target at a time, obliterating each component of the enemy force in succession with a series of unrelenting barrages.",
       "detachment": "Mont’ka"
@@ -8862,7 +9815,9 @@
       "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets the closest enemy unit, you can re-roll the Wound roll.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "The most aggressive Fire caste warriors sometimes spring from moving transports, roll with the impact of landing, and come up with weapons already blazing.",
       "detachment": "Mont’ka"
@@ -8877,7 +9832,9 @@
       "effect": "Until the end of the battle, each time a T’AU EMPIRE unit (excluding KROOT units) from your army makes an attack that targets the enemy unit that just destroyed your unit, you can re-roll the Hit roll.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["any"],
+      "phase": [
+        "any"
+      ],
       "faction_id": "TAU",
       "fluff": "Mont’ka emphasises rapid evolving threat-analysis and the application of overwhelming firepower to eliminate emergent high-priority targets.",
       "detachment": "Mont’ka"
@@ -8892,7 +9849,9 @@
       "effect": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["movement"],
+      "phase": [
+        "movement"
+      ],
       "faction_id": "TAU",
       "fluff": "By advancing swiftly into commanding positions, Mont’ka forces maximise the benefits of their enemies’ shock and disorientation.",
       "detachment": "Mont’ka"
@@ -8907,7 +9866,10 @@
       "effect": "After your unit has resolved its attacks this phase, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, each time a KROOT model from your army makes an attack that targets that enemy unit, unless the attacking unit is Battle-shocked, improve the Armour Penetration characteristic of that attack by 1.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "The Kroot have long perfected the art of ambush hunting, their packs working in deadly concert.",
       "detachment": "Kroot Hunting Pack"
@@ -8922,7 +9884,10 @@
       "effect": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "Advancements in battlesuit field technology include the addition of autoreactive shield dampers to absorb and dissipate the energy from high‐velocity kinetic strikes.",
       "detachment": "Experimental Prototype Cadre"
@@ -8937,7 +9902,9 @@
       "effect": "Until the end of the phase, each time you roll one or more dice to determine the number of attacks made with a weapon equipped by a model in your unit, you can re‐roll the result.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "T’au scientists have distributed the latest prototype weapons amongst this cadre’s contingents, all optimised to increase reliability and accuracy.",
       "detachment": "Experimental Prototype Cadre"
@@ -8952,7 +9919,9 @@
       "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within range of your Trap objective marker, add 1 to the Wound roll.",
       "restrictions": "You cannot use this Stratagem during the first or second battle rounds.",
       "type": "Battle Tactic",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "Kauyon teaches that many things can be used to bait a trap, luring the foe into position.",
       "detachment": "Kauyon"
@@ -8967,7 +9936,9 @@
       "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within 9\", improve the Armour Penetration characteristic of that attack by 1.",
       "restrictions": "You cannot use this Stratagem during the first or second battle rounds.",
       "type": "Battle Tactic",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "Devastating firepower need not be applied from afar, especially when striking an unsuspecting foe.",
       "detachment": "Kauyon"
@@ -8982,7 +9953,9 @@
       "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets their Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if your unit has the Markerlight keyword, that attack has the [IGNORES COVER] ability.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "T’au Hunter Cadres work in close coordination to destroy the most dangerous enemy targets.",
       "detachment": "Kauyon"
@@ -8997,7 +9970,9 @@
       "effect": "Remove your unit from the battlefield and place it into Strategic Reserves.",
       "restrictions": "You cannot target a unit that is within Engagement Range of one or more enemy units.",
       "type": "Battle Tactic",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "TAU",
       "fluff": "T’au Stealth Cadres utilise obfuscation fields and wide-band refraction beams to mask their advance.",
       "detachment": "Kauyon"
@@ -9012,7 +9987,10 @@
       "effect": "Until the end of the phase, each time a model in your unit makes an attack, re‑roll a Wound roll of 1. If it is a KROOT or VESPID STINGWINGS unit, you can re‑roll the Wound roll instead.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "Target analysis data from scanning drones is rapidly translated into inputs ideally tailored to a range of alien sensoria and then disseminated through the cadre.",
       "detachment": "Auxiliary Cadre"
@@ -9027,7 +10005,9 @@
       "effect": "Until the end of the turn, your unit is eligible to shoot in a turn in which it Advanced. If it is a KROOT or VESPID STINGWINGS unit, until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced as well.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["movement"],
+      "phase": [
+        "movement"
+      ],
       "faction_id": "TAU",
       "fluff": "There is much that the alien auxiliaries of the T’au empire can teach the Fire caste, not least through practical and deadly battlefield demonstrations.",
       "detachment": "Auxiliary Cadre"
@@ -9042,7 +10022,9 @@
       "effect": "Until the end of the phase, add 1 to the Strength characteristic of ranged weapons equipped by models in your unit. If your unit is wholly within 9\" of one or more KROOT or VESPID STINGWINGS units from your army, add 2 to the Strength characteristic of ranged weapons equipped by models in your unit instead.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "These Fire Warriors employ sensory data fed to them by supporting alien auxiliary units to maximise accuracy and place their shots against weak points they might not have perceived.",
       "detachment": "Auxiliary Cadre"
@@ -9057,7 +10039,9 @@
       "effect": "Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength.",
       "restrictions": "This Stratagem cannot be used to return destroyed CHARACTER units to Attached units. You can only use this Stratagem once per battle.",
       "type": "Battle Tactic",
-      "phase": ["any"],
+      "phase": [
+        "any"
+      ],
       "faction_id": "TAU",
       "fluff": "When a Kroot Hunting Pack closes in on its prey, there are often other hunters waiting to join in the fray and take their share of any spoils.",
       "detachment": "Kroot Hunting Pack"
@@ -9072,7 +10056,9 @@
       "effect": "Before removing your model from play, if it has the Deadly Demise ability, do not roll for that ability; instead, you can choose whether the result of that roll is a 1 or a 6. If your model does not have the Deadly Demise ability, roll one D6 for each unit within 6\" of it: on a 4+, that unit suffers D3 mortal wounds.",
       "restrictions": "",
       "type": "Epic Deed",
-      "phase": ["any"],
+      "phase": [
+        "any"
+      ],
       "faction_id": "TAU",
       "fluff": "Devices are incorporated into some battlesuits either to prevent high-ranking pilots being taken alive for interrogation or to prevent just such fatal explosions.",
       "detachment": "Retaliation Cadre"
@@ -9087,7 +10073,9 @@
       "effect": "If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move. If it does, your unit cannot declare a charge this turn.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "Though now disgraced by association with O’Shovah, Sub-Commander Torchstar’s strike-and-fade tactics are still taught – albeit officially under other names – in many Fire caste academies.",
       "detachment": "Retaliation Cadre"
@@ -9102,7 +10090,9 @@
       "effect": "That enemy unit must immediately take a Battle-shock test and you must roll one D6 for each model in that enemy unit: for each 6, that enemy unit suffers 1 mortal wound.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["charge"],
+      "phase": [
+        "charge"
+      ],
       "faction_id": "TAU",
       "fluff": "First used by O’Jir during the battle for Laguna Shard, these battlesuit-mounted emitters batter advancing foes backwards with gravitic pulse waves.",
       "detachment": "Retaliation Cadre"
@@ -9117,7 +10107,9 @@
       "effect": "In your opponent’s next Command phase, each enemy unit within 6\" of your unit must take a Battle-shock test. If the unit taking that test is Below Half-strength, subtract 1 from that test. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "TAU",
       "fluff": "The psychological impact of witnessing one’s comrades being dismembered and devoured by gore-splattered Kroot cannot be overstated.",
       "detachment": "Kroot Hunting Pack"
@@ -9132,7 +10124,9 @@
       "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["movement"],
+      "phase": [
+        "movement"
+      ],
       "faction_id": "TAU",
       "fluff": "Kroot see no value in stand-up fights, caring little for honour or glory. They hit and fade, frustrating their foes and bleeding them by degrees until – weakened and out of position – they are rendered vulnerable.",
       "detachment": "Kroot Hunting Pack"
@@ -9147,7 +10141,9 @@
       "effect": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "The Kroot are experts in camouflage and concealment, able to utilise cover in ways most foes would never consider and – to their great misfortune – do not anticipate.",
       "detachment": "Kroot Hunting Pack"
@@ -9162,7 +10158,9 @@
       "effect": "Select one BATTLESUIT model in your unit: that model regains up to D3+1 lost wounds.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["command"],
+      "phase": [
+        "command"
+      ],
       "faction_id": "TAU",
       "fluff": "Much research is being placed into deploying miniaturised drones to affect battlefield repairs and dispense emergency medical treatments in combat.",
       "detachment": "Experimental Prototype Cadre"
@@ -9177,7 +10175,10 @@
       "effect": "Until the end of the phase, improve the Armour Penetration characteristic of weapons equipped by models in your unit by 1.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "These experimental Earth caste weapon upgrades can only activate for short bursts at a time, but the extra stopping power they provide is formidable.",
       "detachment": "Auxiliary Cadre"
@@ -9192,7 +10193,9 @@
       "effect": "If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". Otherwise, your unit can make a Fall Back move. It cannot embark within a TRANSPORT at the end of this move if it disembarked from a TRANSPORT this turn.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "TAU",
       "fluff": "Regular Fire caste forces operating as part of auxiliary cadres are well trained in swift repositioning and fighting retreats, the better to exploit the presence of or provide support for their alien comrades.",
       "detachment": "Auxiliary Cadre"
@@ -9207,7 +10210,9 @@
       "effect": "Until the end of the phase, each time your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["movement"],
+      "phase": [
+        "movement"
+      ],
       "faction_id": "TAU",
       "fluff": "Air caste craft have dropped drones that emit pheromones into this region, their emissions invisible but blazing like beacons to the correct alien senses.",
       "detachment": "Auxiliary Cadre"
@@ -9222,7 +10227,9 @@
       "effect": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models.",
       "restrictions": "A unit targeted with this Stratagem is not eligible to declare a charge in the same turn.",
       "type": "Strategic Ploy",
-      "phase": ["movement"],
+      "phase": [
+        "movement"
+      ],
       "faction_id": "TAU",
       "fluff": "Made famous by Commander Farsight and his protégé Brightsword, this philosophy encourages pilots to drop into the very teeth of the enemy army and apply their firepower at point-blank range.",
       "detachment": "Retaliation Cadre"
@@ -9237,7 +10244,9 @@
       "effect": "Until the end of your opponent’s next turn, that enemy unit is shaken. While a unit is shaken, subtract 2 from its Move characteristic and subtract 2 from Advance and Charge rolls made for it.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "Rather than charge into hand-to-hand combat, T’au soldiery instead intensify their fire patterns, pinning their advancing foes and staving off their onslaught.",
       "detachment": "Mont’ka"
@@ -9252,7 +10261,10 @@
       "effect": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability.",
       "restrictions": "",
       "type": "Wargear",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "On-board hypodermics shunt pain-blockers and chemical stimulants into the pilot’s system.",
       "detachment": "Retaliation Cadre"
@@ -9267,7 +10279,10 @@
       "effect": "Until the end of the phase, worsen the Weapon Skill and Ballistic Skill characteristics of that enemy VEHICLE unit’s weapons by 1.",
       "restrictions": "",
       "type": "Wargear",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "Furnished by T’au allies or returning Farstalkers, these electromagnetic grenades wreak havoc with the animuses of armoured fighting vehicles.",
       "detachment": "Kroot Hunting Pack"
@@ -9282,7 +10297,9 @@
       "effect": "Select one of the following to apply to your unit until the end of the phase:\n\n• Improve the Strength characteristic of ranged weapons equipped by models in your unit by 1.\n• Improve the Strength and Armour Penetration characteristics of ranged weapons equipped by models in your unit by 1, and those weapons have the [HAZARDOUS] ability.",
       "restrictions": "You cannot target the same unit with the Experimental Ammunition and Threat Assessment Analyser Stratagems in the same phase.",
       "type": "Wargear",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "From hardened warheads and amplified ion capacitors, to hyperaccelerated pulse fields and refined fusion cores, the T’au are forever innovating improvements to improve the lethality of their ammunition.",
       "detachment": "Experimental Prototype Cadre"
@@ -9297,7 +10314,9 @@
       "effect": "Select the [SUSTAINED HITS 1] or [LETHAL HITS] ability. Until the end of the phase, ranged weapons equipped by models in your unit have the selected ability. You can instead select the [SUSTAINED HITS 1], [LETHAL HITS] and [HAZARDOUS] abilities to apply to those weapons until the end of the phase.",
       "restrictions": "You cannot target the same unit with the Experimental Ammunition and Threat Assessment Analyser Stratagems in the same phase.",
       "type": "Wargear",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "The Earth caste have been experimenting with implanting AI neurochip-technology into hand‐held scanners, enabling the swift calculation of precise firing solutions.",
       "detachment": "Experimental Prototype Cadre"
@@ -9312,7 +10331,9 @@
       "effect": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
       "restrictions": "",
       "type": "Wargear",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "This prototype countermeasure device emits an intense neurostatic jamming field, scrambling the enemy’s senses and fouling their aim.",
       "detachment": "Experimental Prototype Cadre"
@@ -9327,7 +10348,9 @@
       "effect": "Your unit embarks within that TRANSPORT.",
       "restrictions": "Every model in your INFANTRY unit must be within 3\" of that TRANSPORT and there must be sufficient transport capacity to embark the entire unit.",
       "type": "Wargear",
-      "phase": ["charge"],
+      "phase": [
+        "charge"
+      ],
       "faction_id": "TAU",
       "fluff": "Those who act as the lure in the Kauyon must be ready to make a hasty withdrawal once the enemy closes into range.",
       "detachment": "Kauyon"
@@ -9342,7 +10365,9 @@
       "effect": "That enemy unit must immediately take a Battle-shock test, and until the end of the phase, subtract 2 from Charge rolls made for that enemy unit.",
       "restrictions": "You cannot target a unit that is within Engagement Range of one or more enemy units.",
       "type": "Wargear",
-      "phase": ["charge"],
+      "phase": [
+        "charge"
+      ],
       "faction_id": "TAU",
       "fluff": "Hurling a volley of photon grenades, the T’au leave their enemies dazzled and disorientated.",
       "detachment": "Kauyon"
@@ -9357,7 +10382,9 @@
       "effect": "Until the end of the phase, each time an attack is allocated to your unit, subtract 1 from the Damage characteristic of that attack.",
       "restrictions": "",
       "type": "Wargear",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "TAU",
       "fluff": "Point-defence systems trigger as incoming fire is detected, blasting projectiles from the air and lessening the power of the enemy fusillade.",
       "detachment": "Mont’ka"

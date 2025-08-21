@@ -3,6 +3,7 @@
     "banner": "#572d0a",
     "header": "#3c4b3f"
   },
+  "compatibleDataVersion": 662,
   "datasheets": [
     {
       "abilities": {
@@ -424,7 +425,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "80"
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -600,7 +601,7 @@
         {
           "name": "model",
           "model": "5",
-          "cost": "65"
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -816,12 +817,12 @@
         {
           "name": "model",
           "model": "5",
-          "cost": "150"
+          "cost": "135"
         },
         {
           "name": "model",
           "model": "10",
-          "cost": "320"
+          "cost": "270"
         }
       ],
       "rangedWeapons": [
@@ -979,7 +980,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "225"
+          "cost": "240"
         }
       ],
       "rangedWeapons": [
@@ -1416,7 +1417,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "60"
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -1532,7 +1533,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "115"
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -2448,12 +2449,12 @@
         {
           "name": "model",
           "model": "3",
-          "cost": "90"
+          "cost": "80"
         },
         {
           "name": "model",
           "model": "6",
-          "cost": "180"
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -2945,5 +2946,5 @@
       }
     ]
   },
-  "updated": "2025-05-29T08:37:08.139Z"
+  "updated": "2025-08-19T17:58:03.808Z"
 }

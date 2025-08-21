@@ -1,5 +1,8 @@
 {
-  "allied_factions": ["AoI", "QI"],
+  "allied_factions": [
+    "AoI",
+    "QI"
+  ],
   "colours": {
     "banner": "#16291a",
     "header": "#013a17"
@@ -8,14 +11,18 @@
   "datasheets": [
     {
       "abilities": {
-        "core": ["Deadly Demise D3"],
+        "core": [
+          "Deadly Demise D3"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -36,12 +43,22 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Ravenwing Darkshroud"],
-      "factions": ["Dark Angels"],
+      "composition": [
+        "1 Ravenwing Darkshroud"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
       "faction_id": "CHDA",
       "fluff": "Mounted upon each Darkshroud is a mysterious statue that survived Caliban’s destruction and became imbued with the energies released by that cataclysmic event. Through the artifice of the Dark Angels, these energies are amplified and used to obscure those battle-brothers near to the Darkshroud from enemy sight.",
       "id": "a3a7cf44-57f6-55cd-aef8-6da96e65dd21",
-      "keywords": ["Vehicle", "Fly", "Imperium", "Ravenwing", "Darkshroud"],
+      "keywords": [
+        "Vehicle",
+        "Fly",
+        "Imperium",
+        "Ravenwing",
+        "Darkshroud"
+      ],
       "leader": "",
       "loadout": "This model is equipped with: heavy bolter; close combat weapon.",
       "meleeWeapons": [
@@ -65,10 +82,9 @@
       "name": "Ravenwing Darkshroud",
       "points": [
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "115"
         }
       ],
       "rangedWeapons": [
@@ -80,7 +96,9 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Sustained Hits 1"],
+              "keywords": [
+                "Sustained Hits 1"
+              ],
               "name": "Heavy bolter",
               "range": "36\"",
               "skill": "3+",
@@ -96,7 +114,9 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Assault Cannon",
               "range": "24\"",
               "skill": "3+",
@@ -134,7 +154,9 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -162,8 +184,13 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Ravenwing Huntmaster", "2-5 Ravenwing Black Knights"],
-      "factions": ["Dark Angels"],
+      "composition": [
+        "1 Ravenwing Huntmaster",
+        "2-5 Ravenwing Black Knights"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
       "faction_id": "CHDA",
       "fluff": "The Ravenwing Black Knights are the 2nd Company’s greatest warriors. They are elite fighters who style themselves after the monster-hunting knights of old Caliban. They speed towards the foe, swinging their corvus hammers with such force that the spiked weapons puncture the thickest armour and lay low the greatest prey.",
       "id": "18601d27-010d-50a9-84b8-e30b26dac1b7",
@@ -185,7 +212,9 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Black Knight combat weapon",
               "range": "Melee",
               "skill": "3+",
@@ -197,16 +226,14 @@
       "name": "Ravenwing Black Knights",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "90"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -218,7 +245,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -234,7 +263,9 @@
               "ap": "-2",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 1"],
+              "keywords": [
+                "Rapid Fire 1"
+              ],
               "name": "Plasma talon – Standard",
               "range": "18\"",
               "skill": "3+",
@@ -245,7 +276,10 @@
               "ap": "-3",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Rapid Fire 1", "Hazardous"],
+              "keywords": [
+                "Rapid Fire 1",
+                "Hazardous"
+              ],
               "name": "Plasma talon – Supercharge",
               "range": "18\"",
               "skill": "3+",
@@ -272,7 +306,9 @@
               "ap": "0",
               "attacks": "D3",
               "damage": "1",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Astartes grenade launcher – Frag",
               "range": "24\"",
               "skill": "3+",
@@ -300,18 +336,25 @@
       "wargear": [
         "For every 3 models in this unit, 1 model can replace its plasma talon with 1 Astartes grenade launcher."
       ],
-      "leadBy": ["Ravenwing Command Squad", "Sammael"]
+      "leadBy": [
+        "Ravenwing Command Squad",
+        "Sammael"
+      ]
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -345,8 +388,12 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Ezekiel – Epic Hero"],
-      "factions": ["Dark Angels"],
+      "composition": [
+        "1 Ezekiel – Epic Hero"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
       "faction_id": "CHDA",
       "fluff": "Ezekiel is Grand Master of Librarians. As a master of Interromancy, his warp-whispers shred the sanity of his enemies. His blade, known as Traitor’s Bane, was forged to slay those who turn against the Emperor. It is a formidable force weapon rumoured to entrap forever the souls of the Fallen.",
       "id": "72e9446e-116a-5ef1-9ecf-956c1ce11c9e",
@@ -372,7 +419,10 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "D3",
-              "keywords": ["Psychic", "Anti-chaos 2+"],
+              "keywords": [
+                "Psychic",
+                "Anti-chaos 2+"
+              ],
               "name": "Traitor’s Bane",
               "range": "Melee",
               "skill": "2+",
@@ -384,10 +434,9 @@
       "name": "Ezekiel",
       "points": [
         {
-          "cost": "75",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -399,7 +448,10 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Precision", "Pistol"],
+              "keywords": [
+                "Precision",
+                "Pistol"
+              ],
               "name": "The Deliverer",
               "range": "12\"",
               "skill": "2+",
@@ -415,7 +467,11 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["Psychic", "Precision", "Devastating Wounds"],
+              "keywords": [
+                "Psychic",
+                "Precision",
+                "Devastating Wounds"
+              ],
               "name": "Mind Wipe – Witchfire",
               "range": "12\"",
               "skill": "2+",
@@ -457,7 +513,9 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
         "units": [
           "ASSAULT INTERCESSOR SQUAD",
@@ -474,14 +532,18 @@
     },
     {
       "abilities": {
-        "core": ["Deep Strike"],
+        "core": [
+          "Deep Strike"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -522,8 +584,13 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Deathwing Sergeant", "4-9 Deathwing Terminators"],
-      "factions": ["Dark Angels"],
+      "composition": [
+        "1 Deathwing Sergeant",
+        "4-9 Deathwing Terminators"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
       "faction_id": "CHDA",
       "fluff": "After deploying rapidly on to the battlefield via blazing teleport strike or within the armoured hull of a mighty transport, Deathwing Terminator Squads pour fire into their enemies with storm bolters and devastating heavy weapons, or engage them in brutal melee, tearing them apart with power fists and howling chainfists.",
       "id": "76f2cda0-0d76-57a6-9b61-7db0598b1683",
@@ -561,7 +628,9 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Anti-vehicle 3+"],
+              "keywords": [
+                "Anti-vehicle 3+"
+              ],
               "name": "Chainfist",
               "range": "Melee",
               "skill": "4+",
@@ -589,16 +658,14 @@
       "name": "Deathwing Terminator Squad",
       "points": [
         {
-          "cost": "360",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "180"
         },
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "360"
         }
       ],
       "rangedWeapons": [
@@ -610,7 +677,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "3+",
@@ -626,7 +695,9 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Assault Cannon",
               "range": "24\"",
               "skill": "3+",
@@ -642,7 +713,10 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Heavy flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -658,7 +732,9 @@
               "ap": "-2",
               "attacks": "D3",
               "damage": "1",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Plasma cannon – Standard",
               "range": "36\"",
               "skill": "3+",
@@ -669,7 +745,10 @@
               "ap": "-3",
               "attacks": "D3",
               "damage": "2",
-              "keywords": ["Blast", "Hazardous"],
+              "keywords": [
+                "Blast",
+                "Hazardous"
+              ],
               "name": "Plasma cannon – Supercharge",
               "range": "36\"",
               "skill": "3+",
@@ -696,7 +775,9 @@
               "ap": "0",
               "attacks": "2D6",
               "damage": "1",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Cyclone missile launcher – Frag",
               "range": "36\"",
               "skill": "3+",
@@ -726,7 +807,9 @@
         "For every 5 models in this unit, 1 Deathwing Terminator can replace its storm bolter with one of the following: ◦ 1 assault cannon ◦ 1 heavy flamer ◦ 1 plasma cannon ◦ 1 storm bolter and 1 cyclone missile launcher (this model’s storm bolter cannot be replaced)",
         "Any number of Deathwing Terminators can each have their power fist replaced with 1 chainfist."
       ],
-      "leadBy": ["Belial"]
+      "leadBy": [
+        "Belial"
+      ]
     },
     {
       "abilities": {
@@ -737,7 +820,9 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -771,8 +856,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["3-6 Inner Circle Companions"],
-      "factions": ["Dark Angels"],
+      "composition": [
+        "3-6 Inner Circle Companions"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
       "faction_id": "CHDA",
       "fluff": "Wielding Calibanite greatswords with breathtaking skill, wreathed in the incense smoke of their braziers of judgement, the Inner Circle Companions cut a crimson path through their foes. They are sinister warriors whether battling as ally or enemy, for they fight in silence save for the whine of their armour servos and the crunch of their blades through flesh and bone.",
       "id": "a673671f-02bc-550b-b51b-bb4c0237e6b4",
@@ -794,7 +883,9 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "2",
-              "keywords": ["Lethal Hits"],
+              "keywords": [
+                "Lethal Hits"
+              ],
               "name": "Calibanite greatsword – Strike",
               "range": "Melee",
               "skill": "3+",
@@ -805,7 +896,9 @@
               "ap": "-2",
               "attacks": "5",
               "damage": "1",
-              "keywords": ["Sustained Hits 2"],
+              "keywords": [
+                "Sustained Hits 2"
+              ],
               "name": "Calibanite greatsword – Sweep",
               "range": "Melee",
               "skill": "3+",
@@ -817,16 +910,14 @@
       "name": "Inner Circle Companions",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "6",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "90"
         },
         {
-          "cost": "90",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "6",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -838,7 +929,9 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Heavy bolt pistol",
               "range": "18\"",
               "skill": "3+",
@@ -863,19 +956,30 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
-      "leadBy": ["Ezekiel", "Azrael", "Asmodai", "Lazarus"]
+      "wargear": [
+        "None"
+      ],
+      "leadBy": [
+        "Ezekiel",
+        "Azrael",
+        "Asmodai",
+        "Lazarus"
+      ]
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -909,8 +1013,12 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Azrael – EPIC HERO"],
-      "factions": ["Dark Angels"],
+      "composition": [
+        "1 Azrael – EPIC HERO"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
       "faction_id": "CHDA",
       "fluff": "Supreme Grand Master Azrael is a beacon of inspiration to those who follow him, and is paid enormous respect for his ability as a strategist. A masterful commander, he quickly grasps changing battlefield realities and orchestrates his forces to maximum advantage. In the fray, Azrael decapitates foes with every strike of the Sword of Secrets.",
       "id": "dba448cc-ea5e-5fd9-bd91-c795467fd1d2",
@@ -936,7 +1044,9 @@
               "ap": "-4",
               "attacks": "6",
               "damage": "2",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "The Sword of Secrets",
               "range": "Melee",
               "skill": "2+",
@@ -948,10 +1058,9 @@
       "name": "Azrael",
       "points": [
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "115"
         }
       ],
       "rangedWeapons": [
@@ -992,7 +1101,9 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
         "units": [
           "ASSAULT INTERCESSOR SQUAD",
@@ -1009,14 +1120,18 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D3"],
+        "core": [
+          "Deadly Demise D3"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1037,8 +1152,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Ravenwing Land Speeder Vengeance"],
-      "factions": ["Dark Angels"],
+      "composition": [
+        "1 Ravenwing Land Speeder Vengeance"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
       "faction_id": "CHDA",
       "fluff": "Boasting a larger chassis and anti-gravity engines, the Land Speeder Vengeance mounts heavier weaponry than other Land Speeders, and is thus fitted with a plasma storm battery. In battle, its crew use this potent weapon to deliver devastating firepower while keeping pace with the swift hunt of the Ravenwing.",
       "id": "a74cac10-eb28-5fac-adf0-1b0ad6f0ad4a",
@@ -1072,10 +1191,9 @@
       "name": "Land Speeder Vengeance",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -1087,7 +1205,9 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Sustained Hits 1"],
+              "keywords": [
+                "Sustained Hits 1"
+              ],
               "name": "Heavy bolter",
               "range": "36\"",
               "skill": "3+",
@@ -1103,7 +1223,10 @@
               "ap": "-2",
               "attacks": "D6+1",
               "damage": "1",
-              "keywords": ["Twin-linked", "Blast"],
+              "keywords": [
+                "Twin-linked",
+                "Blast"
+              ],
               "name": "Plasma storm battery – Standard",
               "range": "36\"",
               "skill": "3+",
@@ -1114,7 +1237,11 @@
               "ap": "-3",
               "attacks": "D6+1",
               "damage": "2",
-              "keywords": ["Twin-linked", "Hazardous", "Blast"],
+              "keywords": [
+                "Twin-linked",
+                "Hazardous",
+                "Blast"
+              ],
               "name": "Plasma storm battery – Supercharge",
               "range": "36\"",
               "skill": "3+",
@@ -1130,7 +1257,9 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Assault Cannon",
               "range": "24\"",
               "skill": "3+",
@@ -1161,14 +1290,19 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D3", "Hover"],
+        "core": [
+          "Deadly Demise D3",
+          "Hover"
+        ],
         "damaged": {
           "range": "1-3 WOUNDS REMAINING",
           "description": "While this model has 1-3 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1189,8 +1323,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Nephilim Jetfighter"],
-      "factions": ["Dark Angels"],
+      "composition": [
+        "1 Nephilim Jetfighter"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
       "faction_id": "CHDA",
       "fluff": "Sleek air-to-air interceptors, Nephilim Jetfighters are an instrumental part of the wider Ravenwing armoury, serving as the eyes and blades of the hunt. Able to excel both in ground attacks and breakneck dogfights, these potent fighter craft provide versatile and blisteringly swift fire support wherever it is most desperately required.",
       "id": "101d5e2e-9a10-59a2-830a-92c827f9f203",
@@ -1225,10 +1363,9 @@
       "name": "Nephilim Jetfighter",
       "points": [
         {
-          "cost": "195",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "195"
         }
       ],
       "rangedWeapons": [
@@ -1240,7 +1377,9 @@
               "ap": "-1",
               "attacks": "10",
               "damage": "2",
-              "keywords": ["Sustained Hits 1"],
+              "keywords": [
+                "Sustained Hits 1"
+              ],
               "name": "Avenger mega bolter",
               "range": "36\"",
               "skill": "3+",
@@ -1256,7 +1395,9 @@
               "ap": "-2",
               "attacks": "2",
               "damage": "D6",
-              "keywords": ["Anti-fly 2+"],
+              "keywords": [
+                "Anti-fly 2+"
+              ],
               "name": "Blacksword missiles",
               "range": "36\"",
               "skill": "3+",
@@ -1272,7 +1413,10 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Twin-linked", "Sustained Hits 1"],
+              "keywords": [
+                "Twin-linked",
+                "Sustained Hits 1"
+              ],
               "name": "Twin heavy bolter",
               "range": "36\"",
               "skill": "3+",
@@ -1319,14 +1463,18 @@
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1353,8 +1501,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Asmodai – EPIC HERO"],
-      "factions": ["Dark Angels"],
+      "composition": [
+        "1 Asmodai – EPIC HERO"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
       "faction_id": "CHDA",
       "fluff": "Asmodai is the Dark Angels’ most successful Interrogator-Chaplain. Relentless and humourless, in battle he incites his battle-brothers’ fighting spirit to reach new heights, rendering them unstoppable killing machines by chanting litanies of hate with unshakeable belief.",
       "id": "73dea935-78f8-5af7-a400-04c431a64bd8",
@@ -1403,10 +1555,9 @@
       "name": "Asmodai",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -1418,7 +1569,9 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Heavy bolt pistol",
               "range": "18\"",
               "skill": "3+",
@@ -1443,7 +1596,9 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
         "units": [
           "ASSAULT INTERCESSOR SQUAD",
@@ -1460,14 +1615,18 @@
     },
     {
       "abilities": {
-        "core": ["Deep Strike"],
+        "core": [
+          "Deep Strike"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1508,8 +1667,13 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Knight Master", "4 Deathwing Knights"],
-      "factions": ["Dark Angels"],
+      "composition": [
+        "1 Knight Master",
+        "4 Deathwing Knights"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
       "faction_id": "CHDA",
       "fluff": "Deathwing Knights are the Chapter’s ultimate death-dealers, their strikes breaking the enemy’s back or ensuring the capture of errant Fallen. Equipped with heirloom wargear such as crackling blades or incense-wreathed maces, they teleport into the heart of the thickest fighting, led by Knight Masters who lead them unerringly to victory.",
       "id": "0a59cf75-fb0a-540f-9206-4ff05900b6a4",
@@ -1531,7 +1695,10 @@
               "ap": "-2",
               "attacks": "5",
               "damage": "2",
-              "keywords": ["Sustained Hits 1", "Devastating Wounds"],
+              "keywords": [
+                "Sustained Hits 1",
+                "Devastating Wounds"
+              ],
               "name": "Great weapon of the Unforgiven",
               "range": "Melee",
               "skill": "2+",
@@ -1547,7 +1714,10 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "2",
-              "keywords": ["Anti-vehicle 4+", "Anti-monster 4+"],
+              "keywords": [
+                "Anti-vehicle 4+",
+                "Anti-monster 4+"
+              ],
               "name": "Mace of absolution",
               "range": "Melee",
               "skill": "2+",
@@ -1563,7 +1733,9 @@
               "ap": "-2",
               "attacks": "6",
               "damage": "2",
-              "keywords": ["Lethal Hits"],
+              "keywords": [
+                "Lethal Hits"
+              ],
               "name": "Relic weapon",
               "range": "Melee",
               "skill": "2+",
@@ -1591,10 +1763,9 @@
       "name": "Deathwing Knights",
       "points": [
         {
-          "cost": "250",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "250"
         }
       ],
       "rangedWeapons": [],
@@ -1619,18 +1790,25 @@
         "All Deathwing Knights in this unit can each have their mace of absolution replaced with 1 power weapon.",
         "The Knight Master’s great weapon of the Unforgiven can be replaced with 1 relic weapon."
       ],
-      "leadBy": ["Belial"]
+      "leadBy": [
+        "Belial"
+      ]
     },
     {
       "abilities": {
-        "core": ["Deep Strike", "Leader"],
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1657,8 +1835,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Belial – EPIC HERO"],
-      "factions": ["Dark Angels"],
+      "composition": [
+        "1 Belial – EPIC HERO"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
       "faction_id": "CHDA",
       "fluff": "Grand Master Belial is a warrior born – a killer whose skill in battle has always stood out, even amongst his post-human brethren. For all his ability he is a staunch perfectionist, chastising himself for every perceived weakness. In battle he wields the Sword of Silence, an obsidian Chapter relic that seems to swallow nearby sound.",
       "id": "b0e28fbd-1d1d-5c84-acc7-ee729e62fe99",
@@ -1683,7 +1865,9 @@
               "ap": "-2",
               "attacks": "6",
               "damage": "2",
-              "keywords": ["Precision"],
+              "keywords": [
+                "Precision"
+              ],
               "name": "The Sword of Silence",
               "range": "Melee",
               "skill": "2+",
@@ -1695,10 +1879,9 @@
       "name": "Belial",
       "points": [
         {
-          "cost": "85",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -1710,7 +1893,10 @@
               "ap": "0",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Rapid Fire 2", "Precision"],
+              "keywords": [
+                "Rapid Fire 2",
+                "Precision"
+              ],
               "name": "Master-crafted storm bolter",
               "range": "24\"",
               "skill": "2+",
@@ -1735,7 +1921,9 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
         "units": [
           "DEATHWING KNIGHTS",
@@ -1748,14 +1936,19 @@
     },
     {
       "abilities": {
-        "core": ["Deep Strike", "Fights First"],
+        "core": [
+          "Deep Strike",
+          "Fights First"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1820,8 +2013,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Lion El’Jonson – EPIC HERO"],
-      "factions": ["Dark Angels"],
+      "composition": [
+        "1 Lion El’Jonson – EPIC HERO"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
       "faction_id": "CHDA",
       "fluff": "Lion El’Jonson stalks from mist-wreathed shadow realms like an ancient questing knight hunting down the galaxy’s terrors. With the immense blade, Fealty, the Primarch cleaves apart the most heinous of monstrosities, while the Emperor’s Shield erupts in blazes of light and force in response to savage blows.",
       "id": "0749c654-22ff-5ed6-be5e-9acdf8583933",
@@ -1844,7 +2041,9 @@
               "ap": "-3",
               "attacks": "16",
               "damage": "2",
-              "keywords": ["Sustained Hits 1"],
+              "keywords": [
+                "Sustained Hits 1"
+              ],
               "name": "Fealty – Sweep",
               "range": "Melee",
               "skill": "2+",
@@ -1855,7 +2054,9 @@
               "ap": "-4",
               "attacks": "8",
               "damage": "4",
-              "keywords": ["Lethal Hits"],
+              "keywords": [
+                "Lethal Hits"
+              ],
               "name": "Fealty – Strike",
               "range": "Melee",
               "skill": "2+",
@@ -1867,10 +2068,9 @@
       "name": "Lion El’Jonson",
       "points": [
         {
-          "cost": "315",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "315"
         }
       ],
       "rangedWeapons": [
@@ -1882,7 +2082,9 @@
               "ap": "-1",
               "attacks": "4",
               "damage": "2",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Arma Luminis – Bolt",
               "range": "12\"",
               "skill": "2+",
@@ -1893,7 +2095,9 @@
               "ap": "-3",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Arma Luminis – Plasma",
               "range": "12\"",
               "skill": "2+",
@@ -1918,18 +2122,24 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"]
+      "wargear": [
+        "None"
+      ]
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1967,7 +2177,9 @@
         "1 Ravenwing Apothecary",
         "1 Ravenwing Ancient"
       ],
-      "factions": ["Dark Angels"],
+      "factions": [
+        "Dark Angels"
+      ],
       "faction_id": "CHDA",
       "fluff": "Ravenwing Command Squads speed into battle at the very head of the hunt. With their champion ready to duel for the honour of the Company, the Ancient’s banner fluttering in the wind like a knightly pennant, and the Apothecary on hand to heal the most grievous injuries, these formidable warriors aid their comrades in running down even the most dangerous quarry.",
       "id": "65697143-7593-5759-a841-ef1aaddef7f6",
@@ -2006,7 +2218,9 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Black Knight combat weapon",
               "range": "Melee",
               "skill": "3+",
@@ -2018,10 +2232,9 @@
       "name": "Ravenwing Command Squad",
       "points": [
         {
-          "cost": "120",
-          "keyword": null,
-          "models": "3",
-          "active": true
+          "name": "model",
+          "model": "3",
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -2033,7 +2246,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -2049,7 +2264,9 @@
               "ap": "-2",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 1"],
+              "keywords": [
+                "Rapid Fire 1"
+              ],
               "name": "Plasma talon – Standard",
               "range": "18\"",
               "skill": "3+",
@@ -2060,7 +2277,10 @@
               "ap": "-3",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Rapid Fire 1", "Hazardous"],
+              "keywords": [
+                "Rapid Fire 1",
+                "Hazardous"
+              ],
               "name": "Plasma talon – Supercharge",
               "range": "18\"",
               "skill": "3+",
@@ -2087,7 +2307,9 @@
               "ap": "0",
               "attacks": "D3",
               "damage": "1",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Astartes grenade launcher – Frag",
               "range": "24\"",
               "skill": "3+",
@@ -2116,20 +2338,27 @@
         "For every 3 models in this unit, 1 model’s plasma talon can be replaced with 1 Astartes grenade launcher."
       ],
       "leads": {
-        "units": ["OUTRIDER SQUAD", "RAVENWING BLACK KNIGHTS"],
+        "units": [
+          "OUTRIDER SQUAD",
+          "RAVENWING BLACK KNIGHTS"
+        ],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2156,8 +2385,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Lazarus – EPIC HERO"],
-      "factions": ["Dark Angels"],
+      "composition": [
+        "1 Lazarus – EPIC HERO"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
       "faction_id": "CHDA",
       "fluff": "Master Lazarus wields his sword, Enmity’s Edge, with all the martial skill expected of a Dark Angels Company Master. In even the most ferocious fighting he exhibits a calm demeanour, maintaining composure despite the hatred for witches smouldering in his breast, while giving masterful orders that have yielded great victories.",
       "id": "7e3ea0b9-3d47-53aa-9bb5-757c44eb1ec1",
@@ -2183,7 +2416,9 @@
               "ap": "-3",
               "attacks": "6",
               "damage": "2",
-              "keywords": ["Anti-psyker 2+"],
+              "keywords": [
+                "Anti-psyker 2+"
+              ],
               "name": "Enmity’s Edge",
               "range": "Melee",
               "skill": "2+",
@@ -2195,10 +2430,9 @@
       "name": "Lazarus",
       "points": [
         {
-          "cost": "70",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -2210,7 +2444,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt Pistol",
               "range": "12\"",
               "skill": "2+",
@@ -2235,7 +2471,9 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
         "units": [
           "ASSAULT INTERCESSOR SQUAD",
@@ -2251,14 +2489,19 @@
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D3", "Hover"],
+        "core": [
+          "Deadly Demise D3",
+          "Hover"
+        ],
         "damaged": {
           "range": "1-3 WOUNDS REMAINING",
           "description": "While this model has 1-3 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2279,8 +2522,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Ravenwing Dark Talon"],
-      "factions": ["Dark Angels"],
+      "composition": [
+        "1 Ravenwing Dark Talon"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
       "faction_id": "CHDA",
       "fluff": "The Dark Talon is a close-attack aircraft designed to help the Ravenwing snatch up their most tenacious or troublesome prey. It is aided in this role by armaments dating back to the Dark Age of Technology, such as the empirically charged rift cannon and the sinister stasis bomb, that trammels victims in a zone of slowed time.",
       "id": "eab64694-a982-55df-80a6-73d5036f7d8f",
@@ -2315,10 +2562,9 @@
       "name": "Ravenwing Dark Talon",
       "points": [
         {
-          "cost": "210",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "210"
         }
       ],
       "rangedWeapons": [
@@ -2330,7 +2576,10 @@
               "ap": "-4",
               "attacks": "D3+1",
               "damage": "3",
-              "keywords": ["Devastating Wounds", "Blast"],
+              "keywords": [
+                "Devastating Wounds",
+                "Blast"
+              ],
               "name": "Rift cannon",
               "range": "18\"",
               "skill": "3+",
@@ -2346,7 +2595,10 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": ["Twin-linked", "Rapid Fire 6"],
+              "keywords": [
+                "Twin-linked",
+                "Rapid Fire 6"
+              ],
               "name": "Hurricane bolter",
               "range": "24\"",
               "skill": "3+",
@@ -2371,18 +2623,24 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"]
+      "wargear": [
+        "None"
+      ]
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Oath of Moment"],
+        "faction": [
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2409,8 +2667,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Sammael – EPIC HERO"],
-      "factions": ["Dark Angels"],
+      "composition": [
+        "1 Sammael – EPIC HERO"
+      ],
+      "factions": [
+        "Dark Angels"
+      ],
       "faction_id": "CHDA",
       "fluff": "Sammael, Grand Master of the Ravenwing, rides to war on the jetbike Corvex, a relic from the Dark Age of Technology. He swoops into the fray, storm bolters and plasma cannon blazing, before moving in for the kill with the Raven Sword, a precious relic weapon with a razor edge that never dulls.",
       "id": "171df937-ae5f-5b45-8d8d-2685fe36fcc2",
@@ -2436,7 +2698,9 @@
               "ap": "-3",
               "attacks": "6",
               "damage": "2",
-              "keywords": ["Sustained Hits 2"],
+              "keywords": [
+                "Sustained Hits 2"
+              ],
               "name": "The Raven Sword",
               "range": "Melee",
               "skill": "2+",
@@ -2448,10 +2712,9 @@
       "name": "Sammael",
       "points": [
         {
-          "cost": "115",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "115"
         }
       ],
       "rangedWeapons": [
@@ -2463,7 +2726,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt Pistol",
               "range": "12\"",
               "skill": "2+",
@@ -2479,7 +2744,9 @@
               "ap": "-3",
               "attacks": "D3",
               "damage": "2",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Master-crafted plasma cannon",
               "range": "36\"",
               "skill": "2+",
@@ -2495,7 +2762,10 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Twin-linked", "Rapid Fire 2"],
+              "keywords": [
+                "Twin-linked",
+                "Rapid Fire 2"
+              ],
               "name": "Twin storm bolter",
               "range": "24\"",
               "skill": "2+",
@@ -2520,9 +2790,14 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
-        "units": ["OUTRIDER SQUAD", "RAVENWING BLACK KNIGHTS"],
+        "units": [
+          "OUTRIDER SQUAD",
+          "RAVENWING BLACK KNIGHTS"
+        ],
         "extra": ""
       }
     }
@@ -2539,7 +2814,9 @@
       "name": "Shroud of Heroes",
       "id": "9c4014e7-59c4-5d25-a638-c1beae9d4419",
       "cost": "25",
-      "keywords": ["Dark Angels"],
+      "keywords": [
+        "Dark Angels"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. The first time the bearer is destroyed, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 3 wounds remaining (if the bearer was Battle-shocked when it was destroyed, it is instead returned with its full wounds remaining).",
       "faction_id": "CHDA",
@@ -2551,7 +2828,9 @@
       "name": "Stubborn Tenacity",
       "id": "e2a964f7-bd8b-5b38-8fae-9fd8d0ff2bbd",
       "cost": "15",
-      "keywords": ["Dark Angels"],
+      "keywords": [
+        "Dark Angels"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. While the bearer is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit is Battle-shocked and below its Starting Strength.",
       "faction_id": "CHDA",
@@ -2563,7 +2842,9 @@
       "name": "Weapons of the First Legion",
       "id": "dd8fc691-2a2d-51d8-a637-68210c4f82cb",
       "cost": "15",
-      "keywords": ["Dark Angels"],
+      "keywords": [
+        "Dark Angels"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. Add 1 to the Attacks, Strength and Damage characteristics of the bearer’s melee weapons. While the bearer is Battle-shocked, add 2 to the Attacks, Strength and Damage characteristics of the bearer’s melee weapons instead.",
       "faction_id": "CHDA",
@@ -2575,7 +2856,10 @@
       "name": "Pennant of Remembrance",
       "id": "28e163fe-ea72-51bc-bf84-7e690ce5b210",
       "cost": "10",
-      "keywords": ["Ancient", "Bladeguard Ancient"],
+      "keywords": [
+        "Ancient",
+        "Bladeguard Ancient"
+      ],
       "excludes": [],
       "description": "ANCIENT model only. While the bearer is leading a unit, models in that unit have the Feel No Pain 6+ ability. While that unit is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.",
       "faction_id": "CHDA",
@@ -2587,7 +2871,9 @@
       "name": "Champion of the Deathwing",
       "id": "889709b9-f03c-5e1f-aeb0-243195903649",
       "cost": "15",
-      "keywords": ["Deathwing"],
+      "keywords": [
+        "Deathwing"
+      ],
       "excludes": [],
       "description": "DEATHWING model only. Melee weapons equipped by the bearer have the [LETHAL HITS] ability, and each time the bearer makes a melee attack, if it is within range of your Vowed objective marker, a Critical Hit is scored on an unmodified Hit roll of 5+.",
       "faction_id": "CHDA",
@@ -2599,7 +2885,9 @@
       "name": "Eye of the Unseen",
       "id": "bda3688d-5543-5b3d-a8d9-ac2d0440d95e",
       "cost": "10",
-      "keywords": ["Deathwing"],
+      "keywords": [
+        "Deathwing"
+      ],
       "excludes": [],
       "description": "DEATHWING model only. Each time you target the bearer’s unit with a Stratagem, roll one D6, adding 1 if the bearer is within range of your Vowed objective marker: on a 5+, you gain 1CP.",
       "faction_id": "CHDA",
@@ -2611,7 +2899,9 @@
       "name": "Singular Will",
       "id": "92b7c3dc-87b8-579e-8461-5235d0516b7e",
       "cost": "20",
-      "keywords": ["Deathwing"],
+      "keywords": [
+        "Deathwing"
+      ],
       "excludes": [],
       "description": "DEATHWING model only. Each time the bearer’s unit Piles In or Consolidates, models in that unit can move an additional 3\".",
       "faction_id": "CHDA",
@@ -2623,7 +2913,9 @@
       "name": "Deathwing Assault",
       "id": "7c778992-81c4-558f-8504-39ad4ca59aec",
       "cost": "30",
-      "keywords": ["Deathwing"],
+      "keywords": [
+        "Deathwing"
+      ],
       "excludes": [],
       "description": "DEATHWING model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.",
       "faction_id": "CHDA",
@@ -2635,7 +2927,9 @@
       "name": "Master-crafted Weapon",
       "id": "367a8014-6f48-5135-8813-4009826172e5",
       "cost": "10",
-      "keywords": ["Ravenwing"],
+      "keywords": [
+        "Ravenwing"
+      ],
       "excludes": [],
       "description": "RAVENWING model only. Melee weapons equipped by the bearer have the [PRECISION] ability.",
       "faction_id": "CHDA",
@@ -2647,7 +2941,9 @@
       "name": "Mounted Strategist",
       "id": "df42b551-8621-5ae9-9dd1-63f9550d9849",
       "cost": "30",
-      "keywords": ["Ravenwing"],
+      "keywords": [
+        "Ravenwing"
+      ],
       "excludes": [],
       "description": "RAVENWING model only. You can re-roll Advance and Charge rolls made for the bearer’s unit.",
       "faction_id": "CHDA",
@@ -2659,7 +2955,9 @@
       "name": "Master of Manoeuvre",
       "id": "ac8cc6cd-09be-5c22-8b7f-a256e4a022a5",
       "cost": "15",
-      "keywords": ["Ravenwing"],
+      "keywords": [
+        "Ravenwing"
+      ],
       "excludes": [],
       "description": "Ravenwing model only. If the bearer’s unit starts the battle in Strategic Reserves, its points value does not count towards the combined points limit for units from your army that are in Strategic Reserve, and for the purposes of setting up that unit on the battlefield, treat the current battle round number as being one higher than it actually is.",
       "faction_id": "CHDA",
@@ -2671,7 +2969,9 @@
       "name": "Recon Hunter",
       "id": "9b73eac9-4f80-50bf-b268-0196ff571d61",
       "cost": "20",
-      "keywords": ["Ravenwing"],
+      "keywords": [
+        "Ravenwing"
+      ],
       "excludes": [],
       "description": "RAVENWING model only. Models in the bearer’s unit have the Scouts 9\" ability.",
       "faction_id": "CHDA",
@@ -2683,7 +2983,9 @@
       "name": "Calibanite Armaments",
       "id": "ff29ccdb-291f-5d03-9562-8c4e32decb99",
       "cost": "15",
-      "keywords": ["Dark Angels"],
+      "keywords": [
+        "Dark Angels"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. Add 1 to the Damage characteristic of the bearer’s melee weapons.",
       "faction_id": "CHDA",
@@ -2695,7 +2997,9 @@
       "name": "Lord of the Hunt",
       "id": "13ef326e-8145-57b6-8e90-44d7662d3c2d",
       "cost": "15",
-      "keywords": ["Ravenwing"],
+      "keywords": [
+        "Ravenwing"
+      ],
       "excludes": [],
       "description": "RAVENWING model only. The bearer’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back and you can re‑roll Desperate Escape tests taken for models in the bearer’s unit.",
       "faction_id": "CHDA",
@@ -2707,7 +3011,11 @@
       "name": "Stalwart Champion",
       "id": "d2ce8304-6b98-5ef4-95be-55b026b57a33",
       "cost": "25",
-      "keywords": ["Captain", "Lieutenant", "Chaplain"],
+      "keywords": [
+        "Captain",
+        "Lieutenant",
+        "Chaplain"
+      ],
       "excludes": [],
       "description": "CAPTAIN, CHAPLAIN or LIEUTENANT model only. While the bearer’s unit is not Battle‑shocked, add 1 to the Objective Control characteristic of models in the bearer’s unit.",
       "faction_id": "CHDA",
@@ -2719,7 +3027,9 @@
       "name": "Fulgus Magna",
       "id": "64d1c02a-a7e4-578b-aef6-86cfba1a0af7",
       "cost": "20",
-      "keywords": ["Deathwing"],
+      "keywords": [
+        "Deathwing"
+      ],
       "excludes": [],
       "description": "DEATHWING model only. Once per battle, at the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of one or more enemy units, the bearer can use this Enhancement. If it does, remove the bearer’s unit from the battlefield and place it into Strategic Reserves.",
       "faction_id": "CHDA",
@@ -2731,7 +3041,9 @@
       "name": "Tempered in Battle (Aura)",
       "id": "b209832f-0a51-58d9-9664-dd2f59a9abea",
       "cost": "10",
-      "keywords": ["Dark Angels"],
+      "keywords": [
+        "Dark Angels"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. While a friendly ADEPTUS ASTARTES unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit.",
       "faction_id": "CHDA",
@@ -2743,7 +3055,9 @@
       "name": "Ancient Weapons",
       "id": "df176021-16b9-5d39-bed0-830aa98ac551",
       "cost": "25",
-      "keywords": ["Dark Angels"],
+      "keywords": [
+        "Dark Angels"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 2, and improve the Armour Penetration and Damage characteristics of those weapons by 1.",
       "faction_id": "CHDA",
@@ -2755,7 +3069,9 @@
       "name": "Deathwing Assault",
       "id": "7c778992-81c4-558f-8504-39ad4ca59aec",
       "cost": "15",
-      "keywords": ["Deathwing"],
+      "keywords": [
+        "Deathwing"
+      ],
       "excludes": [],
       "description": "DEATHWING model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.",
       "faction_id": "CHDA",
@@ -2767,7 +3083,9 @@
       "name": "Lord of the Ravenwing",
       "id": "ffa403d0-7c36-5d0b-a86a-6e9ea9961cc7",
       "cost": "10",
-      "keywords": ["Ravenwing"],
+      "keywords": [
+        "Ravenwing"
+      ],
       "excludes": [],
       "description": "RAVENWING model only. You can re-roll Advance and Charge rolls made for the bearer’s unit.",
       "faction_id": "CHDA",
@@ -2883,7 +3201,9 @@
       "effect": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than your unit’s Toughness characteristic, subtract 1 from the Wound roll.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "CHDA",
       "fluff": "In the name of their oaths to Chapter, Primarch and Emperor, the Deathwing march into the fiercest firestorms and refuse to falter.",
       "detachment": "Inner Circle Task Force"
@@ -2898,7 +3218,10 @@
       "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "CHDA",
       "fluff": "The belligerence of the Adeptus Astartes combined with their transhuman physiology makes them unyielding foes to face.",
       "detachment": "Inner Circle Task Force"
@@ -2913,7 +3236,10 @@
       "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "CHDA",
       "fluff": "The belligerence of the Adeptus Astartes combined with their transhuman physiology makes them unyielding foes to face.",
       "detachment": "Unforgiven Task Force"
@@ -2928,7 +3254,10 @@
       "effect": "Until the end of the phase, weapons equipped by models in your unit have the [LETHAL HITS] ability. In addition, if one or more ADEPTUS ASTARTES units from your army are currently Battle-shocked, until the end of the phase, each time a model in your unit makes an attack, a successful unmodified Hit roll of 5+ scores a Critical Hit.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "CHDA",
       "fluff": "With focused aggression, the Dark Angels relentlessly punish the foe.",
       "detachment": "Unforgiven Task Force"
@@ -2943,7 +3272,9 @@
       "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [ASSAULT], [HEAVY] and [IGNORES COVER] abilities.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "CHDA",
       "fluff": "There is no escaping the wrath of the Unforgiven when they bring their disciplined firepower to bear.",
       "detachment": "Unforgiven Task Force"
@@ -2958,7 +3289,10 @@
       "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "CHDA",
       "fluff": "The belligerence of the Adeptus Astartes combined with their transhuman physiology makes them unyielding foes to face.",
       "detachment": "Lion’s Blade Task Force"
@@ -2973,7 +3307,9 @@
       "effect": "If that enemy unit is within Engagement Range of one or more RAVENWING units from your army, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll. If that enemy unit is within Engagement Range of one or more DEATHWING units from your army, until the end of the phase, each time a model in that enemy unit makes an attack, if the Strength characteristic of that attack is greater than the Toughness characteristic of the target, subtract 1 from the Wound roll.",
       "restrictions": "A unit cannot be targeted by this and the Armour of Contempt Stratagem in the same phase.",
       "type": "Battle Tactic",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "CHDA",
       "fluff": "Combining their specialised methods of warfare, the Ravenwing and Deathwing confound their enemies with high‑speed manoeuvrability and stalwart fortitude.",
       "detachment": "Lion’s Blade Task Force"
@@ -2988,7 +3324,9 @@
       "effect": "Select one enemy unit within 12\" of your unit that was selected as the target of one or more of the attacking unit’s attacks. Until the end of the phase, each time a friendly DEATHWING unit makes an attack that targets that enemy unit, add 1 to the Wound roll.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "CHDA",
       "fluff": "Ravenwing vehicles tear across the battlefield, identifying priority threats and targeting them with volleys of killing fire. The storm of blazing fury serves as a beacon for the wrathful battle‑brothers of the Inner Circle, who strive to bring final judgement to the foe.",
       "detachment": "Lion’s Blade Task Force"
@@ -3003,7 +3341,10 @@
       "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "CHDA",
       "fluff": "The belligerence of the Adeptus Astartes combined with their transhuman physiology makes them unyielding foes to face.",
       "detachment": "Company of Hunters"
@@ -3018,7 +3359,9 @@
       "effect": "Select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test. When doing so, if one or more RAVENWING units from your army are within 6\" of that enemy unit, subtract 1 from the test.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "CHDA",
       "fluff": "The Ravenwing employ shock tactics and focussed firepower to tear bloody paths through the enemy ranks, shattering resistance and clearing the way to their true quarry.",
       "detachment": "Company of Hunters"
@@ -3033,7 +3376,9 @@
       "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "CHDA",
       "fluff": "Even when travelling at breakneck pace, the Ravenwing control their vehicles with consummate skill and are able to jink and dodge around incoming enemy fire.",
       "detachment": "Company of Hunters"
@@ -3048,7 +3393,9 @@
       "effect": "Remove your unit from the battlefield and place it into Strategic Reserves.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "CHDA",
       "fluff": "The Ravenwing scan and analyse their foes’ strategic dispositions constantly, augury and aerial surveillance helping to watch that no quarry slips their closing net. They are quick to redirect combat assets should such a risk present itself.",
       "detachment": "Company of Hunters"
@@ -3063,7 +3410,10 @@
       "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "CHDA",
       "fluff": "The belligerence of the Adeptus Astartes combined with their transhuman physiology makes them unyielding foes to face.",
       "detachment": "Wrath of the Rock"
@@ -3078,7 +3428,9 @@
       "effect": "Your unit is eligible to shoot and declare a charge in a turn in which it Advanced. If your unit has the RAVENWING keyword, it is also eligible to shoot and declare a charge in a turn in which it Fell Back.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["movement"],
+      "phase": [
+        "movement"
+      ],
       "faction_id": "CHDA",
       "fluff": "When the constituent elements of the Dark Angels fight as one, the enemy is often overwhelmed and torn apart by the fluidity of the Chapter’s rapid advances, tactical withdrawals and unexpected counteroffensives.",
       "detachment": "Wrath of the Rock"
@@ -3093,7 +3445,9 @@
       "effect": "Until the end of the turn, each time an attack targets your unit, subtract 1 from the Wound roll.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["charge"],
+      "phase": [
+        "charge"
+      ],
       "faction_id": "CHDA",
       "fluff": "Countless assaults have faltered against the unbreakable ceramite wall that is the Unforgiven standing their ground.",
       "detachment": "Unforgiven Task Force"
@@ -3108,7 +3462,9 @@
       "effect": "Select one enemy unit within 12\" and visible to your unit. That enemy unit becomes your Oath of Moment target until the start of your next Command phase.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["any"],
+      "phase": [
+        "any"
+      ],
       "faction_id": "CHDA",
       "fluff": "The Dark Angels pursue their enemies relentlessly, eliminating one with ruthless precision before turning to the next.",
       "detachment": "Wrath of the Rock"
@@ -3123,7 +3479,9 @@
       "effect": "Select one enemy unit within Engagement Range of your unit and roll one D6 for each model in your unit, adding 1 to the result if that enemy unit is within range of your Vowed objective marker: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 3 mortal wounds).",
       "restrictions": "",
       "type": "Epic Deed",
-      "phase": ["charge"],
+      "phase": [
+        "charge"
+      ],
       "faction_id": "CHDA",
       "fluff": "Channelling the strategic puissance and measured ferocity of their gene-sire, the veterans of the Unforgiven unleash a perfectly timed and utterly lethal storm of tightly controlled violence.",
       "detachment": "Inner Circle Task Force"
@@ -3138,7 +3496,9 @@
       "effect": "Until the end of the phase, each time a model in your unit makes an attack, re-roll a Wound roll of 1. If your unit is within range of your Vowed objective marker, you can re-roll the Wound roll instead.",
       "restrictions": "",
       "type": "Epic Deed",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "CHDA",
       "fluff": "The warriors of the Deathwing fight with the honed skill and lethality of knightly champions.",
       "detachment": "Inner Circle Task Force"
@@ -3153,7 +3513,9 @@
       "effect": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models.",
       "restrictions": "Until the end of the turn, your unit is not eligible to declare a charge.",
       "type": "Strategic Ploy",
-      "phase": ["movement"],
+      "phase": [
+        "movement"
+      ],
       "faction_id": "CHDA",
       "fluff": "The Deathwing employ ancient and incredibly powerful teleportariums, some older than the Great Crusade, to strike at their foes with unparalleled safety and accuracy.",
       "detachment": "Inner Circle Task Force"
@@ -3168,7 +3530,9 @@
       "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 if your unit is within range of your Vowed objective marker. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "CHDA",
       "fluff": "So driven by duty are the veterans of the Unforgiven that even death cannot keep them from it.",
       "detachment": "Inner Circle Task Force"
@@ -3183,7 +3547,9 @@
       "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["movement"],
+      "phase": [
+        "movement"
+      ],
       "faction_id": "CHDA",
       "fluff": "Even the Dark Angels must give ground occasionally, but their stubborn determination ensures they never do so for long, or without a fight.",
       "detachment": "Unforgiven Task Force"
@@ -3198,7 +3564,9 @@
       "effect": "Your unit can shoot as if it were your Shooting phase, but it must target only the enemy unit that just attacked it, and can only do so if that enemy unit is an eligible target.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "CHDA",
       "fluff": "Stern and vengeful as they are, the warriors of the Unforgiven Chapters deliver swift retribution to any foe foolish enough to try to lay them low.",
       "detachment": "Unforgiven Task Force"
@@ -3213,7 +3581,10 @@
       "effect": "Select one enemy unit within Engagement Range of your unit. That enemy unit must take a Battle‑shock test. When doing so, if your unit has the DEATHWING or RAVENWING keyword, subtract 1 from the result.",
       "restrictions": "You can only use this Stratagem once per battle round.",
       "type": "Strategic Ploy",
-      "phase": ["command", "fight"],
+      "phase": [
+        "command",
+        "fight"
+      ],
       "faction_id": "CHDA",
       "fluff": "Engines roar, and teleportation flares erupt across the battlefield. Such is the din and ferocity of the Dark Angels’ assault that even the most veteran foes are given cause to cower before it.",
       "detachment": "Lion’s Blade Task Force"
@@ -3228,7 +3599,10 @@
       "effect": "Until the end of the phase, each time a model in your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["charge", "movement"],
+      "phase": [
+        "charge",
+        "movement"
+      ],
       "faction_id": "CHDA",
       "fluff": "Atop their snarling mechanical steeds, the warriors of the Ravenwing surge through seemingly impassable terrain, smashing through rubble and ruin to unleash the wrath of the Unforgiven upon unsuspecting targets.",
       "detachment": "Lion’s Blade Task Force"
@@ -3243,7 +3617,9 @@
       "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["command"],
+      "phase": [
+        "command"
+      ],
       "faction_id": "CHDA",
       "fluff": "Using augur beacons, servo-skulls and the like, the Ravenwing mark locations they have passed through and cleansed of foes, laying a trial their fellows can follow on the hunt.",
       "detachment": "Company of Hunters"
@@ -3258,7 +3634,10 @@
       "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an INFANTRY CHARACTER or MOUNTED CHARACTER unit, add 1 to the Wound roll.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "CHDA",
       "fluff": "Be it their true quarry or simply one who possesses knowledge that will lead them to their apprehension, when the Ravenwing strike at a priority target they do so with unmerciful surety.",
       "detachment": "Company of Hunters"
@@ -3273,7 +3652,9 @@
       "effect": "Until the start of your next Command phase, add 1 to the Objective Control characteristic of models in your unit. In addition, until the end of the turn, if your unit does not have the DEATHWING, RAVENWING or VEHICLE keyword, each time a model in your unit makes an attack, add 1 to the Hit roll.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["command"],
+      "phase": [
+        "command"
+      ],
       "faction_id": "CHDA",
       "fluff": "Unflinching in their loyalty to Chapter and Primarch, Dark Angels battle-brothers seize and hold their objectives with unrelenting determination and zealous fury.",
       "detachment": "Wrath of the Rock"
@@ -3288,7 +3669,9 @@
       "effect": "Until the end of the phase, add 2 to the Strength characteristic of ranged weapons equipped by models in your unit.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "CHDA",
       "fluff": "Amongst the many secrets hoarded by the Dark Angels are those technological in nature. The armouries of the Rock contain potent weapons unseen in the armouries of other Chapters.",
       "detachment": "Wrath of the Rock"
@@ -3303,7 +3686,9 @@
       "effect": "Your unit now declares a charge that only targets one or more of those enemy units, and you resolve that charge.",
       "restrictions": "Note that even if this charge is successful, your unit does not receive any Charge bonus this turn.",
       "type": "Strategic Ploy",
-      "phase": ["charge"],
+      "phase": [
+        "charge"
+      ],
       "faction_id": "CHDA",
       "fluff": "The Dark Angels are always aggressive in their waging of war, seizing any opportunity to pounce upon and annihilate their prey.",
       "detachment": "Wrath of the Rock"
@@ -3318,7 +3703,9 @@
       "effect": "Your unit now declares a charge that only targets one or more of those enemy units, and you resolve that charge.",
       "restrictions": "Note that even if this charge is successful, your unit does not receive any Charge bonus this turn.",
       "type": "Strategic Ploy",
-      "phase": ["charge"],
+      "phase": [
+        "charge"
+      ],
       "faction_id": "CHDA",
       "fluff": "The Dark Angels’ Inner Circle warriors pursue the Chapter’s sworn foes and any who shield them with relentless endurance and a determination borne of indoctrinated hatred.",
       "detachment": "Lion’s Blade Task Force"

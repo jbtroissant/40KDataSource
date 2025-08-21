@@ -7,25 +7,32 @@
     "banner": "#202a2f",
     "header": "#142637"
   },
+  "compatibleDataVersion": 662,
   "datasheets": [
     {
       "abilities": {
         "core": [
-          "Deadly Demise D3"
+          "Leader"
         ],
         "damaged": {
-          "range": "datasheets.Black_Templars_Gladiator_Reaper.abilities.damaged.range",
-          "description": "datasheets.Black_Templars_Gladiator_Reaper.abilities.damaged.description",
-          "showDamagedAbility": true,
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
           "showDescription": true
         },
         "faction": [
-          "oath_of_moment"
+          "templar_vows"
         ],
         "other": [
           {
-            "name": "datasheets.Black_Templars_Gladiator_Reaper.abilities.other.0.name",
-            "description": "datasheets.Black_Templars_Gladiator_Reaper.abilities.other.0.description",
+            "name": "datasheets.High_Marshal_Helbrecht.abilities.other.0.name",
+            "description": "datasheets.High_Marshal_Helbrecht.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.High_Marshal_Helbrecht.abilities.other.1.name",
+            "description": "datasheets.High_Marshal_Helbrecht.abilities.other.1.description",
             "showAbility": true,
             "showDescription": true
           }
@@ -36,22 +43,158 @@
       },
       "cardType": "DataCard",
       "composition": [
-        "datasheets.Black_Templars_Gladiator_Reaper.composition.0"
+        "datasheets.High_Marshal_Helbrecht.composition.0"
       ],
       "factions": [
         "Black Templars"
       ],
       "faction_id": "CHBT",
-      "fluff": "datasheets.Black_Templars_Gladiator_Reaper.fluff",
-      "id": "ce555c3a-05d3-53f6-93d4-4d5f974bc800",
+      "fluff": "datasheets.High_Marshal_Helbrecht.fluff",
+      "id": "42779506-fcd1-5145-a0ed-5df12d5b4096",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Chapter Master",
+        "High Marshal Helbrecht"
+      ],
+      "leader": "datasheets.High_Marshal_Helbrecht.leader",
+      "loadout": "datasheets.High_Marshal_Helbrecht.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "12",
+              "damage": "1",
+              "keywords": [],
+              "name": "sword_of_the_high_marshals_sweep",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "6",
+              "damage": "3",
+              "keywords": [],
+              "name": "sword_of_the_high_marshals_strike",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "High Marshal Helbrecht",
+      "points": [
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "120"
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "2",
+              "keywords": [
+                "Devastating Wounds",
+                "Anti-infantry 4+"
+              ],
+              "name": "ferocity",
+              "range": "24\"",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "High Marshal Helbrecht",
+          "oc": "3",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "2+",
+          "t": "4",
+          "w": "6",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.High_Marshal_Helbrecht.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.High_Marshal_Helbrecht.leads.units.0",
+          "datasheets.High_Marshal_Helbrecht.leads.units.1",
+          "datasheets.High_Marshal_Helbrecht.leads.units.2",
+          "datasheets.High_Marshal_Helbrecht.leads.units.3"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D3"
+        ],
+        "damaged": {
+          "range": "datasheets.Gladiator_Lancer.abilities.damaged.range",
+          "description": "datasheets.Gladiator_Lancer.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "templar_vows"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Gladiator_Lancer.abilities.other.0.name",
+            "description": "datasheets.Gladiator_Lancer.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Gladiator_Lancer.composition.0"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
+      "faction_id": "CHBT",
+      "fluff": "datasheets.Gladiator_Lancer.fluff",
+      "id": "b22e3ef7-6afa-5dda-8637-067fc98a4e31",
       "keywords": [
         "Vehicle",
         "Smoke",
         "Imperium",
-        "Gladiator Reaper"
+        "Gladiator Lancer"
       ],
       "leader": "",
-      "loadout": "datasheets.Black_Templars_Gladiator_Reaper.loadout",
+      "loadout": "datasheets.Gladiator_Lancer.loadout",
       "meleeWeapons": [
         {
           "active": true,
@@ -70,12 +213,12 @@
           ]
         }
       ],
-      "name": "datasheets.Black_Templars_Gladiator_Reaper.name",
+      "name": "Gladiator Lancer",
       "points": [
         {
           "name": "model",
           "model": "1",
-          "cost": "170"
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -84,17 +227,16 @@
           "profiles": [
             {
               "active": true,
-              "ap": "0",
-              "attacks": "12",
-              "damage": "1",
+              "ap": "-4",
+              "attacks": "2",
+              "damage": "D6+3",
               "keywords": [
-                "Twin-linked",
-                "Devastating Wounds"
+                "Heavy"
               ],
-              "name": "twin_heavy_onslaught_gatling_cannon",
-              "range": "24\"",
+              "name": "lancer_laser_destroyer",
+              "range": "72\"",
               "skill": "3+",
-              "strength": "6"
+              "strength": "14"
             }
           ]
         },
@@ -103,14 +245,32 @@
           "profiles": [
             {
               "active": true,
-              "ap": "-1",
-              "attacks": "4",
+              "ap": "0",
+              "attacks": "2",
               "damage": "1",
               "keywords": [
-                "Rapid Fire 4"
+                "Rapid Fire 2"
               ],
-              "name": "tempest_bolter",
+              "name": "storm_bolter",
               "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "fragstorm_grenade_launcher",
+              "range": "18\"",
               "skill": "3+",
               "strength": "4"
             }
@@ -177,7 +337,7 @@
           "active": true,
           "ld": "6+",
           "m": "10\"",
-          "name": "datasheets.Black_Templars_Gladiator_Reaper.name",
+          "name": "Gladiator Lancer",
           "oc": "3",
           "showDamagedMarker": true,
           "showName": false,
@@ -188,8 +348,234 @@
       ],
       "transport": "",
       "wargear": [
-        "datasheets.Black_Templars_Gladiator_Reaper.wargear.0",
-        "datasheets.Black_Templars_Gladiator_Reaper.wargear.1"
+        "datasheets.Gladiator_Lancer.wargear.0",
+        "datasheets.Gladiator_Lancer.wargear.1",
+        "datasheets.Gladiator_Lancer.wargear.2"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deep Strike"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "templar_vows"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Terminator_Squad.abilities.other.0.name",
+            "description": "datasheets.Terminator_Squad.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Terminator_Squad.abilities.other.1.name",
+            "description": "datasheets.Terminator_Squad.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Terminator_Squad.composition.0",
+        "datasheets.Terminator_Squad.composition.1"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
+      "faction_id": "CHBT",
+      "fluff": "datasheets.Terminator_Squad.fluff",
+      "id": "8ca68d6d-5841-5437-aa03-5d0d660a010f",
+      "keywords": [
+        "Infantry",
+        "Imperium",
+        "Terminator",
+        "Terminator Squad"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Terminator_Squad.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [],
+              "name": "power_fist",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Anti-vehicle 3+"
+              ],
+              "name": "chainfist",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "power_weapon",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "name": "Terminator Squad",
+      "points": [
+        {
+          "name": "model",
+          "model": "5",
+          "cost": "175"
+        },
+        {
+          "name": "model",
+          "model": "10",
+          "cost": "330"
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "storm_bolter",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "assault_cannon",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "heavy_flamer",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [],
+              "name": "cyclone_missile_launcher_krak",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "9"
+            },
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2D6",
+              "damage": "1",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "cyclone_missile_launcher_frag",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "5\"",
+          "name": "Terminator",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "2+",
+          "t": "5",
+          "w": "3",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Terminator_Squad.wargear.0",
+        "datasheets.Terminator_Squad.wargear.1",
+        "datasheets.Terminator_Squad.wargear.2"
       ]
     },
     {
@@ -204,18 +590,18 @@
           "showDescription": true
         },
         "faction": [
-          "oath_of_moment"
+          "templar_vows"
         ],
         "other": [
           {
-            "name": "datasheets.High_Marshal_Helbrecht.abilities.other.0.name",
-            "description": "datasheets.High_Marshal_Helbrecht.abilities.other.0.description",
+            "name": "datasheets.Marshal.abilities.other.0.name",
+            "description": "datasheets.Marshal.abilities.other.0.description",
             "showAbility": true,
             "showDescription": true
           },
           {
-            "name": "datasheets.High_Marshal_Helbrecht.abilities.other.1.name",
-            "description": "datasheets.High_Marshal_Helbrecht.abilities.other.1.description",
+            "name": "datasheets.Marshal.abilities.other.1.name",
+            "description": "datasheets.Marshal.abilities.other.1.description",
             "showAbility": true,
             "showDescription": true
           }
@@ -226,61 +612,284 @@
       },
       "cardType": "DataCard",
       "composition": [
-        "datasheets.High_Marshal_Helbrecht.composition.0"
+        "datasheets.Marshal.composition.0"
       ],
       "factions": [
         "Black Templars"
       ],
       "faction_id": "CHBT",
-      "fluff": "datasheets.High_Marshal_Helbrecht.fluff",
-      "id": "42779506-fcd1-5145-a0ed-5df12d5b4096",
+      "fluff": "datasheets.Marshal.fluff",
+      "id": "9892bec6-67ae-5ad3-b020-86a6f127fce7",
       "keywords": [
         "Infantry",
         "Character",
-        "Epic Hero",
         "Grenades",
         "Imperium",
         "Tacticus",
-        "Chapter Master",
-        "High Marshal Helbrecht"
+        "Captain",
+        "Marshal"
       ],
-      "leader": "datasheets.High_Marshal_Helbrecht.leader",
-      "loadout": "datasheets.High_Marshal_Helbrecht.loadout",
+      "leader": "datasheets.Marshal.leader",
+      "loadout": "datasheets.Marshal.loadout",
       "meleeWeapons": [
         {
           "active": true,
           "profiles": [
             {
               "active": true,
-              "ap": "-3",
-              "attacks": "12",
-              "damage": "1",
-              "keywords": [],
-              "name": "sword_of_the_high_marshals_one_handed",
+              "ap": "-2",
+              "attacks": "7",
+              "damage": "2",
+              "keywords": [
+                "Lethal Hits"
+              ],
+              "name": "master_crafted_power_weapon",
               "range": "Melee",
               "skill": "2+",
-              "strength": "6"
-            },
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "6",
-              "damage": "3",
-              "keywords": [],
-              "name": "sword_of_the_high_marshals_two_handed",
-              "range": "Melee",
-              "skill": "2+",
-              "strength": "8"
+              "strength": "5"
             }
           ]
         }
       ],
-      "name": "High Marshal Helbrecht",
+      "name": "Marshal",
       "points": [
         {
           "name": "model",
           "model": "1",
-          "cost": "120"
+          "cost": "80"
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "plasma_pistol_standard",
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
+              "name": "plasma_pistol_supercharge",
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 1",
+                "Devastating Wounds",
+                "Anti-infantry 4+"
+              ],
+              "name": "combi_weapon",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "Marshal",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "4",
+          "w": "5",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Marshal.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.High_Marshal_Helbrecht.leads.units.0",
+          "datasheets.High_Marshal_Helbrecht.leads.units.1",
+          "datasheets.Marshal.leads.units.2",
+          "datasheets.High_Marshal_Helbrecht.leads.units.2",
+          "datasheets.Marshal.leads.units.4",
+          "datasheets.High_Marshal_Helbrecht.leads.units.3"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "templar_vows"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Sword_Brethren_Squad.abilities.other.0.name",
+            "description": "datasheets.Sword_Brethren_Squad.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [
+          {
+            "description": "datasheets.Sword_Brethren_Squad.abilities.special.0.description",
+            "name": "datasheets.Sword_Brethren_Squad.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Sword_Brethren_Squad.composition.0"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
+      "faction_id": "CHBT",
+      "fluff": "datasheets.Sword_Brethren_Squad.fluff",
+      "id": "5cdf034f-5f2e-5951-a345-a6fe52657512",
+      "keywords": [
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Sword Brethren Squad"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Sword_Brethren_Squad.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "astartes_chainsword",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Lethal Hits"
+              ],
+              "name": "master_crafted_power_weapon",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Devastating Wounds"
+              ],
+              "name": "thunder_hammer",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked"
+              ],
+              "name": "twin_lightning_claws",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "name": "Sword Brethren Squad",
+      "points": [
+        {
+          "name": "model",
+          "model": "4",
+          "cost": "105"
+        },
+        {
+          "name": "model",
+          "model": "5",
+          "cost": "130"
+        },
+        {
+          "name": "model",
+          "model": "9",
+          "cost": "235"
+        },
+        {
+          "name": "model",
+          "model": "10",
+          "cost": "260"
         }
       ],
       "rangedWeapons": [
@@ -290,16 +899,534 @@
             {
               "active": true,
               "ap": "-1",
-              "attacks": "2",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "heavy_bolt_pistol",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "plasma_pistol_standard",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
               "damage": "2",
               "keywords": [
-                "Devastating Wounds",
-                "Anti-infantry 4+"
+                "Pistol",
+                "Hazardous"
               ],
-              "name": "ferocity",
-              "range": "24\"",
+              "name": "plasma_pistol_supercharge",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Pistol",
+                "Ignores Cover"
+              ],
+              "name": "pyre_pistol",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "Sword Brethren Squad",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "4",
+          "w": "3"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Sword_Brethren_Squad.wargear.0",
+        "datasheets.Sword_Brethren_Squad.wargear.1",
+        "datasheets.Sword_Brethren_Squad.wargear.2",
+        "datasheets.Sword_Brethren_Squad.wargear.3",
+        "datasheets.Sword_Brethren_Squad.wargear.4"
+      ],
+      "leadBy": [
+        "High Marshal Helbrecht",
+        "Marshal",
+        "datasheets.Sword_Brethren_Squad.leadBy.2",
+        "datasheets.Sword_Brethren_Squad.leadBy.3",
+        "datasheets.Sword_Brethren_Squad.leadBy.4",
+        "datasheets.Sword_Brethren_Squad.leadBy.5",
+        "datasheets.Sword_Brethren_Squad.leadBy.6"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "templar_vows"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Crusader_Squad.abilities.other.0.name",
+            "description": "datasheets.Crusader_Squad.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [
+          {
+            "description": "datasheets.Sword_Brethren_Squad.abilities.special.0.description",
+            "name": "datasheets.Sword_Brethren_Squad.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Crusader_Squad.composition.0",
+        "datasheets.Crusader_Squad.composition.1",
+        "datasheets.Crusader_Squad.composition.2"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
+      "faction_id": "CHBT",
+      "fluff": "datasheets.Crusader_Squad.fluff",
+      "id": "e7576cd7-d91f-5864-bc14-9b38345b9417",
+      "keywords": [
+        "Infantry",
+        "Battleline",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Crusader Squad"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Crusader_Squad.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Lethal Hits"
+              ],
+              "name": "master_crafted_power_weapon",
+              "range": "Melee",
               "skill": "2+",
               "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "close_combat_weapon",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "astartes_chainsword",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [],
+              "name": "power_fist",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "Crusader Squad",
+      "points": [
+        {
+          "cost": "310",
+          "keyword": null,
+          "models": "20",
+          "active": true
+        },
+        {
+          "cost": "150",
+          "keyword": null,
+          "models": "10",
+          "active": true
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "heavy_bolt_pistol",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Pistol",
+                "Ignores Cover"
+              ],
+              "name": "pyre_pistol",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "bolt_pistol",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Heavy",
+                "Assault"
+              ],
+              "name": "bolt_rifle",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "pyreblaster",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Assault"
+              ],
+              "name": "neophyte_firearm",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "datasheets.Crusader_Squad.stats.0.name",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "3+",
+          "t": "4",
+          "w": "2"
+        },
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "datasheets.Crusader_Squad.stats.1.name",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "4+",
+          "t": "4",
+          "w": "2"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Crusader_Squad.wargear.0",
+        "datasheets.Crusader_Squad.wargear.1",
+        "datasheets.Crusader_Squad.wargear.2",
+        "datasheets.Crusader_Squad.wargear.3"
+      ],
+      "leadBy": [
+        "High Marshal Helbrecht",
+        "Marshal",
+        "datasheets.Sword_Brethren_Squad.leadBy.2",
+        "datasheets.Sword_Brethren_Squad.leadBy.3",
+        "datasheets.Sword_Brethren_Squad.leadBy.4",
+        "datasheets.Sword_Brethren_Squad.leadBy.5",
+        "datasheets.Sword_Brethren_Squad.leadBy.6"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "templar_vows"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Execrator.abilities.other.0.name",
+            "description": "datasheets.Execrator.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Execrator.abilities.other.1.name",
+            "description": "datasheets.Execrator.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Execrator.composition.0"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
+      "faction_id": "CHBT",
+      "fluff": "datasheets.Execrator.fluff",
+      "id": "86a2b728-d20e-55ce-baf0-ce61b0d6449c",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Chaplain",
+        "Execrator"
+      ],
+      "leader": "datasheets.Execrator.leader",
+      "loadout": "datasheets.Execrator.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "5",
+              "damage": "2",
+              "keywords": [],
+              "name": "crozius_arcanum",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Lethal Hits",
+                "Extra Attacks"
+              ],
+              "name": "master_crafted_power_weapon",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        }
+      ],
+      "name": "Execrator",
+      "points": [
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "70"
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "absolvor_bolt_pistol",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Pistol",
+                "Ignores Cover"
+              ],
+              "name": "pyre_pistol",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "4"
             }
           ]
         }
@@ -310,8 +1437,981 @@
           "active": true,
           "ld": "5+",
           "m": "6\"",
-          "name": "High Marshal Helbrecht",
-          "oc": "2",
+          "name": "Execrator",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "4",
+          "w": "4",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Execrator.wargear.0",
+        "datasheets.Execrator.wargear.1"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.High_Marshal_Helbrecht.leads.units.1",
+          "datasheets.High_Marshal_Helbrecht.leads.units.3"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "templar_vows"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Sternguard_Veteran_Squad.abilities.other.0.name",
+            "description": "datasheets.Sternguard_Veteran_Squad.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Sternguard_Veteran_Squad.composition.0",
+        "datasheets.Sternguard_Veteran_Squad.composition.1"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
+      "faction_id": "CHBT",
+      "fluff": "datasheets.Sternguard_Veteran_Squad.fluff",
+      "id": "3bf460b5-81a0-51c5-9bbb-4556fae29a26",
+      "keywords": [
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Sternguard Veteran Squad"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Sternguard_Veteran_Squad.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "4",
+              "damage": "1",
+              "keywords": [],
+              "name": "close_combat_weapon",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [],
+              "name": "astartes_chainsword",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "5",
+              "damage": "1",
+              "keywords": [],
+              "name": "power_weapon",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "4",
+              "damage": "2",
+              "keywords": [],
+              "name": "power_fist",
+              "range": "Melee",
+              "skill": "3+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "Sternguard Veteran Squad",
+      "points": [
+        {
+          "name": "model",
+          "model": "5",
+          "cost": "85"
+        },
+        {
+          "name": "model",
+          "model": "10",
+          "cost": "170"
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol",
+                "Devastating Wounds"
+              ],
+              "name": "sternguard_bolt_pistol",
+              "range": "12\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 1",
+                "Heavy",
+                "Devastating Wounds",
+                "Assault"
+              ],
+              "name": "sternguard_bolt_rifle",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 1",
+                "Devastating Wounds",
+                "Anti-infantry 4+"
+              ],
+              "name": "combi_weapon",
+              "range": "24\"",
+              "skill": "4+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "3",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1",
+                "Heavy",
+                "Devastating Wounds"
+              ],
+              "name": "sternguard_heavy_bolter",
+              "range": "36\"",
+              "skill": "4+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D6+1",
+              "damage": "1",
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
+              "name": "pyrecannon",
+              "range": "12\"",
+              "skill": "N/A",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "datasheets.Sternguard_Veteran_Squad.stats.0.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "3+",
+          "t": "4",
+          "w": "2"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Sternguard_Veteran_Squad.wargear.0",
+        "datasheets.Sternguard_Veteran_Squad.wargear.1",
+        "datasheets.Sternguard_Veteran_Squad.wargear.2"
+      ],
+      "leadBy": [
+        "Marshal",
+        "datasheets.Sword_Brethren_Squad.leadBy.4",
+        "datasheets.Sword_Brethren_Squad.leadBy.5"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Deadly Demise D6"
+        ],
+        "damaged": {
+          "range": "datasheets.Land_Raider_Crusader.abilities.damaged.range",
+          "description": "datasheets.Land_Raider_Crusader.abilities.damaged.description",
+          "showDamagedAbility": true,
+          "showDescription": true
+        },
+        "faction": [
+          "templar_vows"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Land_Raider_Crusader.abilities.other.0.name",
+            "description": "datasheets.Land_Raider_Crusader.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Land_Raider_Crusader.abilities.other.1.name",
+            "description": "datasheets.Land_Raider_Crusader.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Land_Raider_Crusader.composition.0"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
+      "faction_id": "CHBT",
+      "fluff": "datasheets.Land_Raider_Crusader.fluff",
+      "id": "99c456e2-eaf2-5c78-88b7-22e7d20f2605",
+      "keywords": [
+        "Vehicle",
+        "Smoke",
+        "Grenades",
+        "Transport",
+        "Imperium",
+        "Land Raider Crusader"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Land_Raider_Crusader.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [],
+              "name": "armoured_tracks",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "Land Raider Crusader",
+      "points": [
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "220"
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Devastating Wounds"
+              ],
+              "name": "twin_assault_cannon",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "6",
+              "damage": "1",
+              "keywords": [
+                "Twin-linked",
+                "Rapid Fire 6"
+              ],
+              "name": "hurricane_bolter",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [
+                "One Shot"
+              ],
+              "name": "hunter_killer_missile",
+              "range": "48\"",
+              "skill": "2+",
+              "strength": "14"
+            }
+          ],
+          "abilities": [
+            {
+              "name": "One Shot",
+              "description": "datasheets.Land_Raider_Crusader.rangedWeapons.2.abilities.0.description",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [
+                "Melta 2"
+              ],
+              "name": "multi_melta",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "storm_bolter",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "Land Raider Crusader",
+          "oc": "5",
+          "showDamagedMarker": true,
+          "showName": false,
+          "sv": "2+",
+          "t": "12",
+          "w": "16"
+        }
+      ],
+      "transport": "datasheets.Land_Raider_Crusader.transport",
+      "wargear": [
+        "datasheets.Land_Raider_Crusader.wargear.0",
+        "datasheets.Land_Raider_Crusader.wargear.1",
+        "datasheets.Land_Raider_Crusader.wargear.2"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
+          "Feel No Pain 5+",
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "templar_vows"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Chaplain_Grimaldus.abilities.other.0.name",
+            "description": "datasheets.Chaplain_Grimaldus.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Chaplain_Grimaldus.abilities.other.1.name",
+            "description": "datasheets.Chaplain_Grimaldus.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [
+          {
+            "name": "datasheets.Chaplain_Grimaldus.abilities.other.1.name",
+            "abilities": [
+              {
+                "name": "datasheets.Chaplain_Grimaldus.abilities.primarch.0.abilities.0.name",
+                "description": "datasheets.Chaplain_Grimaldus.abilities.primarch.0.abilities.0.description",
+                "showAbility": true,
+                "showDescription": true
+              },
+              {
+                "name": "datasheets.Chaplain_Grimaldus.abilities.primarch.0.abilities.1.name",
+                "description": "datasheets.Chaplain_Grimaldus.abilities.primarch.0.abilities.1.description",
+                "showAbility": true,
+                "showDescription": true
+              },
+              {
+                "name": "datasheets.Chaplain_Grimaldus.abilities.primarch.0.abilities.2.name",
+                "description": "datasheets.Chaplain_Grimaldus.abilities.primarch.0.abilities.2.description",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "showAbility": true
+          }
+        ],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Chaplain_Grimaldus.composition.0",
+        "datasheets.Chaplain_Grimaldus.composition.1"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
+      "faction_id": "CHBT",
+      "fluff": "datasheets.Chaplain_Grimaldus.fluff",
+      "id": "68bd0bd6-bbf1-5464-a004-0074c02e764a",
+      "keywords": [
+        "Infantry",
+        "Imperium",
+        "Tacticus",
+        "Character",
+        "Epic Hero",
+        "Grenades",
+        "Chaplain Grimaldus"
+      ],
+      "leader": "datasheets.Chaplain_Grimaldus.leader",
+      "loadout": "datasheets.Chaplain_Grimaldus.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [],
+              "name": "artificer_crozius",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [],
+              "name": "close_combat_weapon",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "3"
+            }
+          ]
+        }
+      ],
+      "name": "Chaplain Grimaldus",
+      "points": [
+        {
+          "name": "model",
+          "model": "4",
+          "cost": "110"
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "plasma_pistol_standard",
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "7"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "1",
+              "damage": "2",
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
+              "name": "plasma_pistol_supercharge",
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "5+",
+          "m": "6\"",
+          "name": "Chaplain Grimaldus",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "3+",
+          "t": "4",
+          "w": "4",
+          "invul": "4+"
+        },
+        {
+          "active": true,
+          "ld": "8+",
+          "m": "6\"",
+          "name": "datasheets.Chaplain_Grimaldus.stats.1.name",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": true,
+          "sv": "3+",
+          "t": "4",
+          "w": "1",
+          "invul": "4+"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.High_Marshal_Helbrecht.wargear.0"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.High_Marshal_Helbrecht.leads.units.0",
+          "datasheets.High_Marshal_Helbrecht.leads.units.1",
+          "datasheets.Marshal.leads.units.2",
+          "datasheets.High_Marshal_Helbrecht.leads.units.2",
+          "datasheets.High_Marshal_Helbrecht.leads.units.3"
+        ],
+        "extra": ""
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "templar_vows"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Castellan.abilities.other.0.name",
+            "description": "datasheets.Castellan.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Castellan.abilities.other.1.name",
+            "description": "datasheets.Castellan.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Castellan.composition.0"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
+      "faction_id": "CHBT",
+      "fluff": "datasheets.Castellan.fluff",
+      "id": "c754e3a4-fcdb-51bd-a458-8296733b3ea6",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Lieutenant",
+        "Castellan"
+      ],
+      "leader": "datasheets.Castellan.leader",
+      "loadout": "datasheets.Castellan.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "6",
+              "damage": "2",
+              "keywords": [
+                "Lethal Hits"
+              ],
+              "name": "master_crafted_power_weapon",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "5"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "7",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1"
+              ],
+              "name": "astartes_chainsword",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "name": "Castellan",
+      "points": [
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "60"
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 1",
+                "Devastating Wounds",
+                "Anti-infantry 4+"
+              ],
+              "name": "combi_weapon",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "heavy_bolt_pistol",
+              "range": "18\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "6\"",
+          "name": "Castellan",
+          "oc": "1",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "4",
+          "w": "4"
+        }
+      ],
+      "transport": "",
+      "wargear": [
+        "datasheets.Castellan.wargear.0",
+        "datasheets.Castellan.wargear.1"
+      ],
+      "leads": {
+        "units": [
+          "datasheets.High_Marshal_Helbrecht.leads.units.0",
+          "datasheets.High_Marshal_Helbrecht.leads.units.1",
+          "datasheets.Marshal.leads.units.2",
+          "datasheets.High_Marshal_Helbrecht.leads.units.2",
+          "datasheets.Marshal.leads.units.4",
+          "datasheets.High_Marshal_Helbrecht.leads.units.3"
+        ],
+        "extra": "datasheets.Castellan.leads.extra"
+      }
+    },
+    {
+      "abilities": {
+        "core": [
+          "Leader",
+          "Lone Operative"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "templar_vows"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Emperors_Champion.abilities.other.0.name",
+            "description": "datasheets.Emperors_Champion.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Emperors_Champion.abilities.other.1.name",
+            "description": "datasheets.Emperors_Champion.abilities.other.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [
+          {
+            "description": "datasheets.Emperors_Champion.abilities.special.0.description",
+            "name": "datasheets.Emperors_Champion.abilities.special.0.name",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "wargear": []
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Emperors_Champion.composition.0"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
+      "faction_id": "CHBT",
+      "fluff": "datasheets.Emperors_Champion.fluff",
+      "id": "de359200-b270-58a2-8c53-8aaad1553ed8",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Emperor’s Champion"
+      ],
+      "leader": "datasheets.Emperors_Champion.leader",
+      "loadout": "datasheets.Emperors_Champion.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "10",
+              "damage": "1",
+              "keywords": [],
+              "name": "black_sword_sweep",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "6"
+            },
+            {
+              "active": true,
+              "ap": "-3",
+              "attacks": "6",
+              "damage": "3",
+              "keywords": [
+                "Precision",
+                "Anti-character 5+"
+              ],
+              "name": "black_sword_strike",
+              "range": "Melee",
+              "skill": "2+",
+              "strength": "8"
+            }
+          ]
+        }
+      ],
+      "name": "Emperor’s Champion",
+      "points": [
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "90"
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ],
+              "name": "bolt_pistol",
+              "range": "12\"",
+              "skill": "2+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "8\"",
+          "name": "Emperor’s Champion",
+          "oc": "1",
           "showDamagedMarker": false,
           "showName": false,
           "sv": "2+",
@@ -329,6 +2429,7 @@
           "datasheets.High_Marshal_Helbrecht.leads.units.0",
           "datasheets.High_Marshal_Helbrecht.leads.units.1",
           "datasheets.High_Marshal_Helbrecht.leads.units.2",
+          "datasheets.Marshal.leads.units.4",
           "datasheets.High_Marshal_Helbrecht.leads.units.3"
         ],
         "extra": ""
@@ -337,21 +2438,263 @@
     {
       "abilities": {
         "core": [
+          "Deadly Demise D3",
+          "Firing Deck 6"
+        ],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "faction": [
+          "templar_vows"
+        ],
+        "other": [
+          {
+            "name": "datasheets.Impulsor.abilities.other.0.name",
+            "description": "datasheets.Impulsor.abilities.other.0.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "primarch": [],
+        "special": [],
+        "wargear": [
+          {
+            "name": "datasheets.Impulsor.abilities.wargear.0.name",
+            "description": "datasheets.Impulsor.abilities.wargear.0.description",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "datasheets.Impulsor.abilities.wargear.1.name",
+            "description": "datasheets.Impulsor.abilities.wargear.1.description",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ]
+      },
+      "cardType": "DataCard",
+      "composition": [
+        "datasheets.Impulsor.composition.0"
+      ],
+      "factions": [
+        "Black Templars"
+      ],
+      "faction_id": "CHBT",
+      "fluff": "datasheets.Impulsor.fluff",
+      "id": "5fe8f17a-a8fb-5a0a-9b91-d61114df7d56",
+      "keywords": [
+        "Vehicle",
+        "Transport",
+        "Dedicated Transport",
+        "Imperium",
+        "Impulsor"
+      ],
+      "leader": "",
+      "loadout": "datasheets.Impulsor.loadout",
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [],
+              "name": "armoured_hull",
+              "range": "Melee",
+              "skill": "4+",
+              "strength": "6"
+            }
+          ]
+        }
+      ],
+      "name": "Impulsor",
+      "points": [
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "85"
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "2",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2"
+              ],
+              "name": "storm_bolter",
+              "range": "24\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 3"
+              ],
+              "name": "ironhail_heavy_stubber",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [
+                "Melta 2"
+              ],
+              "name": "multi_melta",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "fragstorm_grenade_launcher",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-1",
+              "attacks": "D3",
+              "damage": "2",
+              "keywords": [
+                "Anti-fly 2+"
+              ],
+              "name": "bellicatus_missile_array_icarus",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "8"
+            },
+            {
+              "active": true,
+              "ap": "-2",
+              "attacks": "1",
+              "damage": "D6",
+              "keywords": [],
+              "name": "bellicatus_missile_array_krak",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "8"
+            },
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "D6",
+              "damage": "1",
+              "keywords": [
+                "Blast"
+              ],
+              "name": "bellicatus_missile_array_frag",
+              "range": "48\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "8",
+              "damage": "1",
+              "keywords": [
+                "Sustained Hits 1",
+                "Anti-fly 4+"
+              ],
+              "name": "ironhail_skytalon_array",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "4"
+            }
+          ]
+        }
+      ],
+      "source": "40k-10e",
+      "stats": [
+        {
+          "active": true,
+          "ld": "6+",
+          "m": "12\"",
+          "name": "Impulsor",
+          "oc": "2",
+          "showDamagedMarker": false,
+          "showName": false,
+          "sv": "3+",
+          "t": "9",
+          "w": "11"
+        }
+      ],
+      "transport": "datasheets.Impulsor.transport",
+      "wargear": [
+        "datasheets.Impulsor.wargear.0",
+        "datasheets.Gladiator_Lancer.wargear.2",
+        "datasheets.Gladiator_Lancer.wargear.1"
+      ]
+    },
+    {
+      "abilities": {
+        "core": [
           "Deadly Demise D6"
         ],
         "damaged": {
-          "range": "datasheets.Black_Templars_Repulsor_Executioner.abilities.damaged.range",
-          "description": "datasheets.Black_Templars_Repulsor_Executioner.abilities.damaged.description",
+          "range": "datasheets.Land_Raider_Crusader.abilities.damaged.range",
+          "description": "datasheets.Land_Raider_Crusader.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
         "faction": [
-          "oath_of_moment"
+          "templar_vows"
         ],
         "other": [
           {
-            "name": "datasheets.Black_Templars_Repulsor_Executioner.abilities.other.0.name",
-            "description": "datasheets.Black_Templars_Repulsor_Executioner.abilities.other.0.description",
+            "name": "datasheets.Repulsor_Executioner.abilities.other.0.name",
+            "description": "datasheets.Repulsor_Executioner.abilities.other.0.description",
             "showAbility": true,
             "showDescription": true
           }
@@ -362,14 +2705,14 @@
       },
       "cardType": "DataCard",
       "composition": [
-        "datasheets.Black_Templars_Repulsor_Executioner.composition.0"
+        "datasheets.Repulsor_Executioner.composition.0"
       ],
       "factions": [
         "Black Templars"
       ],
       "faction_id": "CHBT",
-      "fluff": "datasheets.Black_Templars_Repulsor_Executioner.fluff",
-      "id": "2d30c7c4-6bb8-5b1c-9fb1-e1012942d22b",
+      "fluff": "datasheets.Repulsor_Executioner.fluff",
+      "id": "40ee135b-a29f-5683-a9be-d618abe9dbd5",
       "keywords": [
         "Vehicle",
         "Smoke",
@@ -378,7 +2721,7 @@
         "Repulsor Executioner"
       ],
       "leader": "",
-      "loadout": "datasheets.Black_Templars_Repulsor_Executioner.loadout",
+      "loadout": "datasheets.Repulsor_Executioner.loadout",
       "meleeWeapons": [
         {
           "active": true,
@@ -397,12 +2740,12 @@
           ]
         }
       ],
-      "name": "datasheets.Black_Templars_Repulsor_Executioner.name",
+      "name": "Repulsor Executioner",
       "points": [
         {
           "name": "model",
           "model": "1",
-          "cost": "230"
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -590,7 +2933,7 @@
           "active": true,
           "ld": "6+",
           "m": "10\"",
-          "name": "datasheets.Black_Templars_Repulsor_Executioner.name",
+          "name": "Repulsor Executioner",
           "oc": "5",
           "showDamagedMarker": true,
           "showName": false,
@@ -599,1112 +2942,11 @@
           "w": "16"
         }
       ],
-      "transport": "datasheets.Black_Templars_Repulsor_Executioner.transport",
+      "transport": "datasheets.Repulsor_Executioner.transport",
       "wargear": [
-        "datasheets.Black_Templars_Gladiator_Reaper.wargear.0",
-        "datasheets.Black_Templars_Gladiator_Reaper.wargear.1",
-        "datasheets.Black_Templars_Repulsor_Executioner.wargear.2"
-      ]
-    },
-    {
-      "abilities": {
-        "core": [
-          "Leader"
-        ],
-        "damaged": {
-          "description": "",
-          "range": "",
-          "showDamagedAbility": false,
-          "showDescription": true
-        },
-        "faction": [
-          "oath_of_moment"
-        ],
-        "other": [
-          {
-            "name": "datasheets.Castellan.abilities.other.0.name",
-            "description": "datasheets.Castellan.abilities.other.0.description",
-            "showAbility": true,
-            "showDescription": true
-          },
-          {
-            "name": "datasheets.Castellan.abilities.other.1.name",
-            "description": "datasheets.Castellan.abilities.other.1.description",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "datasheets.Castellan.composition.0"
-      ],
-      "factions": [
-        "Black Templars"
-      ],
-      "faction_id": "CHBT",
-      "fluff": "datasheets.Castellan.fluff",
-      "id": "c754e3a4-fcdb-51bd-a458-8296733b3ea6",
-      "keywords": [
-        "Infantry",
-        "Character",
-        "Grenades",
-        "Imperium",
-        "Tacticus",
-        "Lieutenant",
-        "Castellan"
-      ],
-      "leader": "datasheets.Castellan.leader",
-      "loadout": "datasheets.Castellan.loadout",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "4",
-              "damage": "2",
-              "keywords": [],
-              "name": "master_crafted_power_weapon",
-              "range": "Melee",
-              "skill": "2+",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "5",
-              "damage": "1",
-              "keywords": [],
-              "name": "astartes_chainsword",
-              "range": "Melee",
-              "skill": "2+",
-              "strength": "4"
-            }
-          ]
-        }
-      ],
-      "name": "Castellan",
-      "points": [
-        {
-          "name": "model",
-          "model": "1",
-          "cost": "60"
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "1",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 1",
-                "Devastating Wounds",
-                "Anti-infantry 4+"
-              ],
-              "name": "combi_weapon",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "1",
-              "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
-              "name": "heavy_bolt_pistol",
-              "range": "18\"",
-              "skill": "2+",
-              "strength": "4"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "6\"",
-          "name": "Castellan",
-          "oc": "1",
-          "showDamagedMarker": false,
-          "showName": false,
-          "sv": "3+",
-          "t": "4",
-          "w": "4"
-        }
-      ],
-      "transport": "",
-      "wargear": [
-        "datasheets.Castellan.wargear.0",
-        "datasheets.Castellan.wargear.1"
-      ],
-      "leads": {
-        "units": [
-          "datasheets.High_Marshal_Helbrecht.leads.units.0",
-          "datasheets.Castellan.leads.units.1",
-          "datasheets.High_Marshal_Helbrecht.leads.units.1",
-          "datasheets.High_Marshal_Helbrecht.leads.units.2",
-          "datasheets.High_Marshal_Helbrecht.leads.units.3",
-          "datasheets.Castellan.leads.units.5"
-        ],
-        "extra": "datasheets.Castellan.leads.extra"
-      }
-    },
-    {
-      "abilities": {
-        "core": [],
-        "damaged": {
-          "description": "",
-          "range": "",
-          "showDamagedAbility": false,
-          "showDescription": true
-        },
-        "faction": [
-          "oath_of_moment"
-        ],
-        "other": [
-          {
-            "name": "datasheets.Primaris_Sword_Brethren.abilities.other.0.name",
-            "description": "datasheets.Primaris_Sword_Brethren.abilities.other.0.description",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [
-          {
-            "description": "datasheets.Primaris_Sword_Brethren.abilities.special.0.description",
-            "name": "datasheets.Primaris_Sword_Brethren.abilities.special.0.name",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "datasheets.Primaris_Sword_Brethren.composition.0",
-        "datasheets.Primaris_Sword_Brethren.composition.1"
-      ],
-      "factions": [
-        "Black Templars"
-      ],
-      "faction_id": "CHBT",
-      "fluff": "datasheets.Primaris_Sword_Brethren.fluff",
-      "id": "3b3a03d0-07a9-5946-b97d-414f13fa9207",
-      "keywords": [
-        "Infantry",
-        "Grenades",
-        "Imperium",
-        "Tacticus",
-        "Primaris Sword Brethren"
-      ],
-      "leader": "",
-      "loadout": "datasheets.Primaris_Sword_Brethren.loadout",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "5",
-              "damage": "1",
-              "keywords": [],
-              "name": "astartes_chainsword",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "4",
-              "damage": "2",
-              "keywords": [],
-              "name": "master_crafted_power_weapon",
-              "range": "Melee",
-              "skill": "2+",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "4",
-              "damage": "1",
-              "keywords": [],
-              "name": "power_weapon",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "3",
-              "damage": "2",
-              "keywords": [
-                "Devastating Wounds"
-              ],
-              "name": "thunder_hammer",
-              "range": "Melee",
-              "skill": "4+",
-              "strength": "8"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "5",
-              "damage": "1",
-              "keywords": [
-                "Twin-linked"
-              ],
-              "name": "twin_lightning_claws",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "5"
-            }
-          ]
-        }
-      ],
-      "name": "Primaris Sword Brethren",
-      "points": [
-        {
-          "name": "model",
-          "model": "5",
-          "cost": "140"
-        },
-        {
-          "name": "model",
-          "model": "10",
-          "cost": "270"
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "1",
-              "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
-              "name": "heavy_bolt_pistol",
-              "range": "18\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "1",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 1",
-                "Devastating Wounds",
-                "Anti-infantry 4+"
-              ],
-              "name": "combi_weapon",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "1",
-              "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
-              "name": "plasma_pistol_standard",
-              "range": "12\"",
-              "skill": "3+",
-              "strength": "7"
-            },
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "1",
-              "damage": "2",
-              "keywords": [
-                "Pistol",
-                "Hazardous"
-              ],
-              "name": "plasma_pistol_supercharge",
-              "range": "12\"",
-              "skill": "3+",
-              "strength": "8"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "D6",
-              "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Pistol",
-                "Ignores Cover"
-              ],
-              "name": "pyre_pistol",
-              "range": "12\"",
-              "skill": "N/A",
-              "strength": "4"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "6\"",
-          "name": "datasheets.Primaris_Sword_Brethren.stats.0.name",
-          "oc": "1",
-          "showDamagedMarker": false,
-          "showName": true,
-          "sv": "3+",
-          "t": "4",
-          "w": "3"
-        }
-      ],
-      "transport": "",
-      "wargear": [
-        "datasheets.Primaris_Sword_Brethren.wargear.0",
-        "datasheets.Primaris_Sword_Brethren.wargear.1",
-        "datasheets.Primaris_Sword_Brethren.wargear.2",
-        "datasheets.Primaris_Sword_Brethren.wargear.3",
-        "datasheets.Primaris_Sword_Brethren.wargear.4",
-        "datasheets.Primaris_Sword_Brethren.wargear.5"
-      ],
-      "leadBy": [
-        "High Marshal Helbrecht",
-        "Castellan",
-        "datasheets.Primaris_Sword_Brethren.leadBy.2",
-        "datasheets.Primaris_Sword_Brethren.leadBy.3",
-        "datasheets.Primaris_Sword_Brethren.leadBy.4"
-      ]
-    },
-    {
-      "abilities": {
-        "core": [],
-        "damaged": {
-          "description": "",
-          "range": "",
-          "showDamagedAbility": false,
-          "showDescription": true
-        },
-        "faction": [
-          "oath_of_moment"
-        ],
-        "other": [
-          {
-            "name": "datasheets.Crusader_Squad.abilities.other.0.name",
-            "description": "datasheets.Crusader_Squad.abilities.other.0.description",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [
-          {
-            "description": "datasheets.Crusader_Squad.abilities.special.0.description",
-            "name": "datasheets.Primaris_Sword_Brethren.abilities.special.0.name",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "datasheets.Crusader_Squad.composition.0",
-        "datasheets.Crusader_Squad.composition.1",
-        "datasheets.Crusader_Squad.composition.2"
-      ],
-      "factions": [
-        "Black Templars"
-      ],
-      "faction_id": "CHBT",
-      "fluff": "datasheets.Crusader_Squad.fluff",
-      "id": "e7576cd7-d91f-5864-bc14-9b38345b9417",
-      "keywords": [
-        "Infantry",
-        "Battleline",
-        "Grenades",
-        "Imperium",
-        "Crusader Squad"
-      ],
-      "leader": "",
-      "loadout": "datasheets.Crusader_Squad.loadout",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "2",
-              "damage": "1",
-              "keywords": [],
-              "name": "close_combat_weapon",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [],
-              "name": "astartes_chainsword",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [],
-              "name": "power_weapon",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "2",
-              "damage": "2",
-              "keywords": [
-                "Devastating Wounds"
-              ],
-              "name": "thunder_hammer",
-              "range": "Melee",
-              "skill": "4+",
-              "strength": "8"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [
-                "Twin-linked"
-              ],
-              "name": "twin_lightning_claws",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "2",
-              "damage": "2",
-              "keywords": [],
-              "name": "power_fist",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "8"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [],
-              "name": "combat_knife",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        }
-      ],
-      "name": "Crusader Squad",
-      "points": [
-        {
-          "cost": "290",
-          "keyword": null,
-          "models": "20",
-          "active": true
-        },
-        {
-          "cost": "135",
-          "keyword": null,
-          "models": "10",
-          "active": true
-        },
-        {
-          "cost": "150",
-          "keyword": null,
-          "models": "10",
-          "active": true
-        },
-        {
-          "cost": "85",
-          "keyword": null,
-          "models": "5",
-          "active": true
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "2",
-              "damage": "1",
-              "keywords": [],
-              "name": "boltgun",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "1",
-              "damage": "1",
-              "keywords": [],
-              "name": "bolt_pistol",
-              "range": "12\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "2",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 2"
-              ],
-              "name": "storm_bolter",
-              "range": "24\"",
-              "skill": "4+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "1",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 1",
-                "Devastating Wounds",
-                "Anti-infantry 4+"
-              ],
-              "name": "combi_weapon",
-              "range": "24\"",
-              "skill": "4+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "1",
-              "damage": "2",
-              "keywords": [
-                "Pistol",
-                "Anti-vehicle 2+"
-              ],
-              "name": "grav_pistol",
-              "range": "12\"",
-              "skill": "3+",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "D6",
-              "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Pistol",
-                "Ignores Cover"
-              ],
-              "name": "hand_flamer",
-              "range": "12\"",
-              "skill": "N/A",
-              "strength": "3"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-4",
-              "attacks": "1",
-              "damage": "D3",
-              "keywords": [
-                "Pistol",
-                "Melta 2"
-              ],
-              "name": "inferno_pistol",
-              "range": "6\"",
-              "skill": "3+",
-              "strength": "8"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "1",
-              "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
-              "name": "plasma_pistol_standard",
-              "range": "12\"",
-              "skill": "3+",
-              "strength": "7"
-            },
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "1",
-              "damage": "2",
-              "keywords": [
-                "Pistol",
-                "Hazardous"
-              ],
-              "name": "plasma_pistol_supercharge",
-              "range": "12\"",
-              "skill": "3+",
-              "strength": "8"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "2",
-              "damage": "1",
-              "keywords": [
-                "Assault"
-              ],
-              "name": "astartes_shotgun",
-              "range": "18\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "D6",
-              "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
-              "name": "flamer",
-              "range": "12\"",
-              "skill": "N/A",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "1",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 1"
-              ],
-              "name": "plasma_gun_standard",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "7"
-            },
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "1",
-              "damage": "2",
-              "keywords": [
-                "Rapid Fire 1",
-                "Hazardous"
-              ],
-              "name": "plasma_gun_supercharge",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "8"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-4",
-              "attacks": "1",
-              "damage": "D6",
-              "keywords": [
-                "Melta 2"
-              ],
-              "name": "meltagun",
-              "range": "12\"",
-              "skill": "3+",
-              "strength": "9"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "2",
-              "damage": "2",
-              "keywords": [
-                "Anti-vehicle 2+"
-              ],
-              "name": "grav_gun",
-              "range": "18\"",
-              "skill": "3+",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "3",
-              "damage": "2",
-              "keywords": [
-                "Sustained Hits 1",
-                "Heavy"
-              ],
-              "name": "heavy_bolter",
-              "range": "36\"",
-              "skill": "4+",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "D6",
-              "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
-              "name": "heavy_flamer",
-              "range": "12\"",
-              "skill": "N/A",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "3",
-              "damage": "3",
-              "keywords": [
-                "Heavy",
-                "Anti-vehicle 2+"
-              ],
-              "name": "grav_cannon",
-              "range": "24\"",
-              "skill": "4+",
-              "strength": "6"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "1",
-              "damage": "D6+1",
-              "keywords": [
-                "Heavy"
-              ],
-              "name": "lascannon",
-              "range": "48\"",
-              "skill": "4+",
-              "strength": "12"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "1",
-              "damage": "D6",
-              "keywords": [
-                "Heavy"
-              ],
-              "name": "missile_launcher_krak",
-              "range": "48\"",
-              "skill": "4+",
-              "strength": "9"
-            },
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "D6",
-              "damage": "1",
-              "keywords": [
-                "Heavy",
-                "Blast"
-              ],
-              "name": "missile_launcher_frag",
-              "range": "48\"",
-              "skill": "4+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-4",
-              "attacks": "2",
-              "damage": "D6",
-              "keywords": [
-                "Melta 2",
-                "Heavy"
-              ],
-              "name": "multi_melta",
-              "range": "18\"",
-              "skill": "4+",
-              "strength": "9"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "D3",
-              "damage": "1",
-              "keywords": [
-                "Heavy",
-                "Blast"
-              ],
-              "name": "plasma_cannon_standard",
-              "range": "36\"",
-              "skill": "4+",
-              "strength": "7"
-            },
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "D3",
-              "damage": "2",
-              "keywords": [
-                "Heavy",
-                "Hazardous",
-                "Blast"
-              ],
-              "name": "plasma_cannon_supercharge",
-              "range": "36\"",
-              "skill": "4+",
-              "strength": "8"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "6\"",
-          "name": "datasheets.Crusader_Squad.stats.0.name",
-          "oc": "2",
-          "showDamagedMarker": false,
-          "showName": true,
-          "sv": "3+",
-          "t": "4",
-          "w": "2"
-        },
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "6\"",
-          "name": "datasheets.Crusader_Squad.stats.1.name",
-          "oc": "2",
-          "showDamagedMarker": false,
-          "showName": true,
-          "sv": "4+",
-          "t": "4",
-          "w": "2"
-        }
-      ],
-      "transport": "",
-      "wargear": [
-        "datasheets.Crusader_Squad.wargear.0",
-        "datasheets.Crusader_Squad.wargear.1",
-        "datasheets.Crusader_Squad.wargear.2",
-        "datasheets.Crusader_Squad.wargear.3",
-        "datasheets.Crusader_Squad.wargear.4"
+        "datasheets.Gladiator_Lancer.wargear.0",
+        "datasheets.Gladiator_Lancer.wargear.1",
+        "datasheets.Repulsor_Executioner.wargear.2"
       ]
     },
     {
@@ -1713,18 +2955,18 @@
           "Deadly Demise D3"
         ],
         "damaged": {
-          "range": "datasheets.Black_Templars_Gladiator_Reaper.abilities.damaged.range",
-          "description": "datasheets.Black_Templars_Gladiator_Reaper.abilities.damaged.description",
+          "range": "datasheets.Gladiator_Lancer.abilities.damaged.range",
+          "description": "datasheets.Gladiator_Lancer.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
         "faction": [
-          "oath_of_moment"
+          "templar_vows"
         ],
         "other": [
           {
-            "name": "datasheets.Black_Templars_Gladiator_Lancer.abilities.other.0.name",
-            "description": "datasheets.Black_Templars_Gladiator_Lancer.abilities.other.0.description",
+            "name": "datasheets.Gladiator_Valiant.abilities.other.0.name",
+            "description": "datasheets.Gladiator_Valiant.abilities.other.0.description",
             "showAbility": true,
             "showDescription": true
           }
@@ -1735,22 +2977,22 @@
       },
       "cardType": "DataCard",
       "composition": [
-        "datasheets.Black_Templars_Gladiator_Lancer.composition.0"
+        "datasheets.Gladiator_Valiant.composition.0"
       ],
       "factions": [
         "Black Templars"
       ],
       "faction_id": "CHBT",
-      "fluff": "datasheets.Black_Templars_Gladiator_Lancer.fluff",
-      "id": "122c2c04-7cc2-5e7e-803f-22ae2923e1d1",
+      "fluff": "datasheets.Gladiator_Valiant.fluff",
+      "id": "6bbb474f-faae-5610-8e6c-941d01509be8",
       "keywords": [
         "Vehicle",
         "Smoke",
         "Imperium",
-        "Gladiator Lancer"
+        "Gladiator Valiant"
       ],
       "leader": "",
-      "loadout": "datasheets.Black_Templars_Gladiator_Lancer.loadout",
+      "loadout": "datasheets.Gladiator_Valiant.loadout",
       "meleeWeapons": [
         {
           "active": true,
@@ -1769,12 +3011,12 @@
           ]
         }
       ],
-      "name": "datasheets.Black_Templars_Gladiator_Lancer.name",
+      "name": "Gladiator Valiant",
       "points": [
         {
           "name": "model",
           "model": "1",
-          "cost": "170"
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -1783,70 +3025,16 @@
           "profiles": [
             {
               "active": true,
-              "ap": "-4",
+              "ap": "-3",
               "attacks": "2",
-              "damage": "D6+3",
+              "damage": "D6+1",
               "keywords": [
-                "Heavy"
+                "Twin-linked"
               ],
-              "name": "lancer_laser_destroyer",
-              "range": "72\"",
-              "skill": "3+",
-              "strength": "14"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "2",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 2"
-              ],
-              "name": "storm_bolter",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "D6",
-              "damage": "1",
-              "keywords": [
-                "Blast"
-              ],
-              "name": "fragstorm_grenade_launcher",
-              "range": "18\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
-              "name": "ironhail_heavy_stubber",
+              "name": "twin_las_talon",
               "range": "36\"",
               "skill": "3+",
-              "strength": "4"
+              "strength": "10"
             }
           ]
         },
@@ -1865,6 +3053,24 @@
               "range": "18\"",
               "skill": "3+",
               "strength": "9"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "0",
+              "attacks": "3",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 3"
+              ],
+              "name": "ironhail_heavy_stubber",
+              "range": "36\"",
+              "skill": "3+",
+              "strength": "4"
             }
           ]
         },
@@ -1893,7 +3099,7 @@
           "active": true,
           "ld": "6+",
           "m": "10\"",
-          "name": "datasheets.Black_Templars_Gladiator_Lancer.name",
+          "name": "Gladiator Valiant",
           "oc": "3",
           "showDamagedMarker": true,
           "showName": false,
@@ -1904,9 +3110,8 @@
       ],
       "transport": "",
       "wargear": [
-        "datasheets.Black_Templars_Gladiator_Reaper.wargear.0",
-        "datasheets.Black_Templars_Gladiator_Reaper.wargear.1",
-        "datasheets.Black_Templars_Gladiator_Lancer.wargear.2"
+        "datasheets.Gladiator_Lancer.wargear.0",
+        "datasheets.Gladiator_Lancer.wargear.1"
       ]
     },
     {
@@ -1921,18 +3126,18 @@
           "showDescription": true
         },
         "faction": [
-          "oath_of_moment"
+          "templar_vows"
         ],
         "other": [
           {
-            "name": "datasheets.Marshal.abilities.other.0.name",
-            "description": "datasheets.Marshal.abilities.other.0.description",
+            "name": "datasheets.Crusade_Ancient.abilities.other.0.name",
+            "description": "datasheets.Crusade_Ancient.abilities.other.0.description",
             "showAbility": true,
             "showDescription": true
           },
           {
-            "name": "datasheets.Marshal.abilities.other.1.name",
-            "description": "datasheets.Marshal.abilities.other.1.description",
+            "name": "datasheets.Crusade_Ancient.abilities.other.1.name",
+            "description": "datasheets.Crusade_Ancient.abilities.other.1.description",
             "showAbility": true,
             "showDescription": true
           }
@@ -1943,25 +3148,25 @@
       },
       "cardType": "DataCard",
       "composition": [
-        "datasheets.Marshal.composition.0"
+        "datasheets.Crusade_Ancient.composition.0",
+        "datasheets.Crusade_Ancient.composition.1"
       ],
       "factions": [
         "Black Templars"
       ],
       "faction_id": "CHBT",
-      "fluff": "datasheets.Marshal.fluff",
-      "id": "9892bec6-67ae-5ad3-b020-86a6f127fce7",
+      "fluff": "datasheets.Crusade_Ancient.fluff",
+      "id": "fa08a5d9-66a1-5a17-b171-59927398f279",
       "keywords": [
         "Infantry",
         "Character",
         "Grenades",
         "Imperium",
         "Tacticus",
-        "Captain",
-        "Marshal"
+        "Ancient",
+        "Crusade Ancient"
       ],
-      "leader": "datasheets.Marshal.leader",
-      "loadout": "datasheets.Marshal.loadout",
+      "leader": "datasheets.Crusade_Ancient.leader",
       "meleeWeapons": [
         {
           "active": true,
@@ -1969,9 +3174,11 @@
             {
               "active": true,
               "ap": "-2",
-              "attacks": "6",
+              "attacks": "5",
               "damage": "2",
-              "keywords": [],
+              "keywords": [
+                "Lethal Hits"
+              ],
               "name": "master_crafted_power_weapon",
               "range": "Melee",
               "skill": "2+",
@@ -1980,275 +3187,15 @@
           ]
         }
       ],
-      "name": "Marshal",
+      "name": "Crusade Ancient",
       "points": [
         {
           "name": "model",
           "model": "1",
-          "cost": "75"
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "1",
-              "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
-              "name": "plasma_pistol_standard",
-              "range": "12\"",
-              "skill": "2+",
-              "strength": "7"
-            },
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "1",
-              "damage": "2",
-              "keywords": [
-                "Pistol",
-                "Hazardous"
-              ],
-              "name": "plasma_pistol_supercharge",
-              "range": "12\"",
-              "skill": "2+",
-              "strength": "8"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "1",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 1",
-                "Devastating Wounds",
-                "Anti-infantry 4+"
-              ],
-              "name": "combi_weapon",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "6\"",
-          "name": "Marshal",
-          "oc": "1",
-          "showDamagedMarker": false,
-          "showName": false,
-          "sv": "3+",
-          "t": "4",
-          "w": "5",
-          "invul": "4+"
-        }
-      ],
-      "transport": "",
-      "wargear": [
-        "datasheets.Marshal.wargear.0"
-      ],
-      "leads": {
-        "units": [
-          "datasheets.High_Marshal_Helbrecht.leads.units.0",
-          "datasheets.Castellan.leads.units.1",
-          "datasheets.High_Marshal_Helbrecht.leads.units.1",
-          "datasheets.High_Marshal_Helbrecht.leads.units.2",
-          "datasheets.High_Marshal_Helbrecht.leads.units.3",
-          "datasheets.Castellan.leads.units.5"
-        ],
-        "extra": ""
-      }
-    },
-    {
-      "abilities": {
-        "core": [
-          "Scouts 6\""
-        ],
-        "damaged": {
-          "description": "",
-          "range": "",
-          "showDamagedAbility": false,
-          "showDescription": true
-        },
-        "faction": [
-          "oath_of_moment"
-        ],
-        "other": [
-          {
-            "name": "datasheets.Crusader_Squad.abilities.other.0.name",
-            "description": "datasheets.Crusader_Squad.abilities.other.0.description",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [
-          {
-            "description": "datasheets.Primaris_Sword_Brethren.abilities.special.0.description",
-            "name": "datasheets.Primaris_Sword_Brethren.abilities.special.0.name",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "datasheets.Primaris_Crusader_Squad.composition.0",
-        "datasheets.Primaris_Crusader_Squad.composition.1",
-        "datasheets.Primaris_Crusader_Squad.composition.2"
-      ],
-      "factions": [
-        "Black Templars"
-      ],
-      "faction_id": "CHBT",
-      "fluff": "datasheets.Primaris_Crusader_Squad.fluff",
-      "id": "98766136-bd99-5bf9-85e2-cfa97cfc2030",
-      "keywords": [
-        "Infantry",
-        "Battleline",
-        "Grenades",
-        "Imperium",
-        "Tacticus",
-        "Primaris Crusader Squad"
-      ],
-      "leader": "",
-      "loadout": "datasheets.Primaris_Crusader_Squad.loadout",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [],
-              "name": "power_weapon",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [],
-              "name": "close_combat_weapon",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "5",
-              "damage": "1",
-              "keywords": [],
-              "name": "astartes_chainsword",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "3",
-              "damage": "2",
-              "keywords": [],
-              "name": "power_fist",
-              "range": "Melee",
-              "skill": "3+",
-              "strength": "8"
-            }
-          ]
-        }
-      ],
-      "name": "Primaris Crusader Squad",
-      "points": [
-        {
-          "cost": "310",
-          "keyword": null,
-          "models": "20",
-          "active": true
-        },
-        {
-          "cost": "150",
-          "keyword": null,
-          "models": "10",
-          "active": true
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "1",
-              "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
-              "name": "heavy_bolt_pistol",
-              "range": "18\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "D6",
-              "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Pistol",
-                "Ignores Cover"
-              ],
-              "name": "pyre_pistol",
-              "range": "12\"",
-              "skill": "N/A",
-              "strength": "4"
-            }
-          ]
-        },
         {
           "active": true,
           "profiles": [
@@ -2266,62 +3213,6 @@
               "strength": "4"
             }
           ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "2",
-              "damage": "1",
-              "keywords": [
-                "Heavy",
-                "Assault"
-              ],
-              "name": "bolt_rifle",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "D6",
-              "damage": "1",
-              "keywords": [
-                "Torrent",
-                "Ignores Cover"
-              ],
-              "name": "pyreblaster",
-              "range": "12\"",
-              "skill": "N/A",
-              "strength": "5"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "2",
-              "damage": "1",
-              "keywords": [
-                "Assault"
-              ],
-              "name": "neophyte_firearm",
-              "range": "18\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
         }
       ],
       "source": "40k-10e",
@@ -2330,41 +3221,26 @@
           "active": true,
           "ld": "6+",
           "m": "6\"",
-          "name": "datasheets.Primaris_Crusader_Squad.stats.0.name",
-          "oc": "2",
+          "name": "Crusade Ancient",
+          "oc": "1",
           "showDamagedMarker": false,
-          "showName": true,
+          "showName": false,
           "sv": "3+",
           "t": "4",
-          "w": "2"
-        },
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "6\"",
-          "name": "datasheets.Primaris_Crusader_Squad.stats.1.name",
-          "oc": "2",
-          "showDamagedMarker": false,
-          "showName": true,
-          "sv": "4+",
-          "t": "4",
-          "w": "2"
+          "w": "4"
         }
       ],
       "transport": "",
       "wargear": [
-        "datasheets.Primaris_Crusader_Squad.wargear.0",
-        "datasheets.Primaris_Crusader_Squad.wargear.1",
-        "datasheets.Primaris_Crusader_Squad.wargear.2",
-        "datasheets.Primaris_Crusader_Squad.wargear.3"
+        "datasheets.High_Marshal_Helbrecht.wargear.0"
       ],
-      "leadBy": [
-        "High Marshal Helbrecht",
-        "Castellan",
-        "Marshal",
-        "datasheets.Primaris_Sword_Brethren.leadBy.3",
-        "datasheets.Primaris_Sword_Brethren.leadBy.4"
-      ]
+      "leads": {
+        "units": [
+          "datasheets.High_Marshal_Helbrecht.leads.units.1",
+          "datasheets.High_Marshal_Helbrecht.leads.units.3"
+        ],
+        "extra": "datasheets.Crusade_Ancient.leads.extra"
+      }
     },
     {
       "abilities": {
@@ -2372,18 +3248,18 @@
           "Deadly Demise D6"
         ],
         "damaged": {
-          "range": "datasheets.Black_Templars_Repulsor_Executioner.abilities.damaged.range",
-          "description": "datasheets.Black_Templars_Repulsor_Executioner.abilities.damaged.description",
+          "range": "datasheets.Land_Raider_Crusader.abilities.damaged.range",
+          "description": "datasheets.Land_Raider_Crusader.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
         "faction": [
-          "oath_of_moment"
+          "templar_vows"
         ],
         "other": [
           {
-            "name": "datasheets.Black_Templars_Repulsor.abilities.other.0.name",
-            "description": "datasheets.Black_Templars_Repulsor.abilities.other.0.description",
+            "name": "datasheets.Repulsor.abilities.other.0.name",
+            "description": "datasheets.Repulsor.abilities.other.0.description",
             "showAbility": true,
             "showDescription": true
           }
@@ -2394,14 +3270,14 @@
       },
       "cardType": "DataCard",
       "composition": [
-        "datasheets.Black_Templars_Repulsor.composition.0"
+        "datasheets.Repulsor.composition.0"
       ],
       "factions": [
         "Black Templars"
       ],
       "faction_id": "CHBT",
-      "fluff": "datasheets.Black_Templars_Repulsor.fluff",
-      "id": "2e63eb7b-1573-524a-9fde-f08f44773d50",
+      "fluff": "datasheets.Repulsor.fluff",
+      "id": "5ae6c5e7-c11c-54a7-8232-22219c6e66df",
       "keywords": [
         "Vehicle",
         "Smoke",
@@ -2410,7 +3286,7 @@
         "Repulsor"
       ],
       "leader": "",
-      "loadout": "datasheets.Black_Templars_Repulsor.loadout",
+      "loadout": "datasheets.Repulsor.loadout",
       "meleeWeapons": [
         {
           "active": true,
@@ -2429,12 +3305,12 @@
           ]
         }
       ],
-      "name": "datasheets.Black_Templars_Repulsor.name",
+      "name": "Repulsor",
       "points": [
         {
           "name": "model",
           "model": "1",
-          "cost": "190"
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -2477,7 +3353,7 @@
           "abilities": [
             {
               "name": "One Shot",
-              "description": "datasheets.Black_Templars_Repulsor.rangedWeapons.1.abilities.0.description",
+              "description": "datasheets.Land_Raider_Crusader.rangedWeapons.2.abilities.0.description",
               "showAbility": true,
               "showDescription": true
             }
@@ -2577,7 +3453,7 @@
           "active": true,
           "ld": "6+",
           "m": "10\"",
-          "name": "datasheets.Black_Templars_Repulsor.name",
+          "name": "Repulsor",
           "oc": "5",
           "showDamagedMarker": true,
           "showName": false,
@@ -2586,155 +3462,12 @@
           "w": "16"
         }
       ],
-      "transport": "datasheets.Black_Templars_Repulsor.transport",
+      "transport": "datasheets.Repulsor.transport",
       "wargear": [
-        "datasheets.Black_Templars_Repulsor.wargear.0",
-        "datasheets.Black_Templars_Repulsor.wargear.1",
-        "datasheets.Black_Templars_Repulsor.wargear.2"
+        "datasheets.Land_Raider_Crusader.wargear.1",
+        "datasheets.Repulsor.wargear.1",
+        "datasheets.Repulsor.wargear.2"
       ]
-    },
-    {
-      "abilities": {
-        "core": [
-          "Leader"
-        ],
-        "damaged": {
-          "description": "",
-          "range": "",
-          "showDamagedAbility": false,
-          "showDescription": true
-        },
-        "faction": [
-          "oath_of_moment"
-        ],
-        "other": [
-          {
-            "name": "datasheets.The_Emperors_Champion.abilities.other.0.name",
-            "description": "datasheets.The_Emperors_Champion.abilities.other.0.description",
-            "showAbility": true,
-            "showDescription": true
-          },
-          {
-            "name": "datasheets.The_Emperors_Champion.abilities.other.1.name",
-            "description": "datasheets.The_Emperors_Champion.abilities.other.1.description",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "datasheets.The_Emperors_Champion.composition.0"
-      ],
-      "factions": [
-        "Black Templars"
-      ],
-      "faction_id": "CHBT",
-      "fluff": "datasheets.The_Emperors_Champion.fluff",
-      "id": "dff24b85-9eb0-5376-b4c7-d270dba31a35",
-      "keywords": [
-        "Infantry",
-        "Character",
-        "Epic Hero",
-        "Grenades",
-        "Imperium",
-        "Tacticus",
-        "The Emperor’s Champion"
-      ],
-      "leader": "datasheets.The_Emperors_Champion.leader",
-      "loadout": "datasheets.The_Emperors_Champion.loadout",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "10",
-              "damage": "1",
-              "keywords": [],
-              "name": "black_sword_sweep",
-              "range": "Melee",
-              "skill": "2+",
-              "strength": "6"
-            },
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "6",
-              "damage": "3",
-              "keywords": [
-                "Precision"
-              ],
-              "name": "black_sword_strike",
-              "range": "Melee",
-              "skill": "2+",
-              "strength": "8"
-            }
-          ]
-        }
-      ],
-      "name": "The Emperor’s Champion",
-      "points": [
-        {
-          "name": "model",
-          "model": "1",
-          "cost": "75"
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "1",
-              "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
-              "name": "bolt_pistol",
-              "range": "12\"",
-              "skill": "2+",
-              "strength": "4"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "6\"",
-          "name": "The Emperor’s Champion",
-          "oc": "1",
-          "showDamagedMarker": false,
-          "showName": false,
-          "sv": "2+",
-          "t": "4",
-          "w": "5",
-          "invul": "4+"
-        }
-      ],
-      "transport": "",
-      "wargear": [
-        "datasheets.High_Marshal_Helbrecht.wargear.0"
-      ],
-      "leads": {
-        "units": [
-          "datasheets.High_Marshal_Helbrecht.leads.units.0",
-          "datasheets.High_Marshal_Helbrecht.leads.units.1",
-          "datasheets.High_Marshal_Helbrecht.leads.units.2",
-          "datasheets.High_Marshal_Helbrecht.leads.units.3",
-          "datasheets.Castellan.leads.units.5"
-        ],
-        "extra": ""
-      }
     },
     {
       "abilities": {
@@ -2742,18 +3475,18 @@
           "Deadly Demise D3"
         ],
         "damaged": {
-          "range": "datasheets.Black_Templars_Gladiator_Reaper.abilities.damaged.range",
-          "description": "datasheets.Black_Templars_Gladiator_Reaper.abilities.damaged.description",
+          "range": "datasheets.Gladiator_Lancer.abilities.damaged.range",
+          "description": "datasheets.Gladiator_Lancer.abilities.damaged.description",
           "showDamagedAbility": true,
           "showDescription": true
         },
         "faction": [
-          "oath_of_moment"
+          "templar_vows"
         ],
         "other": [
           {
-            "name": "datasheets.Black_Templars_Gladiator_Valiant.abilities.other.0.name",
-            "description": "datasheets.Black_Templars_Gladiator_Valiant.abilities.other.0.description",
+            "name": "datasheets.Gladiator_Reaper.abilities.other.0.name",
+            "description": "datasheets.Gladiator_Reaper.abilities.other.0.description",
             "showAbility": true,
             "showDescription": true
           }
@@ -2764,22 +3497,22 @@
       },
       "cardType": "DataCard",
       "composition": [
-        "datasheets.Black_Templars_Gladiator_Valiant.composition.0"
+        "datasheets.Gladiator_Reaper.composition.0"
       ],
       "factions": [
         "Black Templars"
       ],
       "faction_id": "CHBT",
-      "fluff": "datasheets.Black_Templars_Gladiator_Valiant.fluff",
-      "id": "91cab762-d65b-5cb5-815b-0d937f31eb2d",
+      "fluff": "datasheets.Gladiator_Reaper.fluff",
+      "id": "0fae5944-73f5-5791-b835-ba2938f5d76f",
       "keywords": [
         "Vehicle",
         "Smoke",
         "Imperium",
-        "Gladiator Valiant"
+        "Gladiator Reaper"
       ],
       "leader": "",
-      "loadout": "datasheets.Black_Templars_Gladiator_Valiant.loadout",
+      "loadout": "datasheets.Gladiator_Reaper.loadout",
       "meleeWeapons": [
         {
           "active": true,
@@ -2798,12 +3531,12 @@
           ]
         }
       ],
-      "name": "datasheets.Black_Templars_Gladiator_Valiant.name",
+      "name": "Gladiator Reaper",
       "points": [
         {
           "name": "model",
           "model": "1",
-          "cost": "170"
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -2812,16 +3545,17 @@
           "profiles": [
             {
               "active": true,
-              "ap": "-3",
-              "attacks": "2",
-              "damage": "D6+1",
+              "ap": "0",
+              "attacks": "12",
+              "damage": "1",
               "keywords": [
-                "Twin-linked"
+                "Twin-linked",
+                "Devastating Wounds"
               ],
-              "name": "twin_las_talon",
-              "range": "36\"",
+              "name": "twin_heavy_onslaught_gatling_cannon",
+              "range": "24\"",
               "skill": "3+",
-              "strength": "10"
+              "strength": "6"
             }
           ]
         },
@@ -2830,16 +3564,16 @@
           "profiles": [
             {
               "active": true,
-              "ap": "-4",
-              "attacks": "2",
-              "damage": "D6",
+              "ap": "-1",
+              "attacks": "4",
+              "damage": "1",
               "keywords": [
-                "Melta 2"
+                "Rapid Fire 4"
               ],
-              "name": "multi_melta",
-              "range": "18\"",
+              "name": "tempest_bolter",
+              "range": "24\"",
               "skill": "3+",
-              "strength": "9"
+              "strength": "4"
             }
           ]
         },
@@ -2858,6 +3592,24 @@
               "range": "36\"",
               "skill": "3+",
               "strength": "4"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "ap": "-4",
+              "attacks": "2",
+              "damage": "D6",
+              "keywords": [
+                "Melta 2"
+              ],
+              "name": "multi_melta",
+              "range": "18\"",
+              "skill": "3+",
+              "strength": "9"
             }
           ]
         },
@@ -2886,7 +3638,7 @@
           "active": true,
           "ld": "6+",
           "m": "10\"",
-          "name": "datasheets.Black_Templars_Gladiator_Valiant.name",
+          "name": "Gladiator Reaper",
           "oc": "3",
           "showDamagedMarker": true,
           "showName": false,
@@ -2897,505 +3649,375 @@
       ],
       "transport": "",
       "wargear": [
-        "datasheets.Black_Templars_Gladiator_Reaper.wargear.0",
-        "datasheets.Black_Templars_Gladiator_Reaper.wargear.1"
+        "datasheets.Gladiator_Lancer.wargear.0",
+        "datasheets.Gladiator_Lancer.wargear.1"
       ]
-    },
-    {
-      "abilities": {
-        "core": [
-          "Deadly Demise D3",
-          "Firing Deck 6"
-        ],
-        "damaged": {
-          "description": "",
-          "range": "",
-          "showDamagedAbility": false,
-          "showDescription": true
-        },
-        "faction": [
-          "oath_of_moment"
-        ],
-        "other": [
-          {
-            "name": "datasheets.Black_Templars_Impulsor.abilities.other.0.name",
-            "description": "datasheets.Black_Templars_Impulsor.abilities.other.0.description",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [],
-        "special": [],
-        "wargear": [
-          {
-            "name": "datasheets.Black_Templars_Impulsor.abilities.wargear.0.name",
-            "description": "datasheets.Black_Templars_Impulsor.abilities.wargear.0.description",
-            "showAbility": true,
-            "showDescription": true
-          },
-          {
-            "name": "datasheets.Black_Templars_Impulsor.abilities.wargear.1.name",
-            "description": "datasheets.Black_Templars_Impulsor.abilities.wargear.1.description",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ]
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "datasheets.Black_Templars_Impulsor.composition.0"
-      ],
-      "factions": [
-        "Black Templars"
-      ],
-      "faction_id": "CHBT",
-      "fluff": "datasheets.Black_Templars_Impulsor.fluff",
-      "id": "2614b505-bdc4-5619-bb9c-9693b3dfdaf6",
-      "keywords": [
-        "Vehicle",
-        "Transport",
-        "Dedicated Transport",
-        "Imperium",
-        "Impulsor"
-      ],
-      "leader": "",
-      "loadout": "datasheets.Black_Templars_Impulsor.loadout",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [],
-              "name": "armoured_hull",
-              "range": "Melee",
-              "skill": "4+",
-              "strength": "6"
-            }
-          ]
-        }
-      ],
-      "name": "datasheets.Black_Templars_Impulsor.name",
-      "points": [
-        {
-          "name": "model",
-          "model": "1",
-          "cost": "90"
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "2",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 2"
-              ],
-              "name": "storm_bolter",
-              "range": "24\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "3",
-              "damage": "1",
-              "keywords": [
-                "Rapid Fire 3"
-              ],
-              "name": "ironhail_heavy_stubber",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-4",
-              "attacks": "2",
-              "damage": "D6",
-              "keywords": [
-                "Melta 2"
-              ],
-              "name": "multi_melta",
-              "range": "18\"",
-              "skill": "3+",
-              "strength": "9"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "D6",
-              "damage": "1",
-              "keywords": [
-                "Blast"
-              ],
-              "name": "fragstorm_grenade_launcher",
-              "range": "18\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-1",
-              "attacks": "D3",
-              "damage": "2",
-              "keywords": [
-                "Anti-fly 2+"
-              ],
-              "name": "bellicatus_missile_array_icarus",
-              "range": "48\"",
-              "skill": "3+",
-              "strength": "8"
-            },
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "1",
-              "damage": "D6",
-              "keywords": [],
-              "name": "bellicatus_missile_array_krak",
-              "range": "48\"",
-              "skill": "3+",
-              "strength": "8"
-            },
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "D6",
-              "damage": "1",
-              "keywords": [
-                "Blast"
-              ],
-              "name": "bellicatus_missile_array_frag",
-              "range": "48\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "8",
-              "damage": "1",
-              "keywords": [
-                "Sustained Hits 1",
-                "Anti-fly 4+"
-              ],
-              "name": "ironhail_skytalon_array",
-              "range": "36\"",
-              "skill": "3+",
-              "strength": "4"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "6+",
-          "m": "12\"",
-          "name": "datasheets.Black_Templars_Impulsor.name",
-          "oc": "2",
-          "showDamagedMarker": false,
-          "showName": false,
-          "sv": "3+",
-          "t": "9",
-          "w": "11"
-        }
-      ],
-      "transport": "datasheets.Black_Templars_Impulsor.transport",
-      "wargear": [
-        "datasheets.Black_Templars_Impulsor.wargear.0",
-        "datasheets.Black_Templars_Gladiator_Lancer.wargear.2",
-        "datasheets.Black_Templars_Gladiator_Reaper.wargear.1"
-      ]
-    },
-    {
-      "abilities": {
-        "core": [
-          "Feel No Pain 5+",
-          "Leader"
-        ],
-        "damaged": {
-          "description": "",
-          "range": "",
-          "showDamagedAbility": false,
-          "showDescription": true
-        },
-        "faction": [
-          "oath_of_moment"
-        ],
-        "other": [
-          {
-            "name": "datasheets.Chaplain_Grimaldus.abilities.other.0.name",
-            "description": "datasheets.Chaplain_Grimaldus.abilities.other.0.description",
-            "showAbility": true,
-            "showDescription": true
-          },
-          {
-            "name": "datasheets.Chaplain_Grimaldus.abilities.other.1.name",
-            "description": "datasheets.Chaplain_Grimaldus.abilities.other.1.description",
-            "showAbility": true,
-            "showDescription": true
-          }
-        ],
-        "primarch": [
-          {
-            "name": "datasheets.Chaplain_Grimaldus.abilities.other.1.name",
-            "abilities": [
-              {
-                "name": "datasheets.Chaplain_Grimaldus.abilities.primarch.0.abilities.0.name",
-                "description": "datasheets.Chaplain_Grimaldus.abilities.primarch.0.abilities.0.description",
-                "showAbility": true,
-                "showDescription": true
-              },
-              {
-                "name": "datasheets.Chaplain_Grimaldus.abilities.primarch.0.abilities.1.name",
-                "description": "datasheets.Chaplain_Grimaldus.abilities.primarch.0.abilities.1.description",
-                "showAbility": true,
-                "showDescription": true
-              },
-              {
-                "name": "datasheets.Chaplain_Grimaldus.abilities.primarch.0.abilities.2.name",
-                "description": "datasheets.Chaplain_Grimaldus.abilities.primarch.0.abilities.2.description",
-                "showAbility": true,
-                "showDescription": true
-              }
-            ],
-            "showAbility": true
-          }
-        ],
-        "special": [],
-        "wargear": []
-      },
-      "cardType": "DataCard",
-      "composition": [
-        "datasheets.Chaplain_Grimaldus.composition.0",
-        "datasheets.Chaplain_Grimaldus.composition.1"
-      ],
-      "factions": [
-        "Black Templars"
-      ],
-      "faction_id": "CHBT",
-      "fluff": "datasheets.Chaplain_Grimaldus.fluff",
-      "id": "68bd0bd6-bbf1-5464-a004-0074c02e764a",
-      "keywords": [
-        "Infantry",
-        "Imperium",
-        "Tacticus",
-        "Character",
-        "Epic Hero",
-        "Grenades",
-        "Chaplain Grimaldus"
-      ],
-      "leader": "datasheets.Chaplain_Grimaldus.leader",
-      "loadout": "datasheets.Chaplain_Grimaldus.loadout",
-      "meleeWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "5",
-              "damage": "2",
-              "keywords": [],
-              "name": "artificer_crozius",
-              "range": "Melee",
-              "skill": "2+",
-              "strength": "6"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "0",
-              "attacks": "1",
-              "damage": "1",
-              "keywords": [],
-              "name": "close_combat_weapon",
-              "range": "Melee",
-              "skill": "4+",
-              "strength": "3"
-            }
-          ]
-        }
-      ],
-      "name": "Chaplain Grimaldus",
-      "points": [
-        {
-          "name": "model",
-          "model": "4",
-          "cost": "120"
-        }
-      ],
-      "rangedWeapons": [
-        {
-          "active": true,
-          "profiles": [
-            {
-              "active": true,
-              "ap": "-2",
-              "attacks": "1",
-              "damage": "1",
-              "keywords": [
-                "Pistol"
-              ],
-              "name": "plasma_pistol_standard",
-              "range": "12\"",
-              "skill": "2+",
-              "strength": "7"
-            },
-            {
-              "active": true,
-              "ap": "-3",
-              "attacks": "1",
-              "damage": "2",
-              "keywords": [
-                "Pistol",
-                "Hazardous"
-              ],
-              "name": "plasma_pistol_supercharge",
-              "range": "12\"",
-              "skill": "2+",
-              "strength": "8"
-            }
-          ]
-        }
-      ],
-      "source": "40k-10e",
-      "stats": [
-        {
-          "active": true,
-          "ld": "5+",
-          "m": "6\"",
-          "name": "Chaplain Grimaldus",
-          "oc": "1",
-          "showDamagedMarker": false,
-          "showName": true,
-          "sv": "3+",
-          "t": "4",
-          "w": "4",
-          "invul": "4+"
-        },
-        {
-          "active": true,
-          "ld": "8+",
-          "m": "6\"",
-          "name": "datasheets.Chaplain_Grimaldus.stats.1.name",
-          "oc": "1",
-          "showDamagedMarker": false,
-          "showName": true,
-          "sv": "3+",
-          "t": "4",
-          "w": "1",
-          "invul": "4+"
-        }
-      ],
-      "transport": "",
-      "wargear": [
-        "datasheets.High_Marshal_Helbrecht.wargear.0"
-      ],
-      "leads": {
-        "units": [
-          "datasheets.High_Marshal_Helbrecht.leads.units.0",
-          "datasheets.Castellan.leads.units.1",
-          "datasheets.High_Marshal_Helbrecht.leads.units.1",
-          "datasheets.High_Marshal_Helbrecht.leads.units.2",
-          "datasheets.High_Marshal_Helbrecht.leads.units.3"
-        ],
-        "extra": ""
-      }
     }
   ],
   "detachments": [
     {
+      "name": "detachments.Vindication_Task_Force.name",
+      "enhancements": [
+        {
+          "name": "detachments.Vindication_Task_Force.enhancements.Incendiary_Animus.name",
+          "id": "6b8d8116-954d-59b3-8f2d-f92a42128d58",
+          "cost": "15",
+          "keywords": [
+            "Ancient"
+          ],
+          "excludes": [],
+          "description": "detachments.Vindication_Task_Force.enhancements.Incendiary_Animus.description",
+          "faction_id": "CHBT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Vindication_Task_Force.enhancements.Oathbound_Examplar.name",
+          "id": "66f69032-a37b-5526-808c-6d0fb50d99a0",
+          "cost": "25",
+          "keywords": [
+            "Black Templars"
+          ],
+          "excludes": [],
+          "description": "detachments.Vindication_Task_Force.enhancements.Oathbound_Examplar.description",
+          "faction_id": "CHBT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Vindication_Task_Force.enhancements.Merciless_Denunciation.name",
+          "id": "fc646585-16f1-5b82-a3d6-6e3849386f22",
+          "cost": "10",
+          "keywords": [
+            "Black Templars"
+          ],
+          "excludes": [],
+          "description": "detachments.Vindication_Task_Force.enhancements.Merciless_Denunciation.description",
+          "faction_id": "CHBT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Vindication_Task_Force.enhancements.Zealous_Vanguard.name",
+          "id": "cc12d535-e5c1-55db-b612-3808af1cdc68",
+          "cost": "20",
+          "keywords": [
+            "Crusade Ancient"
+          ],
+          "excludes": [],
+          "description": "detachments.Vindication_Task_Force.enhancements.Zealous_Vanguard.description",
+          "faction_id": "CHBT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.Vindication_Task_Force.stratagems.Devout_Push.name",
+          "id": "5aa3384f-9bc2-5a85-9168-6dd24418023f",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Vindication_Task_Force.stratagems.Devout_Push.target",
+          "when": "detachments.Vindication_Task_Force.stratagems.Devout_Push.when",
+          "effect": "detachments.Vindication_Task_Force.stratagems.Devout_Push.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "CHBT",
+          "fluff": "detachments.Vindication_Task_Force.stratagems.Devout_Push.fluff"
+        },
+        {
+          "name": "detachments.Vindication_Task_Force.stratagems.For_The_Emperors_Honour.name",
+          "id": "022c5dcc-8aa1-56c1-8d11-9a7fb3dfdf72",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Vindication_Task_Force.stratagems.For_The_Emperors_Honour.target",
+          "when": "detachments.Vindication_Task_Force.stratagems.For_The_Emperors_Honour.when",
+          "effect": "detachments.Vindication_Task_Force.stratagems.For_The_Emperors_Honour.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "CHBT",
+          "fluff": "detachments.Vindication_Task_Force.stratagems.For_The_Emperors_Honour.fluff"
+        },
+        {
+          "name": "detachments.Vindication_Task_Force.stratagems.Pious_Enmity.name",
+          "id": "460a6103-805d-52da-a167-ddeccb954697",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Vindication_Task_Force.stratagems.Pious_Enmity.target",
+          "when": "detachments.Vindication_Task_Force.stratagems.Pious_Enmity.when",
+          "effect": "detachments.Vindication_Task_Force.stratagems.Pious_Enmity.effect",
+          "restrictions": "detachments.Vindication_Task_Force.stratagems.Pious_Enmity.restrictions",
+          "type": "Epic Deed",
+          "phase": [
+            "any"
+          ],
+          "faction_id": "CHBT",
+          "fluff": "detachments.Vindication_Task_Force.stratagems.Pious_Enmity.fluff"
+        },
+        {
+          "name": "detachments.Vindication_Task_Force.stratagems.Litanies_of_Purgation.name",
+          "id": "103d3fef-41d6-5ee8-9021-4cad6e1fdbba",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Vindication_Task_Force.stratagems.Litanies_of_Purgation.target",
+          "when": "detachments.Vindication_Task_Force.stratagems.Litanies_of_Purgation.when",
+          "effect": "detachments.Vindication_Task_Force.stratagems.Litanies_of_Purgation.effect",
+          "restrictions": "detachments.Vindication_Task_Force.stratagems.Litanies_of_Purgation.restrictions",
+          "type": "Strategic Ploy",
+          "phase": [
+            "fight",
+            "shooting"
+          ],
+          "faction_id": "CHBT",
+          "fluff": "detachments.Vindication_Task_Force.stratagems.Litanies_of_Purgation.fluff"
+        },
+        {
+          "name": "detachments.Vindication_Task_Force.stratagems.Spoor_of_the_Unholy.name",
+          "id": "1b1e3b73-9728-599f-bfc9-734e2fbe8638",
+          "cost": 1,
+          "turn": "opponents",
+          "target": "detachments.Vindication_Task_Force.stratagems.Spoor_of_the_Unholy.target",
+          "when": "detachments.Vindication_Task_Force.stratagems.Spoor_of_the_Unholy.when",
+          "effect": "detachments.Vindication_Task_Force.stratagems.Spoor_of_the_Unholy.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "CHBT",
+          "fluff": "detachments.Vindication_Task_Force.stratagems.Spoor_of_the_Unholy.fluff"
+        },
+        {
+          "name": "detachments.Vindication_Task_Force.stratagems.Condemnatory_Info_Screed.name",
+          "id": "0819fa0b-042e-57f8-a60e-ca0b5ef2a8fb",
+          "cost": 2,
+          "turn": "opponents",
+          "target": "detachments.Vindication_Task_Force.stratagems.Condemnatory_Info_Screed.target",
+          "when": "detachments.Vindication_Task_Force.stratagems.Condemnatory_Info_Screed.when",
+          "effect": "detachments.Vindication_Task_Force.stratagems.Condemnatory_Info_Screed.effect",
+          "restrictions": "detachments.Vindication_Task_Force.stratagems.Condemnatory_Info_Screed.restrictions",
+          "type": "Strategic Ploy",
+          "phase": [
+            "charge"
+          ],
+          "faction_id": "CHBT",
+          "fluff": "detachments.Vindication_Task_Force.stratagems.Condemnatory_Info_Screed.fluff"
+        }
+      ]
+    },
+    {
+      "name": "detachments.Godhammer_Assault_Force.name",
+      "enhancements": [
+        {
+          "name": "detachments.Godhammer_Assault_Force.enhancements.Incendiary_Animus.name",
+          "id": "ddd401eb-0ccf-500d-b348-71c812ae3932",
+          "cost": "25",
+          "keywords": [
+            "Black Templars"
+          ],
+          "excludes": [],
+          "description": "detachments.Godhammer_Assault_Force.enhancements.Incendiary_Animus.description",
+          "faction_id": "CHBT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Godhammer_Assault_Force.enhancements.Oathbound_Examplar.name",
+          "id": "a32f4c80-27d5-5671-bf20-904f8e64dad8",
+          "cost": "10",
+          "keywords": [
+            "Black Templars"
+          ],
+          "excludes": [],
+          "description": "detachments.Godhammer_Assault_Force.enhancements.Oathbound_Examplar.description",
+          "faction_id": "CHBT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Godhammer_Assault_Force.enhancements.Merciless_Denunciation.name",
+          "id": "ec59ba09-3384-5729-a826-45b98a47e19d",
+          "cost": "15",
+          "keywords": [
+            "Black Templars"
+          ],
+          "excludes": [],
+          "description": "detachments.Godhammer_Assault_Force.enhancements.Merciless_Denunciation.description",
+          "faction_id": "CHBT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Godhammer_Assault_Force.enhancements.Zealous_Vanguard.name",
+          "id": "74a28ae7-4194-5e1b-80a7-db455d9a9795",
+          "cost": "15",
+          "keywords": [
+            "Black Templars"
+          ],
+          "excludes": [],
+          "description": "detachments.Godhammer_Assault_Force.enhancements.Zealous_Vanguard.description",
+          "faction_id": "CHBT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "detachments.Godhammer_Assault_Force.stratagems.Devout_Push.name",
+          "id": "f9d93f28-c879-5fbd-8b58-b900e4680046",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Vindication_Task_Force.stratagems.Devout_Push.target",
+          "when": "detachments.Godhammer_Assault_Force.stratagems.Devout_Push.when",
+          "effect": "detachments.Godhammer_Assault_Force.stratagems.Devout_Push.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "CHBT",
+          "fluff": "detachments.Godhammer_Assault_Force.stratagems.Devout_Push.fluff"
+        },
+        {
+          "name": "detachments.Godhammer_Assault_Force.stratagems.For_The_Emperors_Honour.name",
+          "id": "706c2b73-dfe7-51c1-b030-355d743de513",
+          "cost": 2,
+          "turn": "opponents",
+          "target": "detachments.Godhammer_Assault_Force.stratagems.For_The_Emperors_Honour.target",
+          "when": "detachments.Vindication_Task_Force.stratagems.Spoor_of_the_Unholy.when",
+          "effect": "detachments.Godhammer_Assault_Force.stratagems.For_The_Emperors_Honour.effect",
+          "restrictions": "",
+          "type": "Battle Tactic",
+          "phase": [
+            "shooting"
+          ],
+          "faction_id": "CHBT",
+          "fluff": "detachments.Godhammer_Assault_Force.stratagems.For_The_Emperors_Honour.fluff"
+        },
+        {
+          "name": "detachments.Godhammer_Assault_Force.stratagems.Pious_Enmity.name",
+          "id": "02dc44fb-68cc-5209-987d-265c84234032",
+          "cost": 1,
+          "turn": "either",
+          "target": "detachments.Godhammer_Assault_Force.stratagems.Pious_Enmity.target",
+          "when": "detachments.Godhammer_Assault_Force.stratagems.Pious_Enmity.when",
+          "effect": "detachments.Godhammer_Assault_Force.stratagems.Pious_Enmity.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "fight"
+          ],
+          "faction_id": "CHBT",
+          "fluff": "detachments.Godhammer_Assault_Force.stratagems.Pious_Enmity.fluff"
+        },
+        {
+          "name": "detachments.Godhammer_Assault_Force.stratagems.Litanies_of_Purgation.name",
+          "id": "76744a83-b780-53eb-afbc-fe92eeef272c",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Godhammer_Assault_Force.stratagems.Litanies_of_Purgation.target",
+          "when": "detachments.Godhammer_Assault_Force.stratagems.Litanies_of_Purgation.when",
+          "effect": "detachments.Godhammer_Assault_Force.stratagems.Litanies_of_Purgation.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "CHBT",
+          "fluff": "detachments.Godhammer_Assault_Force.stratagems.Litanies_of_Purgation.fluff"
+        },
+        {
+          "name": "detachments.Godhammer_Assault_Force.stratagems.Spoor_of_the_Unholy.name",
+          "id": "238413cf-6289-56bd-bead-fa28c258fe07",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Godhammer_Assault_Force.stratagems.Spoor_of_the_Unholy.target",
+          "when": "detachments.Godhammer_Assault_Force.stratagems.Litanies_of_Purgation.when",
+          "effect": "detachments.Godhammer_Assault_Force.stratagems.Spoor_of_the_Unholy.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "movement"
+          ],
+          "faction_id": "CHBT",
+          "fluff": "detachments.Godhammer_Assault_Force.stratagems.Spoor_of_the_Unholy.fluff"
+        },
+        {
+          "name": "detachments.Godhammer_Assault_Force.stratagems.Condemnatory_Info_Screed.name",
+          "id": "6d82c639-4749-50da-bcf1-a2cf7d2444b4",
+          "cost": 1,
+          "turn": "your",
+          "target": "detachments.Godhammer_Assault_Force.stratagems.Condemnatory_Info_Screed.target",
+          "when": "detachments.Godhammer_Assault_Force.stratagems.Condemnatory_Info_Screed.when",
+          "effect": "detachments.Godhammer_Assault_Force.stratagems.Condemnatory_Info_Screed.effect",
+          "restrictions": "",
+          "type": "Strategic Ploy",
+          "phase": [
+            "charge"
+          ],
+          "faction_id": "CHBT",
+          "fluff": "detachments.Godhammer_Assault_Force.stratagems.Condemnatory_Info_Screed.fluff"
+        }
+      ]
+    },
+    {
       "name": "detachments.Wrathful_Procession.name",
       "enhancements": [
         {
-          "name": "detachments.Wrathful_Procession.enhancements.Perditions_Edge.name",
+          "name": "detachments.Wrathful_Procession.enhancements.Incendiary_Animus.name",
           "id": "23d7fa73-1b1e-52da-9797-703be608041d",
           "cost": "25",
           "keywords": [
             "Black Templars"
           ],
           "excludes": [],
-          "description": "detachments.Wrathful_Procession.enhancements.Perditions_Edge.description",
+          "description": "detachments.Wrathful_Procession.enhancements.Incendiary_Animus.description",
           "faction_id": "CHBT",
           "source": "40k-10e",
           "cardType": "enhancement"
         },
         {
-          "name": "detachments.Wrathful_Procession.enhancements.Witchseeker_Bolts.name",
+          "name": "detachments.Wrathful_Procession.enhancements.Oathbound_Examplar.name",
           "id": "4cc6401e-0098-5825-8420-42bc16e8f990",
           "cost": "30",
           "keywords": [
             "Black Templars"
           ],
           "excludes": [],
-          "description": "detachments.Wrathful_Procession.enhancements.Witchseeker_Bolts.description",
+          "description": "detachments.Wrathful_Procession.enhancements.Oathbound_Examplar.description",
           "faction_id": "CHBT",
           "source": "40k-10e",
           "cardType": "enhancement"
         },
         {
-          "name": "detachments.Wrathful_Procession.enhancements.Sigismunds_Seal.name",
+          "name": "detachments.Wrathful_Procession.enhancements.Merciless_Denunciation.name",
           "id": "8926e802-ce4c-5628-8da2-4648f7b94360",
           "cost": "15",
           "keywords": [
             "Black Templars"
           ],
           "excludes": [],
-          "description": "detachments.Wrathful_Procession.enhancements.Sigismunds_Seal.description",
+          "description": "detachments.Wrathful_Procession.enhancements.Merciless_Denunciation.description",
           "faction_id": "CHBT",
           "source": "40k-10e",
           "cardType": "enhancement"
         },
         {
-          "name": "detachments.Wrathful_Procession.enhancements.Tnnhausers_Bones.name",
+          "name": "detachments.Wrathful_Procession.enhancements.Zealous_Vanguard.name",
           "id": "01413b10-4b2b-5c5a-aced-17c61a04483f",
           "cost": "10",
           "keywords": [
             "Chaplain"
           ],
           "excludes": [],
-          "description": "detachments.Wrathful_Procession.enhancements.Tnnhausers_Bones.description",
+          "description": "detachments.Wrathful_Procession.enhancements.Zealous_Vanguard.description",
           "faction_id": "CHBT",
           "source": "40k-10e",
           "cardType": "enhancement"
@@ -3445,45 +4067,45 @@
       ],
       "stratagems": [
         {
-          "name": "detachments.Wrathful_Procession.stratagems.Armour_of_Contempt.name",
+          "name": "detachments.Wrathful_Procession.stratagems.Devout_Push.name",
           "id": "16d9ab42-f119-5ad1-8b2f-3e227d2ab619",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Wrathful_Procession.stratagems.Armour_of_Contempt.target",
-          "when": "detachments.Wrathful_Procession.stratagems.Armour_of_Contempt.when",
-          "effect": "detachments.Wrathful_Procession.stratagems.Armour_of_Contempt.effect",
+          "target": "detachments.Vindication_Task_Force.stratagems.Devout_Push.target",
+          "when": "detachments.Vindication_Task_Force.stratagems.Devout_Push.when",
+          "effect": "detachments.Wrathful_Procession.stratagems.Devout_Push.effect",
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
             "fight"
           ],
           "faction_id": "CHBT",
-          "fluff": "detachments.Wrathful_Procession.stratagems.Armour_of_Contempt.fluff"
+          "fluff": "detachments.Wrathful_Procession.stratagems.Devout_Push.fluff"
         },
         {
-          "name": "detachments.Wrathful_Procession.stratagems.Crusaders_Wrath.name",
+          "name": "detachments.Wrathful_Procession.stratagems.For_The_Emperors_Honour.name",
           "id": "ecc78d04-e6bd-56ad-ba74-244edfb50169",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Wrathful_Procession.stratagems.Crusaders_Wrath.target",
-          "when": "detachments.Wrathful_Procession.stratagems.Crusaders_Wrath.when",
-          "effect": "detachments.Wrathful_Procession.stratagems.Crusaders_Wrath.effect",
+          "target": "detachments.Godhammer_Assault_Force.stratagems.Condemnatory_Info_Screed.target",
+          "when": "detachments.Wrathful_Procession.stratagems.For_The_Emperors_Honour.when",
+          "effect": "detachments.Wrathful_Procession.stratagems.For_The_Emperors_Honour.effect",
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
             "any"
           ],
           "faction_id": "CHBT",
-          "fluff": "detachments.Wrathful_Procession.stratagems.Crusaders_Wrath.fluff"
+          "fluff": "detachments.Wrathful_Procession.stratagems.For_The_Emperors_Honour.fluff"
         },
         {
-          "name": "detachments.Wrathful_Procession.stratagems.Brute_Fervour.name",
+          "name": "detachments.Wrathful_Procession.stratagems.Pious_Enmity.name",
           "id": "1e21c885-2bf2-56a3-9088-17477f475788",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Wrathful_Procession.stratagems.Brute_Fervour.target",
-          "when": "detachments.Wrathful_Procession.stratagems.Brute_Fervour.when",
-          "effect": "detachments.Wrathful_Procession.stratagems.Brute_Fervour.effect",
+          "target": "detachments.Wrathful_Procession.stratagems.Pious_Enmity.target",
+          "when": "detachments.Wrathful_Procession.stratagems.Pious_Enmity.when",
+          "effect": "detachments.Wrathful_Procession.stratagems.Pious_Enmity.effect",
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
@@ -3491,223 +4113,227 @@
             "shooting"
           ],
           "faction_id": "CHBT",
-          "fluff": "detachments.Wrathful_Procession.stratagems.Brute_Fervour.fluff"
+          "fluff": "detachments.Wrathful_Procession.stratagems.Pious_Enmity.fluff"
         },
         {
-          "name": "detachments.Wrathful_Procession.stratagems.Fuelled_by_Wrath.name",
+          "name": "detachments.Wrathful_Procession.stratagems.Litanies_of_Purgation.name",
           "id": "82338bda-cea9-5506-bef9-382d4699bd4e",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Wrathful_Procession.stratagems.Armour_of_Contempt.target",
-          "when": "detachments.Wrathful_Procession.stratagems.Armour_of_Contempt.when",
-          "effect": "detachments.Wrathful_Procession.stratagems.Fuelled_by_Wrath.effect",
+          "target": "detachments.Vindication_Task_Force.stratagems.Devout_Push.target",
+          "when": "detachments.Vindication_Task_Force.stratagems.Devout_Push.when",
+          "effect": "detachments.Wrathful_Procession.stratagems.Litanies_of_Purgation.effect",
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
             "fight"
           ],
           "faction_id": "CHBT",
-          "fluff": "detachments.Wrathful_Procession.stratagems.Fuelled_by_Wrath.fluff"
+          "fluff": "detachments.Wrathful_Procession.stratagems.Litanies_of_Purgation.fluff"
         },
         {
-          "name": "detachments.Wrathful_Procession.stratagems.Armour_of_Contempt.name",
+          "name": "detachments.Wrathful_Procession.stratagems.Spoor_of_the_Unholy.name",
           "id": "6a584481-c638-5e98-a89f-014eb8517a1e",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Wrathful_Procession.stratagems.Armour_of_Contempt.target",
-          "when": "detachments.Wrathful_Procession.stratagems.Armour_of_Contempt.when",
-          "effect": "detachments.Wrathful_Procession.stratagems.Armour_of_Contempt.effect",
+          "target": "detachments.Wrathful_Procession.stratagems.Spoor_of_the_Unholy.target",
+          "when": "detachments.Vindication_Task_Force.stratagems.Devout_Push.when",
+          "effect": "detachments.Wrathful_Procession.stratagems.Spoor_of_the_Unholy.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
           "phase": [
             "fight"
           ],
           "faction_id": "CHBT",
-          "fluff": "detachments.Wrathful_Procession.stratagems.Armour_of_Contempt.fluff"
+          "fluff": "detachments.Wrathful_Procession.stratagems.Spoor_of_the_Unholy.fluff"
         },
         {
-          "name": "detachments.Wrathful_Procession.stratagems.Castigate_the_Demagogues.name",
+          "name": "detachments.Wrathful_Procession.stratagems.Condemnatory_Info_Screed.name",
           "id": "d05b650e-d24c-558c-8fed-12ee843f80c8",
           "cost": 1,
           "turn": "your",
-          "target": "detachments.Wrathful_Procession.stratagems.Castigate_the_Demagogues.target",
-          "when": "detachments.Wrathful_Procession.stratagems.Castigate_the_Demagogues.when",
-          "effect": "detachments.Wrathful_Procession.stratagems.Castigate_the_Demagogues.effect",
+          "target": "detachments.Wrathful_Procession.stratagems.Condemnatory_Info_Screed.target",
+          "when": "detachments.Wrathful_Procession.stratagems.Condemnatory_Info_Screed.when",
+          "effect": "detachments.Wrathful_Procession.stratagems.Condemnatory_Info_Screed.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
           "phase": [
             "command"
           ],
           "faction_id": "CHBT",
-          "fluff": "detachments.Wrathful_Procession.stratagems.Castigate_the_Demagogues.fluff"
+          "fluff": "detachments.Wrathful_Procession.stratagems.Condemnatory_Info_Screed.fluff"
         }
       ]
     },
     {
-      "name": "detachments.Righteous_Crusaders.name",
+      "name": "detachments.Champions_of_Vehemence.name",
       "enhancements": [
         {
-          "name": "detachments.Righteous_Crusaders.enhancements.Perditions_Edge.name",
-          "id": "1bc2b959-8f44-5b82-b577-9803bcf6b35d",
+          "name": "detachments.Champions_of_Vehemence.enhancements.Incendiary_Animus.name",
+          "id": "3637b902-b95a-5aec-bc77-0080847fba1c",
+          "cost": "25",
+          "keywords": [
+            "Judiciar",
+            "Chaplain"
+          ],
+          "excludes": [],
+          "description": "detachments.Champions_of_Vehemence.enhancements.Incendiary_Animus.description",
+          "faction_id": "CHBT",
+          "source": "40k-10e",
+          "cardType": "enhancement"
+        },
+        {
+          "name": "detachments.Champions_of_Vehemence.enhancements.Oathbound_Examplar.name",
+          "id": "5c20a236-3f1c-5190-b044-688ba7fafd8e",
           "cost": "15",
           "keywords": [
-            "Black Templars"
+            "Infantry"
           ],
           "excludes": [],
-          "description": "detachments.Righteous_Crusaders.enhancements.Perditions_Edge.description",
+          "description": "detachments.Champions_of_Vehemence.enhancements.Oathbound_Examplar.description",
           "faction_id": "CHBT",
           "source": "40k-10e",
           "cardType": "enhancement"
         },
         {
-          "name": "detachments.Righteous_Crusaders.enhancements.Witchseeker_Bolts.name",
-          "id": "4548c56f-3d6b-591f-a5f5-64acd2ce85fb",
-          "cost": "10",
+          "name": "detachments.Champions_of_Vehemence.enhancements.Merciless_Denunciation.name",
+          "id": "f794f03b-abad-52c0-80fe-9b64db1cdb34",
+          "cost": "25",
           "keywords": [
-            "Black Templars"
+            "Judiciar",
+            "Chaplain"
           ],
           "excludes": [],
-          "description": "detachments.Righteous_Crusaders.enhancements.Witchseeker_Bolts.description",
+          "description": "detachments.Champions_of_Vehemence.enhancements.Merciless_Denunciation.description",
           "faction_id": "CHBT",
           "source": "40k-10e",
           "cardType": "enhancement"
         },
         {
-          "name": "detachments.Righteous_Crusaders.enhancements.Sigismunds_Seal.name",
-          "id": "8b040e5b-02ea-5f2e-ad01-8d8906e562ce",
+          "name": "detachments.Champions_of_Vehemence.enhancements.Zealous_Vanguard.name",
+          "id": "116217ea-110c-5219-bbd6-f00d2ebd171c",
           "cost": "20",
           "keywords": [
             "Black Templars"
           ],
           "excludes": [],
-          "description": "detachments.Righteous_Crusaders.enhancements.Sigismunds_Seal.description",
+          "description": "detachments.Champions_of_Vehemence.enhancements.Zealous_Vanguard.description",
           "faction_id": "CHBT",
           "source": "40k-10e",
           "cardType": "enhancement"
-        },
-        {
-          "name": "detachments.Righteous_Crusaders.enhancements.Tnnhausers_Bones.name",
-          "id": "ea2cfcb6-196f-5daa-9f05-819fe69780c7",
-          "cost": "35",
-          "keywords": [
-            "Black Templars"
-          ],
-          "excludes": [],
-          "description": "detachments.Righteous_Crusaders.enhancements.Tnnhausers_Bones.description",
-          "faction_id": "CHBT",
-          "source": "40k-10e",
-          "cardType": "enhancement"
-        }
-      ],
-      "rules": [
-        {
-          "name": "detachments.Righteous_Crusaders.rules.0.name",
-          "rule": [
-            {
-              "order": 1,
-              "text": "detachments.Righteous_Crusaders.rules.0.rule.0.text",
-              "type": "text"
-            }
-          ]
         }
       ],
       "stratagems": [
         {
-          "name": "detachments.Wrathful_Procession.stratagems.Brute_Fervour.name",
-          "id": "1e21c885-2bf2-56a3-9088-17477f475788",
+          "name": "detachments.Champions_of_Vehemence.stratagems.Devout_Push.name",
+          "id": "b354885b-c24a-5549-96af-7aa8ed409716",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Wrathful_Procession.stratagems.Brute_Fervour.target",
-          "when": "detachments.Wrathful_Procession.stratagems.Brute_Fervour.when",
-          "effect": "detachments.Wrathful_Procession.stratagems.Brute_Fervour.effect",
-          "restrictions": "",
+          "target": "detachments.Champions_of_Vehemence.stratagems.Devout_Push.target",
+          "when": "detachments.Vindication_Task_Force.stratagems.Devout_Push.when",
+          "effect": "detachments.Champions_of_Vehemence.stratagems.Devout_Push.effect",
+          "restrictions": "detachments.Champions_of_Vehemence.stratagems.Devout_Push.restrictions",
           "type": "Battle Tactic",
           "phase": [
-            "fight",
-            "shooting"
+            "fight"
           ],
           "faction_id": "CHBT",
-          "fluff": "detachments.Righteous_Crusaders.stratagems.Armour_of_Contempt.fluff"
+          "fluff": "detachments.Champions_of_Vehemence.stratagems.Devout_Push.fluff"
         },
         {
-          "name": "detachments.Righteous_Crusaders.stratagems.Crusaders_Wrath.name",
-          "id": "9af5e1e7-e993-5f35-ab15-4a3efcbc3b30",
+          "name": "detachments.Champions_of_Vehemence.stratagems.For_The_Emperors_Honour.name",
+          "id": "7f3e70b6-e5f5-5269-b5dc-9d453ce81597",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Wrathful_Procession.stratagems.Armour_of_Contempt.target",
-          "when": "detachments.Wrathful_Procession.stratagems.Armour_of_Contempt.when",
-          "effect": "detachments.Righteous_Crusaders.stratagems.Crusaders_Wrath.effect",
+          "target": "detachments.Champions_of_Vehemence.stratagems.Devout_Push.target",
+          "when": "detachments.Vindication_Task_Force.stratagems.Devout_Push.when",
+          "effect": "detachments.Wrathful_Procession.stratagems.Litanies_of_Purgation.effect",
           "restrictions": "",
           "type": "Battle Tactic",
           "phase": [
             "fight"
           ],
           "faction_id": "CHBT",
-          "fluff": "detachments.Righteous_Crusaders.stratagems.Crusaders_Wrath.fluff"
+          "fluff": "detachments.Champions_of_Vehemence.stratagems.For_The_Emperors_Honour.fluff"
         },
         {
-          "name": "detachments.Righteous_Crusaders.stratagems.Brute_Fervour.name",
-          "id": "71b2a019-8d60-58da-83e1-ecdd94134a3e",
+          "name": "detachments.Champions_of_Vehemence.stratagems.Pious_Enmity.name",
+          "id": "8755d9f3-35ca-5275-9c9f-de5ab443909e",
           "cost": 1,
           "turn": "either",
-          "target": "detachments.Wrathful_Procession.stratagems.Brute_Fervour.target",
-          "when": "detachments.Righteous_Crusaders.stratagems.Brute_Fervour.when",
-          "effect": "detachments.Righteous_Crusaders.stratagems.Brute_Fervour.effect",
+          "target": "detachments.Champions_of_Vehemence.stratagems.Pious_Enmity.target",
+          "when": "detachments.Vindication_Task_Force.stratagems.Devout_Push.when",
+          "effect": "detachments.Champions_of_Vehemence.stratagems.Pious_Enmity.effect",
           "restrictions": "",
-          "type": "Epic Deed",
+          "type": "Battle Tactic",
           "phase": [
             "fight"
           ],
           "faction_id": "CHBT",
-          "fluff": "detachments.Righteous_Crusaders.stratagems.Brute_Fervour.fluff"
+          "fluff": "detachments.Champions_of_Vehemence.stratagems.Pious_Enmity.fluff"
         },
         {
-          "name": "detachments.Righteous_Crusaders.stratagems.Fuelled_by_Wrath.name",
-          "id": "1ae3c68d-97c3-59d9-9795-b255b477c18f",
+          "name": "detachments.Champions_of_Vehemence.stratagems.Litanies_of_Purgation.name",
+          "id": "05023b5d-fe88-5af4-9267-a70a11d06196",
           "cost": 1,
-          "turn": "your",
-          "target": "detachments.Righteous_Crusaders.stratagems.Fuelled_by_Wrath.target",
-          "when": "detachments.Wrathful_Procession.stratagems.Castigate_the_Demagogues.when",
-          "effect": "detachments.Righteous_Crusaders.stratagems.Fuelled_by_Wrath.effect",
+          "turn": "either",
+          "target": "detachments.Champions_of_Vehemence.stratagems.Litanies_of_Purgation.target",
+          "when": "detachments.Champions_of_Vehemence.stratagems.Litanies_of_Purgation.when",
+          "effect": "detachments.Champions_of_Vehemence.stratagems.Litanies_of_Purgation.effect",
           "restrictions": "",
-          "type": "Epic Deed",
+          "type": "Strategic Ploy",
           "phase": [
-            "command"
+            "fight"
           ],
           "faction_id": "CHBT",
-          "fluff": "detachments.Righteous_Crusaders.stratagems.Fuelled_by_Wrath.fluff"
+          "fluff": "detachments.Champions_of_Vehemence.stratagems.Litanies_of_Purgation.fluff"
         },
         {
-          "name": "detachments.Righteous_Crusaders.stratagems.Armour_of_Contempt.name",
-          "id": "136eeb2e-1cb6-50b3-a008-a0edc5f79bb6",
+          "name": "detachments.Champions_of_Vehemence.stratagems.Spoor_of_the_Unholy.name",
+          "id": "1145d313-41ba-5117-be0c-08d2a5c6d418",
           "cost": 1,
           "turn": "opponents",
-          "target": "detachments.Righteous_Crusaders.stratagems.Armour_of_Contempt.target",
-          "when": "detachments.Righteous_Crusaders.stratagems.Armour_of_Contempt.when",
-          "effect": "detachments.Righteous_Crusaders.stratagems.Armour_of_Contempt.effect",
+          "target": "detachments.Champions_of_Vehemence.stratagems.Spoor_of_the_Unholy.target",
+          "when": "detachments.Champions_of_Vehemence.stratagems.Spoor_of_the_Unholy.when",
+          "effect": "detachments.Champions_of_Vehemence.stratagems.Spoor_of_the_Unholy.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
           "phase": [
             "movement"
           ],
           "faction_id": "CHBT",
-          "fluff": "detachments.Righteous_Crusaders.stratagems.Armour_of_Contempt.fluff"
+          "fluff": "detachments.Champions_of_Vehemence.stratagems.Spoor_of_the_Unholy.fluff"
         },
         {
-          "name": "detachments.Righteous_Crusaders.stratagems.Castigate_the_Demagogues.name",
-          "id": "b354885b-c24a-5549-96af-7aa8ed409716",
+          "name": "detachments.Champions_of_Vehemence.stratagems.Condemnatory_Info_Screed.name",
+          "id": "5f94c472-b745-5e81-83ee-ee2fb2a08a35",
           "cost": 1,
           "turn": "opponents",
-          "target": "detachments.Righteous_Crusaders.stratagems.Castigate_the_Demagogues.target",
-          "when": "detachments.Righteous_Crusaders.stratagems.Castigate_the_Demagogues.when",
-          "effect": "detachments.Righteous_Crusaders.stratagems.Castigate_the_Demagogues.effect",
+          "target": "detachments.Champions_of_Vehemence.stratagems.Condemnatory_Info_Screed.target",
+          "when": "detachments.Champions_of_Vehemence.stratagems.Condemnatory_Info_Screed.when",
+          "effect": "detachments.Champions_of_Vehemence.stratagems.Condemnatory_Info_Screed.effect",
           "restrictions": "",
           "type": "Strategic Ploy",
           "phase": [
-            "shooting"
+            "charge"
           ],
           "faction_id": "CHBT",
-          "fluff": "detachments.Righteous_Crusaders.stratagems.Castigate_the_Demagogues.fluff"
+          "fluff": "detachments.Champions_of_Vehemence.stratagems.Condemnatory_Info_Screed.fluff"
+        }
+      ]
+    },
+    {
+      "name": "detachments.4.name",
+      "rules": [
+        {
+          "name": "templar_vows",
+          "rule": [
+            {
+              "order": 1,
+              "text": "detachments.4.rules.0.rule.0.text",
+              "type": "text"
+            }
+          ]
         }
       ]
     }
@@ -3718,19 +4344,7 @@
   "parent_id": "SM",
   "parent_keyword": "parent_keyword",
   "rules": {
-    "army": [
-      {
-        "name": "rules.army.oath_of_moment.name",
-        "order": 0,
-        "rule": [
-          {
-            "order": 0,
-            "text": "rules.army.oath_of_moment.rule.0.text",
-            "type": "text"
-          }
-        ]
-      }
-    ]
+    "army": []
   },
-  "updated": "2025-05-29T08:37:07.420Z"
+  "updated": "2025-08-19T17:58:02.432Z"
 }

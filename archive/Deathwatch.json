@@ -1,5 +1,8 @@
 {
-  "allied_factions": ["AoI", "QI"],
+  "allied_factions": [
+    "AoI",
+    "QI"
+  ],
   "colours": {
     "banner": "#232425",
     "header": "#3d3e41"
@@ -8,14 +11,20 @@
   "datasheets": [
     {
       "abilities": {
-        "core": ["Feel No Pain 6+", "Leader"],
+        "core": [
+          "Feel No Pain 6+",
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Mission Tactics", "Oath of Moment"],
+        "faction": [
+          "Mission Tactics",
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -42,8 +51,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Watch Captain Artemis"],
-      "factions": ["Deathwatch"],
+      "composition": [
+        "1 Watch Captain Artemis"
+      ],
+      "factions": [
+        "Deathwatch"
+      ],
       "faction_id": "CHDW",
       "fluff": "Born survivor of a feral world and formerly of the macabre Mortifactors Chapter, Artemis leads a Watch Company of Talasa Prime. Known for his instinct for xenos trickery, he still relishes the prospect of violence, whether with his blade, the mutagenic acid‑fire of Hellfire Extremis or a time‑warping stasis grenade.",
       "id": "8939a3d9-e5c9-5552-96e6-689e5885c77b",
@@ -79,10 +92,9 @@
       "name": "Watch Captain Artemis",
       "points": [
         {
-          "cost": "65",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "65"
         }
       ],
       "rangedWeapons": [
@@ -124,9 +136,14 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
-        "units": ["DEATHWATCH VETERANS", "FORTIS KILL TEAM"],
+        "units": [
+          "DEATHWATCH VETERANS",
+          "FORTIS KILL TEAM"
+        ],
         "extra": ""
       }
     },
@@ -139,7 +156,10 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Mission Tactics", "Oath of Moment"],
+        "faction": [
+          "Mission Tactics",
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -172,7 +192,9 @@
         "0‐3 Kill Team Heavy Intercessors with power fists",
         "0‐3 Kill Team Heavy Intercessors with melta rifles"
       ],
-      "factions": ["Deathwatch"],
+      "factions": [
+        "Deathwatch"
+      ],
       "faction_id": "CHDW",
       "fluff": "Comprising warriors wearing the heavier Gravis variant of Mk X armour, Indomitor Kill Teams are mobile bastions capable of unleashing the firepower of a squadron of battle tanks. Before them, hordes of xenos and monstrous beasts alike are torn apart.",
       "id": "dbdca121-6845-5c9d-9f5f-87bf34e025aa",
@@ -211,7 +233,9 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin power fists",
               "range": "Melee",
               "skill": "3+",
@@ -223,16 +247,9 @@
       "name": "Indomitor Kill Team",
       "points": [
         {
-          "cost": "270",
-          "keyword": null,
-          "models": "16",
-          "active": true
-        },
-        {
-          "cost": "270",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "270"
         }
       ],
       "rangedWeapons": [
@@ -244,7 +261,11 @@
               "ap": "-2",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Lethal Hits", "Heavy", "Assault"],
+              "keywords": [
+                "Lethal Hits",
+                "Heavy",
+                "Assault"
+              ],
               "name": "Deathwatch heavy bolt rifle",
               "range": "30\"",
               "skill": "3+",
@@ -260,7 +281,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -297,7 +320,11 @@
               "ap": "0",
               "attacks": "D6+1",
               "damage": "1",
-              "keywords": ["Twin-linked", "Torrent", "Ignores Cover"],
+              "keywords": [
+                "Twin-linked",
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Flamestorm gauntlets",
               "range": "12\"",
               "skill": "N/A",
@@ -313,7 +340,9 @@
               "ap": "0",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Auto boltstorm gauntlets",
               "range": "18\"",
               "skill": "3+",
@@ -329,7 +358,9 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Fragstorm grenade launcher",
               "range": "18\"",
               "skill": "3+",
@@ -345,7 +376,10 @@
               "ap": "-4",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["Melta 2", "Heavy"],
+              "keywords": [
+                "Melta 2",
+                "Heavy"
+              ],
               "name": "Melta rifle",
               "range": "18\"",
               "skill": "3+",
@@ -361,7 +395,10 @@
               "ap": "-4",
               "attacks": "2",
               "damage": "D6",
-              "keywords": ["Melta 2", "Heavy"],
+              "keywords": [
+                "Melta 2",
+                "Heavy"
+              ],
               "name": "Multi-melta",
               "range": "18\"",
               "skill": "4+",
@@ -401,7 +438,10 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Mission Tactics", "Oath of Moment"],
+        "faction": [
+          "Mission Tactics",
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -442,8 +482,13 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Watch Sergeant", "4‐9 Deathwatch Veterans"],
-      "factions": ["Deathwatch"],
+      "composition": [
+        "1 Watch Sergeant",
+        "4‐9 Deathwatch Veterans"
+      ],
+      "factions": [
+        "Deathwatch"
+      ],
       "faction_id": "CHDW",
       "fluff": "Deathwatch Veterans’ skills have been honed in their former Chapter for decades, sometimes centuries. Throughout their long vigil against the manifold xenos threats, each Veteran learns to arm himself so as to best contribute to the mission at hand, and squads carry an array of weapons to fell any foe.",
       "id": "c48b1394-4b28-5f92-95c4-b78096646206",
@@ -482,7 +527,9 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "3",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Deathwatch thunder hammer",
               "range": "Melee",
               "skill": "4+",
@@ -514,7 +561,9 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Black Shield blades",
               "range": "Melee",
               "skill": "3+",
@@ -530,7 +579,9 @@
               "ap": "-2",
               "attacks": "4",
               "damage": "1",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Xenophase blade",
               "range": "Melee",
               "skill": "3+",
@@ -542,16 +593,14 @@
       "name": "Deathwatch Veterans",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "100"
         },
         {
-          "cost": "100",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -599,7 +648,10 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Precision", "Heavy"],
+              "keywords": [
+                "Precision",
+                "Heavy"
+              ],
               "name": "Stalker-pattern boltgun",
               "range": "24\"",
               "skill": "3+",
@@ -615,7 +667,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Assault"],
+              "keywords": [
+                "Assault"
+              ],
               "name": "Deathwatch shotgun",
               "range": "18\"",
               "skill": "3+",
@@ -631,7 +685,11 @@
               "ap": "-1",
               "attacks": "D3",
               "damage": "2",
-              "keywords": ["Rapid Fire D3", "Heavy", "Blast"],
+              "keywords": [
+                "Rapid Fire D3",
+                "Heavy",
+                "Blast"
+              ],
               "name": "Frag cannon",
               "range": "18\"",
               "skill": "4+",
@@ -647,7 +705,10 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Sustained Hits 1", "Heavy"],
+              "keywords": [
+                "Sustained Hits 1",
+                "Heavy"
+              ],
               "name": "Infernus heavy bolter – Heavy bolter",
               "range": "36\"",
               "skill": "4+",
@@ -658,7 +719,10 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Infernus heavy bolter – Heavy flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -706,18 +770,26 @@
         "For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with 1 Deathwatch thunder hammer.",
         "For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with one of the following: ◦ 1 boltgun and 1 Astartes shield ◦ 1 power weapon and 1 Astartes shield"
       ],
-      "leadBy": ["Watch Captain Artemis", "Watch Master"]
+      "leadBy": [
+        "Watch Captain Artemis",
+        "Watch Master"
+      ]
     },
     {
       "abilities": {
-        "core": ["Deep Strike"],
+        "core": [
+          "Deep Strike"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Mission Tactics", "Oath of Moment"],
+        "faction": [
+          "Mission Tactics",
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -750,7 +822,9 @@
         "2‐9 Kill Team Intercessors with Jump Packs",
         "0‐5 Kill Team Heavy Intercessors with Jump Packs"
       ],
-      "factions": ["Deathwatch"],
+      "factions": [
+        "Deathwatch"
+      ],
       "faction_id": "CHDW",
       "fluff": "Diving from gunships or advancing in powered leaps across a war zone, the battle‑brothers of a Talonstrike Kill Team crush their prey in shockingly sudden assaults. They attack with howling chainswords and blasts of heavy, short‑range firepower. The roar of their jump packs follows each rapid kill as they close on their next targets.",
       "id": "926f1ddd-17f1-5f70-83d9-33661e46e7c9",
@@ -834,16 +908,9 @@
       "name": "Talonstrike Kill Team",
       "points": [
         {
-          "cost": "290",
-          "keyword": null,
-          "models": "15",
-          "active": true
-        },
-        {
-          "cost": "290",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "290"
         }
       ],
       "rangedWeapons": [
@@ -855,7 +922,9 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Heavy bolt pistol",
               "range": "18\"",
               "skill": "3+",
@@ -871,7 +940,11 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Pistol", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Pistol",
+                "Ignores Cover"
+              ],
               "name": "Hand flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -887,7 +960,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Plasma pistol – Standard",
               "range": "12\"",
               "skill": "3+",
@@ -898,7 +973,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Pistol", "Hazardous"],
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
               "name": "Plasma pistol – Supercharge",
               "range": "12\"",
               "skill": "3+",
@@ -935,7 +1013,11 @@
               "ap": "-2",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Twin-linked", "Pistol", "Assault"],
+              "keywords": [
+                "Twin-linked",
+                "Pistol",
+                "Assault"
+              ],
               "name": "Plasma exterminators – Standard",
               "range": "18\"",
               "skill": "3+",
@@ -946,7 +1028,12 @@
               "ap": "-3",
               "attacks": "2",
               "damage": "3",
-              "keywords": ["Twin-linked", "Hazardous", "Pistol", "Assault"],
+              "keywords": [
+                "Twin-linked",
+                "Hazardous",
+                "Pistol",
+                "Assault"
+              ],
               "name": "Plasma exterminators – Supercharge",
               "range": "18\"",
               "skill": "3+",
@@ -992,14 +1079,19 @@
     },
     {
       "abilities": {
-        "core": ["Leader"],
+        "core": [
+          "Leader"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Mission Tactics", "Oath of Moment"],
+        "faction": [
+          "Mission Tactics",
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1026,8 +1118,12 @@
         "wargear": []
       },
       "cardType": "DataCard",
-      "composition": ["1 Watch Master"],
-      "factions": ["Deathwatch"],
+      "composition": [
+        "1 Watch Master"
+      ],
+      "factions": [
+        "Deathwatch"
+      ],
       "faction_id": "CHDW",
       "fluff": "The galaxy’s foremost xenos hunters, each Watch Master commands one of the Chapter’s vigilant fortresses. These leaders possess centuries of strategic and esoteric knowledge of the horrors assailing Mankind. In battle, the crackling blades and tailored bolts of their vigil spears destroy any xenos before them.",
       "id": "10af0717-f94a-5ae6-90f3-427da01cbe73",
@@ -1050,7 +1146,9 @@
               "ap": "-2",
               "attacks": "6",
               "damage": "D3",
-              "keywords": ["Lance"],
+              "keywords": [
+                "Lance"
+              ],
               "name": "Vigil spear – Melee",
               "range": "Melee",
               "skill": "2+",
@@ -1062,10 +1160,9 @@
       "name": "Watch Master",
       "points": [
         {
-          "cost": "105",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "105"
         }
       ],
       "rangedWeapons": [
@@ -1102,22 +1199,34 @@
         }
       ],
       "transport": "",
-      "wargear": ["None"],
+      "wargear": [
+        "None"
+      ],
       "leads": {
-        "units": ["DEATHWATCH VETERANS", "FORTIS KILL TEAM"],
+        "units": [
+          "DEATHWATCH VETERANS",
+          "FORTIS KILL TEAM"
+        ],
         "extra": ""
       }
     },
     {
       "abilities": {
-        "core": ["Deadly Demise D6", "Hover", "Stealth"],
+        "core": [
+          "Deadly Demise D6",
+          "Hover",
+          "Stealth"
+        ],
         "damaged": {
           "range": "1-5 WOUNDS REMAINING",
           "description": "While this model has 1‐5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
           "showDamagedAbility": true,
           "showDescription": true
         },
-        "faction": ["Mission Tactics", "Oath of Moment"],
+        "faction": [
+          "Mission Tactics",
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1151,8 +1260,12 @@
         ]
       },
       "cardType": "DataCard",
-      "composition": ["1 Corvus Blackstar"],
-      "factions": ["Deathwatch"],
+      "composition": [
+        "1 Corvus Blackstar"
+      ],
+      "factions": [
+        "Deathwatch"
+      ],
       "faction_id": "CHDW",
       "fluff": "Corvus Blackstars are sleek and shrouded aircraft used to insert kill teams into heavily infested landing zones or even xenos strongholds. With a barrage of missiles, Blackstars secure aerial supremacy and sweep the target site clear before firing their hover jets and delivering their deadly payload of elite warriors.",
       "id": "a6d0dca5-9c60-57c5-9977-cb5ce5b0ea78",
@@ -1187,10 +1300,9 @@
       "name": "Corvus Blackstar",
       "points": [
         {
-          "cost": "180",
-          "keyword": null,
-          "models": "1",
-          "active": true
+          "name": "model",
+          "model": "1",
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -1202,7 +1314,10 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": ["Twin-linked", "Devastating Wounds"],
+              "keywords": [
+                "Twin-linked",
+                "Devastating Wounds"
+              ],
               "name": "Twin assault cannon",
               "range": "24\"",
               "skill": "3+",
@@ -1218,7 +1333,9 @@
               "ap": "0",
               "attacks": "D6+1",
               "damage": "1",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Blackstar rocket launcher",
               "range": "30\"",
               "skill": "3+",
@@ -1234,7 +1351,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin lascannon",
               "range": "48\"",
               "skill": "3+",
@@ -1266,7 +1385,10 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": ["Twin-linked", "Rapid Fire 6"],
+              "keywords": [
+                "Twin-linked",
+                "Rapid Fire 6"
+              ],
               "name": "Hurricane bolter",
               "range": "24\"",
               "skill": "3+",
@@ -1300,14 +1422,19 @@
     },
     {
       "abilities": {
-        "core": ["Deep Strike"],
+        "core": [
+          "Deep Strike"
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Mission Tactics", "Oath of Moment"],
+        "faction": [
+          "Mission Tactics",
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1358,7 +1485,9 @@
         "1 Deathwatch Terminator Sergeant",
         "4‑9 Deathwatch Terminators"
       ],
-      "factions": ["Deathwatch"],
+      "factions": [
+        "Deathwatch"
+      ],
       "faction_id": "CHDW",
       "fluff": "The indomitable warriors honoured to wear hulking suits of Terminator armour are an inspiring sight to their brethren. Deathwatch Terminators carry the most powerful close combat weapons, and the strength and durability of their armour allows them to take the heaviest firepower directly into hidden xenos lairs.",
       "id": "4f308a36-978b-5a6e-af9f-88b23662e882",
@@ -1412,7 +1541,9 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Anti-vehicle 3+"],
+              "keywords": [
+                "Anti-vehicle 3+"
+              ],
               "name": "Chainfist",
               "range": "Melee",
               "skill": "4+",
@@ -1428,7 +1559,9 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Thunder hammer",
               "range": "Melee",
               "skill": "4+",
@@ -1444,7 +1577,9 @@
               "ap": "-2",
               "attacks": "5",
               "damage": "1",
-              "keywords": ["Twin-linked"],
+              "keywords": [
+                "Twin-linked"
+              ],
               "name": "Twin lightning claws",
               "range": "Melee",
               "skill": "3+",
@@ -1456,16 +1591,14 @@
       "name": "Deathwatch Terminator Squad",
       "points": [
         {
-          "cost": "350",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "5",
+          "cost": "190"
         },
         {
-          "cost": "190",
-          "keyword": null,
-          "models": "5",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "350"
         }
       ],
       "rangedWeapons": [
@@ -1477,7 +1610,9 @@
               "ap": "0",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Rapid Fire 2"],
+              "keywords": [
+                "Rapid Fire 2"
+              ],
               "name": "Storm bolter",
               "range": "24\"",
               "skill": "3+",
@@ -1493,7 +1628,9 @@
               "ap": "0",
               "attacks": "6",
               "damage": "1",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Assault Cannon",
               "range": "24\"",
               "skill": "3+",
@@ -1509,7 +1646,10 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Heavy flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -1525,7 +1665,9 @@
               "ap": "-2",
               "attacks": "D3",
               "damage": "1",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Plasma cannon – Standard",
               "range": "36\"",
               "skill": "3+",
@@ -1536,7 +1678,10 @@
               "ap": "-3",
               "attacks": "D3",
               "damage": "2",
-              "keywords": ["Blast", "Hazardous"],
+              "keywords": [
+                "Blast",
+                "Hazardous"
+              ],
               "name": "Plasma cannon – Supercharge",
               "range": "36\"",
               "skill": "3+",
@@ -1563,7 +1708,9 @@
               "ap": "0",
               "attacks": "2D6",
               "damage": "1",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Cyclone missile launcher – Frag",
               "range": "36\"",
               "skill": "3+",
@@ -1602,7 +1749,10 @@
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Mission Tactics", "Oath of Moment"],
+        "faction": [
+          "Mission Tactics",
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -1638,7 +1788,9 @@
         "0‑4 Kill Team Intercessors with pyreblasters&x20;",
         "0‑2 Kill Team Intercessors with superfrag rocket launchers&x20;"
       ],
-      "factions": ["Deathwatch"],
+      "factions": [
+        "Deathwatch"
+      ],
       "faction_id": "CHDW",
       "fluff": "Further refined from Watch Master Mordelai’s original concept, Fortis Kill Teams exemplify the supreme adaptability of the Tacticus variant of Mk X power armour, seamlessly merging a variety of close support roles and deadly firepower.",
       "id": "6d6d7954-6b4c-5b5e-ab5f-b972bf64503e",
@@ -1725,7 +1877,9 @@
               "ap": "-2",
               "attacks": "3",
               "damage": "2",
-              "keywords": ["Devastating Wounds"],
+              "keywords": [
+                "Devastating Wounds"
+              ],
               "name": "Thunder hammer",
               "range": "Melee",
               "skill": "4+",
@@ -1737,16 +1891,9 @@
       "name": "Fortis Kill Team",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "24",
-          "active": true
-        },
-        {
-          "cost": "200",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -1758,7 +1905,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -1774,7 +1923,11 @@
               "ap": "-2",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Lethal Hits", "Heavy", "Assault"],
+              "keywords": [
+                "Lethal Hits",
+                "Heavy",
+                "Assault"
+              ],
               "name": "Deathwatch bolt rifle",
               "range": "24\"",
               "skill": "3+",
@@ -1790,7 +1943,10 @@
               "ap": "0",
               "attacks": "D3",
               "damage": "1",
-              "keywords": ["Indirect Fire", "Blast"],
+              "keywords": [
+                "Indirect Fire",
+                "Blast"
+              ],
               "name": "Castellan launcher",
               "range": "36\"",
               "skill": "3+",
@@ -1806,7 +1962,10 @@
               "ap": "0",
               "attacks": "D6+1",
               "damage": "1",
-              "keywords": ["Heavy", "Blast"],
+              "keywords": [
+                "Heavy",
+                "Blast"
+              ],
               "name": "Superfrag rocket launcher",
               "range": "48\"",
               "skill": "4+",
@@ -1822,7 +1981,10 @@
               "ap": "-1",
               "attacks": "D6",
               "damage": "2",
-              "keywords": ["Indirect Fire", "Blast"],
+              "keywords": [
+                "Indirect Fire",
+                "Blast"
+              ],
               "name": "Vengor launcher",
               "range": "48\"",
               "skill": "2+",
@@ -1838,7 +2000,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "D6+1",
-              "keywords": ["Heavy"],
+              "keywords": [
+                "Heavy"
+              ],
               "name": "Superkrak rocket launcher",
               "range": "48\"",
               "skill": "4+",
@@ -1854,7 +2018,9 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Heavy bolt pistol",
               "range": "18\"",
               "skill": "3+",
@@ -1870,7 +2036,11 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Pistol", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Pistol",
+                "Ignores Cover"
+              ],
               "name": "Hand flamer",
               "range": "12\"",
               "skill": "N/A",
@@ -1886,7 +2056,9 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Plasma pistol – Standard",
               "range": "12\"",
               "skill": "3+",
@@ -1897,7 +2069,10 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "2",
-              "keywords": ["Pistol", "Hazardous"],
+              "keywords": [
+                "Pistol",
+                "Hazardous"
+              ],
               "name": "Plasma pistol – Supercharge",
               "range": "12\"",
               "skill": "3+",
@@ -1924,7 +2099,9 @@
               "ap": "0",
               "attacks": "D3",
               "damage": "1",
-              "keywords": ["Blast"],
+              "keywords": [
+                "Blast"
+              ],
               "name": "Astartes grenade launcher – Frag",
               "range": "24\"",
               "skill": "3+",
@@ -1940,7 +2117,10 @@
               "ap": "-2",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Heavy", "Assault"],
+              "keywords": [
+                "Heavy",
+                "Assault"
+              ],
               "name": "Plasma incinerator – Standard",
               "range": "24\"",
               "skill": "3+",
@@ -1951,7 +2131,11 @@
               "ap": "-3",
               "attacks": "2",
               "damage": "2",
-              "keywords": ["Hazardous", "Heavy", "Assault"],
+              "keywords": [
+                "Hazardous",
+                "Heavy",
+                "Assault"
+              ],
               "name": "Plasma incinerator – Supercharge",
               "range": "24\"",
               "skill": "3+",
@@ -1967,7 +2151,10 @@
               "ap": "0",
               "attacks": "D6",
               "damage": "1",
-              "keywords": ["Torrent", "Ignores Cover"],
+              "keywords": [
+                "Torrent",
+                "Ignores Cover"
+              ],
               "name": "Pyreblaster",
               "range": "12\"",
               "skill": "N/A",
@@ -2000,18 +2187,27 @@
         "The Kill Team Sergeant can replace its close combat weapon with one of the following: ◦ 1 Astartes chainsword ◦ 1 power fist ◦ 1 power weapon ◦ 1 thunder hammer",
         "The Kill Team Sergeant can replace its Deathwatch bolt rifle with one of the following: ◦ 1 Astartes chainsword ◦ 1 hand flamer ◦ 1 plasma pistol ◦ 1 power weapon"
       ],
-      "leadBy": ["Watch Captain Artemis", "Watch Master"]
+      "leadBy": [
+        "Watch Captain Artemis",
+        "Watch Master"
+      ]
     },
     {
       "abilities": {
-        "core": ["Infiltrators", "Scouts 6\""],
+        "core": [
+          "Infiltrators",
+          "Scouts 6\""
+        ],
         "damaged": {
           "description": "",
           "range": "",
           "showDamagedAbility": false,
           "showDescription": true
         },
-        "faction": ["Mission Tactics", "Oath of Moment"],
+        "faction": [
+          "Mission Tactics",
+          "Oath of Moment"
+        ],
         "invul": {
           "info": "",
           "showAtTop": true,
@@ -2064,7 +2260,9 @@
         "0‐4 Kill Team Infiltrators with Deathwatch occulus bolt carbines",
         "0‐4 Kill Team Infiltrators with combat knives"
       ],
-      "factions": ["Deathwatch"],
+      "factions": [
+        "Deathwatch"
+      ],
       "faction_id": "CHDW",
       "fluff": "Sinister, silent and all but invisible until they strike, Spectrus Kill Teams are adept in inflicting death from both near and far. Clad in close‐fitting Mk X Phobos battle plate, they specialise in battlefield control and enemy destabilisation.",
       "id": "55e4e25e-f3a5-5d16-919f-b82aa3e7a00f",
@@ -2104,7 +2302,9 @@
               "ap": "-1",
               "attacks": "3",
               "damage": "1",
-              "keywords": ["Sustained Hits 1"],
+              "keywords": [
+                "Sustained Hits 1"
+              ],
               "name": "Paired combat blades",
               "range": "Melee",
               "skill": "3+",
@@ -2120,7 +2320,9 @@
               "ap": "-1",
               "attacks": "4",
               "damage": "1",
-              "keywords": ["Precision"],
+              "keywords": [
+                "Precision"
+              ],
               "name": "Combat knife",
               "range": "Melee",
               "skill": "3+",
@@ -2132,16 +2334,9 @@
       "name": "Spectrus Kill Team",
       "points": [
         {
-          "cost": "200",
-          "keyword": null,
-          "models": "21",
-          "active": true
-        },
-        {
-          "cost": "200",
-          "keyword": null,
-          "models": "10",
-          "active": true
+          "name": "model",
+          "model": "10",
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -2153,7 +2348,9 @@
               "ap": "0",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Pistol"],
+              "keywords": [
+                "Pistol"
+              ],
               "name": "Bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -2169,7 +2366,10 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Lethal Hits", "Heavy"],
+              "keywords": [
+                "Lethal Hits",
+                "Heavy"
+              ],
               "name": "Deathwatch marksman bolt carbine",
               "range": "24\"",
               "skill": "3+",
@@ -2185,7 +2385,10 @@
               "ap": "-2",
               "attacks": "1",
               "damage": "3",
-              "keywords": ["Precision", "Heavy"],
+              "keywords": [
+                "Precision",
+                "Heavy"
+              ],
               "name": "Bolt sniper rifle",
               "range": "36\"",
               "skill": "3+",
@@ -2201,7 +2404,9 @@
               "ap": "-3",
               "attacks": "1",
               "damage": "D6",
-              "keywords": ["Heavy"],
+              "keywords": [
+                "Heavy"
+              ],
               "name": "Las fusil",
               "range": "36\"",
               "skill": "3+",
@@ -2217,7 +2422,11 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Lethal Hits", "Ignores Cover", "Assault"],
+              "keywords": [
+                "Lethal Hits",
+                "Ignores Cover",
+                "Assault"
+              ],
               "name": "Deathwatch occulus bolt carbine",
               "range": "24\"",
               "skill": "3+",
@@ -2233,7 +2442,10 @@
               "ap": "-1",
               "attacks": "1",
               "damage": "1",
-              "keywords": ["Precision", "Pistol"],
+              "keywords": [
+                "Precision",
+                "Pistol"
+              ],
               "name": "Special-issue bolt pistol",
               "range": "12\"",
               "skill": "3+",
@@ -2249,7 +2461,10 @@
               "ap": "-1",
               "attacks": "2",
               "damage": "1",
-              "keywords": ["Precision", "Lethal Hits"],
+              "keywords": [
+                "Precision",
+                "Lethal Hits"
+              ],
               "name": "Deathwatch bolt carbine",
               "range": "24\"",
               "skill": "3+",
@@ -2282,13 +2497,17 @@
       ]
     }
   ],
-  "detachments": ["Black Spear Task Force"],
+  "detachments": [
+    "Black Spear Task Force"
+  ],
   "enhancements": [
     {
       "name": "Thief of Secrets",
       "id": "8727598c-ebe1-549d-8275-c8caeab0a5c2",
       "cost": "25",
-      "keywords": ["Deathwatch"],
+      "keywords": [
+        "Deathwatch"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. Improve the Strength, Damage and Armour Penetration characteristics of the bearer’s melee weapons by 1. At the end of the Fight phase, if one or more enemy models were destroyed as a result of a melee attack made by the bearer this phase, until the end of the battle, improve the Strength, Damage and Armour Penetration characteristics of the bearer’s melee weapons by 2 instead.",
       "faction_id": "CHDW",
@@ -2300,7 +2519,10 @@
       "name": "Osseus Key",
       "id": "6204707b-96c1-598b-8007-b7b64f51f7ca",
       "cost": "15",
-      "keywords": ["Watch Master", "Techmarine"],
+      "keywords": [
+        "Watch Master",
+        "Techmarine"
+      ],
       "excludes": [],
       "description": "WATCH MASTER or TECHMARINE model only. At the start of your opponent’s Shooting phase, select one enemy VEHICLE unit (excluding TITANIC units) within 12\" of and visible to the bearer. That unit must take a Leadership test. If that test is passed, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll; if that test is failed, that unit is not eligible to shoot this phase.",
       "faction_id": "CHDW",
@@ -2312,7 +2534,9 @@
       "name": "Beacon Angelis",
       "id": "2c66d7b1-c513-567b-91e3-cf1be40a31c5",
       "cost": "25",
-      "keywords": ["Deathwatch"],
+      "keywords": [
+        "Deathwatch"
+      ],
       "excludes": [],
       "description": "ADEPTUS ASTARTES model only. Models in the bearer’s unit have the Deep Strike ability. In addition, you can target the bearer’s unit with the Rapid Ingress Stratagem for 0CP.",
       "faction_id": "CHDW",
@@ -2324,7 +2548,10 @@
       "name": "The Tome of Ectoclades",
       "id": "755fc770-c8f2-5692-a2ae-a7a1c4c10390",
       "cost": "30",
-      "keywords": ["Watch Master", "Captain"],
+      "keywords": [
+        "Watch Master",
+        "Captain"
+      ],
       "excludes": [],
       "description": "WATCH MASTER or CAPTAIN model only. Once per battle, after you have selected your Oath of Moment target, the bearer can use this Enhancement. If it does, select a second enemy unit to be an Oath of Moment target.\n\nDesigner’s Note: This means that each time a model with the Oath of Moment ability makes an attack that targets either of your Oath of Moment targets, you can re-roll the Hit roll.",
       "faction_id": "CHDW",
@@ -2407,7 +2634,10 @@
       "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
       "restrictions": "",
       "type": "Battle Tactic",
-      "phase": ["fight", "shooting"],
+      "phase": [
+        "fight",
+        "shooting"
+      ],
       "faction_id": "CHDW",
       "fluff": "The belligerency and transhuman physiologies of the Adeptus Astartes make them unyielding foes.",
       "detachment": "Black Spear Task Force"
@@ -2422,7 +2652,9 @@
       "effect": "For each unit targeted, select Furor Tactics, Malleus Tactics or Purgatus Tactics. Until the start of your next Command phase, that Mission Tactic is active for that unit instead of any Mission Tactic that is active for your army.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["command"],
+      "phase": [
+        "command"
+      ],
       "faction_id": "CHDW",
       "fluff": "Only a truly versatile approach to warfare allows the tactical genius of the Deathwatch to best the myriad xenos foes they face.",
       "detachment": "Black Spear Task Force"
@@ -2437,7 +2669,9 @@
       "effect": "Remove those units from the battlefield and place them into Strategic Reserves. Until the end of your next Movement phase, models in those units that do not have the Deep Strike ability have the Deep Strike ability.",
       "restrictions": "",
       "type": "Strategic Ploy",
-      "phase": ["fight"],
+      "phase": [
+        "fight"
+      ],
       "faction_id": "CHDW",
       "fluff": "Site-to-site battlefield teleportation is a rare capability indeed, used only by the Deathwatch in extreme situations.",
       "detachment": "Black Spear Task Force"
@@ -2452,7 +2686,9 @@
       "effect": "Until the end of the phase, ranged weapons (excluding Devastating Wounds weapons) equipped by models in your unit have the [ANTI-INFANTRY 2+] and  [ANTI-MONSTER 5+] abilities.",
       "restrictions": "You cannot select any units that have already been targeted with either the Kraken Rounds or Dragonfire Rounds Stratagems this phase.",
       "type": "Wargear",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "CHDW",
       "fluff": "Hellfire rounds douse their targets in voracious acids that are utterly lethal to organic life.",
       "detachment": "Black Spear Task Force"
@@ -2467,7 +2703,9 @@
       "effect": "Until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in your unit by 1 and improve the Range characteristic of those weapons by 6\"",
       "restrictions": "&x20;You cannot select any units that have already been targeted with either the Dragonfire Rounds or Hellfire Rounds Stratagems this phase",
       "type": "Wargear",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "CHDW",
       "fluff": "Kraken rounds utilise adamantine cores and improved propellants to penetrate the thickest hide.",
       "detachment": "Black Spear Task Force"
@@ -2482,7 +2720,9 @@
       "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [ASSAULT] and [IGNORES COVER] abilities.",
       "restrictions": "You cannot select any units that have already been targeted with either the Kraken Rounds or Hellfire Rounds Stratagems this phase.",
       "type": "Wargear",
-      "phase": ["shooting"],
+      "phase": [
+        "shooting"
+      ],
       "faction_id": "CHDW",
       "fluff": "Dragonfire rounds are designed to explode just before contact, saturating foes in cover with searing gas and flames.",
       "detachment": "Black Spear Task Force"

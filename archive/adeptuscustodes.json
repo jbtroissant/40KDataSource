@@ -7,7 +7,7 @@
     "banner": "#6a0e19",
     "header": "#6d5035"
   },
-  "compatibleDataVersion": 662,
+  "compatibleDataVersion": 687,
   "datasheets": [
     {
       "abilities": {
@@ -1402,12 +1402,12 @@
         {
           "name": "model",
           "model": "9",
-          "cost": "115"
+          "cost": "100"
         },
         {
           "name": "model",
           "model": "10",
-          "cost": "125"
+          "cost": "110"
         }
       ],
       "rangedWeapons": [],
@@ -1972,12 +1972,12 @@
         {
           "name": "model",
           "model": "4",
-          "cost": "170"
+          "cost": "160"
         },
         {
           "name": "model",
           "model": "5",
-          "cost": "215"
+          "cost": "200"
         }
       ],
       "rangedWeapons": [
@@ -2895,7 +2895,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "240"
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -4503,12 +4503,12 @@
         {
           "name": "model",
           "model": "9",
-          "cost": "90"
+          "cost": "75"
         },
         {
           "name": "model",
           "model": "10",
-          "cost": "100"
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -4691,7 +4691,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "130"
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -5926,7 +5926,7 @@
       "turn": "your",
       "target": "One ADEPTUS CUSTODES BATTLELINE unit from your army (excluding ANATHEMA PSYKANA units) within range of an objective marker you control.",
       "when": "Your Movement phase.",
-      "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+      "effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
       "restrictions": "",
       "type": "Strategic Ploy",
       "phase": [
@@ -6022,5 +6022,5 @@
       "detachment": "Shield Host"
     }
   ],
-  "updated": "2025-08-19T17:58:03.585Z"
+  "updated": "2025-09-19T06:40:55.151Z"
 }

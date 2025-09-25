@@ -3,7 +3,7 @@
     "banner": "#175966",
     "header": "#2e5a6a"
   },
-  "compatibleDataVersion": 662,
+  "compatibleDataVersion": 687,
   "datasheets": [
     {
       "abilities": {
@@ -485,7 +485,7 @@
         {
           "name": "model",
           "model": "3",
-          "cost": "130"
+          "cost": "120"
         }
       ],
       "rangedWeapons": [
@@ -3521,7 +3521,7 @@
               "name": "Ion accelerator – Standard",
               "range": "72\"",
               "skill": "4+",
-              "strength": "7"
+              "strength": "9"
             },
             {
               "active": true,
@@ -3534,7 +3534,7 @@
               "name": "Ion accelerator – Overcharge",
               "range": "72\"",
               "skill": "4+",
-              "strength": "8"
+              "strength": "10"
             }
           ]
         },
@@ -3701,7 +3701,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "95"
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -5570,17 +5570,17 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "90"
+          "cost": "80"
         },
         {
           "name": "model",
           "model": "2",
-          "cost": "180"
+          "cost": "170"
         },
         {
           "name": "model",
           "model": "3",
-          "cost": "300"
+          "cost": "270"
         }
       ],
       "rangedWeapons": [
@@ -7119,7 +7119,7 @@
         {
           "name": "model",
           "model": "3",
-          "cost": "150"
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -7243,7 +7243,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "70"
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -7328,7 +7328,7 @@
         "other": [
           {
             "name": "Fieldcraft",
-            "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+            "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
             "showAbility": true,
             "showDescription": true
           }
@@ -10390,5 +10390,5 @@
       "detachment": "Mont’ka"
     }
   ],
-  "updated": "2025-08-19T17:58:03.900Z"
+  "updated": "2025-09-19T06:40:55.542Z"
 }

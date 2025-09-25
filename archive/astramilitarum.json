@@ -7,7 +7,7 @@
     "banner": "#0a2118",
     "header": "#324935"
   },
-  "compatibleDataVersion": 662,
+  "compatibleDataVersion": 687,
   "datasheets": [
     {
       "abilities": {
@@ -675,7 +675,7 @@
         {
           "name": "model",
           "model": "6",
-          "cost": "110"
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -976,7 +976,7 @@
         "other": [
           {
             "name": "Shock Troops",
-            "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+            "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
             "showAbility": true,
             "showDescription": true
           }
@@ -1754,7 +1754,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "150"
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -2846,7 +2846,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "495"
+          "cost": "465"
         }
       ],
       "rangedWeapons": [
@@ -3543,7 +3543,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "265"
+          "cost": "275"
         }
       ],
       "rangedWeapons": [
@@ -4881,7 +4881,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "450"
+          "cost": "420"
         }
       ],
       "rangedWeapons": [
@@ -6908,7 +6908,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "460"
+          "cost": "430"
         }
       ],
       "rangedWeapons": [
@@ -8510,7 +8510,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "445"
+          "cost": "415"
         }
       ],
       "rangedWeapons": [
@@ -8683,7 +8683,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "240"
+          "cost": "250"
         }
       ],
       "rangedWeapons": [
@@ -9495,7 +9495,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "480"
+          "cost": "450"
         }
       ],
       "rangedWeapons": [
@@ -12002,7 +12002,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "450"
+          "cost": "420"
         }
       ],
       "rangedWeapons": [
@@ -13103,7 +13103,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "440"
+          "cost": "410"
         }
       ],
       "rangedWeapons": [
@@ -14313,7 +14313,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "480"
+          "cost": "450"
         }
       ],
       "rangedWeapons": [
@@ -14594,7 +14594,7 @@
         {
           "name": "model",
           "model": "5",
-          "cost": "70"
+          "cost": "60"
         },
         {
           "name": "model",
@@ -22064,5 +22064,5 @@
       "detachment": "Hammer of the Emperor"
     }
   ],
-  "updated": "2025-08-19T17:58:03.195Z"
+  "updated": "2025-09-19T06:40:54.668Z"
 }

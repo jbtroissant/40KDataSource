@@ -7,7 +7,7 @@
     "banner": "#2c290c",
     "header": "#4d560e"
   },
-  "compatibleDataVersion": 662,
+  "compatibleDataVersion": 687,
   "datasheets": [
     {
       "abilities": {
@@ -3673,7 +3673,7 @@
       ],
       "faction_id": "DG",
       "fluff": "Belching stinking gases that hang thick in the air, Myphitic Blight‑haulers use their all‑terrain mobility and heavy armaments to hunt down the enemy’s tanks and provide fire support even in the most dangerous environments. Should the enemy get too close, these Daemon Engines pounce with fanged maws and sprays of bile.",
-      "id": "3fc194d8-90b3-50d8-9092-b99022bf2796",
+      "id": "b8be53ee-dc97-54c2-a384-c109c3ac807e",
       "keywords": [
         "Vehicle",
         "Smoke",
@@ -3704,7 +3704,7 @@
           ]
         }
       ],
-      "name": "Myphitic Blight-Haulers",
+      "name": "Myphitic Blight-haulers",
       "points": [
         {
           "name": "model",
@@ -3791,7 +3791,7 @@
           "active": true,
           "ld": "6+",
           "m": "10\"",
-          "name": "Myphitic Blight-Haulers",
+          "name": "Myphitic Blight-haulers",
           "oc": "3",
           "showDamagedMarker": false,
           "showName": false,
@@ -6297,20 +6297,6 @@
       "detachment": "Mortarion’s Hammer"
     },
     {
-      "name": "Tendrilous Emissions",
-      "id": "0087ac44-7f9c-5f2b-85a8-a690ecdb1b05",
-      "cost": "20",
-      "keywords": [
-        "Lord of Virulence"
-      ],
-      "excludes": [],
-      "description": "LORD OF VIRULENCE only. While the bearer is within 3\" of one or more friendly DEATH GUARD VEHICLE units, the bearer has the Lone Operative ability, and each time one of those VEHICLE units makes a ranged attack that targets an enemy unit visible to the bearer, re-roll a Wound roll of 1.",
-      "faction_id": "DG",
-      "source": "40k-10e",
-      "cardType": "enhancement",
-      "detachment": "Mortarion’s Hammer"
-    },
-    {
       "name": "Plagueveil",
       "id": "80f51c5d-040d-5039-8fea-59cbc4dc05a3",
       "cost": "25",
@@ -6323,6 +6309,20 @@
       "source": "40k-10e",
       "cardType": "enhancement",
       "detachment": "Flyblown Host"
+    },
+    {
+      "name": "Tendrilous Emissions",
+      "id": "0087ac44-7f9c-5f2b-85a8-a690ecdb1b05",
+      "cost": "30",
+      "keywords": [
+        "Lord of Virulence"
+      ],
+      "excludes": [],
+      "description": "LORD OF VIRULENCE only. While the bearer is within 3\" of one or more friendly DEATH GUARD VEHICLE units, the bearer has the Lone Operative ability, and each time one of those VEHICLE units makes a ranged attack that targets an enemy unit visible to the bearer, re-roll a Wound roll of 1.",
+      "faction_id": "DG",
+      "source": "40k-10e",
+      "cardType": "enhancement",
+      "detachment": "Mortarion’s Hammer"
     },
     {
       "name": "Final Ingredient",
@@ -6737,8 +6737,8 @@
       "detachment": "Shamblerot Vectorium"
     },
     {
-      "name": "Grim Repears",
-      "id": "086cf6db-681c-5563-9d2e-5ff5577c564a",
+      "name": "Grim Reapers",
+      "id": "591a464c-b9c9-5456-87c1-08f4c7f14b1e",
       "cost": 1,
       "turn": "either",
       "target": "One TERMINATOR unit from your army that has not been selected to fight this phase.",
@@ -7319,5 +7319,5 @@
       "detachment": "Champions of Contagion"
     }
   ],
-  "updated": "2025-08-19T17:58:01.806Z"
+  "updated": "2025-09-19T06:40:53.018Z"
 }

@@ -3,7 +3,7 @@
     "banner": "#283743",
     "header": "#435d63"
   },
-  "compatibleDataVersion": 662,
+  "compatibleDataVersion": 687,
   "datasheets": [
     {
       "abilities": {
@@ -91,7 +91,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "90"
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -245,12 +245,12 @@
         {
           "name": "model",
           "model": "3",
-          "cost": "100"
+          "cost": "115"
         },
         {
           "name": "model",
           "model": "6",
-          "cost": "220"
+          "cost": "230"
         }
       ],
       "rangedWeapons": [
@@ -989,6 +989,8 @@
       "leadBy": [
         "Ragnar Blackmane",
         "Iron Priest",
+        "Njal Stormcaller",
+        "Ulrik the Slayer",
         "Wolf Guard Battle Leader"
       ]
     },
@@ -1202,7 +1204,7 @@
         "Tacticus",
         "Njal Stormcaller"
       ],
-      "leader": "This model can be attached to the following units: ■ BLOOD CLAWS ■ GREY HUNTERS ■ WOLF GUARD HEADHUNTERS",
+      "leader": "This model can be attached to the following units: ■ BLOOD CLAWS ■ GREY HUNTERS ■ WOLF GUARD HEADTAKERS",
       "loadout": "This model is equipped with: bolt pistol; Living Lightning; Staff of the Stormcaller.",
       "meleeWeapons": [
         {
@@ -1310,7 +1312,7 @@
         "units": [
           "BLOOD CLAWS",
           "GREY HUNTERS",
-          "WOLF GUARD HEADHUNTERS"
+          "WOLF GUARD HEADTAKERS"
         ],
         "extra": ""
       }
@@ -1411,7 +1413,7 @@
         {
           "name": "model",
           "model": "20",
-          "cost": "270"
+          "cost": "285"
         }
       ],
       "rangedWeapons": [
@@ -1553,7 +1555,7 @@
         "Wolf Priest",
         "Ulrik the Slayer"
       ],
-      "leader": "This model can be attached to the following units: ■ BLOOD CLAWS ■ GREY HUNTERS ■ WOLF GUARD HEADHUNTERS",
+      "leader": "This model can be attached to the following units: ■ BLOOD CLAWS ■ GREY HUNTERS ■ WOLF GUARD HEADTAKERS",
       "loadout": "This model is equipped with: plasma pistol; artificer crozius arcanum.",
       "meleeWeapons": [
         {
@@ -1641,7 +1643,7 @@
         "units": [
           "BLOOD CLAWS",
           "GREY HUNTERS",
-          "WOLF GUARD HEADHUNTERS"
+          "WOLF GUARD HEADTAKERS"
         ],
         "extra": ""
       }
@@ -1671,7 +1673,7 @@
         "other": [
           {
             "name": "High King of Fenris",
-            "description": "Once per battle round, in your Movement phase, you can select one friendly SPACE WOLVES unit that is in Strategic Reserves. If you do, until the end of the phase, for the purpose of setting up that unit on the battlefield, treat the current battle round number as being one higher than it actually is.",
+            "description": "Once per battle round, in your Movement phase, you can select one friendly SPACE WOLVES unit that is in Reserves. If you do, until the end of the phase, for the purpose of setting up that unit on the battlefield, treat the current battle round number as being one higher than it actually is.",
             "showAbility": true,
             "showDescription": true
           },
@@ -2862,7 +2864,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "95"
+          "cost": "105"
         }
       ],
       "rangedWeapons": [
@@ -4343,5 +4345,5 @@
       "detachment": "Saga of the Hunter"
     }
   ],
-  "updated": "2025-08-19T17:58:02.512Z"
+  "updated": "2025-09-19T06:40:53.834Z"
 }

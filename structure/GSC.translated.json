@@ -96,7 +96,7 @@
         {
           "name": "model",
           "model": "5",
-          "cost": "75"
+          "cost": "85"
         },
         {
           "name": "model",
@@ -1606,7 +1606,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "85"
+          "cost": "95"
         },
         {
           "name": "model",
@@ -1800,7 +1800,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "80"
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -1927,7 +1927,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "95"
+          "cost": "85"
         }
       ],
       "rangedWeapons": [],
@@ -2733,12 +2733,12 @@
         {
           "name": "model",
           "model": "5",
-          "cost": "80"
+          "cost": "70"
         },
         {
           "name": "model",
           "model": "10",
-          "cost": "160"
+          "cost": "140"
         }
       ],
       "rangedWeapons": [
@@ -3489,7 +3489,7 @@
         {
           "name": "model",
           "model": "10",
-          "cost": "150"
+          "cost": "140"
         }
       ],
       "rangedWeapons": [],
@@ -4529,7 +4529,7 @@
         {
           "name": "detachments.Host_of_Ascension.stratagems.Symbiotic_Destruction.name",
           "id": "fe3aeb57-64ad-538d-a2fe-43e426c64526",
-          "cost": 1,
+          "cost": 2,
           "turn": "either",
           "target": "detachments.Host_of_Ascension.stratagems.Symbiotic_Destruction.target",
           "when": "detachments.Host_of_Ascension.stratagems.Symbiotic_Destruction.when",

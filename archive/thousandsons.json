@@ -7,7 +7,7 @@
     "banner": "#0b3645",
     "header": "#185862"
   },
-  "compatibleDataVersion": 662,
+  "compatibleDataVersion": 687,
   "datasheets": [
     {
       "abilities": {
@@ -417,7 +417,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "160"
+          "cost": "175"
         }
       ],
       "rangedWeapons": [
@@ -561,7 +561,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "240"
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -765,7 +765,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "55"
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -1015,7 +1015,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "75"
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -1671,7 +1671,7 @@
         {
           "name": "model",
           "model": "5",
-          "cost": "100"
+          "cost": "105"
         },
         {
           "name": "model",
@@ -1919,7 +1919,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "85"
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -2096,12 +2096,12 @@
         {
           "name": "model",
           "model": "3",
-          "cost": "50"
+          "cost": "55"
         },
         {
           "name": "model",
           "model": "6",
-          "cost": "80"
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -2223,12 +2223,12 @@
         {
           "name": "model",
           "model": "3",
-          "cost": "50"
+          "cost": "60"
         },
         {
           "name": "model",
           "model": "6",
-          "cost": "80"
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -2374,7 +2374,7 @@
         {
           "name": "model",
           "model": "10",
-          "cost": "375"
+          "cost": "360"
         }
       ],
       "rangedWeapons": [
@@ -2642,7 +2642,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "420"
+          "cost": "435"
         }
       ],
       "rangedWeapons": [
@@ -3582,12 +3582,12 @@
         {
           "name": "model",
           "model": "2",
-          "cost": "90"
+          "cost": "80"
         },
         {
           "name": "model",
           "model": "4",
-          "cost": "180"
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -4193,7 +4193,7 @@
           },
           {
             "name": "Marked by Fate (Psychic)",
-            "description": "In your Shooting phase, after this model’s unit has shot, select one enemy unit hit by one or more of those attacks made with a Psychic weapon. Until the end of the phase, each time a friendly THOUSAND SONS unit makes an attack that targets that enemy unit, add 1 to the Hit roll.",
+            "description": "At the start of your Shooting phase, select one enemy unit that is visible to this PSYKER model. Until the end of the phase, each time a model in this unit makes an attack that targets that enemy unit, add 1 to the Hit roll.",
             "showAbility": true,
             "showDescription": true
           }
@@ -5998,7 +5998,7 @@
         "Exalted Sorcerer"
       ],
       "excludes": [],
-      "description": "EXALTED SORCERER model only. Once per battle, when selecting a Ritual for the bearer to attempt, you can select Doombolt, even if a model from your army has already manifested that Ritual this phase.",
+      "description": "EXALTED SORCERER model only. Once per battle, when selecting a Ritual for the bearer to attempt, you can select Doombolt, even if a model from your army has already attempted to manifest that Ritual this phase.",
       "faction_id": "TS",
       "source": "40k-10e",
       "cardType": "enhancement",
@@ -6021,7 +6021,7 @@
     {
       "name": "Eldritch Vortex of E’Taph",
       "id": "8178a678-3fdb-5df7-8bc8-1cfe8b8b9018",
-      "cost": "25",
+      "cost": "35",
       "keywords": [
         "Thousand Sons"
       ],
@@ -6438,7 +6438,7 @@
       "turn": "either",
       "target": "One THOUSAND SONS VEHICLE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
       "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-      "effect": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+      "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
       "restrictions": "",
       "type": "Battle Tactic",
       "phase": [
@@ -6454,7 +6454,7 @@
       "id": "fea50a32-4e26-50cd-93ea-6d3535945619",
       "cost": 1,
       "turn": "your",
-      "target": "One THOUSAND SONS VEHICLE unit from your army within 6\" of one or more friendly THOUSAND SONS PSYKER units.",
+      "target": "One THOUSAND SONS VEHICLE unit from your army that has not been selected to shoot this phase, that is within 6\" of one or more friendly THOUSAND SONS PSYKER units.",
       "when": "Your Shooting phase.",
       "effect": "Until the end of the phase, ranged weapons equipped by VEHICLE models in your unit have the [PSYCHIC] ability and each time an attack is made with such a weapon, add 1 to the Wound roll.",
       "restrictions": "",
@@ -7029,5 +7029,5 @@
       "detachment": "Rubricae Phalanx"
     }
   ],
-  "updated": "2025-08-19T17:58:02.679Z"
+  "updated": "2025-09-19T06:40:54.019Z"
 }

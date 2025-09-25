@@ -394,12 +394,12 @@
         {
           "name": "model",
           "model": "3",
-          "cost": "70"
+          "cost": "65"
         },
         {
           "name": "model",
           "model": "6",
-          "cost": "140"
+          "cost": "130"
         }
       ],
       "rangedWeapons": [
@@ -1153,7 +1153,7 @@
       "name": "Lootas",
       "points": [
         {
-          "cost": "115",
+          "cost": "100",
           "keyword": null,
           "models": "10",
           "active": true
@@ -1720,7 +1720,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "90"
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -2288,7 +2288,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "95"
+          "cost": "75"
         }
       ],
       "rangedWeapons": [
@@ -4831,7 +4831,7 @@
         {
           "name": "model",
           "model": "10",
-          "cost": "170"
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -6643,7 +6643,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "165"
+          "cost": "145"
         }
       ],
       "rangedWeapons": [
@@ -7067,7 +7067,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "85"
+          "cost": "80"
         }
       ],
       "rangedWeapons": [
@@ -7787,7 +7787,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "130"
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -7954,22 +7954,22 @@
         {
           "name": "model",
           "model": "2",
-          "cost": "70"
+          "cost": "65"
         },
         {
           "name": "model",
           "model": "3",
-          "cost": "105"
+          "cost": "95"
         },
         {
           "name": "model",
           "model": "5",
-          "cost": "175"
+          "cost": "160"
         },
         {
           "name": "model",
           "model": "6",
-          "cost": "210"
+          "cost": "190"
         }
       ],
       "rangedWeapons": [

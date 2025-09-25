@@ -89,7 +89,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "150"
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -235,7 +235,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "85"
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -1142,7 +1142,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "240"
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -2019,12 +2019,12 @@
         {
           "name": "model",
           "model": "3",
-          "cost": "150"
+          "cost": "135"
         },
         {
           "name": "model",
           "model": "6",
-          "cost": "300"
+          "cost": "270"
         }
       ],
       "rangedWeapons": [],
@@ -2243,12 +2243,12 @@
         {
           "name": "model",
           "model": "3",
-          "cost": "160"
+          "cost": "140"
         },
         {
           "name": "model",
           "model": "6",
-          "cost": "320"
+          "cost": "280"
         }
       ],
       "rangedWeapons": [],
@@ -3226,7 +3226,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "385"
+          "cost": "360"
         }
       ],
       "rangedWeapons": [],
@@ -3577,12 +3577,12 @@
         {
           "name": "model",
           "model": "5",
-          "cost": "185"
+          "cost": "175"
         },
         {
           "name": "model",
           "model": "10",
-          "cost": "370"
+          "cost": "350"
         }
       ],
       "rangedWeapons": [
@@ -3965,7 +3965,7 @@
         {
           "name": "model",
           "model": "2",
-          "cost": "80"
+          "cost": "90"
         }
       ],
       "rangedWeapons": [],

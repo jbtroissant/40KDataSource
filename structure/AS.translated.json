@@ -2770,7 +2770,7 @@
         {
           "name": "model",
           "model": "5",
-          "cost": "115"
+          "cost": "105"
         }
       ],
       "rangedWeapons": [
@@ -5304,7 +5304,7 @@
         {
           "name": "model",
           "model": "3",
-          "cost": "160"
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -6172,7 +6172,7 @@
         {
           "name": "model",
           "model": "2",
-          "cost": "85"
+          "cost": "70"
         }
       ],
       "rangedWeapons": [

@@ -6,7 +6,7 @@
     "banner": "#202224",
     "header": "#393940"
   },
-  "compatibleDataVersion": 662,
+  "compatibleDataVersion": 687,
   "datasheets": [
     {
       "abilities": {
@@ -1811,7 +1811,7 @@
         "other": [
           {
             "name": "Infected Outbreak",
-            "description": "If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+            "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
             "showAbility": true,
             "showDescription": true
           }
@@ -2044,7 +2044,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "290"
+          "cost": "270"
         }
       ],
       "rangedWeapons": [
@@ -3735,12 +3735,12 @@
         {
           "name": "model",
           "model": "3",
-          "cost": "110"
+          "cost": "95"
         },
         {
           "name": "model",
           "model": "6",
-          "cost": "220"
+          "cost": "190"
         }
       ],
       "rangedWeapons": [],
@@ -10266,5 +10266,5 @@
       "detachment": "Plague Legion"
     }
   ],
-  "updated": "2025-08-19T17:58:02.980Z"
+  "updated": "2025-09-19T06:40:54.404Z"
 }

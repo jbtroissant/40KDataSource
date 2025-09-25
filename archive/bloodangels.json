@@ -7,7 +7,7 @@
     "banner": "#631210",
     "header": "#72191c"
   },
-  "compatibleDataVersion": 662,
+  "compatibleDataVersion": 687,
   "datasheets": [
     {
       "abilities": {
@@ -2187,7 +2187,7 @@
               "keywords": [],
               "name": "Encarmine blade",
               "range": "Melee",
-              "skill": "3+",
+              "skill": "2+",
               "strength": "6"
             }
           ]
@@ -2198,14 +2198,14 @@
             {
               "active": true,
               "ap": "-2",
-              "attacks": "3",
+              "attacks": "4",
               "damage": "2",
               "keywords": [
                 "Lance"
               ],
               "name": "Encarmine Spear",
               "range": "Melee",
-              "skill": "3+",
+              "skill": "2+",
               "strength": "6"
             }
           ]
@@ -2216,12 +2216,12 @@
         {
           "name": "model",
           "model": "3",
-          "cost": "110"
+          "cost": "125"
         },
         {
           "name": "model",
           "model": "6",
-          "cost": "240"
+          "cost": "260"
         }
       ],
       "rangedWeapons": [
@@ -3848,7 +3848,7 @@
       "turn": "either",
       "target": "One DEATH COMPANY unit from your army that was just destroyed while it was within range of an objective marker you controlled. You can use this Stratagem on that unit even though it was just destroyed.",
       "when": "Any phase.",
-      "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+      "effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
       "restrictions": "",
       "type": "Epic Deed",
       "phase": [
@@ -4046,5 +4046,5 @@
       "detachment": "Liberator Assault Group"
     }
   ],
-  "updated": "2025-08-19T17:58:02.324Z"
+  "updated": "2025-09-19T06:40:53.659Z"
 }

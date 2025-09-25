@@ -3,7 +3,7 @@
     "banner": "#411f41",
     "header": "#381a3a"
   },
-  "compatibleDataVersion": 662,
+  "compatibleDataVersion": 687,
   "datasheets": [
     {
       "abilities": {
@@ -216,7 +216,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "145"
+          "cost": "135"
         }
       ],
       "rangedWeapons": [],
@@ -3069,7 +3069,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "80"
+          "cost": "70"
         }
       ],
       "rangedWeapons": [],
@@ -4302,7 +4302,7 @@
         {
           "name": "model",
           "model": "10",
-          "cost": "150"
+          "cost": "140"
         }
       ],
       "rangedWeapons": [],
@@ -5590,7 +5590,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "175"
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -8439,7 +8439,7 @@
       "turn": "either",
       "target": "One HARVESTER unit from your army that is within range of an objective marker you control.",
       "when": "Command phase.",
-      "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+      "effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
       "restrictions": "",
       "type": "Strategic Ploy",
       "phase": [
@@ -8553,5 +8553,5 @@
       "detachment": "Warrior Bioform Onslaught"
     }
   ],
-  "updated": "2025-08-19T17:58:01.901Z"
+  "updated": "2025-09-19T06:40:53.136Z"
 }

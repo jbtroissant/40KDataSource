@@ -3,7 +3,7 @@
     "banner": "#0a353a",
     "header": "#347379"
   },
-  "compatibleDataVersion": 662,
+  "compatibleDataVersion": 687,
   "datasheets": [
     {
       "abilities": {
@@ -2369,7 +2369,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "135"
+          "cost": "125"
         }
       ],
       "rangedWeapons": [
@@ -4056,7 +4056,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "300"
+          "cost": "280"
         }
       ],
       "rangedWeapons": [
@@ -4727,7 +4727,7 @@
         {
           "name": "model",
           "model": "10",
-          "cost": "170"
+          "cost": "190"
         }
       ],
       "rangedWeapons": [
@@ -5485,12 +5485,12 @@
         {
           "name": "model",
           "model": "5",
-          "cost": "60"
+          "cost": "65"
         },
         {
           "name": "model",
           "model": "10",
-          "cost": "120"
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -7873,12 +7873,12 @@
         {
           "name": "model",
           "model": "5",
-          "cost": "80"
+          "cost": "75"
         },
         {
           "name": "model",
           "model": "10",
-          "cost": "160"
+          "cost": "150"
         }
       ],
       "rangedWeapons": [
@@ -9322,7 +9322,7 @@
         {
           "name": "model",
           "model": "5",
-          "cost": "170"
+          "cost": "160"
         }
       ],
       "rangedWeapons": [],
@@ -14605,6 +14605,7 @@
       "id": "c1e8b97b-a246-525f-8cb2-12a267ad05cc",
       "cost": "25",
       "keywords": [
+        "Aeldari",
         "Psyker"
       ],
       "excludes": [],
@@ -14647,7 +14648,7 @@
       "id": "5119ef50-6cb8-5260-bd3d-4d068693295d",
       "cost": "30",
       "keywords": [
-        "Asuryani"
+        "Aeldari"
       ],
       "excludes": [],
       "description": "AELDARI model only. In your Command phase, if the bearer (or any TRANSPORT it is embarked within) is within range of an objective marker you control, roll one D6: on a 3+, you gain 1CP.",
@@ -14675,6 +14676,7 @@
       "id": "a4eb62e4-dc85-5aca-aaa7-5ba2601ef021",
       "cost": "20",
       "keywords": [
+        "Aeldari",
         "Psyker"
       ],
       "excludes": [],
@@ -14689,7 +14691,7 @@
       "id": "a83825b9-100a-5b0e-991a-7d3d8ce08ff3",
       "cost": "15",
       "keywords": [
-        "Asuryani"
+        "Aeldari"
       ],
       "excludes": [],
       "description": "AELDARI model only. If your army includes the bearer, after both players have deployed their armies, select up to three AELDARI VEHICLE units from your army and redeploy them. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
@@ -16189,5 +16191,5 @@
       "detachment": "Devoted of Ynnead"
     }
   ],
-  "updated": "2025-08-19T17:58:04.071Z"
+  "updated": "2025-09-19T06:40:55.742Z"
 }

@@ -9,7 +9,7 @@
             {
               "name": "model",
               "model": "2",
-              "cost": "85"
+              "cost": "70"
             }
           ]
         },
@@ -264,7 +264,7 @@
             {
               "name": "model",
               "model": "5",
-              "cost": "115"
+              "cost": "105"
             }
           ]
         },
@@ -274,7 +274,7 @@
             {
               "name": "model",
               "model": "3",
-              "cost": "160"
+              "cost": "150"
             }
           ]
         },
@@ -521,12 +521,12 @@
             {
               "name": "model",
               "model": "4",
-              "cost": "170"
+              "cost": "160"
             },
             {
               "name": "model",
               "model": "5",
-              "cost": "215"
+              "cost": "200"
             }
           ]
         },
@@ -571,12 +571,12 @@
             {
               "name": "model",
               "model": "9",
-              "cost": "90"
+              "cost": "75"
             },
             {
               "name": "model",
               "model": "10",
-              "cost": "100"
+              "cost": "85"
             }
           ]
         },
@@ -586,7 +586,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "130"
+              "cost": "120"
             }
           ]
         },
@@ -646,7 +646,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "240"
+              "cost": "220"
             }
           ]
         },
@@ -681,12 +681,12 @@
             {
               "name": "model",
               "model": "9",
-              "cost": "115"
+              "cost": "100"
             },
             {
               "name": "model",
               "model": "10",
-              "cost": "125"
+              "cost": "110"
             }
           ]
         },
@@ -1029,7 +1029,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "135"
+              "cost": "175"
             }
           ]
         },
@@ -1079,17 +1079,17 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "70"
+              "cost": "75"
             },
             {
               "name": "model",
               "model": "2",
-              "cost": "140"
+              "cost": "150"
             },
             {
               "name": "model",
               "model": "3",
-              "cost": "210"
+              "cost": "225"
             }
           ]
         },
@@ -1563,7 +1563,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "135"
+              "cost": "125"
             }
           ]
         },
@@ -1593,7 +1593,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "300"
+              "cost": "280"
             }
           ]
         },
@@ -1613,12 +1613,12 @@
             {
               "name": "model",
               "model": "5",
-              "cost": "60"
+              "cost": "65"
             },
             {
               "name": "model",
               "model": "10",
-              "cost": "120"
+              "cost": "110"
             }
           ]
         },
@@ -1688,12 +1688,12 @@
             {
               "name": "model",
               "model": "5",
-              "cost": "80"
+              "cost": "75"
             },
             {
               "name": "model",
               "model": "10",
-              "cost": "160"
+              "cost": "150"
             }
           ]
         },
@@ -1993,7 +1993,7 @@
             {
               "name": "model",
               "model": "10",
-              "cost": "170"
+              "cost": "190"
             }
           ]
         },
@@ -2168,7 +2168,7 @@
             {
               "name": "model",
               "model": "5",
-              "cost": "170"
+              "cost": "160"
             }
           ]
         },
@@ -2604,7 +2604,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "480"
+              "cost": "450"
             }
           ]
         },
@@ -2614,7 +2614,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "450"
+              "cost": "420"
             }
           ]
         },
@@ -2624,7 +2624,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "480"
+              "cost": "450"
             }
           ]
         },
@@ -2799,7 +2799,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "445"
+              "cost": "415"
             }
           ]
         },
@@ -2819,7 +2819,7 @@
             {
               "name": "model",
               "model": "6",
-              "cost": "110"
+              "cost": "100"
             }
           ]
         },
@@ -2829,7 +2829,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "450"
+              "cost": "420"
             }
           ]
         },
@@ -2869,7 +2869,7 @@
             {
               "name": "model",
               "model": "5",
-              "cost": "70"
+              "cost": "60"
             },
             {
               "name": "model",
@@ -2994,7 +2994,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "150"
+              "cost": "130"
             }
           ]
         },
@@ -3094,7 +3094,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "240"
+              "cost": "250"
             }
           ]
         },
@@ -3104,7 +3104,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "265"
+              "cost": "275"
             }
           ]
         },
@@ -3129,7 +3129,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "440"
+              "cost": "410"
             }
           ]
         },
@@ -3149,7 +3149,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "460"
+              "cost": "430"
             }
           ]
         },
@@ -3159,7 +3159,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "495"
+              "cost": "465"
             }
           ]
         },
@@ -3828,12 +3828,12 @@
             {
               "name": "model",
               "model": "3",
-              "cost": "110"
+              "cost": "125"
             },
             {
               "name": "model",
               "model": "6",
-              "cost": "240"
+              "cost": "260"
             }
           ]
         },
@@ -4134,12 +4134,12 @@
             {
               "name": "model",
               "model": "3",
-              "cost": "110"
+              "cost": "95"
             },
             {
               "name": "model",
               "model": "6",
-              "cost": "220"
+              "cost": "190"
             }
           ]
         },
@@ -4254,7 +4254,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "290"
+              "cost": "270"
             }
           ]
         },
@@ -4950,7 +4950,7 @@
               "cost": "25"
             },
             {
-              "name": "Warp-borne Stalker(15)",
+              "name": "Warp-borne Stalker",
               "cost": "25"
             }
           ]
@@ -4987,7 +4987,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "280"
+              "cost": "270"
             }
           ]
         },
@@ -5027,7 +5027,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "240"
+              "cost": "220"
             }
           ]
         },
@@ -5192,7 +5192,7 @@
             {
               "name": "model",
               "model": "5",
-              "cost": "80"
+              "cost": "90"
             }
           ]
         },
@@ -5492,7 +5492,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "120"
+              "cost": "110"
             }
           ]
         },
@@ -5899,7 +5899,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "115"
+              "cost": "100"
             }
           ]
         },
@@ -6516,7 +6516,7 @@
               "cost": "15"
             },
             {
-              "name": "Tendrilous Emissions(10)",
+              "name": "Tendrilous Emissions",
               "cost": "30"
             }
           ]
@@ -6625,7 +6625,7 @@
             {
               "name": "model",
               "model": "10",
-              "cost": "200"
+              "cost": "190"
             }
           ]
         },
@@ -6635,7 +6635,7 @@
             {
               "name": "model",
               "model": "10",
-              "cost": "200"
+              "cost": "180"
             }
           ]
         },
@@ -6645,7 +6645,7 @@
             {
               "name": "model",
               "model": "10",
-              "cost": "270"
+              "cost": "250"
             }
           ]
         },
@@ -6655,7 +6655,7 @@
             {
               "name": "model",
               "model": "10",
-              "cost": "200"
+              "cost": "180"
             }
           ]
         },
@@ -6665,7 +6665,7 @@
             {
               "name": "model",
               "model": "10",
-              "cost": "290"
+              "cost": "275"
             }
           ]
         },
@@ -6685,7 +6685,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "105"
+              "cost": "95"
             }
           ]
         }
@@ -6758,7 +6758,7 @@
             {
               "name": "model",
               "model": "2",
-              "cost": "100"
+              "cost": "85"
             }
           ]
         },
@@ -7078,7 +7078,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "240"
+              "cost": "220"
             }
           ]
         },
@@ -7153,7 +7153,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "365"
+              "cost": "340"
             }
           ]
         },
@@ -7198,7 +7198,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "60"
+              "cost": "70"
             }
           ]
         },
@@ -7288,7 +7288,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "280"
+              "cost": "270"
             }
           ]
         },
@@ -7298,12 +7298,12 @@
             {
               "name": "model",
               "model": "5",
-              "cost": "90"
+              "cost": "80"
             },
             {
               "name": "model",
               "model": "10",
-              "cost": "180"
+              "cost": "160"
             }
           ]
         },
@@ -7471,7 +7471,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "95"
+              "cost": "85"
             }
           ]
         },
@@ -7481,7 +7481,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "85"
+              "cost": "95"
             },
             {
               "name": "model",
@@ -7536,7 +7536,7 @@
             {
               "name": "model",
               "model": "5",
-              "cost": "75"
+              "cost": "85"
             },
             {
               "name": "model",
@@ -7601,12 +7601,12 @@
             {
               "name": "model",
               "model": "5",
-              "cost": "80"
+              "cost": "70"
             },
             {
               "name": "model",
               "model": "10",
-              "cost": "160"
+              "cost": "140"
             }
           ]
         },
@@ -7691,7 +7691,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "80"
+              "cost": "70"
             }
           ]
         },
@@ -7706,7 +7706,7 @@
             {
               "name": "model",
               "model": "10",
-              "cost": "150"
+              "cost": "140"
             }
           ]
         },
@@ -7999,7 +7999,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "240"
+              "cost": "220"
             }
           ]
         },
@@ -8019,7 +8019,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "285"
+              "cost": "270"
             }
           ]
         },
@@ -8365,7 +8365,7 @@
             {
               "name": "model",
               "model": "10",
-              "cost": "200"
+              "cost": "190"
             },
             {
               "name": "model",
@@ -8750,7 +8750,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "105"
+              "cost": "95"
             },
             {
               "name": "model",
@@ -8923,6 +8923,16 @@
           ]
         },
         {
+          "name": "Knight Defender",
+          "costs": [
+            {
+              "name": "model",
+              "model": "1",
+              "cost": "425"
+            }
+          ]
+        },
+        {
           "name": "Knight Errant",
           "costs": [
             {
@@ -9075,22 +9085,22 @@
       ],
       "enhancements": [
         {
-          "category": "Noble Lance",
+          "category": "Gate Warden Lance",
           "enhancements": [
             {
-              "name": "Banner of Macharius Triumphant",
-              "cost": "30"
+              "name": "Acquisitor-at-Arms(10)",
+              "cost": "15"
             },
             {
-              "name": "Mysterious Guardian",
-              "cost": "25"
+              "name": "Augury Halo",
+              "cost": "20"
             },
             {
-              "name": "Mythic Hero",
-              "cost": "25"
+              "name": "Purgations Hand(10)",
+              "cost": "20"
             },
             {
-              "name": "Revered Knight",
+              "name": "Vengeful Tread(-5)",
               "cost": "15"
             }
           ]
@@ -9113,6 +9123,69 @@
             {
               "name": "Vocifer Magnificat",
               "cost": "15"
+            }
+          ]
+        },
+        {
+          "category": "Questoris Companions",
+          "enhancements": [
+            {
+              "name": "Crushing Condemnation(5)",
+              "cost": "10"
+            },
+            {
+              "name": "Herald of Triumph(10)",
+              "cost": "15"
+            },
+            {
+              "name": "Pennant of Silvered Fury(10)",
+              "cost": "15"
+            },
+            {
+              "name": "Wyrmslayer Divination(5)",
+              "cost": "10"
+            }
+          ]
+        },
+        {
+          "category": "Spearhead-At-Arms",
+          "enhancements": [
+            {
+              "name": "Fables of Nightmare",
+              "cost": "10"
+            },
+            {
+              "name": "Martial Tuition",
+              "cost": "15"
+            },
+            {
+              "name": "Mentors Pride",
+              "cost": "20"
+            },
+            {
+              "name": "Tales of Heroism",
+              "cost": "10"
+            }
+          ]
+        },
+        {
+          "category": "Valourstrike Lance",
+          "enhancements": [
+            {
+              "name": "Bearer of the Evanescent Ion",
+              "cost": "15"
+            },
+            {
+              "name": "Bearer of the Iron Chalice(15)",
+              "cost": "20"
+            },
+            {
+              "name": "Bearer of the Judicants Helm",
+              "cost": "25"
+            },
+            {
+              "name": "Bearer of the Lancers Sigil",
+              "cost": "25"
             }
           ]
         }
@@ -10000,7 +10073,7 @@
             {
               "name": "model",
               "model": "3",
-              "cost": "420"
+              "cost": "400"
             }
           ]
         },
@@ -10045,12 +10118,12 @@
             {
               "name": "model",
               "model": "5",
-              "cost": "100"
+              "cost": "90"
             },
             {
               "name": "model",
               "model": "10",
-              "cost": "200"
+              "cost": "180"
             }
           ]
         },
@@ -10248,7 +10321,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "130"
+              "cost": "110"
             }
           ]
         },
@@ -10278,7 +10351,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "85"
+              "cost": "80"
             }
           ]
         },
@@ -10318,7 +10391,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "95"
+              "cost": "75"
             }
           ]
         },
@@ -10413,7 +10486,7 @@
             {
               "name": "model",
               "model": "10",
-              "cost": "170"
+              "cost": "160"
             }
           ]
         },
@@ -10513,22 +10586,22 @@
             {
               "name": "model",
               "model": "2",
-              "cost": "70"
+              "cost": "65"
             },
             {
               "name": "model",
               "model": "3",
-              "cost": "105"
+              "cost": "95"
             },
             {
               "name": "model",
               "model": "5",
-              "cost": "175"
+              "cost": "160"
             },
             {
               "name": "model",
               "model": "6",
-              "cost": "210"
+              "cost": "190"
             }
           ]
         },
@@ -10583,7 +10656,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "165"
+              "cost": "145"
             }
           ]
         },
@@ -10708,12 +10781,12 @@
             {
               "name": "model",
               "model": "3",
-              "cost": "70"
+              "cost": "65"
             },
             {
               "name": "model",
               "model": "6",
-              "cost": "140"
+              "cost": "130"
             }
           ]
         },
@@ -10733,7 +10806,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "90"
+              "cost": "80"
             }
           ]
         },
@@ -10973,6 +11046,16 @@
           ]
         },
         {
+          "name": "Aethon Shaan",
+          "costs": [
+            {
+              "name": "model",
+              "model": "1",
+              "cost": "85"
+            }
+          ]
+        },
+        {
           "name": "Aggressor Squad",
           "costs": [
             {
@@ -10983,7 +11066,7 @@
             {
               "name": "model",
               "model": "6",
-              "cost": "220"
+              "cost": "200"
             }
           ]
         },
@@ -11053,7 +11136,7 @@
             {
               "name": "model",
               "model": "10",
-              "cost": "160"
+              "cost": "170"
             }
           ]
         },
@@ -11063,7 +11146,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "140"
+              "cost": "150"
             }
           ]
         },
@@ -11088,7 +11171,7 @@
             {
               "name": "model",
               "model": "6",
-              "cost": "160"
+              "cost": "170"
             }
           ]
         },
@@ -11373,7 +11456,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "160"
+              "cost": "150"
             }
           ]
         },
@@ -11568,7 +11651,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "240"
+              "cost": "220"
             }
           ]
         },
@@ -11588,7 +11671,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "285"
+              "cost": "270"
             }
           ]
         },
@@ -11747,7 +11830,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "210"
+              "cost": "195"
             }
           ]
         },
@@ -11802,7 +11885,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "320"
+              "cost": "340"
             }
           ]
         },
@@ -12086,6 +12169,27 @@
           ]
         },
         {
+          "category": "Emperors Shield",
+          "enhancements": [
+            {
+              "name": "Champion of the Feast",
+              "cost": "25"
+            },
+            {
+              "name": "Disciple of Rhetoricus",
+              "cost": "10"
+            },
+            {
+              "name": "Indomitable Champion",
+              "cost": "20"
+            },
+            {
+              "name": "Malodraxian Standard",
+              "cost": "20"
+            }
+          ]
+        },
+        {
           "category": "Firestorm Assault Force",
           "enhancements": [
             {
@@ -12191,6 +12295,27 @@
           ]
         },
         {
+          "category": "Shadowmark Talon",
+          "enhancements": [
+            {
+              "name": "Blackwing Shroud",
+              "cost": "25"
+            },
+            {
+              "name": "Coronal Susurrant",
+              "cost": "30"
+            },
+            {
+              "name": "Hunters Instincts",
+              "cost": "25"
+            },
+            {
+              "name": "Umbral Raptor",
+              "cost": "15"
+            }
+          ]
+        },
+        {
           "category": "Stormlance Task Force",
           "enhancements": [
             {
@@ -12243,7 +12368,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "95"
+              "cost": "105"
             }
           ]
         },
@@ -12268,7 +12393,7 @@
             {
               "name": "model",
               "model": "20",
-              "cost": "270"
+              "cost": "285"
             }
           ]
         },
@@ -12343,7 +12468,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "90"
+              "cost": "100"
             }
           ]
         },
@@ -12353,12 +12478,12 @@
             {
               "name": "model",
               "model": "3",
-              "cost": "100"
+              "cost": "115"
             },
             {
               "name": "model",
               "model": "6",
-              "cost": "220"
+              "cost": "230"
             }
           ]
         },
@@ -12564,17 +12689,17 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "90"
+              "cost": "80"
             },
             {
               "name": "model",
               "model": "2",
-              "cost": "180"
+              "cost": "170"
             },
             {
               "name": "model",
               "model": "3",
-              "cost": "300"
+              "cost": "270"
             }
           ]
         },
@@ -12594,7 +12719,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "95"
+              "cost": "85"
             }
           ]
         },
@@ -12634,7 +12759,7 @@
             {
               "name": "model",
               "model": "3",
-              "cost": "130"
+              "cost": "120"
             }
           ]
         },
@@ -12654,7 +12779,7 @@
             {
               "name": "model",
               "model": "3",
-              "cost": "150"
+              "cost": "140"
             }
           ]
         },
@@ -12694,7 +12819,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "70"
+              "cost": "60"
             }
           ]
         },
@@ -13176,7 +13301,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "240"
+              "cost": "220"
             }
           ]
         },
@@ -13316,7 +13441,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "85"
+              "cost": "95"
             }
           ]
         },
@@ -13326,7 +13451,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "420"
+              "cost": "435"
             }
           ]
         },
@@ -13346,7 +13471,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "160"
+              "cost": "175"
             }
           ]
         },
@@ -13356,7 +13481,7 @@
             {
               "name": "model",
               "model": "5",
-              "cost": "100"
+              "cost": "105"
             },
             {
               "name": "model",
@@ -13376,7 +13501,7 @@
             {
               "name": "model",
               "model": "10",
-              "cost": "375"
+              "cost": "360"
             }
           ]
         },
@@ -13386,12 +13511,12 @@
             {
               "name": "model",
               "model": "2",
-              "cost": "90"
+              "cost": "80"
             },
             {
               "name": "model",
               "model": "4",
-              "cost": "180"
+              "cost": "160"
             }
           ]
         },
@@ -13401,7 +13526,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "75"
+              "cost": "85"
             }
           ]
         },
@@ -13421,12 +13546,12 @@
             {
               "name": "model",
               "model": "3",
-              "cost": "50"
+              "cost": "55"
             },
             {
               "name": "model",
               "model": "6",
-              "cost": "80"
+              "cost": "90"
             }
           ]
         },
@@ -13436,12 +13561,12 @@
             {
               "name": "model",
               "model": "3",
-              "cost": "50"
+              "cost": "60"
             },
             {
               "name": "model",
               "model": "6",
-              "cost": "80"
+              "cost": "110"
             }
           ]
         },
@@ -13451,7 +13576,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "55"
+              "cost": "60"
             }
           ]
         },
@@ -13567,8 +13692,8 @@
           "category": "Grand Coven",
           "enhancements": [
             {
-              "name": "Eldritch Vortex of Etaph",
-              "cost": "25"
+              "name": "Eldritch Vortex of Etaph(10)",
+              "cost": "35"
             },
             {
               "name": "Incandaeum",
@@ -13779,7 +13904,7 @@
             {
               "name": "model",
               "model": "10",
-              "cost": "150"
+              "cost": "140"
             }
           ]
         },
@@ -13879,7 +14004,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "145"
+              "cost": "135"
             }
           ]
         },
@@ -13919,7 +14044,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "80"
+              "cost": "70"
             }
           ]
         },
@@ -14094,7 +14219,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "175"
+              "cost": "160"
             }
           ]
         },
@@ -14459,7 +14584,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "385"
+              "cost": "360"
             }
           ]
         },
@@ -14469,7 +14594,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "240"
+              "cost": "220"
             }
           ]
         },
@@ -14509,7 +14634,7 @@
             {
               "name": "model",
               "model": "2",
-              "cost": "80"
+              "cost": "90"
             }
           ]
         },
@@ -14519,12 +14644,12 @@
             {
               "name": "model",
               "model": "5",
-              "cost": "185"
+              "cost": "175"
             },
             {
               "name": "model",
               "model": "10",
-              "cost": "370"
+              "cost": "350"
             }
           ]
         },
@@ -14564,12 +14689,12 @@
             {
               "name": "model",
               "model": "3",
-              "cost": "150"
+              "cost": "135"
             },
             {
               "name": "model",
               "model": "6",
-              "cost": "300"
+              "cost": "270"
             }
           ]
         },
@@ -14579,12 +14704,12 @@
             {
               "name": "model",
               "model": "3",
-              "cost": "160"
+              "cost": "140"
             },
             {
               "name": "model",
               "model": "6",
-              "cost": "320"
+              "cost": "280"
             }
           ]
         },
@@ -14594,7 +14719,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "150"
+              "cost": "170"
             }
           ]
         },
@@ -14649,7 +14774,7 @@
             {
               "name": "model",
               "model": "1",
-              "cost": "85"
+              "cost": "100"
             }
           ]
         },

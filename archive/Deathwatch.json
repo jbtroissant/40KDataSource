@@ -7,7 +7,7 @@
     "banner": "#232425",
     "header": "#3d3e41"
   },
-  "compatibleDataVersion": 662,
+  "compatibleDataVersion": 687,
   "datasheets": [
     {
       "abilities": {
@@ -249,7 +249,7 @@
         {
           "name": "model",
           "model": "10",
-          "cost": "270"
+          "cost": "250"
         }
       ],
       "rangedWeapons": [
@@ -600,7 +600,7 @@
         {
           "name": "model",
           "model": "10",
-          "cost": "200"
+          "cost": "190"
         }
       ],
       "rangedWeapons": [
@@ -910,7 +910,7 @@
         {
           "name": "model",
           "model": "10",
-          "cost": "290"
+          "cost": "275"
         }
       ],
       "rangedWeapons": [
@@ -1162,7 +1162,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "105"
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -1893,7 +1893,7 @@
         {
           "name": "model",
           "model": "10",
-          "cost": "200"
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -2336,7 +2336,7 @@
         {
           "name": "model",
           "model": "10",
-          "cost": "200"
+          "cost": "180"
         }
       ],
       "rangedWeapons": [
@@ -2728,5 +2728,5 @@
       "detachment": "Black Spear Task Force"
     }
   ],
-  "updated": "2025-08-19T17:58:02.589Z"
+  "updated": "2025-09-19T06:40:53.913Z"
 }

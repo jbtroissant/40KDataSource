@@ -403,7 +403,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "160"
+          "cost": "175"
         }
       ],
       "rangedWeapons": [
@@ -541,7 +541,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "240"
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -738,7 +738,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "55"
+          "cost": "60"
         }
       ],
       "rangedWeapons": [
@@ -976,7 +976,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "75"
+          "cost": "85"
         }
       ],
       "rangedWeapons": [
@@ -1605,7 +1605,7 @@
         {
           "name": "model",
           "model": "5",
-          "cost": "100"
+          "cost": "105"
         },
         {
           "name": "model",
@@ -1848,7 +1848,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "85"
+          "cost": "95"
         }
       ],
       "rangedWeapons": [
@@ -2017,12 +2017,12 @@
         {
           "name": "model",
           "model": "3",
-          "cost": "50"
+          "cost": "55"
         },
         {
           "name": "model",
           "model": "6",
-          "cost": "80"
+          "cost": "90"
         }
       ],
       "rangedWeapons": [
@@ -2138,12 +2138,12 @@
         {
           "name": "model",
           "model": "3",
-          "cost": "50"
+          "cost": "60"
         },
         {
           "name": "model",
           "model": "6",
-          "cost": "80"
+          "cost": "110"
         }
       ],
       "rangedWeapons": [
@@ -2283,7 +2283,7 @@
         {
           "name": "model",
           "model": "10",
-          "cost": "375"
+          "cost": "360"
         }
       ],
       "rangedWeapons": [
@@ -2546,7 +2546,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "420"
+          "cost": "435"
         }
       ],
       "rangedWeapons": [
@@ -3455,12 +3455,12 @@
         {
           "name": "model",
           "model": "2",
-          "cost": "90"
+          "cost": "80"
         },
         {
           "name": "model",
           "model": "4",
-          "cost": "180"
+          "cost": "160"
         }
       ],
       "rangedWeapons": [
@@ -4874,7 +4874,7 @@
         {
           "name": "detachments.Grand_Coven.enhancements.Eldritch_Vortex_of_ETaph.name",
           "id": "8178a678-3fdb-5df7-8bc8-1cfe8b8b9018",
-          "cost": "25",
+          "cost": "35",
           "keywords": [
             "Thousand Sons"
           ],

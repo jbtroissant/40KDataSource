@@ -2138,12 +2138,12 @@
         {
           "name": "model",
           "model": "3",
-          "cost": "110"
+          "cost": "125"
         },
         {
           "name": "model",
           "model": "6",
-          "cost": "240"
+          "cost": "260"
         }
       ],
       "rangedWeapons": [

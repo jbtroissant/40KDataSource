@@ -7,7 +7,7 @@
     "banner": "#2E0B03",
     "header": "#1A3037"
   },
-  "compatibleDataVersion": 662,
+  "compatibleDataVersion": 687,
   "datasheets": [
     {
       "abilities": {
@@ -85,7 +85,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "240"
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -963,7 +963,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "60"
+          "cost": "70"
         }
       ],
       "rangedWeapons": [
@@ -2047,6 +2047,12 @@
             "description": "At the start of your opponent’s Command phase, select one of the abilities in the Daemon Primarch of Slaanesh section (see below). Until the start of your opponent’s next Command phase, this model has that ability.",
             "showAbility": true,
             "showDescription": true
+          },
+          {
+            "name": "Serpentine",
+            "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over sections of terrain features that are 4\" or less in height.",
+            "showAbility": true,
+            "showDescription": true
           }
         ],
         "primarch": [
@@ -2164,7 +2170,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "365"
+          "cost": "340"
         }
       ],
       "rangedWeapons": [
@@ -2884,7 +2890,7 @@
             {
               "active": true,
               "ap": "-3",
-              "attacks": "3",
+              "attacks": "4",
               "damage": "2",
               "keywords": [],
               "name": "Blissblade",
@@ -3080,7 +3086,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "280"
+          "cost": "270"
         }
       ],
       "rangedWeapons": [
@@ -3269,12 +3275,12 @@
         {
           "name": "model",
           "model": "5",
-          "cost": "90"
+          "cost": "80"
         },
         {
           "name": "model",
           "model": "10",
-          "cost": "180"
+          "cost": "160"
         }
       ],
       "rangedWeapons": [],
@@ -4706,5 +4712,5 @@
       "detachment": "Coterie of the Conceited"
     }
   ],
-  "updated": "2025-08-19T17:58:04.245Z"
+  "updated": "2025-09-19T06:40:55.944Z"
 }

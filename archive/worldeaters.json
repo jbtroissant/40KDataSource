@@ -3,7 +3,7 @@
     "banner": "#611013",
     "header": "#4d161a"
   },
-  "compatibleDataVersion": 662,
+  "compatibleDataVersion": 687,
   "datasheets": [
     {
       "abilities": {
@@ -97,7 +97,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "150"
+          "cost": "170"
         }
       ],
       "rangedWeapons": [
@@ -249,7 +249,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "85"
+          "cost": "100"
         }
       ],
       "rangedWeapons": [
@@ -1195,7 +1195,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "240"
+          "cost": "220"
         }
       ],
       "rangedWeapons": [
@@ -2103,12 +2103,12 @@
         {
           "name": "model",
           "model": "3",
-          "cost": "150"
+          "cost": "135"
         },
         {
           "name": "model",
           "model": "6",
-          "cost": "300"
+          "cost": "270"
         }
       ],
       "rangedWeapons": [],
@@ -2218,7 +2218,7 @@
               "name": "Lacerator and daemonic claw",
               "range": "Melee",
               "skill": "2+",
-              "strength": "8"
+              "strength": "10"
             }
           ]
         }
@@ -2283,7 +2283,7 @@
         "other": [
           {
             "name": "Rend and Tear",
-            "description": "Each time an enemy MONSTER or VEHICLE unit within Engagement Range of one or more units from your army with this ability Falls Back, models in that enemy unit must take Desperate Escape tests.",
+            "description": "Each time a model in this unit makes a melee attack that targets a MONSTER or VEHICLE unit, until the end of the phase, improve the Damage characteristic of that attack by 1.",
             "showAbility": true,
             "showDescription": true
           }
@@ -2339,12 +2339,12 @@
         {
           "name": "model",
           "model": "3",
-          "cost": "160"
+          "cost": "140"
         },
         {
           "name": "model",
           "model": "6",
-          "cost": "320"
+          "cost": "280"
         }
       ],
       "rangedWeapons": [],
@@ -3355,7 +3355,7 @@
         {
           "name": "model",
           "model": "1",
-          "cost": "385"
+          "cost": "360"
         }
       ],
       "rangedWeapons": [],
@@ -3719,12 +3719,12 @@
         {
           "name": "model",
           "model": "5",
-          "cost": "185"
+          "cost": "175"
         },
         {
           "name": "model",
           "model": "10",
-          "cost": "370"
+          "cost": "350"
         }
       ],
       "rangedWeapons": [
@@ -4119,7 +4119,7 @@
         {
           "name": "model",
           "model": "2",
-          "cost": "80"
+          "cost": "90"
         }
       ],
       "rangedWeapons": [],
@@ -6079,5 +6079,5 @@
       "detachment": "Cult of Blood"
     }
   ],
-  "updated": "2025-08-19T17:58:02.768Z"
+  "updated": "2025-09-19T06:40:54.129Z"
 }
